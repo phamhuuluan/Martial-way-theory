@@ -274,27 +274,102 @@
     z-index: 0;
   }
 
+  .belt-card--light {
+    border-color: rgb(210 222 235 / 0.65);
+  }
+
   .belt-card--light::before {
     background: linear-gradient(
       180deg,
-      rgb(255 255 255 / 0.28) 0%,
-      var(--belt-overlay-to, rgb(0 0 0 / 0.28)) 100%
+      rgb(255 255 255 / 0.2) 0%,
+      rgb(235 242 250 / 0.12) 42%,
+      var(--belt-overlay-to, rgb(90 110 130 / 0.34)) 100%
     );
   }
 
-  html.theme-light .belt-card::before {
+  .belt-card--light::after {
+    content: '';
+    position: absolute;
+    inset: 0;
     background: linear-gradient(
-      180deg,
-      rgb(255 255 255 / 0.1) 0%,
-      var(--belt-overlay-to, rgb(0 0 0 / 0.38)) 100%
+      125deg,
+      transparent 30%,
+      rgb(255 255 255 / 0.55) 46%,
+      rgb(220 232 248 / 0.32) 50%,
+      rgb(255 255 255 / 0.25) 54%,
+      transparent 70%
     );
+    pointer-events: none;
+    z-index: 1;
   }
 
   html.theme-light .belt-card--light::before {
     background: linear-gradient(
       180deg,
-      rgb(255 255 255 / 0.45) 0%,
-      var(--belt-overlay-to, rgb(0 0 0 / 0.22)) 100%
+      rgb(255 255 255 / 0.28) 0%,
+      rgb(240 246 252 / 0.14) 45%,
+      var(--belt-overlay-to, rgb(90 110 130 / 0.28)) 100%
+    );
+  }
+
+  .belt-card--light .belt-card__badge {
+    color: #5A6E80;
+    background: rgb(255 255 255 / 0.94);
+    border-color: rgb(180 195 215 / 0.75);
+    box-shadow:
+      0 2px 10px rgb(160 180 205 / 0.28),
+      inset 0 1px 0 rgb(255 255 255 / 1);
+    text-shadow: none;
+  }
+
+  .belt-card--light .belt-card__badge-dot {
+    background: linear-gradient(145deg, #E8EEF6 0%, #8AA0B4 100%);
+    box-shadow: 0 0 6px rgb(138 160 180 / 0.55);
+  }
+
+  .belt-card--light .belt-card__content::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      rgb(70 90 110 / 0.1) 38%,
+      rgb(55 72 90 / 0.28) 100%
+    );
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .belt-card--light .belt-card__title {
+    color: var(--belt-title);
+    background: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    filter: none;
+    text-shadow: var(--belt-title-shadow);
+    -webkit-text-stroke: 0.4px rgb(70 90 110 / 0.35);
+  }
+
+  .belt-card--light .belt-card__meta,
+  .belt-card--light .belt-card__muted {
+    text-shadow: var(--belt-meta-shadow);
+  }
+
+  .belt-card--light:hover {
+    border-color: rgb(220 232 248 / 0.85);
+    box-shadow:
+      0 4px 24px rgb(200 220 240 / 0.5),
+      0 8px 36px rgb(180 200 220 / 0.25),
+      inset 0 1px 0 rgb(255 255 255 / 1);
+  }
+
+  html.theme-light .belt-card:not(.belt-card--light)::before {
+    background: linear-gradient(
+      180deg,
+      rgb(255 255 255 / 0.1) 0%,
+      var(--belt-overlay-to, rgb(0 0 0 / 0.38)) 100%
     );
   }
 
@@ -333,7 +408,7 @@
 
   .belt-card__content {
     position: relative;
-    z-index: 1;
+    z-index: 2;
   }
 
   .belt-card__title {

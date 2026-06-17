@@ -94,20 +94,19 @@ export const BELT_DISPLAY_THEMES: Record<BeltId, BeltDisplayTheme> = {
     overlayTo: 'rgb(32 24 6 / 0.45)',
   },
   white: {
-    gradientFrom: '#FAF6EE',
-    gradientVia: '#EDE4D4',
-    gradientTo: '#D8CCB8',
+    gradientFrom: '#FFFFFF',
+    gradientVia: '#F4F7FB',
+    gradientTo: '#E2EAF2',
     title: '#FFFFFF',
-    meta: '#F5F0E8',
-    muted: '#E8E0D0',
-    titleShadow:
-      '0 0 1px rgb(80 60 40 / 0.65), 0 1px 3px rgb(0 0 0 / 0.45), 0 0 12px rgb(255 255 255 / 0.5)',
-    metaShadow: '0 1px 2px rgb(0 0 0 / 0.35)',
+    meta: '#F2F6FA',
+    muted: '#D8E4F0',
+    titleShadow: '0 1px 3px rgb(35 50 65 / 0.55), 0 0 14px rgb(255 255 255 / 0.35)',
+    metaShadow: '0 1px 2px rgb(35 50 65 / 0.45)',
     cardShadow:
-      '0 4px 18px rgb(180 160 130 / 0.28), 0 8px 28px rgb(0 0 0 / 0.15), inset 0 1px 0 rgb(255 255 255 / 0.85)',
-    badgeBg: 'rgb(255 255 255 / 0.72)',
-    badgeBorder: 'rgb(200 180 150 / 0.45)',
-    overlayTo: 'rgb(60 48 36 / 0.32)',
+      '0 4px 22px rgb(200 215 230 / 0.45), 0 8px 32px rgb(180 195 215 / 0.2), inset 0 1px 0 rgb(255 255 255 / 1), inset 0 -1px 0 rgb(220 230 240 / 0.5)',
+    badgeBg: 'rgb(255 255 255 / 0.92)',
+    badgeBorder: 'rgb(180 195 215 / 0.7)',
+    overlayTo: 'rgb(90 110 130 / 0.34)',
   },
 };
 
