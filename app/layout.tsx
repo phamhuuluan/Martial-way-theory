@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import { Be_Vietnam_Pro, Noto_Serif, Noto_Serif_TC } from 'next/font/google';
+import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
+import { GoogleAnalyticsRouteTracker } from '@/components/analytics/GoogleAnalyticsRouteTracker';
 import { ProgressProvider } from '@/components/providers/ProgressProvider';
 import { PreferencesEffect } from '@/components/providers/PreferencesEffect';
 import { AppShell } from '@/components/layout/AppShell';
@@ -63,15 +66,19 @@ export default function RootLayout({
   return (
     <html
       lang="vi"
-      className={`${beVietnam.variable} ${notoSerif.variable} ${notoSerifTC.variable}`}
+      className={`theme-light ${beVietnam.variable} ${notoSerif.variable} ${notoSerifTC.variable}`}
       suppressHydrationWarning
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOTSTRAP_SCRIPT }} />
       </head>
       <body className="min-h-screen bg-bg-primary font-body text-text-primary antialiased">
+        <GoogleAnalytics />
         <ProgressProvider>
           <PreferencesEffect />
+          <Suspense fallback={null}>
+            <GoogleAnalyticsRouteTracker />
+          </Suspense>
           <AppShell>{children}</AppShell>
         </ProgressProvider>
       </body>
