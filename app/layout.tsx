@@ -49,6 +49,10 @@ export const metadata: Metadata = {
     siteName: SITE.name,
   },
   robots: { index: true, follow: true },
+  icons: {
+    icon: { url: '/logo.png', type: 'image/png' },
+    apple: { url: '/logo.png', type: 'image/png' },
+  },
 };
 
 export default function RootLayout({

@@ -7,9 +7,9 @@ export const DEFAULT_PASS_THRESHOLD = 70;
 
 export const SITE = {
   name: 'Phật Quang Quyền',
-  title: 'Hành Trình Lý Thuyết Võ Đạo',
+  title: 'Lý Thuyết Võ Đạo',
   description:
-    'Website học lý thuyết Phật Quang Quyền — hành trình võ đạo qua hệ thống 6 màu đai, 19 bài học và trắc nghiệm ôn lý thuyết.',
+    'Website học lý thuyết võ đạo Phật Quang Quyền — hành trình võ đạo qua hệ thống 6 màu đai, 19 bài học và trắc nghiệm ôn lý thuyết.',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://pqq-theory.vercel.app',
 };
 

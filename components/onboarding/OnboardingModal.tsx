@@ -37,7 +37,7 @@ export function OnboardingModal() {
   return (
     <Modal open={open} onClose={() => {}} size="md" className="text-center">
       <div className="mb-6 flex justify-center">
-        <img src="/logo.jpg" alt="PQQ" className="h-20 w-20 rounded-full shadow-glow" />
+        <img src="/logo.png" alt="PQQ" className="h-20 w-20 rounded-full shadow-glow" />
       </div>
       <h2 className="font-display text-2xl font-bold mb-2">
         Chào mừng đến Hành Trình Võ Đạo

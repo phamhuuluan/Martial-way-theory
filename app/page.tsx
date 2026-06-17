@@ -15,7 +15,7 @@ export default function LandingPage() {
       <section className="relative flex min-h-[85vh] flex-col items-center justify-center px-4 py-16 text-center lg:flex-row lg:justify-between lg:px-16 lg:text-left">
         <div className="max-w-xl">
           <img
-            src="/logo.jpg"
+            src="/logo.png"
             alt={SITE.name}
             className="mx-auto mb-6 h-24 w-24 rounded-full shadow-glow ring-2 ring-unlock/20 lg:mx-0"
           />

@@ -55,7 +55,7 @@ export function BottomTabBar() {
           const active =
             pathname === href ||
             (item.href === '/journey' && pathname.startsWith('/journey')) ||
-            (item.dynamic && pathname.startsWith('/world'));
+            (item.dynamic === true && pathname.startsWith('/world'));
 
           return (
             <Link
@@ -92,7 +92,7 @@ export function SideRail() {
     <aside className="side-rail fixed left-0 top-0 z-20 hidden h-full w-60 flex-col lg:flex">
       <Link href="/" className="side-rail__brand mb-10 flex items-center gap-3 px-5 pt-6">
         <img
-          src="/logo.jpg"
+          src="/logo.png"
           alt="PQQ"
           className="h-10 w-10 rounded-full ring-1 ring-[#c5a059]/40"
         />
@@ -106,7 +106,7 @@ export function SideRail() {
           const active =
             pathname === href ||
             (item.href === '/journey' && pathname.startsWith('/journey')) ||
-            (item.dynamic && pathname.startsWith('/world'));
+            (item.dynamic === true && pathname.startsWith('/world'));
 
           return (
             <Link

@@ -4,7 +4,7 @@
 
 - [ ] `npm run build` completes without errors
 - [ ] All 54 static routes generated
-- [ ] Logo loads at `/logo.jpg`
+- [ ] Logo loads at `/logo.png`
 - [ ] Environment variables set on Vercel
 
 ## Landing & Navigation
