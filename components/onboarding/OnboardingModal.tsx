@@ -49,7 +49,7 @@ export function OnboardingModal() {
         <div>
           <input
             {...register('name')}
-            placeholder="Tên môn sinh"
+            placeholder="Tên võ sinh/môn sinh"
             className="w-full rounded-[var(--radius-sm)] border border-border bg-bg-primary px-4 py-3 text-lg focus:border-unlock focus:outline-none focus:ring-1 focus:ring-unlock/50"
             autoFocus
           />
