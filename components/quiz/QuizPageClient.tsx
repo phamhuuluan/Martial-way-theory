@@ -44,7 +44,20 @@ export function QuizPageClient(props: QuizPageClientProps) {
   ]);
 
   if (!hydrated || !unlocked || !readingComplete) {
-    return null;
+    return (
+      <div className="mx-auto max-w-lg px-4 py-8" aria-busy="true" aria-label="Đang tải bài kiểm tra">
+        <div className="mb-6">
+          <div className="mb-2 h-4 w-24 rounded bg-border/70" />
+          <div className="h-1 rounded-full bg-border" />
+        </div>
+        <div className="mb-6 h-7 w-4/5 max-w-md rounded bg-border/70" />
+        <div className="space-y-3">
+          {Array.from({ length: 4 }, (_, i) => (
+            <div key={i} className="h-[3.75rem] rounded-[var(--radius-md)] bg-border/50" />
+          ))}
+        </div>
+      </div>
+    );
   }
 
   return (

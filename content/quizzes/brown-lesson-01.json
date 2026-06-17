@@ -15,35 +15,41 @@
         "Hai",
         "Ba",
         "Bốn",
-        "Năm"
+        "Năm",
+        "Sáu"
       ],
       "rightItems": [
-        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận…",
         "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
-        "rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.",
+        "tập võ để bảo vệ chánh pháp.",
         "tập võ để bảo vệ đất nước.",
-        "tập võ để bảo vệ chánh pháp."
+        "yêu thích lao động giúp đời.",
+        "rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.",
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận…"
       ],
       "correctPairs": [
         [
           0,
-          0
+          5
         ],
         [
           1,
-          1
+          0
         ],
         [
           2,
-          4
+          1
         ],
         [
           3,
-          3
+          2
         ],
         [
           4,
-          2
+          4
+        ],
+        [
+          5,
+          3
         ]
       ],
       "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.\nHai, tập võ để bênh vực kẻ vô tội bị ức hiếp.\nBa, tập võ để bảo vệ chánh pháp.\nBốn, tập võ để bảo vệ đất nước.\nNăm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.\nSáu, yêu thích lao động giúp đời.",

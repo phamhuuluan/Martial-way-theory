@@ -26,7 +26,7 @@ export function JourneySummaryStrip() {
   const allComplete = overall.completedLessons === overall.totalLessons;
 
   return (
-    <div className="journey-summary mb-8 overflow-hidden rounded-xl border border-border/40 bg-bg-secondary/60 backdrop-blur-sm">
+    <div className="journey-summary mb-8 overflow-hidden rounded-xl border border-border/40 bg-bg-secondary/80 max-md:backdrop-blur-none sm:bg-bg-secondary/60 sm:backdrop-blur-sm">
       <div className="relative aspect-[2.8/1] min-h-[96px] max-h-[160px] w-full overflow-hidden sm:min-h-[112px]">
         <WorldArtwork beltId={currentBeltId} variant="banner" priority />
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/35 to-black/10" />

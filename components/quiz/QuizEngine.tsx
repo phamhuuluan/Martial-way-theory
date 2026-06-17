@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, type ReactNode } from 'react';
-import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import type { QuizData, QuizQuestion } from '@/types';
 import { QuizOption } from '@/components/quiz/QuizOption';
 import { QuizFillBlank } from '@/components/quiz/QuizFillBlank';
@@ -30,6 +30,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 import { getNewAchievements } from '@/lib/achievements';
 import { BadgeReveal } from '@/components/achievement/AchievementGrid';
 import { useProgressStore } from '@/store/progress-store';
+import { useAppReducedMotion } from '@/hooks/use-app-reduced-motion';
 import Link from 'next/link';
 
 type QuizPhase = 'intro' | 'question' | 'result';
@@ -78,9 +79,8 @@ export function QuizEngine({
   const [expandedWrong, setExpandedWrong] = useState<string[]>([]);
   const [newBadge, setNewBadge] = useState<{ id: string; name: string; icon: string } | null>(null);
 
-  const progress = useProgressStore((s) => s.progress);
   const completeQuiz = useProgressStore((s) => s.completeQuiz);
-  const reduced = useReducedMotion();
+  const reduced = useAppReducedMotion();
 
   const activeQuiz = sessionQuiz ?? quiz;
   const currentQuestion = activeQuiz.questions[currentIndex];
@@ -249,7 +249,7 @@ export function QuizEngine({
       setResultMessage(getResultMessage(quizResult.passed));
       setPhase('result');
 
-      const before = progress;
+      const before = useProgressStore.getState().progress;
       const after = completeQuiz(
         lessonId,
         quizResult.score,
@@ -600,13 +600,13 @@ export function QuizEngine({
         />
       </div>
 
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="sync" initial={false}>
         <motion.div
           key={currentQuestion.id}
-          initial={reduced ? {} : { opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={reduced ? {} : { opacity: 0, x: -20 }}
-          transition={{ duration: 0.25 }}
+          initial={reduced ? false : { opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={reduced ? undefined : { opacity: 0 }}
+          transition={{ duration: reduced ? 0 : 0.15, ease: 'easeOut' }}
         >
           {multiple && !showFeedback && (
             <p className="mb-3 text-sm text-text-muted">

@@ -1,7 +1,6 @@
 'use client';
 
 import type { CSSProperties } from 'react';
-import { motion, useReducedMotion } from 'framer-motion';
 import Link from 'next/link';
 import { BookOpen, Lock, Play } from 'lucide-react';
 import type { BeltId } from '@/types';
@@ -19,17 +18,15 @@ import { useProgressStore } from '@/store/progress-store';
 
 interface JourneyNodeProps {
   beltId: BeltId;
-  index: number;
   isCurrent: boolean;
 }
 
-export function JourneyNode({ beltId, index, isCurrent }: JourneyNodeProps) {
+export function JourneyNode({ beltId, isCurrent }: JourneyNodeProps) {
   const progress = useProgressStore((s) => s.progress);
   const belt = getBeltById(beltId);
   const unlocked = isBeltUnlocked(beltId, progress);
   const completed = isBeltCompleted(beltId, progress);
   const percent = getBeltCompletionPercent(beltId, progress);
-  const reduced = useReducedMotion();
 
   const completedLessons = belt.lessons.filter((id) =>
     isLessonCompleted(id, progress)
@@ -46,9 +43,9 @@ export function JourneyNode({ beltId, index, isCurrent }: JourneyNodeProps) {
   const ActionIcon = completed ? BookOpen : unlocked ? Play : Lock;
 
   const card = (
-    <motion.article
+    <article
       className={cn(
-        'journey-row__card group relative min-h-[132px] overflow-hidden rounded-2xl border transition-all duration-300',
+        'journey-row__card group relative min-h-[132px] overflow-hidden rounded-2xl border transition-[border-color,box-shadow] duration-300',
         completed && 'journey-row__card--completed border-unlock/25',
         isCurrent && 'journey-row__card--current border-unlock/45 shadow-glow',
         unlocked && !completed && !isCurrent && 'border-border/50',
@@ -56,10 +53,6 @@ export function JourneyNode({ beltId, index, isCurrent }: JourneyNodeProps) {
         unlocked && 'hover:border-unlock/25 hover:shadow-elevated'
       )}
       aria-label={`${belt.name} — ${belt.scene}`}
-      initial={reduced ? {} : { opacity: 0, x: 16 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true, margin: '-40px' }}
-      transition={{ delay: index * 0.07, duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
     >
       {/* Cinematic artwork background */}
       <div className="absolute inset-0">
@@ -89,7 +82,7 @@ export function JourneyNode({ beltId, index, isCurrent }: JourneyNodeProps) {
         </div>
 
         {/* Progress panel */}
-        <div className="journey-row__panel flex flex-col justify-center gap-2.5 border-t border-white/15 bg-black/30 px-5 py-4 backdrop-blur-sm sm:w-[11.5rem] sm:shrink-0 sm:border-l sm:border-t-0 sm:border-white/15 sm:px-4">
+        <div className="journey-row__panel flex flex-col justify-center gap-2.5 border-t border-white/15 bg-black/40 px-5 py-4 max-md:backdrop-blur-none sm:bg-black/30 sm:backdrop-blur-sm sm:w-[11.5rem] sm:shrink-0 sm:border-l sm:border-t-0 sm:border-white/15 sm:px-4">
           <p className="text-xs text-white/85 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
             {completedLessons}/{belt.totalLessons} bài học
           </p>
@@ -133,7 +126,7 @@ export function JourneyNode({ beltId, index, isCurrent }: JourneyNodeProps) {
           </span>
         </div>
       </div>
-    </motion.article>
+    </article>
   );
 
   if (unlocked) {

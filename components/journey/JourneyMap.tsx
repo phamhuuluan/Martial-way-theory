@@ -23,7 +23,7 @@ export function JourneyMap() {
         <JourneyPathConnector progress={progress} currentBeltId={currentBelt} />
 
         <ol className="journey-map__stages">
-          {BELT_WORLDS.map((belt, index) => {
+          {BELT_WORLDS.map((belt) => {
             const isCurrent = currentBelt === belt.id;
             const completed = isBeltCompleted(belt.id, progress);
             const unlocked = isBeltUnlocked(belt.id, progress);
@@ -36,7 +36,7 @@ export function JourneyMap() {
                   unlocked={unlocked}
                   accent={belt.colors.accent}
                 />
-                <JourneyNode beltId={belt.id} index={index} isCurrent={isCurrent} />
+                <JourneyNode beltId={belt.id} isCurrent={isCurrent} />
               </li>
             );
           })}

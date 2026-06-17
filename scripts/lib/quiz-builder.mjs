@@ -1278,7 +1278,8 @@ function buildMatchingQuestion(sourceQ, items, lessonPool, meta, sequence) {
 
   if (pairs.length < 3) return null;
 
-  const selected = pairs.slice(0, Math.min(5, pairs.length));
+  const maxPairs = OATH_QUESTION.test(sourceQ.question) ? 6 : 5;
+  const selected = pairs.slice(0, Math.min(maxPairs, pairs.length));
   const leftItems = selected.map((pair) => pair.left);
   const rightValues = selected.map((pair) => pair.right);
   const rightItems = shuffleWithSeed(rightValues, sequence + 3);

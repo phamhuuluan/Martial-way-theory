@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Suspense } from 'react';
 import { Be_Vietnam_Pro, Noto_Serif, Noto_Serif_TC } from 'next/font/google';
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
@@ -7,7 +8,7 @@ import { ProgressProvider } from '@/components/providers/ProgressProvider';
 import { PreferencesEffect } from '@/components/providers/PreferencesEffect';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { AppShell } from '@/components/layout/AppShell';
-import { SITE } from '@/lib/constants';
+import { SITE, STORAGE_KEY } from '@/lib/constants';
 import '@/styles/globals.css';
 
 const beVietnam = Be_Vietnam_Pro({
@@ -69,7 +70,17 @@ export default function RootLayout({
       className={`theme-light ${beVietnam.variable} ${notoSerif.variable} ${notoSerifTC.variable}`}
       suppressHydrationWarning
     >
-      <body className="min-h-screen bg-bg-primary font-body text-text-primary antialiased">
+      <body
+        className="min-h-screen bg-bg-primary font-body text-text-primary antialiased"
+        suppressHydrationWarning
+      >
+        <Script
+          id="color-scheme-init"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var r=localStorage.getItem(${JSON.stringify(STORAGE_KEY)});if(!r)return;var d=JSON.parse(r);var s=d.preferences&&d.preferences.colorScheme==='dark'?'dark':'light';document.documentElement.classList.toggle('theme-light',s==='light');}catch(e){}})();`,
+          }}
+        />
         <ThemeProvider>
           <GoogleAnalytics />
           <ProgressProvider>

@@ -1,6 +1,5 @@
 'use client';
 
-import { motion, useReducedMotion } from 'framer-motion';
 import { Check, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -25,29 +24,21 @@ export function QuizOption({
   disabled,
   onSelect,
 }: QuizOptionProps) {
-  const reduced = useReducedMotion();
-
   return (
-    <motion.button
+    <button
       type="button"
       onClick={onSelect}
       disabled={disabled}
       className={cn(
-        'flex w-full items-start gap-3 rounded-[var(--radius-md)] border p-4 text-left transition-colors min-h-[44px]',
+        'quiz-option flex w-full items-start gap-3 rounded-[var(--radius-md)] border p-4 text-left transition-colors min-h-[44px]',
         state === 'default' && 'border-border bg-bg-secondary hover:border-unlock/50',
         state === 'correct' && 'border-success bg-success/10',
-        state === 'incorrect' && 'border-error bg-error/10',
+        state === 'incorrect' && 'border-error bg-error/10 quiz-option--shake',
         state === 'reveal-correct' && 'border-success/50 bg-success/5',
         state === 'missed-key' && 'border-unlock/60 bg-unlock/10',
-        disabled && 'cursor-default'
+        disabled && 'cursor-default',
+        !disabled && 'active:scale-[0.98] max-md:active:scale-100'
       )}
-      animate={
-        state === 'incorrect' && !reduced
-          ? { x: [0, -4, 4, -4, 4, 0] }
-          : {}
-      }
-      transition={{ duration: 0.3 }}
-      whileTap={!disabled && !reduced ? { scale: 0.98 } : undefined}
     >
       <span
         className={cn(
@@ -77,6 +68,6 @@ export function QuizOption({
         )}
       </span>
       <span className="flex-1 pt-1 text-base leading-relaxed">{label}</span>
-    </motion.button>
+    </button>
   );
 }

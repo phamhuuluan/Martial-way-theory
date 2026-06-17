@@ -44,6 +44,9 @@ export function WorldArtwork({
         alt=""
         fill
         priority={priority}
+        loading={priority ? undefined : 'lazy'}
+        fetchPriority={priority ? 'high' : 'low'}
+        decoding="async"
         sizes={
           variant === 'hero'
             ? '100vw'
@@ -52,8 +55,8 @@ export function WorldArtwork({
               : '(max-width: 640px) 100vw, 352px'
         }
         className={cn(
-          'world-artwork__image object-cover object-center transition-transform duration-700 ease-out',
-          !dimmed && 'group-hover:scale-[1.04]'
+          'world-artwork__image object-cover object-center transition-transform duration-700 ease-out max-md:transition-none',
+          !dimmed && 'group-hover:scale-[1.04] max-md:group-hover:scale-100'
         )}
         draggable={false}
       />

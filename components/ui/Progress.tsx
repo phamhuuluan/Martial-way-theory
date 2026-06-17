@@ -1,6 +1,5 @@
 'use client';
 
-import { motion, useReducedMotion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
 interface ProgressBarProps {
@@ -21,7 +20,6 @@ export function ProgressBar({
   size = 'sm',
 }: ProgressBarProps) {
   const percent = Math.min(100, Math.max(0, (value / max) * 100));
-  const reduced = useReducedMotion();
 
   return (
     <div className={cn('w-full', className)}>
@@ -37,12 +35,9 @@ export function ProgressBar({
           size === 'sm' ? 'h-1' : 'h-2'
         )}
       >
-        <motion.div
-          className="h-full rounded-full"
-          style={{ backgroundColor: color }}
-          initial={{ width: 0 }}
-          animate={{ width: `${percent}%` }}
-          transition={reduced ? { duration: 0 } : { type: 'spring', stiffness: 100, damping: 20 }}
+        <div
+          className="progress-bar__fill h-full rounded-full"
+          style={{ width: `${percent}%`, backgroundColor: color }}
         />
       </div>
     </div>
