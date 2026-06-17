@@ -142,7 +142,7 @@ export const BELT_WORLDS: BeltWorld[] = [
     theme: 'Hồng Đai',
     scene: 'Dũng cảm – Tinh tấn',
     virtues: ['dũng-cảm', 'tinh-tấn'],
-    colors: { primary: '#8B2500', accent: '#E85D04', surface: '#1F1008' },
+    colors: { primary: '#8B1818', accent: '#E83030', surface: '#1F0808' },
     lessons: ['red-lesson-01', 'red-lesson-02', 'red-lesson-03', 'red-lesson-04'],
     totalLessons: 4,
   },
@@ -207,6 +207,7 @@ export function getPrevLessonId(lessonId: string): string | null {
 export const NAV_ITEMS = [
   { href: '/journey', label: 'Hành trình', icon: 'map' as const },
   { href: '/world/brown', label: 'Học', icon: 'book' as const },
+  { href: '/documents', label: 'Tài liệu', icon: 'dashboard' as const },
   { href: '/achievements', label: 'Huy hiệu', icon: 'award' as const },
   { href: '/profile', label: 'Hồ sơ', icon: 'user' as const },
 ];

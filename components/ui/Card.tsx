@@ -5,6 +5,7 @@ interface CardProps {
   className?: string;
   variant?: 'default' | 'lesson' | 'world' | 'achievement';
   beltAccent?: string;
+  style?: React.CSSProperties;
   onClick?: () => void;
 }
 
@@ -13,6 +14,7 @@ export function Card({
   className,
   variant = 'default',
   beltAccent,
+  style,
   onClick,
 }: CardProps) {
   const Component = onClick ? 'button' : 'div';
@@ -29,11 +31,12 @@ export function Card({
         onClick && 'cursor-pointer transition-all duration-200 hover:shadow-elevated hover:border-border',
         className
       )}
-      style={
-        variant === 'lesson' && beltAccent
+      style={{
+        ...(variant === 'lesson' && beltAccent
           ? { borderLeftColor: beltAccent }
-          : undefined
-      }
+          : undefined),
+        ...style,
+      }}
     >
       {children}
     </Component>

@@ -4,6 +4,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 import Link from 'next/link';
 import { Modal } from '@/components/ui/Modal';
 import { getBeltById, VIRTUES } from '@/lib/constants';
+import { beltThemeStyle } from '@/lib/belt-theme';
 import { useProgressStore } from '@/store/progress-store';
 import { cn } from '@/lib/utils';
 
@@ -26,9 +27,9 @@ export function BeltCeremony() {
       <div className="flex flex-col items-center py-8 text-center">
         <motion.div
           className={cn(
-            'mb-8 flex h-32 w-32 items-center justify-center rounded-full text-4xl shadow-glow',
-            `belt-gradient-${beltId}`
+            'belt-surface mb-8 flex h-32 w-32 items-center justify-center rounded-full text-4xl shadow-glow'
           )}
+          style={beltThemeStyle(beltId)}
           initial={reduced ? {} : { scale: 0, rotate: -10 }}
           animate={{ scale: 1, rotate: 0 }}
           transition={{ type: 'spring', stiffness: 200, damping: 20 }}

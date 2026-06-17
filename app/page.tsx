@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { MartialJourneySlogan } from '@/components/ui/MartialJourneySlogan';
 import { BELT_SYSTEM_LABEL, BELT_WORLDS, SITE } from '@/lib/constants';
+import { beltThemeStyle } from '@/lib/belt-theme';
 import { cn } from '@/lib/utils';
 
 export default function LandingPage() {
@@ -39,26 +40,30 @@ export default function LandingPage() {
         </div>
 
         <div className="mt-12 hidden lg:block lg:mt-0">
-          <div className="relative h-80 w-96 overflow-hidden rounded-[var(--radius-xl)] belt-gradient-brown shadow-elevated">
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+          <div
+            className="relative h-80 w-96 overflow-hidden rounded-[var(--radius-xl)] belt-card belt-surface"
+            style={beltThemeStyle('brown')}
+          >
+            <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" />
             <div
-                    className="
-                      absolute inset-0 
-                      flex items-center justify-center
-                      font-serif text-[110px]
-                      font-bold
-                      text-amber-200/40
-                      drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]
-                      [text-shadow:0_0_20px_rgba(251,191,36,0.35)]
-                    "
-                  >
-                武
-              </div>
-            <div className="absolute inset-x-0 bottom-0 p-6 text-left">
-              <p className="font-display text-xl font-semibold text-white">
+              className="
+                absolute inset-0
+                flex items-center justify-center
+                font-serif text-[110px]
+                font-bold
+                text-[var(--belt-title)]
+                opacity-40
+                drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]
+              "
+              style={{ textShadow: 'var(--belt-title-shadow)' }}
+            >
+              武
+            </div>
+            <div className="belt-card__content absolute inset-x-0 bottom-0 p-6 text-left">
+              <p className="belt-card__title font-display text-xl font-semibold">
                 Nâu Đai
               </p>
-              <p className="mt-1 text-sm text-white/75">
+              <p className="belt-card__meta mt-1 text-sm">
                 Giản dị – Bền bỉ – Khiêm cung
               </p>
             </div>
@@ -86,11 +91,15 @@ export default function LandingPage() {
               <Card
                 variant="world"
                 className={cn(
-                  'belt-card h-full min-h-[168px] p-0 transition-transform duration-300 group-hover:-translate-y-1',
-                  belt.lightMode && 'belt-card--light',
-                  `belt-gradient-${belt.id}`
+                  'belt-card belt-surface h-full min-h-[168px] p-0 transition-transform duration-300 group-hover:-translate-y-1',
+                  belt.lightMode && 'belt-card--light'
                 )}
+                style={beltThemeStyle(belt.id)}
               >
+                <span className="belt-card__badge" aria-hidden>
+                  <span className="belt-card__badge-dot" />
+                  {belt.nameShort}
+                </span>
                 <div className="belt-card__content flex h-full min-h-[168px] flex-col justify-end p-5">
                   <h3 className="belt-card__title font-display text-lg font-bold">
                     {belt.name}
