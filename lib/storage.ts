@@ -11,7 +11,7 @@ import { mergeReadProgress } from '@/lib/lesson-reading';
 export const DEFAULT_PREFERENCES: UserPreferences = {
   reducedMotion: false,
   fontSize: 'normal',
-  colorScheme: 'dark',
+  colorScheme: 'light',
   onboardingComplete: false,
 };
 

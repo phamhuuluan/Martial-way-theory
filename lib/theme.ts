@@ -6,5 +6,17 @@ export function applyColorScheme(scheme: ColorScheme): void {
   document.documentElement.classList.toggle('theme-light', scheme === 'light');
 }
 
-/** Inline script: apply saved theme before React hydrates to avoid flash. */
-export const THEME_BOOTSTRAP_SCRIPT = `(function(){try{var raw=localStorage.getItem(${JSON.stringify(STORAGE_KEY)});if(!raw)return;var data=JSON.parse(raw);var scheme=data&&data.preferences&&data.preferences.colorScheme;if(scheme==='light'){document.documentElement.classList.add('theme-light')}}catch(e){}})();`;
+export function getStoredColorScheme(): ColorScheme {
+  if (typeof window === 'undefined') return 'light';
+
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return 'light';
+    const data = JSON.parse(raw) as {
+      preferences?: { colorScheme?: ColorScheme };
+    };
+    return data.preferences?.colorScheme === 'dark' ? 'dark' : 'light';
+  } catch {
+    return 'light';
+  }
+}

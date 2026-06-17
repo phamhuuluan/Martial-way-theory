@@ -74,6 +74,7 @@ export function QuizEngine({
   const [orderAnswers, setOrderAnswers] = useState<number[]>([]);
   const [showFeedback, setShowFeedback] = useState(false);
   const [result, setResult] = useState<QuizResult | null>(null);
+  const [resultMessage, setResultMessage] = useState('');
   const [expandedWrong, setExpandedWrong] = useState<string[]>([]);
   const [newBadge, setNewBadge] = useState<{ id: string; name: string; icon: string } | null>(null);
 
@@ -245,6 +246,7 @@ export function QuizEngine({
     } else {
       const quizResult = calculateScore(activeQuiz, newAnswers);
       setResult(quizResult);
+      setResultMessage(getResultMessage(quizResult.passed));
       setPhase('result');
 
       const before = progress;
@@ -309,6 +311,7 @@ export function QuizEngine({
     setAnswers([]);
     resetSelection();
     setResult(null);
+    setResultMessage('');
     setExpandedWrong([]);
     setPhase('question');
   };
@@ -320,6 +323,7 @@ export function QuizEngine({
     setAnswers([]);
     resetSelection();
     setResult(null);
+    setResultMessage('');
     setExpandedWrong([]);
   };
 
@@ -429,7 +433,7 @@ export function QuizEngine({
           </motion.div>
 
           <p className="font-display text-lg italic text-text-secondary">
-            &ldquo;{getResultMessage(result.passed)}&rdquo;
+            &ldquo;{resultMessage}&rdquo;
           </p>
 
           <p className="mt-4 text-sm">

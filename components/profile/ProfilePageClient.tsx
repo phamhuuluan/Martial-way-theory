@@ -22,12 +22,14 @@ import {
 } from '@/lib/certificates';
 import { getBeltById } from '@/lib/constants';
 import { cn } from '@/lib/utils';
+import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Download, Moon, RotateCcw, ScrollText, Sun, Upload } from 'lucide-react';
 
 export function ProfilePageClient() {
   const progress = useProgressStore((s) => s.progress);
   const setName = useProgressStore((s) => s.setName);
   const setPreferences = useProgressStore((s) => s.setPreferences);
+  const colorScheme = useColorScheme();
   const reset = useProgressStore((s) => s.reset);
   const exportData = useProgressStore((s) => s.exportData);
   const importData = useProgressStore((s) => s.importData);
@@ -251,10 +253,10 @@ export function ProfilePageClient() {
                       onClick={() => setPreferences({ colorScheme: 'dark' })}
                       className={cn(
                         'profile-theme-toggle__btn',
-                        (progress.preferences.colorScheme ?? 'dark') === 'dark' &&
+                        colorScheme === 'dark' &&
                           'profile-theme-toggle__btn--active'
                       )}
-                      aria-pressed={(progress.preferences.colorScheme ?? 'dark') === 'dark'}
+                      aria-pressed={colorScheme === 'dark'}
                     >
                       <Moon className="h-3.5 w-3.5" />
                       Tối
@@ -264,10 +266,10 @@ export function ProfilePageClient() {
                       onClick={() => setPreferences({ colorScheme: 'light' })}
                       className={cn(
                         'profile-theme-toggle__btn',
-                        progress.preferences.colorScheme === 'light' &&
+                        colorScheme === 'light' &&
                           'profile-theme-toggle__btn--active'
                       )}
-                      aria-pressed={progress.preferences.colorScheme === 'light'}
+                      aria-pressed={colorScheme === 'light'}
                     >
                       <Sun className="h-3.5 w-3.5" />
                       Sáng
