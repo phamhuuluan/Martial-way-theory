@@ -62,7 +62,7 @@
         1,
         0
       ],
-      "explanation": "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.\nĐạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được thể hiện đúng đắn, rộng lớn và mang lại lợi ích cho mọi người.\nNgười có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết thực vì cộng đồng, Tổ quốc và nhân loại.",
+      "explanation": "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.\n\nĐạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được thể hiện đúng đắn, rộng lớn và mang lại lợi ích cho mọi người.\n\nNgười có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết thực vì cộng đồng, Tổ quốc và nhân loại.",
       "sourceQuestion": "Đức Nhân và Đạo Nhân khác nhau như thế nào?"
     },
     {
@@ -117,7 +117,7 @@
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
-        "Vì giữ lời hứa thể hiện sự trung thực, trách nhiệm và uy tín của bản thân. Người biết giữ lời hứa sẽ được mọi người tin…"
+        "Vì giữ lời hứa thể hiện sự trung thực, trách nhiệm và uy tín của bản thân. Người biết giữ lời hứa…"
       ],
       "correctIndex": 3,
       "explanation": "Vì giữ lời hứa thể hiện sự trung thực, trách nhiệm và uy tín của bản thân. Người biết giữ lời hứa sẽ được mọi người tin tưởng, kính trọng và có đủ ý chí để theo đuổi những lý tưởng tốt đẹp trong cuộc sống.",
@@ -127,15 +127,15 @@
       "id": "white-lesson-02-q07",
       "lessonId": "white-lesson-02",
       "number": 7,
-      "type": "scenario",
-      "question": "Tình huống: Một môn sinh hứa hẹn với đồng môn rồi không thực hiện đúng cam kết.\n\nTheo bài học, quy định hoặc nguyên lý nào bị vi phạm?",
+      "type": "single",
+      "question": "Hỏi: Người môn sinh Phật Quang Quyền cần làm gì trước khi hứa một điều gì?",
       "options": [
-        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên…",
         "Phải suy nghĩ kỹ khả năng thực hiện của mình, cân nhắc những khó khăn có thể xảy ra và chỉ hứa khi…",
-        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó…",
-        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể,…"
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Phải suy nghĩ kỹ khả năng thực hiện của mình, cân nhắc những khó khăn có thể xảy ra và chỉ hứa khi thật sự có trách nhiệm thực hiện. Không nên hứa tùy tiện chỉ để làm hài lòng người khác.",
       "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền cần làm gì trước khi hứa một điều gì?"
     },
@@ -144,7 +144,7 @@
       "lessonId": "white-lesson-02",
       "number": 8,
       "type": "scenario",
-      "question": "Tình huống: Một môn sinh không cố gắng thực hiện đúng lời hứa, đúng thời gian đã hẹn.\n\nTheo bài học, quy định hoặc nguyên lý nào bị vi phạm?",
+      "question": "Tình huống: Theo bài học, một môn sinh không cố gắng thực hiện đúng lời hứa, đúng thời gian đã hẹn.\n\nTheo nội dung bài học, lựa chọn nào phù hợp nhất?",
       "options": [
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể,…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên…",
@@ -164,7 +164,7 @@
       "options": [
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
-        "Cậy công là tự hào, tự cao về những công lao, thành tích hoặc đóng góp của mình rồi cho rằng mình hơn người khác, muốn…",
+        "Cậy công là tự hào, tự cao về những công lao, thành tích hoặc đóng góp của mình rồi cho rằng mình…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
       ],
       "correctIndex": 2,
@@ -181,7 +181,7 @@
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
-        "Cậy công làm mất đi sự khiêm tốn, dễ sinh ngã mạn, tham vọng và gây mất đoàn kết trong tập thể. Khi quá chấp vào công…"
+        "Cậy công làm mất đi sự khiêm tốn, dễ sinh ngã mạn, tham vọng và gây mất đoàn kết trong tập thể. Khi…"
       ],
       "correctIndex": 3,
       "explanation": "Cậy công làm mất đi sự khiêm tốn, dễ sinh ngã mạn, tham vọng và gây mất đoàn kết trong tập thể. Khi quá chấp vào công lao của mình, người môn sinh sẽ đánh mất những giá trị tốt đẹp mà mình đã dày công xây dựng.",
@@ -217,7 +217,7 @@
       "options": [
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
-        "Thù vặt là ghi nhớ và ôm giữ những va chạm, xúc phạm hoặc bất hòa nhỏ nhặt rồi sinh tâm hiềm hận, khó chịu với người…",
+        "Thù vặt là ghi nhớ và ôm giữ những va chạm, xúc phạm hoặc bất hòa nhỏ nhặt rồi sinh tâm hiềm hận,…",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
       ],
       "correctIndex": 2,
@@ -231,7 +231,7 @@
       "type": "single",
       "question": "Hỏi: Tác hại của tâm thù vặt đối với người môn sinh Phật Quang Quyền là gì?",
       "options": [
-        "Thù vặt làm tâm hồn trở nên nhỏ hẹp, mất đoàn kết với huynh đệ, dễ sinh ác cảm, chỉ trích và làm tổn hại đến tình nghĩa…",
+        "Thù vặt làm tâm hồn trở nên nhỏ hẹp, mất đoàn kết với huynh đệ, dễ sinh ác cảm, chỉ trích và làm…",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
@@ -270,7 +270,7 @@
       "options": [
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
-        "Kiên trì là sự bền bỉ, quyết tâm theo đuổi mục tiêu đúng đắn đến cùng, không nản lòng trước khó khăn, thử thách hay…",
+        "Kiên trì là sự bền bỉ, quyết tâm theo đuổi mục tiêu đúng đắn đến cùng, không nản lòng trước khó…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
       ],
       "correctIndex": 2,
@@ -285,7 +285,7 @@
       "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải rèn luyện đức tính kiên trì?",
       "options": [
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
-        "Vì mọi thành công trong học tập, võ thuật, đạo đức và cuộc sống đều cần thời gian và sự nỗ lực lâu dài. Người thiếu…",
+        "Vì mọi thành công trong học tập, võ thuật, đạo đức và cuộc sống đều cần thời gian và sự nỗ lực lâu…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
       ],
@@ -297,17 +297,17 @@
       "id": "white-lesson-02-q17",
       "lessonId": "white-lesson-02",
       "number": 17,
-      "type": "single",
-      "question": "Hỏi: Sống giản dị là gì?",
+      "type": "scenario",
+      "question": "Tình huống: Theo bài học, một môn sinh vui khi thấy người khác cùng tham gia phụng sự và giúp ích cho cộng đồng.\n\nTheo nội dung bài học, lựa chọn nào phù hợp nhất?",
       "options": [
-        "Sống giản dị là biết sử dụng những gì cần thiết, không chạy theo sự xa hoa, hình thức hay hưởng thụ quá mức. Người sống…",
-        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
-        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
-        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể,…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó…",
+        "Độc quyền độ sinh là tâm muốn chỉ riêng mình được giúp đỡ, hướng dẫn hoặc làm lợi ích cho người…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên…"
       ],
-      "correctIndex": 0,
-      "explanation": "Sống giản dị là biết sử dụng những gì cần thiết, không chạy theo sự xa hoa, hình thức hay hưởng thụ quá mức. Người sống giản dị luôn hướng đến sự thanh thản, chân thành và gần gũi với mọi người.",
-      "sourceQuestion": "Hỏi: Sống giản dị là gì?"
+      "correctIndex": 2,
+      "explanation": "Độc quyền độ sinh là tâm muốn chỉ riêng mình được giúp đỡ, hướng dẫn hoặc làm lợi ích cho người khác, không vui khi thấy người khác cùng tham gia phụng sự và giúp ích cho cộng đồng.",
+      "sourceQuestion": "Hỏi: Độc quyền độ sinh là gì?"
     },
     {
       "id": "white-lesson-02-q18",
@@ -319,7 +319,7 @@
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
-        "Vì sống giản dị giúp giảm bớt những nhu cầu không cần thiết, tránh lãng phí, giữ tâm hồn thanh thản và tập trung hơn…"
+        "Vì sống giản dị giúp giảm bớt những nhu cầu không cần thiết, tránh lãng phí, giữ tâm hồn thanh thản…"
       ],
       "correctIndex": 3,
       "explanation": "Vì sống giản dị giúp giảm bớt những nhu cầu không cần thiết, tránh lãng phí, giữ tâm hồn thanh thản và tập trung hơn vào việc học tập, rèn luyện võ thuật, đạo đức và phụng sự cộng đồng.",
@@ -332,7 +332,7 @@
       "type": "single",
       "question": "Hỏi: Người môn sinh Phật Quang Quyền thực hành nếp sống giản dị như thế nào?",
       "options": [
-        "Biết tiết kiệm, sử dụng hợp lý thời gian và vật chất, không đua đòi theo hình thức bên ngoài, chỉ chọn những gì thật sự…",
+        "Biết tiết kiệm, sử dụng hợp lý thời gian và vật chất, không đua đòi theo hình thức bên ngoài, chỉ…",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
@@ -349,7 +349,7 @@
       "question": "Hỏi: Điềm tĩnh là gì?",
       "options": [
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
-        "Điềm tĩnh là khả năng làm chủ cảm xúc, giữ được sự bình tĩnh và sáng suốt trước những thay đổi, khen chê, thành công…",
+        "Điềm tĩnh là khả năng làm chủ cảm xúc, giữ được sự bình tĩnh và sáng suốt trước những thay đổi,…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
       ],
@@ -366,7 +366,7 @@
       "options": [
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
-        "Vì điềm tĩnh giúp con người suy nghĩ đúng đắn, làm chủ bản thân, tránh hành động nóng vội và giữ được sự ổn định trước…",
+        "Vì điềm tĩnh giúp con người suy nghĩ đúng đắn, làm chủ bản thân, tránh hành động nóng vội và giữ…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
       ],
       "correctIndex": 2,
@@ -383,7 +383,7 @@
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
-        "Luôn quan sát và kiểm soát cảm xúc của mình, không quá vui khi được khen, không buồn giận khi bị chê, biết bình tĩnh…"
+        "Luôn quan sát và kiểm soát cảm xúc của mình, không quá vui khi được khen, không buồn giận khi bị…"
       ],
       "correctIndex": 3,
       "explanation": "Luôn quan sát và kiểm soát cảm xúc của mình, không quá vui khi được khen, không buồn giận khi bị chê, biết bình tĩnh trước khó khăn và giữ thái độ ôn hòa, sáng suốt trong mọi tình huống.",
@@ -396,7 +396,7 @@
       "type": "single",
       "question": "Hỏi: Tìm ưu điểm là gì?",
       "options": [
-        "Tìm ưu điểm là biết nhìn nhận và trân trọng những điều tốt đẹp, những mặt tích cực của người khác thay vì chỉ chú ý đến…",
+        "Tìm ưu điểm là biết nhìn nhận và trân trọng những điều tốt đẹp, những mặt tích cực của người khác…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
@@ -414,7 +414,7 @@
       "options": [
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
-        "Vì thấy được ưu điểm của người giúp ta thêm kính trọng, yêu quý và học hỏi lẫn nhau; đồng thời giảm bớt tâm chê bai,…",
+        "Vì thấy được ưu điểm của người giúp ta thêm kính trọng, yêu quý và học hỏi lẫn nhau; đồng thời giảm…",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
       ],
       "correctIndex": 2,
@@ -431,7 +431,7 @@
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
-        "Phải biết bao dung, nhẫn nhịn và bỏ qua những va chạm nhỏ nhặt; không chấp hơn thua, không nuôi hiềm hận. Dù người khác…"
+        "Phải biết bao dung, nhẫn nhịn và bỏ qua những va chạm nhỏ nhặt; không chấp hơn thua, không nuôi…"
       ],
       "correctIndex": 3,
       "explanation": "Phải biết bao dung, nhẫn nhịn và bỏ qua những va chạm nhỏ nhặt; không chấp hơn thua, không nuôi hiềm hận. Dù người khác có làm mình buồn lòng, vẫn giữ sự chân thành, tôn trọng và tình thương đối với họ như trước.",
@@ -442,16 +442,16 @@
       "lessonId": "white-lesson-02",
       "number": 26,
       "type": "single",
-      "question": "Hỏi: Độc quyền độ sinh là gì?",
+      "question": "Hỏi: Sống giản dị là gì?",
       "options": [
+        "Sống giản dị là biết sử dụng những gì cần thiết, không chạy theo sự xa hoa, hình thức hay hưởng thụ…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
-        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
-        "Độc quyền độ sinh là tâm muốn chỉ riêng mình được giúp đỡ, hướng dẫn hoặc làm lợi ích cho người khác, không vui khi…"
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
       ],
-      "correctIndex": 3,
-      "explanation": "Độc quyền độ sinh là tâm muốn chỉ riêng mình được giúp đỡ, hướng dẫn hoặc làm lợi ích cho người khác, không vui khi thấy người khác cùng tham gia phụng sự và giúp ích cho cộng đồng.",
-      "sourceQuestion": "Hỏi: Độc quyền độ sinh là gì?"
+      "correctIndex": 0,
+      "explanation": "Sống giản dị là biết sử dụng những gì cần thiết, không chạy theo sự xa hoa, hình thức hay hưởng thụ quá mức. Người sống giản dị luôn hướng đến sự thanh thản, chân thành và gần gũi với mọi người.",
+      "sourceQuestion": "Hỏi: Sống giản dị là gì?"
     },
     {
       "id": "white-lesson-02-q27",
@@ -462,7 +462,7 @@
       "options": [
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
-        "Vì tâm độc quyền độ sinh thường xuất phát từ sự ích kỷ, ham danh và muốn được mọi người công nhận. Tâm này dễ sinh đố…",
+        "Vì tâm độc quyền độ sinh thường xuất phát từ sự ích kỷ, ham danh và muốn được mọi người công nhận.…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
       ],
       "correctIndex": 2,
@@ -477,7 +477,7 @@
       "question": "Hỏi: Tâm tự hào bí mật là gì?",
       "options": [
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
-        "Tâm tự hào bí mật là sự vui thích, tự mãn âm thầm khi thấy mình giỏi hơn trước hoặc hơn người khác, dù bên ngoài không…",
+        "Tâm tự hào bí mật là sự vui thích, tự mãn âm thầm khi thấy mình giỏi hơn trước hoặc hơn người khác,…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
       ],
@@ -492,7 +492,7 @@
       "type": "single",
       "question": "Hỏi: Tác hại của tâm tự hào bí mật đối với người môn sinh Phật Quang Quyền là gì?",
       "options": [
-        "Tâm tự hào bí mật dễ làm phát sinh ngã mạn, xem thường người khác, khiến bản thân chủ quan, dừng sự cố gắng và dần đánh…",
+        "Tâm tự hào bí mật dễ làm phát sinh ngã mạn, xem thường người khác, khiến bản thân chủ quan, dừng sự…",
         "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
         "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
         "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"

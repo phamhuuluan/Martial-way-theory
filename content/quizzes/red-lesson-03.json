@@ -10,19 +10,22 @@
       "type": "multiple",
       "question": "Quan niệm của môn sinh Phật Quang Quyền về tu thân ra sao? (Chọn tất cả đáp án đúng)",
       "options": [
-        "Trau dồi đức hạnh",
-        "Ý kiến cá nhân, không có trong bài học",
-        "Hàm dưỡng ý chí",
+        "Mở mang kiến thức",
         "Rèn luyện tài năng.",
-        "Mở mang kiến thức"
+        "Bạn đồng đạo: Cùng tôn giáo, nếp sống hoặc quan niệm sống.",
+        "Tề gia là tổ chức và xây dựng gia đình một cách hợp lý, đặt đúng mối quan hệ, bổn phận và cách đối…",
+        "Trau dồi đức hạnh",
+        "Hàm dưỡng ý chí",
+        "Ðáp: Tình thầy trò sâu đậm hay không tùy thuộc vào tư cách và cách cư xử của cả thầy lẫn trò.",
+        "Trách nhiệm phụng sự: Ý thức rõ nghĩa vụ bảo vệ, xây dựng và làm phong phú thêm di sản quý báu mà…"
       ],
       "correctIndices": [
         0,
-        2,
-        3,
-        4
+        1,
+        4,
+        5
       ],
-      "explanation": "Tu thân là không ngừng trao dồi và rèn luyện bản thân thường xuyên trên các phương diện:\nHàm dưỡng ý chí\nMở mang kiến thức\nTrau dồi đức hạnh\nRèn luyện tài năng.",
+      "explanation": "Tu thân là không ngừng trao dồi và rèn luyện bản thân thường xuyên trên các phương diện:\n\nHàm dưỡng ý chí\n\nMở mang kiến thức\n\nTrau dồi đức hạnh\n\nRèn luyện tài năng.",
       "sourceQuestion": "Quan niệm của môn sinh Phật Quang Quyền về tu thân ra sao?"
     },
     {
@@ -43,72 +46,60 @@
         "gia đình được hòa thuận, ổn định",
         "hạnh phúc"
       ],
-      "explanation": "Tề gia là tổ chức và xây dựng gia đình một cách hợp lý, đặt đúng mối quan hệ, bổn phận và cách đối xử giữa các thành viên để gia đình được hòa thuận, ổn định và hạnh phúc.\nNgười võ sinh Phật Quang Quyền phải biết kính trên, nhường dưới, yêu thương, quan tâm và giúp đỡ lẫn nhau; đồng thời sắp xếp cuộc sống gia đình hài hòa để mọi người cùng tiến bộ và có điều kiện thực hiện những lý tưởng tốt đẹp của mình.",
+      "explanation": "Tề gia là tổ chức và xây dựng gia đình một cách hợp lý, đặt đúng mối quan hệ, bổn phận và cách đối xử giữa các thành viên để gia đình được hòa thuận, ổn định và hạnh phúc.\n\nNgười võ sinh Phật Quang Quyền phải biết kính trên, nhường dưới, yêu thương, quan tâm và giúp đỡ lẫn nhau; đồng thời sắp xếp cuộc sống gia đình hài hòa để mọi người cùng tiến bộ và có điều kiện thực hiện những lý tưởng tốt đẹp của mình.",
       "sourceQuestion": "Võ sinh Phật Quang Quyền phải tề gia như thế nào?"
     },
     {
       "id": "red-lesson-03-q03",
       "lessonId": "red-lesson-03",
       "number": 3,
-      "type": "multiple",
-      "question": "Môn sinh Phật Quang Quyền suy nghĩ sao về tình nghĩa thầy trò hiện nay? (Chọn tất cả đáp án đúng)",
+      "type": "single",
+      "question": "Môn sinh Phật Quang Quyền suy nghĩ sao về tình nghĩa thầy trò hiện nay?",
       "options": [
+        "Hàm dưỡng ý chí",
         "Mở mang kiến thức",
-        "Tề gia là tổ chức và xây dựng gia đình một cách hợp lý, đặt đúng mối quan hệ, bổn phận và cách đối xử giữa các thành…",
-        "Vì vậy, môn sinh Phật Quang Quyền phải luôn tôn sư trọng đạo, kính trọng và…",
-        "Nói chung tình nghĩa thầy trò ngày nay đã suy giảm nhiều vì ảnh hưởng của tư…"
+        "Nói chung tình nghĩa thầy trò ngày nay đã suy giảm nhiều vì ảnh hưởng của tư tưởng tự do, sự phát…",
+        "Vì vậy, môn sinh Phật Quang Quyền phải luôn tôn sư trọng đạo, kính trọng và biết ơn thầy cô của mình."
       ],
-      "correctIndices": [
-        2,
-        3
-      ],
-      "explanation": "Ðáp:\nNói chung tình nghĩa thầy trò ngày nay đã suy giảm nhiều vì ảnh hưởng của tư tưởng tự do, sự phát triển của khoa học kỹ thuật và sự thay đổi của nền giáo dục.\nNgày nay, người học thường trải qua nhiều thầy cô khác nhau nên sự gắn bó không được sâu đậm như trước. Trong khi đó, ngày xưa người thầy không chỉ dạy chữ mà còn dạy đạo đức, nhân cách và cách cư xử ở đời, nên tình nghĩa thầy trò rất sâu nặng.\nVì vậy, môn sinh Phật Quang Quyền phải luôn tôn sư trọng đạo, kính trọng và biết ơn thầy cô của mình.",
+      "correctIndex": 2,
+      "explanation": "Ðáp:\n\nNói chung tình nghĩa thầy trò ngày nay đã suy giảm nhiều vì ảnh hưởng của tư tưởng tự do, sự phát triển của khoa học kỹ thuật và sự thay đổi của nền giáo dục.\n\nNgày nay, người học thường trải qua nhiều thầy cô khác nhau nên sự gắn bó không được sâu đậm như trước. Trong khi đó, ngày xưa người thầy không chỉ dạy chữ mà còn dạy đạo đức, nhân cách và cách cư xử ở đời, nên tình nghĩa thầy trò rất sâu nặng.\n\nVì vậy, môn sinh Phật Quang Quyền phải luôn tôn sư trọng đạo, kính trọng và biết ơn thầy cô của mình.",
       "sourceQuestion": "Môn sinh Phật Quang Quyền suy nghĩ sao về tình nghĩa thầy trò hiện nay?"
     },
     {
       "id": "red-lesson-03-q04",
       "lessonId": "red-lesson-03",
       "number": 4,
-      "type": "matching",
-      "question": "Muốn tình thầy trò được thiêng liêng thân thiết, thầy trò phải đối xử với nhau ra sao? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
-      "options": [],
-      "leftItems": [
-        "Ðáp",
-        "Ðáp",
-        "Bạn tâm giao",
-        "Bạn đồng chí",
-        "Bạn đồng đạo"
+      "type": "multiple",
+      "question": "Muốn tình thầy trò được thiêng liêng thân thiết, thầy trò phải đối xử với nhau ra sao? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Ðáp: Tình thầy trò sâu đậm hay không tùy thuộc vào tư cách và cách cư xử của cả…",
+        "Thầy phải thành thật, tận tâm dạy dỗ, yêu thương và quan tâm học trò.",
+        "5/: Quan niệm về tình bạn của môn sinh Phật Quang Quyền ra sao? Có mấy loại…",
+        "Ðáp: Môn sinh Phật Quang Quyền quan niệm rằng con người không thể sống tách rời…",
+        "Bạn đồng môn: Cùng học một thầy, một trường hoặc một môn phái.",
+        "Bạn đồng nghiệp: Cùng làm một nghề.",
+        "Bạn đồng chí: Cùng chí hướng, cùng lý tưởng và mục đích.",
+        "Bạn đồng đạo: Cùng tôn giáo, nếp sống hoặc quan niệm sống.",
+        "Bạn đồng sự: Cùng làm chung một công việc.",
+        "Về phía học trò, phải trung thực, tôn kính, biết ơn thầy và cố gắng thực hành…",
+        "Bạn tâm giao: Cùng tâm hồn, cùng khuynh hướng, đồng cam cộng khổ.",
+        "Trước hết, người thầy phải xứng đáng là thầy, có đạo đức, tư cách, tác phong…"
       ],
-      "rightItems": [
-        "Môn sinh Phật Quang Quyền quan niệm rằng con người không thể sống tách rời xã…",
-        "Cùng tôn giáo, nếp sống hoặc quan niệm sống.",
-        "Cùng chí hướng, cùng lý tưởng và mục đích.",
-        "Cùng tâm hồn, cùng khuynh hướng, đồng cam cộng khổ.",
-        "Tình thầy trò sâu đậm hay không tùy thuộc vào tư cách và cách cư xử của cả thầy…"
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
       ],
-      "correctPairs": [
-        [
-          0,
-          4
-        ],
-        [
-          1,
-          0
-        ],
-        [
-          2,
-          3
-        ],
-        [
-          3,
-          2
-        ],
-        [
-          4,
-          1
-        ]
-      ],
-      "explanation": "Ðáp: Tình thầy trò sâu đậm hay không tùy thuộc vào tư cách và cách cư xử của cả thầy lẫn trò.\nMuốn tình thầy trò được thiêng liêng, thân thiết:\nTrước hết, người thầy phải xứng đáng là thầy, có đạo đức, tư cách, tác phong mẫu mực và tinh thần phục vụ cao cả.\nThầy phải thành thật, tận tâm dạy dỗ, yêu thương và quan tâm học trò.\nVề phía học trò, phải trung thực, tôn kính, biết ơn thầy và cố gắng thực hành những điều đã được thầy chỉ dạy để làm rạng danh thầy.\n5/:  Quan niệm về tình bạn của môn sinh Phật Quang Quyền ra sao? Có mấy loại bạn? Hảy giải thích đại cương?\nÐáp: Môn sinh Phật Quang Quyền quan niệm rằng con người không thể sống tách rời xã hội nên ai cũng cần có bạn. Bạn bè giúp ta trong công việc, chia sẻ niềm vui, nỗi buồn và hỗ trợ nhau trong cuộc sống. Tuy nhiên, cần sáng suốt trong việc chọn bạn để tránh bị ảnh hưởng bởi những điều xấu hoặc gây hại cho bản thân và cộng đồng.\nCó nhiều loại bạn:\nBạn tâm giao: Cùng tâm hồn, cùng khuynh hướng, đồng cam cộng khổ.\nBạn đồng chí: Cùng chí hướng, cùng lý tưởng và mục đích.\nBạn đồng đạo: Cùng tôn giáo, nếp sống hoặc quan niệm sống.\nBạn đồng môn: Cùng học một thầy, một trường hoặc một môn phái.\nBạn đồng nghiệp: Cùng làm một nghề.\nBạn đồng sự: Cùng làm chung một công việc.",
+      "explanation": "Ðáp: Tình thầy trò sâu đậm hay không tùy thuộc vào tư cách và cách cư xử của cả thầy lẫn trò.\n\nMuốn tình thầy trò được thiêng liêng, thân thiết:\n\nTrước hết, người thầy phải xứng đáng là thầy, có đạo đức, tư cách, tác phong mẫu mực và tinh thần phục vụ cao cả.\n\nThầy phải thành thật, tận tâm dạy dỗ, yêu thương và quan tâm học trò.\n\nVề phía học trò, phải trung thực, tôn kính, biết ơn thầy và cố gắng thực hành những điều đã được thầy chỉ dạy để làm rạng danh thầy.\n\n5/:  Quan niệm về tình bạn của môn sinh Phật Quang Quyền ra sao? Có mấy loại bạn? Hảy giải thích đại cương?\n\nÐáp: Môn sinh Phật Quang Quyền quan niệm rằng con người không thể sống tách rời xã hội nên ai cũng cần có bạn. Bạn bè giúp ta trong công việc, chia sẻ niềm vui, nỗi buồn và hỗ trợ nhau trong cuộc sống. Tuy nhiên, cần sáng suốt trong việc chọn bạn để tránh bị ảnh hưởng bởi những điều xấu hoặc gây hại cho bản thân và cộng đồng.\n\nCó nhiều loại bạn:\n\nBạn tâm giao: Cùng tâm hồn, cùng khuynh hướng, đồng cam cộng khổ.\n\nBạn đồng chí: Cùng chí hướng, cùng lý tưởng và mục đích.\n\nBạn đồng đạo: Cùng tôn giáo, nếp sống hoặc quan niệm sống.\n\nBạn đồng môn: Cùng học một thầy, một trường hoặc một môn phái.\n\nBạn đồng nghiệp: Cùng làm một nghề.\n\nBạn đồng sự: Cùng làm chung một công việc.",
       "sourceQuestion": "Muốn tình thầy trò được thiêng liêng thân thiết, thầy trò phải đối xử với nhau ra sao?"
     },
     {
@@ -118,7 +109,7 @@
       "type": "single",
       "question": "Tình bạn nào cao quý nhất trong tất cả các loại bạn?",
       "options": [
-        "Ðáp: Bạn tâm giao là tình bạn cao quý nhất trong tất cả các loại bạn. Đó là những người có sự đồng cảm, thấu hiểu sâu…",
+        "Ðáp: Bạn tâm giao là tình bạn cao quý nhất trong tất cả các loại bạn. Đó là những người có sự đồng…",
         "Hàm dưỡng ý chí",
         "Mở mang kiến thức",
         "Trau dồi đức hạnh"
@@ -137,7 +128,7 @@
         "Hàm dưỡng ý chí",
         "Mở mang kiến thức",
         "Trau dồi đức hạnh",
-        "Ðáp: Muốn có bạn tâm giao, ta phải sống chân thành, thủy chung và đôn hậu với bạn. Cần hiểu rõ bạn về tài năng, đức độ,…"
+        "Ðáp: Muốn có bạn tâm giao, ta phải sống chân thành, thủy chung và đôn hậu với bạn. Cần hiểu rõ bạn…"
       ],
       "correctIndex": 3,
       "explanation": "Ðáp:  Muốn có bạn tâm giao, ta phải sống chân thành, thủy chung và đôn hậu với bạn. Cần hiểu rõ bạn về tài năng, đức độ, tình cảm và chí hướng; biết khuyến khích, giúp đỡ bạn tiến bộ, hỗ trợ khi bạn gặp khó khăn và chân thành khuyên ngăn khi bạn mắc sai lầm..",
@@ -148,36 +139,36 @@
       "lessonId": "red-lesson-03",
       "number": 7,
       "type": "multiple",
-      "question": "Ðộng cơ nào thúc đẩy người trong một nước phải thương yêu, bao bọc, giúp đỡ lẫn nhau? (Chọn tất cả đáp án đúng)",
+      "question": "Trường hợp nào có thể tha thứ kẻ thù? (Chọn tất cả đáp án đúng)",
       "options": [
-        "Mở mang kiến thức",
-        "Ý thức quốc gia, dân tộc.",
-        "Tình yêu quê hương, đất nước.",
-        "Vì cùng chung một cội nguồn, một dân tộc và cùng xây dựng, bảo vệ đất nước nên…"
+        "Khi họ là người có nghĩa khí, biết điều không cần trái.",
+        "khi họ biết hối lỗi, sửa đổi",
+        "khi họ đã thất thế",
+        "khi họ là người có nghĩa khí, biết điều phải trái."
       ],
       "correctIndices": [
         1,
         2,
         3
       ],
-      "explanation": "Ðáp:\nĐó là tình nghĩa đồng bào, một tình cảm tự nhiên phát sinh từ:\nÝ thức quốc gia, dân tộc.\nTình yêu quê hương, đất nước.\nVì cùng chung một cội nguồn, một dân tộc và cùng xây dựng, bảo vệ đất nước nên mọi người cần thương yêu, đoàn kết, giúp đỡ lẫn nhau trong cuộc sống.",
-      "sourceQuestion": "Ðộng cơ nào thúc đẩy người trong một nước phải thương yêu, bao bọc, giúp đỡ lẫn nhau?"
+      "explanation": "Ðáp:\n\nKẻ thù là người đối nghịch với ta về tình cảm, tư tưởng hoặc hành động, gây tổn hại đến danh dự, quyền lợi hoặc cuộc sống của ta.\n\nTuy nhiên, người môn sinh Phật Quang Quyền không nuôi dưỡng lòng thù hận. Ta có thể tha thứ cho kẻ thù khi họ biết hối lỗi, sửa đổi, khi họ đã thất thế hoặc khi họ là người có nghĩa khí, biết điều phải trái.",
+      "sourceQuestion": "Trường hợp nào có thể tha thứ kẻ thù?"
     },
     {
       "id": "red-lesson-03-q08",
       "lessonId": "red-lesson-03",
       "number": 8,
       "type": "single",
-      "question": "Thế nào là kẻ thù? Trường hợp nào có thể tha thứ kẻ thù?",
+      "question": "Thế nào là kẻ thù?",
       "options": [
         "Tuy nhiên, người môn sinh Phật Quang Quyền không nuôi dưỡng lòng thù hận. Ta có thể tha thứ cho kẻ thù khi họ biết hối…",
-        "Kẻ thù là người đối nghịch với ta về tình cảm, tư tưởng hoặc hành động, gây tổn hại đến danh dự, quyền lợi hoặc cuộc…",
+        "Kẻ thù là người đối nghịch với ta về tình cảm, tư tưởng hoặc hành động, gây tổn hại đến danh dự,…",
         "Mở mang kiến thức",
         "Hàm dưỡng ý chí"
       ],
       "correctIndex": 1,
-      "explanation": "Ðáp:\nKẻ thù là người đối nghịch với ta về tình cảm, tư tưởng hoặc hành động, gây tổn hại đến danh dự, quyền lợi hoặc cuộc sống của ta.\nTuy nhiên, người môn sinh Phật Quang Quyền không nuôi dưỡng lòng thù hận. Ta có thể tha thứ cho kẻ thù khi họ biết hối lỗi, sửa đổi, khi họ đã thất thế hoặc khi họ là người có nghĩa khí, biết điều phải trái.",
-      "sourceQuestion": "Thế nào là kẻ thù? Trường hợp nào có thể tha thứ kẻ thù?"
+      "explanation": "Ðáp:\n\nKẻ thù là người đối nghịch với ta về tình cảm, tư tưởng hoặc hành động, gây tổn hại đến danh dự, quyền lợi hoặc cuộc sống của ta.\n\nTuy nhiên, người môn sinh Phật Quang Quyền không nuôi dưỡng lòng thù hận. Ta có thể tha thứ cho kẻ thù khi họ biết hối lỗi, sửa đổi, khi họ đã thất thế hoặc khi họ là người có nghĩa khí, biết điều phải trái.",
+      "sourceQuestion": "Thế nào là kẻ thù?"
     },
     {
       "id": "red-lesson-03-q09",
@@ -186,122 +177,203 @@
       "type": "single",
       "question": "Khi thấy bạn đồng môn đánh nhau bị thua, ta tới can thiệp mới biết bạn sai, thì ta nên làm gì?",
       "options": [
-        "Bước 1 (Giảng hòa và nhận lỗi): Ngay lập tức can ngăn hai bên; với thái độ nhã nhặn và chững chạc, thay mặt bạn mình…",
+        "Bước 1 (Giảng hòa và nhận lỗi): Ngay lập tức can ngăn hai bên; với thái độ nhã nhặn và chững chạc,…",
         "Bước 3 (Tự vệ cứu bạn): Trường hợp đối phương cậy mình đúng và đang thắng thế, bất chấp lời xin lỗi mà vẫn cố tình xông…",
         "Hàm dưỡng ý chí",
         "Bước 2 (Giáo dục đồng môn): Sau đó, phân tích cho bạn hiểu rõ cái sai để sửa đổi. Nếu bạn vẫn ngoan cố không nhận lỗi,…"
       ],
       "correctIndex": 0,
-      "explanation": "Ðáp:\nKhi gặp tình huống này, người môn sinh phải xử lý theo 3 bước sau:\nBước 1 (Giảng hòa và nhận lỗi): Ngay lập tức can ngăn hai bên; với thái độ nhã nhặn và chững chạc, thay mặt bạn mình chủ động xin lỗi đối phương.\nBước 2 (Giáo dục đồng môn): Sau đó, phân tích cho bạn hiểu rõ cái sai để sửa đổi. Nếu bạn vẫn ngoan cố không nhận lỗi, phải báo cáo lên người có trách nhiệm có biện pháp giáo dục, xử lý.\nBước 3 (Tự vệ cứu bạn): Trường hợp đối phương cậy mình đúng và đang thắng thế, bất chấp lời xin lỗi mà vẫn cố tình xông vào tấn công, ta bắt buộc phải ra tay can thiệp trên tinh thần tự vệ để bảo vệ an toàn cho bạn mình.",
+      "explanation": "Ðáp:\n\nKhi gặp tình huống này, người môn sinh phải xử lý theo 3 bước sau:\n\nBước 1 (Giảng hòa và nhận lỗi): Ngay lập tức can ngăn hai bên; với thái độ nhã nhặn và chững chạc, thay mặt bạn mình chủ động xin lỗi đối phương.\n\nBước 2 (Giáo dục đồng môn): Sau đó, phân tích cho bạn hiểu rõ cái sai để sửa đổi. Nếu bạn vẫn ngoan cố không nhận lỗi, phải báo cáo lên người có trách nhiệm có biện pháp giáo dục, xử lý.\n\nBước 3 (Tự vệ cứu bạn): Trường hợp đối phương cậy mình đúng và đang thắng thế, bất chấp lời xin lỗi mà vẫn cố tình xông vào tấn công, ta bắt buộc phải ra tay can thiệp trên tinh thần tự vệ để bảo vệ an toàn cho bạn mình.",
       "sourceQuestion": "Khi thấy bạn đồng môn đánh nhau bị thua, ta tới can thiệp mới biết bạn sai, thì ta nên làm gì?"
     },
     {
       "id": "red-lesson-03-q10",
       "lessonId": "red-lesson-03",
       "number": 10,
-      "type": "fill",
-      "question": "Tổ quốc là gì? Hai tiếng tổ quốc đã gợi lên trong lòng ta những gì? Điền vào chỗ trống: ______ và ______.",
+      "type": "multiple",
+      "question": "Ðộng cơ nào thúc đẩy người trong một nước phải thương yêu, bao bọc, giúp đỡ lẫn nhau? (Chọn tất cả đáp án đúng)",
       "options": [
-        "đất nước của tổ tiên xây dựng, bảo vệ",
-        "Mở mang kiến thức",
-        "Trước hết, người thầy phải xứng đáng là…",
-        "Bạn tâm giao: Cùng tâm hồn, cùng khuynh…",
-        "để lại cho các thế hệ mai sau",
-        "Bạn đồng nghiệp: Cùng làm một nghề."
+        "Tình yêu quê hương, đất nước.",
+        "Ý thức quốc gia, dân tộc.",
+        "Bạn đồng chí: Cùng chí hướng, cùng lý tưởng và mục đích.",
+        "Về phía học trò, phải trung thực, tôn kính, biết ơn thầy và cố gắng thực hành những điều đã được…",
+        "Nói chung tình nghĩa thầy trò ngày nay đã suy giảm nhiều vì ảnh hưởng của tư tưởng tự do, sự phát…",
+        "Ðáp: Môn sinh Phật Quang Quyền quan niệm rằng con người không thể sống tách rời xã hội nên ai cũng…",
+        "Vì cùng chung một cội nguồn, một dân tộc và cùng xây dựng, bảo vệ đất nước nên…"
       ],
-      "blanks": [
-        "đất nước của tổ tiên xây dựng, bảo vệ",
-        "để lại cho các thế hệ mai sau"
+      "correctIndices": [
+        0,
+        1,
+        6
       ],
-      "explanation": "\"Tổ quốc\" có thể hiểu là đất nước của tổ tiên xây dựng, bảo vệ và để lại cho các thế hệ mai sau. Tổ quốc không phải là tài sản riêng của một cá nhân, một dòng họ, một tổ chức hay một chế độ nào, mà là tài sản chung của cả dân tộc được vun đắp, giữ gìn và phát triển qua hàng nghìn năm lịch sử. Đó là một giá trị thiêng liêng, cao quý và bất khả xâm phạm.\nHai tiếng Tổ quốc gợi lên trong tâm hồn người môn sinh PQQ:\nLòng biết ơn sâu sắc: Nhớ về cội nguồn nòi giống và công ơn thiêng liêng, vĩ đại của tiền nhân trong cuộc tình dựng nước, giữ nước.\nTrách nhiệm phụng sự: Ý thức rõ nghĩa vụ bảo vệ, xây dựng và làm phong phú thêm di sản quý báu mà tổ tiên để lại.\nĐạo đức tâm linh cao cả: Coi tình yêu Tổ quốc là cội nguồn của lòng từ bi, là động lực để tu tập, rèn luyện võ thuật nhằm cống hiến cho giống nòi",
-      "sourceQuestion": "Tổ quốc là gì? Hai tiếng tổ quốc đã gợi lên trong lòng ta những gì?"
+      "explanation": "Ðáp:\n\nĐó là tình nghĩa đồng bào, một tình cảm tự nhiên phát sinh từ:\n\nÝ thức quốc gia, dân tộc.\n\nTình yêu quê hương, đất nước.\n\nVì cùng chung một cội nguồn, một dân tộc và cùng xây dựng, bảo vệ đất nước nên mọi người cần thương yêu, đoàn kết, giúp đỡ lẫn nhau trong cuộc sống.",
+      "sourceQuestion": "Ðộng cơ nào thúc đẩy người trong một nước phải thương yêu, bao bọc, giúp đỡ lẫn nhau?"
     },
     {
       "id": "red-lesson-03-q11",
       "lessonId": "red-lesson-03",
       "number": 11,
-      "type": "single",
-      "question": "Môn sinh Phật Quang Quyền quan niệm ra sao về tình nhân loại?",
-      "options": [
-        "Người môn sinh Phật Quang Quyền yêu nước, giữ gìn độc lập dân tộc nhưng không cực đoan, không kỳ thị hay xem thường dân…",
-        "Trau dồi đức hạnh",
-        "Mở mang kiến thức",
-        "Hàm dưỡng ý chí"
+      "type": "matching",
+      "question": "Tổ quốc là gì? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
+      "options": [],
+      "leftItems": [
+        "Lòng biết ơn sâu sắc",
+        "Trách nhiệm phụng sự",
+        "Đạo đức tâm linh cao cả"
       ],
-      "correctIndex": 0,
-      "explanation": "Ðáp:\nMôn sinh Phật Quang Quyền quan niệm rằng tình nhân loại là tình thương yêu rộng lớn đối với mọi người. Mọi con người đều bình đẳng về nhân phẩm, trách nhiệm và quyền lợi.\nNgười môn sinh Phật Quang Quyền yêu nước, giữ gìn độc lập dân tộc nhưng không cực đoan, không kỳ thị hay xem thường dân tộc khác.\nPhục vụ đồng bào và dân tộc là bước khởi đầu để phục vụ nhân loại. Vì vậy, người môn sinh phải tôn trọng sự khác biệt về văn hóa, xã hội và quan điểm giữa các dân tộc; đồng thời góp phần xây dựng tình đoàn kết, hữu nghị, hòa bình và hạnh phúc cho mọi người trên thế giới.",
-      "sourceQuestion": "Môn sinh Phật Quang Quyền quan niệm ra sao về tình nhân loại?"
+      "rightItems": [
+        "Nhớ về cội nguồn nòi giống và công ơn thiêng liêng, vĩ đại của tiền nhân trong…",
+        "Coi tình yêu Tổ quốc là cội nguồn của lòng từ bi, là động lực để tu tập, rèn…",
+        "Ý thức rõ nghĩa vụ bảo vệ, xây dựng và làm phong phú thêm di sản quý báu mà tổ…"
+      ],
+      "correctPairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "explanation": "\"Tổ quốc\" có thể hiểu là đất nước của tổ tiên xây dựng, bảo vệ và để lại cho các thế hệ mai sau. Tổ quốc không phải là tài sản riêng của một cá nhân, một dòng họ, một tổ chức hay một chế độ nào, mà là tài sản chung của cả dân tộc được vun đắp, giữ gìn và phát triển qua hàng nghìn năm lịch sử. Đó là một giá trị thiêng liêng, cao quý và bất khả xâm phạm.\n\nHai tiếng Tổ quốc gợi lên trong tâm hồn người môn sinh PQQ:\n\nLòng biết ơn sâu sắc: Nhớ về cội nguồn nòi giống và công ơn thiêng liêng, vĩ đại của tiền nhân trong cuộc tình dựng nước, giữ nước.\n\nTrách nhiệm phụng sự: Ý thức rõ nghĩa vụ bảo vệ, xây dựng và làm phong phú thêm di sản quý báu mà tổ tiên để lại.\n\nĐạo đức tâm linh cao cả: Coi tình yêu Tổ quốc là cội nguồn của lòng từ bi, là động lực để tu tập, rèn luyện võ thuật nhằm cống hiến cho giống nòi",
+      "sourceQuestion": "Tổ quốc là gì?"
     },
     {
       "id": "red-lesson-03-q12",
       "lessonId": "red-lesson-03",
       "number": 12,
-      "type": "single",
-      "question": "Hỏi:Kết thân riêng là gì?",
-      "options": [
-        "Hàm dưỡng ý chí",
-        "Trau dồi đức hạnh",
-        "Kết thân riêng là chỉ gần gũi, quan tâm và ưu ái một vài người mà thờ ơ hoặc xa cách với những người khác trong tập thể.",
-        "Mở mang kiến thức"
+      "type": "ordering",
+      "question": "Hai tiếng tổ quốc đã gợi lên trong lòng ta những gì? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Đạo đức tâm linh cao cả: Coi tình yêu Tổ quốc là cội nguồn của lòng từ bi, là động lực để…",
+        "Lòng biết ơn sâu sắc: Nhớ về cội nguồn nòi giống và công ơn thiêng liêng, vĩ đại của tiền…",
+        "Trách nhiệm phụng sự: Ý thức rõ nghĩa vụ bảo vệ, xây dựng và làm phong phú thêm di sản…"
       ],
-      "correctIndex": 2,
-      "explanation": "Kết thân riêng là chỉ gần gũi, quan tâm và ưu ái một vài người mà thờ ơ hoặc xa cách với những người khác trong tập thể.",
-      "sourceQuestion": "Hỏi:Kết thân riêng là gì?"
+      "correctOrder": [
+        1,
+        2,
+        0
+      ],
+      "explanation": "\"Tổ quốc\" có thể hiểu là đất nước của tổ tiên xây dựng, bảo vệ và để lại cho các thế hệ mai sau. Tổ quốc không phải là tài sản riêng của một cá nhân, một dòng họ, một tổ chức hay một chế độ nào, mà là tài sản chung của cả dân tộc được vun đắp, giữ gìn và phát triển qua hàng nghìn năm lịch sử. Đó là một giá trị thiêng liêng, cao quý và bất khả xâm phạm.\n\nHai tiếng Tổ quốc gợi lên trong tâm hồn người môn sinh PQQ:\n\nLòng biết ơn sâu sắc: Nhớ về cội nguồn nòi giống và công ơn thiêng liêng, vĩ đại của tiền nhân trong cuộc tình dựng nước, giữ nước.\n\nTrách nhiệm phụng sự: Ý thức rõ nghĩa vụ bảo vệ, xây dựng và làm phong phú thêm di sản quý báu mà tổ tiên để lại.\n\nĐạo đức tâm linh cao cả: Coi tình yêu Tổ quốc là cội nguồn của lòng từ bi, là động lực để tu tập, rèn luyện võ thuật nhằm cống hiến cho giống nòi",
+      "sourceQuestion": "Hai tiếng tổ quốc đã gợi lên trong lòng ta những gì?"
     },
     {
       "id": "red-lesson-03-q13",
       "lessonId": "red-lesson-03",
       "number": 13,
-      "type": "multiple",
-      "question": "NÊU XUẤT XỨ VÀ LỜI THIỆU BÀI QUYỀN QUY ĐỊNH THÁI CƠN CÔN:? (Chọn tất cả đáp án đúng)",
+      "type": "single",
+      "question": "Môn sinh Phật Quang Quyền quan niệm ra sao về tình nhân loại?",
       "options": [
-        "Bài Thái Sơn Côn được trích từ một tập tư liệu võ thuật cổ viết bằng chữ Hán -…",
-        "II. LỜI THIỆU",
-        "Thái sơn trích thuỷ địa xà liên.",
-        "Bái tổ Thái Sơn Côn.",
-        "Ngày nay, Liên đoàn Võ thuật Cổ truyền Việt Nam đã đưa bài Thái Sơn Côn vào…",
-        "I. XUẤT XỨ"
+        "Người môn sinh Phật Quang Quyền yêu nước, giữ gìn độc lập dân tộc nhưng không cực đoan, không kỳ…",
+        "Mở mang kiến thức",
+        "Hàm dưỡng ý chí",
+        "Trau dồi đức hạnh"
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "explanation": "I. XUẤT XỨ\nBài Thái Sơn Côn được trích từ một tập tư liệu võ thuật cổ viết bằng chữ Hán - Nôm, được sưu tầm tại võ đường Phan Thọ, xã Bình Nghi, huyện Tây Sơn, tỉnh Bình Định. Lời thiệu bài do ông Đào Thống ký tên.\nXuất xứ của bài côn đã góp phần khẳng định những đặc trưng về võ thuật, văn hóa và địa danh của vùng đất Tây Sơn - Bình Định. Vì vậy, bài quyền này được lưu truyền và phổ biến rộng rãi trong nhiều môn phái võ cổ truyền Bình Định.\nNgày nay, Liên đoàn Võ thuật Cổ truyền Việt Nam đã đưa bài Thái Sơn Côn vào chương trình huấn luyện và thi đấu thống nhất trên phạm vi cả nước.\nII. LỜI THIỆU\nBái tổ Thái Sơn Côn.\nThái sơn trích thuỷ địa xà liên.\nThương thượng lộng ky, lân thoái bạch viên.\nHuy ky độc giác trung bình hạ.\nThượng thích đại đăng tấn thừa thiên.\nHồi đầu trực chỉ liên tam thích.\nĐồng Tân thuận thế gián vân biên.\nTẩu độc thố, Trưng Sơn hoành gián kiếm.\nLinh miêu mai phục tấn thích ngưu.\nThừa châu bố địa khai côn thích.\nHồi tiểu kim kê đả trung lang.\nPhi phong tẩu võ khai ngưu giác.\nTiểu tử tam phiền giá mã an.\nBái Tổ Sư, lập như tiền.",
-      "sourceQuestion": "NÊU XUẤT XỨ VÀ LỜI THIỆU BÀI QUYỀN QUY ĐỊNH THÁI CƠN CÔN:"
+      "correctIndex": 0,
+      "explanation": "Ðáp:\n\nMôn sinh Phật Quang Quyền quan niệm rằng tình nhân loại là tình thương yêu rộng lớn đối với mọi người. Mọi con người đều bình đẳng về nhân phẩm, trách nhiệm và quyền lợi.\n\nNgười môn sinh Phật Quang Quyền yêu nước, giữ gìn độc lập dân tộc nhưng không cực đoan, không kỳ thị hay xem thường dân tộc khác.\n\nPhục vụ đồng bào và dân tộc là bước khởi đầu để phục vụ nhân loại. Vì vậy, người môn sinh phải tôn trọng sự khác biệt về văn hóa, xã hội và quan điểm giữa các dân tộc; đồng thời góp phần xây dựng tình đoàn kết, hữu nghị, hòa bình và hạnh phúc cho mọi người trên thế giới.",
+      "sourceQuestion": "Môn sinh Phật Quang Quyền quan niệm ra sao về tình nhân loại?"
     },
     {
       "id": "red-lesson-03-q14",
       "lessonId": "red-lesson-03",
       "number": 14,
       "type": "single",
-      "question": "Hỏi: Người môn sinh Phật Quang Quyền thực hành tinh thần không kết thân riêng như thế nào?",
+      "question": "Hỏi:Kết thân riêng là gì?",
       "options": [
         "Hàm dưỡng ý chí",
         "Trau dồi đức hạnh",
         "Mở mang kiến thức",
-        "Luôn cư xử hòa nhã, tôn trọng và quan tâm đến mọi người một cách công bằng; biết quý trọng người có đức hạnh nhưng…"
+        "Kết thân riêng là chỉ gần gũi, quan tâm và ưu ái một vài người mà thờ ơ hoặc xa cách với những…"
       ],
       "correctIndex": 3,
-      "explanation": "Luôn cư xử hòa nhã, tôn trọng và quan tâm đến mọi người một cách công bằng; biết quý trọng người có đức hạnh nhưng không thiên vị, không tạo phe nhóm và luôn đặt lợi ích chung của tập thể lên trên tình cảm riêng tư.",
-      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền thực hành tinh thần không kết thân riêng như thế nào?"
+      "explanation": "Kết thân riêng là chỉ gần gũi, quan tâm và ưu ái một vài người mà thờ ơ hoặc xa cách với những người khác trong tập thể.",
+      "sourceQuestion": "Hỏi:Kết thân riêng là gì?"
     },
     {
       "id": "red-lesson-03-q15",
       "lessonId": "red-lesson-03",
       "number": 15,
+      "type": "ordering",
+      "question": "NÊU XUẤT XỨ VÀ LỜI THIỆU BÀI QUYỀN QUY ĐỊNH THÁI CƠN CÔN:? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Bái tổ Thái Sơn Côn.",
+        "Thừa châu bố địa khai côn thích.",
+        "Thái sơn trích thuỷ địa xà liên.",
+        "Huy ky độc giác trung bình hạ.",
+        "Bài Thái Sơn Côn được trích từ một tập tư liệu võ thuật cổ viết bằng chữ Hán - Nôm, được…",
+        "Linh miêu mai phục tấn thích ngưu.",
+        "I. XUẤT XỨ",
+        "Tiểu tử tam phiền giá mã an.",
+        "Hồi đầu trực chỉ liên tam thích.",
+        "Tẩu độc thố, Trưng Sơn hoành gián kiếm.",
+        "II. LỜI THIỆU",
+        "Hồi tiểu kim kê đả trung lang.",
+        "Thượng thích đại đăng tấn thừa thiên.",
+        "Phi phong tẩu võ khai ngưu giác.",
+        "Bái Tổ Sư, lập như tiền.",
+        "Đồng Tân thuận thế gián vân biên.",
+        "Ngày nay, Liên đoàn Võ thuật Cổ truyền Việt Nam đã đưa bài Thái Sơn Côn vào chương trình…",
+        "Thương thượng lộng ky, lân thoái bạch viên."
+      ],
+      "correctOrder": [
+        6,
+        4,
+        16,
+        10,
+        0,
+        2,
+        17,
+        3,
+        12,
+        8,
+        15,
+        9,
+        5,
+        1,
+        11,
+        13,
+        7,
+        14
+      ],
+      "explanation": "I. XUẤT XỨ\n\nBài Thái Sơn Côn được trích từ một tập tư liệu võ thuật cổ viết bằng chữ Hán - Nôm, được sưu tầm tại võ đường Phan Thọ, xã Bình Nghi, huyện Tây Sơn, tỉnh Bình Định. Lời thiệu bài do ông Đào Thống ký tên.\n\nXuất xứ của bài côn đã góp phần khẳng định những đặc trưng về võ thuật, văn hóa và địa danh của vùng đất Tây Sơn - Bình Định. Vì vậy, bài quyền này được lưu truyền và phổ biến rộng rãi trong nhiều môn phái võ cổ truyền Bình Định.\n\nNgày nay, Liên đoàn Võ thuật Cổ truyền Việt Nam đã đưa bài Thái Sơn Côn vào chương trình huấn luyện và thi đấu thống nhất trên phạm vi cả nước.\n\nII. LỜI THIỆU\n\nBái tổ Thái Sơn Côn.\n\nThái sơn trích thuỷ địa xà liên.\n\nThương thượng lộng ky, lân thoái bạch viên.\n\nHuy ky độc giác trung bình hạ.\n\nThượng thích đại đăng tấn thừa thiên.\n\nHồi đầu trực chỉ liên tam thích.\n\nĐồng Tân thuận thế gián vân biên.\n\nTẩu độc thố, Trưng Sơn hoành gián kiếm.\n\nLinh miêu mai phục tấn thích ngưu.\n\nThừa châu bố địa khai côn thích.\n\nHồi tiểu kim kê đả trung lang.\n\nPhi phong tẩu võ khai ngưu giác.\n\nTiểu tử tam phiền giá mã an.\n\nBái Tổ Sư, lập như tiền.",
+      "sourceQuestion": "NÊU XUẤT XỨ VÀ LỜI THIỆU BÀI QUYỀN QUY ĐỊNH THÁI CƠN CÔN:"
+    },
+    {
+      "id": "red-lesson-03-q16",
+      "lessonId": "red-lesson-03",
+      "number": 16,
+      "type": "single",
+      "question": "Hỏi: Người môn sinh Phật Quang Quyền thực hành tinh thần không kết thân riêng như thế nào?",
+      "options": [
+        "Trau dồi đức hạnh",
+        "Luôn cư xử hòa nhã, tôn trọng và quan tâm đến mọi người một cách công bằng; biết quý trọng người có…",
+        "Hàm dưỡng ý chí",
+        "Mở mang kiến thức"
+      ],
+      "correctIndex": 1,
+      "explanation": "Luôn cư xử hòa nhã, tôn trọng và quan tâm đến mọi người một cách công bằng; biết quý trọng người có đức hạnh nhưng không thiên vị, không tạo phe nhóm và luôn đặt lợi ích chung của tập thể lên trên tình cảm riêng tư.",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền thực hành tinh thần không kết thân riêng như thế nào?"
+    },
+    {
+      "id": "red-lesson-03-q17",
+      "lessonId": "red-lesson-03",
+      "number": 17,
       "type": "single",
       "question": "Hỏi: Tác hại của việc kết thân riêng đối với người môn sinh Phật Quang Quyền là gì?",
       "options": [
-        "Kết thân riêng dễ dẫn đến thiên vị, chia bè phái, làm mất tinh thần đoàn kết và công bằng trong tập thể. Khi đó, con…",
         "Mở mang kiến thức",
-        "Hàm dưỡng ý chí",
-        "Trau dồi đức hạnh"
+        "Trau dồi đức hạnh",
+        "Kết thân riêng dễ dẫn đến thiên vị, chia bè phái, làm mất tinh thần đoàn kết và công bằng trong tập…",
+        "Hàm dưỡng ý chí"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Kết thân riêng dễ dẫn đến thiên vị, chia bè phái, làm mất tinh thần đoàn kết và công bằng trong tập thể. Khi đó, con người dễ bị chi phối bởi tình cảm riêng mà không còn nhìn nhận sự việc một cách khách quan.",
       "sourceQuestion": "Hỏi: Tác hại của việc kết thân riêng đối với người môn sinh Phật Quang Quyền là gì?"
     }

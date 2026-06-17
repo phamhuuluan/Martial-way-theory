@@ -7,47 +7,48 @@
       "id": "blue-lesson-02-q01",
       "lessonId": "blue-lesson-02",
       "number": 1,
-      "type": "multiple",
-      "question": "Muốn phát huy môn phái võ sinh PQQ phải làm gì? (Chọn tất cả đáp án đúng)",
-      "options": [
-        "Với bạn bè giữ chữ tín, sống nghĩa tình",
+      "type": "ordering",
+      "question": "Muốn phát huy môn phái võ sinh PQQ phải làm gì? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Đối với Thầy Tổ môn phái phải trung thành, kính trọng",
+        "Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và…",
+        "Với xã hội; là người công dân tốt.",
         "Đối với đất nước: phải có lòng yêu nước nồng nàn.",
         "Trong gia đình là người cha từ, con hiếu, anh hiền, em thảo",
-        "Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ…",
-        "Với xã hội; là người công dân tốt.",
-        "Đối với Thầy Tổ môn phái phải trung thành, kính trọng"
+        "Với bạn bè giữ chữ tín, sống nghĩa tình"
       ],
-      "correctIndices": [
-        0,
+      "correctOrder": [
         1,
-        2,
-        3,
         4,
-        5
+        5,
+        2,
+        0,
+        3
       ],
-      "explanation": "Muốn phát huy môn phái võ sinh PQQ phải:\nSiêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và võ đạo.\nThực hành tinh thần võ đạo của môn phái trong đời sống hằng ngày:\nTrong gia đình là người cha từ, con hiếu, anh hiền, em thảo\nVới bạn bè giữ chữ tín, sống nghĩa tình\nVới xã hội; là người công dân tốt.\nĐối với Thầy Tổ môn phái phải trung thành, kính trọng\nĐối với đất nước: phải có lòng yêu nước nồng nàn.",
+      "explanation": "Muốn phát huy môn phái võ sinh PQQ phải:\n\nSiêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và võ đạo.\n\nThực hành tinh thần võ đạo của môn phái trong đời sống hằng ngày:\n\nTrong gia đình là người cha từ, con hiếu, anh hiền, em thảo\n\nVới bạn bè giữ chữ tín, sống nghĩa tình\n\nVới xã hội; là người công dân tốt.\n\nĐối với Thầy Tổ môn phái phải trung thành, kính trọng\n\nĐối với đất nước: phải có lòng yêu nước nồng nàn.",
       "sourceQuestion": "Muốn phát huy môn phái võ sinh PQQ phải làm gì?"
     },
     {
       "id": "blue-lesson-02-q02",
       "lessonId": "blue-lesson-02",
       "number": 2,
-      "type": "multiple",
-      "question": "Cho biết nghĩa vụ của môn sinh PQQ đối với dân tộc như thế nào? (Chọn tất cả đáp án đúng)",
-      "options": [
-        "Với bạn bè giữ chữ tín, sống nghĩa tình",
-        "Nuôi dưỡng lòng yêu nước, góp phần bảo vệ và xây dựng đất nước.",
-        "Biết tu dưỡng, diệt trừ bản ngã.",
+      "type": "ordering",
+      "question": "Cho biết nghĩa vụ của môn sinh PQQ đối với dân tộc như thế nào? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
         "Biết phụng sự và giúp đỡ mọi người.",
-        "Biết yêu thương và chia sẻ với mọi người."
+        "Biết yêu thương và chia sẻ với mọi người.",
+        "Nuôi dưỡng lòng yêu nước, góp phần bảo vệ và xây dựng đất nước.",
+        "Biết tu dưỡng, diệt trừ bản ngã."
       ],
-      "correctIndices": [
-        1,
-        2,
+      "correctOrder": [
+        0,
         3,
-        4
+        1,
+        2
       ],
-      "explanation": "Nghĩa vụ của môn sinh PQQ là phải xây dựng một thế hệ thanh niên PQQ có những phẩm chất:\n  Biết phụng sự và giúp đỡ mọi người.\n  Biết tu dưỡng, diệt trừ bản ngã.\n  Biết yêu thương và chia sẻ với mọi người.\n  Nuôi dưỡng lòng yêu nước, góp phần bảo vệ và xây dựng đất nước.",
+      "explanation": "Nghĩa vụ của môn sinh PQQ là phải xây dựng một thế hệ thanh niên PQQ có những phẩm chất:\n\n  Biết phụng sự và giúp đỡ mọi người.\n\n  Biết tu dưỡng, diệt trừ bản ngã.\n\n  Biết yêu thương và chia sẻ với mọi người.\n\n  Nuôi dưỡng lòng yêu nước, góp phần bảo vệ và xây dựng đất nước.",
       "sourceQuestion": "Cho biết nghĩa vụ của môn sinh PQQ đối với dân tộc như thế nào?"
     },
     {
@@ -59,7 +60,7 @@
       "options": [
         "Trong gia đình là người cha từ, con hiếu, anh hiền, em thảo",
         "Với bạn bè giữ chữ tín, sống nghĩa tình",
-        "Vì đoàn kết là yếu tố quan trọng quyết định sự vững mạnh hay tan rã của một tập thể. Khi mọi người biết đoàn kết, yêu…",
+        "Vì đoàn kết là yếu tố quan trọng quyết định sự vững mạnh hay tan rã của một tập thể. Khi mọi người…",
         "Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và võ đạo."
       ],
       "correctIndex": 2,
@@ -70,16 +71,20 @@
       "id": "blue-lesson-02-q04",
       "lessonId": "blue-lesson-02",
       "number": 4,
-      "type": "scenario",
-      "question": "Tình huống: Một môn sinh không chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.\n\nTheo bài học, quy định hoặc nguyên lý nào bị vi phạm?",
+      "type": "multiple",
+      "question": "Muốn xây dựng tình đoàn kết trong môn phái, Môn sinh PQQ phải làm gì? (Chọn tất cả đáp án đúng)",
       "options": [
-        "Khi có hiểu lầm, phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
-        "Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và võ đạo.",
-        "Trong gia đình là người cha từ, con hiếu, anh hiền, em thảo",
-        "Với bạn bè giữ chữ tín, sống nghĩa tình"
+        "Loại bỏ thành kiến cá nhân và lòng ích kỷ.",
+        "Khi có hiểu lầm, không cần chân thành trao đổi và giải quyết trong tinh thần xây…",
+        "Khi có hiểu lầm, phải chân thành trao đổi và giải quyết trong tinh thần xây…",
+        "Biết bỏ qua tự ái, thù hằn và mâu thuẫn."
       ],
-      "correctIndex": 0,
-      "explanation": "Muốn xây dựng tình đoàn kết trong môn phái, môn sinh PQQ  phải:\n  Loại bỏ thành kiến cá nhân và lòng ích kỷ.\n  Biết bỏ qua tự ái, thù hằn và mâu thuẫn.\n  Khi có hiểu lầm, phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
+      "correctIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Muốn xây dựng tình đoàn kết trong môn phái, môn sinh PQQ  phải:\n\n  Loại bỏ thành kiến cá nhân và lòng ích kỷ.\n\n  Biết bỏ qua tự ái, thù hằn và mâu thuẫn.\n\n  Khi có hiểu lầm, phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
       "sourceQuestion": "Muốn xây dựng tình đoàn kết trong môn phái, Môn sinh PQQ phải làm gì?"
     },
     {
@@ -89,7 +94,7 @@
       "type": "single",
       "question": "Cho biết thế nào là anh hùng cá nhân chủ nghĩa?",
       "options": [
-        "Anh hùng cá nhân chủ nghĩa là người tuy có tài năng nhưng sống ích kỷ, đặt lợi ích cá nhân lên trên tập thể, thiếu tinh…",
+        "Anh hùng cá nhân chủ nghĩa là người tuy có tài năng nhưng sống ích kỷ, đặt lợi ích cá nhân lên trên…",
         "Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và võ đạo.",
         "Trong gia đình là người cha từ, con hiếu, anh hiền, em thảo",
         "Với bạn bè giữ chữ tín, sống nghĩa tình"
@@ -108,7 +113,7 @@
         "danh dự của tập thể",
         "2. Bậc Sơ đẳng: Cấp 1 đến cấp 8",
         "Với xã hội; là người công dân tốt.",
-        "Biết tu dưỡng, diệt trừ bản ngã.",
+        "Đức tính: Chính trực – Thanh khiết.",
         "3. Bậc Trung đẳng: Cấp 9 đến cấp 16",
         "môn phái"
       ],
@@ -124,7 +129,7 @@
       "lessonId": "blue-lesson-02",
       "number": 7,
       "type": "matching",
-      "question": "Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao? Đai Môn phái Phật Quang Quyền dùng 6 màu để phân cấp gồm: Nâu, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng.? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
+      "question": "Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
       "options": [],
       "leftItems": [
         "Đức tính",
@@ -162,68 +167,123 @@
           1
         ]
       ],
-      "explanation": "1. Nâu (Màu chủ đạo của Phật Quang Quyền)\nTượng trưng cho màu áo nâu của Phật giáo Việt Nam.\nBiểu hiện sự giản dị, bền bỉ, khiêm cung và đời sống phạm hạnh.\nLà nền tảng xuyên suốt của toàn bộ hệ thống đai.\n2. Xanh Lam (Thủy – Nước)\nTượng trưng cho sự mềm mại, khiêm tốn và thích nghi.\nNhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi.\nĐức tính: Khiêm hạ – Nhẫn nhục.\n3. Xanh Lục (Mộc – Cây)\nTượng trưng cho sự sinh trưởng và phát triển.\nNhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức.\nĐức tính: Siêng năng – Vươn lên.\n4. Đỏ (Hỏa – Lửa)\nTượng trưng cho nhiệt huyết, ý chí và lòng dũng cảm.\nNhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận.\nĐức tính: Dũng cảm – Tinh tấn.\n5. Vàng (Thổ – Đất)\nTượng trưng cho sự vững chắc và bao dung.\nNhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự.\nĐức tính: Vững vàng – Bao dung.\n6. Trắng (Kim – Kim loại)\nTượng trưng cho sự trong sáng, chính trực và bản lĩnh.\nNhắc người võ sinh giữ tâm thanh tịnh, công bằng và danh dự.\nĐức tính: Chính trực – Thanh khiết.",
-      "sourceQuestion": "Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao? Đai Môn phái Phật Quang Quyền dùng 6 màu để phân cấp gồm: Nâu, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng."
+      "explanation": "1. Nâu (Màu chủ đạo của Phật Quang Quyền)\n\nTượng trưng cho màu áo nâu của Phật giáo Việt Nam.\n\nBiểu hiện sự giản dị, bền bỉ, khiêm cung và đời sống phạm hạnh.\n\nLà nền tảng xuyên suốt của toàn bộ hệ thống đai.\n\n2. Xanh Lam (Thủy – Nước)\n\nTượng trưng cho sự mềm mại, khiêm tốn và thích nghi.\n\nNhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi.\n\nĐức tính: Khiêm hạ – Nhẫn nhục.\n\n3. Xanh Lục (Mộc – Cây)\n\nTượng trưng cho sự sinh trưởng và phát triển.\n\nNhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức.\n\nĐức tính: Siêng năng – Vươn lên.\n\n4. Đỏ (Hỏa – Lửa)\n\nTượng trưng cho nhiệt huyết, ý chí và lòng dũng cảm.\n\nNhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận.\n\nĐức tính: Dũng cảm – Tinh tấn.\n\n5. Vàng (Thổ – Đất)\n\nTượng trưng cho sự vững chắc và bao dung.\n\nNhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự.\n\nĐức tính: Vững vàng – Bao dung.\n\n6. Trắng (Kim – Kim loại)\n\nTượng trưng cho sự trong sáng, chính trực và bản lĩnh.\n\nNhắc người võ sinh giữ tâm thanh tịnh, công bằng và danh dự.\n\nĐức tính: Chính trực – Thanh khiết.",
+      "sourceQuestion": "Môn phái Phật Quang Quyền (PQQ) có mấy màu đai?"
     },
     {
       "id": "blue-lesson-02-q08",
       "lessonId": "blue-lesson-02",
       "number": 8,
-      "type": "single",
-      "question": "Các quy định về trang phục môn phái Phật Quang Quyền.?",
+      "type": "scenario",
+      "question": "Tình huống: Theo bài học, một môn sinh không biết kiểm soát nóng giận.\n\nTheo nội dung bài học, lựa chọn nào phù hợp nhất?",
       "options": [
-        "Võ phục môn phái có cổ áo chéo bên phải, phù hiệu môn phái ở ngực trái, bảng tên thêu dưới phù hiệu mp, màu bản tên…",
-        "Môn phái sử dụng 2 loại võ phục: võ phục theo quy định của Liên đoàn Võ cổ truyền Việt Nam và võ phục riêng của môn…",
-        "Chưởng môn, Phó Chưởng môn: Võ phục nâu đen, cổ áo màu vàng.",
-        "Chưởng môn Sáng Tổ: Võ phục màu vàng đất."
+        "Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và võ đạo.",
+        "Nhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức.",
+        "Nhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận.",
+        "Trong gia đình là người cha từ, con hiếu, anh hiền, em thảo"
       ],
-      "correctIndex": 1,
-      "explanation": "Môn phái sử dụng 2 loại võ phục: võ phục theo quy định của Liên đoàn Võ cổ truyền Việt Nam và võ phục riêng của môn phái màu nâu đen.\nVõ phục môn phái có cổ áo chéo bên phải, phù hiệu môn phái ở ngực trái, bảng tên thêu dưới phù hiệu mp, màu bản tên theo màu cấp bậc của đai.\nChưởng môn Sáng Tổ: Võ phục màu vàng đất.\nChưởng môn, Phó Chưởng môn: Võ phục nâu đen, cổ áo màu vàng.\nCác thành viên khác: Võ phục nâu đen.",
-      "sourceQuestion": "Các quy định về trang phục môn phái Phật Quang Quyền.?"
+      "correctIndex": 2,
+      "explanation": "1. Nâu (Màu chủ đạo của Phật Quang Quyền)\n\nTượng trưng cho màu áo nâu của Phật giáo Việt Nam.\n\nBiểu hiện sự giản dị, bền bỉ, khiêm cung và đời sống phạm hạnh.\n\nLà nền tảng xuyên suốt của toàn bộ hệ thống đai.\n\n2. Xanh Lam (Thủy – Nước)\n\nTượng trưng cho sự mềm mại, khiêm tốn và thích nghi.\n\nNhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi.\n\nĐức tính: Khiêm hạ – Nhẫn nhục.\n\n3. Xanh Lục (Mộc – Cây)\n\nTượng trưng cho sự sinh trưởng và phát triển.\n\nNhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức.\n\nĐức tính: Siêng năng – Vươn lên.\n\n4. Đỏ (Hỏa – Lửa)\n\nTượng trưng cho nhiệt huyết, ý chí và lòng dũng cảm.\n\nNhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận.\n\nĐức tính: Dũng cảm – Tinh tấn.\n\n5. Vàng (Thổ – Đất)\n\nTượng trưng cho sự vững chắc và bao dung.\n\nNhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự.\n\nĐức tính: Vững vàng – Bao dung.\n\n6. Trắng (Kim – Kim loại)\n\nTượng trưng cho sự trong sáng, chính trực và bản lĩnh.\n\nNhắc người võ sinh giữ tâm thanh tịnh, công bằng và danh dự.\n\nĐức tính: Chính trực – Thanh khiết.",
+      "sourceQuestion": "Ý nghĩa ra sao?"
     },
     {
       "id": "blue-lesson-02-q09",
       "lessonId": "blue-lesson-02",
       "number": 9,
       "type": "multiple",
-      "question": "Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào? (Chọn tất cả đáp án đúng)",
+      "question": "Đai Môn phái Phật Quang Quyền dùng 6 màu để phân cấp gồm: Nâu, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng.? (Chọn tất cả đáp án đúng)",
       "options": [
-        "Lục đai: đai nâu viền xanh lục, có 4 vạch đỏ.( cấp 5 đến cấp 8)Mỗi vạch tập…",
-        "Bậc Sơ đẳng: Cấp 1 đến cấp 8",
-        "Lam đai: đai nâu viền xanh lam, có 4 vạch xanh lá. (Cấp 1 đến cấp 4)Mỗi vạch…",
-        "Danh xưng: Võ sinh.",
-        "Dành cho lớp căn bản tự vệ.",
-        "Đai nâu: cùng màu võ phục, chưa tính cấp."
+        "Trắng (Kim – Kim loại)",
+        "Xanh Lam (Thủy – Nước)",
+        "Bạch đai đệ ngũ cấp: đai nâu viền trắng, có tua trắng hai đầu 5 vạch (xanh lam + xanh lục + đỏ +…",
+        "Khi có hiểu lầm, phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
+        "Nhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự.",
+        "Vàng (Thổ – Đất)",
+        "Xanh Lục (Mộc – Cây)",
+        "1. Nâu (Màu chủ đạo của Phật Quang Quyền)",
+        "Nâu (Màu chủ đạo của Phật Quang Quyền)"
       ],
       "correctIndices": [
         0,
         1,
-        2,
-        3,
-        4,
-        5
+        5,
+        6,
+        8
       ],
-      "explanation": "Môn phái Phật Quang Quyền có 6 màu đai, 26 cấp và 5 bậc, gồm:\n1. Bậc Tự vệ\nĐai nâu: cùng màu võ phục, chưa tính cấp.\nDành cho lớp căn bản tự vệ.\n2. Bậc Sơ đẳng: Cấp 1 đến cấp 8\nLam đai: đai nâu viền xanh lam, có 4 vạch xanh lá. (Cấp 1 đến cấp 4)Mỗi vạch tập luyện 3 tháng.\nLục đai: đai nâu viền xanh lục, có 4 vạch đỏ.( cấp 5 đến cấp 8)Mỗi vạch tập luyện 4 tháng.\nDanh xưng: Võ sinh.\n3. Bậc Trung đẳng: Cấp 9 đến cấp 16\nHồng đai: đai nâu viền đỏ, có 1 đến 4 vạch vàng. Cấp 9 đến cấp 12Danh xưng: Hướng dẫn viên  cấp 1 đến cấp 4.Thời gian: mỗi cấp 6 tháng.\nHoàng đai: đai nâu viền vàng, có 1 đến 4 vạch trắng. cấp 13 đến cấp 16 ( 1 đẳng đến 4 đẳng)Danh xưng:\nHoàng đai 1: Huấn luyện viên sơ cấp – 2 năm.\nHoàng đai 2: Huấn luyện viên trung cấp – 2 năm.\nHoàng đai 3: Huấn luyện viên cao cấp – 2 năm.\nHoàng đai 4: Trợ huấn võ sư – 3 năm.\n4. Bậc Cao đẳng\nChuẩn Bạch đai: đai nâu viền trắng, không vạch. Cấp 17 = 5 đẳngDanh xưng: Chuẩn võ sư – 4 năm.\nBạch đai: đai nâu viền trắng, có tua trắng hai đầu. cấp 18 = 6 đẳngDanh xưng: Võ sư – 4 năm.\nBạch đai đệ nhất cấp: đai nâu viền trắng, có tua trắng hai đầu (1 vạch xanh lam) cấp 19 = 7 đẳng Danh xưng: võ sư trung đẳng, Thời gian: mỗi cấp khoảng 5 năm\nBạch đai đệ nhị cấp: đai nâu viền trắng, có tua trắng hai đầu 2 vạch (xanh lam + xanh lục) cấp 20 = 8 đẳng- Danh xưng: võ sư trung đẳng, Thời gian: mỗi cấp khoảng 5 năm\nBạch đai đệ tam cấp: đai nâu viền trắng, có tua trắng hai đầu 3 vạch (xanh lam + xanh lục + đỏ) cấp 21 = 9 đẳng- Danh xưng: Võ sư cao đẳng, Thời gian: 5 năm vinh thăng\n5. Bậc Thượng đẳng\nBạch đai đệ tứ cấp: đai nâu viền trắng, có tua trắng hai đầu 4 vạch (xanh lam + xanh lục + đỏ + vàng) cấp 22 = 10 đẳng- Danh xưng: Võ sư niên trưởng , vinh thăng\nBạch đai đệ ngũ cấp: đai nâu viền trắng, có tua trắng hai đầu 5 vạch (xanh lam + xanh lục + đỏ + vàng+ Trắng) Danh xưng: Võ sư niên trưởng: dùng phong chức vụ trong mp\nPhó Chưởng môn: Bạch đai tứ sắc. đai nâu viền trắng, có tua trắng hai đầu, có 4 đường chỉ  của 4 màu, lam.lục, đỏ, vàng chạy dọc theo đai.\nChưởng môn: Bạch đai ngũ sắc, có tua ngũ sắc.\nThời gian: vô định hoặc vinh thăng.",
-      "sourceQuestion": "Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?"
+      "explanation": "1. Nâu (Màu chủ đạo của Phật Quang Quyền)\n\nTượng trưng cho màu áo nâu của Phật giáo Việt Nam.\n\nBiểu hiện sự giản dị, bền bỉ, khiêm cung và đời sống phạm hạnh.\n\nLà nền tảng xuyên suốt của toàn bộ hệ thống đai.\n\n2. Xanh Lam (Thủy – Nước)\n\nTượng trưng cho sự mềm mại, khiêm tốn và thích nghi.\n\nNhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi.\n\nĐức tính: Khiêm hạ – Nhẫn nhục.\n\n3. Xanh Lục (Mộc – Cây)\n\nTượng trưng cho sự sinh trưởng và phát triển.\n\nNhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức.\n\nĐức tính: Siêng năng – Vươn lên.\n\n4. Đỏ (Hỏa – Lửa)\n\nTượng trưng cho nhiệt huyết, ý chí và lòng dũng cảm.\n\nNhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận.\n\nĐức tính: Dũng cảm – Tinh tấn.\n\n5. Vàng (Thổ – Đất)\n\nTượng trưng cho sự vững chắc và bao dung.\n\nNhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự.\n\nĐức tính: Vững vàng – Bao dung.\n\n6. Trắng (Kim – Kim loại)\n\nTượng trưng cho sự trong sáng, chính trực và bản lĩnh.\n\nNhắc người võ sinh giữ tâm thanh tịnh, công bằng và danh dự.\n\nĐức tính: Chính trực – Thanh khiết.",
+      "sourceQuestion": "Đai Môn phái Phật Quang Quyền dùng 6 màu để phân cấp gồm: Nâu, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng.?"
     },
     {
       "id": "blue-lesson-02-q10",
       "lessonId": "blue-lesson-02",
       "number": 10,
-      "type": "fill",
-      "question": "Ý nghĩa biểu tượng môn phái Phật Quang Quyền? Điền cụm từ chính: ______.",
+      "type": "multiple",
+      "question": "Các quy định về trang phục môn phái Phật Quang Quyền.? (Chọn tất cả đáp án đúng)",
       "options": [
-        "Công đức",
-        "Đối với đất nước: phải có lòng yêu nước…",
-        "Biết tu dưỡng, diệt trừ bản ngã.",
+        "Chưởng môn Sáng Tổ: Võ phục màu vàng đất.",
+        "Võ phục môn phái có cổ áo chéo bên phải, phù hiệu môn phái ở ngực trái, bảng…",
+        "Đối với Thầy Tổ môn phái phải trung thành, kính trọng",
+        "Hoàng đai 2: Huấn luyện viên trung cấp – 2 năm.",
+        "Đai nâu: cùng màu võ phục, chưa tính cấp.",
+        "Phó Chưởng môn: Bạch đai tứ sắc. đai nâu viền trắng, có tua trắng hai đầu, có 4 đường chỉ của 4…",
+        "Các thành viên khác: Võ phục nâu đen."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        6
+      ],
+      "explanation": "Môn phái sử dụng 2 loại võ phục: võ phục theo quy định của Liên đoàn Võ cổ truyền Việt Nam và võ phục riêng của môn phái màu nâu đen.\n\nVõ phục môn phái có cổ áo chéo bên phải, phù hiệu môn phái ở ngực trái, bảng tên thêu dưới phù hiệu mp, màu bản tên theo màu cấp bậc của đai.\n\nChưởng môn Sáng Tổ: Võ phục màu vàng đất.\n\nChưởng môn, Phó Chưởng môn: Võ phục nâu đen, cổ áo màu vàng.\n\nCác thành viên khác: Võ phục nâu đen.",
+      "sourceQuestion": "Các quy định về trang phục môn phái Phật Quang Quyền.?"
+    },
+    {
+      "id": "blue-lesson-02-q11",
+      "lessonId": "blue-lesson-02",
+      "number": 11,
+      "type": "multiple",
+      "question": "Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Môn phái sử dụng 2 loại võ phục: võ phục theo quy định của Liên đoàn Võ cổ truyền Việt Nam và võ…",
+        "Bậc Thượng đẳng",
+        "Bậc Trung đẳng: Cấp 9 đến cấp 16",
+        "5. Vàng (Thổ – Đất)",
         "Bậc Cao đẳng",
-        "2. Bậc Sơ đẳng: Cấp 1 đến cấp 8",
-        " Khi có hiểu lầm, phải chân thành trao…"
+        "Bạch đai đệ ngũ cấp: đai nâu viền trắng, có tua trắng hai đầu 5 vạch (xanh lam + xanh lục + đỏ +…",
+        "Nhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức.",
+        "Bậc Sơ đẳng: Cấp 1 đến cấp 8"
       ],
-      "blanks": [
-        "Công đức"
+      "correctIndices": [
+        1,
+        2,
+        4,
+        7
       ],
-      "explanation": "Biểu tượng môn phái là hình tròn, tượng trưng cho bánh xe Chuyển Pháp Luân của Phật giáo. Nền màu vàng đất biểu trưng cho sự cao quý, thanh tịnh và tinh thần Phật giáo.\nBên trong có 8 hình elip liên kết thành bông hoa 8 cánh với 4 màu: Xanh Lam, Xanh Lục, Đỏ, Vàng, tượng trưng cho 4 phẩm chất người môn sinh Phật Quang Quyền cần rèn luyện:\nCông đức\nĐạo đức\nKhí công\nThiền định\nTám hình elip còn tượng trưng cho Bát Chánh Đạo, con đường tu tập chân chính của MS PQQ phải thực hành.\ný nghĩa biểu tượng của môn phái ý muốn nói: mỗi môn sinh PQQ như một bông hoa ngát hương đạo đức không ngừng tô đẹp cho đời.",
+      "explanation": "Môn phái Phật Quang Quyền có 6 màu đai, 26 cấp và 5 bậc, gồm:\n\n1. Bậc Tự vệ\n\nĐai nâu: cùng màu võ phục, chưa tính cấp.\n\nDành cho lớp căn bản tự vệ.\n\n2. Bậc Sơ đẳng: Cấp 1 đến cấp 8\n\nLam đai: đai nâu viền xanh lam, có 4 vạch xanh lá. (Cấp 1 đến cấp 4)Mỗi vạch tập luyện 3 tháng.\n\nLục đai: đai nâu viền xanh lục, có 4 vạch đỏ.( cấp 5 đến cấp 8)Mỗi vạch tập luyện 4 tháng.\n\nDanh xưng: Võ sinh.\n\n3. Bậc Trung đẳng: Cấp 9 đến cấp 16\n\nHồng đai: đai nâu viền đỏ, có 1 đến 4 vạch vàng. Cấp 9 đến cấp 12Danh xưng: Hướng dẫn viên  cấp 1 đến cấp 4.Thời gian: mỗi cấp 6 tháng.\n\nHoàng đai: đai nâu viền vàng, có 1 đến 4 vạch trắng. cấp 13 đến cấp 16 ( 1 đẳng đến 4 đẳng)Danh xưng:\n\nHoàng đai 1: Huấn luyện viên sơ cấp – 2 năm.\n\nHoàng đai 2: Huấn luyện viên trung cấp – 2 năm.\n\nHoàng đai 3: Huấn luyện viên cao cấp – 2 năm.\n\nHoàng đai 4: Trợ huấn võ sư – 3 năm.\n\n4. Bậc Cao đẳng\n\nChuẩn Bạch đai: đai nâu viền trắng, không vạch. Cấp 17 = 5 đẳngDanh xưng: Chuẩn võ sư – 4 năm.\n\nBạch đai: đai nâu viền trắng, có tua trắng hai đầu. cấp 18 = 6 đẳngDanh xưng: Võ sư – 4 năm.\n\nBạch đai đệ nhất cấp: đai nâu viền trắng, có tua trắng hai đầu (1 vạch xanh lam) cấp 19 = 7 đẳng Danh xưng: võ sư trung đẳng, Thời gian: mỗi cấp khoảng 5 năm\n\nBạch đai đệ nhị cấp: đai nâu viền trắng, có tua trắng hai đầu 2 vạch (xanh lam + xanh lục) cấp 20 = 8 đẳng- Danh xưng: võ sư trung đẳng, Thời gian: mỗi cấp khoảng 5 năm\n\nBạch đai đệ tam cấp: đai nâu viền trắng, có tua trắng hai đầu 3 vạch (xanh lam + xanh lục + đỏ) cấp 21 = 9 đẳng- Danh xưng: Võ sư cao đẳng, Thời gian: 5 năm vinh thăng\n\n5. Bậc Thượng đẳng\n\nBạch đai đệ tứ cấp: đai nâu viền trắng, có tua trắng hai đầu 4 vạch (xanh lam + xanh lục + đỏ + vàng) cấp 22 = 10 đẳng- Danh xưng: Võ sư niên trưởng , vinh thăng\n\nBạch đai đệ ngũ cấp: đai nâu viền trắng, có tua trắng hai đầu 5 vạch (xanh lam + xanh lục + đỏ + vàng+ Trắng) Danh xưng: Võ sư niên trưởng: dùng phong chức vụ trong mp\n\nPhó Chưởng môn: Bạch đai tứ sắc. đai nâu viền trắng, có tua trắng hai đầu, có 4 đường chỉ  của 4 màu, lam.lục, đỏ, vàng chạy dọc theo đai.\n\nChưởng môn: Bạch đai ngũ sắc, có tua ngũ sắc.\n\nThời gian: vô định hoặc vinh thăng.",
+      "sourceQuestion": "Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?"
+    },
+    {
+      "id": "blue-lesson-02-q12",
+      "lessonId": "blue-lesson-02",
+      "number": 12,
+      "type": "multiple",
+      "question": "Ý nghĩa biểu tượng môn phái Phật Quang Quyền? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Biểu tượng môn phái là hình tròn, tượng trưng cho bánh xe Chuyển Pháp Luân của…",
+        "ý nghĩa biểu tượng của môn phái ý muốn nói: mỗi môn sinh PQQ như một bông hoa ngát hương đạo đức…",
+        "hình elip còn tượng trưng cho Bát Chánh Đạo, con đường tu tập chân chính của MS…",
+        "Thiền định",
+        "ý nghĩa biểu tượng của môn phái ý muốn nói: mỗi môn sinh PQQ như một bông hoa…",
+        "Đức tính: Chính trực – Thanh khiết.",
+        "Nhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận.",
+        "Bạch đai đệ ngũ cấp: đai nâu viền trắng, có tua trắng hai đầu 5 vạch (xanh lam + xanh lục + đỏ +…"
+      ],
+      "correctIndices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Biểu tượng môn phái là hình tròn, tượng trưng cho bánh xe Chuyển Pháp Luân của Phật giáo. Nền màu vàng đất biểu trưng cho sự cao quý, thanh tịnh và tinh thần Phật giáo.\n\nBên trong có 8 hình elip liên kết thành bông hoa 8 cánh với 4 màu: Xanh Lam, Xanh Lục, Đỏ, Vàng, tượng trưng cho 4 phẩm chất người môn sinh Phật Quang Quyền cần rèn luyện:\n\nCông đức\n\nĐạo đức\n\nKhí công\n\nThiền định\n\nTám hình elip còn tượng trưng cho Bát Chánh Đạo, con đường tu tập chân chính của MS PQQ phải thực hành.\n\ný nghĩa biểu tượng của môn phái ý muốn nói: mỗi môn sinh PQQ như một bông hoa ngát hương đạo đức không ngừng tô đẹp cho đời.",
       "sourceQuestion": "Ý nghĩa biểu tượng môn phái Phật Quang Quyền?"
     }
   ]

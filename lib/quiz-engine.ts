@@ -10,7 +10,11 @@ export interface QuizAnswer {
   matchingAnswers?: number[];
   /** Ordering: current item indices in display order */
   orderAnswers?: number[];
+  /** True/false: 0 = Đúng, 1 = Sai */
+  trueFalseIndex?: number;
 }
+
+export const TRUE_FALSE_OPTIONS = ['Đúng', 'Sai'] as const;
 
 export type MultipleChoiceResultLevel = 'correct' | 'partial' | 'incorrect';
 
@@ -65,6 +69,10 @@ export function isOrderingQuestion(question: QuizQuestion): boolean {
 
 export function isScenarioQuestion(question: QuizQuestion): boolean {
   return getQuestionType(question) === 'scenario';
+}
+
+export function isTrueFalseQuestion(question: QuizQuestion): boolean {
+  return getQuestionType(question) === 'truefalse';
 }
 
 export function isSingleChoiceQuestion(question: QuizQuestion): boolean {
@@ -174,6 +182,7 @@ export function isAnswerCorrect(
     | 'fillAnswers'
     | 'matchingAnswers'
     | 'orderAnswers'
+    | 'trueFalseIndex'
   >
 ): boolean {
   if (isMultipleChoice(question)) {
@@ -209,6 +218,12 @@ export function isAnswerCorrect(
     if (selected.length !== expected.length) return false;
 
     return expected.every((value, index) => selected[index] === value);
+  }
+
+  if (type === 'truefalse') {
+    const expected = getCorrectIndices(question)[0];
+    if (typeof expected !== 'number') return false;
+    return answer.trueFalseIndex === expected;
   }
 
   return answer.selectedIndex === getCorrectIndices(question)[0];
@@ -265,6 +280,11 @@ export function getQuestionById(
 
 export function formatCorrectAnswer(question: QuizQuestion): string {
   const type = getQuestionType(question);
+
+  if (type === 'truefalse') {
+    const index = getCorrectIndices(question)[0];
+    return TRUE_FALSE_OPTIONS[index] ?? '';
+  }
 
   if (type === 'multiple' || type === 'single' || type === 'scenario') {
     return getCorrectIndices(question)

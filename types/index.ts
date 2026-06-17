@@ -42,7 +42,8 @@ export type QuizQuestionType =
   | 'fill'
   | 'matching'
   | 'ordering'
-  | 'scenario';
+  | 'scenario'
+  | 'truefalse';
 
 export interface QuizQuestion {
   id: string;

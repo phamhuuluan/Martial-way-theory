@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "convert-content": "node scripts/convert-content.mjs",
+    "regenerate-quizzes": "node scripts/regenerate-quizzes.mjs",
     "generate-badges": "node scripts/generate-achievement-badges.mjs && node scripts/sync-assets.mjs"
   },
   "dependencies": {

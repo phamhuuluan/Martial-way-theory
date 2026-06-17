@@ -74,6 +74,26 @@ describe('hasExcessiveIncorrectSelections', () => {
   });
 });
 
+describe('true/false questions', () => {
+  const trueFalseQuestion: QuizQuestion = {
+    id: 'q-tf',
+    lessonId: 'lesson',
+    number: 1,
+    type: 'truefalse',
+    question: 'Môn võ chỉ được luyện tập khi có huấn luyện viên hướng dẫn.',
+    options: ['Đúng', 'Sai'],
+    correctIndex: 0,
+  };
+
+  it('marks correct true/false answers', () => {
+    expect(
+      isAnswerCorrect(trueFalseQuestion, { trueFalseIndex: 0 })
+    ).toBe(true);
+    expect(
+      isAnswerCorrect(trueFalseQuestion, { trueFalseIndex: 1 })
+    ).toBe(false);
+  });
+});
 describe('calculateScore with partial multi-select credit', () => {
   const quiz: QuizData = {
     lessonId: 'lesson',

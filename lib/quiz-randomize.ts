@@ -1,5 +1,5 @@
 import type { QuizData, QuizQuestion } from '@/types';
-import { getQuestionType } from '@/lib/quiz-engine';
+import { getQuestionType, TRUE_FALSE_OPTIONS } from '@/lib/quiz-engine';
 
 export type RandomFn = () => number;
 
@@ -118,6 +118,13 @@ export function randomizeQuestionPresentation(
 
   if (type === 'single' || type === 'multiple' || type === 'scenario') {
     return { ...question, ...shuffleChoiceOptions(question, random) };
+  }
+
+  if (type === 'truefalse') {
+    return {
+      ...question,
+      options: [...TRUE_FALSE_OPTIONS],
+    };
   }
 
   return { ...question };

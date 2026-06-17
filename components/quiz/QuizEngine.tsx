@@ -20,7 +20,9 @@ import {
   isMatchingQuestion,
   isMultipleChoice,
   isOrderingQuestion,
+  isTrueFalseQuestion,
   PARTIAL_CORRECT_MESSAGE,
+  TRUE_FALSE_OPTIONS,
   PARTIAL_REVIEW_MESSAGE,
   type QuizAnswer,
   type QuizResult,
@@ -73,6 +75,7 @@ export function QuizEngine({
   const [fillAnswers, setFillAnswers] = useState<number[]>([]);
   const [matchingAnswers, setMatchingAnswers] = useState<number[]>([]);
   const [orderAnswers, setOrderAnswers] = useState<number[]>([]);
+  const [trueFalseIndex, setTrueFalseIndex] = useState<number | null>(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [result, setResult] = useState<QuizResult | null>(null);
   const [resultMessage, setResultMessage] = useState('');
@@ -98,12 +101,19 @@ export function QuizEngine({
   const resetSelection = () => {
     setSelectedIndex(null);
     setSelectedIndices([]);
+    setTrueFalseIndex(null);
     setShowFeedback(false);
     if (currentQuestion) {
       setFillAnswers(createInitialFill(currentQuestion));
       setMatchingAnswers(createInitialMatching(currentQuestion));
       setOrderAnswers(createInitialOrder(currentQuestion));
     }
+  };
+
+  const handleSelectTrueFalse = (index: number) => {
+    if (showFeedback) return;
+    setTrueFalseIndex(index);
+    setShowFeedback(true);
   };
 
   const handleSelectSingle = (index: number) => {
@@ -148,6 +158,10 @@ export function QuizEngine({
     if (showFeedback) return;
     setMatchingAnswers((prev) => {
       const next = [...prev];
+      if (rightIndex >= 0) {
+        const existingAt = next.indexOf(rightIndex);
+        if (existingAt >= 0) next[existingAt] = -1;
+      }
       next[leftIndex] = rightIndex;
       return next;
     });
@@ -195,6 +209,14 @@ export function QuizEngine({
       };
     }
 
+    if (isTrueFalseQuestion(currentQuestion)) {
+      if (trueFalseIndex === null) return null;
+      return {
+        questionId: currentQuestion.id,
+        trueFalseIndex,
+      };
+    }
+
     if (selectedIndex === null) return null;
 
     return {
@@ -220,6 +242,10 @@ export function QuizEngine({
 
     if (isOrderingQuestion(currentQuestion)) {
       return orderAnswers.length > 0;
+    }
+
+    if (isTrueFalseQuestion(currentQuestion)) {
+      return trueFalseIndex !== null;
     }
 
     return selectedIndex !== null;
@@ -265,6 +291,23 @@ export function QuizEngine({
         });
       }
     }
+  };
+
+  const getTrueFalseState = (
+    question: QuizQuestion,
+    optionIndex: number
+  ): 'default' | 'correct' | 'incorrect' | 'reveal-correct' | 'missed-key' => {
+    if (!showFeedback) return 'default';
+
+    const expectedIndex = question.correctIndex;
+    if (typeof expectedIndex !== 'number') return 'default';
+    if (trueFalseIndex === null) return 'default';
+
+    if (optionIndex === expectedIndex) {
+      return trueFalseIndex === optionIndex ? 'correct' : 'reveal-correct';
+    }
+    if (optionIndex === trueFalseIndex) return 'incorrect';
+    return 'default';
   };
 
   const getOptionState = (
@@ -515,10 +558,31 @@ export function QuizEngine({
 
   const canAdvance = usesConfirmButton
     ? showFeedback
-    : showFeedback && selectedIndex !== null;
+    : showFeedback &&
+      (currentQuestion && isTrueFalseQuestion(currentQuestion)
+        ? trueFalseIndex !== null
+        : selectedIndex !== null);
 
   const renderQuestionBody = () => {
     if (!currentQuestion) return null;
+
+    if (isTrueFalseQuestion(currentQuestion)) {
+      return (
+        <div className="space-y-3 mb-8">
+          {TRUE_FALSE_OPTIONS.map((option, i) => (
+            <QuizOption
+              key={i}
+              label={option}
+              index={i}
+              selected={trueFalseIndex === i}
+              state={getTrueFalseState(currentQuestion, i)}
+              disabled={showFeedback}
+              onSelect={() => handleSelectTrueFalse(i)}
+            />
+          ))}
+        </div>
+      );
+    }
 
     if (isFillQuestion(currentQuestion)) {
       return (
@@ -614,6 +678,12 @@ export function QuizEngine({
             </p>
           )}
 
+          {isTrueFalseQuestion(currentQuestion) && !showFeedback && (
+            <p className="mb-3 text-sm text-text-muted">
+              Mệnh đề trên đúng hay sai?
+            </p>
+          )}
+
           {isFillQuestion(currentQuestion) && !showFeedback && (
             <p className="mb-3 text-sm text-text-muted">
               Chọn từ trong ngân hàng từ để điền vào từng chỗ trống.
@@ -621,7 +691,7 @@ export function QuizEngine({
           )}
 
           {isMatchingQuestion(currentQuestion) && !showFeedback && (
-            <p className="mb-3 text-sm text-text-muted">
+            <p className="mb-3 text-sm text-text-muted sr-only">
               Ghép từng mục bên trái với nội dung đúng bên phải.
             </p>
           )}

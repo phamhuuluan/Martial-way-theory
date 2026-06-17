@@ -7,188 +7,275 @@
       "id": "yellow-lesson-04-q01",
       "lessonId": "yellow-lesson-04",
       "number": 1,
-      "type": "matching",
-      "question": "Có mấy trường hợp cần phục tùng trong việc xử thế? Hãy kể ra và giải thích đại cương.? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
+      "type": "ordering",
+      "question": "Có mấy trường hợp cần phục tùng trong việc xử thế? Sắp xếp các bước theo đúng thứ tự.",
       "options": [],
-      "leftItems": [
-        "Phục tùng lẽ phải",
-        "Phục tùng đa số",
-        "Phục tùng thượng cấp"
+      "items": [
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của…",
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức."
       ],
-      "rightItems": [
-        "Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
-        "Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều…",
-        "Tôn trọng và làm theo điều đúng đắn."
+      "correctOrder": [
+        0,
+        1,
+        2
       ],
-      "correctPairs": [
-        [
-          0,
-          2
-        ],
-        [
-          1,
-          1
-        ],
-        [
-          2,
-          0
-        ]
-      ],
-      "explanation": "Có 4 trường hợp cần phục tùng trong việc xử thế:\nPhục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.\nPhục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.\nPhục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.\nPhục tùng để tỏ thiện chí: Biết nhường nhịn đúng lúc để giữ hòa khí, tạo sự cảm thông và giúp công việc được thuận lợi hơn.",
-      "sourceQuestion": "Có mấy trường hợp cần phục tùng trong việc xử thế? Hãy kể ra và giải thích đại cương."
+      "explanation": "Có 4 trường hợp cần phục tùng trong việc xử thế:\n\nPhục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.\n\nPhục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.\n\nPhục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.\n\nPhục tùng để tỏ thiện chí: Biết nhường nhịn đúng lúc để giữ hòa khí, tạo sự cảm thông và giúp công việc được thuận lợi hơn.",
+      "sourceQuestion": "Có mấy trường hợp cần phục tùng trong việc xử thế?"
     },
     {
       "id": "yellow-lesson-04-q02",
       "lessonId": "yellow-lesson-04",
       "number": 2,
-      "type": "multiple",
-      "question": "Đức tính phục tùng có phản lại đức tính tự chủ không? Hãy giải thích và dẫn chứng.? (Chọn tất cả đáp án đúng)",
-      "options": [
-        "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo mọi người hãy biết phục vụ mọi người.",
-        "Người biết tôn trọng lẽ phải, ý kiến đúng đắn của người khác và chấp hành kỷ…",
-        "Đức tính phục tùng không phản lại đức tính tự chủ, mà ngược lại còn thể hiện…",
+      "type": "ordering",
+      "question": "Hãy kể ra và giải thích đại cương.? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của…",
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
         "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn."
       ],
-      "correctIndices": [
+      "correctOrder": [
+        2,
         0,
-        1,
-        2
+        1
       ],
-      "explanation": "Đức tính phục tùng không phản lại đức tính tự chủ, mà ngược lại còn thể hiện khả năng tự chủ của con người.\nNgười biết tôn trọng lẽ phải, ý kiến đúng đắn của người khác và chấp hành kỷ luật là người biết làm chủ bản thân. Ngược lại, người không biết lắng nghe ai thường dễ rơi vào cố chấp và bảo thủ.\nDanh ngôn có câu: “Kẻ nào muốn lãnh đạo mọi người hãy biết phục vụ mọi người.",
-      "sourceQuestion": "Đức tính phục tùng có phản lại đức tính tự chủ không? Hãy giải thích và dẫn chứng."
+      "explanation": "Có 4 trường hợp cần phục tùng trong việc xử thế:\n\nPhục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.\n\nPhục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.\n\nPhục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.\n\nPhục tùng để tỏ thiện chí: Biết nhường nhịn đúng lúc để giữ hòa khí, tạo sự cảm thông và giúp công việc được thuận lợi hơn.",
+      "sourceQuestion": "Hãy kể ra và giải thích đại cương.?"
     },
     {
       "id": "yellow-lesson-04-q03",
       "lessonId": "yellow-lesson-04",
       "number": 3,
-      "type": "multiple",
-      "question": "Hãy giải thích điểm dị biệt giữa tham vọng và chí hướng.? (Chọn tất cả đáp án đúng)",
+      "type": "single",
+      "question": "Đức tính phục tùng có phản lại đức tính tự chủ không?",
       "options": [
-        "Tham vọng có thể tốt hoặc xấu tùy mục đích và cách thực hiện, còn chí hướng…",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
-        "Chí hướng là mục tiêu cao đẹp mà con người kiên trì theo đuổi bằng ý chí và sự…",
-        "Tham vọng là sự mong muốn đạt được một mục đích nào đó, thường thiên về lợi…"
+        "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo mọi người hãy biết phục vụ mọi người.",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Đức tính phục tùng không phản lại đức tính tự chủ, mà ngược lại còn thể hiện khả năng tự chủ của…",
+        "Người biết tôn trọng lẽ phải, ý kiến đúng đắn của người khác và chấp hành kỷ luật là người biết làm chủ bản thân. Ngược…"
       ],
-      "correctIndices": [
-        0,
-        2,
-        3
-      ],
-      "explanation": "Tham vọng là sự mong muốn đạt được một mục đích nào đó, thường thiên về lợi ích, thành công hoặc sự thỏa mãn của bản thân.\nChí hướng là mục tiêu cao đẹp mà con người kiên trì theo đuổi bằng ý chí và sự nỗ lực của mình.\nTham vọng có thể tốt hoặc xấu tùy mục đích và cách thực hiện, còn chí hướng thường hướng đến những giá trị tốt đẹp và lợi ích lâu dài.",
-      "sourceQuestion": "Hãy giải thích điểm dị biệt giữa tham vọng và chí hướng."
+      "correctIndex": 2,
+      "explanation": "Đức tính phục tùng không phản lại đức tính tự chủ, mà ngược lại còn thể hiện khả năng tự chủ của con người.\n\nNgười biết tôn trọng lẽ phải, ý kiến đúng đắn của người khác và chấp hành kỷ luật là người biết làm chủ bản thân. Ngược lại, người không biết lắng nghe ai thường dễ rơi vào cố chấp và bảo thủ.\n\nDanh ngôn có câu: “Kẻ nào muốn lãnh đạo mọi người hãy biết phục vụ mọi người.",
+      "sourceQuestion": "Đức tính phục tùng có phản lại đức tính tự chủ không?"
     },
     {
       "id": "yellow-lesson-04-q04",
       "lessonId": "yellow-lesson-04",
       "number": 4,
-      "type": "ordering",
-      "question": "Trình bày phương pháp sư phạm điều hành một lớp tập võ theo tiêu chuẩn Liên đoàn Võ thuật Cổ truyền Việt Nam.? Sắp xếp các bước theo đúng thứ tự.",
-      "options": [],
-      "items": [
-        "Ôn luyện kỹ thuật, đòn thế và bài tập cũ.",
-        "Điều tức, chỉnh trang võ phục và chào kính kết thúc buổi tập.",
-        "Tập hợp lớp, chỉnh đốn đội hình và chào kính.",
-        "Khởi động và điều tức, theo nguyên tắc làm nóng cơ thể từ đầu đến chân, hít sâu, thở dài,…",
-        "Thực hành và ứng dụng, tập lặp lại nhiều lần để đạt độ chính xác, tốc độ, sức mạnh và khả…",
-        "Giới thiệu và hướng dẫn kỹ thuật mới, theo nguyên tắc từ chậm đến nhanh, từ nhẹ đến mạnh,…",
-        "Đấu luyện, sửa sai và giải đáp thắc mắc."
+      "type": "multiple",
+      "question": "Hãy giải thích và dẫn chứng.? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Người biết tôn trọng lẽ phải, ý kiến đúng đắn của người khác và chấp hành kỷ…",
+        "Tham vọng là sự mong muốn đạt được một mục đích nào đó, thường thiên về lợi ích, thành công hoặc sự…",
+        "Khiêm hạ là không tự cao, không xem mình hơn người và luôn biết tôn trọng mọi người. Người môn sinh…",
+        "Thực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp.",
+        "Chúng ta sẽ dám thẳng thắn nhìn nhận lỗi lầm khi tin vào thực tài, thực đức và những việc đúng đắn…",
+        "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo mọi người hãy biết phục vụ mọi người.",
+        "Đức tính phục tùng không phản lại đức tính tự chủ, mà ngược lại còn thể hiện…"
       ],
-      "correctOrder": [
-        2,
-        3,
+      "correctIndices": [
         0,
         5,
-        4,
-        6,
-        1
+        6
       ],
-      "explanation": "Một buổi tập võ cơ bản được tiến hành theo các bước sau:\nTập hợp lớp, chỉnh đốn đội hình và chào kính.\nKhởi động và điều tức, theo nguyên tắc làm nóng cơ thể từ đầu đến chân, hít sâu, thở dài, buông lỏng và khoan thai.\nÔn luyện kỹ thuật, đòn thế và bài tập cũ.\nGiới thiệu và hướng dẫn kỹ thuật mới, theo nguyên tắc từ chậm đến nhanh, từ nhẹ đến mạnh, kết hợp giải thích kỹ thuật.\nThực hành và ứng dụng, tập lặp lại nhiều lần để đạt độ chính xác, tốc độ, sức mạnh và khả năng phối hợp kỹ thuật.\nĐấu luyện, sửa sai và giải đáp thắc mắc.\nĐiều tức, chỉnh trang võ phục và chào kính kết thúc buổi tập.",
-      "sourceQuestion": "Trình bày phương pháp sư phạm điều hành một lớp tập võ theo tiêu chuẩn Liên đoàn Võ thuật Cổ truyền Việt Nam."
+      "explanation": "Đức tính phục tùng không phản lại đức tính tự chủ, mà ngược lại còn thể hiện khả năng tự chủ của con người.\n\nNgười biết tôn trọng lẽ phải, ý kiến đúng đắn của người khác và chấp hành kỷ luật là người biết làm chủ bản thân. Ngược lại, người không biết lắng nghe ai thường dễ rơi vào cố chấp và bảo thủ.\n\nDanh ngôn có câu: “Kẻ nào muốn lãnh đạo mọi người hãy biết phục vụ mọi người.",
+      "sourceQuestion": "Hãy giải thích và dẫn chứng.?"
     },
     {
       "id": "yellow-lesson-04-q05",
       "lessonId": "yellow-lesson-04",
       "number": 5,
       "type": "multiple",
-      "question": "Danh dự là gì? Tự ái là gì? Trọng danh dự và tự ái khác nhau như thế nào? (Chọn tất cả đáp án đúng)",
+      "question": "Hãy giải thích điểm dị biệt giữa tham vọng và chí hướng.? (Chọn tất cả đáp án đúng)",
       "options": [
-        "Tự ái là phản ứng tâm lý khi cái tôi bị đụng chạm hoặc xúc phạm.",
-        "Người biết tôn trọng lẽ phải, ý kiến đúng đắn của người khác và chấp hành kỷ luật là người biết làm chủ bản thân. Ngược…",
-        "Danh dự là giá trị tinh thần và uy tín được tạo nên từ việc thực hiện tốt trách…",
-        "Ví dụ: Mong muốn biến một cục đất thành pho tượng là tham vọng; còn quyết tâm học nghề và rèn luyện để thực hiện được…"
+        "Tham vọng có thể tốt hoặc xấu tùy mục đích và cách thực hiện, còn chí hướng…",
+        "Giới thiệu và hướng dẫn kỹ thuật mới, theo nguyên tắc từ chậm đến nhanh, từ nhẹ đến mạnh, kết hợp…",
+        "Tham vọng là sự mong muốn đạt được một mục đích nào đó, thường thiên về lợi…",
+        "Chí hướng là mục tiêu cao đẹp mà con người kiên trì theo đuổi bằng ý chí và sự…",
+        "Quảng bá và phát triển võ thuật là một mục tiêu quan trọng của môn phái Phật Quang Quyền. Tuy…",
+        "Góp ý là chân thành giúp người khác nhận ra lỗi để sửa đổi và tiến bộ hơn. Chỉ trích là nói xấu,…",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn."
       ],
       "correctIndices": [
         0,
-        2
+        2,
+        3
       ],
-      "explanation": "Danh dự là giá trị tinh thần và uy tín được tạo nên từ việc thực hiện tốt trách nhiệm, nghĩa vụ của mình.\nTự ái là phản ứng tâm lý khi cái tôi bị đụng chạm hoặc xúc phạm.\nNgười trọng danh dự luôn nghĩ đến tập thể, giữ gìn uy tín và hành động điềm đạm nhưng cương quyết để bảo vệ những giá trị tốt đẹp. Ngược lại, người tự ái thường chỉ nghĩ đến bản thân, dễ nóng giận và phản ứng thiếu kiềm chế khi bị đụng chạm.",
-      "sourceQuestion": "Danh dự là gì? Tự ái là gì? Trọng danh dự và tự ái khác nhau như thế nào?"
+      "explanation": "Tham vọng là sự mong muốn đạt được một mục đích nào đó, thường thiên về lợi ích, thành công hoặc sự thỏa mãn của bản thân.\n\nChí hướng là mục tiêu cao đẹp mà con người kiên trì theo đuổi bằng ý chí và sự nỗ lực của mình.\n\nTham vọng có thể tốt hoặc xấu tùy mục đích và cách thực hiện, còn chí hướng thường hướng đến những giá trị tốt đẹp và lợi ích lâu dài.",
+      "sourceQuestion": "Hãy giải thích điểm dị biệt giữa tham vọng và chí hướng."
     },
     {
       "id": "yellow-lesson-04-q06",
       "lessonId": "yellow-lesson-04",
       "number": 6,
-      "type": "multiple",
-      "question": "Trường hợp phải lựa chọn giữa việc coi nhẹ danh dự hoặc gạt bỏ tự ái, ta nên chọn đường nào? Hãy giải thích.? (Chọn tất cả đáp án đúng)",
+      "type": "single",
+      "question": "Trường hợp phải lựa chọn giữa việc coi nhẹ danh dự hoặc gạt bỏ tự ái, ta nên chọn đường nào?",
       "options": [
-        "Ta nên gạt bỏ tự ái, vì tự ái chỉ là phản ứng cảm xúc mang tính cá nhân. Trong…",
-        "Điều độ: Giữ chừng mực trong ăn uống, nghỉ ngơi, làm việc và giải trí để bảo vệ và phát triển sức khỏe.",
-        "Khi sống trong tập thể, biết gạt bỏ tự ái để giữ gìn danh dự chung cũng chính…",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức."
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Khi sống trong tập thể, biết gạt bỏ tự ái để giữ gìn danh dự chung cũng chính là giữ gìn danh dự của bản thân.",
+        "Ta nên gạt bỏ tự ái, vì tự ái chỉ là phản ứng cảm xúc mang tính cá nhân. Trong khi đó, danh dự là…",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
       ],
-      "correctIndices": [
-        0,
-        2
-      ],
-      "explanation": "Ta nên gạt bỏ tự ái, vì tự ái chỉ là phản ứng cảm xúc mang tính cá nhân. Trong khi đó, danh dự là giá trị tinh thần cao quý cần được giữ gìn và bảo vệ.\nKhi sống trong tập thể, biết gạt bỏ tự ái để giữ gìn danh dự chung cũng chính là giữ gìn danh dự của bản thân.",
-      "sourceQuestion": "Trường hợp phải lựa chọn giữa việc coi nhẹ danh dự hoặc gạt bỏ tự ái, ta nên chọn đường nào? Hãy giải thích."
+      "correctIndex": 2,
+      "explanation": "Ta nên gạt bỏ tự ái, vì tự ái chỉ là phản ứng cảm xúc mang tính cá nhân. Trong khi đó, danh dự là giá trị tinh thần cao quý cần được giữ gìn và bảo vệ.\n\nKhi sống trong tập thể, biết gạt bỏ tự ái để giữ gìn danh dự chung cũng chính là giữ gìn danh dự của bản thân.",
+      "sourceQuestion": "Trường hợp phải lựa chọn giữa việc coi nhẹ danh dự hoặc gạt bỏ tự ái, ta nên chọn đường nào?"
     },
     {
       "id": "yellow-lesson-04-q07",
       "lessonId": "yellow-lesson-04",
       "number": 7,
-      "type": "single",
-      "question": "Nhận định về tương quan giữa cá nhân với tập thể ra sao?",
+      "type": "multiple",
+      "question": "Danh dự là gì? (Chọn tất cả đáp án đúng)",
       "options": [
         "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
-        "Cá nhân và tập thể có mối quan hệ gắn bó và trách nhiệm lẫn nhau. Tập thể tạo điều kiện cho cá nhân phát triển, còn cá…",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
-        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
+        "Danh dự là giá trị tinh thần và uy tín được tạo nên từ việc thực hiện tốt trách…",
+        "Tự ái là phản ứng tâm lý khi cái tôi bị đụng chạm hoặc xúc phạm.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Nên góp ý riêng với tinh thần xây dựng, chân thành giúp nhau tiến bộ. Nếu không thể tự góp ý, cần…",
+        "Đồng thời, cần tu dưỡng nội tâm để tâm hồn luôn ung dung, thanh thản, không bị chi phối bởi những…"
       ],
-      "correctIndex": 1,
-      "explanation": "Cá nhân và tập thể có mối quan hệ gắn bó và trách nhiệm lẫn nhau. Tập thể tạo điều kiện cho cá nhân phát triển, còn cá nhân phải biết hòa hợp và đóng góp cho tập thể thì mới đạt được thành công.",
-      "sourceQuestion": "Nhận định về tương quan giữa cá nhân với tập thể ra sao?"
+      "correctIndices": [
+        1,
+        2
+      ],
+      "explanation": "Danh dự là giá trị tinh thần và uy tín được tạo nên từ việc thực hiện tốt trách nhiệm, nghĩa vụ của mình.\n\nTự ái là phản ứng tâm lý khi cái tôi bị đụng chạm hoặc xúc phạm.\n\nNgười trọng danh dự luôn nghĩ đến tập thể, giữ gìn uy tín và hành động điềm đạm nhưng cương quyết để bảo vệ những giá trị tốt đẹp. Ngược lại, người tự ái thường chỉ nghĩ đến bản thân, dễ nóng giận và phản ứng thiếu kiềm chế khi bị đụng chạm.",
+      "sourceQuestion": "Danh dự là gì?"
     },
     {
       "id": "yellow-lesson-04-q08",
       "lessonId": "yellow-lesson-04",
       "number": 8,
       "type": "multiple",
-      "question": "Khi nào tham vọng trở nên tốt đẹp và cần thiết? (Chọn tất cả đáp án đúng)",
+      "question": "Tự ái là gì? (Chọn tất cả đáp án đúng)",
       "options": [
-        "Tham vọng trở nên tốt đẹp và cần thiết khi được chí hướng đúng đắn chỉ đạo. Ai…",
-        "Đấu luyện, sửa sai và giải đáp thắc mắc.",
-        "Quảng bá và phát triển võ thuật là một mục tiêu quan trọng của môn phái Phật Quang Quyền. Tuy nhiên, mục tiêu cao hơn…",
-        "Ví dụ: Mong muốn biến một cục đất thành pho tượng là tham vọng; còn quyết tâm…"
+        "Nóng nảy làm mất sự sáng suốt, dễ gây tổn thương người khác, ảnh hưởng đến tình huynh đệ và làm…",
+        "Tự ái là phản ứng tâm lý khi cái tôi bị đụng chạm hoặc xúc phạm.",
+        "Thực hành và ứng dụng, tập lặp lại nhiều lần để đạt độ chính xác, tốc độ, sức mạnh và khả năng phối…",
+        "Danh dự là giá trị tinh thần và uy tín được tạo nên từ việc thực hiện tốt trách nhiệm, nghĩa vụ của…",
+        "Danh dự là giá trị tinh thần và uy tín được tạo nên từ việc thực hiện tốt trách…",
+        "Thực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp."
       ],
       "correctIndices": [
-        0,
-        3
+        1,
+        4
       ],
-      "explanation": "Tham vọng trở nên tốt đẹp và cần thiết khi được chí hướng đúng đắn chỉ đạo. Ai cũng có tham vọng, nhưng để biến tham vọng thành hiện thực và có ích thì phải có lý tưởng, sự hiểu biết và nghị lực theo đuổi.\nVí dụ: Mong muốn biến một cục đất thành pho tượng là tham vọng; còn quyết tâm học nghề và rèn luyện để thực hiện được điều đó chính là chí hướng.",
-      "sourceQuestion": "Khi nào tham vọng trở nên tốt đẹp và cần thiết?"
+      "explanation": "Danh dự là giá trị tinh thần và uy tín được tạo nên từ việc thực hiện tốt trách nhiệm, nghĩa vụ của mình.\n\nTự ái là phản ứng tâm lý khi cái tôi bị đụng chạm hoặc xúc phạm.\n\nNgười trọng danh dự luôn nghĩ đến tập thể, giữ gìn uy tín và hành động điềm đạm nhưng cương quyết để bảo vệ những giá trị tốt đẹp. Ngược lại, người tự ái thường chỉ nghĩ đến bản thân, dễ nóng giận và phản ứng thiếu kiềm chế khi bị đụng chạm.",
+      "sourceQuestion": "Tự ái là gì?"
     },
     {
       "id": "yellow-lesson-04-q09",
       "lessonId": "yellow-lesson-04",
       "number": 9,
-      "type": "fill",
-      "question": "Phật Quang Quyền chỉ chú trọng tới mục đích quảng bá võ thuật không thôi, hay chú trọng tới mục đích gì khác nữa? Hãy giải thích.? Điền vào chỗ trống: ______ và ______.",
+      "type": "single",
+      "question": "Hãy giải thích.?",
       "options": [
-        "Nên góp ý riêng với tinh thần xây dựng,…",
-        "Tự ái là phản ứng tâm lý khi cái tôi bị…",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Khi sống trong tập thể, biết gạt bỏ tự ái để giữ gìn danh dự chung cũng chính là giữ gìn danh dự của bản thân.",
+        "Ta nên gạt bỏ tự ái, vì tự ái chỉ là phản ứng cảm xúc mang tính cá nhân. Trong khi đó, danh dự là…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ta nên gạt bỏ tự ái, vì tự ái chỉ là phản ứng cảm xúc mang tính cá nhân. Trong khi đó, danh dự là giá trị tinh thần cao quý cần được giữ gìn và bảo vệ.\n\nKhi sống trong tập thể, biết gạt bỏ tự ái để giữ gìn danh dự chung cũng chính là giữ gìn danh dự của bản thân.",
+      "sourceQuestion": "Hãy giải thích.?"
+    },
+    {
+      "id": "yellow-lesson-04-q10",
+      "lessonId": "yellow-lesson-04",
+      "number": 10,
+      "type": "multiple",
+      "question": "Khi nào tham vọng trở nên tốt đẹp và cần thiết? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Ví dụ: Mong muốn biến một cục đất thành pho tượng là tham vọng; còn quyết tâm học nghề và rèn luyện…",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Tham vọng trở nên tốt đẹp và cần thiết khi được chí hướng đúng đắn chỉ đạo. Ai…",
+        "Ví dụ: Mong muốn biến một cục đất thành pho tượng là tham vọng; còn quyết tâm…",
+        "Tâm ngã mạn khiến ta xem thường người khác, thích khoe thành tích, khó lắng nghe góp ý, luôn cho…",
+        "Điều độ: Giữ chừng mực trong ăn uống, nghỉ ngơi, làm việc và giải trí để bảo vệ và phát triển sức…"
+      ],
+      "correctIndices": [
+        2,
+        3
+      ],
+      "explanation": "Tham vọng trở nên tốt đẹp và cần thiết khi được chí hướng đúng đắn chỉ đạo. Ai cũng có tham vọng, nhưng để biến tham vọng thành hiện thực và có ích thì phải có lý tưởng, sự hiểu biết và nghị lực theo đuổi.\n\nVí dụ: Mong muốn biến một cục đất thành pho tượng là tham vọng; còn quyết tâm học nghề và rèn luyện để thực hiện được điều đó chính là chí hướng.",
+      "sourceQuestion": "Khi nào tham vọng trở nên tốt đẹp và cần thiết?"
+    },
+    {
+      "id": "yellow-lesson-04-q11",
+      "lessonId": "yellow-lesson-04",
+      "number": 11,
+      "type": "ordering",
+      "question": "Trình bày phương pháp sư phạm điều hành một lớp tập võ theo tiêu chuẩn Liên đoàn Võ thuật Cổ truyền Việt Nam.? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Tập hợp lớp, chỉnh đốn đội hình và chào kính.",
+        "Ôn luyện kỹ thuật, đòn thế và bài tập cũ.",
+        "Điều tức, chỉnh trang võ phục và chào kính kết thúc buổi tập.",
+        "Đấu luyện, sửa sai và giải đáp thắc mắc.",
+        "Giới thiệu và hướng dẫn kỹ thuật mới, theo nguyên tắc từ chậm đến nhanh, từ nhẹ đến mạnh,…",
+        "Khởi động và điều tức, theo nguyên tắc làm nóng cơ thể từ đầu đến chân, hít sâu, thở dài,…",
+        "Thực hành và ứng dụng, tập lặp lại nhiều lần để đạt độ chính xác, tốc độ, sức mạnh và khả…"
+      ],
+      "correctOrder": [
+        0,
+        5,
+        1,
+        4,
+        6,
+        3,
+        2
+      ],
+      "explanation": "Một buổi tập võ cơ bản được tiến hành theo các bước sau:\n\nTập hợp lớp, chỉnh đốn đội hình và chào kính.\n\nKhởi động và điều tức, theo nguyên tắc làm nóng cơ thể từ đầu đến chân, hít sâu, thở dài, buông lỏng và khoan thai.\n\nÔn luyện kỹ thuật, đòn thế và bài tập cũ.\n\nGiới thiệu và hướng dẫn kỹ thuật mới, theo nguyên tắc từ chậm đến nhanh, từ nhẹ đến mạnh, kết hợp giải thích kỹ thuật.\n\nThực hành và ứng dụng, tập lặp lại nhiều lần để đạt độ chính xác, tốc độ, sức mạnh và khả năng phối hợp kỹ thuật.\n\nĐấu luyện, sửa sai và giải đáp thắc mắc.\n\nĐiều tức, chỉnh trang võ phục và chào kính kết thúc buổi tập.",
+      "sourceQuestion": "Trình bày phương pháp sư phạm điều hành một lớp tập võ theo tiêu chuẩn Liên đoàn Võ thuật Cổ truyền Việt Nam."
+    },
+    {
+      "id": "yellow-lesson-04-q12",
+      "lessonId": "yellow-lesson-04",
+      "number": 12,
+      "type": "single",
+      "question": "Nhận định về tương quan giữa cá nhân với tập thể ra sao?",
+      "options": [
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
+        "Cá nhân và tập thể có mối quan hệ gắn bó và trách nhiệm lẫn nhau. Tập thể tạo điều kiện cho cá nhân…",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
+      ],
+      "correctIndex": 2,
+      "explanation": "Cá nhân và tập thể có mối quan hệ gắn bó và trách nhiệm lẫn nhau. Tập thể tạo điều kiện cho cá nhân phát triển, còn cá nhân phải biết hòa hợp và đóng góp cho tập thể thì mới đạt được thành công.",
+      "sourceQuestion": "Nhận định về tương quan giữa cá nhân với tập thể ra sao?"
+    },
+    {
+      "id": "yellow-lesson-04-q13",
+      "lessonId": "yellow-lesson-04",
+      "number": 13,
+      "type": "fill",
+      "question": "Phật Quang Quyền chỉ chú trọng tới mục đích quảng bá võ thuật không thôi, hay chú trọng tới mục đích gì khác nữa? Điền vào chỗ trống: ______ và ______.",
+      "options": [
         "giáo dục đạo đức cho con người",
         "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo…",
+        "Đấu luyện, sửa sai và giải đáp thắc mắc.",
+        "xây dựng một nền võ đạo dân tộc",
+        "Tập hợp lớp, chỉnh đốn đội hình và chào…",
+        "Ví dụ: Mong muốn biến một cục đất thành…"
+      ],
+      "blanks": [
+        "xây dựng một nền võ đạo dân tộc",
+        "giáo dục đạo đức cho con người"
+      ],
+      "explanation": "Quảng bá và phát triển võ thuật là một mục tiêu quan trọng của môn phái Phật Quang Quyền. Tuy nhiên, mục tiêu cao hơn là xây dựng một nền võ đạo dân tộc và giáo dục đạo đức cho con người.\n\nVì vậy, Phật Quang Quyền lấy võ thuật làm phương tiện để truyền dạy đạo đức, góp phần xây dựng những con người vừa có sức khỏe, bản lĩnh, vừa có nhân cách và lý tưởng sống tốt đẹp.",
+      "sourceQuestion": "Phật Quang Quyền chỉ chú trọng tới mục đích quảng bá võ thuật không thôi, hay chú trọng tới mục đích gì khác nữa?"
+    },
+    {
+      "id": "yellow-lesson-04-q14",
+      "lessonId": "yellow-lesson-04",
+      "number": 14,
+      "type": "fill",
+      "question": "Hãy giải thích.? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo…",
+        "Đấu luyện, sửa sai và giải đáp thắc mắc.",
+        "Tự ái là phản ứng tâm lý khi cái tôi bị…",
+        "giáo dục đạo đức cho con người",
         "xây dựng một nền võ đạo dân tộc",
         "Muốn đạt đến trình độ võ đạo, trước hết…"
       ],
@@ -196,147 +283,196 @@
         "xây dựng một nền võ đạo dân tộc",
         "giáo dục đạo đức cho con người"
       ],
-      "explanation": "Quảng bá và phát triển võ thuật là một mục tiêu quan trọng của môn phái Phật Quang Quyền. Tuy nhiên, mục tiêu cao hơn là xây dựng một nền võ đạo dân tộc và giáo dục đạo đức cho con người.\nVì vậy, Phật Quang Quyền lấy võ thuật làm phương tiện để truyền dạy đạo đức, góp phần xây dựng những con người vừa có sức khỏe, bản lĩnh, vừa có nhân cách và lý tưởng sống tốt đẹp.",
-      "sourceQuestion": "Phật Quang Quyền chỉ chú trọng tới mục đích quảng bá võ thuật không thôi, hay chú trọng tới mục đích gì khác nữa? Hãy giải thích."
-    },
-    {
-      "id": "yellow-lesson-04-q10",
-      "lessonId": "yellow-lesson-04",
-      "number": 10,
-      "type": "multiple",
-      "question": "Có thể đạt tới trình độ võ đạo mà không phải qua trình độ võ thuật được không? (Chọn tất cả đáp án đúng)",
-      "options": [
-        "Muốn đạt đến trình độ võ đạo, trước hết phải trải qua quá trình rèn luyện võ…",
-        "Vì vậy, võ đạo không tách rời võ thuật mà được xây dựng trên nền tảng võ thuật…",
-        "Người biết tôn trọng lẽ phải, ý kiến đúng đắn của người khác và chấp hành kỷ luật là người biết làm chủ bản thân. Ngược…",
-        "Chúng ta sẽ dám thẳng thắn nhìn nhận lỗi lầm khi tin vào thực tài, thực đức và những việc đúng đắn mình đang làm. Đó là…"
-      ],
-      "correctIndices": [
-        0,
-        1
-      ],
-      "explanation": "Muốn đạt đến trình độ võ đạo, trước hết phải trải qua quá trình rèn luyện võ thuật. Võ thuật là nền tảng về kỹ năng và chuyên môn, còn võ đạo là sự phát triển cao hơn về đạo đức, nhân cách và lý tưởng sống.\nVì vậy, võ đạo không tách rời võ thuật mà được xây dựng trên nền tảng võ thuật đã được rèn luyện và hoàn thiện.",
-      "sourceQuestion": "Có thể đạt tới trình độ võ đạo mà không phải qua trình độ võ thuật được không?"
-    },
-    {
-      "id": "yellow-lesson-04-q11",
-      "lessonId": "yellow-lesson-04",
-      "number": 11,
-      "type": "fill",
-      "question": "Đạo Nhân của môn sinh Phật Quang Quyền là gì? Có phải vì người đối xử tốt mà ta tốt với họ không? Nếu họ đối xử xấu thì ta phải thế nào? Điền thuật ngữ chính xác: ______.",
-      "options": [
-        "Tự ái là phản ứng tâm lý khi cái tôi bị…",
-        "Ví dụ: Mong muốn biến một cục đất thành…",
-        "Đấu luyện, sửa sai và giải đáp thắc mắc.",
-        "Nên góp ý riêng với tinh thần xây dựng,…",
-        "Tập hợp lớp, chỉnh đốn đội hình và chào…",
-        "điều đúng nên làm"
-      ],
-      "blanks": [
-        "điều đúng nên làm"
-      ],
-      "explanation": "Đạo Nhân của môn sinh Phật Quang Quyền là thương yêu con người trên tinh thần thượng võ, thể hiện bằng những hành động cụ thể, bao dung và giúp đỡ người khác dưới sự hướng dẫn của trí tuệ.\nChúng ta làm điều tốt không phải vì người đối xử tốt với mình, mà vì đó là điều đúng nên làm. Khi gặp người đối xử chưa tốt, vẫn giữ lòng bao dung và thiện chí, nhưng tùy trường hợp mà nhắc nhở, ngăn cản hoặc cảm hóa họ một cách phù hợp.\nThực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp.",
-      "sourceQuestion": "Đạo Nhân của môn sinh Phật Quang Quyền là gì? Có phải vì người đối xử tốt mà ta tốt với họ không? Nếu họ đối xử xấu thì ta phải thế nào?"
-    },
-    {
-      "id": "yellow-lesson-04-q12",
-      "lessonId": "yellow-lesson-04",
-      "number": 12,
-      "type": "fill",
-      "question": "Quan niệm về sống khỏe của môn sinh Phật Quang Quyền ra sao? Điền vào chỗ trống: ______ và ______.",
-      "options": [
-        "bảo vệ",
-        "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo…",
-        "Muốn đạt đến trình độ võ đạo, trước hết…",
-        "Thấy rõ cuộc đời là vô thường, giả tạm,…",
-        "Tự ái là phản ứng tâm lý khi cái tôi bị…",
-        "phát triển sức khỏe"
-      ],
-      "blanks": [
-        "bảo vệ",
-        "phát triển sức khỏe"
-      ],
-      "explanation": "Để có sức khỏe tốt, môn sinh Phật Quang Quyền cần thực hiện ba nguyên tắc:\nĐiều độ: Giữ chừng mực trong ăn uống, nghỉ ngơi, làm việc và giải trí để bảo vệ và phát triển sức khỏe.\nChuyên cần luyện tập võ thuật: Rèn luyện thường xuyên để tăng cường thể chất, ý chí và tránh xa các thói hư tật xấu.\nBền bỉ trước thử thách: Kiên trì, nhẫn nại và không ngại khó khăn để rèn luyện sức khỏe, nghị lực và bản lĩnh trong cuộc sống.",
-      "sourceQuestion": "Quan niệm về sống khỏe của môn sinh Phật Quang Quyền ra sao?"
-    },
-    {
-      "id": "yellow-lesson-04-q13",
-      "lessonId": "yellow-lesson-04",
-      "number": 13,
-      "type": "single",
-      "question": "Muốn có đức tính tự chủ, phải rèn luyện ra sao?",
-      "options": [
-        "Đồng thời, cần tu dưỡng nội tâm để tâm hồn luôn ung dung, thanh thản, không bị chi phối bởi những tham vọng hay ham…",
-        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
-        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức."
-      ],
-      "correctIndex": 0,
-      "explanation": "Muốn có đức tính tự chủ, phải luôn giữ bình tĩnh trước mọi biến động của hoàn cảnh, rèn luyện sự quan sát và khả năng làm chủ cảm xúc của mình.\nĐồng thời, cần tu dưỡng nội tâm để tâm hồn luôn ung dung, thanh thản, không bị chi phối bởi những tham vọng hay ham muốn tầm thường.",
-      "sourceQuestion": "Muốn có đức tính tự chủ, phải rèn luyện ra sao?"
-    },
-    {
-      "id": "yellow-lesson-04-q14",
-      "lessonId": "yellow-lesson-04",
-      "number": 14,
-      "type": "single",
-      "question": "Khi nào chúng ta dám thẳng thắn nhìn nhận những lỗi lầm mà không sợ uy tín bị giảm?",
-      "options": [
-        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
-        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
-        "Chúng ta sẽ dám thẳng thắn nhìn nhận lỗi lầm khi tin vào thực tài, thực đức và những việc đúng đắn mình đang làm. Đó là…"
-      ],
-      "correctIndex": 3,
-      "explanation": "Chúng ta sẽ dám thẳng thắn nhìn nhận lỗi lầm khi tin vào thực tài, thực đức và những việc đúng đắn mình đang làm. Đó là biểu hiện của người hiểu và tin vào giá trị chân chính của bản thân",
-      "sourceQuestion": "Khi nào chúng ta dám thẳng thắn nhìn nhận những lỗi lầm mà không sợ uy tín bị giảm?"
+      "explanation": "Quảng bá và phát triển võ thuật là một mục tiêu quan trọng của môn phái Phật Quang Quyền. Tuy nhiên, mục tiêu cao hơn là xây dựng một nền võ đạo dân tộc và giáo dục đạo đức cho con người.\n\nVì vậy, Phật Quang Quyền lấy võ thuật làm phương tiện để truyền dạy đạo đức, góp phần xây dựng những con người vừa có sức khỏe, bản lĩnh, vừa có nhân cách và lý tưởng sống tốt đẹp.",
+      "sourceQuestion": "Hãy giải thích.?"
     },
     {
       "id": "yellow-lesson-04-q15",
       "lessonId": "yellow-lesson-04",
       "number": 15,
-      "type": "fill",
-      "question": "Hai tính chất trong tâm một người đệ tử Phật chân chính? Điền tên hoặc danh tính: ______.",
+      "type": "single",
+      "question": "Có thể đạt tới trình độ võ đạo mà không phải qua trình độ võ thuật được không?",
       "options": [
-        "vô thường, giả tạm, nên không tham lam,…",
-        "Tự ái là phản ứng tâm lý khi cái tôi bị…",
-        "Thấy rõ cuộc đời là vô thường, giả tạm,…",
-        "Muốn đạt đến trình độ võ đạo, trước hết…",
-        "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo…",
-        "Đấu luyện, sửa sai và giải đáp thắc mắc."
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Muốn đạt đến trình độ võ đạo, trước hết phải trải qua quá trình rèn luyện võ thuật. Võ thuật là nền…",
+        "Vì vậy, võ đạo không tách rời võ thuật mà được xây dựng trên nền tảng võ thuật đã được rèn luyện và hoàn thiện."
       ],
-      "blanks": [
-        "vô thường, giả tạm, nên không tham lam,…"
-      ],
-      "explanation": "Người đệ tử Phật chân chính cần có hai tính chất:\nThấy rõ cuộc đời là vô thường, giả tạm, nên không tham lam, chấp thủ, tranh giành hay thù hận.\nCó lòng từ bi, yêu thương chúng sinh, nên tận tụy phụng sự và giúp đỡ mọi người.\nNhờ hai điều đó, tâm hồn được an lạc, đạo đức ngày càng tăng trưởng và cuộc sống trở nên tốt đẹp hơn.",
-      "sourceQuestion": "Hai tính chất trong tâm một người đệ tử Phật chân chính?"
+      "correctIndex": 2,
+      "explanation": "Muốn đạt đến trình độ võ đạo, trước hết phải trải qua quá trình rèn luyện võ thuật. Võ thuật là nền tảng về kỹ năng và chuyên môn, còn võ đạo là sự phát triển cao hơn về đạo đức, nhân cách và lý tưởng sống.\n\nVì vậy, võ đạo không tách rời võ thuật mà được xây dựng trên nền tảng võ thuật đã được rèn luyện và hoàn thiện.",
+      "sourceQuestion": "Có thể đạt tới trình độ võ đạo mà không phải qua trình độ võ thuật được không?"
     },
     {
       "id": "yellow-lesson-04-q16",
       "lessonId": "yellow-lesson-04",
       "number": 16,
       "type": "single",
-      "question": "Võ học theo nghĩa rộng và nghĩa hẹp được hiểu ra sao?",
+      "question": "Đạo Nhân của môn sinh Phật Quang Quyền là gì?",
       "options": [
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
+        "Thực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp.",
         "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
-        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
-        "Theo nghĩa rộng: Võ học là một hoạt động văn hóa và sinh hoạt xã hội, gắn liền với đời sống của cộng đồng và dân tộc.",
-        "Theo nghĩa hẹp: Võ học là một ngành học chuyên nghiên cứu, giảng dạy và rèn luyện các kiến thức, kỹ năng và phương pháp…"
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
       ],
-      "correctIndex": 2,
-      "explanation": "Theo nghĩa rộng: Võ học là một hoạt động văn hóa và sinh hoạt xã hội, gắn liền với đời sống của cộng đồng và dân tộc.\nTheo nghĩa hẹp: Võ học là một ngành học chuyên nghiên cứu, giảng dạy và rèn luyện các kiến thức, kỹ năng và phương pháp võ thuật.",
-      "sourceQuestion": "Võ học theo nghĩa rộng và nghĩa hẹp được hiểu ra sao?"
+      "correctIndex": 1,
+      "explanation": "Đạo Nhân của môn sinh Phật Quang Quyền là thương yêu con người trên tinh thần thượng võ, thể hiện bằng những hành động cụ thể, bao dung và giúp đỡ người khác dưới sự hướng dẫn của trí tuệ.\n\nChúng ta làm điều tốt không phải vì người đối xử tốt với mình, mà vì đó là điều đúng nên làm. Khi gặp người đối xử chưa tốt, vẫn giữ lòng bao dung và thiện chí, nhưng tùy trường hợp mà nhắc nhở, ngăn cản hoặc cảm hóa họ một cách phù hợp.\n\nThực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp.",
+      "sourceQuestion": "Đạo Nhân của môn sinh Phật Quang Quyền là gì?"
     },
     {
       "id": "yellow-lesson-04-q17",
       "lessonId": "yellow-lesson-04",
       "number": 17,
+      "type": "fill",
+      "question": "Khi nào chúng ta dám thẳng thắn nhìn nhận những lỗi lầm mà không sợ uy tín bị giảm? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "biểu hiện của người hiểu",
+        "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo…",
+        "Thấy rõ cuộc đời là vô thường, giả tạm,…",
+        "tin vào giá trị chân chính của bản thân",
+        "Tập hợp lớp, chỉnh đốn đội hình và chào…",
+        "Tự ái là phản ứng tâm lý khi cái tôi bị…"
+      ],
+      "blanks": [
+        "biểu hiện của người hiểu",
+        "tin vào giá trị chân chính của bản thân"
+      ],
+      "explanation": "Chúng ta sẽ dám thẳng thắn nhìn nhận lỗi lầm khi tin vào thực tài, thực đức và những việc đúng đắn mình đang làm. Đó là biểu hiện của người hiểu và tin vào giá trị chân chính của bản thân",
+      "sourceQuestion": "Khi nào chúng ta dám thẳng thắn nhìn nhận những lỗi lầm mà không sợ uy tín bị giảm?"
+    },
+    {
+      "id": "yellow-lesson-04-q18",
+      "lessonId": "yellow-lesson-04",
+      "number": 18,
+      "type": "single",
+      "question": "Nếu họ đối xử xấu thì ta phải thế nào?",
+      "options": [
+        "Thực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp.",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Đạo Nhân của môn sinh Phật Quang Quyền là thương yêu con người trên tinh thần thượng võ, thể hiện…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Đạo Nhân của môn sinh Phật Quang Quyền là thương yêu con người trên tinh thần thượng võ, thể hiện bằng những hành động cụ thể, bao dung và giúp đỡ người khác dưới sự hướng dẫn của trí tuệ.\n\nChúng ta làm điều tốt không phải vì người đối xử tốt với mình, mà vì đó là điều đúng nên làm. Khi gặp người đối xử chưa tốt, vẫn giữ lòng bao dung và thiện chí, nhưng tùy trường hợp mà nhắc nhở, ngăn cản hoặc cảm hóa họ một cách phù hợp.\n\nThực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp.",
+      "sourceQuestion": "Nếu họ đối xử xấu thì ta phải thế nào?"
+    },
+    {
+      "id": "yellow-lesson-04-q19",
+      "lessonId": "yellow-lesson-04",
+      "number": 19,
+      "type": "single",
+      "question": "Quan niệm về sống khỏe của môn sinh Phật Quang Quyền ra sao?",
+      "options": [
+        "Điều độ: Giữ chừng mực trong ăn uống, nghỉ ngơi, làm việc và giải trí để bảo vệ và phát triển sức…",
+        "Bền bỉ trước thử thách: Kiên trì, nhẫn nại và không ngại khó khăn để rèn luyện sức khỏe, nghị lực và bản lĩnh trong…",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Chuyên cần luyện tập võ thuật: Rèn luyện thường xuyên để tăng cường thể chất, ý chí và tránh xa các thói hư tật xấu."
+      ],
+      "correctIndex": 0,
+      "explanation": "Để có sức khỏe tốt, môn sinh Phật Quang Quyền cần thực hiện ba nguyên tắc:\n\nĐiều độ: Giữ chừng mực trong ăn uống, nghỉ ngơi, làm việc và giải trí để bảo vệ và phát triển sức khỏe.\n\nChuyên cần luyện tập võ thuật: Rèn luyện thường xuyên để tăng cường thể chất, ý chí và tránh xa các thói hư tật xấu.\n\nBền bỉ trước thử thách: Kiên trì, nhẫn nại và không ngại khó khăn để rèn luyện sức khỏe, nghị lực và bản lĩnh trong cuộc sống.",
+      "sourceQuestion": "Quan niệm về sống khỏe của môn sinh Phật Quang Quyền ra sao?"
+    },
+    {
+      "id": "yellow-lesson-04-q20",
+      "lessonId": "yellow-lesson-04",
+      "number": 20,
+      "type": "multiple",
+      "question": "Võ học theo nghĩa rộng và nghĩa hẹp được hiểu ra sao? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Theo nghĩa hẹp: Võ học là một ngành học chuyên nghiên cứu, giảng dạy và rèn…",
+        "Môn sinh Phật Quang Quyền có bổn phận góp phần xây dựng xã hội ngày càng tốt đẹp hơn, nuôi dưỡng…",
+        "Giới thiệu và hướng dẫn kỹ thuật mới, theo nguyên tắc từ chậm đến nhanh, từ nhẹ đến mạnh, kết hợp…",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Theo nghĩa rộng: Võ học là một hoạt động văn hóa và sinh hoạt xã hội, gắn liền…",
+        "Bền bỉ trước thử thách: Kiên trì, nhẫn nại và không ngại khó khăn để rèn luyện sức khỏe, nghị lực…"
+      ],
+      "correctIndices": [
+        0,
+        4
+      ],
+      "explanation": "Theo nghĩa rộng: Võ học là một hoạt động văn hóa và sinh hoạt xã hội, gắn liền với đời sống của cộng đồng và dân tộc.\n\nTheo nghĩa hẹp: Võ học là một ngành học chuyên nghiên cứu, giảng dạy và rèn luyện các kiến thức, kỹ năng và phương pháp võ thuật.",
+      "sourceQuestion": "Võ học theo nghĩa rộng và nghĩa hẹp được hiểu ra sao?"
+    },
+    {
+      "id": "yellow-lesson-04-q21",
+      "lessonId": "yellow-lesson-04",
+      "number": 21,
+      "type": "single",
+      "question": "Muốn có đức tính tự chủ, phải rèn luyện ra sao?",
+      "options": [
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Đồng thời, cần tu dưỡng nội tâm để tâm hồn luôn ung dung, thanh thản, không bị chi phối bởi những…",
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức."
+      ],
+      "correctIndex": 2,
+      "explanation": "Muốn có đức tính tự chủ, phải luôn giữ bình tĩnh trước mọi biến động của hoàn cảnh, rèn luyện sự quan sát và khả năng làm chủ cảm xúc của mình.\n\nĐồng thời, cần tu dưỡng nội tâm để tâm hồn luôn ung dung, thanh thản, không bị chi phối bởi những tham vọng hay ham muốn tầm thường.",
+      "sourceQuestion": "Muốn có đức tính tự chủ, phải rèn luyện ra sao?"
+    },
+    {
+      "id": "yellow-lesson-04-q22",
+      "lessonId": "yellow-lesson-04",
+      "number": 22,
+      "type": "single",
+      "question": "Có phải vì người đối xử tốt mà ta tốt với họ không?",
+      "options": [
+        "Đạo Nhân của môn sinh Phật Quang Quyền là thương yêu con người trên tinh thần thượng võ, thể hiện…",
+        "Thực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp.",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đạo Nhân của môn sinh Phật Quang Quyền là thương yêu con người trên tinh thần thượng võ, thể hiện bằng những hành động cụ thể, bao dung và giúp đỡ người khác dưới sự hướng dẫn của trí tuệ.\n\nChúng ta làm điều tốt không phải vì người đối xử tốt với mình, mà vì đó là điều đúng nên làm. Khi gặp người đối xử chưa tốt, vẫn giữ lòng bao dung và thiện chí, nhưng tùy trường hợp mà nhắc nhở, ngăn cản hoặc cảm hóa họ một cách phù hợp.\n\nThực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi hay đền đáp.",
+      "sourceQuestion": "Có phải vì người đối xử tốt mà ta tốt với họ không?"
+    },
+    {
+      "id": "yellow-lesson-04-q23",
+      "lessonId": "yellow-lesson-04",
+      "number": 23,
+      "type": "multiple",
+      "question": "Hai tính chất trong tâm một người đệ tử Phật chân chính? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Nhờ hai điều đó, tâm hồn được an lạc, đạo đức ngày càng tăng trưởng và cuộc…",
+        "Khiêm hạ là không tự cao, không xem mình hơn người và luôn biết tôn trọng mọi người. Người môn sinh…",
+        "Có lòng từ bi, yêu thương chúng sinh, nên tận tụy phụng sự và giúp đỡ mọi người.",
+        "Thấy rõ cuộc đời là vô thường, giả tạm, nên không tham lam, chấp thủ, tranh…",
+        "Thấy rõ cuộc đời là vô thường, giả tạm, nên không tham lam, chấp thủ, tranh giành hay thù hận.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Chí hướng là mục tiêu cao đẹp mà con người kiên trì theo đuổi bằng ý chí và sự nỗ lực của mình."
+      ],
+      "correctIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Người đệ tử Phật chân chính cần có hai tính chất:\n\nThấy rõ cuộc đời là vô thường, giả tạm, nên không tham lam, chấp thủ, tranh giành hay thù hận.\n\nCó lòng từ bi, yêu thương chúng sinh, nên tận tụy phụng sự và giúp đỡ mọi người.\n\nNhờ hai điều đó, tâm hồn được an lạc, đạo đức ngày càng tăng trưởng và cuộc sống trở nên tốt đẹp hơn.",
+      "sourceQuestion": "Hai tính chất trong tâm một người đệ tử Phật chân chính?"
+    },
+    {
+      "id": "yellow-lesson-04-q24",
+      "lessonId": "yellow-lesson-04",
+      "number": 24,
+      "type": "single",
+      "question": "Về giá trị luân lý, môn sinh Phật Quang Quyền phải có bổn phận ra sao?",
+      "options": [
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Môn sinh Phật Quang Quyền có bổn phận góp phần xây dựng xã hội ngày càng tốt đẹp hơn, nuôi dưỡng…",
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
+      ],
+      "correctIndex": 1,
+      "explanation": "Môn sinh Phật Quang Quyền có bổn phận góp phần xây dựng xã hội ngày càng tốt đẹp hơn, nuôi dưỡng tình thương yêu giữa con người với nhau, góp phần làm cho đất nước hưng thịnh và phát huy tinh thần võ đạo trong cộng đồng.",
+      "sourceQuestion": "Về giá trị luân lý, môn sinh Phật Quang Quyền phải có bổn phận ra sao?"
+    },
+    {
+      "id": "yellow-lesson-04-q25",
+      "lessonId": "yellow-lesson-04",
+      "number": 25,
       "type": "single",
       "question": "Hỏi: Đố kỵ là gì và do đâu mà có?",
       "options": [
-        "Đố kỵ là tâm buồn bực, ganh ghét khi thấy người khác thành công, được yêu quý hoặc vượt trội hơn mình. Tâm đố kỵ xuất…",
-        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Đố kỵ là tâm buồn bực, ganh ghét khi thấy người khác thành công, được yêu quý hoặc vượt trội hơn…",
         "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
         "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức."
       ],
       "correctIndex": 0,
@@ -344,18 +480,71 @@
       "sourceQuestion": "Hỏi: Đố kỵ là gì và do đâu mà có?"
     },
     {
-      "id": "yellow-lesson-04-q18",
+      "id": "yellow-lesson-04-q26",
       "lessonId": "yellow-lesson-04",
-      "number": 18,
+      "number": 26,
+      "type": "fill",
+      "question": "Chỉ trích khác với góp ý như thế nào? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Theo nghĩa hẹp: Võ học là một ngành học…",
+        "sửa đổi",
+        "tiến bộ hơn",
+        "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo…",
+        "Đấu luyện, sửa sai và giải đáp thắc mắc.",
+        "Ví dụ: Mong muốn biến một cục đất thành…"
+      ],
+      "blanks": [
+        "sửa đổi",
+        "tiến bộ hơn"
+      ],
+      "explanation": "Góp ý là chân thành giúp người khác nhận ra lỗi để sửa đổi và tiến bộ hơn. Chỉ trích là nói xấu, phê phán nhằm làm giảm uy tín hoặc khiến người khác bị mọi người xa lánh.",
+      "sourceQuestion": "Hỏi: Chỉ trích khác với góp ý như thế nào?"
+    },
+    {
+      "id": "yellow-lesson-04-q27",
+      "lessonId": "yellow-lesson-04",
+      "number": 27,
+      "type": "single",
+      "question": "Hỏi: Tâm đố kỵ gây tác hại như thế nào đối với người môn sinh?",
+      "options": [
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Tâm đố kỵ làm mất tình huynh đệ, gây chia rẽ tập thể và khiến bản thân khó tiến bộ. Người đố kỵ…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tâm đố kỵ làm mất tình huynh đệ, gây chia rẽ tập thể và khiến bản thân khó tiến bộ. Người đố kỵ thường dễ chê bai, chống đối hoặc tìm cách hạ thấp người khác thay vì cố gắng hoàn thiện chính mình.",
+      "sourceQuestion": "Hỏi: Tâm đố kỵ gây tác hại như thế nào đối với người môn sinh?"
+    },
+    {
+      "id": "yellow-lesson-04-q28",
+      "lessonId": "yellow-lesson-04",
+      "number": 28,
+      "type": "single",
+      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền không nên chỉ trích người khác?",
+      "options": [
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
+        "Vì chỉ trích làm tổn thương tình huynh đệ, gây mất đoàn kết trong tập thể và thường xuất phát từ…",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
+      ],
+      "correctIndex": 1,
+      "explanation": "Vì chỉ trích làm tổn thương tình huynh đệ, gây mất đoàn kết trong tập thể và thường xuất phát từ những tâm bất thiện như đố kỵ, giận hờn hoặc tự cao.",
+      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền không nên chỉ trích người khác?"
+    },
+    {
+      "id": "yellow-lesson-04-q29",
+      "lessonId": "yellow-lesson-04",
+      "number": 29,
       "type": "fill",
       "question": "Khiêm hạ là gì và vì sao người môn sinh Phật Quang Quyền phải rèn luyện đức tính khiêm hạ? Điền vào chỗ trống: ______ và ______.",
       "options": [
         "không tự cao, không xem mình hơn người",
-        "Ví dụ: Mong muốn biến một cục đất thành…",
         "Danh ngôn có câu: “Kẻ nào muốn lãnh đạo…",
-        "luôn biết tôn trọng mọi người",
-        "Nên góp ý riêng với tinh thần xây dựng,…",
-        "Tập hợp lớp, chỉnh đốn đội hình và chào…"
+        "Đấu luyện, sửa sai và giải đáp thắc mắc.",
+        "Muốn đạt đến trình độ võ đạo, trước hết…",
+        "Tự ái là phản ứng tâm lý khi cái tôi bị…",
+        "luôn biết tôn trọng mọi người"
       ],
       "blanks": [
         "không tự cao, không xem mình hơn người",
@@ -365,79 +554,31 @@
       "sourceQuestion": "Hỏi: Khiêm hạ là gì và vì sao người môn sinh Phật Quang Quyền phải rèn luyện đức tính khiêm hạ?"
     },
     {
-      "id": "yellow-lesson-04-q19",
+      "id": "yellow-lesson-04-q30",
       "lessonId": "yellow-lesson-04",
-      "number": 19,
-      "type": "single",
-      "question": "Hỏi: Chỉ trích khác với góp ý như thế nào?",
-      "options": [
-        "Góp ý là chân thành giúp người khác nhận ra lỗi để sửa đổi và tiến bộ hơn. Chỉ trích là nói xấu, phê phán nhằm làm giảm…",
-        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
-        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn."
-      ],
-      "correctIndex": 0,
-      "explanation": "Góp ý là chân thành giúp người khác nhận ra lỗi để sửa đổi và tiến bộ hơn. Chỉ trích là nói xấu, phê phán nhằm làm giảm uy tín hoặc khiến người khác bị mọi người xa lánh.",
-      "sourceQuestion": "Hỏi: Chỉ trích khác với góp ý như thế nào?"
-    },
-    {
-      "id": "yellow-lesson-04-q20",
-      "lessonId": "yellow-lesson-04",
-      "number": 20,
-      "type": "single",
-      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền không nên chỉ trích người khác?",
-      "options": [
-        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
-        "Vì chỉ trích làm tổn thương tình huynh đệ, gây mất đoàn kết trong tập thể và thường xuất phát từ những tâm bất thiện…",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
-        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
-      ],
-      "correctIndex": 1,
-      "explanation": "Vì chỉ trích làm tổn thương tình huynh đệ, gây mất đoàn kết trong tập thể và thường xuất phát từ những tâm bất thiện như đố kỵ, giận hờn hoặc tự cao.",
-      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền không nên chỉ trích người khác?"
-    },
-    {
-      "id": "yellow-lesson-04-q21",
-      "lessonId": "yellow-lesson-04",
-      "number": 21,
+      "number": 30,
       "type": "single",
       "question": "Hỏi: Khi thấy huynh đệ có khuyết điểm, người môn sinh nên làm gì?",
       "options": [
-        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Nên góp ý riêng với tinh thần xây dựng, chân thành giúp nhau tiến bộ. Nếu không thể tự góp ý, cần…",
         "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
-        "Nên góp ý riêng với tinh thần xây dựng, chân thành giúp nhau tiến bộ. Nếu không thể tự góp ý, cần trình bày với người…",
+        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
         "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức."
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Nên góp ý riêng với tinh thần xây dựng, chân thành giúp nhau tiến bộ. Nếu không thể tự góp ý, cần trình bày với người có trách nhiệm, tuyệt đối không nói xấu hay lan truyền lỗi của người khác.",
       "sourceQuestion": "Hỏi: Khi thấy huynh đệ có khuyết điểm, người môn sinh nên làm gì?"
     },
     {
-      "id": "yellow-lesson-04-q22",
+      "id": "yellow-lesson-04-q31",
       "lessonId": "yellow-lesson-04",
-      "number": 22,
-      "type": "single",
-      "question": "Hỏi: Tâm đố kỵ gây tác hại như thế nào đối với người môn sinh?",
-      "options": [
-        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
-        "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
-        "Tâm đố kỵ làm mất tình huynh đệ, gây chia rẽ tập thể và khiến bản thân khó tiến bộ. Người đố kỵ thường dễ chê bai,…"
-      ],
-      "correctIndex": 3,
-      "explanation": "Tâm đố kỵ làm mất tình huynh đệ, gây chia rẽ tập thể và khiến bản thân khó tiến bộ. Người đố kỵ thường dễ chê bai, chống đối hoặc tìm cách hạ thấp người khác thay vì cố gắng hoàn thiện chính mình.",
-      "sourceQuestion": "Hỏi: Tâm đố kỵ gây tác hại như thế nào đối với người môn sinh?"
-    },
-    {
-      "id": "yellow-lesson-04-q23",
-      "lessonId": "yellow-lesson-04",
-      "number": 23,
+      "number": 31,
       "type": "single",
       "question": "Hỏi: Dấu hiệu của tâm ngã mạn là gì?",
       "options": [
-        "Tâm ngã mạn khiến ta xem thường người khác, thích khoe thành tích, khó lắng nghe góp ý, luôn cho mình đúng và muốn được…",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
+        "Tâm ngã mạn khiến ta xem thường người khác, thích khoe thành tích, khó lắng nghe góp ý, luôn cho…",
         "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
         "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn."
       ],
       "correctIndex": 0,
@@ -445,48 +586,48 @@
       "sourceQuestion": "Hỏi: Dấu hiệu của tâm ngã mạn là gì?"
     },
     {
-      "id": "yellow-lesson-04-q24",
+      "id": "yellow-lesson-04-q32",
       "lessonId": "yellow-lesson-04",
-      "number": 24,
+      "number": 32,
       "type": "single",
       "question": "Hỏi: Người môn sinh Phật Quang Quyền rèn luyện tâm khiêm hạ bằng cách nào?",
       "options": [
         "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Bằng cách luôn lễ độ, kính trọng mọi người, biết lắng nghe, nhường nhịn, chân thành khen ngợi ưu…",
         "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
-        "Bằng cách luôn lễ độ, kính trọng mọi người, biết lắng nghe, nhường nhịn, chân thành khen ngợi ưu điểm của người khác và…",
         "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người."
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Bằng cách luôn lễ độ, kính trọng mọi người, biết lắng nghe, nhường nhịn, chân thành khen ngợi ưu điểm của người khác và không ngừng nhìn lại những thiếu sót của bản thân để sửa đổi.",
       "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền rèn luyện tâm khiêm hạ bằng cách nào?"
     },
     {
-      "id": "yellow-lesson-04-q25",
+      "id": "yellow-lesson-04-q33",
       "lessonId": "yellow-lesson-04",
-      "number": 25,
+      "number": 33,
       "type": "single",
       "question": "Hỏi: Nóng nảy là gì và nguyên nhân do đâu?",
       "options": [
-        "Nóng nảy là mất bình tĩnh khi gặp chuyện trái ý, dễ nổi giận và có lời nói, hành động thiếu kiểm soát. Nguyên nhân…",
         "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
         "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Nóng nảy là mất bình tĩnh khi gặp chuyện trái ý, dễ nổi giận và có lời nói, hành động thiếu kiểm…",
         "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức."
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Nóng nảy là mất bình tĩnh khi gặp chuyện trái ý, dễ nổi giận và có lời nói, hành động thiếu kiểm soát. Nguyên nhân thường xuất phát từ sự ích kỷ, tự ái và muốn mọi việc phải theo ý mình.",
       "sourceQuestion": "Hỏi: Nóng nảy là gì và nguyên nhân do đâu?"
     },
     {
-      "id": "yellow-lesson-04-q26",
+      "id": "yellow-lesson-04-q34",
       "lessonId": "yellow-lesson-04",
-      "number": 26,
+      "number": 34,
       "type": "single",
       "question": "Hỏi: Tác hại của tính nóng nảy đối với người môn sinh Phật Quang Quyền là gì?",
       "options": [
-        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
-        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
         "Phục tùng đa số: Tôn trọng quyết định chung của tập thể vì thường phản ánh ý kiến của nhiều người.",
-        "Nóng nảy làm mất sự sáng suốt, dễ gây tổn thương người khác, ảnh hưởng đến tình huynh đệ và làm giảm giá trị của những…"
+        "Phục tùng thượng cấp: Thể hiện tinh thần kỷ luật và tôn trọng tổ chức.",
+        "Phục tùng lẽ phải: Tôn trọng và làm theo điều đúng đắn.",
+        "Nóng nảy làm mất sự sáng suốt, dễ gây tổn thương người khác, ảnh hưởng đến tình huynh đệ và làm…"
       ],
       "correctIndex": 3,
       "explanation": "Nóng nảy làm mất sự sáng suốt, dễ gây tổn thương người khác, ảnh hưởng đến tình huynh đệ và làm giảm giá trị của những nỗ lực rèn luyện đạo đức, võ thuật mà mình đã dày công xây dựng.",
