@@ -1,0 +1,49 @@
+{
+  "name": "pqq-theory-journey",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "node scripts/convert-content.mjs && node scripts/generate-achievement-badges.mjs && node scripts/sync-assets.mjs && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "convert-content": "node scripts/convert-content.mjs",
+    "generate-badges": "node scripts/generate-achievement-badges.mjs && node scripts/sync-assets.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.3.3",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.16.0",
+    "gray-matter": "^2.0.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.513.0",
+    "next": "^15.3.3",
+    "next-mdx-remote": "^6.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.57.0",
+    "react-intersection-observer": "^10.0.3",
+    "tailwind-merge": "^3.3.0",
+    "zod": "^3.25.51",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^15.3.3",
+    "playwright": "^1.52.0",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.9"
+  }
+}

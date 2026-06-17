@@ -1,0 +1,505 @@
+{
+  "lessonId": "white-lesson-02",
+  "title": "Bạch Đai — Kiểm tra",
+  "passThreshold": 70,
+  "questions": [
+    {
+      "id": "white-lesson-02-q01",
+      "lessonId": "white-lesson-02",
+      "number": 1,
+      "type": "fill",
+      "question": "Hỏi Quan niệm dụng võ của môn phái Phật Quang Quyền như thế nào? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "xã hội",
+        "Phải suy nghĩ kỹ khả năng thực hiện của…",
+        "Luôn cố gắng nhận ra những điều tốt của…",
+        "phụng sự gia đình",
+        "Người có Đức Nhân là người có lòng tốt;…",
+        "Phải biết bao dung, nhẫn nhịn và bỏ qua…"
+      ],
+      "blanks": [
+        "phụng sự gia đình",
+        "xã hội"
+      ],
+      "explanation": "Phật Quang Quyền lấy việc xây dựng con người làm mục tiêu, chú trọng rèn luyện cả thể chất lẫn đạo đức để phụng sự gia đình và xã hội. Người môn sinh sử dụng võ thuật với tinh thần hữu nghị, thượng võ, không hiếu chiến, không xem chiến thắng là mục đích tối hậu mà hướng đến hoàn thiện bản thân theo lý tưởng Bi – Trí – Dũng. Chỉ dùng võ để tự vệ, bảo vệ lẽ phải và bênh vực người yếu thế, luôn làm chủ bản thân, hành động đúng lúc, đúng mức và không gây tổn hại quá đáng cho người khác.",
+      "sourceQuestion": "Hỏi Quan niệm dụng võ của môn phái Phật Quang Quyền như thế nào?"
+    },
+    {
+      "id": "white-lesson-02-q02",
+      "lessonId": "white-lesson-02",
+      "number": 2,
+      "type": "fill",
+      "question": "Quan niệm Tài và Đức của môn phái PQQ là gì? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Phải suy nghĩ kỹ khả năng thực hiện của…",
+        "Vì sống giản dị giúp giảm bớt những nhu…",
+        "có đạo đức, trách nhiệm",
+        "lý tưởng sống đúng đắn",
+        "Người có Đức Nhân là người có lòng tốt;…",
+        "Luôn cố gắng nhận ra những điều tốt của…"
+      ],
+      "blanks": [
+        "có đạo đức, trách nhiệm",
+        "lý tưởng sống đúng đắn"
+      ],
+      "explanation": "Môn phái Phật Quang Quyền quan niệm Tài và Đức phải luôn đi đôi với nhau. Người môn sinh phải rèn luyện võ thuật để có sức khỏe, bản lĩnh và năng lực làm việc; đồng thời tu dưỡng võ đạo để có đạo đức, trách nhiệm và lý tưởng sống đúng đắn. Có tài mà thiếu đức dễ gây hại cho bản thân và xã hội; có đức mà thiếu tài thì khó giúp ích cho mọi người. Vì vậy, người môn sinh Phật Quang Quyền phải không ngừng hoàn thiện cả Tài lẫn Đức để trở thành người có ích cho gia đình, xã hội và được mọi người tin yêu, kính trọng.",
+      "sourceQuestion": "Quan niệm Tài và Đức của môn phái PQQ là gì?"
+    },
+    {
+      "id": "white-lesson-02-q03",
+      "lessonId": "white-lesson-02",
+      "number": 3,
+      "type": "ordering",
+      "question": "Đức Nhân và Đạo Nhân khác nhau như thế nào? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp…"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        0
+      ],
+      "explanation": "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.\nĐạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được thể hiện đúng đắn, rộng lớn và mang lại lợi ích cho mọi người.\nNgười có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết thực vì cộng đồng, Tổ quốc và nhân loại.",
+      "sourceQuestion": "Đức Nhân và Đạo Nhân khác nhau như thế nào?"
+    },
+    {
+      "id": "white-lesson-02-q04",
+      "lessonId": "white-lesson-02",
+      "number": 4,
+      "type": "fill",
+      "question": "Vì sao cần có sự thưởng phạt trong môn phái Phật Quang Quyền và nguyên tắc thưởng phạt là gì? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Phải biết bao dung, nhẫn nhịn và bỏ qua…",
+        "giữ gìn kỷ luật trong tập thể",
+        "Luôn cố gắng nhận ra những điều tốt của…",
+        "Người có Đức Nhân là người có lòng tốt;…",
+        "khích lệ điều tốt, ngăn ngừa điều sai",
+        "Vì sống giản dị giúp giảm bớt những nhu…"
+      ],
+      "blanks": [
+        "khích lệ điều tốt, ngăn ngừa điều sai",
+        "giữ gìn kỷ luật trong tập thể"
+      ],
+      "explanation": "Thưởng phạt là biện pháp giáo dục nhằm khích lệ điều tốt, ngăn ngừa điều sai và giữ gìn kỷ luật trong tập thể. Việc thưởng phạt phải công bằng, khách quan, đúng người đúng việc, dựa trên sự thật và thực hiện theo nguyên tắc phạt nghiêm, thưởng xứng, không thiên vị hay cảm tính.",
+      "sourceQuestion": "Hỏi:Vì sao cần có sự thưởng phạt trong môn phái Phật Quang Quyền và nguyên tắc thưởng phạt là gì?"
+    },
+    {
+      "id": "white-lesson-02-q05",
+      "lessonId": "white-lesson-02",
+      "number": 5,
+      "type": "fill",
+      "question": "Quan niệm của VSPQQ về làm việc và nghỉ ngơi, Tu dưỡng ra sao? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Vì sống giản dị giúp giảm bớt những nhu…",
+        "tái tạo sức khỏe",
+        "tinh thần",
+        "Người có Đức Nhân là người có lòng tốt;…",
+        "Luôn cố gắng nhận ra những điều tốt của…",
+        "Phải suy nghĩ kỹ khả năng thực hiện của…"
+      ],
+      "blanks": [
+        "tái tạo sức khỏe",
+        "tinh thần"
+      ],
+      "explanation": "Võ sinh Phật Quang Quyền luôn sống có ích, tôn trọng lẽ phải và góp phần xây dựng xã hội tốt đẹp. Trong công việc phải siêng năng, gương mẫu, trung thực và không vụ lợi. Trong nghỉ ngơi phải điều độ, lành mạnh để tái tạo sức khỏe và tinh thần. Trong tu dưỡng phải sống thanh đạm, rèn luyện đạo đức, tránh các thói hư tật xấu để hoàn thiện nhân cách và trở thành người hữu ích cho gia đình, xã hội.",
+      "sourceQuestion": "Quan niệm của VSPQQ về làm việc và nghỉ ngơi, Tu dưỡng ra sao?"
+    },
+    {
+      "id": "white-lesson-02-q06",
+      "lessonId": "white-lesson-02",
+      "number": 6,
+      "type": "single",
+      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải giữ lời hứa?",
+      "options": [
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Vì giữ lời hứa thể hiện sự trung thực, trách nhiệm và uy tín của bản thân. Người biết giữ lời hứa sẽ được mọi người tin…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vì giữ lời hứa thể hiện sự trung thực, trách nhiệm và uy tín của bản thân. Người biết giữ lời hứa sẽ được mọi người tin tưởng, kính trọng và có đủ ý chí để theo đuổi những lý tưởng tốt đẹp trong cuộc sống.",
+      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải giữ lời hứa?"
+    },
+    {
+      "id": "white-lesson-02-q07",
+      "lessonId": "white-lesson-02",
+      "number": 7,
+      "type": "scenario",
+      "question": "Tình huống: Một môn sinh hứa hẹn với đồng môn rồi không thực hiện đúng cam kết.\n\nTheo bài học, quy định hoặc nguyên lý nào bị vi phạm?",
+      "options": [
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên…",
+        "Phải suy nghĩ kỹ khả năng thực hiện của mình, cân nhắc những khó khăn có thể xảy ra và chỉ hứa khi…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể,…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phải suy nghĩ kỹ khả năng thực hiện của mình, cân nhắc những khó khăn có thể xảy ra và chỉ hứa khi thật sự có trách nhiệm thực hiện. Không nên hứa tùy tiện chỉ để làm hài lòng người khác.",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền cần làm gì trước khi hứa một điều gì?"
+    },
+    {
+      "id": "white-lesson-02-q08",
+      "lessonId": "white-lesson-02",
+      "number": 8,
+      "type": "scenario",
+      "question": "Tình huống: Một môn sinh không cố gắng thực hiện đúng lời hứa, đúng thời gian đã hẹn.\n\nTheo bài học, quy định hoặc nguyên lý nào bị vi phạm?",
+      "options": [
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể,…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên…",
+        "Khi đã hứa thì phải cố gắng thực hiện đúng lời hứa, đúng thời gian đã hẹn. Trường hợp bất khả kháng…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Khi đã hứa thì phải cố gắng thực hiện đúng lời hứa, đúng thời gian đã hẹn. Trường hợp bất khả kháng hoặc lời hứa gây ảnh hưởng không tốt cho tập thể, đạo đức hay lẽ phải, phải chân thành giải thích và thông báo kịp thời.",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền thực hành đức tính giữ lời hứa như thế nào?"
+    },
+    {
+      "id": "white-lesson-02-q09",
+      "lessonId": "white-lesson-02",
+      "number": 9,
+      "type": "single",
+      "question": "Hỏi: Cậy công là gì?",
+      "options": [
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Cậy công là tự hào, tự cao về những công lao, thành tích hoặc đóng góp của mình rồi cho rằng mình hơn người khác, muốn…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cậy công là tự hào, tự cao về những công lao, thành tích hoặc đóng góp của mình rồi cho rằng mình hơn người khác, muốn được đề cao hoặc đòi hỏi quyền lợi đặc biệt cho bản thân.",
+      "sourceQuestion": "Hỏi: Cậy công là gì?"
+    },
+    {
+      "id": "white-lesson-02-q10",
+      "lessonId": "white-lesson-02",
+      "number": 10,
+      "type": "single",
+      "question": "Hỏi: Tác hại của tâm cậy công đối với người môn sinh Phật Quang Quyền là gì?",
+      "options": [
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Cậy công làm mất đi sự khiêm tốn, dễ sinh ngã mạn, tham vọng và gây mất đoàn kết trong tập thể. Khi quá chấp vào công…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cậy công làm mất đi sự khiêm tốn, dễ sinh ngã mạn, tham vọng và gây mất đoàn kết trong tập thể. Khi quá chấp vào công lao của mình, người môn sinh sẽ đánh mất những giá trị tốt đẹp mà mình đã dày công xây dựng.",
+      "sourceQuestion": "Hỏi: Tác hại của tâm cậy công đối với người môn sinh Phật Quang Quyền là gì?"
+    },
+    {
+      "id": "white-lesson-02-q11",
+      "lessonId": "white-lesson-02",
+      "number": 11,
+      "type": "fill",
+      "question": "Người môn sinh Phật Quang Quyền thực hành hạnh không cậy công như thế nào? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "niềm vui của người môn sinh",
+        "Phải suy nghĩ kỹ khả năng thực hiện của…",
+        "Độc quyền độ sinh là tâm muốn chỉ riêng…",
+        "Phải biết bao dung, nhẫn nhịn và bỏ qua…",
+        "Người có Đức Nhân là người có lòng tốt;…",
+        "trách nhiệm"
+      ],
+      "blanks": [
+        "trách nhiệm",
+        "niềm vui của người môn sinh"
+      ],
+      "explanation": "Luôn hết lòng giúp đỡ tập thể và huynh đệ nhưng không kể công, không đòi hỏi sự ghi nhận hay quyền lợi cho riêng mình. Càng có đóng góp càng phải giữ tâm khiêm tốn, xem việc phụng sự là trách nhiệm và niềm vui của người môn sinh.",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền thực hành hạnh không cậy công như thế nào?"
+    },
+    {
+      "id": "white-lesson-02-q12",
+      "lessonId": "white-lesson-02",
+      "number": 12,
+      "type": "single",
+      "question": "Hỏi: Thù vặt là gì?",
+      "options": [
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Thù vặt là ghi nhớ và ôm giữ những va chạm, xúc phạm hoặc bất hòa nhỏ nhặt rồi sinh tâm hiềm hận, khó chịu với người…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thù vặt là ghi nhớ và ôm giữ những va chạm, xúc phạm hoặc bất hòa nhỏ nhặt rồi sinh tâm hiềm hận, khó chịu với người khác trong thời gian dài.",
+      "sourceQuestion": "Hỏi: Thù vặt là gì?"
+    },
+    {
+      "id": "white-lesson-02-q13",
+      "lessonId": "white-lesson-02",
+      "number": 13,
+      "type": "single",
+      "question": "Hỏi: Tác hại của tâm thù vặt đối với người môn sinh Phật Quang Quyền là gì?",
+      "options": [
+        "Thù vặt làm tâm hồn trở nên nhỏ hẹp, mất đoàn kết với huynh đệ, dễ sinh ác cảm, chỉ trích và làm tổn hại đến tình nghĩa…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thù vặt làm tâm hồn trở nên nhỏ hẹp, mất đoàn kết với huynh đệ, dễ sinh ác cảm, chỉ trích và làm tổn hại đến tình nghĩa đồng môn. Người mang tâm thù vặt sẽ khó hoàn thiện nhân cách và tiến bộ trong võ đạo.",
+      "sourceQuestion": "Hỏi: Tác hại của tâm thù vặt đối với người môn sinh Phật Quang Quyền là gì?"
+    },
+    {
+      "id": "white-lesson-02-q14",
+      "lessonId": "white-lesson-02",
+      "number": 14,
+      "type": "fill",
+      "question": "Người môn sinh Phật Quang Quyền thực hành việc tìm ưu điểm như thế nào? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Độc quyền độ sinh là tâm muốn chỉ riêng…",
+        "Luôn cố gắng nhận ra những điều tốt của…",
+        "Vì sống giản dị giúp giảm bớt những nhu…",
+        "học tập",
+        "khích lệ nhau tiến bộ",
+        "Phải suy nghĩ kỹ khả năng thực hiện của…"
+      ],
+      "blanks": [
+        "học tập",
+        "khích lệ nhau tiến bộ"
+      ],
+      "explanation": "Luôn cố gắng nhận ra những điều tốt của huynh đệ để học tập và khích lệ nhau tiến bộ. Đối với những khuyết điểm của người khác, cần góp ý với tinh thần xây dựng, cảm thông và mong muốn họ ngày càng hoàn thiện hơn.",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền thực hành việc tìm ưu điểm như thế nào?"
+    },
+    {
+      "id": "white-lesson-02-q15",
+      "lessonId": "white-lesson-02",
+      "number": 15,
+      "type": "single",
+      "question": "Hỏi: Kiên trì là gì?",
+      "options": [
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Kiên trì là sự bền bỉ, quyết tâm theo đuổi mục tiêu đúng đắn đến cùng, không nản lòng trước khó khăn, thử thách hay…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
+      ],
+      "correctIndex": 2,
+      "explanation": "Kiên trì là sự bền bỉ, quyết tâm theo đuổi mục tiêu đúng đắn đến cùng, không nản lòng trước khó khăn, thử thách hay thất bại.",
+      "sourceQuestion": "Hỏi: Kiên trì là gì?"
+    },
+    {
+      "id": "white-lesson-02-q16",
+      "lessonId": "white-lesson-02",
+      "number": 16,
+      "type": "single",
+      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải rèn luyện đức tính kiên trì?",
+      "options": [
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Vì mọi thành công trong học tập, võ thuật, đạo đức và cuộc sống đều cần thời gian và sự nỗ lực lâu dài. Người thiếu…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vì mọi thành công trong học tập, võ thuật, đạo đức và cuộc sống đều cần thời gian và sự nỗ lực lâu dài. Người thiếu kiên trì dễ bỏ cuộc giữa chừng và khó đạt được mục tiêu đã đặt ra.",
+      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải rèn luyện đức tính kiên trì?"
+    },
+    {
+      "id": "white-lesson-02-q17",
+      "lessonId": "white-lesson-02",
+      "number": 17,
+      "type": "single",
+      "question": "Hỏi: Sống giản dị là gì?",
+      "options": [
+        "Sống giản dị là biết sử dụng những gì cần thiết, không chạy theo sự xa hoa, hình thức hay hưởng thụ quá mức. Người sống…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sống giản dị là biết sử dụng những gì cần thiết, không chạy theo sự xa hoa, hình thức hay hưởng thụ quá mức. Người sống giản dị luôn hướng đến sự thanh thản, chân thành và gần gũi với mọi người.",
+      "sourceQuestion": "Hỏi: Sống giản dị là gì?"
+    },
+    {
+      "id": "white-lesson-02-q18",
+      "lessonId": "white-lesson-02",
+      "number": 18,
+      "type": "single",
+      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền cần rèn luyện nếp sống giản dị?",
+      "options": [
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Vì sống giản dị giúp giảm bớt những nhu cầu không cần thiết, tránh lãng phí, giữ tâm hồn thanh thản và tập trung hơn…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vì sống giản dị giúp giảm bớt những nhu cầu không cần thiết, tránh lãng phí, giữ tâm hồn thanh thản và tập trung hơn vào việc học tập, rèn luyện võ thuật, đạo đức và phụng sự cộng đồng.",
+      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền cần rèn luyện nếp sống giản dị?"
+    },
+    {
+      "id": "white-lesson-02-q19",
+      "lessonId": "white-lesson-02",
+      "number": 19,
+      "type": "single",
+      "question": "Hỏi: Người môn sinh Phật Quang Quyền thực hành nếp sống giản dị như thế nào?",
+      "options": [
+        "Biết tiết kiệm, sử dụng hợp lý thời gian và vật chất, không đua đòi theo hình thức bên ngoài, chỉ chọn những gì thật sự…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
+      ],
+      "correctIndex": 0,
+      "explanation": "Biết tiết kiệm, sử dụng hợp lý thời gian và vật chất, không đua đòi theo hình thức bên ngoài, chỉ chọn những gì thật sự cần thiết và luôn giữ lối sống khiêm tốn, thanh đạm, phù hợp với hoàn cảnh của mình.",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền thực hành nếp sống giản dị như thế nào?"
+    },
+    {
+      "id": "white-lesson-02-q20",
+      "lessonId": "white-lesson-02",
+      "number": 20,
+      "type": "single",
+      "question": "Hỏi: Điềm tĩnh là gì?",
+      "options": [
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Điềm tĩnh là khả năng làm chủ cảm xúc, giữ được sự bình tĩnh và sáng suốt trước những thay đổi, khen chê, thành công…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Điềm tĩnh là khả năng làm chủ cảm xúc, giữ được sự bình tĩnh và sáng suốt trước những thay đổi, khen chê, thành công hay khó khăn trong cuộc sống.",
+      "sourceQuestion": "Hỏi: Điềm tĩnh là gì?"
+    },
+    {
+      "id": "white-lesson-02-q21",
+      "lessonId": "white-lesson-02",
+      "number": 21,
+      "type": "single",
+      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền cần rèn luyện đức tính điềm tĩnh?",
+      "options": [
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Vì điềm tĩnh giúp con người suy nghĩ đúng đắn, làm chủ bản thân, tránh hành động nóng vội và giữ được sự ổn định trước…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vì điềm tĩnh giúp con người suy nghĩ đúng đắn, làm chủ bản thân, tránh hành động nóng vội và giữ được sự ổn định trước mọi hoàn cảnh thuận lợi hay nghịch cảnh.",
+      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền cần rèn luyện đức tính điềm tĩnh?"
+    },
+    {
+      "id": "white-lesson-02-q22",
+      "lessonId": "white-lesson-02",
+      "number": 22,
+      "type": "single",
+      "question": "Hỏi: Người môn sinh Phật Quang Quyền rèn luyện sự điềm tĩnh như thế nào?",
+      "options": [
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Luôn quan sát và kiểm soát cảm xúc của mình, không quá vui khi được khen, không buồn giận khi bị chê, biết bình tĩnh…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Luôn quan sát và kiểm soát cảm xúc của mình, không quá vui khi được khen, không buồn giận khi bị chê, biết bình tĩnh trước khó khăn và giữ thái độ ôn hòa, sáng suốt trong mọi tình huống.",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền rèn luyện sự điềm tĩnh như thế nào?"
+    },
+    {
+      "id": "white-lesson-02-q23",
+      "lessonId": "white-lesson-02",
+      "number": 23,
+      "type": "single",
+      "question": "Hỏi: Tìm ưu điểm là gì?",
+      "options": [
+        "Tìm ưu điểm là biết nhìn nhận và trân trọng những điều tốt đẹp, những mặt tích cực của người khác thay vì chỉ chú ý đến…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
+      ],
+      "correctIndex": 0,
+      "explanation": "Tìm ưu điểm là biết nhìn nhận và trân trọng những điều tốt đẹp, những mặt tích cực của người khác thay vì chỉ chú ý đến khuyết điểm của họ.",
+      "sourceQuestion": "Hỏi: Tìm ưu điểm là gì?"
+    },
+    {
+      "id": "white-lesson-02-q24",
+      "lessonId": "white-lesson-02",
+      "number": 24,
+      "type": "single",
+      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải biết tìm ưu điểm của người khác?",
+      "options": [
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Vì thấy được ưu điểm của người giúp ta thêm kính trọng, yêu quý và học hỏi lẫn nhau; đồng thời giảm bớt tâm chê bai,…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vì thấy được ưu điểm của người giúp ta thêm kính trọng, yêu quý và học hỏi lẫn nhau; đồng thời giảm bớt tâm chê bai, ngã mạn và giữ gìn tình đoàn kết trong tập thể.",
+      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải biết tìm ưu điểm của người khác?"
+    },
+    {
+      "id": "white-lesson-02-q25",
+      "lessonId": "white-lesson-02",
+      "number": 25,
+      "type": "single",
+      "question": "Hỏi: Người môn sinh Phật Quang Quyền vượt qua tâm thù vặt bằng cách nào?",
+      "options": [
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Phải biết bao dung, nhẫn nhịn và bỏ qua những va chạm nhỏ nhặt; không chấp hơn thua, không nuôi hiềm hận. Dù người khác…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Phải biết bao dung, nhẫn nhịn và bỏ qua những va chạm nhỏ nhặt; không chấp hơn thua, không nuôi hiềm hận. Dù người khác có làm mình buồn lòng, vẫn giữ sự chân thành, tôn trọng và tình thương đối với họ như trước.",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền vượt qua tâm thù vặt bằng cách nào?"
+    },
+    {
+      "id": "white-lesson-02-q26",
+      "lessonId": "white-lesson-02",
+      "number": 26,
+      "type": "single",
+      "question": "Hỏi: Độc quyền độ sinh là gì?",
+      "options": [
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Độc quyền độ sinh là tâm muốn chỉ riêng mình được giúp đỡ, hướng dẫn hoặc làm lợi ích cho người khác, không vui khi…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Độc quyền độ sinh là tâm muốn chỉ riêng mình được giúp đỡ, hướng dẫn hoặc làm lợi ích cho người khác, không vui khi thấy người khác cùng tham gia phụng sự và giúp ích cho cộng đồng.",
+      "sourceQuestion": "Hỏi: Độc quyền độ sinh là gì?"
+    },
+    {
+      "id": "white-lesson-02-q27",
+      "lessonId": "white-lesson-02",
+      "number": 27,
+      "type": "single",
+      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải tránh tâm độc quyền độ sinh?",
+      "options": [
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Vì tâm độc quyền độ sinh thường xuất phát từ sự ích kỷ, ham danh và muốn được mọi người công nhận. Tâm này dễ sinh đố…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người."
+      ],
+      "correctIndex": 2,
+      "explanation": "Vì tâm độc quyền độ sinh thường xuất phát từ sự ích kỷ, ham danh và muốn được mọi người công nhận. Tâm này dễ sinh đố kỵ, mất đoàn kết và làm giảm ý nghĩa cao đẹp của việc phụng sự.",
+      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải tránh tâm độc quyền độ sinh?"
+    },
+    {
+      "id": "white-lesson-02-q28",
+      "lessonId": "white-lesson-02",
+      "number": 28,
+      "type": "single",
+      "question": "Hỏi: Tâm tự hào bí mật là gì?",
+      "options": [
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…",
+        "Tâm tự hào bí mật là sự vui thích, tự mãn âm thầm khi thấy mình giỏi hơn trước hoặc hơn người khác, dù bên ngoài không…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tâm tự hào bí mật là sự vui thích, tự mãn âm thầm khi thấy mình giỏi hơn trước hoặc hơn người khác, dù bên ngoài không biểu lộ sự kiêu căng hay khoe khoang.",
+      "sourceQuestion": "Hỏi: Tâm tự hào bí mật là gì?"
+    },
+    {
+      "id": "white-lesson-02-q29",
+      "lessonId": "white-lesson-02",
+      "number": 29,
+      "type": "single",
+      "question": "Hỏi: Tác hại của tâm tự hào bí mật đối với người môn sinh Phật Quang Quyền là gì?",
+      "options": [
+        "Tâm tự hào bí mật dễ làm phát sinh ngã mạn, xem thường người khác, khiến bản thân chủ quan, dừng sự cố gắng và dần đánh…",
+        "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác, vốn là đức tính tốt đẹp tự nhiên của con người.",
+        "Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể, để tình thương được…",
+        "Người có Đức Nhân là người có lòng tốt; người thực hành Đạo Nhân là người biết biến lòng tốt đó thành hành động thiết…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tâm tự hào bí mật dễ làm phát sinh ngã mạn, xem thường người khác, khiến bản thân chủ quan, dừng sự cố gắng và dần đánh mất những thành quả tốt đẹp đã đạt được.",
+      "sourceQuestion": "Hỏi: Tác hại của tâm tự hào bí mật đối với người môn sinh Phật Quang Quyền là gì?"
+    }
+  ]
+}

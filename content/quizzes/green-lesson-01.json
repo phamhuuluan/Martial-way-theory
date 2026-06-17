@@ -1,0 +1,203 @@
+{
+  "lessonId": "green-lesson-01",
+  "title": "Lục Đai Nhất Cấp — Kiểm tra",
+  "passThreshold": 70,
+  "questions": [
+    {
+      "id": "green-lesson-01-q01",
+      "lessonId": "green-lesson-01",
+      "number": 1,
+      "type": "multiple",
+      "question": "Câu hỏi: Những lợi ích của việc học Võ cổ truyền Việt Nam và Phật Quang Quyền là gì? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Nâng cao ý thức học tập, lao động, chủ động trong cuộc sống.",
+        "Về Trí: Có trí tuệ phân biệt đúng sai, biết bênh vực lẽ phải, sống theo đạo đức và hiểu Luật Nhân Quả.",
+        "Rèn luyện sức khỏe, ý chí và tinh thần thượng võ.",
+        "Nuôi dưỡng lòng yêu nước, sẵn sàng góp phần xây dựng và bảo vệ Tổ quốc.",
+        "Trau dồi đạo đức, nhân cách, sống từ bi, vị tha và có trách nhiệm."
+      ],
+      "correctIndices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Học Võ cổ truyền Việt Nam và Phật Quang Quyền giúp người học:\nRèn luyện sức khỏe, ý chí và tinh thần thượng võ.\nTrau dồi đạo đức, nhân cách, sống từ bi, vị tha và có trách nhiệm.\nNâng cao ý thức học tập, lao động, chủ động trong cuộc sống.\nNuôi dưỡng lòng yêu nước, sẵn sàng góp phần xây dựng và bảo vệ Tổ quốc.",
+      "sourceQuestion": "Câu hỏi: Những lợi ích của việc học Võ cổ truyền Việt Nam và Phật Quang Quyền là gì?"
+    },
+    {
+      "id": "green-lesson-01-q02",
+      "lessonId": "green-lesson-01",
+      "number": 2,
+      "type": "single",
+      "question": "Yếu tố nào giúp Võ cổ truyền Việt Nam đứng vững giữa phong trào võ thuật quốc tế phong phú, đa dạng hiện nay?",
+      "options": [
+        "Bản sắc văn hóa dân tộc, thể hiện qua tinh thần thượng võ, đạo đức và truyền thống Việt Nam.",
+        "Rèn luyện sức khỏe, ý chí và tinh thần thượng võ.",
+        "Những tinh hoa võ học đặc sắc, được bảo tồn, chuẩn hóa và quảng bá rộng rãi thông qua Liên đoàn Võ cổ truyền Việt Nam…",
+        "Bề dày lịch sử, gắn liền với quá trình dựng nước và giữ nước của dân tộc Việt Nam."
+      ],
+      "correctIndex": 3,
+      "explanation": "Võ cổ truyền Việt Nam đứng vững và phát triển nhờ:\nBề dày lịch sử, gắn liền với quá trình dựng nước và giữ nước của dân tộc Việt Nam.\nBản sắc văn hóa dân tộc, thể hiện qua tinh thần thượng võ, đạo đức và truyền thống Việt Nam.\nNhững tinh hoa võ học đặc sắc, được bảo tồn, chuẩn hóa và quảng bá rộng rãi thông qua Liên đoàn Võ cổ truyền Việt Nam và Liên đoàn Thế giới Võ cổ truyền Việt Nam, giúp võ cổ truyền từng bước hội nhập quốc tế.",
+      "sourceQuestion": "Yếu tố nào giúp Võ cổ truyền Việt Nam đứng vững giữa phong trào võ thuật quốc tế phong phú, đa dạng hiện nay?"
+    },
+    {
+      "id": "green-lesson-01-q03",
+      "lessonId": "green-lesson-01",
+      "number": 3,
+      "type": "matching",
+      "question": "Thế nào là tự tin, tự thắng, khiêm cung, độ lượng? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
+      "options": [],
+      "leftItems": [
+        "Tự tin",
+        "Tự thắng",
+        "Khiêm cung",
+        "Độ lượng"
+      ],
+      "rightItems": [
+        "Chiến thắng chính mình, sửa chữa những thói hư, tật xấu và sự ích kỷ, yếu đuối…",
+        "Khiêm nhường với người ngang hàng, cung kính đối với người trên và người lớn…",
+        "Rộng lượng, bao dung với người dưới và người nhỏ tuổi hơn mình.",
+        "Tin vào năng lực, phẩm chất đạo đức và ý chí của bản thân, biết phát huy những…"
+      ],
+      "correctPairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "explanation": "Tự tin: Tin vào năng lực, phẩm chất đạo đức và ý chí của bản thân, biết phát huy những điều tốt đẹp để tiến bộ.\nTự thắng: Chiến thắng chính mình, sửa chữa những thói hư, tật xấu và sự ích kỷ, yếu đuối của bản thân.\nKhiêm cung: Khiêm nhường với người ngang hàng, cung kính đối với người trên và người lớn tuổi hơn mình.\nĐộ lượng: Rộng lượng, bao dung với người dưới và người nhỏ tuổi hơn mình.",
+      "sourceQuestion": "Thế nào là tự tin, tự thắng, khiêm cung, độ lượng?"
+    },
+    {
+      "id": "green-lesson-01-q04",
+      "lessonId": "green-lesson-01",
+      "number": 4,
+      "type": "single",
+      "question": "Võ sinh Phật Quang Quyền nhìn lại những việc đã qua với thái độ như thế nào?",
+      "options": [
+        "Nâng cao ý thức học tập, lao động, chủ động trong cuộc sống.",
+        "Võ sinh Phật Quang Quyền luôn nhìn lại những việc đã qua với tinh thần tự kiểm điểm và rút kinh nghiệm để tiến bộ.…",
+        "Rèn luyện sức khỏe, ý chí và tinh thần thượng võ.",
+        "Trau dồi đạo đức, nhân cách, sống từ bi, vị tha và có trách nhiệm."
+      ],
+      "correctIndex": 1,
+      "explanation": "Võ sinh Phật Quang Quyền luôn nhìn lại những việc đã qua với tinh thần tự kiểm điểm và rút kinh nghiệm để tiến bộ. Không kiêu ngạo, tự mãn khi thành công, cũng không than trách hay bi quan khi gặp thất bại.",
+      "sourceQuestion": "Võ sinh Phật Quang Quyền nhìn lại những việc đã qua với thái độ như thế nào?"
+    },
+    {
+      "id": "green-lesson-01-q05",
+      "lessonId": "green-lesson-01",
+      "number": 5,
+      "type": "single",
+      "question": "Một trường dạy võ thuật khác với một trường dạy võ đạo ra sao?",
+      "options": [
+        "Một trường dạy võ thuật chủ yếu hướng dẫn người học các kỹ thuật chiến đấu, tự vệ và sử dụng sức mạnh.",
+        "trường dạy võ thuật chủ yếu hướng dẫn người học các kỹ thuật chiến đấu, tự vệ và sử dụng sức mạnh.",
+        "trường dạy võ đạo ngoài việc truyền dạy võ thuật còn giáo dục đạo đức, nhân cách và quan niệm sống đúng đắn, giúp người…",
+        "Rèn luyện sức khỏe, ý chí và tinh thần thượng võ."
+      ],
+      "correctIndex": 0,
+      "explanation": "Một trường dạy võ thuật chủ yếu hướng dẫn người học các kỹ thuật chiến đấu, tự vệ và sử dụng sức mạnh.\nMột trường dạy võ đạo ngoài việc truyền dạy võ thuật còn giáo dục đạo đức, nhân cách và quan niệm sống đúng đắn, giúp người học trở thành người có ích, được mọi người kính trọng và thành công trong cuộc sống.",
+      "sourceQuestion": "Một trường dạy võ thuật khác với một trường dạy võ đạo ra sao?"
+    },
+    {
+      "id": "green-lesson-01-q06",
+      "lessonId": "green-lesson-01",
+      "number": 6,
+      "type": "fill",
+      "question": "Một môn phái võ thuật muốn đi đến võ đạo phải có những điều kiện gì? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "xây dựng, quảng bá",
+        "Trực tiền quyển địa.",
+        "trường dạy võ đạo ngoài việc truyền dạy…",
+        "Tự tin: Tin vào năng lực, phẩm chất đạo…",
+        "Liên đả sát túc.",
+        "phát triển môn phái"
+      ],
+      "blanks": [
+        "xây dựng, quảng bá",
+        "phát triển môn phái"
+      ],
+      "explanation": "Một môn phái võ thuật muốn phát triển thành võ đạo phải có tinh thần dân tộc rõ ràng, ý thức hệ đúng đắn, hệ thống võ thuật toàn diện, phương pháp giảng dạy hiệu quả và thời gian đủ dài để xây dựng, quảng bá và phát triển môn phái.",
+      "sourceQuestion": "Một môn phái võ thuật muốn đi đến võ đạo phải có những điều kiện gì?"
+    },
+    {
+      "id": "green-lesson-01-q07",
+      "lessonId": "green-lesson-01",
+      "number": 7,
+      "type": "fill",
+      "question": "Môn sinh Phật Quang Quyền cần có quan niệm như thế nào về Tâm, Trí, Thể? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "giúp ích cho xã hội",
+        "phục vụ cuộc sống",
+        "Phụ tử tương tùy.",
+        "Thối tảo bát liên hoàn.",
+        "Hồi phát địa hổ.",
+        "Tự tin: Tin vào năng lực, phẩm chất đạo…"
+      ],
+      "blanks": [
+        "phục vụ cuộc sống",
+        "giúp ích cho xã hội"
+      ],
+      "explanation": "Về Tâm: Có lý tưởng sống đúng đắn, lòng yêu thương dân tộc và nhân loại, tinh thần trách nhiệm, ý chí và nghị lực vươn lên.\nVề Trí: Có trí tuệ phân biệt đúng sai, biết bênh vực lẽ phải, sống theo đạo đức và hiểu Luật Nhân Quả.\nVề Thể: Có sức khỏe, sự dẻo dai, khả năng tự vệ và tinh thần vượt khó để phục vụ cuộc sống và giúp ích cho xã hội.",
+      "sourceQuestion": "Môn sinh Phật Quang Quyền cần có quan niệm như thế nào về Tâm, Trí, Thể?"
+    },
+    {
+      "id": "green-lesson-01-q08",
+      "lessonId": "green-lesson-01",
+      "number": 8,
+      "type": "multiple",
+      "question": "Thế nào là chính khí và tinh thần thượng võ? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Nuôi dưỡng lòng yêu nước, sẵn sàng góp phần xây dựng và bảo vệ Tổ quốc.",
+        "Trực tiền quyển địa.",
+        "Chính khí là phẩm chất sống ngay thẳng, trung thực, chính trực, có lý tưởng,…",
+        "Tinh thần thượng võ là sống có nhân nghĩa, lễ độ, trí tuệ, uy dũng, tôn trọng…"
+      ],
+      "correctIndices": [
+        2,
+        3
+      ],
+      "explanation": "Chính khí là phẩm chất sống ngay thẳng, trung thực, chính trực, có lý tưởng, không khuất phục trước khó khăn, cường quyền hay cám dỗ.\nTinh thần thượng võ là sống có nhân nghĩa, lễ độ, trí tuệ, uy dũng, tôn trọng lẽ phải, yêu chuộng hòa bình nhưng sẵn sàng đấu tranh bảo vệ công lý, Tổ quốc và những điều tốt đẹp.",
+      "sourceQuestion": "Thế nào là chính khí và tinh thần thượng võ?"
+    },
+    {
+      "id": "green-lesson-01-q09",
+      "lessonId": "green-lesson-01",
+      "number": 9,
+      "type": "multiple",
+      "question": "Nêu xuất xứ bài Ngọc trản quyền, và đọc bài thiệu.? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Hồi thân lập trụ.",
+        "Tam bộ bái tổ.",
+        "Nhị bộ kỉnh sư.",
+        "Ngọc trản ngân đài.",
+        "Bái tổ Ngọc trản quyền",
+        "Ngọc Trản Quyền là một trong nhiều bài quyền thuật của Sa môn võ đạo (võ Bình…"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "XUẤT XỨ\nNgọc Trản Quyền là một trong nhiều bài quyền thuật của Sa môn võ đạo (võ Bình Định), được Liên đoàn võ Cổ truyền Việt Nam tuyển chọn làm bài chuẩn quy định quốc gia từ năm 1995.\nLời thiệu:\nBái tổ Ngọc trản quyền\nTam bộ bái tổ.\nNhị bộ kỉnh sư.\nHồi thân lập trụ.\nNgọc trản ngân đài.\nTả hữu tấn khai.\nThập tự luyện diệp.\nLiên đả sát túc.\nToạ hồi mai phục.\nTấn đả tam chiến.\nThối thủ nhị linh.\nTả hoành sát, hữu hoành sát.\nHồi phát địa hổ.\nThanh long biên giang.\nPhụ tử tương tùy.\nSong phi triển dực.\nHạ bàn lôi đản đả.\nHồi tiểu tọa khai cung.\nTấn đả song quyền.\nTrực tiền quyển địa.\nHuỳnh long quyển địa.\nĐồng tử giương thân.\nHoành tấn đả liên hoàn.\nHồi tả tọa, bạch xà lang lộ.\nTả hoành sát, thanh long biên giang.\nKim kê điển thủ.\nThối tảo bát liên hoàn.\nTẩu mã dương tiên.\nLập bộ như tiền.\nHồi đầu vọng bái.",
+      "sourceQuestion": "Nêu xuất xứ bài Ngọc trản quyền, và đọc bài thiệu."
+    }
+  ]
+}

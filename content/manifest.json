@@ -1,0 +1,358 @@
+[
+  {
+    "file": "1-ĐAI NÂU THI LÊN LAM ĐAI 1 chỉnh tháng 6 năm 2026.docx",
+    "belt": "brown",
+    "lessonSlug": "lesson-01",
+    "id": "brown-lesson-01",
+    "title": "Đai Nâu",
+    "subtitle": "Lý thuyết Đai Nâu",
+    "virtues": [
+      "giản-dị",
+      "bền-bỉ",
+      "khiêm-cung"
+    ],
+    "order": 1,
+    "prerequisites": [],
+    "questionsCount": 12,
+    "mdxPath": "content/brown-belt/lesson-01.mdx",
+    "quizPath": "content/quizzes/brown-lesson-01.json"
+  },
+  {
+    "file": "2 - LAM ĐAI 1 THI LÊN LAM ĐAI 2 6.9.2026.pdf.docx",
+    "belt": "blue",
+    "lessonSlug": "lesson-01",
+    "id": "blue-lesson-01",
+    "title": "Lam Đai Nhất Cấp",
+    "subtitle": "Lý thuyết Lam Đai Nhất Cấp",
+    "virtues": [
+      "khiêm-hạ",
+      "nhẫn-nhục"
+    ],
+    "order": 2,
+    "prerequisites": [
+      "brown-lesson-01"
+    ],
+    "questionsCount": 10,
+    "mdxPath": "content/blue-belt/lesson-01.mdx",
+    "quizPath": "content/quizzes/blue-lesson-01.json"
+  },
+  {
+    "file": "3-LAM ĐAI 2 THI LÊN LAM ĐAI 3 chỉnh 9.6.2026.pdf.docx",
+    "belt": "blue",
+    "lessonSlug": "lesson-02",
+    "id": "blue-lesson-02",
+    "title": "Lam Đai Nhị Cấp",
+    "subtitle": "Lý thuyết Lam Đai Nhị Cấp",
+    "virtues": [
+      "khiêm-hạ",
+      "nhẫn-nhục"
+    ],
+    "order": 3,
+    "prerequisites": [
+      "blue-lesson-01"
+    ],
+    "questionsCount": 10,
+    "mdxPath": "content/blue-belt/lesson-02.mdx",
+    "quizPath": "content/quizzes/blue-lesson-02.json"
+  },
+  {
+    "file": "4 - LAM ĐAI 3 THI LÊN LAM ĐAI 4 chỉnh 9.6.2026.pdf.docx",
+    "belt": "blue",
+    "lessonSlug": "lesson-03",
+    "id": "blue-lesson-03",
+    "title": "Lam Đai Tam Cấp",
+    "subtitle": "Lý thuyết Lam Đai Tam Cấp",
+    "virtues": [
+      "khiêm-hạ",
+      "nhẫn-nhục"
+    ],
+    "order": 4,
+    "prerequisites": [
+      "blue-lesson-02"
+    ],
+    "questionsCount": 9,
+    "mdxPath": "content/blue-belt/lesson-03.mdx",
+    "quizPath": "content/quizzes/blue-lesson-03.json"
+  },
+  {
+    "file": "5 - LAM ĐAI 4 THI LÊN LỤC ĐAI 1 chỉnh 9.6.2026.pdf.docx",
+    "belt": "blue",
+    "lessonSlug": "lesson-04",
+    "id": "blue-lesson-04",
+    "title": "Lam Đai Tứ Cấp",
+    "subtitle": "Lý thuyết Lam Đai Tứ Cấp",
+    "virtues": [
+      "khiêm-hạ",
+      "nhẫn-nhục"
+    ],
+    "order": 5,
+    "prerequisites": [
+      "blue-lesson-03"
+    ],
+    "questionsCount": 11,
+    "mdxPath": "content/blue-belt/lesson-04.mdx",
+    "quizPath": "content/quizzes/blue-lesson-04.json"
+  },
+  {
+    "file": "6- LỤC ĐAI 1 THI LÊN LỤC ĐAI 2 chỉnh 9.6.2026.pdf.docx",
+    "belt": "green",
+    "lessonSlug": "lesson-01",
+    "id": "green-lesson-01",
+    "title": "Lục Đai Nhất Cấp",
+    "subtitle": "Lý thuyết Lục Đai Nhất Cấp",
+    "virtues": [
+      "siêng-năng",
+      "vươn-lên"
+    ],
+    "order": 6,
+    "prerequisites": [
+      "blue-lesson-04"
+    ],
+    "questionsCount": 9,
+    "mdxPath": "content/green-belt/lesson-01.mdx",
+    "quizPath": "content/quizzes/green-lesson-01.json"
+  },
+  {
+    "file": "7- LỤC ĐAI 2 THI LÊN LỤC ĐAI 3 chỉnh 9.6.2026.pdf.docx",
+    "belt": "green",
+    "lessonSlug": "lesson-02",
+    "id": "green-lesson-02",
+    "title": "Lục Đai Nhị Cấp",
+    "subtitle": "Lý thuyết Lục Đai Nhị Cấp",
+    "virtues": [
+      "siêng-năng",
+      "vươn-lên"
+    ],
+    "order": 7,
+    "prerequisites": [
+      "green-lesson-01"
+    ],
+    "questionsCount": 9,
+    "mdxPath": "content/green-belt/lesson-02.mdx",
+    "quizPath": "content/quizzes/green-lesson-02.json"
+  },
+  {
+    "file": "8-  LỤC ĐAI 3 THI LÊN LỤC ĐAI 4 sửa 9.6.2026.pdf.docx",
+    "belt": "green",
+    "lessonSlug": "lesson-03",
+    "id": "green-lesson-03",
+    "title": "Lục Đai Tam Cấp",
+    "subtitle": "Lý thuyết Lục Đai Tam Cấp",
+    "virtues": [
+      "siêng-năng",
+      "vươn-lên"
+    ],
+    "order": 8,
+    "prerequisites": [
+      "green-lesson-02"
+    ],
+    "questionsCount": 11,
+    "mdxPath": "content/green-belt/lesson-03.mdx",
+    "quizPath": "content/quizzes/green-lesson-03.json"
+  },
+  {
+    "file": "9- LỤC ĐAI 4 THI LÊN HỒNG ĐAI 1 chỉnh 9.6.2026.pdf.docx",
+    "belt": "green",
+    "lessonSlug": "lesson-04",
+    "id": "green-lesson-04",
+    "title": "Lục Đai Tứ Cấp",
+    "subtitle": "Lý thuyết Lục Đai Tứ Cấp",
+    "virtues": [
+      "siêng-năng",
+      "vươn-lên"
+    ],
+    "order": 9,
+    "prerequisites": [
+      "green-lesson-03"
+    ],
+    "questionsCount": 14,
+    "mdxPath": "content/green-belt/lesson-04.mdx",
+    "quizPath": "content/quizzes/green-lesson-04.json"
+  },
+  {
+    "file": "10- HỒNG ĐAI 1 THI LÊN HỒNG ĐAI 2 chỉnh 9.6.2026.pdf.docx",
+    "belt": "red",
+    "lessonSlug": "lesson-01",
+    "id": "red-lesson-01",
+    "title": "Hồng Đai Nhất Cấp",
+    "subtitle": "Lý thuyết Hồng Đai Nhất Cấp",
+    "virtues": [
+      "dũng-cảm"
+    ],
+    "order": 10,
+    "prerequisites": [
+      "green-lesson-04"
+    ],
+    "questionsCount": 7,
+    "mdxPath": "content/red-belt/lesson-01.mdx",
+    "quizPath": "content/quizzes/red-lesson-01.json"
+  },
+  {
+    "file": "11- HỒNG ĐAI 2 THI LÊN HỒNG ĐAI 3 chỉnh 9.6.2026.pdf.docx",
+    "belt": "red",
+    "lessonSlug": "lesson-02",
+    "id": "red-lesson-02",
+    "title": "Hồng Đai Nhị Cấp",
+    "subtitle": "Lý thuyết Hồng Đai Nhị Cấp",
+    "virtues": [
+      "dũng-cảm"
+    ],
+    "order": 11,
+    "prerequisites": [
+      "red-lesson-01"
+    ],
+    "questionsCount": 14,
+    "mdxPath": "content/red-belt/lesson-02.mdx",
+    "quizPath": "content/quizzes/red-lesson-02.json"
+  },
+  {
+    "file": "12- HỒNG ĐAI 3 THI LÊN HỒNG ĐAI 4 CHỈNH 9.6.2026.pdf.docx",
+    "belt": "red",
+    "lessonSlug": "lesson-03",
+    "id": "red-lesson-03",
+    "title": "Hồng Đai Tam Cấp",
+    "subtitle": "Lý thuyết Hồng Đai Tam Cấp",
+    "virtues": [
+      "dũng-cảm"
+    ],
+    "order": 12,
+    "prerequisites": [
+      "red-lesson-02"
+    ],
+    "questionsCount": 15,
+    "mdxPath": "content/red-belt/lesson-03.mdx",
+    "quizPath": "content/quizzes/red-lesson-03.json"
+  },
+  {
+    "file": "13- HỒNG ĐAI 4 LÊN HOÀNG ĐAI 1 chỉnh 9.6.2026.pdf.docx",
+    "belt": "red",
+    "lessonSlug": "lesson-04",
+    "id": "red-lesson-04",
+    "title": "Hồng Đai Tứ Cấp",
+    "subtitle": "Lý thuyết Hồng Đai Tứ Cấp",
+    "virtues": [
+      "dũng-cảm"
+    ],
+    "order": 13,
+    "prerequisites": [
+      "red-lesson-03"
+    ],
+    "questionsCount": 13,
+    "mdxPath": "content/red-belt/lesson-04.mdx",
+    "quizPath": "content/quizzes/red-lesson-04.json"
+  },
+  {
+    "file": "14- HOÀNG ĐAI 1 THI LÊN HOÀNG ĐAI 2 chỉnh 9.6.2026.pdf.docx",
+    "belt": "yellow",
+    "lessonSlug": "lesson-01",
+    "id": "yellow-lesson-01",
+    "title": "Hoàng Đai Nhất Cấp",
+    "subtitle": "Lý thuyết Hoàng Đai Nhất Cấp",
+    "virtues": [
+      "vững-vàng",
+      "bao-dung"
+    ],
+    "order": 14,
+    "prerequisites": [
+      "red-lesson-04"
+    ],
+    "questionsCount": 25,
+    "mdxPath": "content/yellow-belt/lesson-01.mdx",
+    "quizPath": "content/quizzes/yellow-lesson-01.json"
+  },
+  {
+    "file": "15-HOÀNG ĐAI 2 THI LÊN HOÀNG ĐAI 3 chỉnh 9.6.2026.pdf.docx",
+    "belt": "yellow",
+    "lessonSlug": "lesson-02",
+    "id": "yellow-lesson-02",
+    "title": "Hoàng Đai Nhị Cấp",
+    "subtitle": "Lý thuyết Hoàng Đai Nhị Cấp",
+    "virtues": [
+      "vững-vàng",
+      "bao-dung"
+    ],
+    "order": 15,
+    "prerequisites": [
+      "yellow-lesson-01"
+    ],
+    "questionsCount": 28,
+    "mdxPath": "content/yellow-belt/lesson-02.mdx",
+    "quizPath": "content/quizzes/yellow-lesson-02.json"
+  },
+  {
+    "file": "16-HOÀNG ĐAI 3 THI LÊN HOÀNG ĐAI 4 chỉnh 9.6.2026pdf.docx",
+    "belt": "yellow",
+    "lessonSlug": "lesson-03",
+    "id": "yellow-lesson-03",
+    "title": "Hoàng Đai Tam Cấp",
+    "subtitle": "Lý thuyết Hoàng Đai Tam Cấp",
+    "virtues": [
+      "vững-vàng",
+      "bao-dung"
+    ],
+    "order": 16,
+    "prerequisites": [
+      "yellow-lesson-02"
+    ],
+    "questionsCount": 25,
+    "mdxPath": "content/yellow-belt/lesson-03.mdx",
+    "quizPath": "content/quizzes/yellow-lesson-03.json"
+  },
+  {
+    "file": "17-HOÀNG ĐAI 4 THI LÊN CHUẨN BẠCH ĐAI CHỈNH 9.6.2026.pdf.docx",
+    "belt": "yellow",
+    "lessonSlug": "lesson-04",
+    "id": "yellow-lesson-04",
+    "title": "Hoàng Đai Tứ Cấp",
+    "subtitle": "Lý thuyết Hoàng Đai Tứ Cấp",
+    "virtues": [
+      "vững-vàng",
+      "bao-dung"
+    ],
+    "order": 17,
+    "prerequisites": [
+      "yellow-lesson-03"
+    ],
+    "questionsCount": 26,
+    "mdxPath": "content/yellow-belt/lesson-04.mdx",
+    "quizPath": "content/quizzes/yellow-lesson-04.json"
+  },
+  {
+    "file": "18 - CHUẨN BẠCH ĐAI THI LÊN BẠCH ĐAI chỉnh 9.6.2026.docx",
+    "belt": "white",
+    "lessonSlug": "lesson-01",
+    "id": "white-lesson-01",
+    "title": "Chuẩn Bạch Đai",
+    "subtitle": "Lý thuyết Chuẩn Bạch Đai",
+    "virtues": [
+      "chính-trực",
+      "thanh-khiết"
+    ],
+    "order": 18,
+    "prerequisites": [
+      "yellow-lesson-04"
+    ],
+    "questionsCount": 27,
+    "mdxPath": "content/white-belt/lesson-01.mdx",
+    "quizPath": "content/quizzes/white-lesson-01.json"
+  },
+  {
+    "file": "19-BẠCH ĐAI THI LÊN BẠCH ĐAI 1 chỉnh 9.6.2026.docx",
+    "belt": "white",
+    "lessonSlug": "lesson-02",
+    "id": "white-lesson-02",
+    "title": "Bạch Đai",
+    "subtitle": "Lý thuyết Bạch Đai",
+    "virtues": [
+      "chính-trực",
+      "thanh-khiết"
+    ],
+    "order": 19,
+    "prerequisites": [
+      "white-lesson-01"
+    ],
+    "questionsCount": 29,
+    "mdxPath": "content/white-belt/lesson-02.mdx",
+    "quizPath": "content/quizzes/white-lesson-02.json"
+  }
+]

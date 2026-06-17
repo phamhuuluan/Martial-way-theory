@@ -1,0 +1,509 @@
+{
+  "lessonId": "yellow-lesson-03",
+  "title": "Hoàng Đai Tam Cấp — Kiểm tra",
+  "passThreshold": 70,
+  "questions": [
+    {
+      "id": "yellow-lesson-03-q01",
+      "lessonId": "yellow-lesson-03",
+      "number": 1,
+      "type": "single",
+      "question": "Võ cổ truyền Việt Nam là gì?",
+      "options": [
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Nhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt…",
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…",
+        "Hình thành từ nhu cầu bảo vệ con người, làng xóm và cuộc sống trước thú dữ và các hiểm họa."
+      ],
+      "correctIndex": 0,
+      "explanation": "Võ cổ truyền Việt Nam là hệ thống các môn phái võ được lưu truyền qua nhiều thế hệ trong suốt chiều dài lịch sử dân tộc Việt Nam. Trải qua quá trình sáng tạo, gìn giữ và phát triển của các võ sư Việt Nam, võ cổ truyền đã hình thành nên một kho tàng võ học mang đậm bản sắc dân tộc.\nCho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành và phát triển từ nhu cầu bảo vệ con người trước thú dữ, bảo vệ làng xóm và chống giặc ngoại xâm.",
+      "sourceQuestion": "Võ cổ truyền Việt Nam là gì?"
+    },
+    {
+      "id": "yellow-lesson-03-q02",
+      "lessonId": "yellow-lesson-03",
+      "number": 2,
+      "type": "single",
+      "question": "Nêu lịch sử phát triển Võ cổ truyền Việt Nam.?",
+      "options": [
+        "Nhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt…",
+        "Hình thành từ nhu cầu bảo vệ con người, làng xóm và cuộc sống trước thú dữ và các hiểm họa.",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua nhiều thế hệ, các võ sư đã không ngừng sáng tạo, gìn giữ và phát triển võ thuật dân tộc.\nTừ thế kỷ XV đến thế kỷ XIX, võ thuật phát triển rộng rãi trong nhân dân và quân đội. Đến cuối thế kỷ XIX và đầu thế kỷ XX, võ cổ truyền trải qua nhiều khó khăn, có lúc bị hạn chế hoạt động và đứng trước nguy cơ mai một do ảnh hưởng của hoàn cảnh lịch sử và sự du nhập của các môn võ nước ngoài.\nNhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt Nam, võ cổ truyền Việt Nam đã được bảo tồn, phát triển và lưu truyền cho đến ngày nay.",
+      "sourceQuestion": "Nêu lịch sử phát triển Võ cổ truyền Việt Nam."
+    },
+    {
+      "id": "yellow-lesson-03-q03",
+      "lessonId": "yellow-lesson-03",
+      "number": 3,
+      "type": "multiple",
+      "question": "Nêu đặc điểm Võ cổ truyền Việt Nam.? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Hình thành từ nhu cầu bảo vệ con người, làng xóm và cuộc sống trước thú dữ và…",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Có tính thực chiến cao, kỹ thuật linh hoạt và khả năng ứng dụng thực tế hiệu…",
+        "Mang tính võ trận, gắn liền với lịch sử dựng nước và giữ nước của dân tộc.",
+        "Các bài quyền thường có lời thiệu bằng thơ để diễn tả ý nghĩa, kỹ thuật và tinh…"
+      ],
+      "correctIndices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Võ cổ truyền Việt Nam có những đặc điểm nổi bật sau:\nHình thành từ nhu cầu bảo vệ con người, làng xóm và cuộc sống trước thú dữ và các hiểm họa.\nMang tính võ trận, gắn liền với lịch sử dựng nước và giữ nước của dân tộc.\nCó tính thực chiến cao, kỹ thuật linh hoạt và khả năng ứng dụng thực tế hiệu quả.\nCác bài quyền thường có lời thiệu bằng thơ để diễn tả ý nghĩa, kỹ thuật và tinh thần của bài võ.",
+      "sourceQuestion": "Nêu đặc điểm Võ cổ truyền Việt Nam."
+    },
+    {
+      "id": "yellow-lesson-03-q04",
+      "lessonId": "yellow-lesson-03",
+      "number": 4,
+      "type": "fill",
+      "question": "Võ đường là gì và tại sao cần thành lập võ đường? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Võ cổ truyền Việt Nam hình thành từ quá…",
+        "phát triển võ thuật",
+        "Chính chúng ta là người sắp đặt số phận…",
+        "Bối cảnh sinh hoạt của địa phương.",
+        "nơi chuyên dùng để giảng dạy, huấn luyện",
+        "Chỉ khi đạo đức và thiền định cùng phát…"
+      ],
+      "blanks": [
+        "nơi chuyên dùng để giảng dạy, huấn luyện",
+        "phát triển võ thuật"
+      ],
+      "explanation": "Võ đường là nơi chuyên dùng để giảng dạy, huấn luyện và phát triển võ thuật. Việc thành lập võ đường nhằm đáp ứng nhu cầu học tập võ thuật của quần chúng, phát triển môn phái, đồng thời góp phần bảo tồn và phát huy Võ cổ truyền Việt Nam.",
+      "sourceQuestion": "Võ đường là gì và tại sao cần thành lập võ đường?"
+    },
+    {
+      "id": "yellow-lesson-03-q05",
+      "lessonId": "yellow-lesson-03",
+      "number": 5,
+      "type": "multiple",
+      "question": "Khi thành lập võ đường cần nghiên cứu những vấn đề gì? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Chỉ nghĩ đến quyền lợi của mình, thích phần hơn về mình và ít quan tâm đến khó khăn của người khác.",
+        "Địa điểm dự kiến thành lập võ đường.",
+        "Đặc điểm dân cư, kinh tế, văn hóa và nhu cầu học võ của người dân.",
+        "Ngoài ra, cần tìm hiểu chính quyền địa phương, các tổ chức đoàn thể và các võ…",
+        "Bối cảnh sinh hoạt của địa phương."
+      ],
+      "correctIndices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Khi thành lập võ đường cần nghiên cứu ba vấn đề chính:\nBối cảnh sinh hoạt của địa phương.\nĐặc điểm dân cư, kinh tế, văn hóa và nhu cầu học võ của người dân.\nĐịa điểm dự kiến thành lập võ đường.\nNgoài ra, cần tìm hiểu chính quyền địa phương, các tổ chức đoàn thể và các võ phái bạn để tạo điều kiện thuận lợi cho hoạt động và phát triển võ đường.",
+      "sourceQuestion": "Khi thành lập võ đường cần nghiên cứu những vấn đề gì?"
+    },
+    {
+      "id": "yellow-lesson-03-q06",
+      "lessonId": "yellow-lesson-03",
+      "number": 6,
+      "type": "single",
+      "question": "Một địa điểm như thế nào thích hợp để thành lập võ đường?",
+      "options": [
+        "Đồng thời, nên tránh những nơi ngõ hẻm chật hẹp, mất an toàn, ẩm thấp hoặc ô nhiễm, vì sẽ ảnh hưởng đến việc sinh hoạt…",
+        "địa điểm thích hợp cần bảo đảm các điều kiện: an ninh tốt, giao thông thuận tiện, cao ráo thoáng khí, có điện nước đầy…",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Một địa điểm thích hợp cần bảo đảm các điều kiện: an ninh tốt, giao thông thuận tiện, cao ráo thoáng khí, có điện nước…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Một địa điểm thích hợp cần bảo đảm các điều kiện: an ninh tốt, giao thông thuận tiện, cao ráo thoáng khí, có điện nước đầy đủ và yên tĩnh cho việc giảng dạy, tập luyện.\nĐồng thời, nên tránh những nơi ngõ hẻm chật hẹp, mất an toàn, ẩm thấp hoặc ô nhiễm, vì sẽ ảnh hưởng đến việc sinh hoạt và phát triển của võ đường.",
+      "sourceQuestion": "Một địa điểm như thế nào thích hợp để thành lập võ đường?"
+    },
+    {
+      "id": "yellow-lesson-03-q07",
+      "lessonId": "yellow-lesson-03",
+      "number": 7,
+      "type": "matching",
+      "question": "Tứ Diệu Đế bao gồm những gì ? Giải thích ngắn gọn? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
+      "options": [],
+      "leftItems": [
+        "Bao gồm",
+        "Khổ Đế",
+        "Tập Đế",
+        "Diệt Đế",
+        "Đạo Đế"
+      ],
+      "rightItems": [
+        "Khổ, Tập, Diệt và Đạo Đế.",
+        "con đường tu tập chấm dứt đau khổ (Bát Chánh Đạo).",
+        "nguyên nhân của đau khổ (“Ái”).",
+        "sự thật cuộc đời là đau khổ.",
+        "trạng thái chấm dứt đau khổ (Niết Bàn)."
+      ],
+      "correctPairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "explanation": "Bao gồm : Khổ, Tập, Diệt và Đạo Đế.\nKhổ Đế: sự thật cuộc đời là đau khổ.\nTập Đế: nguyên nhân của đau khổ (“Ái”).\nDiệt Đế: trạng thái chấm dứt đau khổ (Niết Bàn).\nĐạo Đế: con đường tu tập chấm dứt đau khổ (Bát Chánh Đạo).",
+      "sourceQuestion": "Tứ Diệu Đế bao gồm những gì ? Giải thích ngắn gọn ?"
+    },
+    {
+      "id": "yellow-lesson-03-q08",
+      "lessonId": "yellow-lesson-03",
+      "number": 8,
+      "type": "multiple",
+      "question": "Bát Chánh Đạo bao gồm những chi phần nào? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Chánh Tinh Tấn",
+        "Chánh Tư Duy",
+        "Chánh Nghiệp",
+        "Chánh Mạng",
+        "Chánh Kiến",
+        "Chánh Niệm"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "1. Chánh Kiến, 2. Chánh Tư Duy, 3. Chánh Ngữ, 4. Chánh Nghiệp, 5. Chánh Mạng, 6. Chánh Tinh Tấn, 7. Chánh Niệm, 8. Chánh Định.",
+      "sourceQuestion": "Bát Chánh Đạo bao gồm những chi phần nào ?"
+    },
+    {
+      "id": "yellow-lesson-03-q09",
+      "lessonId": "yellow-lesson-03",
+      "number": 9,
+      "type": "multiple",
+      "question": "8 loại khổ mà Đức Phật đã giảng dạy là gì? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Cầu bất đắc",
+        "Oán tắng hội",
+        "Ái biệt ly",
+        "Ngũ ấm xí thạnh",
+        "Hình thành từ nhu cầu bảo vệ con người, làng xóm và cuộc sống trước thú dữ và các hiểm họa."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "1. Sinh, 2. Lão, 3. Bệnh, 4. Tử, 5. Cầu bất đắc, 6. Oán tắng hội, 7. Ái biệt ly, 8. Ngũ ấm xí thạnh.",
+      "sourceQuestion": "8 loại khổ mà Đức Phật đã giảng dạy là gì ?"
+    },
+    {
+      "id": "yellow-lesson-03-q10",
+      "lessonId": "yellow-lesson-03",
+      "number": 10,
+      "type": "fill",
+      "question": "Luật Nhân Quả do ai tạo ra? Ai phát hiện? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "người đã phát hiện",
+        "Đức Phật là người đã phát hiện và giảng…",
+        "Bao gồm: Khổ, Tập, Diệt và Đạo Đế.",
+        "Địa điểm dự kiến thành lập võ đường.",
+        "giảng dạy Luật nhân quả",
+        "Bối cảnh sinh hoạt của địa phương."
+      ],
+      "blanks": [
+        "người đã phát hiện",
+        "giảng dạy Luật nhân quả"
+      ],
+      "explanation": "Luật nhân quả là quy luật của tự nhiên, không do ai tạo ra cả.\nĐức Phật là người đã phát hiện và giảng dạy Luật nhân quả.",
+      "sourceQuestion": "Luật Nhân Quả do ai tạo ra? Ai phát hiện ?"
+    },
+    {
+      "id": "yellow-lesson-03-q11",
+      "lessonId": "yellow-lesson-03",
+      "number": 11,
+      "type": "ordering",
+      "question": "Giải thích ngắn gọn về Khổ Đế? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Tử khổ: Khổ vì cái chết và sự chia lìa cuộc sống.",
+        "Sinh khổ: Khổ vì sinh ra và mưu sinh để tồn tại.",
+        "Ngũ ấm xí thạnh khổ: Khổ do thân và tâm luôn biến động, bất an và phiền não.",
+        "Ái biệt ly khổ: Khổ vì phải xa lìa người hoặc điều mình thương quý.",
+        "Oán tắng hội khổ: Khổ vì phải gặp gỡ, chung sống với điều mình không ưa thích.",
+        "Bệnh khổ: Khổ vì bệnh tật, đau đớn thân xác và tinh thần.",
+        "Lão khổ: Khổ vì già yếu, suy giảm sức khỏe và trí lực.",
+        "Cầu bất đắc khổ: Khổ vì mong cầu mà không được như ý.",
+        "Khổ Đế là chân lý đầu tiên trong Tứ Diệu Đế, chỉ rõ bản chất của cuộc đời là có khổ đau."
+      ],
+      "correctOrder": [
+        8,
+        1,
+        6,
+        5,
+        0,
+        3,
+        4,
+        7,
+        2
+      ],
+      "explanation": "Khổ Đế là chân lý đầu tiên trong Tứ Diệu Đế, chỉ rõ bản chất của cuộc đời là có khổ đau.\nCó 8 loại khổ:\nSinh khổ: Khổ vì sinh ra và mưu sinh để tồn tại.\nLão khổ: Khổ vì già yếu, suy giảm sức khỏe và trí lực.\nBệnh khổ: Khổ vì bệnh tật, đau đớn thân xác và tinh thần.\nTử khổ: Khổ vì cái chết và sự chia lìa cuộc sống.\nÁi biệt ly khổ: Khổ vì phải xa lìa người hoặc điều mình thương quý.\nOán tắng hội khổ: Khổ vì phải gặp gỡ, chung sống với điều mình không ưa thích.\nCầu bất đắc khổ: Khổ vì mong cầu mà không được như ý.\nNgũ ấm xí thạnh khổ: Khổ do thân và tâm luôn biến động, bất an và phiền não.",
+      "sourceQuestion": "Giải thích ngắn gọn về Khổ Đế?"
+    },
+    {
+      "id": "yellow-lesson-03-q12",
+      "lessonId": "yellow-lesson-03",
+      "number": 12,
+      "type": "single",
+      "question": "Giải thích ngắn gọn về Tập Đế?",
+      "options": [
+        "Nguyên nhân gốc của đau khổ là vô minh. Từ vô minh sinh ra ngã chấp, từ ngã chấp sinh ra ái dục. Vì chạy theo ái dục…",
+        "Tiến trình: Vô minh → Ngã chấp → Ái dục → Tạo nghiệp → Luân hồi.",
+        "Tập Đế là chân lý chỉ rõ nguyên nhân của đau khổ.",
+        "Tiến trình:Vô minh → Ngã chấp → Ái dục → Tạo nghiệp → Luân hồi."
+      ],
+      "correctIndex": 2,
+      "explanation": "Tập Đế là chân lý chỉ rõ nguyên nhân của đau khổ.\nNguyên nhân gốc của đau khổ là vô minh. Từ vô minh sinh ra ngã chấp, từ ngã chấp sinh ra ái dục. Vì chạy theo ái dục nên con người tạo nghiệp và bị cuốn vào vòng luân hồi sinh tử.\nTiến trình:Vô minh → Ngã chấp → Ái dục → Tạo nghiệp → Luân hồi.",
+      "sourceQuestion": "Giải thích ngắn gọn về Tập Đế?"
+    },
+    {
+      "id": "yellow-lesson-03-q13",
+      "lessonId": "yellow-lesson-03",
+      "number": 13,
+      "type": "single",
+      "question": "Giải thích ngắn gọn về Diệt Đế?",
+      "options": [
+        "Diệt Đế (Niết Bàn) là chân lý chỉ trạng thái chấm dứt hoàn toàn mọi đau khổ.",
+        "Niết Bàn là trạng thái vô ngã hoàn toàn, thanh tịnh, an lạc, từ bi và trí tuệ viên mãn.",
+        "Khi đạt được Niết Bàn, vô minh, ngã chấp và khát ái đều được đoạn trừ, nghiệp và luân hồi sinh tử cũng chấm dứt.",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diệt Đế (Niết Bàn) là chân lý chỉ trạng thái chấm dứt hoàn toàn mọi đau khổ.\nKhi đạt được Niết Bàn, vô minh, ngã chấp và khát ái đều được đoạn trừ, nghiệp và luân hồi sinh tử cũng chấm dứt.\nNiết Bàn là trạng thái vô ngã hoàn toàn, thanh tịnh, an lạc, từ bi và trí tuệ viên mãn.",
+      "sourceQuestion": "Giải thích ngắn gọn về Diệt Đế?"
+    },
+    {
+      "id": "yellow-lesson-03-q14",
+      "lessonId": "yellow-lesson-03",
+      "number": 14,
+      "type": "multiple",
+      "question": "Giải thích ngắn gọn về Đạo Đế? Liệt kê Bát Chánh Đạo? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Đạo Đế là chân lý chỉ con đường tu tập đưa đến sự chấm dứt đau khổ và đạt được…",
+        "Chánh Nghiệp",
+        "Chánh Tư Duy",
+        "Chánh Mạng",
+        "Chánh Kiến",
+        "Chánh Tinh Tấn"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Đạo Đế là chân lý chỉ con đường tu tập đưa đến sự chấm dứt đau khổ và đạt được Niết Bàn giải thoát.\nCon đường đó chính là Bát Chánh Đạo, gồm:\nChánh Kiến\nChánh Tư Duy\nChánh Ngữ\nChánh Nghiệp\nChánh Mạng\nChánh Tinh Tấn\nChánh Niệm",
+      "sourceQuestion": "Giải thích ngắn gọn về Đạo Đế? Liệt kê Bát Chánh Đạo?"
+    },
+    {
+      "id": "yellow-lesson-03-q15",
+      "lessonId": "yellow-lesson-03",
+      "number": 15,
+      "type": "multiple",
+      "question": "Lợi ích của việc tin hiểu nhân quả? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Ái biệt ly",
+        "Nhìn nhận sự việc và đánh giá con người một cách khách quan, công bằng, không…",
+        "Biết ứng dụng đạo lý vào cuộc sống.",
+        "Tránh làm điều ác, siêng năng làm điều lành.",
+        "Không mê tín, tin vào những điều mơ hồ."
+      ],
+      "correctIndices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Tin hiểu nhân quả giúp chúng ta:\nKhông mê tín, tin vào những điều mơ hồ.\nTránh làm điều ác, siêng năng làm điều lành.\nBiết ứng dụng đạo lý vào cuộc sống.\nNhìn nhận sự việc và đánh giá con người một cách khách quan, công bằng, không bi quan hay oán trách.",
+      "sourceQuestion": "Lợi ích của việc tin hiểu nhân quả?"
+    },
+    {
+      "id": "yellow-lesson-03-q16",
+      "lessonId": "yellow-lesson-03",
+      "number": 16,
+      "type": "fill",
+      "question": "Ai là người sắp đặt số phận cho chúng ta? Điền tên hoặc danh tính: ______.",
+      "options": [
+        "người sắp đặt số phận cho mình thông qua…",
+        "Sinh khổ: Khổ vì sinh ra và mưu sinh để…",
+        "Đức Phật là người đã phát hiện và giảng…",
+        "Cầu bất đắc",
+        "Mang tính võ trận, gắn liền với lịch sử…",
+        "Chánh Niệm"
+      ],
+      "blanks": [
+        "người sắp đặt số phận cho mình thông qua…"
+      ],
+      "explanation": "Chính chúng ta là người sắp đặt số phận cho mình thông qua những hành động, lời nói và ý nghĩ của bản thân.\nHiểu rõ luật Nhân Quả, chúng ta sẽ biết tránh những nhân xấu, gieo những nhân lành và từng bước tạo nên tương lai tốt đẹp cho chính mình.",
+      "sourceQuestion": "Ai là người sắp đặt số phận cho chúng ta?"
+    },
+    {
+      "id": "yellow-lesson-03-q17",
+      "lessonId": "yellow-lesson-03",
+      "number": 17,
+      "type": "single",
+      "question": "Nêu khái niệm Vô Ngã?",
+      "options": [
+        "Vô Ngã là trạng thái không còn vị kỷ, chỉ biết nghĩ cho riêng mình, mà sống với tâm vị tha và lòng từ bi rộng lớn.",
+        "Vô Ngã không phải là hư vô hay mất đi bản thân, mà là sự giác ngộ, sáng suốt và đạo đức được phát triển đến mức cao…",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vô Ngã là trạng thái không còn vị kỷ, chỉ biết nghĩ cho riêng mình, mà sống với tâm vị tha và lòng từ bi rộng lớn.\nVô Ngã không phải là hư vô hay mất đi bản thân, mà là sự giác ngộ, sáng suốt và đạo đức được phát triển đến mức cao nhất. Người đạt được Vô Ngã sống vì lợi ích của mọi người mà không còn chấp ngã, chấp công hay chấp danh",
+      "sourceQuestion": "Nêu khái niệm Vô Ngã?"
+    },
+    {
+      "id": "yellow-lesson-03-q18",
+      "lessonId": "yellow-lesson-03",
+      "number": 18,
+      "type": "single",
+      "question": "Thế nào là mục tiêu Vô Ngã của Đạo Phật?",
+      "options": [
+        "Chính vì vậy, chỉ có tu tập đạt đến Vô Ngã, chứng được A La Hán mới chấm dứt hoàn toàn đau khổ. Chỉ có đạo Phật mới có…",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…",
+        "Thân tâm chúng sinh do năm uẩn (sắc, thọ, tưởng, hành, thức) hợp thành. Vì chấp năm uẩn là “Ta” nên sinh ra tham ái,…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Thân tâm chúng sinh do năm uẩn (sắc, thọ, tưởng, hành, thức) hợp thành. Vì chấp năm uẩn là “Ta” nên sinh ra tham ái, ích kỷ, phiền não và đau khổ.\nChính vì vậy, chỉ có tu tập đạt đến Vô Ngã, chứng được A La Hán mới chấm dứt hoàn toàn đau khổ. Chỉ có đạo Phật mới có mục tiêu Vô Ngã. Không hướng về Vô Ngã thì sẽ lạc vào ngoại đạo. Đệ tử Phật phải hướng về Vô Ngã!",
+      "sourceQuestion": "Thế nào là mục tiêu Vô Ngã của Đạo Phật?"
+    },
+    {
+      "id": "yellow-lesson-03-q19",
+      "lessonId": "yellow-lesson-03",
+      "number": 19,
+      "type": "single",
+      "question": "Tu tập như thế nào để đạt được Vô Ngã?",
+      "options": [
+        "Tu tập để đạt được Vô Ngã chính là thực hành Bát Chánh Đạo.",
+        "Thiền định: Siêng năng tu tập thiền định, đạt được Chánh định sâu sắc để từng bước phá trừ ngã chấp.",
+        "Chỉ khi đạo đức và thiền định cùng phát triển, con người mới có thể tiến dần đến Vô Ngã.",
+        "Đạo đức: Sống vị tha, yêu thương, khiêm hạ, tận tụy, hy sinh và phụng sự để gieo nhân Vô Ngã."
+      ],
+      "correctIndex": 0,
+      "explanation": "Tu tập để đạt được Vô Ngã chính là thực hành Bát Chánh Đạo.\nNói tổng quát, cần kết hợp song song hai yếu tố:\nĐạo đức: Sống vị tha, yêu thương, khiêm hạ, tận tụy, hy sinh và phụng sự để gieo nhân Vô Ngã.\nThiền định: Siêng năng tu tập thiền định, đạt được Chánh định sâu sắc để từng bước phá trừ ngã chấp.\nChỉ khi đạo đức và thiền định cùng phát triển, con người mới có thể tiến dần đến Vô Ngã.",
+      "sourceQuestion": "Tu tập như thế nào để đạt được Vô Ngã?"
+    },
+    {
+      "id": "yellow-lesson-03-q20",
+      "lessonId": "yellow-lesson-03",
+      "number": 20,
+      "type": "single",
+      "question": "Hỏi: Vị tha là gì?",
+      "options": [
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Vị tha là biết quan tâm, giúp đỡ và nghĩ đến lợi ích của người khác, không chỉ lo cho riêng mình.",
+        "Nhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt…",
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vị tha là biết quan tâm, giúp đỡ và nghĩ đến lợi ích của người khác, không chỉ lo cho riêng mình.",
+      "sourceQuestion": "Hỏi: Vị tha là gì?"
+    },
+    {
+      "id": "yellow-lesson-03-q21",
+      "lessonId": "yellow-lesson-03",
+      "number": 21,
+      "type": "single",
+      "question": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải sống vị tha?",
+      "options": [
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Vì vị tha giúp xây dựng tình huynh đệ, tinh thần đoàn kết và tạo nên một tập thể mạnh mẽ, yêu thương nhau.",
+        "Nhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vì vị tha giúp xây dựng tình huynh đệ, tinh thần đoàn kết và tạo nên một tập thể mạnh mẽ, yêu thương nhau.",
+      "sourceQuestion": "Hỏi: Vì sao người môn sinh Phật Quang Quyền phải sống vị tha?"
+    },
+    {
+      "id": "yellow-lesson-03-q22",
+      "lessonId": "yellow-lesson-03",
+      "number": 22,
+      "type": "single",
+      "question": "Hỏi: Người môn sinh thể hiện tâm vị tha bằng cách nào?",
+      "options": [
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…",
+        "Nhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt…",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Bằng cách sẵn sàng giúp đỡ huynh đệ, chia sẻ khó khăn, nhường nhịn nhau và cùng nhau tiến bộ trong học tập, võ thuật và…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bằng cách sẵn sàng giúp đỡ huynh đệ, chia sẻ khó khăn, nhường nhịn nhau và cùng nhau tiến bộ trong học tập, võ thuật và đạo đức.",
+      "sourceQuestion": "Hỏi: Người môn sinh thể hiện tâm vị tha bằng cách nào?"
+    },
+    {
+      "id": "yellow-lesson-03-q23",
+      "lessonId": "yellow-lesson-03",
+      "number": 23,
+      "type": "single",
+      "question": "Hỏi: Dấu hiệu của người còn sống vị kỷ là gì?",
+      "options": [
+        "Chỉ nghĩ đến quyền lợi của mình, thích phần hơn về mình và ít quan tâm đến khó khăn của người khác.",
+        "Nhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt…",
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chỉ nghĩ đến quyền lợi của mình, thích phần hơn về mình và ít quan tâm đến khó khăn của người khác.",
+      "sourceQuestion": "Hỏi: Dấu hiệu của người còn sống vị kỷ là gì?"
+    },
+    {
+      "id": "yellow-lesson-03-q24",
+      "lessonId": "yellow-lesson-03",
+      "number": 24,
+      "type": "single",
+      "question": "Hỏi: Khi sinh hoạt trong tập thể, người môn sinh nên cư xử như thế nào?",
+      "options": [
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Nhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt…",
+        "Nên nhường nhịn, hỗ trợ, động viên huynh đệ và đặt lợi ích chung lên trên lợi ích riêng.",
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nên nhường nhịn, hỗ trợ, động viên huynh đệ và đặt lợi ích chung lên trên lợi ích riêng.",
+      "sourceQuestion": "Hỏi: Khi sinh hoạt trong tập thể, người môn sinh nên cư xử như thế nào?"
+    },
+    {
+      "id": "yellow-lesson-03-q25",
+      "lessonId": "yellow-lesson-03",
+      "number": 25,
+      "type": "single",
+      "question": "Hỏi: Lý tưởng vị tha của người môn sinh Phật Quang Quyền là gì?",
+      "options": [
+        "Luôn sống vì mọi người, góp sức xây dựng tập thể, phụng sự cộng đồng và đem điều tốt đẹp đến cho cuộc đời.",
+        "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước của dân tộc. Trải qua…",
+        "Cho đến nay chưa xác định chính xác võ cổ truyền Việt Nam xuất hiện từ khi nào. Tuy nhiên, võ cổ truyền được hình thành…",
+        "Nhờ sự nỗ lực của các võ sư vat các tổ chức chuyên môn, đặc biệt là sự ra đời của Liên đoàn Võ thuật Cổ truyền Việt…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Luôn sống vì mọi người, góp sức xây dựng tập thể, phụng sự cộng đồng và đem điều tốt đẹp đến cho cuộc đời.",
+      "sourceQuestion": "Hỏi: Lý tưởng vị tha của người môn sinh Phật Quang Quyền là gì?"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "lessonId": "red-lesson-01",
+  "title": "Hồng Đai Nhất Cấp — Kiểm tra",
+  "passThreshold": 70,
+  "questions": [
+    {
+      "id": "red-lesson-01-q01",
+      "lessonId": "red-lesson-01",
+      "number": 1,
+      "type": "matching",
+      "question": "Muốn thực hiện chuyên cần học tập, Võ sinh Phật Quang Quyền phải làm gì? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
+      "options": [],
+      "leftItems": [
+        "Học cho rộng",
+        "Hỏi cho kỹ",
+        "Nghĩ cẩn thận",
+        "Luận cho sáng"
+      ],
+      "rightItems": [
+        "Biết so sánh, phân tích, tổng hợp, biện luận và giải thích rõ ràng.",
+        "Học võ thuật, võ đạo, văn hóa, nghề nghiệp, cả lý thuyết lẫn thực hành.",
+        "Không hiểu thì hỏi, không giấu dốt, không tự ái hay chán nản.",
+        "Biết nghiền ngẫm, suy xét những điều đã học và đã làm."
+      ],
+      "correctPairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "explanation": "Muốn chuyên cần học tập, Võ sinh Phật Quang Quyền phải thực hiện 4 điều:\nHọc cho rộng: Học võ thuật, võ đạo, văn hóa, nghề nghiệp, cả lý thuyết lẫn thực hành.\nHỏi cho kỹ: Không hiểu thì hỏi, không giấu dốt, không tự ái hay chán nản.\nNghĩ cẩn thận: Biết nghiền ngẫm, suy xét những điều đã học và đã làm.\nLuận cho sáng: Biết so sánh, phân tích, tổng hợp, biện luận và giải thích rõ ràng.",
+      "sourceQuestion": "Muốn thực hiện chuyên cần học tập, Võ sinh Phật Quang Quyền phải làm gì?"
+    },
+    {
+      "id": "red-lesson-01-q02",
+      "lessonId": "red-lesson-01",
+      "number": 2,
+      "type": "fill",
+      "question": "Có mấy thời kỳ lập võ? Hãy kể ra và giải thích đại cương.? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Bạch hạc đạt tuyết",
+        "Hoành phong tảo địa",
+        "sinh tồn trước thú dữ",
+        "thiên nhiên khắc nghiệt",
+        "Cương nhu phối triển.",
+        "Điểu trá yến phi"
+      ],
+      "blanks": [
+        "sinh tồn trước thú dữ",
+        "thiên nhiên khắc nghiệt"
+      ],
+      "explanation": "Võ học của nhân loại trải qua 4 thời kỳ lập võ:\nChiến đấu với cầm thú: Con người dùng sức mạnh và kỹ năng để sinh tồn trước thú dữ và thiên nhiên khắc nghiệt.\nSong đấu: Võ thuật được sử dụng để giải quyết mâu thuẫn và tranh chấp giữa hai người.\nHỗn đấu: Xuất hiện các kỹ thuật chiến đấu trong những cuộc xung đột có nhiều người tham gia.\nVõ học thâm nhập vào binh pháp: Võ học được hệ thống hóa và ứng dụng vào quân sự để bảo vệ, xây dựng và phát triển đất nước.",
+      "sourceQuestion": "Có mấy thời kỳ lập võ? Hãy kể ra và giải thích đại cương."
+    },
+    {
+      "id": "red-lesson-01-q03",
+      "lessonId": "red-lesson-01",
+      "number": 3,
+      "type": "fill",
+      "question": "Các loại Hầu quyền, Hổ quyền, Mã quyền, Điểu quyền, Xà quyền, Ngưu quyền có những đặc điểm gì? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Song long bảo nguyệt",
+        "húc, khóa",
+        "áp đảo đối phương",
+        "Học cho rộng: Học võ thuật, võ đạo, văn…",
+        "Song đấu: Võ thuật được sử dụng để giải…",
+        "Biết tiếp thu, chọn lọc và kết hợp tinh…"
+      ],
+      "blanks": [
+        "húc, khóa",
+        "áp đảo đối phương"
+      ],
+      "explanation": "Hầu quyền: Nhanh nhẹn, linh hoạt, chờn vờn, nhảy nhót.\nHổ quyền: Mạnh mẽ, dữ dội, chụp bắt, tấn công chớp nhoáng.\nMã quyền: Giả thua, lùi tránh rồi bất ngờ phản công.\nĐiểu quyền: Tấn công bất ngờ từ trên cao, hư thực khó lường.\nXà quyền: Uốn lượn linh hoạt, né tránh nhanh và tấn công bất ngờ.\nNgưu quyền: Dũng mãnh, dùng sức mạnh toàn thân để húc, khóa và áp đảo đối phương.",
+      "sourceQuestion": "Các loại Hầu quyền, Hổ quyền, Mã quyền, Điểu quyền, Xà quyền, Ngưu quyền có những đặc điểm gì?"
+    },
+    {
+      "id": "red-lesson-01-q04",
+      "lessonId": "red-lesson-01",
+      "number": 4,
+      "type": "multiple",
+      "question": "Truyền thống Võ học Việt Nam ra sao? Có mấy phẩm tính? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Cương nhu phối triển.",
+        "Song long hợp khẩu",
+        "Phù hợp với thể tạng người Việt Nam và điều kiện địa lý của đất nước.",
+        "Biết tiếp thu, chọn lọc và kết hợp tinh hoa của nhiều nền võ học nhưng vẫn giữ…"
+      ],
+      "correctIndices": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Truyền thống Võ học Việt Nam rất phong phú, mang đậm bản sắc dân tộc và được hình thành qua quá trình dựng nước, giữ nước của cha ông. Võ học Việt Nam có 3 phẩm tính:\nPhù hợp với thể tạng người Việt Nam và điều kiện địa lý của đất nước.\nCương nhu phối triển.\nBiết tiếp thu, chọn lọc và kết hợp tinh hoa của nhiều nền võ học nhưng vẫn giữ được bản sắc riêng của dân tộc Việt Nam.",
+      "sourceQuestion": "Truyền thống Võ học Việt Nam ra sao? Có mấy phẩm tính?"
+    },
+    {
+      "id": "red-lesson-01-q05",
+      "lessonId": "red-lesson-01",
+      "number": 5,
+      "type": "fill",
+      "question": "Thời đại nào đã mở màn cho võ học thâm nhập vào binh pháp? Binh pháp gia tiêu biểu đầu tiên của Việt Nam là ai? Điền tên hoặc danh tính: ______.",
+      "options": [
+        "Cương nhu phối triển.",
+        "Song long bảo nguyệt",
+        "Song Tuyết Kiếm là bài binh khí đôi quy…",
+        "Luận cho sáng: Biết so sánh, phân tích,…",
+        "một trong những binh pháp gia tiêu biểu…",
+        "Học cho rộng: Học võ thuật, võ đạo, văn…"
+      ],
+      "blanks": [
+        "một trong những binh pháp gia tiêu biểu…"
+      ],
+      "explanation": "Tại Việt Nam, từ thời đại đồ sắt, võ học đã dần thâm nhập vào binh pháp. Danh tướng Lý Thường Kiệt được xem là một trong những binh pháp gia tiêu biểu đầu tiên của dân tộc, nổi bật với việc vận dụng binh pháp một cách sáng tạo và hiệu quả trong công cuộc bảo vệ đất nước.",
+      "sourceQuestion": "Thời đại nào đã mở màn cho võ học thâm nhập vào binh pháp? Binh pháp gia tiêu biểu đầu tiên của Việt Nam là ai?"
+    },
+    {
+      "id": "red-lesson-01-q06",
+      "lessonId": "red-lesson-01",
+      "number": 6,
+      "type": "multiple",
+      "question": "Vì đâu Võ học Việt Nam đã tổng hợp và kết hợp được tinh hoa của nhiều nền võ học trên thế giới? Và đã tổng hợp theo chiều hướng nào? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Nhờ vị trí địa lý thuận lợi và sự giao lưu lâu dài với nhiều nền văn hóa khác…",
+        "Học cho rộng: Học võ thuật, võ đạo, văn hóa, nghề nghiệp, cả lý thuyết lẫn thực hành.",
+        "Võ học Việt Nam tổng hợp theo chiều hướng tiếp thu những điểm hay, tiến bộ và…",
+        "Nghĩ cẩn thận: Biết nghiền ngẫm, suy xét những điều đã học và đã làm."
+      ],
+      "correctIndices": [
+        0,
+        2
+      ],
+      "explanation": "Nhờ vị trí địa lý thuận lợi và sự giao lưu lâu dài với nhiều nền văn hóa khác nhau, Võ học Việt Nam có điều kiện tiếp xúc, tiếp thu và chọn lọc tinh hoa của nhiều nền võ học trên thế giới.\nVõ học Việt Nam tổng hợp theo chiều hướng tiếp thu những điểm hay, tiến bộ và phù hợp để làm phong phú nền võ học dân tộc, đồng thời vẫn giữ vững bản sắc riêng của mình.",
+      "sourceQuestion": "Vì đâu Võ học Việt Nam đã tổng hợp và kết hợp được tinh hoa của nhiều nền võ học trên thế giới? Và đã tổng hợp theo chiều hướng nào?"
+    },
+    {
+      "id": "red-lesson-01-q07",
+      "lessonId": "red-lesson-01",
+      "number": 7,
+      "type": "multiple",
+      "question": "Nêu xuất xứ bài quyền quy định quốc gia Song Tuyết Kiếm.? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Tiên ông chỉ lộ",
+        "Song Tuyết Kiếm là bài binh khí đôi quy định của Liên đoàn Võ thuật Cổ truyền…",
+        "Nam Hồng Sơn do cố Võ sư Nguyễn Nguyên Tộ (1895–1984) sáng lập trên cơ sở kết…",
+        "Bái tổ kính sư",
+        "Song long xuất thủy",
+        "Song long hợp khẩu"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Song Tuyết Kiếm là bài binh khí đôi quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam. Bài kiếm này thuộc môn phái Nam Hồng Sơn của Hội Võ thuật Hà Nội.\nNam Hồng Sơn do cố Võ sư Nguyễn Nguyên Tộ (1895–1984) sáng lập trên cơ sở kết hợp tinh hoa võ thuật cổ truyền Việt Nam và võ thuật Trung Hoa. Sau năm 1984, Võ sư Nguyễn Tỵ tiếp tục kế thừa và phát triển môn phái.\nSong tuyết kiếm có 40 câu thiệu:\nBình thân\nBái tổ kính sư\nTiên ông chỉ lộ\nSong long hợp khẩu\nSong long xuất thủy\nTam bộ loan kiếm\nBạch hạc đạt tuyết\nThiết ngưu chuyển giác (2 lần)\nSong long xuất thủy\nSong long bảo nguyệt\nTà phong tảo diệp\nHoành phong tảo địa\nLuân thân hồi kiếm\nThiết ngưu chuyển giác\nSong long xuất thủy\nLoan kiếm tuyết hoa\nLuân thân hồi kiếm\nTam bộ loan kiếm\nBạch xà luân thân\nThiết ngưu chuyển giác\nSong long xuất thủy\nLoan kiếm tuyết hoa\nLuân thân hồi kiếm\nTam bộ loan kiếm\nBạch xà luân thân\nTả hữu loan kiếm\nPhượng lập sơn đầu\nSong long xuất hải\nMa vương trá tẩu\nẨn long phục thế\nPhốc bộ phi cước\nSong long xuất hải\nHoành phong tảo địa\nBạch xà luân thân\nĐiểu trá yến phi\nThiết ngưu chuyển giác\nLoan kiếm tuyết hoa\nBạch long triều nguyệt\nSong long xuất thủy\nBái tổ lập như tiền",
+      "sourceQuestion": "Nêu xuất xứ bài quyền quy định quốc gia Song Tuyết Kiếm."
+    }
+  ]
+}

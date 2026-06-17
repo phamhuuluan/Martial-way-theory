@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none" role="img" aria-label="Dũng cảm">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="0" x2="100" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#281814"/>
+      <stop offset="1" stop-color="#120a08"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 108) rotate(90) scale(95 78)">
+      <stop stop-color="#b87858" stop-opacity="0.14"/>
+      <stop offset="0.55" stop-color="#b87858" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#120a08" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="100" y1="36" x2="100" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e8d4a0" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#c4a35a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8a7040" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="frameInner" x1="100" y1="48" x2="100" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#281814" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#120a08" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="mist" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <clipPath id="medallion">
+      <path d="M100 42 L148 62 L158 108 L148 154 L100 174 L52 154 L42 108 L52 62 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="200" height="240" fill="url(#bg)"/>
+  <ellipse cx="100" cy="118" rx="92" ry="88" fill="url(#spot)"/>
+
+  <!-- Ornate martial medallion frame -->
+  <path d="M100 38 L152 60 L164 108 L152 156 L100 178 L48 156 L36 108 L48 60 Z" stroke="url(#frame)" stroke-width="2.25" stroke-linejoin="round"/>
+  <path d="M100 44 L148 64 L158 108 L148 152 L100 172 L52 152 L42 108 L52 64 Z" stroke="#b87858" stroke-opacity="0.18" stroke-width="1"/>
+  <path d="M100 48 L144 66 L152 108 L144 150 L100 168 L56 150 L48 108 L56 66 Z" fill="url(#frameInner)"/>
+
+  <!-- Corner ornaments -->
+  <g stroke="#c4a35a" stroke-opacity="0.35" stroke-width="1" fill="none">
+    <path d="M100 44 L104 52 L96 52 Z"/>
+    <path d="M148 64 L140 68 L140 60 Z"/>
+    <path d="M152 108 L144 104 L144 112 Z"/>
+    <path d="M100 168 L96 160 L104 160 Z"/>
+    <path d="M52 152 L60 148 L60 156 Z"/>
+    <path d="M48 108 L56 112 L56 104 Z"/>
+    <path d="M52 64 L60 68 L60 60 Z"/>
+  </g>
+
+  <g clip-path="url(#medallion)">
+    
+    <rect x="0" y="0" width="200" height="200" fill="#180e0c"/>
+    <ellipse cx="100" cy="118" rx="38" ry="48" fill="#b85838" fill-opacity="0.12"/>
+    <path d="M100 72 C84 88 78 108 82 128 C86 144 94 154 100 158 C106 154 114 144 118 128 C122 108 116 88 100 72" fill="#c86848" fill-opacity="0.55"/>
+    <path d="M100 72 C84 88 78 108 82 128 C86 144 94 154 100 158 C106 154 114 144 118 128 C122 108 116 88 100 72" stroke="#e8a868" stroke-opacity="0.45" stroke-width="1.5"/>
+    <path d="M100 88 C92 102 90 116 94 128 C96 136 98 142 100 146 C102 142 104 136 106 128 C110 116 108 102 100 88" fill="#f0c890" fill-opacity="0.35"/>
+    <path d="M100 98 V138" stroke="#f0d0a0" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M88 108 C92 112 108 112 112 108" stroke="#e8a868" stroke-opacity="0.35" stroke-width="1" stroke-linecap="round"/>
+    <circle cx="100" cy="82" r="6" fill="#f0d890" fill-opacity="0.4"/>
+    <path d="M72 132 C78 124 88 120 100 122 C112 124 122 120 128 132" stroke="#8a5840" stroke-opacity="0.45" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Atmospheric foreground mist -->
+  <path d="M0 188 C34 172 66 182 100 176 C134 170 166 180 200 168 V240 H0 Z" fill="#120a08" fill-opacity="0.85"/>
+  <ellipse cx="100" cy="182" rx="78" ry="18" fill="#b87858" fill-opacity="0.08" filter="url(#mist)"/>
+</svg>

@@ -1,0 +1,187 @@
+{
+  "lessonId": "blue-lesson-01",
+  "title": "Lam Đai Nhất Cấp — Kiểm tra",
+  "passThreshold": 70,
+  "questions": [
+    {
+      "id": "blue-lesson-01-q01",
+      "lessonId": "blue-lesson-01",
+      "number": 1,
+      "type": "fill",
+      "question": "Phật Quang Quyền (PQQ) chính thức gia nhập vào liên đoàn Võ Cổ Truyền (VCT) Việt Nam khi nào? Điền năm: ______.",
+      "options": [
+        "Dùng chân gọi là Cước thuật.",
+        "2015, sau hơn 20 năm hình thành và phát…",
+        " Rèn luyện sức mạnh và ý chí: Lao động…",
+        "2015",
+        "võ sinh/ môn sinh PQQ",
+        " Hạnh nhẫn nhục: là biết kiềm chế nóng…"
+      ],
+      "blanks": [
+        "2015"
+      ],
+      "explanation": "Năm 2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền Việt Nam, để phát triển môn phái ra bên ngoài theo sự mong muốn của đông đảo Phật tử và môn sinh.",
+      "sourceQuestion": "Phật Quang Quyền (PQQ) chính thức gia nhập vào liên đoàn Võ Cổ Truyền (VCT) Việt Nam khi nào?"
+    },
+    {
+      "id": "blue-lesson-01-q02",
+      "lessonId": "blue-lesson-01",
+      "number": 2,
+      "type": "single",
+      "question": "Võ nghệ là gì:?",
+      "options": [
+        "2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền…",
+        "Dùng tay gọi là Quyền thuật.",
+        "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để chiến đấu và tự vệ.",
+        "Định Nghĩa: người có võ nghệ là người tập luyện Võ thuật kiên trì, có khả năng chiến đấu, đạt ở mức chấp nhận được.."
+      ],
+      "correctIndex": 3,
+      "explanation": "Định Nghĩa: người có võ nghệ là người tập luyện Võ thuật  kiên trì, có khả năng chiến đấu, đạt ở mức chấp nhận được..",
+      "sourceQuestion": "Võ nghệ là gì:"
+    },
+    {
+      "id": "blue-lesson-01-q03",
+      "lessonId": "blue-lesson-01",
+      "number": 3,
+      "type": "fill",
+      "question": "Võ thuật là gì:? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "2015, sau hơn 20 năm hình thành và phát…",
+        "chiến đấu",
+        "tự vệ",
+        "Dùng chân gọi là Cước thuật.",
+        " Rèn luyện sức mạnh và ý chí: Lao động…",
+        " Hạnh nhẫn nhục: là biết kiềm chế nóng…"
+      ],
+      "blanks": [
+        "chiến đấu",
+        "tự vệ"
+      ],
+      "explanation": "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để chiến đấu và tự vệ.\nDùng tay gọi là Quyền thuật.\nDùng chân gọi là Cước thuật.\nDùng : Ðao, Kiếm... gọi là Ðao thuật, Kiếm Thuật….\nngười xưa thường nói Thập bát ban võ nghệ là chỉ sử dụng nhiều thứ vũ khí khác nhau.",
+      "sourceQuestion": "Võ thuật là gì:"
+    },
+    {
+      "id": "blue-lesson-01-q04",
+      "lessonId": "blue-lesson-01",
+      "number": 4,
+      "type": "single",
+      "question": "Võ học là gì?",
+      "options": [
+        "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để chiến đấu và tự vệ.",
+        "Võ học là việc nghiên cứu, tìm hiểu và so sánh kiến thức của nhiều môn phái võ thuật, kết hợp với khoa học và y học để…",
+        "2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền…",
+        "Định Nghĩa: người có võ nghệ là người tập luyện Võ thuật kiên trì, có khả năng chiến đấu, đạt ở mức chấp nhận được.."
+      ],
+      "correctIndex": 1,
+      "explanation": "Võ học là việc nghiên cứu, tìm hiểu và so sánh kiến thức của nhiều môn phái võ thuật, kết hợp với khoa học và y học để nâng cao hiểu biết về võ thuật.",
+      "sourceQuestion": "Võ học là gì?"
+    },
+    {
+      "id": "blue-lesson-01-q05",
+      "lessonId": "blue-lesson-01",
+      "number": 5,
+      "type": "single",
+      "question": "Võ đạo là gì?",
+      "options": [
+        "Võ đạo là đem võ thuật ứng dụng vào việc tu dưỡng đạo đức, hoàn thiện nhân cách và làm chủ bản than, không nhằm mục…",
+        "2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền…",
+        "Định Nghĩa: người có võ nghệ là người tập luyện Võ thuật kiên trì, có khả năng chiến đấu, đạt ở mức chấp nhận được..",
+        "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để chiến đấu và tự vệ."
+      ],
+      "correctIndex": 0,
+      "explanation": "Võ đạo là đem võ thuật ứng dụng vào việc tu dưỡng đạo đức, hoàn thiện nhân cách và làm chủ bản than, không nhằm mục đích chiến đấu.",
+      "sourceQuestion": "Võ đạo là gì?"
+    },
+    {
+      "id": "blue-lesson-01-q06",
+      "lessonId": "blue-lesson-01",
+      "number": 6,
+      "type": "fill",
+      "question": "Giải thích ý nghĩa lời thế thứ nhât: Tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng:? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "vượt qua những yếu đuối, lo lắng",
+        "Dùng tay gọi là Quyền thuật.",
+        " Ý thức việc tập võ là trách nhiệm của…",
+        "Dùng chân gọi là Cước thuật.",
+        " Hạnh nhẫn nhục: là biết kiềm chế nóng…",
+        "thiếu tự tin của bản thân"
+      ],
+      "blanks": [
+        "vượt qua những yếu đuối, lo lắng",
+        "thiếu tự tin của bản thân"
+      ],
+      "explanation": "  Chiến thắng sự sợ hãi :là vượt qua những yếu đuối, lo lắng và thiếu tự tin của bản thân.\n  Hạnh nhẫn nhục: là biết kiềm chế nóng giận, chịu đựng khó khăn và không hơn thua với người khác. Đến múc tận cùng.",
+      "sourceQuestion": "Giải thích ý nghĩa lời thế thứ nhât: Tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng:"
+    },
+    {
+      "id": "blue-lesson-01-q07",
+      "lessonId": "blue-lesson-01",
+      "number": 7,
+      "type": "single",
+      "question": "Ý nghĩa lời thề thứ hai: tập võ để bênh vực kẻ vô tội bị ức hiếp:?",
+      "options": [
+        "Người học võ không phải dùng sức mạnh để hiếp yếu thắng mạnh, mà dùng khả năng của mình để bảo vệ người vô tội, giúp đỡ…",
+        "Định Nghĩa: người có võ nghệ là người tập luyện Võ thuật kiên trì, có khả năng chiến đấu, đạt ở mức chấp nhận được..",
+        "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để chiến đấu và tự vệ.",
+        "2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Người học võ không phải dùng sức mạnh để hiếp yếu thắng mạnh, mà dùng khả năng của mình để bảo vệ người vô tội, giúp đỡ người yếu thế và bảo vệ lẽ phải.",
+      "sourceQuestion": "Ý nghĩa lời thề thứ hai: tập võ để bênh vực kẻ vô tội bị ức hiếp:"
+    },
+    {
+      "id": "blue-lesson-01-q08",
+      "lessonId": "blue-lesson-01",
+      "number": 8,
+      "type": "multiple",
+      "question": "Ý nghĩa lời thề thứ năm: “Trung thành với Thầy Tổ, tín nghĩa với huynh đệ”? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền…",
+        "Dùng chân gọi là Cước thuật.",
+        "Trung thành với Thầy: Tổ là luôn tôn kính, biết ơn, bảo vệ danh dự Thầy Tổ và…",
+        "Tín nghĩa với huynh đệ: là thương yêu, kính trọng, tin tưởng, đoàn kết và giúp…"
+      ],
+      "correctIndices": [
+        2,
+        3
+      ],
+      "explanation": "Trung thành với Thầy: Tổ là luôn tôn kính, biết ơn, bảo vệ danh dự Thầy Tổ và môn phái; giữ vững lòng trung thành dù gặp nghịch cảnh, bị quở trách, luyện tập khó tiến bộ hay bị cám dỗ bởi thuận cảnh.\nTín nghĩa với huynh đệ: là thương yêu, kính trọng, tin tưởng, đoàn kết và giúp đỡ lẫn nhau như người trong một gia đình, cùng giữ gìn kỷ luật và danh dự môn phái.",
+      "sourceQuestion": "Ý nghĩa lời thề thứ năm: “Trung thành với Thầy Tổ, tín nghĩa với huynh đệ”"
+    },
+    {
+      "id": "blue-lesson-01-q09",
+      "lessonId": "blue-lesson-01",
+      "number": 9,
+      "type": "multiple",
+      "question": "Ý nghĩa lời thề thứ sáu: “Yêu thích lao động giúp đời”? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Ý kiến cá nhân, không có trong bài học",
+        "Tạo phước: Biết làm việc thiện, giúp đời để có phước lành và cuộc sống tốt đẹp…",
+        "Rèn luyện sức mạnh và ý chí: Lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ…",
+        "Phải siêng năng, kiên trì luyện tập võ thuật."
+      ],
+      "correctIndices": [
+        1,
+        2
+      ],
+      "explanation": "Lời thề thứ sáu của PQQ là yêu thích lao động giúp đời. Lời thề này nhắc nhở môn sinh siêng năng lao động và giúp ích cho mọi người để đạt được hai lợi ích lớn:\n  Tạo phước: Biết làm việc thiện, giúp đời để có phước lành và cuộc sống tốt đẹp hơn.\n  Rèn luyện sức mạnh và ý chí: Lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ phát triển nội lực và hình thành tinh thần vượt khó.",
+      "sourceQuestion": "Ý nghĩa lời thề thứ sáu: “Yêu thích lao động giúp đời”"
+    },
+    {
+      "id": "blue-lesson-01-q10",
+      "lessonId": "blue-lesson-01",
+      "number": 10,
+      "type": "scenario",
+      "question": "Tình huống: Một môn sinh không siêng năng, kiên trì luyện tập võ thuật.\n\nTheo bài học, quy định hoặc nguyên lý nào bị vi phạm?",
+      "options": [
+        "Phải siêng năng, kiên trì luyện tập võ thuật.",
+        "Định Nghĩa: người có võ nghệ là người tập luyện Võ thuật kiên trì, có khả năng chiến đấu, đạt ở mức…",
+        "2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên…",
+        "Xem võ học là di sản quý báu của cha ông cần được gìn giữ và phát huy."
+      ],
+      "correctIndex": 0,
+      "explanation": "võ sinh/ môn sinh PQQ\n  Phải siêng năng, kiên trì luyện tập võ thuật.\n  Xem võ học là di sản quý báu của cha ông cần được gìn giữ và phát huy.\n  Ý thức việc tập võ là trách nhiệm của người môn sinh đối với môn phái và dân tộc.",
+      "sourceQuestion": "Tinh thần tập võ của môn sinh Phật Quang Quyền như thế nào ?"
+    }
+  ]
+}

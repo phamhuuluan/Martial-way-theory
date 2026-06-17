@@ -1,0 +1,459 @@
+{
+  "lessonId": "white-lesson-01",
+  "title": "Chuẩn Bạch Đai — Kiểm tra",
+  "passThreshold": 70,
+  "questions": [
+    {
+      "id": "white-lesson-01-q01",
+      "lessonId": "white-lesson-01",
+      "number": 1,
+      "type": "single",
+      "question": "Hỏi: Khi thành lập võ đường, những vấn đề nào cần được kiện toàn trước tiên?",
+      "options": [
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng dễ làm con người ganh đua, mất đoàn kết, quên đi mục tiêu rèn luyện đạo đức và phụng sự. Khi bị tham vọng chi…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo đảm việc vận hành, giảng dạy và sinh hoạt của võ đường được thuận lợi, lâu dài.",
+      "sourceQuestion": "Hỏi: Khi thành lập võ đường, những vấn đề nào cần được kiện toàn trước tiên?"
+    },
+    {
+      "id": "white-lesson-01-q02",
+      "lessonId": "white-lesson-01",
+      "number": 2,
+      "type": "single",
+      "question": "Hỏi: Sau khi kiện toàn nhân sự, tài chính và cơ sở vật chất, võ đường cần thực hiện điều gì?",
+      "options": [
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Tham vọng dễ làm con người ganh đua, mất đoàn kết, quên đi mục tiêu rèn luyện đạo đức và phụng sự. Khi bị tham vọng chi…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và đối ngoại để điều hành công việc hiệu quả.",
+      "sourceQuestion": "Hỏi: Sau khi kiện toàn nhân sự, tài chính và cơ sở vật chất, võ đường cần thực hiện điều gì?"
+    },
+    {
+      "id": "white-lesson-01-q03",
+      "lessonId": "white-lesson-01",
+      "number": 3,
+      "type": "fill",
+      "question": "Hệ thống đối ngoại của võ đường có nhiệm vụ gì? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Chủ quan làm cho con người khó học hỏi,…",
+        "hỗ trợ hoạt động",
+        "phát triển võ đường",
+        "Đối xử bình đẳng là tôn trọng, quan tâm…",
+        "Phải luôn sống khiêm tốn, biết nhìn lại…",
+        "Vì mọi người đều đáng được tôn trọng và…"
+      ],
+      "blanks": [
+        "hỗ trợ hoạt động",
+        "phát triển võ đường"
+      ],
+      "explanation": "Hệ thống đối ngoại có nhiệm vụ liên hệ với chính quyền địa phương, các nhân vật uy tín, đoàn thể và quần chúng; đồng thời thực hiện các thủ tục hành chính cần thiết, tạo mối quan hệ tốt đẹp để hỗ trợ hoạt động và phát triển võ đường.",
+      "sourceQuestion": "Hỏi: Hệ thống đối ngoại của võ đường có nhiệm vụ gì?"
+    },
+    {
+      "id": "white-lesson-01-q04",
+      "lessonId": "white-lesson-01",
+      "number": 4,
+      "type": "fill",
+      "question": "Tại sao phải tiếp xúc với những người có uy tín trong địa phương? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Phải luôn sống khiêm tốn, biết nhìn lại…",
+        "được quần chúng tin tưởng",
+        "Chủ quan làm cho con người khó học hỏi,…",
+        "Cố chấp là giữ khư khư ý kiến hoặc thói…",
+        "những người có ảnh hưởng",
+        "Vì mọi người đều đáng được tôn trọng và…"
+      ],
+      "blanks": [
+        "những người có ảnh hưởng",
+        "được quần chúng tin tưởng"
+      ],
+      "explanation": "Vì họ là những người có ảnh hưởng và được quần chúng tin tưởng. Thông qua họ, võ đường dễ tìm hiểu địa phương, xây dựng uy tín, nhận được sự hỗ trợ và thuận lợi hơn trong việc hướng dẫn thanh thiếu niên sống tốt, học võ và rèn luyện đạo đức.",
+      "sourceQuestion": "Hỏi: Tại sao phải tiếp xúc với những người có uy tín trong địa phương?"
+    },
+    {
+      "id": "white-lesson-01-q05",
+      "lessonId": "white-lesson-01",
+      "number": 5,
+      "type": "single",
+      "question": "Hỏi: Tham vọng là gì và do đâu mà có?",
+      "options": [
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng dễ làm con người ganh đua, mất đoàn kết, quên đi mục tiêu rèn luyện đạo đức và phụng sự. Khi bị tham vọng chi…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm ích kỷ và mong muốn đề cao bản thân.",
+      "sourceQuestion": "Hỏi: Tham vọng là gì và do đâu mà có?"
+    },
+    {
+      "id": "white-lesson-01-q06",
+      "lessonId": "white-lesson-01",
+      "number": 6,
+      "type": "single",
+      "question": "Hỏi: Tham vọng gây tác hại như thế nào đối với người môn sinh Phật Quang Quyền?",
+      "options": [
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Tham vọng dễ làm con người ganh đua, mất đoàn kết, quên đi mục tiêu rèn luyện đạo đức và phụng sự. Khi bị tham vọng chi…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tham vọng dễ làm con người ganh đua, mất đoàn kết, quên đi mục tiêu rèn luyện đạo đức và phụng sự. Khi bị tham vọng chi phối, người ta dễ đặt lợi ích cá nhân lên trên lợi ích của tập thể.",
+      "sourceQuestion": "Hỏi: Tham vọng gây tác hại như thế nào đối với người môn sinh Phật Quang Quyền?"
+    },
+    {
+      "id": "white-lesson-01-q07",
+      "lessonId": "white-lesson-01",
+      "number": 7,
+      "type": "scenario",
+      "question": "Tình huống: Một môn sinh thường xuyên ngừng học tập.\n\nTheo bài học, quy định hoặc nguyên lý nào bị vi phạm?",
+      "options": [
+        "Không ngừng học tập, rèn luyện và hoàn thiện bản thân để làm gương tốt cho mọi người, phụng sự cộng…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Không ngừng học tập, rèn luyện và hoàn thiện bản thân để làm gương tốt cho mọi người, phụng sự cộng đồng và lan tỏa những giá trị đạo đức tốt đẹp đến cuộc đời.",
+      "sourceQuestion": "Lý tưởng cao đẹp của người môn sinh Phật Quang Quyền là gì?"
+    },
+    {
+      "id": "white-lesson-01-q08",
+      "lessonId": "white-lesson-01",
+      "number": 8,
+      "type": "single",
+      "question": "Cố chấp là gì?",
+      "options": [
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Cố chấp là giữ khư khư ý kiến hoặc thói quen cũ mà không chịu xem xét, thay đổi cho phù hợp với hoàn cảnh mới; hoặc cứ…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cố chấp là giữ khư khư ý kiến hoặc thói quen cũ mà không chịu xem xét, thay đổi cho phù hợp với hoàn cảnh mới; hoặc cứ bận tâm, trách móc những lỗi lầm nhỏ nhặt của người khác mà không biết cảm thông, tha thứ.",
+      "sourceQuestion": "Cố chấp là gì?"
+    },
+    {
+      "id": "white-lesson-01-q09",
+      "lessonId": "white-lesson-01",
+      "number": 9,
+      "type": "single",
+      "question": "Tác hại của sự cố chấp đối với người môn sinh Phật Quang Quyền là gì?",
+      "options": [
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Cố chấp làm cho con người khó học hỏi, khó tiếp thu điều hay, dễ phát sinh phiền não và mất đoàn kết với huynh đệ.…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cố chấp làm cho con người khó học hỏi, khó tiếp thu điều hay, dễ phát sinh phiền não và mất đoàn kết với huynh đệ. Người cố chấp thường chỉ thấy lỗi của người khác mà quên nhìn lại chính mình.",
+      "sourceQuestion": "Tác hại của sự cố chấp đối với người môn sinh Phật Quang Quyền là gì?"
+    },
+    {
+      "id": "white-lesson-01-q10",
+      "lessonId": "white-lesson-01",
+      "number": 10,
+      "type": "fill",
+      "question": "Người môn sinh Phật Quang Quyền vượt qua tính chủ quan bằng cách nào? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Cố chấp là giữ khư khư ý kiến hoặc thói…",
+        "Đối xử bình đẳng là tôn trọng, quan tâm…",
+        "trưởng thành hơn",
+        "cách giúp bản thân ngày càng tiến bộ",
+        "Phải luôn sống khiêm tốn, biết nhìn lại…",
+        "Vì mọi người đều đáng được tôn trọng và…"
+      ],
+      "blanks": [
+        "cách giúp bản thân ngày càng tiến bộ",
+        "trưởng thành hơn"
+      ],
+      "explanation": "Phải biết khiêm tốn lắng nghe, tôn trọng ý kiến tập thể, tìm học những điều hay của người khác và vui vẻ chấp hành những quyết định chung. Biết nhìn thấy cái hay của người chính là cách giúp bản thân ngày càng tiến bộ và trưởng thành hơn.",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền vượt qua tính chủ quan bằng cách nào?"
+    },
+    {
+      "id": "white-lesson-01-q11",
+      "lessonId": "white-lesson-01",
+      "number": 11,
+      "type": "single",
+      "question": "Vì sao người môn sinh Phật Quang Quyền phải tập nhận lỗi về mình?",
+      "options": [
+        "Vì nhận lỗi về mình giúp ta sống khiêm tốn, có trách nhiệm, biết tiến bộ và giữ gìn tình huynh đệ. Ngược lại, thói quen…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vì nhận lỗi về mình giúp ta sống khiêm tốn, có trách nhiệm, biết tiến bộ và giữ gìn tình huynh đệ. Ngược lại, thói quen đổ lỗi cho người khác dễ làm mất đoàn kết và che giấu những thiếu sót của bản thân.",
+      "sourceQuestion": "Vì sao người môn sinh Phật Quang Quyền phải tập nhận lỗi về mình?"
+    },
+    {
+      "id": "white-lesson-01-q12",
+      "lessonId": "white-lesson-01",
+      "number": 12,
+      "type": "single",
+      "question": "Người môn sinh Phật Quang Quyền thực hành hạnh nhận lỗi về mình như thế nào?",
+      "options": [
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Luôn nhìn lại lỗi của bản thân trước, chân thành sửa đổi những thiếu sót của mình và góp ý cho người khác bằng tinh…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Luôn nhìn lại lỗi của bản thân trước, chân thành sửa đổi những thiếu sót của mình và góp ý cho người khác bằng tinh thần yêu thương, xây dựng, không vì thành kiến hay ác cảm cá nhân.",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền thực hành hạnh nhận lỗi về mình như thế nào?"
+    },
+    {
+      "id": "white-lesson-01-q13",
+      "lessonId": "white-lesson-01",
+      "number": 13,
+      "type": "fill",
+      "question": "Vì sao người môn sinh Phật Quang Quyền phải biết trợ duyên cho huynh đệ? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Đối xử bình đẳng là tôn trọng, quan tâm…",
+        "Cố chấp là giữ khư khư ý kiến hoặc thói…",
+        "cách bồi dưỡng đạo đức",
+        "nhân cách cho chính mình",
+        "Chủ quan làm cho con người khó học hỏi,…",
+        "Vì mọi người đều đáng được tôn trọng và…"
+      ],
+      "blanks": [
+        "cách bồi dưỡng đạo đức",
+        "nhân cách cho chính mình"
+      ],
+      "explanation": "Vì trợ duyên giúp huynh đệ cùng tiến bộ, xây dựng tinh thần đoàn kết và tạo nên một tập thể vững mạnh. Biết giúp người khác thành công cũng là cách bồi dưỡng đạo đức và nhân cách cho chính mình.",
+      "sourceQuestion": "Vì sao người môn sinh Phật Quang Quyền phải biết trợ duyên cho huynh đệ?"
+    },
+    {
+      "id": "white-lesson-01-q14",
+      "lessonId": "white-lesson-01",
+      "number": 14,
+      "type": "single",
+      "question": "Vì sao người môn sinh Phật Quang Quyền phải biết nhường nhịn?",
+      "options": [
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Vì nhường nhịn giúp giảm bớt ích kỷ, vun bồi tình huynh đệ và xây dựng tập thể đoàn kết. Người biết nhường nhịn luôn…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vì nhường nhịn giúp giảm bớt ích kỷ, vun bồi tình huynh đệ và xây dựng tập thể đoàn kết. Người biết nhường nhịn luôn được mọi người yêu quý, tin tưởng và kính trọng.",
+      "sourceQuestion": "Vì sao người môn sinh Phật Quang Quyền phải biết nhường nhịn?"
+    },
+    {
+      "id": "white-lesson-01-q15",
+      "lessonId": "white-lesson-01",
+      "number": 15,
+      "type": "single",
+      "question": "Người môn sinh Phật Quang Quyền thực hành hạnh nhường nhịn như thế nào?",
+      "options": [
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Biết nhường phần tốt cho người khác, không tranh hơn thua về vật chất hay danh dự, chân thành tán thán ưu điểm của…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Biết nhường phần tốt cho người khác, không tranh hơn thua về vật chất hay danh dự, chân thành tán thán ưu điểm của huynh đệ và luôn đặt lợi ích chung lên trên lợi ích riêng của bản thân.",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền thực hành hạnh nhường nhịn như thế nào?"
+    },
+    {
+      "id": "white-lesson-01-q16",
+      "lessonId": "white-lesson-01",
+      "number": 16,
+      "type": "single",
+      "question": "Người môn sinh Phật Quang Quyền rèn luyện bản thân để làm gì?",
+      "options": [
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Người môn sinh rèn luyện võ thuật, đạo đức và tâm hồn để trở thành người tốt, có ích cho gia đình, xã hội và góp phần…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Người môn sinh rèn luyện võ thuật, đạo đức và tâm hồn để trở thành người tốt, có ích cho gia đình, xã hội và góp phần xây dựng cuộc sống ngày càng tốt đẹp hơn.",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền rèn luyện bản thân để làm gì?"
+    },
+    {
+      "id": "white-lesson-01-q17",
+      "lessonId": "white-lesson-01",
+      "number": 17,
+      "type": "single",
+      "question": "Vì sao người môn sinh không nên chỉ nghĩ đến lợi ích của riêng mình?",
+      "options": [
+        "Vì sống chỉ cho bản thân là biểu hiện của ích kỷ. Người môn sinh chân chính phải biết yêu thương, giúp đỡ mọi người và…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vì sống chỉ cho bản thân là biểu hiện của ích kỷ. Người môn sinh chân chính phải biết yêu thương, giúp đỡ mọi người và đặt lợi ích chung lên trên lợi ích riêng.",
+      "sourceQuestion": "Vì sao người môn sinh không nên chỉ nghĩ đến lợi ích của riêng mình?"
+    },
+    {
+      "id": "white-lesson-01-q18",
+      "lessonId": "white-lesson-01",
+      "number": 18,
+      "type": "single",
+      "question": "Hỏi: Người môn sinh Phật Quang Quyền vượt qua tham vọng bằng cách nào?",
+      "options": [
+        "Phải luôn sống khiêm tốn, biết nhìn lại chính mình, lấy việc rèn luyện đạo đức và phụng sự cộng đồng làm mục tiêu,…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phải luôn sống khiêm tốn, biết nhìn lại chính mình, lấy việc rèn luyện đạo đức và phụng sự cộng đồng làm mục tiêu, không chạy theo danh tiếng, địa vị hay quyền lợi riêng",
+      "sourceQuestion": "Hỏi: Người môn sinh Phật Quang Quyền vượt qua tham vọng bằng cách nào?"
+    },
+    {
+      "id": "white-lesson-01-q19",
+      "lessonId": "white-lesson-01",
+      "number": 19,
+      "type": "single",
+      "question": "Chủ quan là gì?",
+      "options": [
+        "Chủ quan là luôn cho ý kiến hoặc suy nghĩ của mình là đúng, không chịu lắng nghe, tiếp thu ý kiến của người khác và dễ…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chủ quan là luôn cho ý kiến hoặc suy nghĩ của mình là đúng, không chịu lắng nghe, tiếp thu ý kiến của người khác và dễ xem nhẹ những điều hay của mọi người xung quanh.",
+      "sourceQuestion": "Chủ quan là gì?"
+    },
+    {
+      "id": "white-lesson-01-q20",
+      "lessonId": "white-lesson-01",
+      "number": 20,
+      "type": "single",
+      "question": "Tác hại của tính chủ quan đối với người môn sinh Phật Quang Quyền là gì?",
+      "options": [
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Chủ quan làm cho con người khó học hỏi, khó tiến bộ, dễ xảy ra bất hòa trong tập thể và sinh tâm tự cao. Người chủ quan…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chủ quan làm cho con người khó học hỏi, khó tiến bộ, dễ xảy ra bất hòa trong tập thể và sinh tâm tự cao. Người chủ quan thường chỉ thấy cái đúng của mình mà không thấy được ưu điểm của người khác.",
+      "sourceQuestion": "Tác hại của tính chủ quan đối với người môn sinh Phật Quang Quyền là gì?"
+    },
+    {
+      "id": "white-lesson-01-q21",
+      "lessonId": "white-lesson-01",
+      "number": 21,
+      "type": "single",
+      "question": "Nhận lỗi về mình là gì?",
+      "options": [
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Nhận lỗi về mình là dám nhìn lại bản thân, không đổ lỗi cho người khác khi xảy ra sai sót, đồng thời biết nhận trách…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nhận lỗi về mình là dám nhìn lại bản thân, không đổ lỗi cho người khác khi xảy ra sai sót, đồng thời biết nhận trách nhiệm và tìm cách sửa chữa khuyết điểm của mình.",
+      "sourceQuestion": "Nhận lỗi về mình là gì?"
+    },
+    {
+      "id": "white-lesson-01-q22",
+      "lessonId": "white-lesson-01",
+      "number": 22,
+      "type": "single",
+      "question": "Đối xử bình đẳng là gì?",
+      "options": [
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Đối xử bình đẳng là tôn trọng, quan tâm và cư xử công bằng với mọi người, không thiên vị vì giàu nghèo, địa vị, tài…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Đối xử bình đẳng là tôn trọng, quan tâm và cư xử công bằng với mọi người, không thiên vị vì giàu nghèo, địa vị, tài năng hay danh tiếng.",
+      "sourceQuestion": "Đối xử bình đẳng là gì?"
+    },
+    {
+      "id": "white-lesson-01-q23",
+      "lessonId": "white-lesson-01",
+      "number": 23,
+      "type": "single",
+      "question": "Vì sao người môn sinh Phật Quang Quyền phải biết đối xử bình đẳng?",
+      "options": [
+        "Vì mọi người đều đáng được tôn trọng và yêu thương. Đối xử bình đẳng giúp xây dựng tình đoàn kết, nuôi dưỡng lòng từ bi…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vì mọi người đều đáng được tôn trọng và yêu thương. Đối xử bình đẳng giúp xây dựng tình đoàn kết, nuôi dưỡng lòng từ bi và tránh thái độ thiên vị hoặc xem thường người khác.",
+      "sourceQuestion": "Vì sao người môn sinh Phật Quang Quyền phải biết đối xử bình đẳng?"
+    },
+    {
+      "id": "white-lesson-01-q24",
+      "lessonId": "white-lesson-01",
+      "number": 24,
+      "type": "single",
+      "question": "Người môn sinh Phật Quang Quyền thực hành hạnh bình đẳng như thế nào?",
+      "options": [
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Biết quan tâm đến mọi người như nhau, không chỉ chú ý đến người giỏi, nổi bật hay có điều kiện hơn mình. Đồng thời sẵn…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Biết quan tâm đến mọi người như nhau, không chỉ chú ý đến người giỏi, nổi bật hay có điều kiện hơn mình. Đồng thời sẵn sàng chia sẻ, giúp đỡ những người gặp khó khăn và cư xử công bằng với tất cả mọi người.",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền thực hành hạnh bình đẳng như thế nào?"
+    },
+    {
+      "id": "white-lesson-01-q25",
+      "lessonId": "white-lesson-01",
+      "number": 25,
+      "type": "single",
+      "question": "Trợ duyên là gì?",
+      "options": [
+        "Trợ duyên là giúp đỡ, tạo điều kiện thuận lợi để người khác học tập, rèn luyện, làm việc và phát triển những điều tốt…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trợ duyên là giúp đỡ, tạo điều kiện thuận lợi để người khác học tập, rèn luyện, làm việc và phát triển những điều tốt đẹp trong cuộc sống.",
+      "sourceQuestion": "Trợ duyên là gì?"
+    },
+    {
+      "id": "white-lesson-01-q26",
+      "lessonId": "white-lesson-01",
+      "number": 26,
+      "type": "single",
+      "question": "Nhường nhịn là gì?",
+      "options": [
+        "Nhường nhịn là biết dành phần thuận lợi, tốt đẹp cho người khác và sẵn sàng nhận phần khó khăn về mình. Đây là biểu…",
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nhường nhịn là biết dành phần thuận lợi, tốt đẹp cho người khác và sẵn sàng nhận phần khó khăn về mình. Đây là biểu hiện của lòng vị tha, tình thương yêu và sự tôn trọng đối với huynh đệ.",
+      "sourceQuestion": "Nhường nhịn là gì?"
+    },
+    {
+      "id": "white-lesson-01-q27",
+      "lessonId": "white-lesson-01",
+      "number": 27,
+      "type": "single",
+      "question": "Người môn sinh Phật Quang Quyền thực hành hạnh trợ duyên như thế nào?",
+      "options": [
+        "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và…",
+        "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm…",
+        "Luôn sẵn sàng giúp đỡ huynh đệ khi gặp khó khăn, hỗ trợ nhau trong học tập, rèn luyện và công việc chung; biết hợp tác,…",
+        "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Luôn sẵn sàng giúp đỡ huynh đệ khi gặp khó khăn, hỗ trợ nhau trong học tập, rèn luyện và công việc chung; biết hợp tác, khích lệ và vui mừng trước sự tiến bộ của người khác, không ganh đua hay tranh công.",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền thực hành hạnh trợ duyên như thế nào?"
+    }
+  ]
+}
