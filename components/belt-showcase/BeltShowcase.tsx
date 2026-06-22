@@ -26,7 +26,6 @@ export function BeltShowcase() {
 
   const [focusIndex, setFocusIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [isPointerInside, setIsPointerInside] = useState(false);
 
   const focusIndexRef = useRef(focusIndex);
   const isAnimatingRef = useRef(isAnimating);
@@ -88,6 +87,11 @@ export function BeltShowcase() {
     if (!el) return;
 
     const onWheel = (event: WheelEvent) => {
+      const active = document.activeElement;
+      const stageFocused =
+        active === el || (active instanceof Node && el.contains(active));
+      if (!stageFocused) return;
+
       event.preventDefault();
       event.stopPropagation();
 
@@ -100,41 +104,17 @@ export function BeltShowcase() {
       }
     };
 
-    el.addEventListener('wheel', onWheel, { passive: false, capture: true });
-    return () => el.removeEventListener('wheel', onWheel, { capture: true });
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
   }, [navigateByStep]);
 
-  useEffect(() => {
-    const root = document.documentElement;
-    if (isPointerInside) {
-      root.classList.add('belt-showcase-active');
-    } else {
-      root.classList.remove('belt-showcase-active');
-    }
-    return () => root.classList.remove('belt-showcase-active');
-  }, [isPointerInside]);
-
-  const handlePointerEnter = useCallback(() => {
-    setIsPointerInside(true);
-  }, []);
-
-  const handlePointerLeave = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
-    const nextTarget = event.relatedTarget;
-
-    if (!(nextTarget instanceof Node)) {
-      setIsPointerInside(false);
-      return;
-    }
-
-    if (!event.currentTarget.contains(nextTarget)) {
-      setIsPointerInside(false);
-    }
-  }, []);
-
-  const handleMouseDown = useCallback((event: React.MouseEvent<HTMLDivElement>) => {
-    // Prevent focus-on-click from triggering browser scroll-into-view.
-    event.preventDefault();
-  }, []);
+  const handleStagePointerDown = useCallback(
+    (event: React.PointerEvent<HTMLDivElement>) => {
+      if (event.pointerType !== 'mouse' || event.button !== 0) return;
+      event.currentTarget.focus({ preventScroll: true });
+    },
+    []
+  );
 
   const handleKeyDown = useCallback(
     (event: React.KeyboardEvent<HTMLDivElement>) => {
@@ -163,13 +143,11 @@ export function BeltShowcase() {
               perspective: reducedMotion ? undefined : '1200px',
               perspectiveOrigin: '50% 50%',
             }}
-            onPointerEnter={handlePointerEnter}
-            onPointerLeave={handlePointerLeave}
-            onMouseDown={handleMouseDown}
+            onPointerDown={handleStagePointerDown}
             onKeyDown={handleKeyDown}
             tabIndex={0}
             role="listbox"
-            aria-label="Cuộn để xem các cấp đai"
+            aria-label="Chạm nút hoặc dùng phím mũi tên để xem các cấp đai"
             aria-activedescendant={
               focusedRank ? `belt-rank-${focusedRank.id}` : undefined
             }
@@ -197,6 +175,43 @@ export function BeltShowcase() {
 
             <div className="belt-showcase__depth belt-showcase__depth--top" aria-hidden />
             <div className="belt-showcase__depth belt-showcase__depth--bottom" aria-hidden />
+
+            <div className="belt-showcase__stage-nav">
+              <button
+                type="button"
+                className="belt-showcase__stage-nav-btn"
+                aria-label="Cấp đai trước"
+                disabled={focusIndex === 0}
+                onClick={() => navigateByStep(-1)}
+              >
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden>
+                  <path
+                    d="M5 12.5 10 7.5l5 5"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+              <button
+                type="button"
+                className="belt-showcase__stage-nav-btn"
+                aria-label="Cấp đai tiếp theo"
+                disabled={focusIndex === lastIndex}
+                onClick={() => navigateByStep(1)}
+              >
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden>
+                  <path
+                    d="m5 7.5 5 5 5-5"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </BeltShowcaseNavContext.Provider>
 

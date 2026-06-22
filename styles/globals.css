@@ -4141,11 +4141,6 @@ html.reduce-motion-override .quiz-option--shake {
   margin: 0 auto;
 }
 
-html.belt-showcase-active,
-html.belt-showcase-active body {
-  overscroll-behavior: none;
-}
-
 .belt-showcase__frame {
   display: flex;
   flex-direction: column;
@@ -4180,8 +4175,6 @@ html.belt-showcase-active body {
   height: min(68vh, 600px);
   min-height: 420px;
   overflow: hidden;
-  overscroll-behavior: none;
-  touch-action: none;
   transform-style: preserve-3d;
   isolation: isolate;
   --showcase-ornament-stroke: rgb(180 140 90 / 0.08);
@@ -4272,6 +4265,54 @@ html.belt-showcase-active body {
 .belt-showcase__depth--bottom {
   bottom: 0;
   background: var(--showcase-depth-bottom);
+}
+
+.belt-showcase__stage-nav {
+  pointer-events: auto;
+  position: absolute;
+  right: 0.625rem;
+  top: 50%;
+  z-index: 4;
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  transform: translateY(-50%);
+}
+
+.belt-showcase__stage-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  border: 1px solid rgb(212 175 55 / 0.22);
+  background: rgb(18 14 10 / 0.72);
+  color: rgb(212 175 55 / 0.9);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.28);
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.belt-showcase__stage-nav-btn svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.belt-showcase__stage-nav-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.belt-showcase__stage-nav-btn:not(:disabled):active {
+  transform: scale(0.96);
+}
+
+@media (pointer: coarse), (hover: none) {
+  .belt-showcase__stage-nav {
+    display: flex;
+  }
 }
 
 .belt-wheel-item {
@@ -4441,7 +4482,6 @@ html.belt-showcase-active body {
 .belt-info-panel {
   flex-shrink: 0;
   padding: 0;
-  touch-action: pan-y;
   border-top: 1px solid rgb(180 140 90 / 0.15);
   background: linear-gradient(180deg, rgb(18 14 10 / 0.95) 0%, rgb(14 11 9 / 0.97) 100%);
   transition: border-color 0.45s ease;
@@ -4647,6 +4687,13 @@ html.theme-light .belt-wheel-item--focused .belt-wheel-item__shadow {
 html.theme-light .belt-info-panel {
   background: rgb(255 252 247 / 0.98);
   border-top-color: rgb(140 105 65 / 0.2);
+}
+
+html.theme-light .belt-showcase__stage-nav-btn {
+  border-color: rgb(140 105 65 / 0.28);
+  background: rgb(255 252 247 / 0.88);
+  color: rgb(120 90 55 / 0.95);
+  box-shadow: 0 4px 14px rgb(120 90 60 / 0.12);
 }
 
 html.theme-light .belt-info-panel__row {
@@ -5489,7 +5536,6 @@ html.theme-light .landing-journey__title {
 
 .landing-journey__showcase {
   position: relative;
-  overscroll-behavior: none;
 }
 
 .landing-journey__showcase .belt-showcase {
