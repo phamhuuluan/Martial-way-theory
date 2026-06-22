@@ -99,10 +99,10 @@ export function BeltWheelItem({ rank, offset, isFocused }: BeltWheelItemProps) {
         className={cn('belt-wheel-item', isFocused && 'belt-wheel-item--focused')}
         style={{
           zIndex: motionTarget.zIndex,
-          opacity: isFocused ? 1 : 0.4,
-          transform: isFocused
-            ? 'translate(-50%, -50%) scale(1.08)'
-            : 'translate(-50%, -50%) scale(0.62)',
+          opacity: motionTarget.opacity,
+          filter,
+          transform: `translate3d(-50%, calc(-50% + ${motionTarget.translateY}px), ${motionTarget.translateZ}px) rotateX(${motionTarget.rotateX}deg) scale(${motionTarget.scale})`,
+          transformStyle: 'preserve-3d',
         }}
         aria-hidden={!isFocused}
       >
@@ -118,12 +118,13 @@ export function BeltWheelItem({ rank, offset, isFocused }: BeltWheelItemProps) {
       style={{
         zIndex: motionTarget.zIndex,
         filter,
+        transformStyle: 'preserve-3d',
       }}
       initial={false}
       animate={{
         x: '-50%',
         y: `calc(-50% + ${motionTarget.translateY}px)`,
-        z: motionTarget.translateZ,
+        translateZ: motionTarget.translateZ,
         rotateX: motionTarget.rotateX,
         scale: motionTarget.scale,
         opacity: motionTarget.opacity,

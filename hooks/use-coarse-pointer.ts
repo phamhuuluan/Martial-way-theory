@@ -25,3 +25,22 @@ export function useCoarsePointer(): boolean {
 
   return isCoarse;
 }
+
+/** True on desktop/laptop with precise pointer and hover (mouse/trackpad). */
+export function useFinePointer(): boolean {
+  const [isFine, setIsFine] = useState(false);
+
+  useEffect(() => {
+    const fine = window.matchMedia('(hover: hover) and (pointer: fine)');
+
+    const update = () => {
+      setIsFine(fine.matches);
+    };
+
+    update();
+    fine.addEventListener('change', update);
+    return () => fine.removeEventListener('change', update);
+  }, []);
+
+  return isFine;
+}

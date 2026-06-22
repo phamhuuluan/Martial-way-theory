@@ -4145,7 +4145,7 @@ html.reduce-motion-override .quiz-option--shake {
   display: flex;
   flex-direction: column;
   border-radius: var(--radius-xl);
-  overflow: hidden;
+  overflow: clip;
   --showcase-frame-bg: linear-gradient(
     168deg,
     rgb(42 32 24 / 0.96) 0%,
@@ -4174,9 +4174,8 @@ html.reduce-motion-override .quiz-option--shake {
   position: relative;
   height: min(68vh, 600px);
   min-height: 420px;
-  overflow: hidden;
+  overflow: clip;
   transform-style: preserve-3d;
-  isolation: isolate;
   --showcase-ornament-stroke: rgb(180 140 90 / 0.08);
   --showcase-stage-surface: linear-gradient(
     178deg,
@@ -4240,12 +4239,16 @@ html.reduce-motion-override .quiz-option--shake {
   inset: 0;
   z-index: 2;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 .belt-showcase__wheel-ring {
   position: absolute;
   inset: 0;
+  perspective: 1200px;
+  perspective-origin: 50% 50%;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 .belt-showcase__depth {
@@ -4321,7 +4324,9 @@ html.reduce-motion-override .quiz-option--shake {
   top: 50%;
   width: min(92vw, 540px);
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   will-change: transform, opacity, filter;
 }
 

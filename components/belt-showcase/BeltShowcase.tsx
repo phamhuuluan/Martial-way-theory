@@ -5,12 +5,14 @@ import { BELT_RANKS } from '@/lib/belt-ranks';
 import { getBeltShowcaseAccent } from '@/lib/belt-showcase-accent';
 import { useAppReducedMotion } from '@/hooks/use-app-reduced-motion';
 import { useIsLightTheme } from '@/hooks/use-is-light-theme';
+import { useFinePointer } from '@/hooks/use-coarse-pointer';
 import { BeltShowcaseBackdrop } from './BeltShowcaseBackdrop';
 import { BeltWheelItem } from './BeltWheelItem';
 import { BeltInfoPanel } from './BeltInfoPanel';
 import { BeltShowcaseNavContext } from './BeltShowcaseContext';
 
 const VISIBLE_RANGE = 4;
+const TOUCH_SWIPE_THRESHOLD_PX = 52;
 
 const showcaseRanks = BELT_RANKS;
 const lastIndex = showcaseRanks.length - 1;
@@ -22,7 +24,10 @@ function clampIndex(index: number): number {
 export function BeltShowcase() {
   const reducedMotion = useAppReducedMotion();
   const isLightTheme = useIsLightTheme();
+  const isFinePointer = useFinePointer();
   const stageRef = useRef<HTMLDivElement>(null);
+  const isPointerOverStageRef = useRef(false);
+  const isFinePointerRef = useRef(isFinePointer);
 
   const [focusIndex, setFocusIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -42,6 +47,10 @@ export function BeltShowcase() {
   useEffect(() => {
     reducedMotionRef.current = reducedMotion;
   }, [reducedMotion]);
+
+  useEffect(() => {
+    isFinePointerRef.current = isFinePointer;
+  }, [isFinePointer]);
 
   const focusedRank = showcaseRanks[focusIndex];
   const accentColor = focusedRank
@@ -87,10 +96,7 @@ export function BeltShowcase() {
     if (!el) return;
 
     const onWheel = (event: WheelEvent) => {
-      const active = document.activeElement;
-      const stageFocused =
-        active === el || (active instanceof Node && el.contains(active));
-      if (!stageFocused) return;
+      if (!isFinePointerRef.current || !isPointerOverStageRef.current) return;
 
       event.preventDefault();
       event.stopPropagation();
@@ -107,6 +113,50 @@ export function BeltShowcase() {
     el.addEventListener('wheel', onWheel, { passive: false });
     return () => el.removeEventListener('wheel', onWheel);
   }, [navigateByStep]);
+
+  useEffect(() => {
+    const el = stageRef.current;
+    if (!el) return;
+
+    let touchStartY = 0;
+    let touchStartX = 0;
+
+    const onTouchStart = (event: TouchEvent) => {
+      if (event.touches.length !== 1) return;
+      touchStartY = event.touches[0].clientY;
+      touchStartX = event.touches[0].clientX;
+    };
+
+    const onTouchEnd = (event: TouchEvent) => {
+      if (isFinePointerRef.current) return;
+      if (event.changedTouches.length !== 1) return;
+
+      const touch = event.changedTouches[0];
+      const deltaY = touch.clientY - touchStartY;
+      const deltaX = touch.clientX - touchStartX;
+
+      if (Math.abs(deltaY) < TOUCH_SWIPE_THRESHOLD_PX) return;
+      if (Math.abs(deltaY) < Math.abs(deltaX) * 1.25) return;
+      if (!reducedMotionRef.current && isAnimatingRef.current) return;
+
+      navigateByStep(deltaY < 0 ? 1 : -1);
+    };
+
+    el.addEventListener('touchstart', onTouchStart, { passive: true });
+    el.addEventListener('touchend', onTouchEnd, { passive: true });
+    return () => {
+      el.removeEventListener('touchstart', onTouchStart);
+      el.removeEventListener('touchend', onTouchEnd);
+    };
+  }, [navigateByStep]);
+
+  const handlePointerEnter = useCallback(() => {
+    isPointerOverStageRef.current = true;
+  }, []);
+
+  const handlePointerLeave = useCallback(() => {
+    isPointerOverStageRef.current = false;
+  }, []);
 
   const handleStagePointerDown = useCallback(
     (event: React.PointerEvent<HTMLDivElement>) => {
@@ -140,14 +190,15 @@ export function BeltShowcase() {
             ref={stageRef}
             className="belt-showcase__stage"
             style={{
-              perspective: reducedMotion ? undefined : '1200px',
               perspectiveOrigin: '50% 50%',
             }}
+            onPointerEnter={handlePointerEnter}
+            onPointerLeave={handlePointerLeave}
             onPointerDown={handleStagePointerDown}
             onKeyDown={handleKeyDown}
             tabIndex={0}
             role="listbox"
-            aria-label="Chạm nút hoặc dùng phím mũi tên để xem các cấp đai"
+            aria-label="Cuộn hoặc vuốt dọc để xem các cấp đai"
             aria-activedescendant={
               focusedRank ? `belt-rank-${focusedRank.id}` : undefined
             }
