@@ -49,11 +49,11 @@ export const CertificateTemplate = forwardRef<HTMLDivElement, CertificateTemplat
         <div className="absolute bottom-8 left-0 right-0 flex justify-around px-16">
           <div className="text-center">
             <div className="mb-2 h-px w-32 bg-text-muted" />
-            <p className="text-xs text-text-muted">Võ sư phụ trách</p>
+            <p className="text-xs text-text-muted">HLV/Võ Sư Phụ Trách</p>
           </div>
           <div className="text-center">
             <div className="mb-2 h-px w-32 bg-text-muted" />
-            <p className="text-xs text-text-muted">Ban lý thuyết PQQ</p>
+            <p className="text-xs text-text-muted">Trưởng Ban Võ Đạo</p>
           </div>
         </div>
       </div>

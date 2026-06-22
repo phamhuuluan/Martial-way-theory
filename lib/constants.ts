@@ -18,7 +18,7 @@ export const MARTIAL_JOURNEY_SLOGAN = {
   line2: 'VÕ ĐẠO SOI SÁNG TÂM HỒN',
 } as const;
 
-export const BELT_SYSTEM_LABEL = 'Hệ thống 6 màu đai';
+export const BELT_SYSTEM_LABEL = 'Hệ thống đẳng cấp môn phái Phật Quang Quyền';
 
 /** Cinematic environment artwork — one per belt world */
 export const WORLD_ARTWORK: Record<BeltId, string> = {

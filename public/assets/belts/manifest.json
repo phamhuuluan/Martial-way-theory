@@ -1,0 +1,437 @@
+{
+  "source": "assets/IMG_1422.JPG",
+  "scale": 6,
+  "total": 27,
+  "belts": [
+    {
+      "id": "nau",
+      "file": "assets/belts/nau.png",
+      "bbox": [
+        74,
+        298,
+        236,
+        318
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Nau dai dai.png"
+    },
+    {
+      "id": "chuan-hong",
+      "file": "assets/belts/chuan-hong.png",
+      "bbox": [
+        74,
+        828,
+        236,
+        858
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hong dai thieu nien.png"
+    },
+    {
+      "id": "chuan-hoang",
+      "file": "assets/belts/chuan-hoang.png",
+      "bbox": [
+        74,
+        1068,
+        236,
+        1098
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hoang dai thieu nien.png"
+    },
+    {
+      "id": "ngu-sac",
+      "file": "assets/belts/ngu-sac.png",
+      "bbox": [
+        78,
+        1828,
+        239,
+        1852
+      ],
+      "size": [
+        936,
+        150
+      ],
+      "scale": 6
+    },
+    {
+      "id": "lam-1",
+      "file": "assets/belts/lam-1.png",
+      "bbox": [
+        72,
+        308,
+        236,
+        321
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Lam dai nhat cap.png"
+    },
+    {
+      "id": "lam-2",
+      "file": "assets/belts/lam-2.png",
+      "bbox": [
+        72,
+        373,
+        236,
+        387
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Lam dai nhi cap.png"
+    },
+    {
+      "id": "lam-3",
+      "file": "assets/belts/lam-3.png",
+      "bbox": [
+        72,
+        441,
+        236,
+        454
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Lam dai nhi tam.png"
+    },
+    {
+      "id": "lam-4",
+      "file": "assets/belts/lam-4.png",
+      "bbox": [
+        72,
+        508,
+        236,
+        521
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Lam dai nhi tu.png"
+    },
+    {
+      "id": "luc-1",
+      "file": "assets/belts/luc-1.png",
+      "bbox": [
+        72,
+        575,
+        236,
+        588
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Luc dai nhat cap.png"
+    },
+    {
+      "id": "luc-2",
+      "file": "assets/belts/luc-2.png",
+      "bbox": [
+        72,
+        641,
+        236,
+        654
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Luc dai nhi cap.png"
+    },
+    {
+      "id": "luc-3",
+      "file": "assets/belts/luc-3.png",
+      "bbox": [
+        72,
+        707,
+        236,
+        720
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Luc dai tam cap.png"
+    },
+    {
+      "id": "luc-4",
+      "file": "assets/belts/luc-4.png",
+      "bbox": [
+        72,
+        775,
+        236,
+        788
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Luc dai tu cap.png"
+    },
+    {
+      "id": "hong-1",
+      "file": "assets/belts/hong-1.png",
+      "bbox": [
+        72,
+        838,
+        235,
+        857
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hong dai nhat cap.png"
+    },
+    {
+      "id": "hong-2",
+      "file": "assets/belts/hong-2.png",
+      "bbox": [
+        72,
+        905,
+        229,
+        924
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hong dai nhi cap.png"
+    },
+    {
+      "id": "hong-3",
+      "file": "assets/belts/hong-3.png",
+      "bbox": [
+        72,
+        973,
+        229,
+        992
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hong dai tam cap.png"
+    },
+    {
+      "id": "hong-4",
+      "file": "assets/belts/hong-4.png",
+      "bbox": [
+        72,
+        1039,
+        229,
+        1058
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hong dai tu cap.png"
+    },
+    {
+      "id": "hoang-1",
+      "file": "assets/belts/hoang-1.png",
+      "bbox": [
+        72,
+        1109,
+        231,
+        1123
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hoang dai nhat dai.png"
+    },
+    {
+      "id": "hoang-2",
+      "file": "assets/belts/hoang-2.png",
+      "bbox": [
+        72,
+        1176,
+        236,
+        1191
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hoang dai nhi dai.png"
+    },
+    {
+      "id": "hoang-3",
+      "file": "assets/belts/hoang-3.png",
+      "bbox": [
+        72,
+        1243,
+        236,
+        1258
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hoang dai tam dai.png"
+    },
+    {
+      "id": "hoang-4",
+      "file": "assets/belts/hoang-4.png",
+      "bbox": [
+        72,
+        1310,
+        236,
+        1325
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Hoang dai tu dai.png"
+    },
+    {
+      "id": "chuan-bach",
+      "file": "assets/belts/chuan-bach.png",
+      "bbox": [
+        80,
+        1372,
+        236,
+        1395
+      ],
+      "size": [
+        1260,
+        352
+      ],
+      "scale": 6,
+      "source": "assets/image/Chuan bach dai.png"
+    },
+    {
+      "id": "bach",
+      "file": "assets/belts/bach.png",
+      "bbox": [
+        81,
+        1437,
+        236,
+        1461
+      ],
+      "size": [
+        912,
+        150
+      ],
+      "scale": 6
+    },
+    {
+      "id": "bach-de-1",
+      "file": "assets/belts/bach-de-1.png",
+      "bbox": [
+        80,
+        1493,
+        236,
+        1524
+      ],
+      "size": [
+        918,
+        192
+      ],
+      "scale": 6
+    },
+    {
+      "id": "bach-de-2",
+      "file": "assets/belts/bach-de-2.png",
+      "bbox": [
+        80,
+        1560,
+        236,
+        1590
+      ],
+      "size": [
+        918,
+        186
+      ],
+      "scale": 6
+    },
+    {
+      "id": "bach-de-3",
+      "file": "assets/belts/bach-de-3.png",
+      "bbox": [
+        80,
+        1626,
+        236,
+        1658
+      ],
+      "size": [
+        918,
+        198
+      ],
+      "scale": 6
+    },
+    {
+      "id": "bach-de-4",
+      "file": "assets/belts/bach-de-4.png",
+      "bbox": [
+        80,
+        1694,
+        236,
+        1725
+      ],
+      "size": [
+        918,
+        192
+      ],
+      "scale": 6
+    },
+    {
+      "id": "bach-de-5",
+      "file": "assets/belts/bach-de-5.png",
+      "bbox": [
+        80,
+        1762,
+        236,
+        1793
+      ],
+      "size": [
+        918,
+        192
+      ],
+      "scale": 6
+    }
+  ],
+  "brandSource": "assets/image",
+  "standardSize": [
+    1260,
+    352
+  ]
+}
