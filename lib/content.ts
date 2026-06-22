@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
+import { parseFrontMatter } from '@/lib/frontmatter';
 import lessonManifest from '@/content/manifest.json';
 import type { BeltId, LessonMeta, QuizData } from '@/types';
 import { BELT_WORLDS } from '@/lib/constants';
@@ -54,7 +54,7 @@ export function getLessonMeta(belt: BeltId, lessonSlug: string): LessonMeta | nu
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, 'utf-8');
-  const { data, content } = matter(raw);
+  const { data, content } = parseFrontMatter(raw);
 
   return enrichLessonMeta(
     data as Omit<LessonMeta, 'lessonSlug' | 'quizQuestionsCount'>,
@@ -71,7 +71,7 @@ export function getLessonContent(belt: BeltId, lessonSlug: string): {
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, 'utf-8');
-  const { data, content } = matter(raw);
+  const { data, content } = parseFrontMatter(raw);
 
   return {
     meta: enrichLessonMeta(
