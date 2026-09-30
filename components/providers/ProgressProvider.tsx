@@ -9,6 +9,18 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     hydrate();
+    const onStorage = () => {
+      useProgressStore.getState().refresh();
+    };
+    const onPageShow = (event: PageTransitionEvent) => {
+      if (event.persisted) hydrate();
+    };
+    window.addEventListener('storage', onStorage);
+    window.addEventListener('pageshow', onPageShow);
+    return () => {
+      window.removeEventListener('storage', onStorage);
+      window.removeEventListener('pageshow', onPageShow);
+    };
   }, [hydrate]);
 
   if (!hydrated) {

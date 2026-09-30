@@ -13,7 +13,9 @@ interface QuizOptionProps {
   onSelect: () => void;
 }
 
-const LETTERS = ['A', 'B', 'C', 'D'];
+function optionLetter(index: number): string {
+  return index >= 0 && index < 26 ? String.fromCharCode(65 + index) : String(index + 1);
+}
 
 export function QuizOption({
   label,
@@ -64,7 +66,7 @@ export function QuizOption({
         ) : multiple ? (
           selected ? '✓' : ''
         ) : (
-          LETTERS[index]
+          optionLetter(index)
         )}
       </span>
       <span className="flex-1 pt-1 text-base leading-relaxed">{label}</span>

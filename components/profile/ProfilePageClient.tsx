@@ -1,6 +1,7 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef, useState, Suspense } from 'react';
+import Link from 'next/link';
 import { motion, useReducedMotion } from 'framer-motion';
 import { useProgressStore } from '@/store/progress-store';
 import {
@@ -15,6 +16,9 @@ import { Button } from '@/components/ui/Button';
 import { Modal } from '@/components/ui/Modal';
 import { CertificateTemplate } from '@/components/profile/CertificateTemplate';
 import { ProfileCard } from '@/components/profile/ProfileCard';
+import { PracticeHistory } from '@/components/profile/PracticeHistory';
+import { PracticeProfileNotice } from '@/components/profile/PracticeProfileNotice';
+import { isCandidateProfileComplete } from '@/lib/candidate-profile';
 import {
   downloadCertificatePNG,
   downloadCertificatePDF,
@@ -27,7 +31,6 @@ import { Download, Moon, RotateCcw, ScrollText, Sun, Upload } from 'lucide-react
 
 export function ProfilePageClient() {
   const progress = useProgressStore((s) => s.progress);
-  const setName = useProgressStore((s) => s.setName);
   const setPreferences = useProgressStore((s) => s.setPreferences);
   const colorScheme = useColorScheme();
   const reset = useProgressStore((s) => s.reset);
@@ -39,6 +42,7 @@ export function ProfilePageClient() {
   const certRef = useRef<HTMLDivElement>(null);
   const [certBelt, setCertBelt] = useState<string | null>(null);
   const reduced = useReducedMotion();
+  const profileComplete = isCandidateProfileComplete(progress.profile);
 
   const overall = getOverallProgress(progress);
   const currentBelt = getCurrentBelt(progress);
@@ -96,11 +100,28 @@ export function ProfilePageClient() {
           </h1>
         </header>
 
-        <ProfileCard
-          className="mb-8 lg:mb-10"
-          name={progress.profile.name ?? ''}
-          onNameSubmit={setName}
-        />
+        <ProfileCard className="mb-8 lg:mb-10" />
+
+        <div className="mb-8 flex flex-col gap-6 lg:mb-10">
+          <Suspense fallback={null}>
+            <PracticeProfileNotice />
+          </Suspense>
+          <section className="profile-card">
+            <h2 className="profile-card__title">Luyện đề trắc nghiệm</h2>
+            {profileComplete ? (
+              <Link href="/profile/practice">
+                <Button variant="primary" size="md">
+                  Chọn cấp đai
+                </Button>
+              </Link>
+            ) : (
+              <p className="text-sm text-text-secondary">
+                Lưu đủ họ và tên, ngày sinh, CLB và võ đường để mở luyện đề.
+              </p>
+            )}
+          </section>
+          <PracticeHistory />
+        </div>
 
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-8">
           <section className="flex flex-col gap-6">

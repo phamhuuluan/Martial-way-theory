@@ -1,0 +1,1174 @@
+{
+  "rankId": "nau",
+  "beltId": "brown",
+  "lessonId": "brown-lesson-01",
+  "questions": [
+    {
+      "id": "brown-lesson-01-q01",
+      "lessonId": "brown-lesson-01",
+      "number": 1,
+      "type": "ordering",
+      "question": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.",
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+        "tập võ để bảo vệ đất nước.",
+        "yêu thích lao động giúp đời.",
+        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "tập võ để bảo vệ chánh pháp."
+      ],
+      "correctOrder": [
+        1,
+        4,
+        5,
+        2,
+        0,
+        3
+      ],
+      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.\nHai, tập võ để bênh vực kẻ vô tội bị ức hiếp.\nBa, tập võ để bảo vệ chánh pháp.\nBốn, tập võ để bảo vệ đất nước.\nNăm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.\nSáu, yêu thích lao động giúp đời.",
+      "sourceQuestion": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q02",
+      "lessonId": "brown-lesson-01",
+      "number": 2,
+      "type": "fill",
+      "question": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Điền năm: ______.",
+      "options": [
+        "Xây dựng thế hệ văn võ song toàn, phụng…",
+        "Môn sinh là những người đã qua một thời…",
+        "1992",
+        "Ba, tập võ để bảo vệ chánh pháp.",
+        "Mong muốn phục dựng truyền thống võ học…",
+        "Bồi dưỡng đạo đức để học tập, lao động,…"
+      ],
+      "blanks": [
+        "1992"
+      ],
+      "explanation": "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang.",
+      "sourceQuestion": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q03",
+      "lessonId": "brown-lesson-01",
+      "number": 3,
+      "type": "single",
+      "question": "Do ai sáng lập môn võ Phật Quang Quyền?",
+      "options": [
+        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "tập võ để bảo vệ chánh pháp.",
+        "Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ…",
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng."
+      ],
+      "correctIndex": 2,
+      "explanation": "Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên.  ( võ sư sáng tổ)",
+      "sourceQuestion": "Do ai sáng lập môn võ Phật Quang Quyền?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q04",
+      "lessonId": "brown-lesson-01",
+      "number": 4,
+      "type": "multiple",
+      "question": "Ý tưởng lập ra môn võ Phật Quang Quyền từ đâu? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh…",
+        "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+        "Môn sinh là những người đã qua một thời gian rèn luyện võ thuật, đạt được cấp đai Hoàng Đai Nhất…",
+        "Mong muốn phục dựng truyền thống võ học trong Thiền môn.",
+        "Được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học.",
+        "Xây dựng thế hệ văn võ song toàn, phụng sự Đạo pháp và dân tộc.",
+        "Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản lĩnh.",
+        "Bảo vệ đạo pháp, và Tổ quốc."
+      ],
+      "correctIndices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "explanation": "Nguồn gốc ý tưởng:\nVõ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học.\nMong muốn phục dựng truyền thống võ học trong Thiền môn.\nGiúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản lĩnh.\nXây dựng thế hệ văn võ song toàn, phụng sự Đạo pháp và dân tộc.",
+      "sourceQuestion": "Ý tưởng lập ra môn võ này từ đâu?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q05",
+      "lessonId": "brown-lesson-01",
+      "number": 5,
+      "type": "fill",
+      "question": "Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái? Điền tên tôn giả: ______.",
+      "options": [
+        "Tập võ là để tự vệ, và bảo vệ sự sống",
+        "tập võ để bảo vệ đất nước.",
+        "Hai, tập võ để bênh vực kẻ vô tội bị ức…",
+        "Xây dựng thế hệ văn võ song toàn, phụng…",
+        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "Rahula (La Hầu La)"
+      ],
+      "blanks": [
+        "Rahula (La Hầu La)"
+      ],
+      "explanation": "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+      "sourceQuestion": "Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q06",
+      "lessonId": "brown-lesson-01",
+      "number": 6,
+      "type": "single",
+      "question": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?",
+      "options": [
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "tập võ để bảo vệ chánh pháp.",
+        "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang."
+      ],
+      "correctIndex": 3,
+      "explanation": "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang. Người là viện chủ chùa  Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ. Sinh ngày 9 tháng 12 năm 1959.",
+      "sourceQuestion": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q07",
+      "lessonId": "brown-lesson-01",
+      "number": 7,
+      "type": "single",
+      "question": "Chưởng môn hiện nay của môn phái là ai?",
+      "options": [
+        "Võ sư Đại Đức Thích Nghiêm Giám",
+        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "tập võ để bảo vệ chánh pháp.",
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng."
+      ],
+      "correctIndex": 0,
+      "explanation": "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
+      "sourceQuestion": "Chưởng môn hiện nay của môn phái là ai?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q08",
+      "lessonId": "brown-lesson-01",
+      "number": 8,
+      "type": "fill",
+      "question": "Ý nghĩa lối chào của môn phái? Điền ý nghĩa chính: ______.",
+      "options": [
+        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "tập võ để bảo vệ đất nước.",
+        "tinh thần hòa bình, đoàn kết",
+        "Ba, tập võ để bảo vệ chánh pháp.",
+        "Danh dự bị xúc phạm.",
+        "Đấu tranh cho lẽ phải"
+      ],
+      "blanks": [
+        "tinh thần hòa bình, đoàn kết"
+      ],
+      "explanation": "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh thần hòa bình, đoàn kết và nhắc nhở người võ sinh tu dưỡng nội tâm, không để Tham, Sân, Si chi phối tạo điều xấu ác.",
+      "sourceQuestion": "Ý nghĩa lối chào của môn phái?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q09",
+      "lessonId": "brown-lesson-01",
+      "number": 9,
+      "type": "multiple",
+      "question": "Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên…",
+        "Gặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái.…",
+        "Trong giờ tập không cần chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ…",
+        "Trong giờ tập phải chăm Có thể luyện tập, không làm việc riêng, đoàn kết, giúp đỡ…",
+        "Ði tập đều đặn đúng giờ, Nghỉ tập không cần xin phép với võ sư hoặc huấn luyện viên…",
+        "Trong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ…",
+        "Trong giờ tập phải chăm chỉ luyện tập, làm việc riêng, đoàn kết, giúp đỡ…"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        5
+      ],
+      "explanation": "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường:\nÐi tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách.\nTrong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ  đồng môn.\nGặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái. Khi đến võ đường và trước khi ra về phải chào tôn ảnh của Thái Tổ Sư, hoặc biểu tượng môn phái (nếu có).",
+      "sourceQuestion": "Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q10",
+      "lessonId": "brown-lesson-01",
+      "number": 10,
+      "type": "multiple",
+      "question": "Quan niệm thông thường của người tập võ ra sao? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Rèn luyện khoẻ mạnh, trí tuệ minh mẫn",
+        "Bồi dưỡng đạo đức để học tập, lao động, cống hiến",
+        "Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+        "Đấu tranh cho lẽ không cần và phục vụ tổ quốc.",
+        "Tập võ là để tự vệ, và bảo vệ sự sống"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanation": "Có 4 điều cần ghi nhớ:\nTập võ là để tự vệ, và bảo vệ sự sống\nRèn luyện khoẻ mạnh, trí tuệ minh mẫn\nBồi dưỡng đạo đức để học tập, lao động, cống hiến\n4.  Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "sourceQuestion": "Quan niệm thông thường của người tập võ ra sao?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q11",
+      "lessonId": "brown-lesson-01",
+      "number": 11,
+      "type": "truefalse",
+      "question": "Võ sinh Phật Quang Quyền được phép thượng đài.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vì sao không được thượng đài?\nThượng đài dễ tạo tâm hiếu thắng, hiếu chiến.\nPhật Quang Quyền hướng đến rèn luyện đạo đức, xây dựng con người và phụng sự xã hội hơn là thi đấu thể thao.",
+      "sourceQuestion": "PQQ không được phép thượng đài?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q12",
+      "lessonId": "brown-lesson-01",
+      "number": 12,
+      "type": "multiple",
+      "question": "Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Không thượng đài.",
+        "Gây hấn, không thử võ với người hoặc môn phái khác.",
+        "Chỉ dùng võ để tự vệ, bảo vệ người thân,",
+        "Không gây hấn, không thử võ với người hoặc môn phái khác.",
+        "Đấu tranh cho lẽ phải",
+        "Có thể dùng võ để tự vệ, bảo vệ người thân,",
+        "Bảo vệ đạo pháp, và Tổ quốc.",
+        "Thượng đài."
+      ],
+      "correctIndices": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "explanation": "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm:\nKhông thượng đài.\nKhông gây hấn, không thử võ với người hoặc môn phái khác.\nChỉ dùng võ để tự vệ, bảo vệ người thân,\nĐấu tranh cho lẽ phải\nBảo vệ đạo pháp, và Tổ quốc.",
+      "sourceQuestion": "Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "brown-lesson-01-q13",
+      "lessonId": "brown-lesson-01",
+      "number": 13,
+      "type": "multiple",
+      "question": "tập võ để làm gì? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Tập võ là để tự vệ, và bảo vệ sự sống",
+        "Bồi dưỡng đạo đức để học tập, lao động, cống hiến",
+        "Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+        "Đấu tranh cho lẽ không cần và phục vụ tổ quốc.",
+        "Rèn luyện khoẻ mạnh, trí tuệ minh mẫn"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanation": "Có 4 điều cần ghi nhớ:\nTập võ là để tự vệ, và bảo vệ sự sống\nRèn luyện khoẻ mạnh, trí tuệ minh mẫn\nBồi dưỡng đạo đức để học tập, lao động, cống hiến\n4.  Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "sourceQuestion": "tập võ để làm gì?",
+      "rankId": "nau",
+      "beltId": "brown"
+    },
+    {
+      "id": "exam-nau-scenario-c08-case",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 14,
+      "type": "scenario",
+      "sourceQuestion": "Quan niệm thông thường của người tập võ ra sao? tập võ để làm gì",
+      "topic": "brown-lesson-01",
+      "explanation": "Có 4 điều cần ghi nhớ: Tập võ là để tự vệ, và bảo vệ sự sống Rèn luyện khoẻ mạnh, trí tuệ minh mẫn Bồi dưỡng đạo đức để học tập, lao động, cống hiến 4. Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Quan niệm thông thường của người tập võ ra sao? tập võ để làm gì». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Có 4 điều cần ghi nhớ: Tập võ là để tự vệ, và bảo vệ sự sống Rèn luyện khoẻ mạnh, trí tuệ minh mẫn Bồi dưỡng đạo đức để học tập, lao động, cống hiến 4.",
+        "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau.",
+        "Mong muốn phục dựng truyền thống võ học trong Thiền môn.",
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-ordering-c01-steps",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 15,
+      "type": "ordering",
+      "sourceQuestion": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).",
+      "topic": "brown-lesson-01",
+      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng. Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp. Ba, tập võ để bảo vệ chánh pháp. Bốn, tập võ để bảo vệ đất nước. Năm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ. Sáu, yêu thích lao động giúp đời.",
+      "question": "Sắp xếp đúng thứ tự được nêu trong bài về «Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền .».",
+      "options": [],
+      "items": [
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "tập võ để bảo vệ chánh pháp.",
+        "tập võ để bảo vệ đất nước.",
+        "rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.",
+        "yêu thích lao động giúp đời."
+      ],
+      "correctOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "exam-nau-scenario-c09-case",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 16,
+      "type": "scenario",
+      "sourceQuestion": "Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao?",
+      "topic": "brown-lesson-01",
+      "explanation": "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài. Không gây hấn, không thử võ với người hoặc môn phái khác. Chỉ dùng võ để tự vệ, bảo vệ người thân, Đấu tranh cho lẽ phải Bảo vệ đạo pháp, và Tổ quốc.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài.",
+        "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau.",
+        "tập võ để bảo vệ đất nước.",
+        "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c01-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 17,
+      "type": "truefalse",
+      "sourceQuestion": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).",
+      "topic": "brown-lesson-01",
+      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng. Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp. Ba, tập võ để bảo vệ chánh pháp. Bốn, tập võ để bảo vệ đất nước. Năm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ. Sáu, yêu thích lao động giúp đời.",
+      "question": "Nhận định sau đúng hay sai? Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-scenario-c11-case",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 18,
+      "type": "scenario",
+      "sourceQuestion": "Võ sinh và Môn sinh khác nhau như thế nào?",
+      "topic": "brown-lesson-01",
+      "explanation": "Võ sinh là những người mới tập võ, chưa làm lễ nhập môn. Môn sinh là những người đã qua một thời gian rèn luyện võ thuật, đạt được cấp đai Hoàng Đai Nhất Cấp (Đối với Tu Sĩ trong MP PQQ thì cấp Hồng đai trở đi) được sự công nhận về đạo đức của môn phái và đã làm lễ nhập môn.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Võ sinh và Môn sinh khác nhau như thế nào». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Võ sinh là những người mới tập võ, chưa làm lễ nhập môn.",
+        "Thượng đài dễ tạo tâm hiếu thắng, hiếu chiến.",
+        "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách.",
+        "tập võ để bảo vệ chánh pháp."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c02-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 19,
+      "type": "truefalse",
+      "sourceQuestion": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này?",
+      "topic": "brown-lesson-01",
+      "explanation": "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang. Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ) Nguồn gốc ý tưởng: Võ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học. Mong muốn phục dựng truyền thống võ học trong Thiền môn. Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản…",
+      "question": "Nhận định sau đúng hay sai? PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-fill-c02-year",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 20,
+      "type": "fill",
+      "sourceQuestion": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này?",
+      "topic": "brown-lesson-01",
+      "explanation": "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang. Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ) Nguồn gốc ý tưởng: Võ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học. Mong muốn phục dựng truyền thống võ học trong Thiền môn. Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản…",
+      "question": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này. Điền năm đúng: ______.",
+      "options": [
+        "1992",
+        "1959",
+        "1989",
+        "1997"
+      ],
+      "blanks": [
+        "1992"
+      ]
+    },
+    {
+      "id": "exam-nau-scenario-c12-case",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 21,
+      "type": "scenario",
+      "sourceQuestion": "Trong đại gia đình Phật Quang Quyền, các môn sinh đối xử nhau ra sao?",
+      "topic": "brown-lesson-01",
+      "explanation": "Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình. Cùng rèn luyện để trở thành người tốt và hoàn thiện hơn. Các điều đó đan kết lại thành kỷ luật môn phái, một giềng mối vững chắc giúp cho các môn sinh đoàn kết chặt chẽ nêu cao danh dự môn phái.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Trong đại gia đình Phật Quang Quyền, các môn sinh đối xử nhau ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình.",
+        "Xây dựng thế hệ văn võ song toàn, phụng sự Đạo pháp và dân tộc.",
+        "Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "Thể hiện tinh thần hòa bình, đoàn kết và nhắc nhở người võ sinh tu dưỡng nội tâm, không để Tham, Sân, Si chi phối tạo điều xấu ác."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c03-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 22,
+      "type": "truefalse",
+      "sourceQuestion": "Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+      "question": "Nhận định sau đúng hay sai? Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c01-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 23,
+      "type": "single",
+      "sourceQuestion": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).",
+      "topic": "brown-lesson-01",
+      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng. Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp. Ba, tập võ để bảo vệ chánh pháp. Bốn, tập võ để bảo vệ đất nước. Năm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ. Sáu, yêu thích lao động giúp đời.",
+      "question": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).?",
+      "options": [
+        "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+        "Các điều đó đan kết lại thành kỷ luật môn phái, một giềng mối vững chắc giúp cho các môn sinh đoàn kết chặt chẽ nêu cao danh dự môn phái.",
+        "Vì sao không được thượng đài?",
+        "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-fill-c04-year",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 24,
+      "type": "fill",
+      "sourceQuestion": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?",
+      "topic": "brown-lesson-01",
+      "explanation": "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang. Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ. Sinh ngày 9 tháng 12 năm 1959.",
+      "question": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền. Điền năm đúng: ______.",
+      "options": [
+        "1959",
+        "1992",
+        "1956",
+        "1964"
+      ],
+      "blanks": [
+        "1959"
+      ]
+    },
+    {
+      "id": "exam-nau-truefalse-c04-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 25,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?",
+      "topic": "brown-lesson-01",
+      "explanation": "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang. Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ. Sinh ngày 9 tháng 12 năm 1959.",
+      "question": "Nhận định sau đúng hay sai? Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c02-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 26,
+      "type": "single",
+      "sourceQuestion": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này?",
+      "topic": "brown-lesson-01",
+      "explanation": "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang. Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ) Nguồn gốc ý tưởng: Võ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học. Mong muốn phục dựng truyền thống võ học trong Thiền môn. Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản…",
+      "question": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này?",
+      "options": [
+        "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang.",
+        "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách.",
+        "Ba, tập võ để bảo vệ chánh pháp.",
+        "Môn sinh là những người đã qua một thời gian rèn luyện võ thuật, đạt được cấp đai Hoàng Đai Nhất Cấp (Đối với Tu Sĩ trong MP PQQ thì cấp Hồng đai trở đi) được sự công nhận về đạo đức của môn phái và đã làm lễ nhập môn."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-multiple-c01-list",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 27,
+      "type": "multiple",
+      "sourceQuestion": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).",
+      "topic": "brown-lesson-01",
+      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng. Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp. Ba, tập võ để bảo vệ chánh pháp. Bốn, tập võ để bảo vệ đất nước. Năm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ. Sáu, yêu thích lao động giúp đời.",
+      "question": "Những ý nào đúng với nội dung «Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền .»? Chọn tất cả đáp án đúng.",
+      "options": [
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+        "tập võ để bảo vệ chánh pháp.",
+        "Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình.",
+        "Chỉ dụng võ trong 3 trường hợp: Danh dự bị xúc phạm."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "exam-nau-truefalse-c05-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 28,
+      "type": "truefalse",
+      "sourceQuestion": "Chưởng môn hiện nay của môn phái là ai?",
+      "topic": "brown-lesson-01",
+      "explanation": "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
+      "question": "Nhận định sau đúng hay sai? Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c03-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 29,
+      "type": "single",
+      "sourceQuestion": "Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+      "question": "Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái?",
+      "options": [
+        "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+        "Mong muốn phục dựng truyền thống võ học trong Thiền môn.",
+        "Môn sinh là những người đã qua một thời gian rèn luyện võ thuật, đạt được cấp đai Hoàng Đai Nhất Cấp (Đối với Tu Sĩ trong MP PQQ thì cấp Hồng đai trở đi) được sự công nhận về đạo đức của môn phái và đã làm lễ nhập môn.",
+        "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-multiple-c02-list",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 30,
+      "type": "multiple",
+      "sourceQuestion": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này?",
+      "topic": "brown-lesson-01",
+      "explanation": "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang. Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ) Nguồn gốc ý tưởng: Võ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học. Mong muốn phục dựng truyền thống võ học trong Thiền môn. Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản…",
+      "question": "Những ý nào đúng với nội dung «Phật Quang Quyền thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này»? Chọn tất cả đáp án đúng.",
+      "options": [
+        "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang.",
+        "Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ)",
+        "Không gây hấn, không thử võ với người hoặc môn phái khác.",
+        "rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "exam-nau-truefalse-c06-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 31,
+      "type": "truefalse",
+      "sourceQuestion": "Ý nghĩa lối chào của môn phái?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh thần hòa bình, đoàn kết và nhắc nhở người võ sinh tu dưỡng nội tâm, không để Tham, Sân, Si chi phối tạo điều xấu ác.",
+      "question": "Nhận định sau đúng hay sai? Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c04-focus",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 32,
+      "type": "single",
+      "sourceQuestion": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?",
+      "topic": "brown-lesson-01",
+      "explanation": "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang. Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ. Sinh ngày 9 tháng 12 năm 1959.",
+      "question": "Theo nội dung bài, ý nào đúng về «Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền»?",
+      "options": [
+        "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang.",
+        "rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.",
+        "Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình.",
+        "Gặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c07-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 33,
+      "type": "truefalse",
+      "sourceQuestion": "Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách. Trong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ đồng môn. Gặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái. Khi đến võ đường và trước khi ra về phải chào tôn ảnh của Thái Tổ Sư, hoặc biểu tượng môn phái (nếu có).",
+      "question": "Nhận định sau đúng hay sai? Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c05-focus",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 34,
+      "type": "single",
+      "sourceQuestion": "Chưởng môn hiện nay của môn phái là ai?",
+      "topic": "brown-lesson-01",
+      "explanation": "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
+      "question": "Theo nội dung bài, ý nào đúng về «Chưởng môn hiện nay của môn phái là ai»?",
+      "options": [
+        "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
+        "tập võ để bảo vệ chánh pháp.",
+        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+        "Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản lĩnh."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c08-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 35,
+      "type": "truefalse",
+      "sourceQuestion": "Quan niệm thông thường của người tập võ ra sao? tập võ để làm gì",
+      "topic": "brown-lesson-01",
+      "explanation": "Có 4 điều cần ghi nhớ: Tập võ là để tự vệ, và bảo vệ sự sống Rèn luyện khoẻ mạnh, trí tuệ minh mẫn Bồi dưỡng đạo đức để học tập, lao động, cống hiến 4. Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "question": "Nhận định sau đúng hay sai? Có 4 điều cần ghi nhớ: Tập võ là để tự vệ, và bảo vệ sự sống Rèn luyện khoẻ mạnh, trí tuệ minh mẫn Bồi dưỡng đạo đức để học tập, lao động, cống hiến 4.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c06-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 36,
+      "type": "single",
+      "sourceQuestion": "Ý nghĩa lối chào của môn phái?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh thần hòa bình, đoàn kết và nhắc nhở người võ sinh tu dưỡng nội tâm, không để Tham, Sân, Si chi phối tạo điều xấu ác.",
+      "question": "Ý nghĩa lối chào của môn phái?",
+      "options": [
+        "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau.",
+        "Chỉ dùng võ để tự vệ, bảo vệ người thân, Đấu tranh cho lẽ phải Bảo vệ đạo pháp, và Tổ quốc.",
+        "rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.",
+        "Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c09-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 37,
+      "type": "truefalse",
+      "sourceQuestion": "Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao?",
+      "topic": "brown-lesson-01",
+      "explanation": "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài. Không gây hấn, không thử võ với người hoặc môn phái khác. Chỉ dùng võ để tự vệ, bảo vệ người thân, Đấu tranh cho lẽ phải Bảo vệ đạo pháp, và Tổ quốc.",
+      "question": "Nhận định sau đúng hay sai? Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c07-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 38,
+      "type": "single",
+      "sourceQuestion": "Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách. Trong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ đồng môn. Gặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái. Khi đến võ đường và trước khi ra về phải chào tôn ảnh của Thái Tổ Sư, hoặc biểu tượng môn phái (nếu có).",
+      "question": "Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường?",
+      "options": [
+        "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách.",
+        "Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản lĩnh.",
+        "yêu thích lao động giúp đời.",
+        "Xây dựng thế hệ văn võ song toàn, phụng sự Đạo pháp và dân tộc."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c10-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 39,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh Phật Quang Quyền (VSPQQ) được phép dụng võ trong các trường hợp nào? VS PQQ không được phép thượng đài?",
+      "topic": "brown-lesson-01",
+      "explanation": "Chỉ dụng võ trong 3 trường hợp: Danh dự bị xúc phạm. Quyền sống bị đe dọa. Bênh vực lẽ phải. Vì sao không được thượng đài? Thượng đài dễ tạo tâm hiếu thắng, hiếu chiến. Phật Quang Quyền hướng đến rèn luyện đạo đức, xây dựng con người và phụng sự xã hội hơn là thi đấu thể thao.",
+      "question": "Nhận định sau đúng hay sai? Chỉ dụng võ trong 3 trường hợp: Danh dự bị xúc phạm.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c08-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 40,
+      "type": "single",
+      "sourceQuestion": "Quan niệm thông thường của người tập võ ra sao? tập võ để làm gì",
+      "topic": "brown-lesson-01",
+      "explanation": "Có 4 điều cần ghi nhớ: Tập võ là để tự vệ, và bảo vệ sự sống Rèn luyện khoẻ mạnh, trí tuệ minh mẫn Bồi dưỡng đạo đức để học tập, lao động, cống hiến 4. Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "question": "Quan niệm thông thường của người tập võ ra sao? tập võ để làm gì?",
+      "options": [
+        "Có 4 điều cần ghi nhớ: Tập võ là để tự vệ, và bảo vệ sự sống Rèn luyện khoẻ mạnh, trí tuệ minh mẫn Bồi dưỡng đạo đức để học tập, lao động, cống hiến 4.",
+        "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+        "Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học.",
+        "Năm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c11-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 41,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh và Môn sinh khác nhau như thế nào?",
+      "topic": "brown-lesson-01",
+      "explanation": "Võ sinh là những người mới tập võ, chưa làm lễ nhập môn. Môn sinh là những người đã qua một thời gian rèn luyện võ thuật, đạt được cấp đai Hoàng Đai Nhất Cấp (Đối với Tu Sĩ trong MP PQQ thì cấp Hồng đai trở đi) được sự công nhận về đạo đức của môn phái và đã làm lễ nhập môn.",
+      "question": "Nhận định sau đúng hay sai? Võ sinh là những người mới tập võ, chưa làm lễ nhập môn.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c09-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 42,
+      "type": "single",
+      "sourceQuestion": "Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao?",
+      "topic": "brown-lesson-01",
+      "explanation": "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài. Không gây hấn, không thử võ với người hoặc môn phái khác. Chỉ dùng võ để tự vệ, bảo vệ người thân, Đấu tranh cho lẽ phải Bảo vệ đạo pháp, và Tổ quốc.",
+      "question": "Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao?",
+      "options": [
+        "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài.",
+        "Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+        "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
+        "Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c12-true1",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 43,
+      "type": "truefalse",
+      "sourceQuestion": "Trong đại gia đình Phật Quang Quyền, các môn sinh đối xử nhau ra sao?",
+      "topic": "brown-lesson-01",
+      "explanation": "Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình. Cùng rèn luyện để trở thành người tốt và hoàn thiện hơn. Các điều đó đan kết lại thành kỷ luật môn phái, một giềng mối vững chắc giúp cho các môn sinh đoàn kết chặt chẽ nêu cao danh dự môn phái.",
+      "question": "Nhận định sau đúng hay sai? Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c10-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 44,
+      "type": "single",
+      "sourceQuestion": "Võ sinh Phật Quang Quyền (VSPQQ) được phép dụng võ trong các trường hợp nào? VS PQQ không được phép thượng đài?",
+      "topic": "brown-lesson-01",
+      "explanation": "Chỉ dụng võ trong 3 trường hợp: Danh dự bị xúc phạm. Quyền sống bị đe dọa. Bênh vực lẽ phải. Vì sao không được thượng đài? Thượng đài dễ tạo tâm hiếu thắng, hiếu chiến. Phật Quang Quyền hướng đến rèn luyện đạo đức, xây dựng con người và phụng sự xã hội hơn là thi đấu thể thao.",
+      "question": "Võ sinh Phật Quang Quyền (VSPQQ) được phép dụng võ trong các trường hợp nào? VS PQQ không được phép thượng đài?",
+      "options": [
+        "Chỉ dụng võ trong 3 trường hợp: Danh dự bị xúc phạm.",
+        "Bốn, tập võ để bảo vệ đất nước.",
+        "Xây dựng thế hệ văn võ song toàn, phụng sự Đạo pháp và dân tộc.",
+        "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c01-true2",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 45,
+      "type": "truefalse",
+      "sourceQuestion": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).",
+      "topic": "brown-lesson-01",
+      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng. Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp. Ba, tập võ để bảo vệ chánh pháp. Bốn, tập võ để bảo vệ đất nước. Năm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ. Sáu, yêu thích lao động giúp đời.",
+      "question": "Nhận định sau đúng hay sai? Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c11-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 46,
+      "type": "single",
+      "sourceQuestion": "Võ sinh và Môn sinh khác nhau như thế nào?",
+      "topic": "brown-lesson-01",
+      "explanation": "Võ sinh là những người mới tập võ, chưa làm lễ nhập môn. Môn sinh là những người đã qua một thời gian rèn luyện võ thuật, đạt được cấp đai Hoàng Đai Nhất Cấp (Đối với Tu Sĩ trong MP PQQ thì cấp Hồng đai trở đi) được sự công nhận về đạo đức của môn phái và đã làm lễ nhập môn.",
+      "question": "Võ sinh và Môn sinh khác nhau như thế nào?",
+      "options": [
+        "Võ sinh là những người mới tập võ, chưa làm lễ nhập môn.",
+        "Ba, tập võ để bảo vệ chánh pháp.",
+        "rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.",
+        "Bốn, tập võ để bảo vệ đất nước."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c02-true2",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 47,
+      "type": "truefalse",
+      "sourceQuestion": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này?",
+      "topic": "brown-lesson-01",
+      "explanation": "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang. Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ) Nguồn gốc ý tưởng: Võ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học. Mong muốn phục dựng truyền thống võ học trong Thiền môn. Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản…",
+      "question": "Nhận định sau đúng hay sai? Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c12-direct",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 48,
+      "type": "single",
+      "sourceQuestion": "Trong đại gia đình Phật Quang Quyền, các môn sinh đối xử nhau ra sao?",
+      "topic": "brown-lesson-01",
+      "explanation": "Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình. Cùng rèn luyện để trở thành người tốt và hoàn thiện hơn. Các điều đó đan kết lại thành kỷ luật môn phái, một giềng mối vững chắc giúp cho các môn sinh đoàn kết chặt chẽ nêu cao danh dự môn phái.",
+      "question": "Trong đại gia đình Phật Quang Quyền, các môn sinh đối xử nhau ra sao?",
+      "options": [
+        "Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình.",
+        "Có 4 điều cần ghi nhớ: Tập võ là để tự vệ, và bảo vệ sự sống Rèn luyện khoẻ mạnh, trí tuệ minh mẫn Bồi dưỡng đạo đức để học tập, lao động, cống hiến 4.",
+        "Không gây hấn, không thử võ với người hoặc môn phái khác.",
+        "Bốn, tập võ để bảo vệ đất nước."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c03-false",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 49,
+      "type": "truefalse",
+      "sourceQuestion": "Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+      "question": "Nhận định sau đúng hay sai? Về «Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái», bài học nêu: tập võ để bênh vực kẻ vô tội bị ức hiếp.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "exam-nau-single-c01-focus",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 50,
+      "type": "single",
+      "sourceQuestion": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).",
+      "topic": "brown-lesson-01",
+      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng. Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp. Ba, tập võ để bảo vệ chánh pháp. Bốn, tập võ để bảo vệ đất nước. Năm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ. Sáu, yêu thích lao động giúp đời.",
+      "question": "Theo nội dung bài, ý nào đúng về «Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền .»?",
+      "options": [
+        "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
+        "Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ.",
+        "Cùng rèn luyện để trở thành người tốt và hoàn thiện hơn.",
+        "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c04-true2",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 51,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?",
+      "topic": "brown-lesson-01",
+      "explanation": "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang. Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ. Sinh ngày 9 tháng 12 năm 1959.",
+      "question": "Nhận định sau đúng hay sai? Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c02-focus",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 52,
+      "type": "single",
+      "sourceQuestion": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này?",
+      "topic": "brown-lesson-01",
+      "explanation": "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang. Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ) Nguồn gốc ý tưởng: Võ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học. Mong muốn phục dựng truyền thống võ học trong Thiền môn. Giúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản…",
+      "question": "Theo nội dung bài, ý nào đúng về «Phật Quang Quyền thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này»?",
+      "options": [
+        "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang.",
+        "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm: Không thượng đài.",
+        "Các điều đó đan kết lại thành kỷ luật môn phái, một giềng mối vững chắc giúp cho các môn sinh đoàn kết chặt chẽ nêu cao danh dự môn phái.",
+        "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c05-false",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 53,
+      "type": "truefalse",
+      "sourceQuestion": "Chưởng môn hiện nay của môn phái là ai?",
+      "topic": "brown-lesson-01",
+      "explanation": "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
+      "question": "Nhận định sau đúng hay sai? Về «Chưởng môn hiện nay của môn phái là ai», bài học nêu: Gặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "exam-nau-single-c03-focus",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 54,
+      "type": "single",
+      "sourceQuestion": "Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+      "question": "Theo nội dung bài, ý nào đúng về «Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái»?",
+      "options": [
+        "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+        "Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ)",
+        "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang.",
+        "PQQ được thành lập: Năm 1992, trong những ngày đầu hình thành chùa chùa Phật Quang."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c06-true2",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 55,
+      "type": "truefalse",
+      "sourceQuestion": "Ý nghĩa lối chào của môn phái?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh thần hòa bình, đoàn kết và nhắc nhở người võ sinh tu dưỡng nội tâm, không để Tham, Sân, Si chi phối tạo điều xấu ác.",
+      "question": "Nhận định sau đúng hay sai? Thể hiện tinh thần hòa bình, đoàn kết và nhắc nhở người võ sinh tu dưỡng nội tâm, không để Tham, Sân, Si chi phối tạo điều xấu ác.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c04-detail",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 56,
+      "type": "single",
+      "sourceQuestion": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?",
+      "topic": "brown-lesson-01",
+      "explanation": "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang. Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ. Sinh ngày 9 tháng 12 năm 1959.",
+      "question": "Theo bài học, ý nào còn đúng về «Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền»?",
+      "options": [
+        "Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí Minh; là Võ Sư Sáng Tổ.",
+        "Môn phái bái tôn giả Rahula (La Hầu La), một trong thập đại đệ tử của Đức Phật với danh hiệu Mật Hạnh Đệ Nhất Bảo hộ Tăng đoàn làm Thái Tổ Sư của môn phái.",
+        "Môn phái PQQ do: Võ sư Thượng tọa Thượng Chân hạ Quang, Viện chủ chùa Phật Quang sáng lập nên. ( võ sư sáng tổ)",
+        "Xây dựng thế hệ văn võ song toàn, phụng sự Đạo pháp và dân tộc."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c07-true2",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 57,
+      "type": "truefalse",
+      "sourceQuestion": "Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách. Trong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ đồng môn. Gặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái. Khi đến võ đường và trước khi ra về phải chào tôn ảnh của Thái Tổ Sư, hoặc biểu tượng môn phái (nếu có).",
+      "question": "Nhận định sau đúng hay sai? Trong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ đồng môn.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c06-focus",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 58,
+      "type": "single",
+      "sourceQuestion": "Ý nghĩa lối chào của môn phái?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh thần hòa bình, đoàn kết và nhắc nhở người võ sinh tu dưỡng nội tâm, không để Tham, Sân, Si chi phối tạo điều xấu ác.",
+      "question": "Theo nội dung bài, ý nào đúng về «Ý nghĩa lối chào của môn phái»?",
+      "options": [
+        "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau.",
+        "Môn sinh là những người đã qua một thời gian rèn luyện võ thuật, đạt được cấp đai Hoàng Đai Nhất Cấp (Đối với Tu Sĩ trong MP PQQ thì cấp Hồng đai trở đi) được sự công nhận về đạo đức của môn phái và đã làm lễ nhập môn.",
+        "Gặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái.",
+        "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-truefalse-c08-true2",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 59,
+      "type": "truefalse",
+      "sourceQuestion": "Quan niệm thông thường của người tập võ ra sao? tập võ để làm gì",
+      "topic": "brown-lesson-01",
+      "explanation": "Có 4 điều cần ghi nhớ: Tập võ là để tự vệ, và bảo vệ sự sống Rèn luyện khoẻ mạnh, trí tuệ minh mẫn Bồi dưỡng đạo đức để học tập, lao động, cống hiến 4. Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "question": "Nhận định sau đúng hay sai? Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-nau-single-c07-focus",
+      "lessonId": "brown-lesson-01",
+      "rankId": "nau",
+      "beltId": "brown",
+      "number": 60,
+      "type": "single",
+      "sourceQuestion": "Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường?",
+      "topic": "brown-lesson-01",
+      "explanation": "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách. Trong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ đồng môn. Gặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái. Khi đến võ đường và trước khi ra về phải chào tôn ảnh của Thái Tổ Sư, hoặc biểu tượng môn phái (nếu có).",
+      "question": "Theo nội dung bài, ý nào đúng về «Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường»?",
+      "options": [
+        "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường: Ði tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách.",
+        "Trong đại gia đình Phật Quang Quyền, các môn sinh phải: Đoàn kết, yêu Thương, Tin cậy, kính trọng nhường nhịn và giúp đỡ lẫn nhau xem như người thân trong gia đình.",
+        "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
+        "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

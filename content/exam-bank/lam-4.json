@@ -1,0 +1,1127 @@
+{
+  "rankId": "lam-4",
+  "beltId": "blue",
+  "lessonId": "blue-lesson-04",
+  "questions": [
+    {
+      "id": "blue-lesson-04-q01",
+      "lessonId": "blue-lesson-04",
+      "number": 1,
+      "type": "fill",
+      "question": "Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới, các võ sinh cần phải làm gì? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "nền võ học dân tộc",
+        "Cước ngang phi tới, xoay thân kính chào.",
+        "Thôi sơn tấn tiếp, cước ngang trảm xà,",
+        "hình ảnh đại diện cho môn phái",
+        "Đăng sơn tả, hữu quy hình,",
+        "Các giải đấu và hoạt động quảng bá chưa…"
+      ],
+      "blanks": [
+        "hình ảnh đại diện cho môn phái",
+        "nền võ học dân tộc"
+      ],
+      "explanation": "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức. Đồng thời giữ gìn kỷ luật, đoàn kết, sống đúng tinh thần võ đạo, tích cực quảng bá những giá trị tốt đẹp của Võ cổ truyền Việt Nam và Phật Quang Quyền đến cộng đồng. Mỗi võ sinh cần ý thức rằng mình là hình ảnh đại diện cho môn phái và nền võ học dân tộc.",
+      "sourceQuestion": "Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới, các võ sinh cần phải làm gì?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q02",
+      "lessonId": "blue-lesson-04",
+      "number": 2,
+      "type": "single",
+      "question": "Võ sinh cho biết: Mục đích, ý nghĩa việc thành lập Liên đoàn Võ thuật cổ truyền Việt Nam?",
+      "options": [
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
+        "Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động…",
+        "Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật…",
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền thống võ học cổ truyền Việt Nam, góp phần giữ gìn và phát triển bản sắc văn hóa dân tộc.",
+      "sourceQuestion": "Võ sinh cho biết: Mục đích, ý nghĩa việc thành lập Liên đoàn Võ thuật cổ truyền Việt Nam?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q03",
+      "lessonId": "blue-lesson-04",
+      "number": 3,
+      "type": "single",
+      "question": "Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không?",
+      "options": [
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…",
+        "Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật. Là khoa học vì võ thuật có phương pháp rèn luyện sức…",
+        "Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Võ thuật vừa là khoa học, vừa là nghệ thuật.\nLà khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật thiết với các ngành khoa học như vật lý, sinh học, y học, quân sự và triết học.\nLà nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động tác. Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+      "sourceQuestion": "Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q04",
+      "lessonId": "blue-lesson-04",
+      "number": 4,
+      "type": "multiple",
+      "question": "Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Đồng thời không cần tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp…",
+        "Môn sinh Phật Quang Quyền không cần không ngừng học tập và rèn luyện để trở thành…",
+        "Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt…",
+        "Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành…",
+        "Đồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp…"
+      ],
+      "correctIndices": [
+        2,
+        3,
+        4
+      ],
+      "explanation": "Ðáp:\nMôn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm.\nĐồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh.\nBên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+      "sourceQuestion": "Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q05",
+      "lessonId": "blue-lesson-04",
+      "number": 5,
+      "type": "single",
+      "question": "Vì sao Võ cổ truyền Việt Nam là môn võ của dân tộc nhưng nhiều người Việt chưa biết hoặc chưa quan tâm?",
+      "options": [
+        "Có nhiều nguyên nhân: Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật…",
+        "Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.",
+        "Các giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Có nhiều nguyên nhân:\nViệc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền.\nVận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.\nCác giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
+      "sourceQuestion": "Vì sao Võ cổ truyền Việt Nam là môn võ của dân tộc nhưng nhiều người Việt chưa biết hoặc chưa quan tâm?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q06",
+      "lessonId": "blue-lesson-04",
+      "number": 6,
+      "type": "single",
+      "question": "Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu?",
+      "options": [
+        "Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật…",
+        "Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn…",
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật."
+      ],
+      "correctIndex": 1,
+      "explanation": "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng. Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật.\nVề sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+      "sourceQuestion": "Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q07",
+      "lessonId": "blue-lesson-04",
+      "number": 7,
+      "type": "multiple",
+      "question": "Hãy giải thích.? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình…",
+        "Không, hoàn toàn khác nhau.",
+        "Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn…",
+        "Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa…",
+        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ…",
+        "Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.",
+        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh…"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        6
+      ],
+      "explanation": "Không, hoàn toàn khác nhau.\nTự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.\nTự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
+      "sourceQuestion": "Hãy giải thích.?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q08",
+      "lessonId": "blue-lesson-04",
+      "number": 8,
+      "type": "single",
+      "question": "Hãy giải thích?",
+      "options": [
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…",
+        "Ðáp: Không, hoàn toàn khác nhau. Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà…",
+        "Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật…",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật."
+      ],
+      "correctIndex": 1,
+      "explanation": "Ðáp:  Không, hoàn toàn khác nhau.  Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành.",
+      "sourceQuestion": "Hãy giải thích?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q09",
+      "lessonId": "blue-lesson-04",
+      "number": 9,
+      "type": "single",
+      "question": "Lòng tự tin và tự phụ có giống nhau không?",
+      "options": [
+        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và…",
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.",
+        "Không, hoàn toàn khác nhau. Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá…",
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Không, hoàn toàn khác nhau.\nTự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.\nTự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
+      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q10",
+      "lessonId": "blue-lesson-04",
+      "number": 10,
+      "type": "ordering",
+      "question": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "II/. LỜI THIỆU",
+        "Kim tiêu hồi bộ, song đao, xỉa tiền,",
+        "Cước ngang bộ phượng, bay lên móc liền,",
+        "Hồi thân phượng dực, xoay tròn thôi sơn,",
+        "Quét chân, hoành tọa đăng sơn,",
+        "Bạt phong cước tới, song phi phượng hoàng,",
+        "Thôi sơn tấn tiếp, cước ngang trảm xà,",
+        "Thăng thiên phượng dực xoay tròn,",
+        "Thần cung xạ tiễn, tấn tiên,",
+        "Đầu tiên bái tổ, kính sư,",
+        "Xoay người vươn bộ đăng sơn,",
+        "Cước ngang phi tới, xoay thân kính chào.",
+        "Bạch hạc ra bộ, thôi sơn tấn liền,",
+        "Đăng sơn hữu tả xỉa nghiêng,",
+        "Đăng sơn tả, hữu quy hình,"
+      ],
+      "correctOrder": [
+        0,
+        9,
+        12,
+        7,
+        1,
+        8,
+        2,
+        13,
+        5,
+        4,
+        3,
+        14,
+        6,
+        10,
+        11
+      ],
+      "explanation": "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ. Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn. Đây là bài quyền nổi tiếng, được nhiều võ sư ở Vĩnh Long và các tỉnh miền Tây Nam Bộ biết đến.\nBài quyền có nhiều tư thế cao, thấp, xoay chuyển linh hoạt giúp rèn luyện sức khỏe, phát triển thể lực và sự dẻo dai. Ngoài ra, bài quyền có nhiều động tác đẹp mắt, mang tính nghệ thuật cao, thích hợp cho thi đấu và biểu diễn võ thuật.\nII/. LỜI THIỆU\nĐầu tiên bái tổ, kính sư,\nBạch hạc ra bộ, thôi sơn tấn liền,\nThăng thiên phượng dực xoay tròn,\nKim tiêu hồi bộ, song đao, xỉa tiền,\nThần cung xạ tiễn, tấn tiên,\nCước ngang bộ phượng, bay lên móc liền,\nĐăng sơn hữu tả xỉa nghiêng,\nBạt phong cước tới, song phi phượng hoàng,\nQuét chân, hoành tọa đăng sơn,\nHồi thân phượng dực, xoay tròn thôi sơn,\nĐăng sơn tả, hữu quy hình,\nThôi sơn tấn tiếp, cước ngang trảm xà,\nXoay người vươn bộ đăng sơn,\nCước ngang phi tới, xoay thân kính chào.",
+      "sourceQuestion": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q11",
+      "lessonId": "blue-lesson-04",
+      "number": 11,
+      "type": "single",
+      "question": "Do đâu một người hay tự cao, tự đại?",
+      "options": [
+        "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm…",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…",
+        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng.\nNgười có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
+      "sourceQuestion": "Do đâu một người hay tự cao, tự đại?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q12",
+      "lessonId": "blue-lesson-04",
+      "number": 12,
+      "type": "single",
+      "question": "Người có lòng tự tin có tự cao, tự đại không?",
+      "options": [
+        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế…",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
+        "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm…",
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng.\nNgười có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
+      "sourceQuestion": "Người có lòng tự tin có tự cao, tự đại không?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-04-q13",
+      "lessonId": "blue-lesson-04",
+      "number": 13,
+      "type": "single",
+      "question": "Lòng tự tin và tự phụ có giống nhau không?",
+      "options": [
+        "Ðáp: Không, hoàn toàn khác nhau. Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà…",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
+        "Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật…",
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ðáp:  Không, hoàn toàn khác nhau.  Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành.",
+      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không?",
+      "rankId": "lam-4",
+      "beltId": "blue"
+    },
+    {
+      "id": "exam-lam-4-scenario-c01-case",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 14,
+      "type": "scenario",
+      "sourceQuestion": "Trong Võ cổ truyền Việt Nam, tấn pháp có vai trò quan trọng như thế nào?",
+      "topic": "blue-lesson-04",
+      "explanation": "Tấn pháp là nền tảng của võ thuật. Muốn thực hiện tốt các đòn tấn công, phòng thủ, phản công và di chuyển, người học võ phải có tấn vững chắc. Nhờ tấn pháp đúng, cơ thể giữ được thăng bằng, phát huy tối đa sức mạnh và hiệu quả của các đòn thế. Nếu tấn không vững sẽ dễ bị phá thế, mất thăng bằng hoặc bị đánh ngã. Vì vậy, người xưa ví tấn pháp là cái móng của võ thuật, giống như muốn xây nhà phải xây từ móng.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Trong Võ cổ truyền Việt Nam, tấn pháp có vai trò quan trọng như thế nào». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Tấn pháp là nền tảng của võ thuật.",
+        "Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.",
+        "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c01-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 15,
+      "type": "truefalse",
+      "sourceQuestion": "Trong Võ cổ truyền Việt Nam, tấn pháp có vai trò quan trọng như thế nào?",
+      "topic": "blue-lesson-04",
+      "explanation": "Tấn pháp là nền tảng của võ thuật. Muốn thực hiện tốt các đòn tấn công, phòng thủ, phản công và di chuyển, người học võ phải có tấn vững chắc. Nhờ tấn pháp đúng, cơ thể giữ được thăng bằng, phát huy tối đa sức mạnh và hiệu quả của các đòn thế. Nếu tấn không vững sẽ dễ bị phá thế, mất thăng bằng hoặc bị đánh ngã. Vì vậy, người xưa ví tấn pháp là cái móng của võ thuật, giống như muốn xây nhà phải xây từ móng.",
+      "question": "Nhận định sau đúng hay sai? Tấn pháp là nền tảng của võ thuật.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-scenario-c02-case",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 16,
+      "type": "scenario",
+      "sourceQuestion": "Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới, các võ sinh cần phải làm gì?",
+      "topic": "blue-lesson-04",
+      "explanation": "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức. Đồng thời giữ gìn kỷ luật, đoàn kết, sống đúng tinh thần võ đạo, tích cực quảng bá những giá trị tốt đẹp của Võ cổ truyền Việt Nam và Phật Quang Quyền đến cộng đồng. Mỗi võ sinh cần ý thức rằng mình là hình ảnh đại diện cho môn phái và nền võ học dân tộc.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức.",
+        "Đồng thời phải luôn tu dưỡng bản thân, làm chủ cảm xúc và ước muốn, không ngừng học hỏi để trở thành người sáng suốt, bản lĩnh, có năng lực và biết phát huy những tiềm năng tốt đẹp của mình để phụng sự cuộc đời.",
+        "Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn.",
+        "Nếu tấn không vững sẽ dễ bị phá thế, mất thăng bằng hoặc bị đánh ngã."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c02-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 17,
+      "type": "truefalse",
+      "sourceQuestion": "Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới, các võ sinh cần phải làm gì?",
+      "topic": "blue-lesson-04",
+      "explanation": "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức. Đồng thời giữ gìn kỷ luật, đoàn kết, sống đúng tinh thần võ đạo, tích cực quảng bá những giá trị tốt đẹp của Võ cổ truyền Việt Nam và Phật Quang Quyền đến cộng đồng. Mỗi võ sinh cần ý thức rằng mình là hình ảnh đại diện cho môn phái và nền võ học dân tộc.",
+      "question": "Nhận định sau đúng hay sai? Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-scenario-c07-case",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 18,
+      "type": "scenario",
+      "sourceQuestion": "Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc?",
+      "topic": "blue-lesson-04",
+      "explanation": "Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm. Đồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh. Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm.",
+        "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ.",
+        "Đồng thời phải luôn tu dưỡng bản thân, làm chủ cảm xúc và ước muốn, không ngừng học hỏi để trở thành người sáng suốt, bản lĩnh, có năng lực và biết phát huy những tiềm năng tốt đẹp của mình để phụng sự cuộc đời.",
+        "Bài quyền có nhiều tư thế cao, thấp, xoay chuyển linh hoạt giúp rèn luyện sức khỏe, phát triển thể lực và sự dẻo dai."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c03-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 19,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh cho biết: Mục đích, ý nghĩa việc thành lập Liên đoàn Võ thuật cổ truyền Việt Nam?",
+      "topic": "blue-lesson-04",
+      "explanation": "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền thống võ học cổ truyền Việt Nam, góp phần giữ gìn và phát triển bản sắc văn hóa dân tộc.",
+      "question": "Nhận định sau đúng hay sai? Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền thống võ học cổ truyền Việt Nam, góp phần giữ gìn và phát triển bản sắc văn hóa dân tộc.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-scenario-c08-case",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 20,
+      "type": "scenario",
+      "sourceQuestion": "Về giá trị tinh thần, môn sinh Phật Quang Quyền phải chứng tỏ ra sao?",
+      "topic": "blue-lesson-04",
+      "explanation": "Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối. Đồng thời phải luôn tu dưỡng bản thân, làm chủ cảm xúc và ước muốn, không ngừng học hỏi để trở thành người sáng suốt, bản lĩnh, có năng lực và biết phát huy những tiềm năng tốt đẹp của mình để phụng sự cuộc đời.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Về giá trị tinh thần, môn sinh Phật Quang Quyền phải chứng tỏ ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối.",
+        "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ.",
+        "Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+        "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c04-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 21,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không?",
+      "topic": "blue-lesson-04",
+      "explanation": "Võ thuật vừa là khoa học, vừa là nghệ thuật. Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật thiết với các ngành khoa học như vật lý, sinh học, y học, quân sự và triết học. Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động tác. Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+      "question": "Nhận định sau đúng hay sai? Võ thuật vừa là khoa học, vừa là nghệ thuật.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-scenario-c12-case",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 22,
+      "type": "scenario",
+      "sourceQuestion": "Khi bắt buộc phải đối phó với kẻ thù, ta phải có thái độ và cách đối xử ra sao?",
+      "topic": "blue-lesson-04",
+      "explanation": "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực. Sau khi ngăn chặn hoặc xử lý hành vi sai trái, cần hướng đến tha thứ, hòa giải và cảm hóa, không nuôi dưỡng lòng thù hận.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Khi bắt buộc phải đối phó với kẻ thù, ta phải có thái độ và cách đối xử ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực.",
+        "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ.",
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.",
+        "Ngoài ra, bài quyền có nhiều động tác đẹp mắt, mang tính nghệ thuật cao, thích hợp cho thi đấu và biểu diễn võ thuật."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c05-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 23,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu?",
+      "topic": "blue-lesson-04",
+      "explanation": "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng. Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật. Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+      "question": "Nhận định sau đúng hay sai? Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c06-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 24,
+      "type": "truefalse",
+      "sourceQuestion": "Vì sao Võ cổ truyền Việt Nam là môn võ của dân tộc nhưng nhiều người Việt chưa biết hoặc chưa quan tâm?",
+      "topic": "blue-lesson-04",
+      "explanation": "Có nhiều nguyên nhân: Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền. Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng. Các giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
+      "question": "Nhận định sau đúng hay sai? Có nhiều nguyên nhân: Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c07-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 25,
+      "type": "truefalse",
+      "sourceQuestion": "Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc?",
+      "topic": "blue-lesson-04",
+      "explanation": "Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm. Đồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh. Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+      "question": "Nhận định sau đúng hay sai? Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c08-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 26,
+      "type": "truefalse",
+      "sourceQuestion": "Về giá trị tinh thần, môn sinh Phật Quang Quyền phải chứng tỏ ra sao?",
+      "topic": "blue-lesson-04",
+      "explanation": "Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối. Đồng thời phải luôn tu dưỡng bản thân, làm chủ cảm xúc và ước muốn, không ngừng học hỏi để trở thành người sáng suốt, bản lĩnh, có năng lực và biết phát huy những tiềm năng tốt đẹp của mình để phụng sự cuộc đời.",
+      "question": "Nhận định sau đúng hay sai? Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c09-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 27,
+      "type": "truefalse",
+      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không? Hãy giải thích?",
+      "topic": "blue-lesson-04",
+      "explanation": "Ðáp: Không, hoàn toàn khác nhau. Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành.",
+      "question": "Nhận định sau đúng hay sai? Ðáp: Không, hoàn toàn khác nhau.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c10-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 28,
+      "type": "truefalse",
+      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không? Hãy giải thích.",
+      "topic": "blue-lesson-04",
+      "explanation": "Không, hoàn toàn khác nhau. Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế. Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
+      "question": "Nhận định sau đúng hay sai? Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c01-direct",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 29,
+      "type": "single",
+      "sourceQuestion": "Trong Võ cổ truyền Việt Nam, tấn pháp có vai trò quan trọng như thế nào?",
+      "topic": "blue-lesson-04",
+      "explanation": "Tấn pháp là nền tảng của võ thuật. Muốn thực hiện tốt các đòn tấn công, phòng thủ, phản công và di chuyển, người học võ phải có tấn vững chắc. Nhờ tấn pháp đúng, cơ thể giữ được thăng bằng, phát huy tối đa sức mạnh và hiệu quả của các đòn thế. Nếu tấn không vững sẽ dễ bị phá thế, mất thăng bằng hoặc bị đánh ngã. Vì vậy, người xưa ví tấn pháp là cái móng của võ thuật, giống như muốn xây nhà phải xây từ móng.",
+      "question": "Trong Võ cổ truyền Việt Nam, tấn pháp có vai trò quan trọng như thế nào?",
+      "options": [
+        "Tấn pháp là nền tảng của võ thuật.",
+        "Các giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
+        "Bài quyền có nhiều tư thế cao, thấp, xoay chuyển linh hoạt giúp rèn luyện sức khỏe, phát triển thể lực và sự dẻo dai.",
+        "Đồng thời giữ gìn kỷ luật, đoàn kết, sống đúng tinh thần võ đạo, tích cực quảng bá những giá trị tốt đẹp của Võ cổ truyền Việt Nam và Phật Quang Quyền đến cộng đồng."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c11-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 30,
+      "type": "truefalse",
+      "sourceQuestion": "Do đâu một người hay tự cao, tự đại? Người có lòng tự tin có tự cao, tự đại không?",
+      "topic": "blue-lesson-04",
+      "explanation": "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng. Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
+      "question": "Nhận định sau đúng hay sai? Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c02-direct",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 31,
+      "type": "single",
+      "sourceQuestion": "Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới, các võ sinh cần phải làm gì?",
+      "topic": "blue-lesson-04",
+      "explanation": "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức. Đồng thời giữ gìn kỷ luật, đoàn kết, sống đúng tinh thần võ đạo, tích cực quảng bá những giá trị tốt đẹp của Võ cổ truyền Việt Nam và Phật Quang Quyền đến cộng đồng. Mỗi võ sinh cần ý thức rằng mình là hình ảnh đại diện cho môn phái và nền võ học dân tộc.",
+      "question": "Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới, các võ sinh cần phải làm gì?",
+      "options": [
+        "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức.",
+        "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng.",
+        "Vì vậy, người xưa ví tấn pháp là cái móng của võ thuật, giống như muốn xây nhà phải xây từ móng.",
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c12-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 32,
+      "type": "truefalse",
+      "sourceQuestion": "Khi bắt buộc phải đối phó với kẻ thù, ta phải có thái độ và cách đối xử ra sao?",
+      "topic": "blue-lesson-04",
+      "explanation": "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực. Sau khi ngăn chặn hoặc xử lý hành vi sai trái, cần hướng đến tha thứ, hòa giải và cảm hóa, không nuôi dưỡng lòng thù hận.",
+      "question": "Nhận định sau đúng hay sai? Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c03-focus",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 33,
+      "type": "single",
+      "sourceQuestion": "Võ sinh cho biết: Mục đích, ý nghĩa việc thành lập Liên đoàn Võ thuật cổ truyền Việt Nam?",
+      "topic": "blue-lesson-04",
+      "explanation": "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền thống võ học cổ truyền Việt Nam, góp phần giữ gìn và phát triển bản sắc văn hóa dân tộc.",
+      "question": "Theo nội dung bài, ý nào đúng về «Võ sinh cho biết: Mục đích, ý nghĩa việc thành lập Liên đoàn Võ thuật cổ truyền Việt Nam»?",
+      "options": [
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền thống võ học cổ truyền Việt Nam, góp phần giữ gìn và phát triển bản sắc văn hóa dân tộc.",
+        "Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm.",
+        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
+        "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c13-true1",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 34,
+      "type": "truefalse",
+      "sourceQuestion": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?",
+      "topic": "blue-lesson-04",
+      "explanation": "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ. Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn. Đây là bài quyền nổi tiếng, được nhiều võ sư ở Vĩnh Long và các tỉnh miền Tây Nam Bộ biết đến. Bài quyền có nhiều tư thế cao, thấp, xoay chuyển linh hoạt giúp rèn luyện sức khỏe, phát triển thể lực và sự dẻo dai. Ngoài ra, bài quyền có nhiều động tác đẹp mắt, mang tính nghệ thuật cao, thích hợp cho thi đấu và biểu diễn võ thuật. II/. LỜI THIỆU Đầu tiên bái tổ, kính sư, Bạch hạc ra bộ, thôi sơn tấn liền, Thăng thiên phượng dực xoay tròn, Kim tiêu hồi bộ,…",
+      "question": "Nhận định sau đúng hay sai? Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c04-focus",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 35,
+      "type": "single",
+      "sourceQuestion": "Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không?",
+      "topic": "blue-lesson-04",
+      "explanation": "Võ thuật vừa là khoa học, vừa là nghệ thuật. Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật thiết với các ngành khoa học như vật lý, sinh học, y học, quân sự và triết học. Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động tác. Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+      "question": "Theo nội dung bài, ý nào đúng về «Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không»?",
+      "options": [
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
+        "Mỗi võ sinh cần ý thức rằng mình là hình ảnh đại diện cho môn phái và nền võ học dân tộc.",
+        "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng.",
+        "Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c01-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 36,
+      "type": "truefalse",
+      "sourceQuestion": "Trong Võ cổ truyền Việt Nam, tấn pháp có vai trò quan trọng như thế nào?",
+      "topic": "blue-lesson-04",
+      "explanation": "Tấn pháp là nền tảng của võ thuật. Muốn thực hiện tốt các đòn tấn công, phòng thủ, phản công và di chuyển, người học võ phải có tấn vững chắc. Nhờ tấn pháp đúng, cơ thể giữ được thăng bằng, phát huy tối đa sức mạnh và hiệu quả của các đòn thế. Nếu tấn không vững sẽ dễ bị phá thế, mất thăng bằng hoặc bị đánh ngã. Vì vậy, người xưa ví tấn pháp là cái móng của võ thuật, giống như muốn xây nhà phải xây từ móng.",
+      "question": "Nhận định sau đúng hay sai? Muốn thực hiện tốt các đòn tấn công, phòng thủ, phản công và di chuyển, người học võ phải có tấn vững chắc.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c05-focus",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 37,
+      "type": "single",
+      "sourceQuestion": "Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu?",
+      "topic": "blue-lesson-04",
+      "explanation": "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng. Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật. Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+      "question": "Theo nội dung bài, ý nào đúng về «Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu»?",
+      "options": [
+        "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng.",
+        "Nhờ tấn pháp đúng, cơ thể giữ được thăng bằng, phát huy tối đa sức mạnh và hiệu quả của các đòn thế.",
+        "Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+        "Đồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c02-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 38,
+      "type": "truefalse",
+      "sourceQuestion": "Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới, các võ sinh cần phải làm gì?",
+      "topic": "blue-lesson-04",
+      "explanation": "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức. Đồng thời giữ gìn kỷ luật, đoàn kết, sống đúng tinh thần võ đạo, tích cực quảng bá những giá trị tốt đẹp của Võ cổ truyền Việt Nam và Phật Quang Quyền đến cộng đồng. Mỗi võ sinh cần ý thức rằng mình là hình ảnh đại diện cho môn phái và nền võ học dân tộc.",
+      "question": "Nhận định sau đúng hay sai? Đồng thời giữ gìn kỷ luật, đoàn kết, sống đúng tinh thần võ đạo, tích cực quảng bá những giá trị tốt đẹp của Võ cổ truyền Việt Nam và Phật Quang Quyền đến cộng đồng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c06-focus",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 39,
+      "type": "single",
+      "sourceQuestion": "Vì sao Võ cổ truyền Việt Nam là môn võ của dân tộc nhưng nhiều người Việt chưa biết hoặc chưa quan tâm?",
+      "topic": "blue-lesson-04",
+      "explanation": "Có nhiều nguyên nhân: Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền. Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng. Các giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
+      "question": "Theo nội dung bài, ý nào đúng về «Vì sao Võ cổ truyền Việt Nam là môn võ của dân tộc nhưng nhiều người Việt chưa biết hoặc chưa quan tâm»?",
+      "options": [
+        "Có nhiều nguyên nhân: Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền.",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
+        "Vì vậy, người xưa ví tấn pháp là cái móng của võ thuật, giống như muốn xây nhà phải xây từ móng.",
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c03-false",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 40,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh cho biết: Mục đích, ý nghĩa việc thành lập Liên đoàn Võ thuật cổ truyền Việt Nam?",
+      "topic": "blue-lesson-04",
+      "explanation": "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền thống võ học cổ truyền Việt Nam, góp phần giữ gìn và phát triển bản sắc văn hóa dân tộc.",
+      "question": "Nhận định sau đúng hay sai? Về «Võ sinh cho biết: Mục đích, ý nghĩa việc thành lập Liên đoàn Võ thuật cổ truyền Việt Nam», bài học nêu: Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "exam-lam-4-single-c07-direct",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 41,
+      "type": "single",
+      "sourceQuestion": "Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc?",
+      "topic": "blue-lesson-04",
+      "explanation": "Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm. Đồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh. Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+      "question": "Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc?",
+      "options": [
+        "Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm.",
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền thống võ học cổ truyền Việt Nam, góp phần giữ gìn và phát triển bản sắc văn hóa dân tộc.",
+        "Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.",
+        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c04-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 42,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không?",
+      "topic": "blue-lesson-04",
+      "explanation": "Võ thuật vừa là khoa học, vừa là nghệ thuật. Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật thiết với các ngành khoa học như vật lý, sinh học, y học, quân sự và triết học. Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động tác. Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+      "question": "Nhận định sau đúng hay sai? Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c08-direct",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 43,
+      "type": "single",
+      "sourceQuestion": "Về giá trị tinh thần, môn sinh Phật Quang Quyền phải chứng tỏ ra sao?",
+      "topic": "blue-lesson-04",
+      "explanation": "Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối. Đồng thời phải luôn tu dưỡng bản thân, làm chủ cảm xúc và ước muốn, không ngừng học hỏi để trở thành người sáng suốt, bản lĩnh, có năng lực và biết phát huy những tiềm năng tốt đẹp của mình để phụng sự cuộc đời.",
+      "question": "Về giá trị tinh thần, môn sinh Phật Quang Quyền phải chứng tỏ ra sao?",
+      "options": [
+        "Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối.",
+        "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng.",
+        "Đây là bài quyền nổi tiếng, được nhiều võ sư ở Vĩnh Long và các tỉnh miền Tây Nam Bộ biết đến.",
+        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c05-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 44,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu?",
+      "topic": "blue-lesson-04",
+      "explanation": "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng. Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật. Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+      "question": "Nhận định sau đúng hay sai? Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c09-direct",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 45,
+      "type": "single",
+      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không? Hãy giải thích?",
+      "topic": "blue-lesson-04",
+      "explanation": "Ðáp: Không, hoàn toàn khác nhau. Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành.",
+      "question": "Lòng tự tin và tự phụ có giống nhau không? Hãy giải thích?",
+      "options": [
+        "Ðáp: Không, hoàn toàn khác nhau.",
+        "Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn.",
+        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
+        "Mỗi võ sinh cần ý thức rằng mình là hình ảnh đại diện cho môn phái và nền võ học dân tộc."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c06-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 46,
+      "type": "truefalse",
+      "sourceQuestion": "Vì sao Võ cổ truyền Việt Nam là môn võ của dân tộc nhưng nhiều người Việt chưa biết hoặc chưa quan tâm?",
+      "topic": "blue-lesson-04",
+      "explanation": "Có nhiều nguyên nhân: Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền. Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng. Các giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
+      "question": "Nhận định sau đúng hay sai? Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c11-direct",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 47,
+      "type": "single",
+      "sourceQuestion": "Do đâu một người hay tự cao, tự đại? Người có lòng tự tin có tự cao, tự đại không?",
+      "topic": "blue-lesson-04",
+      "explanation": "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng. Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
+      "question": "Do đâu một người hay tự cao, tự đại? Người có lòng tự tin có tự cao, tự đại không?",
+      "options": [
+        "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng.",
+        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
+        "Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật.",
+        "Đồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c07-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 48,
+      "type": "truefalse",
+      "sourceQuestion": "Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc?",
+      "topic": "blue-lesson-04",
+      "explanation": "Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm. Đồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh. Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+      "question": "Nhận định sau đúng hay sai? Đồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c12-direct",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 49,
+      "type": "single",
+      "sourceQuestion": "Khi bắt buộc phải đối phó với kẻ thù, ta phải có thái độ và cách đối xử ra sao?",
+      "topic": "blue-lesson-04",
+      "explanation": "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực. Sau khi ngăn chặn hoặc xử lý hành vi sai trái, cần hướng đến tha thứ, hòa giải và cảm hóa, không nuôi dưỡng lòng thù hận.",
+      "question": "Khi bắt buộc phải đối phó với kẻ thù, ta phải có thái độ và cách đối xử ra sao?",
+      "options": [
+        "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực.",
+        "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng.",
+        "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức.",
+        "Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c08-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 50,
+      "type": "truefalse",
+      "sourceQuestion": "Về giá trị tinh thần, môn sinh Phật Quang Quyền phải chứng tỏ ra sao?",
+      "topic": "blue-lesson-04",
+      "explanation": "Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối. Đồng thời phải luôn tu dưỡng bản thân, làm chủ cảm xúc và ước muốn, không ngừng học hỏi để trở thành người sáng suốt, bản lĩnh, có năng lực và biết phát huy những tiềm năng tốt đẹp của mình để phụng sự cuộc đời.",
+      "question": "Nhận định sau đúng hay sai? Đồng thời phải luôn tu dưỡng bản thân, làm chủ cảm xúc và ước muốn, không ngừng học hỏi để trở thành người sáng suốt, bản lĩnh, có năng lực và biết phát huy những tiềm năng tốt đẹp của mình để phụng sự cuộc đời.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c13-direct",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 51,
+      "type": "single",
+      "sourceQuestion": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?",
+      "topic": "blue-lesson-04",
+      "explanation": "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ. Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn. Đây là bài quyền nổi tiếng, được nhiều võ sư ở Vĩnh Long và các tỉnh miền Tây Nam Bộ biết đến. Bài quyền có nhiều tư thế cao, thấp, xoay chuyển linh hoạt giúp rèn luyện sức khỏe, phát triển thể lực và sự dẻo dai. Ngoài ra, bài quyền có nhiều động tác đẹp mắt, mang tính nghệ thuật cao, thích hợp cho thi đấu và biểu diễn võ thuật. II/. LỜI THIỆU Đầu tiên bái tổ, kính sư, Bạch hạc ra bộ, thôi sơn tấn liền, Thăng thiên phượng dực xoay tròn, Kim tiêu hồi bộ,…",
+      "question": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?",
+      "options": [
+        "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ.",
+        "Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật.",
+        "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực.",
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c09-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 52,
+      "type": "truefalse",
+      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không? Hãy giải thích?",
+      "topic": "blue-lesson-04",
+      "explanation": "Ðáp: Không, hoàn toàn khác nhau. Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành.",
+      "question": "Nhận định sau đúng hay sai? Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c01-focus",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 53,
+      "type": "single",
+      "sourceQuestion": "Trong Võ cổ truyền Việt Nam, tấn pháp có vai trò quan trọng như thế nào?",
+      "topic": "blue-lesson-04",
+      "explanation": "Tấn pháp là nền tảng của võ thuật. Muốn thực hiện tốt các đòn tấn công, phòng thủ, phản công và di chuyển, người học võ phải có tấn vững chắc. Nhờ tấn pháp đúng, cơ thể giữ được thăng bằng, phát huy tối đa sức mạnh và hiệu quả của các đòn thế. Nếu tấn không vững sẽ dễ bị phá thế, mất thăng bằng hoặc bị đánh ngã. Vì vậy, người xưa ví tấn pháp là cái móng của võ thuật, giống như muốn xây nhà phải xây từ móng.",
+      "question": "Theo nội dung bài, ý nào đúng về «Trong Võ cổ truyền Việt Nam, tấn pháp có vai trò quan trọng như thế nào»?",
+      "options": [
+        "Tấn pháp là nền tảng của võ thuật.",
+        "Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+        "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực.",
+        "Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c10-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 54,
+      "type": "truefalse",
+      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không? Hãy giải thích.",
+      "topic": "blue-lesson-04",
+      "explanation": "Không, hoàn toàn khác nhau. Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế. Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
+      "question": "Nhận định sau đúng hay sai? Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c02-focus",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 55,
+      "type": "single",
+      "sourceQuestion": "Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới, các võ sinh cần phải làm gì?",
+      "topic": "blue-lesson-04",
+      "explanation": "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức. Đồng thời giữ gìn kỷ luật, đoàn kết, sống đúng tinh thần võ đạo, tích cực quảng bá những giá trị tốt đẹp của Võ cổ truyền Việt Nam và Phật Quang Quyền đến cộng đồng. Mỗi võ sinh cần ý thức rằng mình là hình ảnh đại diện cho môn phái và nền võ học dân tộc.",
+      "question": "Theo nội dung bài, ý nào đúng về «Để Võ cổ truyền Việt Nam nói chung và Phật Quang Quyền nói riêng có thể sánh vai cùng các môn võ trên thế giới»?",
+      "options": [
+        "Các võ sinh phải siêng năng khổ luyện võ thuật, không ngừng nâng cao trình độ chuyên môn và đạo đức.",
+        "Có nhiều nguyên nhân: Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền.",
+        "Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+        "Môn sinh Phật Quang Quyền phải có tâm hồn cao thượng, phong phú và rộng mở, biết quý trọng danh dự, không để tình cảm, tiền bạc hay quyền thế chi phối."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c11-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 56,
+      "type": "truefalse",
+      "sourceQuestion": "Do đâu một người hay tự cao, tự đại? Người có lòng tự tin có tự cao, tự đại không?",
+      "topic": "blue-lesson-04",
+      "explanation": "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng. Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
+      "question": "Nhận định sau đúng hay sai? Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c04-detail",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 57,
+      "type": "single",
+      "sourceQuestion": "Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không?",
+      "topic": "blue-lesson-04",
+      "explanation": "Võ thuật vừa là khoa học, vừa là nghệ thuật. Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật thiết với các ngành khoa học như vật lý, sinh học, y học, quân sự và triết học. Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động tác. Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+      "question": "Theo bài học, ý nào còn đúng về «Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không»?",
+      "options": [
+        "Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+        "Đây là bài quyền nổi tiếng, được nhiều võ sư ở Vĩnh Long và các tỉnh miền Tây Nam Bộ biết đến.",
+        "Ðáp: Môn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm.",
+        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c12-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 58,
+      "type": "truefalse",
+      "sourceQuestion": "Khi bắt buộc phải đối phó với kẻ thù, ta phải có thái độ và cách đối xử ra sao?",
+      "topic": "blue-lesson-04",
+      "explanation": "Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự hào hiệp, khoan dung và có chừng mực. Sau khi ngăn chặn hoặc xử lý hành vi sai trái, cần hướng đến tha thứ, hòa giải và cảm hóa, không nuôi dưỡng lòng thù hận.",
+      "question": "Nhận định sau đúng hay sai? Sau khi ngăn chặn hoặc xử lý hành vi sai trái, cần hướng đến tha thứ, hòa giải và cảm hóa, không nuôi dưỡng lòng thù hận.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-single-c05-detail",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 59,
+      "type": "single",
+      "sourceQuestion": "Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu?",
+      "topic": "blue-lesson-04",
+      "explanation": "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng. Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật. Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+      "question": "Theo bài học, ý nào còn đúng về «Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu»?",
+      "options": [
+        "Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật.",
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.",
+        "Ngoài ra, bài quyền có nhiều động tác đẹp mắt, mang tính nghệ thuật cao, thích hợp cho thi đấu và biểu diễn võ thuật.",
+        "Bên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-4-truefalse-c13-true2",
+      "lessonId": "blue-lesson-04",
+      "rankId": "lam-4",
+      "beltId": "blue",
+      "number": 60,
+      "type": "truefalse",
+      "sourceQuestion": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?",
+      "topic": "blue-lesson-04",
+      "explanation": "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ. Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn. Đây là bài quyền nổi tiếng, được nhiều võ sư ở Vĩnh Long và các tỉnh miền Tây Nam Bộ biết đến. Bài quyền có nhiều tư thế cao, thấp, xoay chuyển linh hoạt giúp rèn luyện sức khỏe, phát triển thể lực và sự dẻo dai. Ngoài ra, bài quyền có nhiều động tác đẹp mắt, mang tính nghệ thuật cao, thích hợp cho thi đấu và biểu diễn võ thuật. II/. LỜI THIỆU Đầu tiên bái tổ, kính sư, Bạch hạc ra bộ, thôi sơn tấn liền, Thăng thiên phượng dực xoay tròn, Kim tiêu hồi bộ,…",
+      "question": "Nhận định sau đúng hay sai? Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

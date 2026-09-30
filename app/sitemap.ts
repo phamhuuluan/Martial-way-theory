@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { getAllLessonParams, getAllBelts } from '@/lib/content';
+import { listPracticeCatalog } from '@/lib/exam-bank';
 import { SITE } from '@/lib/constants';
 
 export const dynamic = 'force-static';
@@ -34,6 +35,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/documents`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/achievements`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/profile`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${base}/profile/practice`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    ...listPracticeCatalog().map((entry) => ({
+      url: `${base}/profile/practice/${entry.rankId}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.4,
+    })),
     { url: `${base}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
     ...beltRoutes,
     ...lessonRoutes,

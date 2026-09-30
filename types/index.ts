@@ -111,7 +111,14 @@ export interface UserPreferences {
 export type ColorScheme = 'dark' | 'light';
 
 export interface UserProfile {
+  /** Họ và tên thí sinh */
   name?: string;
+  /** Ngày sinh, định dạng YYYY-MM-DD */
+  dateOfBirth?: string;
+  /** CLB đang theo tập */
+  club?: string;
+  /** Võ đường đang theo tập */
+  dojo?: string;
   startedAt: string;
   lastActiveAt: string;
 }

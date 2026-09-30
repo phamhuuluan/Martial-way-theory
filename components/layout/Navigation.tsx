@@ -58,6 +58,7 @@ export function BottomTabBar() {
             pathname === href ||
             (item.href === '/journey' && pathname.startsWith('/journey')) ||
             (item.href === '/documents' && pathname.startsWith('/documents')) ||
+            (item.href === '/profile' && pathname.startsWith('/profile')) ||
             (item.dynamic === true && pathname.startsWith('/world'));
 
           return (
@@ -110,6 +111,7 @@ export function SideRail() {
             pathname === href ||
             (item.href === '/journey' && pathname.startsWith('/journey')) ||
             (item.href === '/documents' && pathname.startsWith('/documents')) ||
+            (item.href === '/profile' && pathname.startsWith('/profile')) ||
             (item.dynamic === true && pathname.startsWith('/world'));
 
           return (

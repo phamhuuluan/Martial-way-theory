@@ -1,0 +1,1298 @@
+{
+  "rankId": "luc-4",
+  "beltId": "green",
+  "lessonId": "green-lesson-04",
+  "questions": [
+    {
+      "id": "green-lesson-04-q01",
+      "lessonId": "green-lesson-04",
+      "number": 1,
+      "type": "multiple",
+      "question": "Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Về tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên…",
+        "Về tinh thần: Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái…",
+        "Về cách thể hiện: Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử…",
+        "Về tinh thần: Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt…",
+        "Về cách thể hiện: Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời…",
+        "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí…"
+      ],
+      "correctIndices": [
+        2,
+        3
+      ],
+      "explanation": "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong.\nVề tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên hàng đầu, biểu diễn hết mình để thể hiện vẻ đẹp võ thuật và võ đạo của Phật Quang Quyền.\nVề cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn.",
+      "sourceQuestion": "Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật?",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q02",
+      "lessonId": "green-lesson-04",
+      "number": 2,
+      "type": "truefalse",
+      "question": "Theo quy định môn phái, môn sinh tuyệt đối không khoe khoang mình là người có võ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải:\nTôn trọng nội quy nơi giao dịch và nơi công cộng.\nÔn tồn, cởi mở nhưng có chính kiến.\nNiềm nở, lễ độ nhưng không nịnh bợ hay suồng sã.\nKhiêm tốn nhưng không khúm núm, quy lụy.\nTuyệt đối không khoe khoang mình là người có võ.",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải có thái độ như thế nào?",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q03",
+      "lessonId": "green-lesson-04",
+      "number": 3,
+      "type": "multiple",
+      "question": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải đối thoại ra sao? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Trình bày rõ ràng, mạch lạc và tế nhị.",
+        "Có như vậy mới làm cho công tác xã hội có ý nghĩa và góp phần làm sáng danh môn phái.",
+        "Giữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ.",
+        "Tránh lời nói cộc cằn, xúc phạm hoặc làm mất lòng người khác.",
+        "Trong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người…",
+        "Khi giao tiếp với các võ phái bạn, Võ sinh Phật Quang Quyền phải luôn thận trọng, khiêm tốn và nhã…",
+        "Cởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau.",
+        "Biết lắng nghe để hiểu người đối thoại.",
+        "Biết dùng lý lẽ và dẫn chứng để thuyết phục người khác khi cần."
+      ],
+      "correctIndices": [
+        0,
+        2,
+        3,
+        7,
+        8
+      ],
+      "explanation": "Khi đối thoại, Võ sinh Phật Quang Quyền cần:\nGiữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ.\nBiết lắng nghe để hiểu người đối thoại.\nTrình bày rõ ràng, mạch lạc và tế nhị.\nBiết dùng lý lẽ và dẫn chứng để thuyết phục người khác khi cần.\nTránh lời nói cộc cằn, xúc phạm hoặc làm mất lòng người khác.",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải đối thoại ra sao?",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q04",
+      "lessonId": "green-lesson-04",
+      "number": 4,
+      "type": "matching",
+      "question": "Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao? Ghép mỗi mục bên trái với nội dung đúng bên phải.",
+      "options": [],
+      "leftItems": [
+        "Về thái độ",
+        "Về trang phục",
+        "Về dáng điệu",
+        "Về cử chỉ",
+        "Về cách đối xử"
+      ],
+      "rightItems": [
+        "Gọn gàng, sạch sẽ, nghiêm túc.",
+        "Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa…",
+        "Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác.",
+        "Ung dung, tươi tỉnh, tạo thiện cảm với mọi người.",
+        "Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ."
+      ],
+      "correctPairs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "explanation": "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái.\nVề thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ.\nVề trang phục: Gọn gàng, sạch sẽ, nghiêm túc.\nVề dáng điệu: Ung dung, tươi tỉnh, tạo thiện cảm với mọi người.\nVề cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác.\nVề cách đối xử: Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa.\nTóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử với mọi người.",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao?",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q05",
+      "lessonId": "green-lesson-04",
+      "number": 5,
+      "type": "single",
+      "question": "Tác phong của Võ sinh Phật Quang Quyền khi tham gia công tác xã hội ra sao?",
+      "options": [
+        "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí…",
+        "Trong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người được giúp đỡ mặc cảm…",
+        "Có như vậy mới làm cho công tác xã hội có ý nghĩa và góp phần làm sáng danh môn phái.",
+        "Về tinh thần: Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên hàng đầu, biểu…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí công vô tư và bất vụ lợi.\nTrong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người được giúp đỡ mặc cảm hay tủi thân, đồng thời giữ gìn ý tứ để tránh những sự hiểu lầm không đáng có.\nCó như vậy mới làm cho công tác xã hội có ý nghĩa và góp phần làm sáng danh môn phái.",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền khi tham gia công tác xã hội ra sao?",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q06",
+      "lessonId": "green-lesson-04",
+      "number": 6,
+      "type": "fill",
+      "question": "Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.? Điền cụm từ chính: ______.",
+      "options": [
+        "Trong những buổi sinh hoạt nội bộ",
+        "Bái tổ Thanh long độc kiếm.",
+        "Roi Thái sơn,",
+        "Ẩn long trầm thủy tung mình.",
+        "Hùng kê quyền,",
+        "Thanh long độc kiếm"
+      ],
+      "blanks": [
+        "Trong những buổi sinh hoạt nội bộ"
+      ],
+      "explanation": "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ:\nThân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ.\nHồn nhiên: Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn.\nCởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau.\nBao dung: Biết giúp đỡ, cảm thông, bỏ qua lỗi nhỏ và góp ý nhẹ nhàng để cùng nhau tiến bộ.",
+      "sourceQuestion": "Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q07",
+      "lessonId": "green-lesson-04",
+      "number": 7,
+      "type": "multiple",
+      "question": "Võ sinh hãy kể tên những bài võ quy định của Liên đoàn Võ cổ truyền Việt Nam hiện nay? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Ngọc trản quyền,",
+        "Lão mai quyền,",
+        "Thanh long độc kiếm",
+        "Roi Thái sơn,",
+        "Hùng kê quyền,",
+        "Thanh long bái tổ hầu sư.",
+        "Siêu xung thiên",
+        "Lão hổ thượng sơn",
+        "Xung thiên bạch hạc nghiêng mình chuyển thân.",
+        "Song tuyết kiếm",
+        "Độc lư thương.",
+        "Phong hoa đao"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "explanation": "Lão hổ thượng sơn\nHùng kê quyền,\nNgọc trản quyền,\nLão mai quyền,\nPhong hoa đao\nThanh long độc kiếm\nSong tuyết kiếm\nRoi Thái sơn,\nSiêu xung thiên\nĐộc lư thương.",
+      "sourceQuestion": "Võ sinh hãy kể tên những bài võ quy định của Liên đoàn Võ cổ truyền Việt Nam hiện nay?",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q08",
+      "lessonId": "green-lesson-04",
+      "number": 8,
+      "type": "single",
+      "question": "Vì sao người học võ phải lấy Đạo đức - Nhân nghĩa làm gốc?",
+      "options": [
+        "Vì vậy, người học võ phải luôn lấy Đạo đức - Nhân nghĩa làm gốc để hoàn thiện bản thân, xây dựng gia đình hạnh phúc,…",
+        "Đạo đức - Nhân nghĩa là nền tảng của nhân cách và là gốc rễ của người học võ. Người có võ mà thiếu…",
+        "Về cách thể hiện: Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm…",
+        "Về tinh thần: Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên hàng đầu, biểu…"
+      ],
+      "correctIndex": 1,
+      "explanation": "Đạo đức - Nhân nghĩa là nền tảng của nhân cách và là gốc rễ của người học võ. Người có võ mà thiếu đạo đức dễ sử dụng võ thuật sai mục đích, gây tổn hại cho bản thân và xã hội. Ngược lại, người có đạo đức sẽ biết sống vị tha, hướng thiện, bảo vệ lẽ phải, giúp đỡ mọi người và phụng sự cộng đồng.\nVì vậy, người học võ phải luôn lấy Đạo đức - Nhân nghĩa làm gốc để hoàn thiện bản thân, xây dựng gia đình hạnh phúc, góp phần làm đẹp cho xã hội và đất nước.",
+      "sourceQuestion": "Vì sao người học võ phải lấy Đạo đức - Nhân nghĩa làm gốc?",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q09",
+      "lessonId": "green-lesson-04",
+      "number": 9,
+      "type": "multiple",
+      "question": "Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Bi: Yêu thương, vị tha, biết sống vì mọi người.",
+        "Dũng: Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng.",
+        "Về tinh thần: Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái…",
+        "Biết lắng nghe để hiểu người đối thoại.",
+        "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi…",
+        "Trí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải.",
+        "Tránh lời nói cộc cằn, xúc phạm hoặc làm mất lòng người khác."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        5
+      ],
+      "explanation": "Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện.\nBi: Yêu thương, vị tha, biết sống vì mọi người.\nTrí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải.\nDũng: Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng.\nNgười môn sinh phải luôn rèn luyện theo tinh thần: Sống, Giúp người khác sống và Sống cho người khác; sống có trách nhiệm với gia đình, xã hội, đất nước; biết phụng sự cộng đồng, giữ gìn danh dự môn phái và không ngừng hoàn thiện bản thân để trở thành người hữu ích cho nhân loại.",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào?",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-04-q10",
+      "lessonId": "green-lesson-04",
+      "number": 10,
+      "type": "ordering",
+      "question": "Nêu xuất xứ bài Thanh Long Độc Kiếm.? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Vũ môn cá vượt qua thềm vờn mây.",
+        "Thanh long bãi vĩ xuất thần.",
+        "Tứ phương bái tổ kính sư.",
+        "Long thăng trảm thạch liền khi (x) (x).",
+        "Quy xà phạt thảo tứ bề sát kinh (x) (x).",
+        "Giao long đảo hải vẫy vùng.",
+        "Bài kiếm lấy hình tượng uy mãnh của rồng làm chủ đạo, đòi hỏi người tập phải kiên trì rèn…",
+        "Xuất kiếm thủ bộ dáng người uy nghi.",
+        "Nộ, giáng, thích, trảm tụ thần triều dâng.",
+        "Long vân gặp hội muôn phần vũ phong (x).",
+        "Ẩn long trầm thủy tung mình.",
+        "Diện tiền lập bộ kiếm thu trở về.",
+        "Thanh long xuất thế trở về.",
+        "Bái tổ Thanh long độc kiếm.",
+        "Thanh long bái tổ hầu sư.",
+        "Xung thiên bạch hạc nghiêng mình chuyển thân.",
+        "Vọng nguyệt long giáng tầm ngư.",
+        "Tầm xà sát thích vân phi liền kề.",
+        "Thanh Long Độc Kiếm là bài kiếm nằm trong hệ thống giáo án huấn luyện của võ phái Thanh…"
+      ],
+      "correctOrder": [
+        18,
+        6,
+        13,
+        2,
+        7,
+        3,
+        17,
+        12,
+        4,
+        10,
+        8,
+        5,
+        15,
+        1,
+        9,
+        16,
+        0,
+        14,
+        11
+      ],
+      "explanation": "Thanh Long Độc Kiếm là bài kiếm nằm trong hệ thống giáo án huấn luyện của võ phái Thanh Long Võ Đạo do Đại võ sư Quốc tế Lê Kim Hòa sáng lập.\nBài kiếm lấy hình tượng uy mãnh của rồng làm chủ đạo, đòi hỏi người tập phải kiên trì rèn luyện, thân pháp linh hoạt, di chuyển nhanh nhẹn và thực hiện kỹ thuật chính xác, hiệu quả.\nII - Lời thiệu:\nBái tổ Thanh long độc kiếm.\nTứ phương bái tổ kính sư.\nXuất kiếm thủ bộ dáng người uy nghi.\nLong thăng trảm thạch liền khi (x) (x).\nTầm xà sát thích vân phi liền kề.\nThanh long xuất thế trở về.\nQuy xà phạt thảo tứ bề sát kinh (x) (x).\nẨn long trầm thủy tung mình.\nNộ, giáng, thích, trảm tụ thần triều dâng.\nGiao long đảo hải vẫy vùng.\nXung thiên bạch hạc nghiêng mình chuyển thân.\nThanh long bãi vĩ xuất thần.\nLong vân gặp hội muôn phần vũ phong (x).\nVọng nguyệt long giáng tầm ngư.\nVũ môn cá vượt qua thềm vờn mây.\nThanh long bái tổ hầu sư.\nDiện tiền lập bộ kiếm thu trở về.",
+      "sourceQuestion": "Nêu xuất xứ bài Thanh Long Độc Kiếm.",
+      "rankId": "luc-4",
+      "beltId": "green"
+    },
+    {
+      "id": "exam-luc-4-scenario-c01-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 11,
+      "type": "scenario",
+      "sourceQuestion": "Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong. Về tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên hàng đầu, biểu diễn hết mình để thể hiện vẻ đẹp võ thuật và võ đạo của Phật Quang Quyền. Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong.",
+        "Tầm xà sát thích vân phi liền kề.",
+        "Diện tiền lập bộ kiếm thu trở về.",
+        "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-matching-c04-pairs",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 12,
+      "type": "matching",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái. Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ. Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc. Về dáng điệu: Ung dung, tươi tỉnh, tạo thiện cảm với mọi người. Về cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác. Về cách đối xử: Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa. Tóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử…",
+      "question": "Ghép mỗi mục với nội dung đúng về «Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao».",
+      "options": [],
+      "leftItems": [
+        "Về thái độ",
+        "Về trang phục",
+        "Về dáng điệu",
+        "Về cử chỉ",
+        "Về cách đối xử"
+      ],
+      "rightItems": [
+        "Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ.",
+        "Gọn gàng, sạch sẽ, nghiêm túc.",
+        "Ung dung, tươi tỉnh, tạo thiện cảm với mọi người.",
+        "Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác.",
+        "Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa."
+      ],
+      "correctPairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "exam-luc-4-scenario-c02-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 13,
+      "type": "scenario",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải có thái độ như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng. Ôn tồn, cởi mở nhưng có chính kiến. Niềm nở, lễ độ nhưng không nịnh bợ hay suồng sã. Khiêm tốn nhưng không khúm núm, quy lụy. Tuyệt đối không khoe khoang mình là người có võ.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải có thái độ như thế nào». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng.",
+        "Giao long đảo hải vẫy vùng.",
+        "Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn.",
+        "Tứ phương bái tổ kính sư."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c01-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 14,
+      "type": "truefalse",
+      "sourceQuestion": "Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong. Về tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên hàng đầu, biểu diễn hết mình để thể hiện vẻ đẹp võ thuật và võ đạo của Phật Quang Quyền. Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn.",
+      "question": "Nhận định sau đúng hay sai? Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-matching-c06-pairs",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 15,
+      "type": "matching",
+      "sourceQuestion": "Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.",
+      "topic": "green-lesson-04",
+      "explanation": "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ. Hồn nhiên: Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn. Cởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau. Bao dung: Biết giúp đỡ, cảm thông, bỏ qua lỗi nhỏ và góp ý nhẹ nhàng để cùng nhau tiến bộ.",
+      "question": "Ghép mỗi mục với nội dung đúng về «Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.».",
+      "options": [],
+      "leftItems": [
+        "Thân ái",
+        "Hồn nhiên",
+        "Cởi mở",
+        "Bao dung"
+      ],
+      "rightItems": [
+        "Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ.",
+        "Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn.",
+        "Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau.",
+        "Biết giúp đỡ, cảm thông, bỏ qua lỗi nhỏ và góp ý nhẹ nhàng để cùng nhau tiến bộ."
+      ],
+      "correctPairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "exam-luc-4-scenario-c03-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 16,
+      "type": "scenario",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải đối thoại ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi đối thoại, Võ sinh Phật Quang Quyền cần: Giữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ. Biết lắng nghe để hiểu người đối thoại. Trình bày rõ ràng, mạch lạc và tế nhị. Biết dùng lý lẽ và dẫn chứng để thuyết phục người khác khi cần. Tránh lời nói cộc cằn, xúc phạm hoặc làm mất lòng người khác.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải đối thoại ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Khi đối thoại, Võ sinh Phật Quang Quyền cần: Giữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ.",
+        "Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ.",
+        "Khiêm tốn nhưng không khúm núm, quy lụy.",
+        "Vì vậy, người học võ phải luôn lấy Đạo đức - Nhân nghĩa làm gốc để hoàn thiện bản thân, xây dựng gia đình hạnh phúc, góp phần làm đẹp cho xã hội và đất nước."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c02-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 17,
+      "type": "truefalse",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải có thái độ như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng. Ôn tồn, cởi mở nhưng có chính kiến. Niềm nở, lễ độ nhưng không nịnh bợ hay suồng sã. Khiêm tốn nhưng không khúm núm, quy lụy. Tuyệt đối không khoe khoang mình là người có võ.",
+      "question": "Nhận định sau đúng hay sai? Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c01-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 18,
+      "type": "single",
+      "sourceQuestion": "Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong. Về tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên hàng đầu, biểu diễn hết mình để thể hiện vẻ đẹp võ thuật và võ đạo của Phật Quang Quyền. Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn.",
+      "question": "Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật?",
+      "options": [
+        "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong.",
+        "Người có võ mà thiếu đạo đức dễ sử dụng võ thuật sai mục đích, gây tổn hại cho bản thân và xã hội.",
+        "Trình bày rõ ràng, mạch lạc và tế nhị.",
+        "Tóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử với mọi người."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-matching-c10-pairs",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 19,
+      "type": "matching",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện. Bi: Yêu thương, vị tha, biết sống vì mọi người. Trí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải. Dũng: Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng. Người môn sinh phải luôn rèn luyện theo tinh thần: Sống, Giúp người khác sống và Sống cho người khác; sống có trách nhiệm với gia đình, xã hội, đất nước; biết phụng sự cộng đồng, giữ gìn danh dự môn phái và không ngừng hoàn thiện bản thân để trở thành người hữu ích cho nhân loại.",
+      "question": "Ghép mỗi mục với nội dung đúng về «Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào».",
+      "options": [],
+      "leftItems": [
+        "Bi",
+        "Trí",
+        "Dũng"
+      ],
+      "rightItems": [
+        "Yêu thương, vị tha, biết sống vì mọi người.",
+        "Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải.",
+        "Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng."
+      ],
+      "correctPairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "exam-luc-4-scenario-c04-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 20,
+      "type": "scenario",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái. Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ. Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc. Về dáng điệu: Ung dung, tươi tỉnh, tạo thiện cảm với mọi người. Về cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác. Về cách đối xử: Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa. Tóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử…",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái.",
+        "Lão hổ thượng sơn Hùng kê quyền, Ngọc trản quyền, Lão mai quyền, Phong hoa đao Thanh long độc kiếm Song tuyết kiếm Roi Thái sơn, Siêu xung thiên Độc lư thương.",
+        "Niềm nở, lễ độ nhưng không nịnh bợ hay suồng sã.",
+        "Xuất kiếm thủ bộ dáng người uy nghi."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c03-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 21,
+      "type": "truefalse",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải đối thoại ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi đối thoại, Võ sinh Phật Quang Quyền cần: Giữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ. Biết lắng nghe để hiểu người đối thoại. Trình bày rõ ràng, mạch lạc và tế nhị. Biết dùng lý lẽ và dẫn chứng để thuyết phục người khác khi cần. Tránh lời nói cộc cằn, xúc phạm hoặc làm mất lòng người khác.",
+      "question": "Nhận định sau đúng hay sai? Khi đối thoại, Võ sinh Phật Quang Quyền cần: Giữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c02-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 22,
+      "type": "single",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải có thái độ như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng. Ôn tồn, cởi mở nhưng có chính kiến. Niềm nở, lễ độ nhưng không nịnh bợ hay suồng sã. Khiêm tốn nhưng không khúm núm, quy lụy. Tuyệt đối không khoe khoang mình là người có võ.",
+      "question": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải có thái độ như thế nào?",
+      "options": [
+        "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng.",
+        "Xuất kiếm thủ bộ dáng người uy nghi.",
+        "Vì lòng biết ơn giúp con người sống khiêm tốn, có tình nghĩa, biết trân trọng những giá trị tốt đẹp và không quên công lao của những người đã giúp đỡ mình trưởng thành.",
+        "Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-scenario-c05-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 23,
+      "type": "scenario",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền khi tham gia công tác xã hội ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí công vô tư và bất vụ lợi. Trong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người được giúp đỡ mặc cảm hay tủi thân, đồng thời giữ gìn ý tứ để tránh những sự hiểu lầm không đáng có. Có như vậy mới làm cho công tác xã hội có ý nghĩa và góp phần làm sáng danh môn phái.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Tác phong của Võ sinh Phật Quang Quyền khi tham gia công tác xã hội ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí công vô tư và bất vụ lợi.",
+        "II - Lời thiệu: Bái tổ Thanh long độc kiếm.",
+        "Bao dung: Biết giúp đỡ, cảm thông, bỏ qua lỗi nhỏ và góp ý nhẹ nhàng để cùng nhau tiến bộ.",
+        "Vì vậy, người học võ phải luôn lấy Đạo đức - Nhân nghĩa làm gốc để hoàn thiện bản thân, xây dựng gia đình hạnh phúc, góp phần làm đẹp cho xã hội và đất nước."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-multiple-c04-list",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 24,
+      "type": "multiple",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái. Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ. Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc. Về dáng điệu: Ung dung, tươi tỉnh, tạo thiện cảm với mọi người. Về cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác. Về cách đối xử: Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa. Tóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử…",
+      "question": "Những ý nào đúng với nội dung «Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao»? Chọn tất cả đáp án đúng.",
+      "options": [
+        "Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ.",
+        "Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc.",
+        "Về dáng điệu: Ung dung, tươi tỉnh, tạo thiện cảm với mọi người.",
+        "Bài kiếm lấy hình tượng uy mãnh của rồng làm chủ đạo, đòi hỏi người tập phải kiên trì rèn luyện, thân pháp linh hoạt, di chuyển nhanh nhẹn và thực hiện kỹ thuật chính xác, hiệu…",
+        "Trong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người được giúp đỡ mặc cảm hay tủi thân, đồng thời giữ gìn ý tứ để tránh những sự hiểu…"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "exam-luc-4-truefalse-c04-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 25,
+      "type": "truefalse",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái. Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ. Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc. Về dáng điệu: Ung dung, tươi tỉnh, tạo thiện cảm với mọi người. Về cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác. Về cách đối xử: Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa. Tóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử…",
+      "question": "Nhận định sau đúng hay sai? Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c03-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 26,
+      "type": "single",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải đối thoại ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi đối thoại, Võ sinh Phật Quang Quyền cần: Giữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ. Biết lắng nghe để hiểu người đối thoại. Trình bày rõ ràng, mạch lạc và tế nhị. Biết dùng lý lẽ và dẫn chứng để thuyết phục người khác khi cần. Tránh lời nói cộc cằn, xúc phạm hoặc làm mất lòng người khác.",
+      "question": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải đối thoại ra sao?",
+      "options": [
+        "Khi đối thoại, Võ sinh Phật Quang Quyền cần: Giữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ.",
+        "Quy xà phạt thảo tứ bề sát kinh (x) (x).",
+        "Thanh Long Độc Kiếm là bài kiếm nằm trong hệ thống giáo án huấn luyện của võ phái Thanh Long Võ Đạo do Đại võ sư Quốc tế Lê Kim Hòa sáng lập.",
+        "Vì lòng biết ơn giúp con người sống khiêm tốn, có tình nghĩa, biết trân trọng những giá trị tốt đẹp và không quên công lao của những người đã giúp đỡ mình trưởng thành."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-scenario-c06-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 27,
+      "type": "scenario",
+      "sourceQuestion": "Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.",
+      "topic": "green-lesson-04",
+      "explanation": "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ. Hồn nhiên: Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn. Cởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau. Bao dung: Biết giúp đỡ, cảm thông, bỏ qua lỗi nhỏ và góp ý nhẹ nhàng để cùng nhau tiến bộ.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ.",
+        "Vọng nguyệt long giáng tầm ngư.",
+        "Theo luật nhân quả, gieo nhân tốt sẽ gặt quả tốt, nên khi ta sống chân thành, vị tha và làm điều thiện, ta sẽ nhận lại sự yêu thương, tin tưởng và những điều tốt đẹp trong cuộc sống.",
+        "Biết dùng lý lẽ và dẫn chứng để thuyết phục người khác khi cần."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-multiple-c06-list",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 28,
+      "type": "multiple",
+      "sourceQuestion": "Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.",
+      "topic": "green-lesson-04",
+      "explanation": "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ. Hồn nhiên: Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn. Cởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau. Bao dung: Biết giúp đỡ, cảm thông, bỏ qua lỗi nhỏ và góp ý nhẹ nhàng để cùng nhau tiến bộ.",
+      "question": "Những ý nào đúng với nội dung «Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.»? Chọn tất cả đáp án đúng.",
+      "options": [
+        "Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ.",
+        "Hồn nhiên: Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn.",
+        "Cởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau.",
+        "Luôn kính trọng và nhớ ơn những người đã giúp đỡ mình, cố gắng học tập, rèn luyện và sống tốt để đền đáp công ơn ấy; đồng thời biết giúp đỡ người khác để lan tỏa những điều tốt…",
+        "Trí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "exam-luc-4-truefalse-c05-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 29,
+      "type": "truefalse",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền khi tham gia công tác xã hội ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí công vô tư và bất vụ lợi. Trong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người được giúp đỡ mặc cảm hay tủi thân, đồng thời giữ gìn ý tứ để tránh những sự hiểu lầm không đáng có. Có như vậy mới làm cho công tác xã hội có ý nghĩa và góp phần làm sáng danh môn phái.",
+      "question": "Nhận định sau đúng hay sai? Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí công vô tư và bất vụ lợi.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c04-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 30,
+      "type": "single",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái. Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ. Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc. Về dáng điệu: Ung dung, tươi tỉnh, tạo thiện cảm với mọi người. Về cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác. Về cách đối xử: Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa. Tóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử…",
+      "question": "Tác phong của Võ sinh Phật Quang Quyền ở những nơi công cộng ra sao?",
+      "options": [
+        "Ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ gìn đạo đức và kỷ luật bản thân, vì mọi người thường nhìn vào tác phong để đánh giá phẩm chất của người môn sinh và danh dự của môn phái.",
+        "Trong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người được giúp đỡ mặc cảm hay tủi thân, đồng thời giữ gìn ý tứ để tránh những sự hiểu lầm không đáng có.",
+        "Trình bày rõ ràng, mạch lạc và tế nhị.",
+        "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-scenario-c07-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 31,
+      "type": "scenario",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền khi giao tiếp với các võ phái bạn ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi giao tiếp với các võ phái bạn, Võ sinh Phật Quang Quyền phải luôn thận trọng, khiêm tốn và nhã nhặn; phát huy tinh thần võ hữu, nêu cao tình liên ái và giữ gìn uy danh của môn phái.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Tác phong của Võ sinh Phật Quang Quyền khi giao tiếp với các võ phái bạn ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Khi giao tiếp với các võ phái bạn, Võ sinh Phật Quang Quyền phải luôn thận trọng, khiêm tốn và nhã nhặn; phát huy tinh thần võ hữu, nêu cao tình liên ái và giữ gìn uy danh của môn phái.",
+        "Vọng nguyệt long giáng tầm ngư.",
+        "Trong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người được giúp đỡ mặc cảm hay tủi thân, đồng thời giữ gìn ý tứ để tránh những sự hiểu lầm không đáng có.",
+        "Tóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử với mọi người."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-multiple-c10-list",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 32,
+      "type": "multiple",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện. Bi: Yêu thương, vị tha, biết sống vì mọi người. Trí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải. Dũng: Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng. Người môn sinh phải luôn rèn luyện theo tinh thần: Sống, Giúp người khác sống và Sống cho người khác; sống có trách nhiệm với gia đình, xã hội, đất nước; biết phụng sự cộng đồng, giữ gìn danh dự môn phái và không ngừng hoàn thiện bản thân để trở thành người hữu ích cho nhân loại.",
+      "question": "Những ý nào đúng với nội dung «Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào»? Chọn tất cả đáp án đúng.",
+      "options": [
+        "Bi: Yêu thương, vị tha, biết sống vì mọi người.",
+        "Trí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải.",
+        "Dũng: Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng.",
+        "Về cách đối xử: Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa.",
+        "Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "exam-luc-4-truefalse-c06-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 33,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.",
+      "topic": "green-lesson-04",
+      "explanation": "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ. Hồn nhiên: Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn. Cởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau. Bao dung: Biết giúp đỡ, cảm thông, bỏ qua lỗi nhỏ và góp ý nhẹ nhàng để cùng nhau tiến bộ.",
+      "question": "Nhận định sau đúng hay sai? Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c05-focus",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 34,
+      "type": "single",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền khi tham gia công tác xã hội ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí công vô tư và bất vụ lợi. Trong quá trình giúp đỡ người khác phải khiêm tốn, hòa nhã, lễ độ, không kể công, không làm người được giúp đỡ mặc cảm hay tủi thân, đồng thời giữ gìn ý tứ để tránh những sự hiểu lầm không đáng có. Có như vậy mới làm cho công tác xã hội có ý nghĩa và góp phần làm sáng danh môn phái.",
+      "question": "Theo nội dung bài, ý nào đúng về «Tác phong của Võ sinh Phật Quang Quyền khi tham gia công tác xã hội ra sao»?",
+      "options": [
+        "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí công vô tư và bất vụ lợi.",
+        "Vọng nguyệt long giáng tầm ngư.",
+        "Khi giao tiếp với các võ phái bạn, Võ sinh Phật Quang Quyền phải luôn thận trọng, khiêm tốn và nhã nhặn; phát huy tinh thần võ hữu, nêu cao tình liên ái và giữ gìn uy danh của môn phái.",
+        "Trình bày rõ ràng, mạch lạc và tế nhị."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-scenario-c10-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 35,
+      "type": "scenario",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện. Bi: Yêu thương, vị tha, biết sống vì mọi người. Trí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải. Dũng: Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng. Người môn sinh phải luôn rèn luyện theo tinh thần: Sống, Giúp người khác sống và Sống cho người khác; sống có trách nhiệm với gia đình, xã hội, đất nước; biết phụng sự cộng đồng, giữ gìn danh dự môn phái và không ngừng hoàn thiện bản thân để trở thành người hữu ích cho nhân loại.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện.",
+        "Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc.",
+        "Biết lắng nghe để hiểu người đối thoại.",
+        "Luôn kính trọng và nhớ ơn những người đã giúp đỡ mình, cố gắng học tập, rèn luyện và sống tốt để đền đáp công ơn ấy; đồng thời biết giúp đỡ người khác để lan tỏa những điều tốt đẹp trong cuộc sống."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c07-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 36,
+      "type": "truefalse",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền khi giao tiếp với các võ phái bạn ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi giao tiếp với các võ phái bạn, Võ sinh Phật Quang Quyền phải luôn thận trọng, khiêm tốn và nhã nhặn; phát huy tinh thần võ hữu, nêu cao tình liên ái và giữ gìn uy danh của môn phái.",
+      "question": "Nhận định sau đúng hay sai? Khi giao tiếp với các võ phái bạn, Võ sinh Phật Quang Quyền phải luôn thận trọng, khiêm tốn và nhã nhặn; phát huy tinh thần võ hữu, nêu cao tình liên ái và giữ gìn uy danh của môn phái.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c06-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 37,
+      "type": "single",
+      "sourceQuestion": "Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.",
+      "topic": "green-lesson-04",
+      "explanation": "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ. Hồn nhiên: Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn. Cởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau. Bao dung: Biết giúp đỡ, cảm thông, bỏ qua lỗi nhỏ và góp ý nhẹ nhàng để cùng nhau tiến bộ.",
+      "question": "Võ sinh hãy cho biết thái độ cần có trong những buổi sinh hoạt nội bộ môn phái.?",
+      "options": [
+        "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ.",
+        "Long vân gặp hội muôn phần vũ phong (x).",
+        "II - Lời thiệu: Bái tổ Thanh long độc kiếm.",
+        "Theo luật nhân quả, gieo nhân tốt sẽ gặt quả tốt, nên khi ta sống chân thành, vị tha và làm điều thiện, ta sẽ nhận lại sự yêu thương, tin tưởng và những điều tốt đẹp trong cuộc sống."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-scenario-c11-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 38,
+      "type": "scenario",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người bằng lòng tôn trọng, yêu thương, cảm thông và giúp đỡ; luôn cư xử với người khác như chính mình mong muốn được đối xử lại. Theo luật nhân quả, gieo nhân tốt sẽ gặt quả tốt, nên khi ta sống chân thành, vị tha và làm điều thiện, ta sẽ nhận lại sự yêu thương, tin tưởng và những điều tốt đẹp trong cuộc sống.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Người Võ sinh Phật Quang Quyền phải đối xử với mọi người như thế nào». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người bằng lòng tôn trọng, yêu thương, cảm thông và giúp đỡ; luôn cư xử với người khác như chính mình mong muốn được đối xử lại.",
+        "Quy xà phạt thảo tứ bề sát kinh (x) (x).",
+        "Biết lắng nghe để hiểu người đối thoại.",
+        "Lão hổ thượng sơn Hùng kê quyền, Ngọc trản quyền, Lão mai quyền, Phong hoa đao Thanh long độc kiếm Song tuyết kiếm Roi Thái sơn, Siêu xung thiên Độc lư thương."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c08-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 39,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh hãy kể tên những bài võ quy định của Liên đoàn Võ cổ truyền Việt Nam hiện nay?",
+      "topic": "green-lesson-04",
+      "explanation": "Lão hổ thượng sơn Hùng kê quyền, Ngọc trản quyền, Lão mai quyền, Phong hoa đao Thanh long độc kiếm Song tuyết kiếm Roi Thái sơn, Siêu xung thiên Độc lư thương.",
+      "question": "Nhận định sau đúng hay sai? Lão hổ thượng sơn Hùng kê quyền, Ngọc trản quyền, Lão mai quyền, Phong hoa đao Thanh long độc kiếm Song tuyết kiếm Roi Thái sơn, Siêu xung thiên Độc lư thương.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c07-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 40,
+      "type": "single",
+      "sourceQuestion": "Tác phong của Võ sinh Phật Quang Quyền khi giao tiếp với các võ phái bạn ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi giao tiếp với các võ phái bạn, Võ sinh Phật Quang Quyền phải luôn thận trọng, khiêm tốn và nhã nhặn; phát huy tinh thần võ hữu, nêu cao tình liên ái và giữ gìn uy danh của môn phái.",
+      "question": "Tác phong của Võ sinh Phật Quang Quyền khi giao tiếp với các võ phái bạn ra sao?",
+      "options": [
+        "Khi giao tiếp với các võ phái bạn, Võ sinh Phật Quang Quyền phải luôn thận trọng, khiêm tốn và nhã nhặn; phát huy tinh thần võ hữu, nêu cao tình liên ái và giữ gìn uy danh của môn phái.",
+        "Xuất kiếm thủ bộ dáng người uy nghi.",
+        "Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ.",
+        "Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-scenario-c14-case",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 41,
+      "type": "scenario",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền thực hành lòng biết ơn như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Luôn kính trọng và nhớ ơn những người đã giúp đỡ mình, cố gắng học tập, rèn luyện và sống tốt để đền đáp công ơn ấy; đồng thời biết giúp đỡ người khác để lan tỏa những điều tốt đẹp trong cuộc sống.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Người môn sinh Phật Quang Quyền thực hành lòng biết ơn như thế nào». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Luôn kính trọng và nhớ ơn những người đã giúp đỡ mình, cố gắng học tập, rèn luyện và sống tốt để đền đáp công ơn ấy; đồng thời biết giúp đỡ người khác để lan tỏa những điều tốt đẹp trong cuộc sống.",
+        "Biết lắng nghe để hiểu người đối thoại.",
+        "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người bằng lòng tôn trọng, yêu thương, cảm thông và giúp đỡ; luôn cư xử với người khác như chính mình mong muốn được đối xử lại.",
+        "Thanh long bãi vĩ xuất thần."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c09-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 42,
+      "type": "truefalse",
+      "sourceQuestion": "Vì sao người học võ phải lấy Đạo đức - Nhân nghĩa làm gốc?",
+      "topic": "green-lesson-04",
+      "explanation": "Đạo đức - Nhân nghĩa là nền tảng của nhân cách và là gốc rễ của người học võ. Người có võ mà thiếu đạo đức dễ sử dụng võ thuật sai mục đích, gây tổn hại cho bản thân và xã hội. Ngược lại, người có đạo đức sẽ biết sống vị tha, hướng thiện, bảo vệ lẽ phải, giúp đỡ mọi người và phụng sự cộng đồng. Vì vậy, người học võ phải luôn lấy Đạo đức - Nhân nghĩa làm gốc để hoàn thiện bản thân, xây dựng gia đình hạnh phúc, góp phần làm đẹp cho xã hội và đất nước.",
+      "question": "Nhận định sau đúng hay sai? Đạo đức - Nhân nghĩa là nền tảng của nhân cách và là gốc rễ của người học võ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c08-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 43,
+      "type": "single",
+      "sourceQuestion": "Võ sinh hãy kể tên những bài võ quy định của Liên đoàn Võ cổ truyền Việt Nam hiện nay?",
+      "topic": "green-lesson-04",
+      "explanation": "Lão hổ thượng sơn Hùng kê quyền, Ngọc trản quyền, Lão mai quyền, Phong hoa đao Thanh long độc kiếm Song tuyết kiếm Roi Thái sơn, Siêu xung thiên Độc lư thương.",
+      "question": "Võ sinh hãy kể tên những bài võ quy định của Liên đoàn Võ cổ truyền Việt Nam hiện nay?",
+      "options": [
+        "Lão hổ thượng sơn Hùng kê quyền, Ngọc trản quyền, Lão mai quyền, Phong hoa đao Thanh long độc kiếm Song tuyết kiếm Roi Thái sơn, Siêu xung thiên Độc lư thương.",
+        "II - Lời thiệu: Bái tổ Thanh long độc kiếm.",
+        "Vũ môn cá vượt qua thềm vờn mây.",
+        "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c10-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 44,
+      "type": "truefalse",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện. Bi: Yêu thương, vị tha, biết sống vì mọi người. Trí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải. Dũng: Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng. Người môn sinh phải luôn rèn luyện theo tinh thần: Sống, Giúp người khác sống và Sống cho người khác; sống có trách nhiệm với gia đình, xã hội, đất nước; biết phụng sự cộng đồng, giữ gìn danh dự môn phái và không ngừng hoàn thiện bản thân để trở thành người hữu ích cho nhân loại.",
+      "question": "Nhận định sau đúng hay sai? Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c09-focus",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 45,
+      "type": "single",
+      "sourceQuestion": "Vì sao người học võ phải lấy Đạo đức - Nhân nghĩa làm gốc?",
+      "topic": "green-lesson-04",
+      "explanation": "Đạo đức - Nhân nghĩa là nền tảng của nhân cách và là gốc rễ của người học võ. Người có võ mà thiếu đạo đức dễ sử dụng võ thuật sai mục đích, gây tổn hại cho bản thân và xã hội. Ngược lại, người có đạo đức sẽ biết sống vị tha, hướng thiện, bảo vệ lẽ phải, giúp đỡ mọi người và phụng sự cộng đồng. Vì vậy, người học võ phải luôn lấy Đạo đức - Nhân nghĩa làm gốc để hoàn thiện bản thân, xây dựng gia đình hạnh phúc, góp phần làm đẹp cho xã hội và đất nước.",
+      "question": "Theo nội dung bài, ý nào đúng về «Vì sao người học võ phải lấy Đạo đức - Nhân nghĩa làm gốc»?",
+      "options": [
+        "Đạo đức - Nhân nghĩa là nền tảng của nhân cách và là gốc rễ của người học võ.",
+        "Về cách đối xử: Quang minh, hào hiệp, bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa.",
+        "Long thăng trảm thạch liền khi (x) (x).",
+        "Khiêm tốn nhưng không khúm núm, quy lụy."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c11-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 46,
+      "type": "truefalse",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người bằng lòng tôn trọng, yêu thương, cảm thông và giúp đỡ; luôn cư xử với người khác như chính mình mong muốn được đối xử lại. Theo luật nhân quả, gieo nhân tốt sẽ gặt quả tốt, nên khi ta sống chân thành, vị tha và làm điều thiện, ta sẽ nhận lại sự yêu thương, tin tưởng và những điều tốt đẹp trong cuộc sống.",
+      "question": "Nhận định sau đúng hay sai? Người Võ sinh Phật Quang Quyền phải đối xử với mọi người bằng lòng tôn trọng, yêu thương, cảm thông và giúp đỡ; luôn cư xử với người khác như chính mình mong muốn được đối xử lại.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c10-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 47,
+      "type": "single",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện. Bi: Yêu thương, vị tha, biết sống vì mọi người. Trí: Sáng suốt, hiểu đúng đạo lý, nhân quả và lẽ phải. Dũng: Can đảm vượt qua khó khăn, bảo vệ điều thiện và điều đúng. Người môn sinh phải luôn rèn luyện theo tinh thần: Sống, Giúp người khác sống và Sống cho người khác; sống có trách nhiệm với gia đình, xã hội, đất nước; biết phụng sự cộng đồng, giữ gìn danh dự môn phái và không ngừng hoàn thiện bản thân để trở thành người hữu ích cho nhân loại.",
+      "question": "Người Võ sinh Phật Quang Quyền phải tu dưỡng Đạo đức - Nhân nghĩa như thế nào?",
+      "options": [
+        "Người Võ sinh Phật Quang Quyền phải lấy Võ đạo làm nền tảng, lấy Bi – Trí – Dũng làm phương châm rèn luyện.",
+        "Cởi mở: Chân tình, cảm thông và chia sẻ với đồng môn, không khoe khoang hay chọc phá nhau.",
+        "Ôn tồn, cởi mở nhưng có chính kiến.",
+        "Về tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c12-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 48,
+      "type": "truefalse",
+      "sourceQuestion": "Biết ơn là gì?",
+      "topic": "green-lesson-04",
+      "explanation": "Biết ơn là luôn ghi nhớ và trân trọng những sự giúp đỡ, dạy dỗ, yêu thương mà mình đã nhận được từ gia đình, thầy cô, bạn bè và mọi người trong cuộc sống.",
+      "question": "Nhận định sau đúng hay sai? Biết ơn là luôn ghi nhớ và trân trọng những sự giúp đỡ, dạy dỗ, yêu thương mà mình đã nhận được từ gia đình, thầy cô, bạn bè và mọi người trong cuộc sống.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c11-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 49,
+      "type": "single",
+      "sourceQuestion": "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người bằng lòng tôn trọng, yêu thương, cảm thông và giúp đỡ; luôn cư xử với người khác như chính mình mong muốn được đối xử lại. Theo luật nhân quả, gieo nhân tốt sẽ gặt quả tốt, nên khi ta sống chân thành, vị tha và làm điều thiện, ta sẽ nhận lại sự yêu thương, tin tưởng và những điều tốt đẹp trong cuộc sống.",
+      "question": "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người như thế nào?",
+      "options": [
+        "Người Võ sinh Phật Quang Quyền phải đối xử với mọi người bằng lòng tôn trọng, yêu thương, cảm thông và giúp đỡ; luôn cư xử với người khác như chính mình mong muốn được đối xử lại.",
+        "Thanh Long Độc Kiếm là bài kiếm nằm trong hệ thống giáo án huấn luyện của võ phái Thanh Long Võ Đạo do Đại võ sư Quốc tế Lê Kim Hòa sáng lập.",
+        "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng.",
+        "Quy xà phạt thảo tứ bề sát kinh (x) (x)."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c13-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 50,
+      "type": "truefalse",
+      "sourceQuestion": "Vì sao người môn sinh Phật Quang Quyền phải nuôi dưỡng lòng biết ơn?",
+      "topic": "green-lesson-04",
+      "explanation": "Vì lòng biết ơn giúp con người sống khiêm tốn, có tình nghĩa, biết trân trọng những giá trị tốt đẹp và không quên công lao của những người đã giúp đỡ mình trưởng thành.",
+      "question": "Nhận định sau đúng hay sai? Vì lòng biết ơn giúp con người sống khiêm tốn, có tình nghĩa, biết trân trọng những giá trị tốt đẹp và không quên công lao của những người đã giúp đỡ mình trưởng thành.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c12-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 51,
+      "type": "single",
+      "sourceQuestion": "Biết ơn là gì?",
+      "topic": "green-lesson-04",
+      "explanation": "Biết ơn là luôn ghi nhớ và trân trọng những sự giúp đỡ, dạy dỗ, yêu thương mà mình đã nhận được từ gia đình, thầy cô, bạn bè và mọi người trong cuộc sống.",
+      "question": "Biết ơn là gì?",
+      "options": [
+        "Biết ơn là luôn ghi nhớ và trân trọng những sự giúp đỡ, dạy dỗ, yêu thương mà mình đã nhận được từ gia đình, thầy cô, bạn bè và mọi người trong cuộc sống.",
+        "Về trang phục: Gọn gàng, sạch sẽ, nghiêm túc.",
+        "Tầm xà sát thích vân phi liền kề.",
+        "Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, không khoe khoang mình là người có võ."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c14-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 52,
+      "type": "truefalse",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền thực hành lòng biết ơn như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Luôn kính trọng và nhớ ơn những người đã giúp đỡ mình, cố gắng học tập, rèn luyện và sống tốt để đền đáp công ơn ấy; đồng thời biết giúp đỡ người khác để lan tỏa những điều tốt đẹp trong cuộc sống.",
+      "question": "Nhận định sau đúng hay sai? Luôn kính trọng và nhớ ơn những người đã giúp đỡ mình, cố gắng học tập, rèn luyện và sống tốt để đền đáp công ơn ấy; đồng thời biết giúp đỡ người khác để lan tỏa những điều tốt đẹp trong cuộc sống.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c13-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 53,
+      "type": "single",
+      "sourceQuestion": "Vì sao người môn sinh Phật Quang Quyền phải nuôi dưỡng lòng biết ơn?",
+      "topic": "green-lesson-04",
+      "explanation": "Vì lòng biết ơn giúp con người sống khiêm tốn, có tình nghĩa, biết trân trọng những giá trị tốt đẹp và không quên công lao của những người đã giúp đỡ mình trưởng thành.",
+      "question": "Vì sao người môn sinh Phật Quang Quyền phải nuôi dưỡng lòng biết ơn?",
+      "options": [
+        "Vì lòng biết ơn giúp con người sống khiêm tốn, có tình nghĩa, biết trân trọng những giá trị tốt đẹp và không quên công lao của những người đã giúp đỡ mình trưởng thành.",
+        "Đạo đức - Nhân nghĩa là nền tảng của nhân cách và là gốc rễ của người học võ.",
+        "Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn.",
+        "Long thăng trảm thạch liền khi (x) (x)."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c15-true1",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 54,
+      "type": "truefalse",
+      "sourceQuestion": "Nêu xuất xứ bài Thanh Long Độc Kiếm.",
+      "topic": "green-lesson-04",
+      "explanation": "Thanh Long Độc Kiếm là bài kiếm nằm trong hệ thống giáo án huấn luyện của võ phái Thanh Long Võ Đạo do Đại võ sư Quốc tế Lê Kim Hòa sáng lập. Bài kiếm lấy hình tượng uy mãnh của rồng làm chủ đạo, đòi hỏi người tập phải kiên trì rèn luyện, thân pháp linh hoạt, di chuyển nhanh nhẹn và thực hiện kỹ thuật chính xác, hiệu quả. II - Lời thiệu: Bái tổ Thanh long độc kiếm. Tứ phương bái tổ kính sư. Xuất kiếm thủ bộ dáng người uy nghi. Long thăng trảm thạch liền khi (x) (x). Tầm xà sát thích vân phi liền kề. Thanh long xuất thế trở về. Quy xà phạt thảo tứ bề sát kinh (x) (x). Ẩn long trầm thủy tung mình. Nộ, giáng, thích, trảm tụ thần triều dâng. Giao long đảo hải vẫy…",
+      "question": "Nhận định sau đúng hay sai? Thanh Long Độc Kiếm là bài kiếm nằm trong hệ thống giáo án huấn luyện của võ phái Thanh Long Võ Đạo do Đại võ sư Quốc tế Lê Kim Hòa sáng lập.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c14-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 55,
+      "type": "single",
+      "sourceQuestion": "Người môn sinh Phật Quang Quyền thực hành lòng biết ơn như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Luôn kính trọng và nhớ ơn những người đã giúp đỡ mình, cố gắng học tập, rèn luyện và sống tốt để đền đáp công ơn ấy; đồng thời biết giúp đỡ người khác để lan tỏa những điều tốt đẹp trong cuộc sống.",
+      "question": "Người môn sinh Phật Quang Quyền thực hành lòng biết ơn như thế nào?",
+      "options": [
+        "Luôn kính trọng và nhớ ơn những người đã giúp đỡ mình, cố gắng học tập, rèn luyện và sống tốt để đền đáp công ơn ấy; đồng thời biết giúp đỡ người khác để lan tỏa những điều tốt đẹp trong cuộc sống.",
+        "Trong những buổi sinh hoạt nội bộ, Võ sinh Phật Quang Quyền cần có 4 thái độ: Thân ái: Đoàn kết, yêu thương và hiểu biết lẫn nhau, không gây bè phái hay đố kỵ.",
+        "Luôn đặt danh dự môn phái lên hàng đầu, biểu diễn hết mình để thể hiện vẻ đẹp võ thuật và võ đạo của Phật Quang Quyền.",
+        "Tóm lại, ở nơi công cộng, Võ sinh Phật Quang Quyền phải luôn giữ tác phong mẫu mực từ thái độ, trang phục, cử chỉ đến cách đối xử với mọi người."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c01-true2",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 56,
+      "type": "truefalse",
+      "sourceQuestion": "Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong. Về tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên hàng đầu, biểu diễn hết mình để thể hiện vẻ đẹp võ thuật và võ đạo của Phật Quang Quyền. Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn.",
+      "question": "Nhận định sau đúng hay sai? Về tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c15-direct",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 57,
+      "type": "single",
+      "sourceQuestion": "Nêu xuất xứ bài Thanh Long Độc Kiếm.",
+      "topic": "green-lesson-04",
+      "explanation": "Thanh Long Độc Kiếm là bài kiếm nằm trong hệ thống giáo án huấn luyện của võ phái Thanh Long Võ Đạo do Đại võ sư Quốc tế Lê Kim Hòa sáng lập. Bài kiếm lấy hình tượng uy mãnh của rồng làm chủ đạo, đòi hỏi người tập phải kiên trì rèn luyện, thân pháp linh hoạt, di chuyển nhanh nhẹn và thực hiện kỹ thuật chính xác, hiệu quả. II - Lời thiệu: Bái tổ Thanh long độc kiếm. Tứ phương bái tổ kính sư. Xuất kiếm thủ bộ dáng người uy nghi. Long thăng trảm thạch liền khi (x) (x). Tầm xà sát thích vân phi liền kề. Thanh long xuất thế trở về. Quy xà phạt thảo tứ bề sát kinh (x) (x). Ẩn long trầm thủy tung mình. Nộ, giáng, thích, trảm tụ thần triều dâng. Giao long đảo hải vẫy…",
+      "question": "Nêu xuất xứ bài Thanh Long Độc Kiếm.?",
+      "options": [
+        "Thanh Long Độc Kiếm là bài kiếm nằm trong hệ thống giáo án huấn luyện của võ phái Thanh Long Võ Đạo do Đại võ sư Quốc tế Lê Kim Hòa sáng lập.",
+        "Khi tham gia công tác xã hội, Võ sinh Phật Quang Quyền phải thực hiện với tinh thần vị tha, chí công vô tư và bất vụ lợi.",
+        "Trình bày rõ ràng, mạch lạc và tế nhị.",
+        "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c02-true2",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 58,
+      "type": "truefalse",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải có thái độ như thế nào?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải: Tôn trọng nội quy nơi giao dịch và nơi công cộng. Ôn tồn, cởi mở nhưng có chính kiến. Niềm nở, lễ độ nhưng không nịnh bợ hay suồng sã. Khiêm tốn nhưng không khúm núm, quy lụy. Tuyệt đối không khoe khoang mình là người có võ.",
+      "question": "Nhận định sau đúng hay sai? Ôn tồn, cởi mở nhưng có chính kiến.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-single-c01-focus",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 59,
+      "type": "single",
+      "sourceQuestion": "Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong. Về tinh thần:Chỉ tham gia biểu diễn khi có sự phân công của môn phái. Luôn đặt danh dự môn phái lên hàng đầu, biểu diễn hết mình để thể hiện vẻ đẹp võ thuật và võ đạo của Phật Quang Quyền. Về cách thể hiện:Võ phục gọn gàng, trang nhã; gương mặt điềm đạm, vui vẻ; cử chỉ đàng hoàng, lời nói lễ độ, khiêm nhường và tuyệt đối chấp hành kỷ luật của buổi biểu diễn.",
+      "question": "Theo nội dung bài, ý nào đúng về «Câu. Võ sinh Phật Quang Quyền phải thể hiện tác phong ra sao khi biểu diễn võ thuật»?",
+      "options": [
+        "Khi biểu diễn võ thuật, Võ sinh Phật Quang Quyền phải thể hiện tốt về tinh thần và tác phong.",
+        "Về cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác.",
+        "Trình bày rõ ràng, mạch lạc và tế nhị.",
+        "Hồn nhiên: Vui tươi, chân thành, phát huy năng khiếu nhưng không tự do quá trớn."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-luc-4-truefalse-c03-true2",
+      "lessonId": "green-lesson-04",
+      "rankId": "luc-4",
+      "beltId": "green",
+      "number": 60,
+      "type": "truefalse",
+      "sourceQuestion": "Khi giao dịch ngoài xã hội hoặc nơi công cộng, Võ sinh Phật Quang Quyền phải đối thoại ra sao?",
+      "topic": "green-lesson-04",
+      "explanation": "Khi đối thoại, Võ sinh Phật Quang Quyền cần: Giữ bình tĩnh, điều hòa tình cảm, không nóng nảy hoặc thờ ơ. Biết lắng nghe để hiểu người đối thoại. Trình bày rõ ràng, mạch lạc và tế nhị. Biết dùng lý lẽ và dẫn chứng để thuyết phục người khác khi cần. Tránh lời nói cộc cằn, xúc phạm hoặc làm mất lòng người khác.",
+      "question": "Nhận định sau đúng hay sai? Biết lắng nghe để hiểu người đối thoại.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -7,13 +7,17 @@ import {
   getProgress,
   saveProgress,
   updateProfile,
+  updateCandidateProfile,
+  updateCandidateDraft,
+  didPersistCandidate,
   updatePreferences,
   resetProgress as resetStorage,
   importProgress as importStorage,
-  exportProgress as exportStorage,
   updateLessonProgress,
   setPendingCeremony,
 } from '@/lib/storage';
+import { candidateProfileSchema, type CandidateProfileInput } from '@/lib/candidate-profile';
+import { getExamAttempts, parseImportedExamAttempts, replaceExamAttempts } from '@/lib/exam-attempts';
 import { syncBeltProgress, processQuizCompletion } from '@/lib/progress';
 import { checkAchievements } from '@/lib/achievements';
 
@@ -22,6 +26,8 @@ interface ProgressStore {
   hydrated: boolean;
   hydrate: () => void;
   setName: (name: string) => void;
+  setCandidateProfile: (input: CandidateProfileInput) => boolean;
+  saveCandidateDraft: (input: CandidateProfileInput) => void;
   setPreferences: (prefs: Partial<UserPreferences>) => void;
   updateReading: (lessonId: string, readProgress: number) => void;
   markSectionsComplete: (lessonId: string, sectionIds: string[]) => void;
@@ -48,15 +54,23 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
     p = syncBeltProgress(p);
     saveProgress(p);
     set({ progress: p, hydrated: true });
-
-    window.addEventListener('storage', () => {
-      set({ progress: getProgress() });
-    });
   },
 
   setName: (name) => {
     const p = updateProfile(name);
     set({ progress: p });
+  },
+
+  setCandidateProfile: (input) => {
+    const parsed = candidateProfileSchema.safeParse(input);
+    if (!parsed.success) return false;
+    const p = updateCandidateProfile(parsed.data);
+    set({ progress: p });
+    return didPersistCandidate(parsed.data);
+  },
+
+  saveCandidateDraft: (input) => {
+    updateCandidateDraft(input);
   },
 
   setPreferences: (prefs) => {
@@ -93,11 +107,25 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
     set({ progress: p });
   },
 
-  exportData: () => exportStorage(),
+  exportData: () => {
+    return JSON.stringify(
+      { ...getProgress(), examAttempts: getExamAttempts() },
+      null,
+      2
+    );
+  },
 
   importData: (json) => {
+    let parsed: unknown;
+    try {
+      parsed = JSON.parse(json);
+    } catch {
+      return false;
+    }
     const ok = importStorage(json);
     if (ok) {
+      const attempts = parseImportedExamAttempts(parsed);
+      if (attempts) replaceExamAttempts(attempts);
       let p = getProgress();
       p = syncBeltProgress(p);
       set({ progress: p });

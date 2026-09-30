@@ -1,122 +1,73 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { z } from 'zod';
+import { useState } from 'react';
 import { Pencil, User } from 'lucide-react';
+import { CandidateProfileDialog } from '@/components/profile/CandidateProfileForm';
+import { useProgressStore } from '@/store/progress-store';
 import { cn } from '@/lib/utils';
 
-const nameSchema = z.object({
-  name: z.string().min(2).max(50),
-});
-
-export interface ProfileCardProps {
-  name: string;
-  onNameSubmit: (name: string) => void;
-  className?: string;
+function formatBirthDate(value?: string): string {
+  if (!value) return '';
+  const [year, month, day] = value.split('-');
+  if (!year || !month || !day) return value;
+  return `${day}/${month}/${year}`;
 }
 
-export function ProfileCard({
-  name,
-  onNameSubmit,
-  className,
-}: ProfileCardProps) {
-  const [isEditing, setIsEditing] = useState(false);
-  const inputRef = useRef<HTMLInputElement>(null);
-  const displayName = name?.trim();
-  const initial = displayName?.charAt(0).toUpperCase();
-
-  const { register, handleSubmit, reset } = useForm({
-    resolver: zodResolver(nameSchema),
-    defaultValues: { name: name ?? '' },
-  });
-
-  useEffect(() => {
-    reset({ name: name ?? '' });
-  }, [name, reset]);
-
-  useEffect(() => {
-    if (!isEditing) return;
-    inputRef.current?.focus();
-    inputRef.current?.select();
-  }, [isEditing]);
-
-  const { ref: registerRef, ...nameField } = register('name');
-
-  const submitName = handleSubmit((data) => {
-    onNameSubmit(data.name);
-    setIsEditing(false);
-  });
-
-  const startEditing = () => {
-    reset({ name: name ?? '' });
-    setIsEditing(true);
-  };
-
-  const cancelEditing = () => {
-    reset({ name: name ?? '' });
-    setIsEditing(false);
-  };
+export function ProfileCard({ className }: { className?: string }) {
+  const profile = useProgressStore((s) => s.progress.profile);
+  const [open, setOpen] = useState(false);
+  const displayName = profile.name?.trim() ?? '';
+  const initial = displayName.charAt(0).toUpperCase();
+  const birthDate = formatBirthDate(profile.dateOfBirth);
+  const details = [
+    birthDate ? { label: 'Ngày sinh', value: birthDate } : null,
+    profile.club ? { label: 'CLB', value: profile.club } : null,
+    profile.dojo ? { label: 'Võ đường', value: profile.dojo } : null,
+  ].filter((item): item is { label: string; value: string } => item !== null);
 
   return (
-    <article className={cn('profile-identity', className)}>
-      <div className="profile-identity__inner">
-        <div className="profile-identity__avatar-wrap">
-          <div className="profile-identity__avatar-glow" aria-hidden />
-          <div className="profile-identity__avatar">
-            {initial ? (
-              <span className="profile-identity__initial font-display">{initial}</span>
-            ) : (
-              <User className="profile-identity__avatar-icon" strokeWidth={1.5} />
+    <>
+      <article className={cn('profile-identity', className)}>
+        <button
+          type="button"
+          className="absolute right-3 top-3 z-[2] flex h-11 w-11 items-center justify-center rounded-full text-text-muted transition-colors hover:bg-bg-elevated hover:text-text-primary"
+          aria-label="Sửa thông tin"
+          onClick={() => setOpen(true)}
+        >
+          <Pencil className="h-4 w-4" />
+        </button>
+
+        <div className="profile-identity__inner">
+          <div className="profile-identity__avatar-wrap">
+            <div className="profile-identity__avatar-glow" aria-hidden />
+            <div className="profile-identity__avatar">
+              {initial ? (
+                <span className="profile-identity__initial font-display">{initial}</span>
+              ) : (
+                <User className="profile-identity__avatar-icon" strokeWidth={1.5} />
+              )}
+            </div>
+          </div>
+
+          <div className="profile-identity__details">
+            <h2 className={cn('profile-identity__name font-display', !displayName && 'profile-identity__name--placeholder')}>
+              {displayName || 'Thí sinh'}
+            </h2>
+            {details.length > 0 && (
+              <dl className="mt-4 flex flex-wrap items-start justify-center gap-x-8 gap-y-3">
+                {details.map((item) => (
+                  <div key={item.label} className="min-w-0">
+                    <dt className="profile-stat-label">{item.label}</dt>
+                    <dd className="text-sm font-medium text-text-primary">{item.value}</dd>
+                  </div>
+                ))}
+              </dl>
             )}
           </div>
         </div>
+      </article>
 
-        <div className="profile-identity__details">
-          {isEditing ? (
-            <form onSubmit={submitName} className="profile-identity__form">
-              <input
-                id="profile-name"
-                {...nameField}
-                ref={(el) => {
-                  registerRef(el);
-                  inputRef.current = el;
-                }}
-                onBlur={() => {
-                  void submitName();
-                }}
-                onKeyDown={(e) => {
-                  if (e.key === 'Escape') {
-                    e.preventDefault();
-                    cancelEditing();
-                  }
-                }}
-                className="profile-identity__name-input font-display"
-                placeholder="Tên võ sinh/môn sinh"
-                aria-label="Tên võ sinh/môn sinh"
-              />
-            </form>
-          ) : (
-            <button
-              type="button"
-              className="profile-identity__name-display"
-              onClick={startEditing}
-              aria-label="Chỉnh sửa võ sinh/môn sinh"
-            >
-              <span
-                className={cn(
-                  'profile-identity__name font-display',
-                  !displayName && 'profile-identity__name--placeholder'
-                )}
-              >
-                {displayName || ''}
-              </span>
-              <Pencil className="profile-identity__edit-icon" aria-hidden />
-            </button>
-          )}
-        </div>
-      </div>
-    </article>
+      <CandidateProfileDialog open={open} onClose={() => setOpen(false)} />
+    </>
   );
 }

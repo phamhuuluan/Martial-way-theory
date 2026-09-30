@@ -1,0 +1,1165 @@
+{
+  "rankId": "lam-3",
+  "beltId": "blue",
+  "lessonId": "blue-lesson-03",
+  "questions": [
+    {
+      "id": "blue-lesson-03-q01",
+      "lessonId": "blue-lesson-03",
+      "number": 1,
+      "type": "fill",
+      "question": "Võ sinh hãy lý giải Thành ngữ Việt Nam có câu: “Văn ôn, võ luyện”.? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "chiến đấu",
+        "Lưỡng thủ vạn năng",
+        "Long quyền đả khứ",
+        "tự vệ",
+        "Tả thủ yểm tâm",
+        "Hữu thủ yểm tâm."
+      ],
+      "blanks": [
+        "tự vệ",
+        "chiến đấu"
+      ],
+      "explanation": "Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội. Võ là những đòn thế thể hiện sức mạnh, sự nhanh nhẹn, linh hoạt được dùng để tự vệ và chiến đấu. Hai lĩnh vực này đều quan trọng và bổ trợ cho nhau trong cuộc sống. Nhưng nếu muốn thành công trong cả hai lĩnh vực trên thì người học trò phải luôn dùi mài ôn luyện, phải có ý chí cùng sự kiên trì học hỏi để duy trì và nâng cao trình độ.",
+      "sourceQuestion": "Võ sinh hãy lý giải Thành ngữ Việt Nam có câu: “Văn ôn, võ luyện”.",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q02",
+      "lessonId": "blue-lesson-03",
+      "number": 2,
+      "type": "ordering",
+      "question": "Muốn rèn luyện tin thần, VSPQQ phải làm gì? Sắp xếp các bước theo đúng thứ tự.",
+      "options": [],
+      "items": [
+        "Công đức: Siêng làm việc thiện, giúp đời.",
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến…",
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Thiền định: Chuyên cần học và thực hành thiền",
+        "Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung…",
+        "Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh."
+      ],
+      "correctOrder": [
+        2,
+        1,
+        4,
+        5,
+        0,
+        3
+      ],
+      "explanation": "Muốn rèn luyện tinh thần VSPQQ phải:\nSống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.\nĐức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ.\nCương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị). - Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội.\nTháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh.\nCông đức: Siêng làm việc thiện, giúp đời.\nThiền định: Chuyên cần học và thực hành thiền",
+      "sourceQuestion": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q03",
+      "lessonId": "blue-lesson-03",
+      "number": 3,
+      "type": "single",
+      "question": "Cho biết đạo hạnh là gì?",
+      "options": [
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng…",
+        "Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người…",
+        "Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân…",
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng."
+      ],
+      "correctIndex": 2,
+      "explanation": "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo.\nMôn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+      "sourceQuestion": "Cho biết đạo hạnh là gì?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q04",
+      "lessonId": "blue-lesson-03",
+      "number": 4,
+      "type": "single",
+      "question": "Tại sao phải trao dồi đạo hạnh?",
+      "options": [
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng…",
+        "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng…",
+        "Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh…",
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng."
+      ],
+      "correctIndex": 1,
+      "explanation": "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo.\nMôn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+      "sourceQuestion": "Tại sao phải trao dồi đạo hạnh?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q05",
+      "lessonId": "blue-lesson-03",
+      "number": 5,
+      "type": "fill",
+      "question": "Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao? Điền vào chỗ trống: ______ và ______.",
+      "options": [
+        "Tả hữu đả diệ",
+        "Khi đã quyết định đúng đắn thì kiên trì…",
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng…",
+        "Thiền định: Chuyên cần học và thực hành…",
+        "xây dựng cuộc sống tốt đẹp hơn",
+        "góp phần giúp đỡ, cải thiện"
+      ],
+      "blanks": [
+        "góp phần giúp đỡ, cải thiện",
+        "xây dựng cuộc sống tốt đẹp hơn"
+      ],
+      "explanation": "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu. Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+      "sourceQuestion": "Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao ?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q06",
+      "lessonId": "blue-lesson-03",
+      "number": 6,
+      "type": "multiple",
+      "question": "Cho biết thế nào là cao thượng? (Chọn tất cả đáp án đúng)",
+      "options": [
+        " Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng…",
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là…",
+        "Thái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì…",
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và…",
+        "Ý nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt…"
+      ],
+      "correctIndices": [
+        2,
+        3
+      ],
+      "explanation": "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng.\nThái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí nhất thời, không có định hướng và nền tảng đạo đức vững chắc.",
+      "sourceQuestion": "Cho biết thế nào là cao thượng?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q07",
+      "lessonId": "blue-lesson-03",
+      "number": 7,
+      "type": "single",
+      "question": "Thái dộ bất chợt nhưòng nhịn tha thứ cho người có phải là cao thượng hay không?",
+      "options": [
+        "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá…",
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng…",
+        "Thái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng.\nThái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí nhất thời, không có định hướng và nền tảng đạo đức vững chắc.",
+      "sourceQuestion": "Thái dộ bất chợt nhưòng nhịn tha thứ cho người có phải là cao thượng hay không?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q08",
+      "lessonId": "blue-lesson-03",
+      "number": 8,
+      "type": "multiple",
+      "question": "Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào? (Chọn tất cả đáp án đúng)",
+      "options": [
+        " Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+        "Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt…",
+        "Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng…",
+        "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý,…",
+        "Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+        "Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân…"
+      ],
+      "correctIndices": [
+        1,
+        4
+      ],
+      "explanation": "Muốn kiện toàn ý chí đanh thép VSPQQ phải:\n  Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.\n  Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+      "sourceQuestion": "Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q09",
+      "lessonId": "blue-lesson-03",
+      "number": 9,
+      "type": "single",
+      "question": "Tại sao cần phải sáng suốt nhận định?",
+      "options": [
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng…",
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý,…",
+        "Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người…"
+      ],
+      "correctIndex": 2,
+      "explanation": "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý, hiểu rõ bản chất của sự việc, từ đó xử lý đúng người, đúng việc, đúng thời điểm và tránh những hậu quả đáng tiếc.",
+      "sourceQuestion": "Tại sao cần phải sáng suốt nhận định?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q10",
+      "lessonId": "blue-lesson-03",
+      "number": 10,
+      "type": "multiple",
+      "question": "Võ sinh giải thích câu thành ngữ: “Tôn sư trọng đạo”? (Chọn tất cả đáp án đúng)",
+      "options": [
+        "Trọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn.",
+        "Tôn sư là tôn kính, biết ơn và quý trọng người thầy.",
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và…",
+        "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý,…",
+        "Câu thành ngữ dạy chúng ta phải kính trọng thầy cô, biết ơn người dạy dỗ mình, đồng thời sống có…",
+        "Ý nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt…",
+        "Câu thành ngữ dạy chúng ta phải kính trọng thầy cô, biết ơn người dạy dỗ mình,…"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        6
+      ],
+      "explanation": "Tôn sư là tôn kính, biết ơn và quý trọng người thầy.\nTrọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn.\nCâu thành ngữ dạy chúng ta phải kính trọng thầy cô, biết ơn người dạy dỗ mình, đồng thời sống có đạo đức, có nghĩa tình để trở thành người tài đức có ích cho xã hội.",
+      "sourceQuestion": "Võ sinh giải thích câu thành ngữ: “Tôn sư trọng đạo”?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "blue-lesson-03-q11",
+      "lessonId": "blue-lesson-03",
+      "number": 11,
+      "type": "single",
+      "question": "Trình bày ngắn gọn xuất xứ bài quyền quy đinh của LĐVTCTVN Lão Hổ thượng sơn?",
+      "options": [
+        "Ý nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt…",
+        "Song thủ phá cước",
+        "Chấp thủ khai mã",
+        "Bái tổ Lão hổ thượng sơn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lão Hổ Thượng Sơn là bài quyền trấn môn của Võ phái Nam Tông, do cố võ sư Lê Văn Kiển (Tám Kiển) sáng lập. Năm 1993, bài quyền này được Hội nghị chuyên môn toàn quốc lần thứ nhất của Liên đoàn Võ thuật Cổ truyền Việt Nam chọn đưa vào chương trình đào tạo, thi đấu và biểu diễn trên toàn quốc.\nÝ nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt trình độ tinh thông, vượt qua nhiều thử thách để vươn tới đỉnh cao võ học.\nLời thiệu:\nBái tổ Lão hổ thượng sơn\nChấp thủ khai mã\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\nĐơn toạ phục hổ\nHữu thủ yểm tâm.\nHồi đầu thối toạ\nTả thủ yểm tâm\nNhất cước phá đao\nNhất quyền đả khứ\nLão hổ vồ mồi\nTrửu phong đả bồi\nSong đao phạt mộc\nSong phi cước khứ\nLong quyền đả khứ\nTả hữu đả diệ\nCuồng phong tróc nã\nTả thủ phá cước\nHoành thân phục hổ\nHữu thủ yểm tâm\nNgũ phong đả diện\nHữu cước tảo địa\nĐơn toạ phục hổ\nTả thủ yểm tâm\nNgũ phong đả diện\nTả cước tảo địa\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\nĐơn toạ phục hổ\nTả thủ yểm tâm\nLong quyền đoạt nhãn\nLưỡng thủ tả cước\nHoành thân thối toạ\nHữu thủ yểm tâm\nLong quyền đoạt nhãn\nLưỡng thủ hữu cước\nTướng quân bạt kiếm\nBái tổ thâu mã",
+      "sourceQuestion": "Trình bày ngắn gọn xuất xứ bài quyền quy đinh của LĐVTCTVN Lão Hổ thượng sơn?",
+      "rankId": "lam-3",
+      "beltId": "blue"
+    },
+    {
+      "id": "exam-lam-3-matching-c03-pairs",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 12,
+      "type": "matching",
+      "sourceQuestion": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng. Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ. Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị). - Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội. Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh. Công đức: Siêng làm việc thiện, giúp đời. Thiền định: Chuyên cần học và thực hành thiền",
+      "question": "Ghép mỗi mục với nội dung đúng về «Muốn rèn luyện tin thần, VSPQQ phải làm gì».",
+      "options": [],
+      "leftItems": [
+        "Sống khỏe",
+        "Đức độ",
+        "Tháo vát",
+        "Công đức",
+        "Thiền định"
+      ],
+      "rightItems": [
+        "thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ.",
+        "Linh hoạt, ứng xử tốt trong mọi hoàn cảnh.",
+        "Siêng làm việc thiện, giúp đời.",
+        "Chuyên cần học và thực hành thiền"
+      ],
+      "correctPairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "exam-lam-3-scenario-c03-case",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 13,
+      "type": "scenario",
+      "sourceQuestion": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng. Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ. Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị). - Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội. Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh. Công đức: Siêng làm việc thiện, giúp đời. Thiền định: Chuyên cần học và thực hành thiền",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Muốn rèn luyện tin thần, VSPQQ phải làm gì». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Hai lĩnh vực này đều quan trọng và bổ trợ cho nhau trong cuộc sống.",
+        "Lão Hổ Thượng Sơn là bài quyền trấn môn của Võ phái Nam Tông, do cố võ sư Lê Văn Kiển (Tám Kiển) sáng lập.",
+        "Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c01-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 14,
+      "type": "truefalse",
+      "sourceQuestion": "Võ Sinh hãy cho biết: Vì sao nói: “Võ cổ truyền đồng hành với lịch sử dựng nước và giữ nước của dân tộc Việt Nam”?",
+      "topic": "blue-lesson-03",
+      "explanation": "Nước Việt Nam hàng nghìn năm bị đô hộ, lúc bấy giờ chưa có vũ khí hiện đại, nhưng dân tộc Việt Nam ta luôn có tinh thần bất khuất, dũng cảm, thông minh, sáng tạo và ý chí chiến đấu ngoan cường nên nhân dân ta đã tận dụng những dụng cụ sinh hoạt thường ngày như dao gậy hay đúc kim loại như đồng, sắt thành đao, kiếm, siêu, thương, và ngày ngày rèn luyện các thế đòn, thế tấn công bằng tay và bằng binh khí để tự vệ, chiến đấu chống ngoại xâm. Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay.",
+      "question": "Nhận định sau đúng hay sai? Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-scenario-c05-case",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 15,
+      "type": "scenario",
+      "sourceQuestion": "Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu. Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu.",
+        "Thiền định: Chuyên cần học và thực hành thiền",
+        "Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị).",
+        "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý, hiểu rõ bản chất của sự việc, từ đó xử lý đúng người, đúng việc, đúng thời điểm và tránh những hậu quả đáng tiếc."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c02-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 16,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh hãy lý giải Thành ngữ Việt Nam có câu: “Văn ôn, võ luyện”.",
+      "topic": "blue-lesson-03",
+      "explanation": "Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội. Võ là những đòn thế thể hiện sức mạnh, sự nhanh nhẹn, linh hoạt được dùng để tự vệ và chiến đấu. Hai lĩnh vực này đều quan trọng và bổ trợ cho nhau trong cuộc sống. Nhưng nếu muốn thành công trong cả hai lĩnh vực trên thì người học trò phải luôn dùi mài ôn luyện, phải có ý chí cùng sự kiên trì học hỏi để duy trì và nâng cao trình độ.",
+      "question": "Nhận định sau đúng hay sai? Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-scenario-c06-case",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 17,
+      "type": "scenario",
+      "sourceQuestion": "Cho biết VSPQQ thực hiện nếp sống giản dị như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội. Khi có điều kiện thì sử dụng những tiện nghi phù hợp, khi không có điều kiện thì biết chấp nhận, không đòi hỏi hay gây phiền lòng cho người khác.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Cho biết VSPQQ thực hiện nếp sống giản dị như thế nào». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội.",
+        "Lời thiệu: Bái tổ Lão hổ thượng sơn Chấp thủ khai mã Song thủ phá cước Đồng tử dâng quả Lưỡng thủ khai môn Đơn toạ phục hổ Hữu thủ yểm tâm.",
+        "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng.",
+        "Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị)."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c03-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 18,
+      "type": "truefalse",
+      "sourceQuestion": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng. Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ. Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị). - Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội. Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh. Công đức: Siêng làm việc thiện, giúp đời. Thiền định: Chuyên cần học và thực hành thiền",
+      "question": "Nhận định sau đúng hay sai? Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-scenario-c07-case",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 19,
+      "type": "scenario",
+      "sourceQuestion": "Cho biết phẩm tính chính trực của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc. Tính nghĩa với huynh đệ, yêu thương giúp đỡ mọi người. Nhưng cũng phải hiểu sự gian trá của người để tránh bị người lường gạt và cũng để tự thắng mình, nhưng không được gian trá, làm hại đến người khác, để không bị tổn hại đạo hạnh.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Cho biết phẩm tính chính trực của VSPQQ ra sao». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc.",
+        "Hai lĩnh vực này đều quan trọng và bổ trợ cho nhau trong cuộc sống.",
+        "Năm 1993, bài quyền này được Hội nghị chuyên môn toàn quốc lần thứ nhất của Liên đoàn Võ thuật Cổ truyền Việt Nam chọn đưa vào chương trình đào tạo, thi đấu và biểu diễn trên toàn quốc.",
+        "Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-multiple-c03-list",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 20,
+      "type": "multiple",
+      "sourceQuestion": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng. Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ. Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị). - Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội. Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh. Công đức: Siêng làm việc thiện, giúp đời. Thiền định: Chuyên cần học và thực hành thiền",
+      "question": "Những ý nào đúng với nội dung «Muốn rèn luyện tin thần, VSPQQ phải làm gì»? Chọn tất cả đáp án đúng.",
+      "options": [
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ.",
+        "Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh.",
+        "Sự tranh đấu đó phải dựa trên tinh thần Từ bi, Trí tuệ, phù hợp với Nhân quả, đạo đức và pháp luật.",
+        "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "exam-lam-3-truefalse-c04-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 21,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết đạo hạnh là gì? Tại sao phải trao dồi đạo hạnh?",
+      "topic": "blue-lesson-03",
+      "explanation": "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo. Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+      "question": "Nhận định sau đúng hay sai? Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật,…",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-scenario-c09-case",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 22,
+      "type": "scenario",
+      "sourceQuestion": "Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định. Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+      "question": "Tình huống: Một võ sinh chưa làm đúng yêu cầu «Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào». Theo bài học, võ sinh cần hiểu và thực hiện điều nào?",
+      "options": [
+        "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+        "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc.",
+        "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo.",
+        "Ý nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt trình độ tinh thông, vượt qua nhiều thử thách để vươn tới đỉnh cao võ học."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-multiple-c09-list",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 23,
+      "type": "multiple",
+      "sourceQuestion": "Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định. Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+      "question": "Những ý nào đúng với nội dung «Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào»? Chọn tất cả đáp án đúng.",
+      "options": [
+        "Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+        "Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+        "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu.",
+        "Ý nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt trình độ tinh thông, vượt qua nhiều thử thách để vươn tới đỉnh cao võ học."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "exam-lam-3-truefalse-c05-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 24,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu. Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+      "question": "Nhận định sau đúng hay sai? Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c06-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 25,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết VSPQQ thực hiện nếp sống giản dị như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội. Khi có điều kiện thì sử dụng những tiện nghi phù hợp, khi không có điều kiện thì biết chấp nhận, không đòi hỏi hay gây phiền lòng cho người khác.",
+      "question": "Nhận định sau đúng hay sai? Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c01-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 26,
+      "type": "single",
+      "sourceQuestion": "Võ Sinh hãy cho biết: Vì sao nói: “Võ cổ truyền đồng hành với lịch sử dựng nước và giữ nước của dân tộc Việt Nam”?",
+      "topic": "blue-lesson-03",
+      "explanation": "Nước Việt Nam hàng nghìn năm bị đô hộ, lúc bấy giờ chưa có vũ khí hiện đại, nhưng dân tộc Việt Nam ta luôn có tinh thần bất khuất, dũng cảm, thông minh, sáng tạo và ý chí chiến đấu ngoan cường nên nhân dân ta đã tận dụng những dụng cụ sinh hoạt thường ngày như dao gậy hay đúc kim loại như đồng, sắt thành đao, kiếm, siêu, thương, và ngày ngày rèn luyện các thế đòn, thế tấn công bằng tay và bằng binh khí để tự vệ, chiến đấu chống ngoại xâm. Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay.",
+      "question": "Võ Sinh hãy cho biết: Vì sao nói: “Võ cổ truyền đồng hành với lịch sử dựng nước và giữ nước của dân tộc Việt Nam”?",
+      "options": [
+        "Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay.",
+        "Ý nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt trình độ tinh thông, vượt qua nhiều thử thách để vươn tới đỉnh cao võ học.",
+        "Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+        "Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c07-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 27,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết phẩm tính chính trực của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc. Tính nghĩa với huynh đệ, yêu thương giúp đỡ mọi người. Nhưng cũng phải hiểu sự gian trá của người để tránh bị người lường gạt và cũng để tự thắng mình, nhưng không được gian trá, làm hại đến người khác, để không bị tổn hại đạo hạnh.",
+      "question": "Nhận định sau đúng hay sai? Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c02-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 28,
+      "type": "single",
+      "sourceQuestion": "Võ sinh hãy lý giải Thành ngữ Việt Nam có câu: “Văn ôn, võ luyện”.",
+      "topic": "blue-lesson-03",
+      "explanation": "Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội. Võ là những đòn thế thể hiện sức mạnh, sự nhanh nhẹn, linh hoạt được dùng để tự vệ và chiến đấu. Hai lĩnh vực này đều quan trọng và bổ trợ cho nhau trong cuộc sống. Nhưng nếu muốn thành công trong cả hai lĩnh vực trên thì người học trò phải luôn dùi mài ôn luyện, phải có ý chí cùng sự kiên trì học hỏi để duy trì và nâng cao trình độ.",
+      "question": "Võ sinh hãy lý giải Thành ngữ Việt Nam có câu: “Văn ôn, võ luyện”.?",
+      "options": [
+        "Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội.",
+        "Sự tranh đấu đó phải dựa trên tinh thần Từ bi, Trí tuệ, phù hợp với Nhân quả, đạo đức và pháp luật.",
+        "Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Trọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c08-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 29,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết thế nào là cao thượng? Thái dộ bất chợt nhưòng nhịn tha thứ cho người có phải là cao thượng hay không?",
+      "topic": "blue-lesson-03",
+      "explanation": "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng. Thái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí nhất thời, không có định hướng và nền tảng đạo đức vững chắc.",
+      "question": "Nhận định sau đúng hay sai? Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c03-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 30,
+      "type": "single",
+      "sourceQuestion": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng. Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ. Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị). - Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội. Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh. Công đức: Siêng làm việc thiện, giúp đời. Thiền định: Chuyên cần học và thực hành thiền",
+      "question": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "options": [
+        "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc.",
+        "Trọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn.",
+        "Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c09-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 31,
+      "type": "truefalse",
+      "sourceQuestion": "Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định. Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+      "question": "Nhận định sau đúng hay sai? Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c04-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 32,
+      "type": "single",
+      "sourceQuestion": "Cho biết đạo hạnh là gì? Tại sao phải trao dồi đạo hạnh?",
+      "topic": "blue-lesson-03",
+      "explanation": "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo. Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+      "question": "Cho biết đạo hạnh là gì? Tại sao phải trao dồi đạo hạnh?",
+      "options": [
+        "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo.",
+        "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc.",
+        "Võ là những đòn thế thể hiện sức mạnh, sự nhanh nhẹn, linh hoạt được dùng để tự vệ và chiến đấu.",
+        "Thái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí nhất thời, không có định hướng và nền tảng đạo đức vững chắc."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c10-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 33,
+      "type": "truefalse",
+      "sourceQuestion": "Tại sao cần phải sáng suốt nhận định?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý, hiểu rõ bản chất của sự việc, từ đó xử lý đúng người, đúng việc, đúng thời điểm và tránh những hậu quả đáng tiếc.",
+      "question": "Nhận định sau đúng hay sai? Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý, hiểu rõ bản chất của sự việc, từ đó xử lý đúng người, đúng việc, đúng thời điểm và tránh những hậu quả đáng tiếc.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c05-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 34,
+      "type": "single",
+      "sourceQuestion": "Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu. Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+      "question": "Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao?",
+      "options": [
+        "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu.",
+        "Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+        "Tôn sư là tôn kính, biết ơn và quý trọng người thầy.",
+        "Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị)."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c11-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 35,
+      "type": "truefalse",
+      "sourceQuestion": "Thế nào là bền gan tranh đấu?",
+      "topic": "blue-lesson-03",
+      "explanation": "Bền gan tranh đấu là có ý chí và nghị lực vững vàng, không nản lòng trước thất bại, không khuất phục trước khó khăn hay áp lực, luôn kiên trì giải quyết vấn đề một cách bền bỉ. Sự tranh đấu đó phải dựa trên tinh thần Từ bi, Trí tuệ, phù hợp với Nhân quả, đạo đức và pháp luật.",
+      "question": "Nhận định sau đúng hay sai? Bền gan tranh đấu là có ý chí và nghị lực vững vàng, không nản lòng trước thất bại, không khuất phục trước khó khăn hay áp lực, luôn kiên trì giải quyết vấn đề một cách bền bỉ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c06-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 36,
+      "type": "single",
+      "sourceQuestion": "Cho biết VSPQQ thực hiện nếp sống giản dị như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội. Khi có điều kiện thì sử dụng những tiện nghi phù hợp, khi không có điều kiện thì biết chấp nhận, không đòi hỏi hay gây phiền lòng cho người khác.",
+      "question": "Cho biết VSPQQ thực hiện nếp sống giản dị như thế nào?",
+      "options": [
+        "Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội.",
+        "Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+        "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng.",
+        "Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c12-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 37,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh giải thích câu thành ngữ: “Tôn sư trọng đạo”?",
+      "topic": "blue-lesson-03",
+      "explanation": "Tôn sư là tôn kính, biết ơn và quý trọng người thầy. Trọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn. Câu thành ngữ dạy chúng ta phải kính trọng thầy cô, biết ơn người dạy dỗ mình, đồng thời sống có đạo đức, có nghĩa tình để trở thành người tài đức có ích cho xã hội.",
+      "question": "Nhận định sau đúng hay sai? Tôn sư là tôn kính, biết ơn và quý trọng người thầy.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c07-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 38,
+      "type": "single",
+      "sourceQuestion": "Cho biết phẩm tính chính trực của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc. Tính nghĩa với huynh đệ, yêu thương giúp đỡ mọi người. Nhưng cũng phải hiểu sự gian trá của người để tránh bị người lường gạt và cũng để tự thắng mình, nhưng không được gian trá, làm hại đến người khác, để không bị tổn hại đạo hạnh.",
+      "question": "Cho biết phẩm tính chính trực của VSPQQ ra sao?",
+      "options": [
+        "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc.",
+        "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo.",
+        "- Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội.",
+        "Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c13-true1",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 39,
+      "type": "truefalse",
+      "sourceQuestion": "Trình bày ngắn gọn xuất xứ bài quyền quy đinh của LĐVTCTVN Lão Hổ thượng sơn?",
+      "topic": "blue-lesson-03",
+      "explanation": "Lão Hổ Thượng Sơn là bài quyền trấn môn của Võ phái Nam Tông, do cố võ sư Lê Văn Kiển (Tám Kiển) sáng lập. Năm 1993, bài quyền này được Hội nghị chuyên môn toàn quốc lần thứ nhất của Liên đoàn Võ thuật Cổ truyền Việt Nam chọn đưa vào chương trình đào tạo, thi đấu và biểu diễn trên toàn quốc. Ý nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt trình độ tinh thông, vượt qua nhiều thử thách để vươn tới đỉnh cao võ học. Lời thiệu: Bái tổ Lão hổ thượng sơn Chấp thủ khai mã Song thủ phá cước Đồng tử dâng quả Lưỡng thủ khai môn Đơn toạ phục hổ Hữu thủ yểm tâm. Hồi đầu thối toạ Tả thủ yểm tâm Nhất cước phá đao Nhất quyền đả…",
+      "question": "Nhận định sau đúng hay sai? Lão Hổ Thượng Sơn là bài quyền trấn môn của Võ phái Nam Tông, do cố võ sư Lê Văn Kiển (Tám Kiển) sáng lập.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c08-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 40,
+      "type": "single",
+      "sourceQuestion": "Cho biết thế nào là cao thượng? Thái dộ bất chợt nhưòng nhịn tha thứ cho người có phải là cao thượng hay không?",
+      "topic": "blue-lesson-03",
+      "explanation": "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng. Thái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí nhất thời, không có định hướng và nền tảng đạo đức vững chắc.",
+      "question": "Cho biết thế nào là cao thượng? Thái dộ bất chợt nhưòng nhịn tha thứ cho người có phải là cao thượng hay không?",
+      "options": [
+        "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng.",
+        "Nhưng cũng phải hiểu sự gian trá của người để tránh bị người lường gạt và cũng để tự thắng mình, nhưng không được gian trá, làm hại đến người khác, để không bị tổn hại đạo hạnh.",
+        "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Võ là những đòn thế thể hiện sức mạnh, sự nhanh nhẹn, linh hoạt được dùng để tự vệ và chiến đấu."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c01-false",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 41,
+      "type": "truefalse",
+      "sourceQuestion": "Võ Sinh hãy cho biết: Vì sao nói: “Võ cổ truyền đồng hành với lịch sử dựng nước và giữ nước của dân tộc Việt Nam”?",
+      "topic": "blue-lesson-03",
+      "explanation": "Nước Việt Nam hàng nghìn năm bị đô hộ, lúc bấy giờ chưa có vũ khí hiện đại, nhưng dân tộc Việt Nam ta luôn có tinh thần bất khuất, dũng cảm, thông minh, sáng tạo và ý chí chiến đấu ngoan cường nên nhân dân ta đã tận dụng những dụng cụ sinh hoạt thường ngày như dao gậy hay đúc kim loại như đồng, sắt thành đao, kiếm, siêu, thương, và ngày ngày rèn luyện các thế đòn, thế tấn công bằng tay và bằng binh khí để tự vệ, chiến đấu chống ngoại xâm. Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay.",
+      "question": "Nhận định sau đúng hay sai? Về «Võ Sinh hãy cho biết: Vì sao nói: “Võ cổ truyền đồng hành với lịch sử dựng nước và giữ nước của dân tộc Việt Nam”», bài học nêu: Nhưng cũng phải hiểu sự gian trá của người để tránh bị người lường gạt và cũng để tự thắng mình, nhưng không được gian trá, làm hại đến người khác, để không bị tổn hại đạo hạnh.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "exam-lam-3-single-c09-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 42,
+      "type": "single",
+      "sourceQuestion": "Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định. Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+      "question": "Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào?",
+      "options": [
+        "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+        "Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+        "Sự tranh đấu đó phải dựa trên tinh thần Từ bi, Trí tuệ, phù hợp với Nhân quả, đạo đức và pháp luật.",
+        "Trọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c02-true2",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 43,
+      "type": "truefalse",
+      "sourceQuestion": "Võ sinh hãy lý giải Thành ngữ Việt Nam có câu: “Văn ôn, võ luyện”.",
+      "topic": "blue-lesson-03",
+      "explanation": "Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội. Võ là những đòn thế thể hiện sức mạnh, sự nhanh nhẹn, linh hoạt được dùng để tự vệ và chiến đấu. Hai lĩnh vực này đều quan trọng và bổ trợ cho nhau trong cuộc sống. Nhưng nếu muốn thành công trong cả hai lĩnh vực trên thì người học trò phải luôn dùi mài ôn luyện, phải có ý chí cùng sự kiên trì học hỏi để duy trì và nâng cao trình độ.",
+      "question": "Nhận định sau đúng hay sai? Võ là những đòn thế thể hiện sức mạnh, sự nhanh nhẹn, linh hoạt được dùng để tự vệ và chiến đấu.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c10-focus",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 44,
+      "type": "single",
+      "sourceQuestion": "Tại sao cần phải sáng suốt nhận định?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý, hiểu rõ bản chất của sự việc, từ đó xử lý đúng người, đúng việc, đúng thời điểm và tránh những hậu quả đáng tiếc.",
+      "question": "Theo nội dung bài, ý nào đúng về «Tại sao cần phải sáng suốt nhận định»?",
+      "options": [
+        "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý, hiểu rõ bản chất của sự việc, từ đó xử lý đúng người, đúng việc, đúng thời điểm và tránh những hậu quả đáng tiếc.",
+        "Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội.",
+        "Câu thành ngữ dạy chúng ta phải kính trọng thầy cô, biết ơn người dạy dỗ mình, đồng thời sống có đạo đức, có nghĩa tình để trở thành người tài đức có ích cho xã hội.",
+        "Lão Hổ Thượng Sơn là bài quyền trấn môn của Võ phái Nam Tông, do cố võ sư Lê Văn Kiển (Tám Kiển) sáng lập."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c03-true2",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 45,
+      "type": "truefalse",
+      "sourceQuestion": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng. Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ. Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị). - Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội. Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh. Công đức: Siêng làm việc thiện, giúp đời. Thiền định: Chuyên cần học và thực hành thiền",
+      "question": "Nhận định sau đúng hay sai? Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c11-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 46,
+      "type": "single",
+      "sourceQuestion": "Thế nào là bền gan tranh đấu?",
+      "topic": "blue-lesson-03",
+      "explanation": "Bền gan tranh đấu là có ý chí và nghị lực vững vàng, không nản lòng trước thất bại, không khuất phục trước khó khăn hay áp lực, luôn kiên trì giải quyết vấn đề một cách bền bỉ. Sự tranh đấu đó phải dựa trên tinh thần Từ bi, Trí tuệ, phù hợp với Nhân quả, đạo đức và pháp luật.",
+      "question": "Thế nào là bền gan tranh đấu?",
+      "options": [
+        "Bền gan tranh đấu là có ý chí và nghị lực vững vàng, không nản lòng trước thất bại, không khuất phục trước khó khăn hay áp lực, luôn kiên trì giải quyết vấn đề một cách bền bỉ.",
+        "Thái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí nhất thời, không có định hướng và nền tảng đạo đức vững chắc.",
+        "Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay.",
+        "Nhưng cũng phải hiểu sự gian trá của người để tránh bị người lường gạt và cũng để tự thắng mình, nhưng không được gian trá, làm hại đến người khác, để không bị tổn hại đạo hạnh."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c04-true2",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 47,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết đạo hạnh là gì? Tại sao phải trao dồi đạo hạnh?",
+      "topic": "blue-lesson-03",
+      "explanation": "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo. Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+      "question": "Nhận định sau đúng hay sai? Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c12-direct",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 48,
+      "type": "single",
+      "sourceQuestion": "Võ sinh giải thích câu thành ngữ: “Tôn sư trọng đạo”?",
+      "topic": "blue-lesson-03",
+      "explanation": "Tôn sư là tôn kính, biết ơn và quý trọng người thầy. Trọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn. Câu thành ngữ dạy chúng ta phải kính trọng thầy cô, biết ơn người dạy dỗ mình, đồng thời sống có đạo đức, có nghĩa tình để trở thành người tài đức có ích cho xã hội.",
+      "question": "Võ sinh giải thích câu thành ngữ: “Tôn sư trọng đạo”?",
+      "options": [
+        "Tôn sư là tôn kính, biết ơn và quý trọng người thầy.",
+        "Tính nghĩa với huynh đệ, yêu thương giúp đỡ mọi người.",
+        "Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+        "Hai lĩnh vực này đều quan trọng và bổ trợ cho nhau trong cuộc sống."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c05-true2",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 49,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu. Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+      "question": "Nhận định sau đúng hay sai? Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c13-focus",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 50,
+      "type": "single",
+      "sourceQuestion": "Trình bày ngắn gọn xuất xứ bài quyền quy đinh của LĐVTCTVN Lão Hổ thượng sơn?",
+      "topic": "blue-lesson-03",
+      "explanation": "Lão Hổ Thượng Sơn là bài quyền trấn môn của Võ phái Nam Tông, do cố võ sư Lê Văn Kiển (Tám Kiển) sáng lập. Năm 1993, bài quyền này được Hội nghị chuyên môn toàn quốc lần thứ nhất của Liên đoàn Võ thuật Cổ truyền Việt Nam chọn đưa vào chương trình đào tạo, thi đấu và biểu diễn trên toàn quốc. Ý nghĩa Lão Hổ Thượng Sơn không phải là \"cọp già lên núi\", mà tượng trưng cho người luyện võ đã đạt trình độ tinh thông, vượt qua nhiều thử thách để vươn tới đỉnh cao võ học. Lời thiệu: Bái tổ Lão hổ thượng sơn Chấp thủ khai mã Song thủ phá cước Đồng tử dâng quả Lưỡng thủ khai môn Đơn toạ phục hổ Hữu thủ yểm tâm. Hồi đầu thối toạ Tả thủ yểm tâm Nhất cước phá đao Nhất quyền đả…",
+      "question": "Theo nội dung bài, ý nào đúng về «Trình bày ngắn gọn xuất xứ bài quyền quy đinh của LĐVTCTVN Lão Hổ thượng sơn»?",
+      "options": [
+        "Lão Hổ Thượng Sơn là bài quyền trấn môn của Võ phái Nam Tông, do cố võ sư Lê Văn Kiển (Tám Kiển) sáng lập.",
+        "Nhưng cũng phải hiểu sự gian trá của người để tránh bị người lường gạt và cũng để tự thắng mình, nhưng không được gian trá, làm hại đến người khác, để không bị tổn hại đạo hạnh.",
+        "Trọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn.",
+        "Sự tranh đấu đó phải dựa trên tinh thần Từ bi, Trí tuệ, phù hợp với Nhân quả, đạo đức và pháp luật."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c06-true2",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 51,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết VSPQQ thực hiện nếp sống giản dị như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền sống giản dị, không đua đòi, biết sống phù hợp với điều kiện của bản thân và hoàn cảnh xã hội. Khi có điều kiện thì sử dụng những tiện nghi phù hợp, khi không có điều kiện thì biết chấp nhận, không đòi hỏi hay gây phiền lòng cho người khác.",
+      "question": "Nhận định sau đúng hay sai? Khi có điều kiện thì sử dụng những tiện nghi phù hợp, khi không có điều kiện thì biết chấp nhận, không đòi hỏi hay gây phiền lòng cho người khác.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c01-focus",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 52,
+      "type": "single",
+      "sourceQuestion": "Võ Sinh hãy cho biết: Vì sao nói: “Võ cổ truyền đồng hành với lịch sử dựng nước và giữ nước của dân tộc Việt Nam”?",
+      "topic": "blue-lesson-03",
+      "explanation": "Nước Việt Nam hàng nghìn năm bị đô hộ, lúc bấy giờ chưa có vũ khí hiện đại, nhưng dân tộc Việt Nam ta luôn có tinh thần bất khuất, dũng cảm, thông minh, sáng tạo và ý chí chiến đấu ngoan cường nên nhân dân ta đã tận dụng những dụng cụ sinh hoạt thường ngày như dao gậy hay đúc kim loại như đồng, sắt thành đao, kiếm, siêu, thương, và ngày ngày rèn luyện các thế đòn, thế tấn công bằng tay và bằng binh khí để tự vệ, chiến đấu chống ngoại xâm. Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay.",
+      "question": "Theo nội dung bài, ý nào đúng về «Võ Sinh hãy cho biết: Vì sao nói: “Võ cổ truyền đồng hành với lịch sử dựng nước và giữ nước của dân tộc Việt Nam”»?",
+      "options": [
+        "Võ cổ truyền được hình thành từ đó và được nhân rộng cho đến ngày hôm nay.",
+        "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định.",
+        "Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh.",
+        "Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị)."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c07-true2",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 53,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết phẩm tính chính trực của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Phầm tính chính trực VSPQQ là: sống chung thủy, trung thành với môn phái, với tổ quốc. Tính nghĩa với huynh đệ, yêu thương giúp đỡ mọi người. Nhưng cũng phải hiểu sự gian trá của người để tránh bị người lường gạt và cũng để tự thắng mình, nhưng không được gian trá, làm hại đến người khác, để không bị tổn hại đạo hạnh.",
+      "question": "Nhận định sau đúng hay sai? Tính nghĩa với huynh đệ, yêu thương giúp đỡ mọi người.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c02-focus",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 54,
+      "type": "single",
+      "sourceQuestion": "Võ sinh hãy lý giải Thành ngữ Việt Nam có câu: “Văn ôn, võ luyện”.",
+      "topic": "blue-lesson-03",
+      "explanation": "Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội. Võ là những đòn thế thể hiện sức mạnh, sự nhanh nhẹn, linh hoạt được dùng để tự vệ và chiến đấu. Hai lĩnh vực này đều quan trọng và bổ trợ cho nhau trong cuộc sống. Nhưng nếu muốn thành công trong cả hai lĩnh vực trên thì người học trò phải luôn dùi mài ôn luyện, phải có ý chí cùng sự kiên trì học hỏi để duy trì và nâng cao trình độ.",
+      "question": "Theo nội dung bài, ý nào đúng về «Võ sinh hãy lý giải Thành ngữ Việt Nam có câu: “Văn ôn, võ luyện”.»?",
+      "options": [
+        "Văn là số vốn văn hóa, kiến thức được học hỏi từ nhà trường hay xã hội.",
+        "Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+        "Trọng đạo là coi trọng đạo lý, đạo đức và lẽ sống đúng đắn.",
+        "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c08-true2",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 55,
+      "type": "truefalse",
+      "sourceQuestion": "Cho biết thế nào là cao thượng? Thái dộ bất chợt nhưòng nhịn tha thứ cho người có phải là cao thượng hay không?",
+      "topic": "blue-lesson-03",
+      "explanation": "Cao thượng là vượt lên trên những điều tầm thường, nhỏ nhen, ích kỷ cá nhân; là kết quả của quá trình tu dưỡng lâu dài với đầy đủ Bi - Trí - Dũng. Thái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí nhất thời, không có định hướng và nền tảng đạo đức vững chắc.",
+      "question": "Nhận định sau đúng hay sai? Thái độ bất chợt nhường nhịn, tha thứ cho người khác chưa hẳn là cao thượng, vì có thể chỉ là cảm xúc hoặc tính khí nhất thời, không có định hướng và nền tảng đạo đức vững chắc.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c03-focus",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 56,
+      "type": "single",
+      "sourceQuestion": "Muốn rèn luyện tin thần, VSPQQ phải làm gì?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng. Đức độ: luôn luôn thương yêu, bao dung, khiêm hạ, tự thấy lỗi mình để tự không ngừng tiến bộ và giúp người khác cùng tiến bộ. Cương trực: cương quyết, thẳng thắn trong trí tuệ ( nói những điều vì sự phát triễn chung chứ không vì công kích người khác, nói lỗi người khác một cách thiếu tế nhị). - Trầm tĩnh: điềm đạm bình tĩnh tránh nhũng trường hợp xốc nỗi, nóng vội. Tháo vát: Linh hoạt, ứng xử tốt trong mọi hoàn cảnh. Công đức: Siêng làm việc thiện, giúp đời. Thiền định: Chuyên cần học và thực hành thiền",
+      "question": "Theo nội dung bài, ý nào đúng về «Muốn rèn luyện tin thần, VSPQQ phải làm gì»?",
+      "options": [
+        "Muốn rèn luyện tinh thần VSPQQ phải: Sống khỏe: thân thể khỏe mạnh, tư tưởng trong sáng, hướng thiện, và hướng thượng.",
+        "Lời thiệu: Bái tổ Lão hổ thượng sơn Chấp thủ khai mã Song thủ phá cước Đồng tử dâng quả Lưỡng thủ khai môn Đơn toạ phục hổ Hữu thủ yểm tâm.",
+        "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý, hiểu rõ bản chất của sự việc, từ đó xử lý đúng người, đúng việc, đúng thời điểm và tránh những hậu quả đáng tiếc.",
+        "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c09-true2",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 57,
+      "type": "truefalse",
+      "sourceQuestion": "Muốn kiện toàn ý chí đanh thép, võ sinh Phật Quang Quyền phải làm như thế nào?",
+      "topic": "blue-lesson-03",
+      "explanation": "Muốn kiện toàn ý chí đanh thép VSPQQ phải: Nghiên cứu, suy xét kỹ lưỡng mọi vấn đề trước khi quyết định. Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+      "question": "Nhận định sau đúng hay sai? Khi đã quyết định đúng đắn thì kiên trì thực hiện đến cùng, với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-single-c04-focus",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 58,
+      "type": "single",
+      "sourceQuestion": "Cho biết đạo hạnh là gì? Tại sao phải trao dồi đạo hạnh?",
+      "topic": "blue-lesson-03",
+      "explanation": "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo. Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+      "question": "Theo nội dung bài, ý nào đúng về «Cho biết đạo hạnh là gì? Tại sao phải trao dồi đạo hạnh»?",
+      "options": [
+        "Đạo hạnh là phẩm hạnh của môn sinh Phật Quang Quyền, gồm: tôn kính Phật tuyệt đối, yêu nước nồng nàng, từ bi vô hạn, khiêm hạ tột cùng, tinh thần phụng sự, hướng đến diệt trừ bản ngã và không ngừng rèn luyện võ thuật, võ đạo.",
+        "Thiền định: Chuyên cần học và thực hành thiền",
+        "Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+        "Câu thành ngữ dạy chúng ta phải kính trọng thầy cô, biết ơn người dạy dỗ mình, đồng thời sống có đạo đức, có nghĩa tình để trở thành người tài đức có ích cho xã hội."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "exam-lam-3-truefalse-c10-false",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 59,
+      "type": "truefalse",
+      "sourceQuestion": "Tại sao cần phải sáng suốt nhận định?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền cần sáng suốt nhận định để phân biệt đúng sai, phải trái, hợp tình hợp lý, hiểu rõ bản chất của sự việc, từ đó xử lý đúng người, đúng việc, đúng thời điểm và tránh những hậu quả đáng tiếc.",
+      "question": "Nhận định sau đúng hay sai? Về «Tại sao cần phải sáng suốt nhận định», bài học nêu: Môn sinh phải trau dồi đạo hạnh vì đạo hạnh là nền tảng của mọi đức tính, giúp hoàn thiện nhân cách, rèn luyện tinh thần và thực hành võ đạo đúng đắn.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "exam-lam-3-single-c05-focus",
+      "lessonId": "blue-lesson-03",
+      "rankId": "lam-3",
+      "beltId": "blue",
+      "number": 60,
+      "type": "single",
+      "sourceQuestion": "Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao?",
+      "topic": "blue-lesson-03",
+      "explanation": "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu. Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện và xây dựng cuộc sống tốt đẹp hơn",
+      "question": "Theo nội dung bài, ý nào đúng về «Cho biết Quan niệm về đức trong sạch của VSPQQ ra sao»?",
+      "options": [
+        "Võ sinh Phật Quang Quyền phải giữ gìn thân tâm trong sạch, sống đạo đức và tránh điều xấu.",
+        "Thiền định: Chuyên cần học và thực hành thiền",
+        "Tính nghĩa với huynh đệ, yêu thương giúp đỡ mọi người.",
+        "Công đức: Siêng làm việc thiện, giúp đời."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

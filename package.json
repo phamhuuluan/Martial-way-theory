@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "node scripts/convert-content.mjs && node scripts/generate-achievement-badges.mjs && node scripts/sync-assets.mjs && next build",
+    "build": "node scripts/convert-content.mjs && node scripts/sync-exam-bank.mjs && node scripts/generate-achievement-badges.mjs && node scripts/sync-assets.mjs && next build",
+    "sync-exam-bank": "node scripts/sync-exam-bank.mjs",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",

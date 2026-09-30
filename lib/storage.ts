@@ -6,6 +6,7 @@ import type {
   UserPreferences,
 } from '@/types';
 import { BELT_WORLDS, STORAGE_KEY, CURRENT_VERSION } from '@/lib/constants';
+import { candidateProfileSchema, type CandidateProfileInput } from '@/lib/candidate-profile';
 import { mergeReadProgress } from '@/lib/lesson-reading';
 
 export const DEFAULT_PREFERENCES: UserPreferences = {
@@ -216,6 +217,15 @@ export function resetProgress(): UserProgress {
   if (existing.profile.name) {
     fresh.profile.name = existing.profile.name;
   }
+  if (existing.profile.dateOfBirth) {
+    fresh.profile.dateOfBirth = existing.profile.dateOfBirth;
+  }
+  if (existing.profile.club) {
+    fresh.profile.club = existing.profile.club;
+  }
+  if (existing.profile.dojo) {
+    fresh.profile.dojo = existing.profile.dojo;
+  }
   saveProgress(fresh);
   return fresh;
 }
@@ -226,7 +236,8 @@ export function exportProgress(): string {
 
 export function importProgress(json: string): boolean {
   try {
-    const parsed = JSON.parse(json);
+    const parsed = JSON.parse(json) as Record<string, unknown>;
+    delete parsed.examAttempts;
     const migrated = migrateProgress(parsed);
     if (!migrated.profile?.startedAt) return false;
     if (migrated.version > CURRENT_VERSION) return false;
@@ -246,6 +257,63 @@ export function updateProfile(name: string): UserProgress {
   };
   saveProgress(next);
   return next;
+}
+
+function clipProfileText(value: string): string {
+  return value.trim().slice(0, 80);
+}
+
+export function updateCandidateDraft(input: CandidateProfileInput): UserProgress {
+  const current = getProgress();
+  const next: UserProgress = {
+    ...current,
+    profile: {
+      ...current.profile,
+      name: clipProfileText(input.name),
+      dateOfBirth: input.dateOfBirth.trim().slice(0, 10),
+      club: clipProfileText(input.club),
+      dojo: clipProfileText(input.dojo),
+    },
+  };
+  saveProgress(next);
+  return next;
+}
+
+export function updateCandidateProfile(input: CandidateProfileInput): UserProgress {
+  const parsed = candidateProfileSchema.safeParse(input);
+  const current = getProgress();
+  if (!parsed.success) return current;
+
+  const next: UserProgress = {
+    ...current,
+    profile: {
+      ...current.profile,
+      name: parsed.data.name,
+      dateOfBirth: parsed.data.dateOfBirth,
+      club: parsed.data.club,
+      dojo: parsed.data.dojo,
+    },
+    preferences: { ...current.preferences, onboardingComplete: true },
+  };
+  saveProgress(next);
+  return next;
+}
+
+export function didPersistCandidate(input: CandidateProfileInput): boolean {
+  if (!isBrowser()) return false;
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return false;
+    const profile = (JSON.parse(raw) as UserProgress).profile;
+    return (
+      profile?.name === input.name &&
+      profile?.dateOfBirth === input.dateOfBirth &&
+      profile?.club === input.club &&
+      profile?.dojo === input.dojo
+    );
+  } catch {
+    return false;
+  }
 }
 
 export function updatePreferences(
