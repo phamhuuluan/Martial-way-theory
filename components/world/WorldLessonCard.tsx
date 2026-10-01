@@ -18,7 +18,7 @@ import {
   getWorldLessonDisplayState,
   type WorldLessonDisplayState,
 } from '@/lib/world-helpers';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { cn } from '@/lib/utils';
 
 export type WorldLessonCardVariant = 'featured' | 'grid';
@@ -43,10 +43,11 @@ export function WorldLessonCard({
   index,
   variant = 'grid',
 }: WorldLessonCardProps) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const displayState = getWorldLessonDisplayState(lesson.id, progress);
   const readProgress = progress.lessons[lesson.id]?.readProgress ?? 0;
-  const quizScore = progress.quizzes[lesson.id]?.score;
+  const quiz = progress.quizzes[lesson.id];
+  const quizScore = quiz && quiz.attempts > 0 ? quiz.score : undefined;
   const reduced = useReducedMotion();
   const href = `/world/${lesson.belt}/${lesson.lessonSlug}`;
   const StateIcon = STATE_ICONS[displayState];

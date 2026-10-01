@@ -100,7 +100,10 @@ export function getBeltAverageQuizScore(
   if (!belt) return null;
 
   const scores = belt.lessons
-    .filter((id) => progress.quizzes[id]?.passed)
+    .filter((id) => {
+      const quiz = progress.quizzes[id];
+      return quiz?.passed === true && quiz.attempts > 0;
+    })
     .map((id) => progress.quizzes[id]!.score);
 
   if (scores.length === 0) return null;

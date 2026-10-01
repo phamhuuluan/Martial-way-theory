@@ -6,14 +6,14 @@ import { ArrowRight } from 'lucide-react';
 import type { BeltWorld, LessonMeta } from '@/types';
 import { BELT_WORLDS } from '@/lib/constants';
 import { isBeltCompleted } from '@/lib/progress';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 
 interface WorldCompletionBannerProps {
   world: BeltWorld;
 }
 
 export function WorldCompletionBanner({ world }: WorldCompletionBannerProps) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const reduced = useReducedMotion();
   const beltIndex = BELT_WORLDS.findIndex((b) => b.id === world.id);
   const nextBelt = BELT_WORLDS[beltIndex + 1];

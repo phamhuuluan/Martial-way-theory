@@ -34,8 +34,17 @@ describe('candidate profile', () => {
         dateOfBirth: '2010-05-02',
         club: 'CLB Phật Quang',
         dojo: 'Võ đường Phật Quang',
+        coach: 'Nguyễn Văn HLV',
       })
     ).toBe(true);
+    expect(
+      isCandidateProfileComplete({
+        name: 'Nguyễn Văn An',
+        dateOfBirth: '2010-05-02',
+        club: 'CLB Phật Quang',
+        dojo: 'Võ đường Phật Quang',
+      })
+    ).toBe(false);
     expect(
       isCandidateProfileComplete({
         name: 'Nguyễn Văn An',

@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { X } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -11,6 +12,33 @@ interface ModalProps {
   children: React.ReactNode;
   className?: string;
   size?: 'sm' | 'md' | 'lg' | 'full';
+  /** Bottom sheet on small screens. Other dialogs keep the centered layout. */
+  sheet?: boolean;
+}
+
+function useKeyboardInset(enabled: boolean) {
+  const [inset, setInset] = useState(0);
+
+  useEffect(() => {
+    if (!enabled) return;
+    const viewport = window.visualViewport;
+    if (!viewport) return;
+
+    const update = () => {
+      const covered = Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop);
+      setInset(Math.round(covered));
+    };
+
+    update();
+    viewport.addEventListener('resize', update);
+    viewport.addEventListener('scroll', update);
+    return () => {
+      viewport.removeEventListener('resize', update);
+      viewport.removeEventListener('scroll', update);
+    };
+  }, [enabled]);
+
+  return enabled ? inset : 0;
 }
 
 export function Modal({
@@ -20,8 +48,10 @@ export function Modal({
   children,
   className,
   size = 'md',
+  sheet = false,
 }: ModalProps) {
   const reduced = useReducedMotion();
+  const keyboardInset = useKeyboardInset(open && sheet);
 
   const sizes = {
     sm: 'max-w-sm',
@@ -33,7 +63,12 @@ export function Modal({
   return (
     <AnimatePresence>
       {open && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+        <div
+          className={cn(
+            'fixed inset-0 z-50 flex justify-center',
+            sheet ? 'items-end sm:items-center sm:p-4' : 'items-center p-4'
+          )}
+        >
           <motion.div
             className="absolute inset-0 bg-black/70"
             initial={{ opacity: 0 }}
@@ -43,13 +78,21 @@ export function Modal({
           />
           <motion.div
             className={cn(
-              'relative z-10 w-full rounded-[var(--radius-lg)] bg-bg-elevated p-6 shadow-lg',
+              'relative z-10 w-full bg-bg-elevated shadow-lg',
+              sheet
+                ? 'flex max-h-[100dvh] min-h-0 flex-col overflow-hidden rounded-t-[var(--radius-lg)] p-0 sm:max-h-[min(90dvh,40rem)] sm:rounded-[var(--radius-lg)]'
+                : 'rounded-[var(--radius-lg)] p-6',
               sizes[size],
               className
             )}
-            initial={reduced ? {} : { opacity: 0, scale: 0.95, y: 10 }}
+            style={
+              sheet && keyboardInset > 0
+                ? { marginBottom: keyboardInset, maxHeight: `calc(100dvh - ${keyboardInset}px)` }
+                : undefined
+            }
+            initial={reduced ? {} : sheet ? { opacity: 0, y: 24 } : { opacity: 0, scale: 0.95, y: 10 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={reduced ? {} : { opacity: 0, scale: 0.95, y: 10 }}
+            exit={reduced ? {} : sheet ? { opacity: 0, y: 24 } : { opacity: 0, scale: 0.95, y: 10 }}
             transition={{ duration: 0.3 }}
           >
             {title && (
@@ -64,7 +107,11 @@ export function Modal({
                 </button>
               </div>
             )}
-            {children}
+            {sheet ? (
+              <div className="flex max-h-full min-h-0 flex-col overflow-hidden">{children}</div>
+            ) : (
+              children
+            )}
           </motion.div>
         </div>
       )}

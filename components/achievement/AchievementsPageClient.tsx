@@ -2,7 +2,7 @@
 
 import { motion, useReducedMotion } from 'framer-motion';
 import { AchievementGrid } from '@/components/achievement/AchievementGrid';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { ACHIEVEMENTS } from '@/lib/achievements';
 
 function AchievementProgressRing({ percent }: { percent: number }) {
@@ -45,7 +45,7 @@ function AchievementProgressRing({ percent }: { percent: number }) {
 }
 
 export function AchievementsPageClient() {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const earned = progress.achievements.length;
   const total = ACHIEVEMENTS.length;
   const progressPercent = Math.round((earned / total) * 100);

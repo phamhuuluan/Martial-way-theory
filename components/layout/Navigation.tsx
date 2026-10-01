@@ -2,10 +2,11 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BookOpen, LayoutDashboard, Medal, NotebookPen, User } from 'lucide-react';
+import { BookOpen, ClipboardList, LayoutDashboard, Medal, NotebookPen, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { getCurrentBelt } from '@/lib/progress';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
+import { useAdminStore } from '@/store/admin-store';
 
 const ICONS = {
   journey: BookOpen,
@@ -13,6 +14,7 @@ const ICONS = {
   documents: LayoutDashboard,
   badge: Medal,
   profile: User,
+  manage: ClipboardList,
 } as const;
 
 const ITEMS = [
@@ -21,6 +23,7 @@ const ITEMS = [
   { href: '/documents', label: 'Tài liệu', icon: 'documents' as const },
   { href: '/achievements', label: 'Huy hiệu', icon: 'badge' as const },
   { href: '/profile', label: 'Hồ sơ', icon: 'profile' as const },
+  { href: '/pqq-management', label: 'Quản lý', icon: 'manage' as const, admin: true },
 ];
 
 function NavIcon({
@@ -44,21 +47,28 @@ function NavIcon({
   );
 }
 
+function navItems(isAdmin: boolean) {
+  return ITEMS.filter((item) => !item.admin || isAdmin);
+}
+
 export function BottomTabBar() {
   const pathname = usePathname();
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
+  const isAdmin = useAdminStore((s) => s.isAdmin);
   const currentBelt = getCurrentBelt(progress);
+  const items = navItems(isAdmin);
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-20 border-t border-border/80 bg-bg-secondary/95 shadow-[0_-4px_24px_rgba(0,0,0,0.15)] backdrop-blur-md lg:hidden">
       <div className="mx-auto flex max-w-lg">
-        {ITEMS.map((item) => {
+        {items.map((item) => {
           const href = item.dynamic ? `/world/${currentBelt}` : item.href;
           const active =
             pathname === href ||
             (item.href === '/journey' && pathname.startsWith('/journey')) ||
             (item.href === '/documents' && pathname.startsWith('/documents')) ||
             (item.href === '/profile' && pathname.startsWith('/profile')) ||
+            (item.href === '/pqq-management' && pathname.startsWith('/pqq-management')) ||
             (item.dynamic === true && pathname.startsWith('/world'));
 
           return (
@@ -89,8 +99,10 @@ export function BottomTabBar() {
 
 export function SideRail() {
   const pathname = usePathname();
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
+  const isAdmin = useAdminStore((s) => s.isAdmin);
   const currentBelt = getCurrentBelt(progress);
+  const items = navItems(isAdmin);
 
   return (
     <aside className="side-rail fixed left-0 top-0 z-20 hidden h-full w-60 flex-col lg:flex">
@@ -105,13 +117,14 @@ export function SideRail() {
         </span>
       </Link>
       <nav className="flex flex-col gap-2 px-4">
-        {ITEMS.map((item) => {
+        {items.map((item) => {
           const href = item.dynamic ? `/world/${currentBelt}` : item.href;
           const active =
             pathname === href ||
             (item.href === '/journey' && pathname.startsWith('/journey')) ||
             (item.href === '/documents' && pathname.startsWith('/documents')) ||
             (item.href === '/profile' && pathname.startsWith('/profile')) ||
+            (item.href === '/pqq-management' && pathname.startsWith('/pqq-management')) ||
             (item.dynamic === true && pathname.startsWith('/world'));
 
           return (

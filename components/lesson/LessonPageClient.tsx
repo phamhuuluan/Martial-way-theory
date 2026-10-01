@@ -16,7 +16,7 @@ import {
 } from '@/lib/progress';
 import { getLessonHref, READ_THRESHOLD } from '@/lib/constants';
 import { formatLessonDisplayTitle } from '@/lib/lesson-sections';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { Clock, FileText } from 'lucide-react';
 
 interface LessonPageClientProps {
@@ -39,7 +39,7 @@ export function LessonPageClient({
   const router = useRouter();
   const searchParams = useSearchParams();
   const quizLocked = searchParams.get('quizLocked') === '1';
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const [scrollProgress, setScrollProgress] = useState(0);
   const [mobileTocOpen, setMobileTocOpen] = useState(false);
 

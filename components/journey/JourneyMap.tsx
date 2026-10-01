@@ -11,10 +11,10 @@ import {
   JourneyPathConnector,
   JourneyStageMarker,
 } from '@/components/journey/JourneyPathConnector';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 
 export function JourneyMap() {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const currentBelt = getCurrentBelt(progress);
 
   return (

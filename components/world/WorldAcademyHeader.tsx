@@ -13,7 +13,7 @@ import {
 } from '@/lib/world-helpers';
 import { Breadcrumb } from '@/components/layout/Breadcrumb';
 import { ProgressBar } from '@/components/ui/Progress';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { cn } from '@/lib/utils';
 
 interface WorldAcademyHeaderProps {
@@ -22,7 +22,7 @@ interface WorldAcademyHeaderProps {
 }
 
 export function WorldAcademyHeader({ world, lessons }: WorldAcademyHeaderProps) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const percent = getBeltCompletionPercent(world.id, progress);
   const completed = isBeltCompleted(world.id, progress);
   const completedCount = getCompletedLessonCount(lessons, progress);

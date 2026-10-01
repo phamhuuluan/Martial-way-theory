@@ -10,7 +10,7 @@ import {
   WORLD_LESSON_STATE_LABELS,
   getWorldLessonDisplayState,
 } from '@/lib/world-helpers';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { cn } from '@/lib/utils';
 
 interface WorldFeaturedLessonProps {
@@ -24,7 +24,7 @@ export function WorldFeaturedLesson({
   world,
   lessonIndex,
 }: WorldFeaturedLessonProps) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const displayState = getWorldLessonDisplayState(lesson.id, progress);
   const readProgress = progress.lessons[lesson.id]?.readProgress ?? 0;
   const reduced = useReducedMotion();

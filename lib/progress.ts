@@ -85,7 +85,7 @@ export function getOverallProgress(progress?: UserProgress): {
   ).length;
 
   const scores = Object.values(p.quizzes)
-    .filter((q) => q.passed)
+    .filter((q) => q.passed && q.attempts > 0)
     .map((q) => q.score);
 
   const averageScore =

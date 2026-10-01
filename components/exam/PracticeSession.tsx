@@ -7,6 +7,7 @@ import { Modal } from '@/components/ui/Modal';
 import { ExamQuestion } from '@/components/exam/ExamQuestion';
 import { isCandidateProfileComplete } from '@/lib/candidate-profile';
 import { getExamAttempt, saveExamAttempt } from '@/lib/exam-attempts';
+import { ADMIN_EXAM_CANDIDATE, postExamResult, toExamResultRecord } from '@/lib/exam-results';
 import { clearExamDraft, createExamDraft, readExamDraft, writeExamDraft } from '@/lib/exam-draft';
 import {
   buildExamAttempt,
@@ -24,6 +25,7 @@ import {
   isTrueFalseQuestion,
   type QuizAnswer,
 } from '@/lib/quiz-engine';
+import { useAdminStore } from '@/store/admin-store';
 import { useProgressStore } from '@/store/progress-store';
 import type { BeltId } from '@/types';
 import type { ExamBankQuestion, ExamDraft } from '@/types/exam';
@@ -59,58 +61,81 @@ export function PracticeSession({
 }: PracticeSessionProps) {
   const router = useRouter();
   const hydrated = useProgressStore((s) => s.hydrated);
+  const adminHydrated = useAdminStore((s) => s.hydrated);
+  const isAdmin = useAdminStore((s) => s.isAdmin);
   const profile = useProgressStore((s) => s.progress.profile);
   const [draft, setDraft] = useState<ExamDraft | null>(null);
   const [ready, setReady] = useState(false);
   const [index, setIndex] = useState(0);
   const [now, setNow] = useState(() => Date.now());
   const [confirming, setConfirming] = useState(false);
+  const [submitError, setSubmitError] = useState('');
   const submittingRef = useRef(false);
+  const submitFailedRef = useRef(false);
   const openedRef = useRef(false);
 
   const profileComplete = isCandidateProfileComplete(profile);
+  const canPractice = isAdmin || profileComplete;
 
   const submitDraft = useCallback(
     (source: ExamDraft, autoSubmitted: boolean) => {
       if (submittingRef.current) return;
       submittingRef.current = true;
-      const existingAttempt = getExamAttempt(source.id);
-      if (existingAttempt) {
+      submitFailedRef.current = false;
+      setSubmitError('');
+
+      const finish = async () => {
+        const submittedAt = new Date().toISOString();
+        const candidate = isAdmin
+          ? ADMIN_EXAM_CANDIDATE
+          : profileComplete
+            ? {
+                fullName: profile.name!.trim(),
+                dateOfBirth: profile.dateOfBirth!,
+                club: profile.club!.trim(),
+                dojo: profile.dojo!.trim(),
+              }
+            : source.candidate;
+        const existingAttempt = getExamAttempt(source.id);
+        const attempt = existingAttempt
+          ? { ...existingAttempt, candidate }
+          : buildExamAttempt({
+              id: source.id,
+              mode: 'practice',
+              candidate,
+              rankId: source.rankId,
+              beltId: source.beltId,
+              startedAt: source.startedAt,
+              submittedAt,
+              timeLimitMs: source.timeLimitMs,
+              autoSubmitted,
+              questions: source.questions,
+              answers: source.answers,
+            });
+        saveExamAttempt(attempt);
+
+        try {
+          await postExamResult(toExamResultRecord(attempt));
+        } catch (error) {
+          submittingRef.current = false;
+          submitFailedRef.current = true;
+          setSubmitError(
+            error instanceof Error ? error.message : 'Không lưu được kết quả. Hãy thử lại.'
+          );
+          return;
+        }
+
         clearExamDraft();
-        router.push(`/profile/practice/attempt?id=${encodeURIComponent(existingAttempt.id)}`);
-        return;
-      }
-      const submittedAt = new Date().toISOString();
-      const candidate = profileComplete
-        ? {
-            fullName: profile.name!.trim(),
-            dateOfBirth: profile.dateOfBirth!,
-            club: profile.club!.trim(),
-            dojo: profile.dojo!.trim(),
-          }
-        : source.candidate;
-      const attempt = buildExamAttempt({
-        id: source.id,
-        mode: 'practice',
-        candidate,
-        rankId: source.rankId,
-        beltId: source.beltId,
-        startedAt: source.startedAt,
-        submittedAt,
-        timeLimitMs: source.timeLimitMs,
-        autoSubmitted,
-        questions: source.questions,
-        answers: source.answers,
-      });
-      saveExamAttempt(attempt);
-      clearExamDraft();
-      router.push(`/profile/practice/attempt?id=${encodeURIComponent(attempt.id)}`);
+        router.push(`/profile/practice/attempt?id=${encodeURIComponent(attempt.id)}`);
+      };
+
+      void finish();
     },
-    [profile.club, profile.dateOfBirth, profile.dojo, profile.name, profileComplete, router]
+    [isAdmin, profile.club, profile.dateOfBirth, profile.dojo, profile.name, profileComplete, router]
   );
 
   const startExam = useCallback(() => {
-    if (!profileComplete) {
+    if (!canPractice) {
       router.replace('/profile?notice=practice');
       return;
     }
@@ -123,12 +148,14 @@ export function PracticeSession({
       mode: 'practice',
       rankId,
       beltId,
-      candidate: {
-        fullName: profile.name!.trim(),
-        dateOfBirth: profile.dateOfBirth!,
-        club: profile.club!.trim(),
-        dojo: profile.dojo!.trim(),
-      },
+      candidate: isAdmin
+        ? ADMIN_EXAM_CANDIDATE
+        : {
+            fullName: profile.name!.trim(),
+            dateOfBirth: profile.dateOfBirth!,
+            club: profile.club!.trim(),
+            dojo: profile.dojo!.trim(),
+          },
       startedAt: new Date().toISOString(),
       timeLimitMs: durationMinutes * 60 * 1000,
       questions: paper,
@@ -145,7 +172,8 @@ export function PracticeSession({
     profile.dateOfBirth,
     profile.dojo,
     profile.name,
-    profileComplete,
+    canPractice,
+    isAdmin,
     questionCount,
     questions,
     rankId,
@@ -153,8 +181,8 @@ export function PracticeSession({
   ]);
 
   useEffect(() => {
-    if (!hydrated || openedRef.current) return;
-    if (!profileComplete) {
+    if (!hydrated || !adminHydrated || openedRef.current) return;
+    if (!canPractice) {
       router.replace('/profile?notice=practice');
       return;
     }
@@ -173,7 +201,7 @@ export function PracticeSession({
     }
 
     startExam();
-  }, [hydrated, profileComplete, rankId, router, startExam, submitDraft]);
+  }, [adminHydrated, canPractice, hydrated, rankId, router, startExam, submitDraft]);
 
   useEffect(() => {
     if (!draft) return;
@@ -195,7 +223,7 @@ export function PracticeSession({
     const timer = window.setInterval(() => {
       const current = Date.now();
       setNow(current);
-      if (current >= expireAt) submitDraft(draft, true);
+      if (current >= expireAt && !submitFailedRef.current) submitDraft(draft, true);
     }, 250);
     return () => window.clearInterval(timer);
   }, [draft, submitDraft]);
@@ -218,7 +246,7 @@ export function PracticeSession({
     });
   }, []);
 
-  if (!hydrated || !ready || !profileComplete || !draft) {
+  if (!hydrated || !adminHydrated || !ready || !canPractice || !draft) {
     return (
       <div className="profile-page px-4 py-16 text-center text-sm text-text-secondary">
         Đang mở đề…
@@ -308,6 +336,7 @@ export function PracticeSession({
               Câu sau
             </Button>
           </div>
+          {submitError && <p className="text-sm text-error">{submitError}</p>}
           <Button variant="primary" size="lg" className="w-full" onClick={() => setConfirming(true)}>
             Nộp bài
           </Button>
@@ -318,6 +347,7 @@ export function PracticeSession({
         <p className="mb-4 text-sm text-text-secondary">
           Bạn đã trả lời {answeredCount}/{draft.questions.length} câu. Sau khi nộp không sửa được đáp án.
         </p>
+        {submitError && <p className="mb-4 text-sm text-error">{submitError}</p>}
         <div className="flex gap-3">
           <Button variant="secondary" className="flex-1" onClick={() => setConfirming(false)}>
             Làm tiếp

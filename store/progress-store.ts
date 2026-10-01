@@ -20,6 +20,11 @@ import { candidateProfileSchema, type CandidateProfileInput } from '@/lib/candid
 import { getExamAttempts, parseImportedExamAttempts, replaceExamAttempts } from '@/lib/exam-attempts';
 import { syncBeltProgress, processQuizCompletion } from '@/lib/progress';
 import { checkAchievements } from '@/lib/achievements';
+import { useAdminStore } from '@/store/admin-store';
+
+function isAdminView(): boolean {
+  return useAdminStore.getState().isAdmin;
+}
 
 interface ProgressStore {
   progress: UserProgress;
@@ -79,17 +84,19 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
   },
 
   updateReading: (lessonId, readProgress) => {
+    if (isAdminView()) return;
     const p = updateLessonProgress(lessonId, { readProgress });
     set({ progress: p });
   },
 
   markSectionsComplete: (lessonId, sectionIds) => {
-    if (sectionIds.length === 0) return;
+    if (isAdminView() || sectionIds.length === 0) return;
     const p = updateLessonProgress(lessonId, { completedSections: sectionIds });
     set({ progress: p });
   },
 
   completeQuiz: (lessonId, score, passed, wrongQuestions) => {
+    if (isAdminView()) return get().progress;
     let p = processQuizCompletion(lessonId, score, passed, wrongQuestions);
     p = syncBeltProgress(p);
     p = checkAchievements(p);

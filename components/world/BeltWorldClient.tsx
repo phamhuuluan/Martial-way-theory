@@ -10,7 +10,7 @@ import { WorldCompletionBanner } from '@/components/world/WorldCompletionBanner'
 import { WorldFeaturedLesson } from '@/components/world/WorldFeaturedLesson';
 import { WorldLessonCatalog } from '@/components/world/WorldLessonCatalog';
 import { WorldLockedView } from '@/components/world/WorldLockedView';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { cn } from '@/lib/utils';
 
 interface BeltWorldClientProps {
@@ -19,7 +19,7 @@ interface BeltWorldClientProps {
 }
 
 export function BeltWorldClient({ world, lessons }: BeltWorldClientProps) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const unlocked = isBeltUnlocked(world.id, progress);
 
   if (!unlocked) {

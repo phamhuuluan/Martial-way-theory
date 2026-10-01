@@ -13,12 +13,12 @@ import {
 import { getBeltById, getLessonSlugFromId } from '@/lib/constants';
 import { ProgressBar } from '@/components/ui/Progress';
 import { WorldArtwork } from '@/components/journey/WorldArtwork';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { cn } from '@/lib/utils';
 
 /** Compact overall progress — sits under page header without competing with belt cards */
 export function JourneySummaryStrip() {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const overall = getOverallProgress(progress);
   const currentBeltId = getCurrentBelt(progress);
   const currentBelt = getBeltById(currentBeltId);

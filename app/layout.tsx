@@ -4,6 +4,7 @@ import { Suspense } from 'react';
 import { Be_Vietnam_Pro, Noto_Serif, Noto_Serif_TC } from 'next/font/google';
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
 import { GoogleAnalyticsRouteTracker } from '@/components/analytics/GoogleAnalyticsRouteTracker';
+import { AdminProvider } from '@/components/providers/AdminProvider';
 import { ProgressProvider } from '@/components/providers/ProgressProvider';
 import { PreferencesEffect } from '@/components/providers/PreferencesEffect';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
@@ -82,14 +83,16 @@ export default function RootLayout({
           }}
         />
         <ThemeProvider>
-          <GoogleAnalytics />
-          <ProgressProvider>
-            <PreferencesEffect />
-            <Suspense fallback={null}>
-              <GoogleAnalyticsRouteTracker />
-            </Suspense>
-            <AppShell>{children}</AppShell>
-          </ProgressProvider>
+          <AdminProvider>
+            <GoogleAnalytics />
+            <ProgressProvider>
+              <PreferencesEffect />
+              <Suspense fallback={null}>
+                <GoogleAnalyticsRouteTracker />
+              </Suspense>
+              <AppShell>{children}</AppShell>
+            </ProgressProvider>
+          </AdminProvider>
         </ThemeProvider>
       </body>
     </html>

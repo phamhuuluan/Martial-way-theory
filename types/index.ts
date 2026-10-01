@@ -119,6 +119,8 @@ export interface UserProfile {
   club?: string;
   /** Võ đường đang theo tập */
   dojo?: string;
+  /** HLV hướng dẫn */
+  coach?: string;
   startedAt: string;
   lastActiveAt: string;
 }

@@ -3,6 +3,8 @@
 import { useRef, useState, Suspense } from 'react';
 import Link from 'next/link';
 import { motion, useReducedMotion } from 'framer-motion';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
+import { useAdminStore } from '@/store/admin-store';
 import { useProgressStore } from '@/store/progress-store';
 import {
   getOverallProgress,
@@ -30,7 +32,7 @@ import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Download, Moon, RotateCcw, ScrollText, Sun, Upload } from 'lucide-react';
 
 export function ProfilePageClient() {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const setPreferences = useProgressStore((s) => s.setPreferences);
   const colorScheme = useColorScheme();
   const reset = useProgressStore((s) => s.reset);
@@ -42,7 +44,9 @@ export function ProfilePageClient() {
   const certRef = useRef<HTMLDivElement>(null);
   const [certBelt, setCertBelt] = useState<string | null>(null);
   const reduced = useReducedMotion();
+  const isAdmin = useAdminStore((s) => s.isAdmin);
   const profileComplete = isCandidateProfileComplete(progress.profile);
+  const canPractice = isAdmin || profileComplete;
 
   const overall = getOverallProgress(progress);
   const currentBelt = getCurrentBelt(progress);
@@ -108,7 +112,7 @@ export function ProfilePageClient() {
           </Suspense>
           <section className="profile-card">
             <h2 className="profile-card__title">Luyện đề trắc nghiệm</h2>
-            {profileComplete ? (
+            {canPractice ? (
               <Link href="/profile/practice">
                 <Button variant="primary" size="md">
                   Chọn cấp đai
@@ -116,7 +120,7 @@ export function ProfilePageClient() {
               </Link>
             ) : (
               <p className="text-sm text-text-secondary">
-                Lưu đủ họ và tên, ngày sinh, CLB và võ đường để mở luyện đề.
+                Lưu đủ họ và tên, ngày sinh, CLB, võ đường và HLV hướng dẫn để mở luyện đề.
               </p>
             )}
           </section>

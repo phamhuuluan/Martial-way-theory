@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/Badge';
 import { ProgressBar } from '@/components/ui/Progress';
 import type { LessonMeta, LessonState } from '@/types';
 import { cn } from '@/lib/utils';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 
 interface LessonCardProps {
   lesson: LessonMeta;
@@ -23,9 +23,10 @@ export function LessonCard({
   beltAccent,
   index,
 }: LessonCardProps) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const readProgress = progress.lessons[lesson.id]?.readProgress ?? 0;
-  const quizScore = progress.quizzes[lesson.id]?.score;
+  const quiz = progress.quizzes[lesson.id];
+  const quizScore = quiz && quiz.attempts > 0 ? quiz.score : undefined;
   const reduced = useReducedMotion();
 
   const inner = (

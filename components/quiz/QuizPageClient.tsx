@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import type { QuizData } from '@/types';
 import { QuizEngine } from '@/components/quiz/QuizEngine';
 import { isLessonUnlocked, isLessonReadingComplete } from '@/lib/progress';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { useProgressStore } from '@/store/progress-store';
 
 interface QuizPageClientProps {
@@ -19,7 +20,7 @@ interface QuizPageClientProps {
 export function QuizPageClient(props: QuizPageClientProps) {
   const router = useRouter();
   const hydrated = useProgressStore((s) => s.hydrated);
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const unlocked = isLessonUnlocked(props.lessonId, progress);
   const readProgress = progress.lessons[props.lessonId]?.readProgress ?? 0;
   const readingComplete = isLessonReadingComplete(

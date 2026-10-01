@@ -3,7 +3,7 @@
 import type { BeltWorld, LessonMeta } from '@/types';
 import { groupLessonsByDisplayState } from '@/lib/world-helpers';
 import { WorldLessonCard } from '@/components/world/WorldLessonCard';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 
 interface WorldLessonCatalogProps {
   world: BeltWorld;
@@ -55,7 +55,7 @@ export function WorldLessonCatalog({
   lessons,
   excludeLessonId,
 }: WorldLessonCatalogProps) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const groups = groupLessonsByDisplayState(lessons, progress, excludeLessonId);
 
   const hasAny =

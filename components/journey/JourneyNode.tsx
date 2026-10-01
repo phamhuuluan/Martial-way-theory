@@ -14,7 +14,7 @@ import {
 } from '@/lib/progress';
 import { ProgressBar } from '@/components/ui/Progress';
 import { WorldArtwork } from '@/components/journey/WorldArtwork';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 
 interface JourneyNodeProps {
   beltId: BeltId;
@@ -22,7 +22,7 @@ interface JourneyNodeProps {
 }
 
 export function JourneyNode({ beltId, isCurrent }: JourneyNodeProps) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   const belt = getBeltById(beltId);
   const unlocked = isBeltUnlocked(beltId, progress);
   const completed = isBeltCompleted(beltId, progress);

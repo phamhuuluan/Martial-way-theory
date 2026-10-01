@@ -226,6 +226,9 @@ export function resetProgress(): UserProgress {
   if (existing.profile.dojo) {
     fresh.profile.dojo = existing.profile.dojo;
   }
+  if (existing.profile.coach) {
+    fresh.profile.coach = existing.profile.coach;
+  }
   saveProgress(fresh);
   return fresh;
 }
@@ -273,6 +276,7 @@ export function updateCandidateDraft(input: CandidateProfileInput): UserProgress
       dateOfBirth: input.dateOfBirth.trim().slice(0, 10),
       club: clipProfileText(input.club),
       dojo: clipProfileText(input.dojo),
+      coach: clipProfileText(input.coach),
     },
   };
   saveProgress(next);
@@ -292,6 +296,7 @@ export function updateCandidateProfile(input: CandidateProfileInput): UserProgre
       dateOfBirth: parsed.data.dateOfBirth,
       club: parsed.data.club,
       dojo: parsed.data.dojo,
+      coach: parsed.data.coach,
     },
     preferences: { ...current.preferences, onboardingComplete: true },
   };
@@ -309,7 +314,8 @@ export function didPersistCandidate(input: CandidateProfileInput): boolean {
       profile?.name === input.name &&
       profile?.dateOfBirth === input.dateOfBirth &&
       profile?.club === input.club &&
-      profile?.dojo === input.dojo
+      profile?.dojo === input.dojo &&
+      profile?.coach === input.coach
     );
   } catch {
     return false;

@@ -11,7 +11,7 @@ import { useLessonReadingTracker } from '@/hooks/use-lesson-reading-tracker';
 import { useLessonSectionTracker } from '@/hooks/use-lesson-section-tracker';
 import type { LessonSection } from '@/lib/lesson-sections';
 import type { BeltWorld } from '@/types';
-import { useProgressStore } from '@/store/progress-store';
+import { useEffectiveProgress } from '@/hooks/use-effective-progress';
 import { cn } from '@/lib/utils';
 
 interface LessonReaderProps {
@@ -147,6 +147,6 @@ export function LessonReader({
 }
 
 export function useReadingProgress(lessonId: string) {
-  const progress = useProgressStore((s) => s.progress);
+  const progress = useEffectiveProgress();
   return progress.lessons[lessonId]?.readProgress ?? 0;
 }

@@ -23,6 +23,7 @@ export function ProfileCard({ className }: { className?: string }) {
     birthDate ? { label: 'Ngày sinh', value: birthDate } : null,
     profile.club ? { label: 'CLB', value: profile.club } : null,
     profile.dojo ? { label: 'Võ đường', value: profile.dojo } : null,
+    profile.coach ? { label: 'HLV hướng dẫn', value: profile.coach } : null,
   ].filter((item): item is { label: string; value: string } => item !== null);
 
   return (
