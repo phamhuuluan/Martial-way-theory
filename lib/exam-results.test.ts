@@ -16,6 +16,7 @@ function attempt(partial: Partial<ExamAttempt> = {}): ExamAttempt {
       dateOfBirth: '2010-05-02',
       club: 'CLB Phật Quang',
       dojo: 'Võ đường Phật Quang',
+      coach: 'Nguyễn Văn HLV',
     },
     rankId: 'lam-1',
     beltId: 'blue',
@@ -49,6 +50,8 @@ describe('exam results', () => {
     expect(toExamResultRecord(attempt()).paperName.length).toBeGreaterThan(0);
     expect(toExamResultRecord(attempt()).club).toBe('CLB Phật Quang');
     expect(toExamResultRecord(attempt()).dojo).toBe('Võ đường Phật Quang');
+    expect(toExamResultRecord(attempt()).dateOfBirth).toBe('2010-05-02');
+    expect(toExamResultRecord(attempt()).coach).toBe('Nguyễn Văn HLV');
   });
 
   it('keeps a student code when the attempt has one', () => {
@@ -59,6 +62,7 @@ describe('exam results', () => {
           dateOfBirth: '2010-05-02',
           club: 'CLB Phật Quang',
           dojo: 'Võ đường Phật Quang',
+          coach: 'Nguyễn Văn HLV',
           candidateNumber: 'HV-01',
         },
       })
@@ -76,6 +80,8 @@ describe('exam results', () => {
     expect(record.candidateNumber).toBe('admin');
     expect(record.club).toBe('');
     expect(record.dojo).toBe('');
+    expect(record.dateOfBirth).toBe('');
+    expect(record.coach).toBe('');
   });
 
   it('parses a results payload and sorts newest first', () => {
@@ -106,6 +112,8 @@ describe('exam results', () => {
           startedAt: '2026-02-01T00:00:00.000Z',
           submittedAt: '2026-02-01T00:10:00.000Z',
           durationMs: 500000,
+          dateOfBirth: '2012-03-04',
+          coach: 'HLV Bình',
         },
       ],
     });
@@ -115,6 +123,10 @@ describe('exam results', () => {
     expect(rows[0]?.candidateNumber).toBe('HV-02');
     expect(rows[0]?.club).toBe('');
     expect(rows[0]?.dojo).toBe('');
+    expect(rows[0]?.dateOfBirth).toBe('2012-03-04');
+    expect(rows[0]?.coach).toBe('HLV Bình');
+    expect(rows[1]?.dateOfBirth).toBe('');
+    expect(rows[1]?.coach).toBe('');
   });
 
   it('adds a jsonp callback without dropping the web app path', () => {

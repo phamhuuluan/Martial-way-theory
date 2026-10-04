@@ -6,6 +6,7 @@ export const ADMIN_EXAM_CANDIDATE: ExamCandidateSnapshot = {
   dateOfBirth: '',
   club: '',
   dojo: '',
+  coach: '',
   candidateNumber: 'admin',
 };
 
@@ -28,9 +29,11 @@ export interface ExamResultRecord {
   startedAt: string;
   submittedAt: string;
   durationMs: number;
-  /** TODO: lượt nộp trước khi có cột club trên sheet không backfill được. */
+  /** Lượt nộp trước khi sheet có cột tương ứng để trống. */
   club: string;
   dojo: string;
+  dateOfBirth: string;
+  coach: string;
 }
 
 const CONFIG_ERROR = 'Chưa cấu hình địa chỉ lưu kết quả.';
@@ -58,6 +61,8 @@ export function toExamResultRecord(attempt: ExamAttempt): ExamResultRecord {
     durationMs: attempt.durationMs,
     club: attempt.candidate.club.trim(),
     dojo: attempt.candidate.dojo.trim(),
+    dateOfBirth: attempt.candidate.dateOfBirth.trim(),
+    coach: attempt.candidate.coach?.trim() ?? '',
   };
 }
 
@@ -88,6 +93,8 @@ function parseRecord(value: unknown): ExamResultRecord | null {
   const submittedAt = text(row.submittedAt)?.trim() ?? '';
   const club = text(row.club)?.trim() ?? '';
   const dojo = text(row.dojo)?.trim() ?? '';
+  const dateOfBirth = text(row.dateOfBirth)?.trim() ?? '';
+  const coach = text(row.coach)?.trim() ?? '';
   const score = finiteNumber(row.score);
   const correctCount = finiteNumber(row.correctCount);
   const totalQuestions = finiteNumber(row.totalQuestions);
@@ -123,6 +130,8 @@ function parseRecord(value: unknown): ExamResultRecord | null {
     durationMs,
     club,
     dojo,
+    dateOfBirth,
+    coach,
   };
 }
 

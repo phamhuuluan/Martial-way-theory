@@ -30,6 +30,8 @@ export interface ExamCandidateSnapshot {
   dateOfBirth: string;
   club: string;
   dojo: string;
+  /** Hồ sơ cũ lưu trước khi có HLV có thể thiếu trường này. */
+  coach?: string;
   candidateNumber?: string;
 }
 

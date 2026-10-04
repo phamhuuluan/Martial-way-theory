@@ -208,10 +208,25 @@ function inSubmittedRange(submittedAt: string, range: ExamResultQuery): boolean 
   return true;
 }
 
+function searchableBirthDate(value: string): string {
+  const trimmed = value.trim();
+  const [year, month, day] = trimmed.split('-');
+  if (!year || !month || !day) return trimmed;
+  return `${trimmed}\n${day}/${month}/${year}`;
+}
+
 function matchesQuery(record: ExamResultRecord, query: string): boolean {
   const needle = query.trim().toLocaleLowerCase('vi');
   if (!needle) return true;
-  return [record.fullName, record.candidateNumber, record.club, record.dojo, record.paperName]
+  return [
+    record.fullName,
+    searchableBirthDate(record.dateOfBirth),
+    record.candidateNumber,
+    record.club,
+    record.dojo,
+    record.coach,
+    record.paperName,
+  ]
     .join('\n')
     .toLocaleLowerCase('vi')
     .includes(needle);

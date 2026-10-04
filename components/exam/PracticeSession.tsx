@@ -28,8 +28,8 @@ import {
 } from '@/lib/quiz-engine';
 import { useAdminStore } from '@/store/admin-store';
 import { useProgressStore } from '@/store/progress-store';
-import type { BeltId } from '@/types';
-import type { ExamBankQuestion, ExamDraft } from '@/types/exam';
+import type { BeltId, UserProfile } from '@/types';
+import type { ExamBankQuestion, ExamCandidateSnapshot, ExamDraft } from '@/types/exam';
 import { cn } from '@/lib/utils';
 
 interface PracticeSessionProps {
@@ -38,6 +38,16 @@ interface PracticeSessionProps {
   beltId: BeltId;
   durationMinutes: number;
   questions: ExamBankQuestion[];
+}
+
+function practiceCandidate(profile: UserProfile): ExamCandidateSnapshot {
+  return {
+    fullName: profile.name!.trim(),
+    dateOfBirth: profile.dateOfBirth!,
+    club: profile.club!.trim(),
+    dojo: profile.dojo!.trim(),
+    coach: (profile.coach ?? '').trim(),
+  };
 }
 
 function hintFor(question: ExamBankQuestion | undefined): string | null {
@@ -89,12 +99,7 @@ export function PracticeSession({
         const candidate = isAdmin
           ? ADMIN_EXAM_CANDIDATE
           : profileComplete
-            ? {
-                fullName: profile.name!.trim(),
-                dateOfBirth: profile.dateOfBirth!,
-                club: profile.club!.trim(),
-                dojo: profile.dojo!.trim(),
-              }
+            ? practiceCandidate(profile)
             : source.candidate;
         const existingAttempt = getExamAttempt(source.id);
         const attempt = existingAttempt
@@ -131,7 +136,7 @@ export function PracticeSession({
 
       void finish();
     },
-    [isAdmin, profile.club, profile.dateOfBirth, profile.dojo, profile.name, profileComplete, router]
+    [isAdmin, profile, profileComplete, router]
   );
 
   const startExam = useCallback(() => {
@@ -147,14 +152,7 @@ export function PracticeSession({
       mode: 'practice',
       rankId,
       beltId,
-      candidate: isAdmin
-        ? ADMIN_EXAM_CANDIDATE
-        : {
-            fullName: profile.name!.trim(),
-            dateOfBirth: profile.dateOfBirth!,
-            club: profile.club!.trim(),
-            dojo: profile.dojo!.trim(),
-          },
+      candidate: isAdmin ? ADMIN_EXAM_CANDIDATE : practiceCandidate(profile),
       startedAt: new Date().toISOString(),
       timeLimitMs: durationMinutes * 60 * 1000,
       questions: paper,
@@ -164,19 +162,7 @@ export function PracticeSession({
     setNow(Date.now());
     setDraft(next);
     setReady(true);
-  }, [
-    beltId,
-    durationMinutes,
-    profile.club,
-    profile.dateOfBirth,
-    profile.dojo,
-    profile.name,
-    canPractice,
-    isAdmin,
-    questions,
-    rankId,
-    router,
-  ]);
+  }, [beltId, canPractice, durationMinutes, isAdmin, profile, questions, rankId, router]);
 
   useEffect(() => {
     if (!hydrated || !adminHydrated || openedRef.current) return;

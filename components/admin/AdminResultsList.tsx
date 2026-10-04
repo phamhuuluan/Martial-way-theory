@@ -13,7 +13,7 @@ import {
   formatCompactDuration,
   type ExamResultTimePreset,
 } from '@/lib/exam-results-view';
-import { formatDuration, formatExamTimestamp } from '@/lib/exam-paper';
+import { formatBirthDate, formatDuration, formatExamTimestamp } from '@/lib/exam-paper';
 import { cn } from '@/lib/utils';
 
 const fieldClass =
@@ -124,7 +124,7 @@ export function AdminResultsList() {
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             className={fieldClass}
-            placeholder="Tên, mã học viên, CLB, võ đường, bộ đề"
+            placeholder="Tên, ngày sinh, mã học viên, CLB, võ đường, HLV, bộ đề"
             aria-label="Tìm kết quả thi"
             type="search"
           />
@@ -247,13 +247,23 @@ export function AdminResultsList() {
   );
 }
 
+function displayText(value: string): string {
+  const trimmed = value.trim();
+  return trimmed || '—';
+}
+
 function AttemptDetail({ attempt }: { attempt: ExamResultRecord }) {
+  const birthDate = formatBirthDate(attempt.dateOfBirth.trim());
   const fields = [
-    { label: 'Mã học viên', value: attempt.candidateNumber || '—' },
+    { label: 'Họ và tên', value: displayText(attempt.fullName) },
+    { label: 'Ngày sinh', value: displayText(birthDate) },
+    { label: 'CLB đang theo tập', value: displayText(attempt.club) },
+    { label: 'Võ đường', value: displayText(attempt.dojo) },
+    { label: 'HLV hướng dẫn', value: displayText(attempt.coach) },
+    { label: 'Mã học viên', value: displayText(attempt.candidateNumber) },
     { label: 'Bộ đề', value: attempt.paperName },
     { label: 'Điểm', value: attempt.score.toFixed(1) },
     { label: 'Số câu đúng / tổng câu', value: `${attempt.correctCount}/${attempt.totalQuestions}` },
-    { label: 'Võ đường', value: attempt.dojo || '—' },
     { label: 'Thời gian bắt đầu', value: formatExamTimestamp(attempt.startedAt) },
     { label: 'Thời gian nộp', value: formatExamTimestamp(attempt.submittedAt) },
     { label: 'Tổng thời gian làm bài', value: formatDuration(attempt.durationMs) },

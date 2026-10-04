@@ -72,8 +72,16 @@ export function PracticeAttemptView() {
         <h1 className="font-display text-3xl font-bold">Kết quả luyện đề</h1>
         <p className="mt-2 text-text-secondary">{rankName}</p>
         <p className="mt-1 text-sm text-text-muted">
-          {attempt.candidate.fullName} · {formatBirthDate(attempt.candidate.dateOfBirth)} ·{' '}
-          {attempt.candidate.club} · {attempt.candidate.dojo}
+          {[
+            attempt.candidate.fullName,
+            formatBirthDate(attempt.candidate.dateOfBirth),
+            attempt.candidate.club,
+            attempt.candidate.dojo,
+            attempt.candidate.coach,
+          ]
+            .map((part) => part?.trim())
+            .filter(Boolean)
+            .join(' · ')}
         </p>
         <p className="mt-1 text-sm text-text-muted">
           Nộp lúc {formatExamTimestamp(attempt.submittedAt)}

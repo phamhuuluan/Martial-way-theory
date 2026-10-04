@@ -23,6 +23,8 @@ function record(partial: Partial<ExamResultRecord> & Pick<ExamResultRecord, 'id'
     durationMs: 3000,
     club: '',
     dojo: '',
+    dateOfBirth: '',
+    coach: '',
     ...partial,
   };
 }
@@ -92,6 +94,8 @@ describe('exam result grouping', () => {
       fullName: 'Nguyễn Văn A',
       club: 'CLB Thái Minh',
       candidateNumber: 'HV-01',
+      dateOfBirth: '2010-05-02',
+      coach: 'HLV Minh',
       submittedAt: '2026-10-01T04:00:00.000Z',
     }),
     record({
@@ -143,7 +147,7 @@ describe('exam result grouping', () => {
     ]);
   });
 
-  it('searches name, student code, club, dojo, and paper on the fetched rows', () => {
+  it('searches name, birth date, student code, club, dojo, coach, and paper on the fetched rows', () => {
     const byCode = buildExamResultView(rows, {
       preset: 'all',
       query: 'hv-01',
@@ -169,6 +173,22 @@ describe('exam result grouping', () => {
       timeZone: ZONE,
     });
     expect(byDojo.days[0]?.people[0]?.fullName).toBe('Trần Văn B');
+
+    const byCoach = buildExamResultView(rows, {
+      preset: 'all',
+      query: 'hlv minh',
+      now: NOW,
+      timeZone: ZONE,
+    });
+    expect(byCoach.days[0]?.people[0]?.attempts.map((row) => row.id)).toEqual(['thai-minh']);
+
+    const byBirthDate = buildExamResultView(rows, {
+      preset: 'all',
+      query: '02/05/2010',
+      now: NOW,
+      timeZone: ZONE,
+    });
+    expect(byBirthDate.days[0]?.people[0]?.attempts.map((row) => row.id)).toEqual(['thai-minh']);
   });
 });
 

@@ -5,7 +5,7 @@
  * Dán URL /exec vào NEXT_PUBLIC_EXAM_RESULTS_URL.
  *
  * Sheet exam_results được tạo cùng hàng header nếu chưa có.
- * Header cũ 11 cột được nối thêm club và dojo.
+ * Header cũ được nối thêm cột còn thiếu ở cuối: club, dojo, dateOfBirth, coach.
  * POST append một kết quả. GET trả danh sách đã nộp.
  * GET nhận from/to (ISO, theo submittedAt) khi client gửi; bỏ trống thì trả hết.
  */
@@ -24,6 +24,8 @@ var HEADERS = [
   'durationMs',
   'club',
   'dojo',
+  'dateOfBirth',
+  'coach',
 ];
 
 function jsonResponse(payload) {
@@ -60,6 +62,13 @@ function text(value) {
 function instantText(value) {
   if (Object.prototype.toString.call(value) === '[object Date]' && !isNaN(value.getTime())) {
     return value.toISOString();
+  }
+  return text(value);
+}
+
+function dateText(value, timeZone) {
+  if (Object.prototype.toString.call(value) === '[object Date]' && !isNaN(value.getTime())) {
+    return Utilities.formatDate(value, timeZone || Session.getScriptTimeZone(), 'yyyy-MM-dd');
   }
   return text(value);
 }
@@ -102,18 +111,22 @@ function normalize(body) {
     durationMs: durationMs,
     club: text(body.club),
     dojo: text(body.dojo),
+    dateOfBirth: text(body.dateOfBirth),
+    coach: text(body.coach),
   };
 }
 
-function headerMatches(header, expected) {
-  var index;
-  for (index = 0; index < expected.length; index += 1) {
-    if (text(header[index]) !== expected[index]) return false;
+function headerPrefixLength(header) {
+  var index = 0;
+  while (index < header.length && text(header[index]) !== '') {
+    if (index >= HEADERS.length || text(header[index]) !== HEADERS[index]) return -1;
+    index += 1;
   }
-  for (index = expected.length; index < header.length; index += 1) {
-    if (text(header[index]) !== '') return false;
+  var rest;
+  for (rest = index; rest < header.length; rest += 1) {
+    if (text(header[rest]) !== '') return -1;
   }
-  return true;
+  return index;
 }
 
 function ensureSheet() {
@@ -121,22 +134,24 @@ function ensureSheet() {
   if (!ss) throw new Error('Hãy gắn script vào một Google Spreadsheet.');
   var sheet = ss.getSheetByName(SHEET_NAME);
   if (!sheet) sheet = ss.insertSheet(SHEET_NAME);
-  var width = Math.max(sheet.getLastColumn(), HEADERS.length);
+  var width = Math.max(sheet.getLastColumn(), HEADERS.length, 1);
   var header = sheet.getRange(1, 1, 1, width).getValues()[0];
   var blank = header.every(function (cell) {
     return text(cell) === '';
   });
   if (blank) {
     sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
-    return sheet;
+  } else {
+    var prefix = headerPrefixLength(header);
+    if (prefix < 0) throw new Error('Sheet exam_results đã có header khác.');
+    if (prefix < HEADERS.length) {
+      var missing = HEADERS.slice(prefix);
+      sheet.getRange(1, prefix + 1, 1, missing.length).setValues([missing]);
+    }
   }
-  if (headerMatches(header, HEADERS)) return sheet;
-  var legacy = HEADERS.slice(0, 11);
-  if (headerMatches(header, legacy)) {
-    sheet.getRange(1, legacy.length + 1, 1, 2).setValues([['club', 'dojo']]);
-    return sheet;
-  }
-  throw new Error('Sheet exam_results đã có header khác.');
+  var dobColumn = HEADERS.indexOf('dateOfBirth') + 1;
+  sheet.getRange(2, dobColumn, Math.max(sheet.getMaxRows() - 1, 1), 1).setNumberFormat('@');
+  return sheet;
 }
 
 function readResults(sheet) {
@@ -152,6 +167,7 @@ function readResults(sheet) {
     if (column === undefined) return '';
     return row[column];
   }
+  var timeZone = sheet.getParent().getSpreadsheetTimeZone();
   return values
     .slice(1)
     .filter(function (row) {
@@ -172,6 +188,8 @@ function readResults(sheet) {
         durationMs: Number(cell(row, 'durationMs')),
         club: text(cell(row, 'club')),
         dojo: text(cell(row, 'dojo')),
+        dateOfBirth: dateText(cell(row, 'dateOfBirth'), timeZone),
+        coach: text(cell(row, 'coach')),
       };
     });
 }
