@@ -27,29 +27,77 @@ function shuffle<T>(items: T[], random: RandomFn): T[] {
   return copy;
 }
 
+function pickWithConstraints(
+  pool: ExamBankQuestion[],
+  count: number,
+  random: RandomFn,
+  usedSources: Map<string, number>
+): ExamBankQuestion[] {
+  const result: ExamBankQuestion[] = [];
+  const shuffled = shuffle(pool, random);
+
+  // First pass: respect constraints
+  for (const q of shuffled) {
+    if (result.length >= count) break;
+    let canPick = true;
+
+    // Constraint: only 1 question related to "lời thiệu" per sourceQuestion
+    if (q.sourceQuestion && q.question.toLowerCase().includes('điền vào chỗ trống lời thiệu bài quyền')) {
+      if ((usedSources.get(q.sourceQuestion) || 0) >= 1) {
+        canPick = false;
+      }
+    }
+
+    if (canPick) {
+      result.push(q);
+      if (q.sourceQuestion) {
+        usedSources.set(q.sourceQuestion, (usedSources.get(q.sourceQuestion) || 0) + 1);
+      }
+    }
+  }
+
+  // Fallback: if we don't have enough questions, relax constraints
+  if (result.length < count) {
+    for (const q of shuffled) {
+      if (result.length >= count) break;
+      if (!result.includes(q)) {
+        result.push(q);
+        if (q.sourceQuestion) {
+          usedSources.set(q.sourceQuestion, (usedSources.get(q.sourceQuestion) || 0) + 1);
+        }
+      }
+    }
+  }
+
+  return result;
+}
+
 function pickWithBlueprint(
   bank: ExamBankQuestion[],
   drawCount: number,
   blueprint: ExamBlueprintSlot[],
   random: RandomFn
 ): ExamBankQuestion[] {
-  const used = new Set<string>();
+  const usedIds = new Set<string>();
+  const usedSources = new Map<string, number>();
   const picked: ExamBankQuestion[] = [];
 
   for (const slot of blueprint) {
     if (slot.count <= 0) continue;
     const pool = bank.filter(
-      (question) => question.topic === slot.topic && !used.has(question.id)
+      (question) => question.topic === slot.topic && !usedIds.has(question.id)
     );
-    for (const question of shuffle(pool, random).slice(0, slot.count)) {
-      used.add(question.id);
+    const selected = pickWithConstraints(pool, slot.count, random, usedSources);
+    for (const question of selected) {
+      usedIds.add(question.id);
       picked.push(question);
     }
   }
 
   if (picked.length < drawCount) {
-    const rest = bank.filter((question) => !used.has(question.id));
-    for (const question of shuffle(rest, random).slice(0, drawCount - picked.length)) {
+    const rest = bank.filter((question) => !usedIds.has(question.id));
+    const selected = pickWithConstraints(rest, drawCount - picked.length, random, usedSources);
+    for (const question of selected) {
       picked.push(question);
     }
   }
@@ -73,7 +121,7 @@ export function selectExamQuestions(
   const drawCount = Math.min(questionCount, bank.length);
   const picked = blueprint?.length
     ? shuffle(pickWithBlueprint(bank, drawCount, blueprint, random), random)
-    : shuffle(bank, random).slice(0, drawCount);
+    : shuffle(pickWithConstraints(bank, drawCount, random, new Map<string, number>()), random);
 
   return picked.map((question) => randomizeExamQuestion(question, random));
 }
@@ -125,6 +173,10 @@ export function isExamAnswerProvided(
   if (type === 'ordering') {
     const expected = question.items?.length ?? 0;
     return expected > 0 && (answer.orderAnswers?.length ?? 0) === expected;
+  }
+
+  if (type === 'definition') {
+    return (answer.textAnswer ?? '').trim().length > 0;
   }
 
   return typeof answer.selectedIndex === 'number';
@@ -273,6 +325,11 @@ export function formatSelectedAnswer(
       .map((index) => items[index])
       .filter(Boolean)
       .join(' → ');
+  }
+
+  if (type === 'definition') {
+    const written = answer.textAnswer?.trim();
+    return written ? written : 'Chưa trả lời';
   }
 
   return formatCorrectAnswer(question);

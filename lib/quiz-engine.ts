@@ -12,6 +12,8 @@ export interface QuizAnswer {
   orderAnswers?: number[];
   /** True/false: 0 = Đúng, 1 = Sai */
   trueFalseIndex?: number;
+  /** Điền định nghĩa: câu học viên tự viết */
+  textAnswer?: string;
 }
 
 export const TRUE_FALSE_OPTIONS = ['Đúng', 'Sai'] as const;
@@ -73,6 +75,55 @@ export function isScenarioQuestion(question: QuizQuestion): boolean {
 
 export function isTrueFalseQuestion(question: QuizQuestion): boolean {
   return getQuestionType(question) === 'truefalse';
+}
+
+export function isDefinitionQuestion(question: QuizQuestion): boolean {
+  return getQuestionType(question) === 'definition';
+}
+
+export const DEFINITION_MATCH_THRESHOLD = 0.65;
+
+export function definitionTokens(value: string): string[] {
+  const normalized = value
+    .toLowerCase()
+    .replace(/\p{P}+/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return normalized ? normalized.split(' ') : [];
+}
+
+export function definitionMatchCount(sample: string, written: string): { matched: number; total: number } {
+  const sampleWords = definitionTokens(sample);
+  const available = new Map<string, number>();
+  for (const word of definitionTokens(written)) {
+    available.set(word, (available.get(word) ?? 0) + 1);
+  }
+
+  let matched = 0;
+  for (const word of sampleWords) {
+    const count = available.get(word) ?? 0;
+    if (count <= 0) continue;
+    matched += 1;
+    available.set(word, count - 1);
+  }
+
+  return { matched, total: sampleWords.length };
+}
+
+export function definitionWordMatch(sample: string, written: string): number {
+  const { matched, total } = definitionMatchCount(sample, written);
+  if (total === 0) return 0;
+  return matched / total;
+}
+
+export function isDefinitionAnswerCorrect(
+  sample: string,
+  written: string,
+  threshold = DEFINITION_MATCH_THRESHOLD
+): boolean {
+  const { matched, total } = definitionMatchCount(sample, written);
+  if (total === 0) return false;
+  return matched * 1000 >= total * Math.round(threshold * 1000);
 }
 
 export function isSingleChoiceQuestion(question: QuizQuestion): boolean {
@@ -183,6 +234,7 @@ export function isAnswerCorrect(
     | 'matchingAnswers'
     | 'orderAnswers'
     | 'trueFalseIndex'
+    | 'textAnswer'
   >
 ): boolean {
   if (isMultipleChoice(question)) {
@@ -224,6 +276,14 @@ export function isAnswerCorrect(
     const expected = getCorrectIndices(question)[0];
     if (typeof expected !== 'number') return false;
     return answer.trueFalseIndex === expected;
+  }
+
+  if (type === 'definition') {
+    return isDefinitionAnswerCorrect(
+      question.sampleAnswer ?? '',
+      answer.textAnswer ?? '',
+      question.matchThreshold ?? DEFINITION_MATCH_THRESHOLD
+    );
   }
 
   return answer.selectedIndex === getCorrectIndices(question)[0];
@@ -311,6 +371,10 @@ export function formatCorrectAnswer(question: QuizQuestion): string {
     return (question.correctOrder ?? [])
       .map((index) => items[index])
       .join(' → ');
+  }
+
+  if (type === 'definition') {
+    return question.sampleAnswer ?? '';
   }
 
   return '';

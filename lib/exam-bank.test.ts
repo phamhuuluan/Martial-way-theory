@@ -51,6 +51,12 @@ function assertAnswerable(question: ExamBankQuestion) {
     expect(question.correctOrder).toHaveLength(count);
     expect(new Set(question.correctOrder).size).toBe(count);
   }
+
+  if (type === 'definition') {
+    expect(question.sampleAnswer?.trim().length).toBeGreaterThan(0);
+    expect(question.options).toEqual([]);
+    expect(question.matchThreshold ?? 0.65).toBeGreaterThanOrEqual(0.65);
+  }
 }
 
 describe('exam banks', () => {
@@ -132,6 +138,25 @@ describe('exam banks', () => {
       durationMinutes: 30,
     });
     expect(getExamBank('blue')).toBeNull();
+    const brownSources = [
+      'Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu).',
+      'Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Do ai sáng lập, ý tưởng từ đâu mà lập ra môn võ này?',
+      'Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái?',
+      'Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?',
+      'Chưởng môn hiện nay của môn phái là ai?',
+      'Ý nghĩa lối chào của môn phái?',
+      'Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường?',
+      'Quan niệm thông thường của người tập võ ra sao? tập võ để làm gì',
+      'Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao?',
+      'Võ sinh Phật Quang Quyền (VSPQQ) được phép dụng võ trong các trường hợp nào? VS PQQ không được phép thượng đài?',
+      'Võ sinh và Môn sinh khác nhau như thế nào?',
+      'Trong đại gia đình Phật Quang Quyền, các môn sinh đối xử nhau ra sao?',
+    ];
+    const brownBank = getExamBank('nau');
+    expect(brownBank?.questions).toHaveLength(60);
+    for (const source of brownSources) {
+      expect(brownBank?.questions.filter((question) => question.sourceQuestion === source)).toHaveLength(5);
+    }
     expect(getExamBank('chuan-hong')).toBeNull();
     expect(BELT_RANKS.find((rank) => rank.id === 'chuan-hong')?.promotionLessonId).toBeUndefined();
   });

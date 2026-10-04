@@ -1,4 +1,7 @@
-{
+const fs = require('fs');
+const path = '/Users/luanph/Project other/MARTIAL WAY THEORY/content/exam-bank/hoang-2.json';
+
+const data = {
   "rankId": "hoang-2",
   "beltId": "yellow",
   "lessonId": "yellow-lesson-02",
@@ -15,11 +18,7 @@
       "correctIndex": 0,
       "explanation": "Ngũ Hành là học thuyết của phương Đông dùng năm yếu tố cơ bản gồm Kim, Mộc, Thủy, Hỏa, Thổ để giải thích sự vận động... Trong Võ cổ truyền, học thuyết Ngũ Hành được vận dụng để xây dựng kỹ thuật, chiến thuật và nguyên lý vận động theo quy luật sinh – khắc...",
       "sourceQuestion": "Câu 1. Võ sinh hãy trình bày khái niệm Ngũ hành với võ cổ truyền?",
-      "id": "hoang-2-c01-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 1
+      "id": "hoang-2-c01-01"
     },
     {
       "type": "single",
@@ -33,11 +32,7 @@
       "correctIndex": 0,
       "explanation": "Trong Võ cổ truyền, Bát Quái được vận dụng vào bộ pháp, phương hướng và sự di chuyển. Người tập lấy các vị trí và hướng của Bát Quái làm cơ sở để lập tấn, chuyển bộ và biến hóa trong chiến đấu... hai chân lấy Bát Quái làm nền tảng.",
       "sourceQuestion": "Câu 2. Võ sinh hãy trình bày “KHÁI LUẬN BÁT QUÁI VỚI VÕ CỔ TRUYỀN”",
-      "id": "hoang-2-c02-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 2
+      "id": "hoang-2-c02-01"
     },
     {
       "type": "single",
@@ -51,11 +46,7 @@
       "correctIndex": 0,
       "explanation": "Quyền là linh hồn của môn phái, còn bài quyền là sự hệ thống hóa các kỹ thuật và chiêu thức chiến đấu. Bài quyền và chiến đấu có mối quan hệ mật thiết... Khi diễn quyền phải thể hiện được tinh thần tập trung, sự chính xác, sức mạnh, khí thế và tính ứng dụng thực tế...",
       "sourceQuestion": "Câu 3. Võ sinh hãy trình bày ý nghĩa bài Quyền:",
-      "id": "hoang-2-c03-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 3
+      "id": "hoang-2-c03-01"
     },
     {
       "type": "single",
@@ -69,11 +60,7 @@
       "correctIndex": 0,
       "explanation": "Muốn tập quyền đạt kết quả tốt, trước hết phải giữ tâm bình tĩnh, khiêm tốn, kiên trì... tập từ dễ đến khó, từ chậm đến nhanh... tập thuần thục từng thế rồi mới liên kết thành bài... thể hiện đúng tấn pháp, bộ pháp... kết hợp sự tập trung của nhãn pháp...",
       "sourceQuestion": "Câu 4. Võ sinh hãy trình bày PHƯƠNG PHÁP TẬP QUYỀN",
-      "id": "hoang-2-c04-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 4
+      "id": "hoang-2-c04-01"
     },
     {
       "type": "single",
@@ -87,11 +74,7 @@
       "correctIndex": 0,
       "explanation": "Huấn luyện viên phải yêu thương, quan tâm, tận tình chỉ dạy... nghiêm túc nhưng linh hoạt, biết động viên... giữ đúng tư cách và khoảng cách cần thiết giữa thầy và trò... tôn trọng và bảo vệ danh dự của nữ võ sinh...",
       "sourceQuestion": "Câu 5. Thái độ của huấn luyện viên đối với võ sinh như thế nào?",
-      "id": "hoang-2-c05-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 5
+      "id": "hoang-2-c05-01"
     },
     {
       "type": "single",
@@ -105,11 +88,7 @@
       "correctIndex": 0,
       "explanation": "Người thầy dạy võ không chỉ truyền dạy kỹ năng chiến đấu mà còn phải giáo dục đạo đức, nhân cách và tinh thần thượng võ... nêu gương về lối sống văn minh... tác phong chuẩn mực: trang phục chỉnh tề, lời nói nhã nhặn, cư xử lịch sự, không nói tục...",
       "sourceQuestion": "Câu 6. Người thầy dạy võ cho học trò của mình như thế nào?",
-      "id": "hoang-2-c06-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 6
+      "id": "hoang-2-c06-01"
     },
     {
       "type": "single",
@@ -123,11 +102,7 @@
       "correctIndex": 0,
       "explanation": "Nguyên tắc đầu tiên về phép giao tiếp nhân sự... là “nghĩ tới người”. Chúng ta phải nghĩ tới người vì sự thành công và hạnh phúc... đều cần đến sự giúp đỡ, ủng hộ và cảm thông của những người xung quanh. Muốn được người khác quan tâm... thì trước hết phải biết quan tâm... người khác.",
       "sourceQuestion": "Câu 7. Nguyên tắc đầu tiên về phép giao tiếp nhân sự của môn sinh Phật Quang Quyền là gì? Tại sao chúng ta phải “nghĩ tới người”?",
-      "id": "hoang-2-c07-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 7
+      "id": "hoang-2-c07-01"
     },
     {
       "type": "single",
@@ -141,11 +116,7 @@
       "correctIndex": 0,
       "explanation": "Không. Nhận biết và trân trọng chân giá trị của người sẽ làm họ cảm động, quý mến và tin tưởng ta hơn. Nhờ đó, mối quan hệ trở nên chân thành và tốt đẹp hơn.",
       "sourceQuestion": "Câu 8. Nhận biết chân giá trị của người có làm cho người trở nên hợm hĩnh, kênh kiệu với mình không? Hãy giải thích.",
-      "id": "hoang-2-c08-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 8
+      "id": "hoang-2-c08-01"
     },
     {
       "type": "multiple",
@@ -160,19 +131,10 @@
         "Khen luôn mang lại lợi ích vật chất cho người khen, giúp người đó thăng tiến nhanh chóng trong tổ chức.",
         "Nịnh là một nghệ thuật giao tiếp đỉnh cao, thể hiện sự khôn ngoan và được mọi người tôn trọng, kính nể."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Khen là sự tán thưởng chân thành, đúng sự thật và không vụ lợi... Nịnh là sự ca tụng quá mức, không đúng sự thật, nhằm lấy lòng người khác để mưu cầu lợi ích... Khen dựa trên sự hiểu biết... giúp người được khen thêm tự tin. Nịnh là lời nói thiếu chân thành...",
       "sourceQuestion": "Câu 9. Khen và nịnh khác nhau như thế nào?",
-      "id": "hoang-2-c09-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 9
+      "id": "hoang-2-c09-01"
     },
     {
       "type": "single",
@@ -186,11 +148,7 @@
       "correctIndex": 0,
       "explanation": "Khen là sự biểu lộ lòng quý trọng... không phải để mưu cầu lợi lộc. Vì vậy, lời khen chân thành không phải là thiếu thành thực mà là biểu hiện của thiện chí và tình cảm tốt đẹp. Người thật lòng khinh ghét ai sẽ không thể chân thành khen ngợi người đó.",
       "sourceQuestion": "Câu 10. Dùng lời khen để được người cảm mến có phải là thiếu thành thực không?",
-      "id": "hoang-2-c10-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 10
+      "id": "hoang-2-c10-01"
     },
     {
       "type": "single",
@@ -204,11 +162,7 @@
       "correctIndex": 0,
       "explanation": "“Nhận thức được mình” là hiểu rõ tâm tư, ước vọng, ưu điểm và khuyết điểm của bản thân... Người chưa nhận thức được mình thường dễ đòi hỏi người khác... Nếu chưa hiểu được bản thân thì khó có thể hiểu người...",
       "sourceQuestion": "Câu 12. Thế nào là “nhận thức được mình”? Người ta có thể hiểu người hoặc làm cho người hiểu mình mà không tự mình hiểu được mình không?",
-      "id": "hoang-2-c12-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 11
+      "id": "hoang-2-c12-01"
     },
     {
       "type": "single",
@@ -222,11 +176,7 @@
       "correctIndex": 0,
       "explanation": "Thông thường, con người chưa hẳn sống với cuộc sống thực của mình mà thường chịu ảnh hưởng bởi thói quen, tập tục và môi trường xung quanh. Ví dụ: Có người khi chưa có quyền hạn thì chê trách thói quan liêu, hách dịch... nhưng khi có địa vị lại cư xử y như vậy.",
       "sourceQuestion": "Câu 13. Thông thường con người có sống với cuộc sống thực của họ không? Hay chỉ sống theo thói quen, tập tục và ảnh hưởng của môi trường xung quanh? Hãy chứng minh bằng một vài thí dụ.",
-      "id": "hoang-2-c13-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 12
+      "id": "hoang-2-c13-01"
     },
     {
       "type": "definition",
@@ -235,11 +185,7 @@
       "matchThreshold": 0.65,
       "explanation": "Thói quen là những việc được lặp đi lặp lại nhiều lần và dần trở thành nếp sống của con người.",
       "sourceQuestion": "Câu 14. Thói quen là gì? Thói quen đem lại lợi ích hay tai hại cho ta?",
-      "id": "hoang-2-c14-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 13
+      "id": "hoang-2-c14-01"
     },
     {
       "type": "single",
@@ -253,11 +199,7 @@
       "correctIndex": 0,
       "explanation": "Vì có thói quen tốt và thói quen xấu. Khi làm chủ được thói quen, chúng ta có thể sửa đổi thói quen xấu, xây dựng thói quen tốt... Ngược lại, nếu để thói quen chi phối, những thói quen xấu sẽ gây nhiều phiền lụy, làm giảm uy tín...",
       "sourceQuestion": "Câu 15. Tại sao chúng ta cần làm chủ được thói quen?",
-      "id": "hoang-2-c15-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 14
+      "id": "hoang-2-c15-01"
     },
     {
       "type": "multiple",
@@ -272,19 +214,10 @@
         "Bỏ tiền tham gia các khóa học làm giàu cấp tốc để nhanh chóng có thói quen của triệu phú.",
         "Chỉ cần đọc nhiều sách tiểu thuyết lãng mạn là tự nhiên sẽ có thói quen tốt."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Xác định rõ mục đích... Giao tiếp với những người có ảnh hưởng tích cực... Tránh xa những thói quen, ảnh hưởng tiêu cực... Đọc sách bổ ích, học tập những đức tính tốt và gương sáng...",
       "sourceQuestion": "Câu 16. Phải làm thế nào để rèn luyện được thói quen tốt?",
-      "id": "hoang-2-c16-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 15
+      "id": "hoang-2-c16-01"
     },
     {
       "type": "single",
@@ -298,11 +231,7 @@
       "correctIndex": 0,
       "explanation": "Không. Thói quen che đậy những sai sót vì sợ bị chê cười là một thói quen xấu, cho thấy người đó thiếu dũng khí nhìn nhận khuyết điểm và sửa đổi bản thân. Người có nghị lực là người dám nhận lỗi, biết sửa sai và không ngừng hoàn thiện chính mình.",
       "sourceQuestion": "Câu 17. Thói quen hay che đậy những sơ xuất vì sợ người cười chê, có phải là thói quen tốt, chứng tỏ người có nghị lực không?",
-      "id": "hoang-2-c17-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 16
+      "id": "hoang-2-c17-01"
     },
     {
       "type": "definition",
@@ -311,11 +240,7 @@
       "matchThreshold": 0.65,
       "explanation": "Ngài Xá Lợi Phất (Sariputta) và Ngài Mục Kiền Liên (Moggallana).",
       "sourceQuestion": "Câu 18. 2 vị đại đệ tử thay mặt Đức Phật thống lĩnh Tăng đoàn là ai ?",
-      "id": "hoang-2-c18-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 17
+      "id": "hoang-2-c18-01"
     },
     {
       "type": "multiple",
@@ -330,19 +255,10 @@
         "Chỉ những hành động lớn lao mới tạo ra nhân quả, còn những ý nghĩ hay lời nói thì không để lại hậu quả gì.",
         "Chủ nhân của hành động có thể trốn tránh kết quả bằng cách nhờ người khác chịu tội thay mình."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Nhân quả là giáo lý căn bản... quy luật công bằng khách quan... Nhân là nguyên nhân, Quả là kết quả. Mỗi ý nghĩ, lời nói, việc làm đều gây kết quả trở lại...",
       "sourceQuestion": "Câu 19. Định nghĩa cơ bản về luật nhân quả.",
-      "id": "hoang-2-c19-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 18
+      "id": "hoang-2-c19-01"
     },
     {
       "type": "single",
@@ -356,11 +272,7 @@
       "correctIndex": 0,
       "explanation": "3 nền tảng của thiền định là: Đạo đức, công đức, khí công.",
       "sourceQuestion": "Câu 20. 3 nền tảng của thiền định là gì ?",
-      "id": "hoang-2-c20-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 19
+      "id": "hoang-2-c20-01"
     },
     {
       "type": "definition",
@@ -369,11 +281,7 @@
       "matchThreshold": 0.65,
       "explanation": "Thiền là sự thực hành đưa đến tâm trí an tĩnh, không xuất hiện ý nghĩ, không dấy động tình cảm, và vẫn sáng suốt.",
       "sourceQuestion": "Câu 21. Khái niệm về Thiền?",
-      "id": "hoang-2-c21-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 20
+      "id": "hoang-2-c21-01"
     },
     {
       "type": "single",
@@ -387,11 +295,7 @@
       "correctIndex": 0,
       "explanation": "Thiền của ngoại đạo, dù đạt đến Thần Ngã, Đại Ngã, Thánh ngã, nhưng vẫn có chỗ cho bản ngã nên không thể giải thoát. Thiền của đạo Phật là tìm cách diệt trừ bản ngã, hướng đến mục tiêu Vô Ngã.",
       "sourceQuestion": "Câu 22. Sự khác nhau giữa Thiền đạo Phật và Thiền ngoại đạo?",
-      "id": "hoang-2-c22-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 21
+      "id": "hoang-2-c22-01"
     },
     {
       "type": "multiple",
@@ -405,18 +309,10 @@
         "Chánh niệm tỉnh giác phát sinh từ 3 cái BIẾT: Biết quá khứ, Biết tương lai, Biết cách đọc suy nghĩ người khác",
         "Hướng về mục tiêu loại bỏ hoàn toàn mọi giác quan trên cơ thể"
       ],
-      "correctIndices": [
-        0,
-        1,
-        2
-      ],
+      "correctIndices": [0, 1, 2],
       "explanation": "3 tính chất: Hướng về mục tiêu Vô Ngã, Lấy Phước làm nền tảng, Chánh niệm tỉnh giác phát sinh từ 3 cái BIẾT.",
       "sourceQuestion": "Câu 23. Nêu 3 tính chất của Thiền đạo Phật?",
-      "id": "hoang-2-c23-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 22
+      "id": "hoang-2-c23-01"
     },
     {
       "type": "definition",
@@ -425,11 +321,7 @@
       "matchThreshold": 0.65,
       "explanation": "Từ tâm là lòng yêu thương mọi người và muôn loài một cách chân thành, không phân biệt và không đòi hỏi điều kiện hay sự đền đáp.",
       "sourceQuestion": "Câu 24. Hỏi: Từ tâm là gì?",
-      "id": "hoang-2-c24-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 23
+      "id": "hoang-2-c24-01"
     },
     {
       "type": "single",
@@ -443,11 +335,7 @@
       "correctIndex": 0,
       "explanation": "Tâm ái nhiễm thương yêu vì lợi ích cho bản thân, còn từ tâm là sự yêu thương trong sáng, mong người khác được hạnh phúc mà không cần nhận lại điều gì.",
       "sourceQuestion": "Câu 25. Hỏi: Tâm ái nhiễm khác với từ tâm như thế nào?",
-      "id": "hoang-2-c25-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 24
+      "id": "hoang-2-c25-01"
     },
     {
       "type": "single",
@@ -461,11 +349,7 @@
       "correctIndex": 0,
       "explanation": "Bằng cách biết giúp đỡ, chia sẻ, tôn trọng mọi người, không gây tổn hại và luôn cư xử bằng lòng nhân ái.",
       "sourceQuestion": "Câu 26. Hỏi: Người môn sinh Phật Quang Quyền thể hiện từ tâm bằng cách nào?",
-      "id": "hoang-2-c26-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 25
+      "id": "hoang-2-c26-01"
     },
     {
       "type": "single",
@@ -479,11 +363,7 @@
       "correctIndex": 0,
       "explanation": "Vì tình thương huynh đệ là nền tảng để xây dựng tập thể đoàn kết và cũng là bước đầu để mở rộng tình thương đến mọi người.",
       "sourceQuestion": "Câu 27. Hỏi: Vì sao người môn sinh phải biết yêu thương huynh đệ?",
-      "id": "hoang-2-c27-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 26
+      "id": "hoang-2-c27-01"
     },
     {
       "type": "single",
@@ -497,11 +377,7 @@
       "correctIndex": 0,
       "explanation": "Phải biết nhìn lại lỗi của mình, chân thành xin lỗi hoặc tha thứ cho nhau, không nuôi dưỡng sự ganh ghét và oán trách trong lòng.",
       "sourceQuestion": "Câu 28. Hỏi: Khi có buồn giận hoặc ác cảm với huynh đệ, người môn sinh phải làm gì?",
-      "id": "hoang-2-c28-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 27
+      "id": "hoang-2-c28-01"
     },
     {
       "type": "definition",
@@ -510,11 +386,17 @@
       "matchThreshold": 0.65,
       "explanation": "Luôn sống vị tha, yêu thương mọi người, góp phần xây dựng một tập thể đoàn kết và lan tỏa điều tốt đẹp đến cộng đồng.",
       "sourceQuestion": "Câu 29. Hỏi: Lý tưởng từ tâm của người môn sinh Phật Quang Quyền là gì?",
-      "id": "hoang-2-c29-01",
-      "lessonId": "yellow-lesson-02",
-      "rankId": "hoang-2",
-      "beltId": "yellow",
-      "number": 28
+      "id": "hoang-2-c29-01"
     }
   ]
-}
+};
+
+data.questions.forEach((q, index) => {
+  q.lessonId = data.lessonId;
+  q.rankId = data.rankId;
+  q.beltId = data.beltId;
+  q.number = index + 1;
+});
+
+fs.writeFileSync(path, JSON.stringify(data, null, 2));
+console.log('Saved to', path);

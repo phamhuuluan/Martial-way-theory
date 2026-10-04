@@ -1,4 +1,84 @@
-{
+const fs = require('fs');
+const path = '/Users/luanph/Project other/MARTIAL WAY THEORY/content/exam-bank/hoang-1.json';
+
+const poemLines = [
+  "Bái tổ Độc Lư Thương",
+  "Lập tấn liên ba phụng giang đầu",
+  "Nhị bộ tấn nghinh khai đản thủ",
+  "Quy đầu phục thế tấn độc lư",
+  "Hạ hồi ký túc song long kích",
+  "Hoành thân chuyển đả tái nghịch tâm",
+  "Hậu hoành nghinh chiến khai trực chỉ",
+  "Hữu phi khai giác thích trung đình",
+  "Phi bộ tạ hồi liên trung đỉnh",
+  "Hồi long giáng thế đảo liên thành",
+  "Chấp thủ “độc lư” sát thích thương",
+  "Song bộ khai quy đằng xuyên thích",
+  "Phi vân chấp mã tấn sát ngưu",
+  "Đảo thế khuynh thân hầu long bộ",
+  "Chuyển long phi giác thối liên đài",
+  "Liên ba tam bộ lập như tiền."
+];
+
+const falseLines = [
+  "Bái tổ Song Lư Thương",
+  "Lập tấn song ba phụng giang đầu",
+  "Tam bộ tấn nghinh khai đản thủ",
+  "Quy vĩ phục thế tấn độc lư",
+  "Thượng hồi ký túc song long kích",
+  "Hoành thân xuất đả tái nghịch tâm",
+  "Tiền hoành nghinh chiến khai trực chỉ",
+  "Tả phi khai giác thích trung đình",
+  "Phi bộ tạ hồi thoái trung đỉnh",
+  "Thăng long giáng thế đảo liên thành",
+  "Chấp thủ “song lư” sát thích thương",
+  "Đơn bộ khai quy đằng xuyên thích",
+  "Phi vân hạ mã tấn sát ngưu",
+  "Đảo thế hoành thân hầu long bộ",
+  "Chuyển long xuất giác thối liên đài",
+  "Liên ba nhị bộ lập như tiền.",
+  "Quy đầu ngọa thế tấn độc lư",
+  "Hạ hồi điểm túc song long kích",
+  "Hoành thân chuyển thoái tái nghịch tâm"
+];
+
+const poemQuestions = [];
+
+for (let i = 0; i < 10; i++) {
+  let questionText = "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n";
+  const blanks = [];
+  const optionsSet = new Set(falseLines);
+  
+  // pick 12 lines to blank out of 16
+  const indices = Array.from({length: 16}, (_, i) => i);
+  indices.sort(() => Math.random() - 0.5);
+  const blankIndices = new Set(indices.slice(0, 12));
+
+  poemLines.forEach((line, idx) => {
+    if (blankIndices.has(idx)) {
+      questionText += `______[${blanks.length + 1}]\n`;
+      blanks.push(line);
+      optionsSet.add(line);
+    } else {
+      questionText += `${line}\n`;
+    }
+  });
+
+  const options = Array.from(optionsSet);
+  options.sort(() => Math.random() - 0.5);
+
+  poemQuestions.push({
+    type: "fill",
+    question: questionText.trim(),
+    blanks: blanks,
+    options: options,
+    explanation: poemLines.join(" | "),
+    sourceQuestion: "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
+    id: `hoang-1-c27-poem-${i+1}`
+  });
+}
+
+const data = {
   "rankId": "hoang-1",
   "beltId": "yellow",
   "lessonId": "yellow-lesson-01",
@@ -14,18 +94,10 @@
         "Biết dựa vào tập thể: Biết rõ khả năng có hạn của bản thân, luôn nhờ vả và trông chờ vào người khác.",
         "Biết thay đổi mục tiêu: Biết xây dựng nhiều mục tiêu sống khác nhau và dễ dàng từ bỏ khi gặp thất bại."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2
-      ],
+      "correctIndices": [0, 1, 2],
       "explanation": "Về tinh thần, có 3 nguyên tắc gia tăng sức khỏe: Biết vui với hoàn cảnh, Biết tự lượng sức mình, Biết hướng theo lý tưởng.",
       "sourceQuestion": "Câu 1. Về tinh thần, có mấy nguyên tắc gia tăng sức khỏe? Hãy kể ra và giải thích đại cương.",
-      "id": "hoang-1-c01-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 1
+      "id": "hoang-1-c01-01"
     },
     {
       "type": "multiple",
@@ -40,19 +112,10 @@
         "Phản biện: Biết tranh luận, phản bác và bắt bẻ trước mọi vấn đề được đưa ra.",
         "Tưởng tượng: Đem những điều đã học kết hợp với suy nghĩ để tạo ra các thế giới ảo."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Có 4 nguyên tắc để trau dồi một cuộc sống minh mẫn: Học hỏi, Quan sát, Tư duy, Hành động.",
       "sourceQuestion": "Câu 2. Thế nào là sống minh mẫn? Có mấy nguyên tắc trau dồi cho một cuộc sống minh mẫn? Hãy kể ra và giải thích đại cương.",
-      "id": "hoang-1-c02-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 2
+      "id": "hoang-1-c02-01"
     },
     {
       "type": "single",
@@ -66,11 +129,7 @@
       "correctIndex": 0,
       "explanation": "Chỉ tư tưởng mà không hành động thì cũng như người có mắt sáng mà không chịu đi, nên không thể đến đích. Hành động mà không tư tưởng thì như người đi đêm không có đuốc soi đường, dễ lầm lạc và thất bại.",
       "sourceQuestion": "Câu 3. Chỉ tư tưởng mà không hành động, hoặc hành động mà không tư tưởng, kết quả sẽ ra sao?",
-      "id": "hoang-1-c03-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 3
+      "id": "hoang-1-c03-01"
     },
     {
       "type": "single",
@@ -84,11 +143,7 @@
       "correctIndex": 0,
       "explanation": "Sống đức độ là sống có đạo đức, biết giữ gìn hạnh kiểm, đồng thời cư xử với mọi người bằng lòng bao dung, nhân hậu, biết cảm thông và tha thứ. Người sống đức độ luôn tự nhắc mình tu dưỡng và sửa đổi bản thân, không tự cao, không khắt khe, không thích chỉ trích hay chê bai người khác.",
       "sourceQuestion": "Câu 4. Sống đức độ là gì?",
-      "id": "hoang-1-c04-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 4
+      "id": "hoang-1-c04-01"
     },
     {
       "type": "multiple",
@@ -99,17 +154,10 @@
         "Tránh xa người xấu: Biết chọn bạn mà chơi, không tiếp xúc với người có đạo đức kém để bảo vệ bản thân.",
         "Phê bình khuyết điểm của người: Biết nhìn thẳng vào cái sai của người khác để nhắc nhở họ sửa đổi, giúp họ tiến bộ hơn."
       ],
-      "correctIndices": [
-        0,
-        1
-      ],
+      "correctIndices": [0, 1],
       "explanation": "Có 2 nguyên tắc để trau dồi một cuộc sống đức độ: Yêu người, nghĩ tới người và Nhận biết ưu điểm của người.",
       "sourceQuestion": "Câu 5. Có mấy nguyên tắc trau giồi cho một cuộc sống đứu độ? Hãy kể ra và giải thích đại cương.",
-      "id": "hoang-1-c05-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 5
+      "id": "hoang-1-c05-01"
     },
     {
       "type": "single",
@@ -123,11 +171,7 @@
       "correctIndex": 0,
       "explanation": "Môn sinh Phật Quang Quyền cần sống tế nhị vì võ học giúp rèn luyện ý chí mạnh mẽ và tinh thần cương nghị. Nếu thiếu sự tế nhị, người học võ dễ trở nên cứng nhắc, nóng nảy hoặc thô ráp. Biết kết hợp sự cương nghị với lòng nhân hậu và cách cư xử tinh tế sẽ giúp người võ sinh sống hòa hợp...",
       "sourceQuestion": "Câu 6. Thế nào là sống tế nhị? Tại sao môn sinh Phật Quang Quyền cần phải sống tế nhị?",
-      "id": "hoang-1-c06-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 6
+      "id": "hoang-1-c06-01"
     },
     {
       "type": "definition",
@@ -136,11 +180,7 @@
       "matchThreshold": 0.65,
       "explanation": "Muốn sống tế nhị, môn sinh Phật Quang Quyền phải biết \"tùy thời định việc\", nghĩa là biết căn cứ vào hoàn cảnh, đối tượng và điều kiện cụ thể để có cách ứng xử phù hợp.",
       "sourceQuestion": "Câu 7. Muốn sống tế nhị, môn sinh Phật Quang Quyền phải áp dụng những phương châm nào?",
-      "id": "hoang-1-c07-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 7
+      "id": "hoang-1-c07-01"
     },
     {
       "type": "multiple",
@@ -158,22 +198,10 @@
         "Nguyên tắc nhồi nhét: luyện tập vượt quá giới hạn thể lực để bứt phá giới hạn bản thân.",
         "Nguyên tắc nhảy cóc: học tập các kỹ thuật nâng cao trước để tạo động lực, sau đó mới quay lại học cơ bản."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
+      "correctIndices": [0, 1, 2, 3, 4, 5, 6],
       "explanation": "Các nguyên tắc sư phạm bao gồm: tự giác tích cực, dễ hiểu (trực quan), vừa sức, hệ thống và liên tục, vững chắc, khoa học, kết hợp lý luận với thực tiễn.",
       "sourceQuestion": "Câu 8. Trong quá trình huấn luyện võ thuật cần phải tuân theo các nguyên tắc sư phạm gì:",
-      "id": "hoang-1-c08-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 8
+      "id": "hoang-1-c08-01"
     },
     {
       "type": "single",
@@ -187,11 +215,7 @@
       "correctIndex": 0,
       "explanation": "Nguyên tắc tự giác, tích cực đòi hỏi người võ sinh phải chủ động, siêng năng và có ý thức trách nhiệm... chăm chỉ tập luyện trên võ đường mà còn biết tự ôn luyện... ở nhà. Môn sinh Phật Quang Quyền luôn rèn luyện tinh thần vượt khó... không ỷ lại.",
       "sourceQuestion": "Câu 9. Nêu Nguyên tắc tự giác tích cực :",
-      "id": "hoang-1-c09-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 9
+      "id": "hoang-1-c09-01"
     },
     {
       "type": "single",
@@ -205,11 +229,7 @@
       "correctIndex": 0,
       "explanation": "Nguyên tắc trực quan (dễ hiểu) yêu cầu người hướng dẫn phải sử dụng lời giải thích, thị phạm và các phương tiện hỗ trợ... giúp võ sinh dễ quan sát, dễ hiểu... giải thích rõ ràng, thị phạm chính xác, nhấn mạnh những điểm quan trọng và chỉ ra các lỗi thường gặp.",
       "sourceQuestion": "Câu 10. Nguyên tắc trực quan (nguyên tắc dễ hiểu)",
-      "id": "hoang-1-c10-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 10
+      "id": "hoang-1-c10-01"
     },
     {
       "type": "single",
@@ -223,11 +243,7 @@
       "correctIndex": 0,
       "explanation": "Nguyên tắc vừa sức yêu cầu việc huấn luyện võ thuật phải phù hợp với lứa tuổi, giới tính, thể lực và trình độ của người học. Quá trình tập luyện phải đi từ dễ đến khó, từ đơn giản đến phức tạp, từ cơ bản đến nâng cao.",
       "sourceQuestion": "Câu 11. Nêu Nguyên tắc vừa sức :",
-      "id": "hoang-1-c11-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 11
+      "id": "hoang-1-c11-01"
     },
     {
       "type": "single",
@@ -241,11 +257,7 @@
       "correctIndex": 0,
       "explanation": "Nguyên tắc hệ thống và liên tục yêu cầu việc huấn luyện phải được thực hiện theo một trình tự hợp lý... Các kỹ thuật đã học cần được thường xuyên ôn luyện... Đòn thế mới phải có sự liên hệ với đòn thế đã học trước... Việc tập luyện phải được duy trì đều đặn, không ngắt quãng...",
       "sourceQuestion": "Câu 12. Nêu nguyên tắc hệ thống và liên tục.",
-      "id": "hoang-1-c12-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 12
+      "id": "hoang-1-c12-01"
     },
     {
       "type": "single",
@@ -259,11 +271,7 @@
       "correctIndex": 0,
       "explanation": "Nguyên tắc vững chắc yêu cầu người học phải nắm chắc kỹ thuật và chiến thuật, ghi nhớ sâu sắc để có thể vận dụng thành thạo trong tập luyện, thi đấu và tự vệ... thường xuyên ôn luyện, lặp lại kỹ thuật, tự giác tập thêm ngoài giờ và được kiểm tra định kỳ.",
       "sourceQuestion": "Câu 13. Nêu Nguyên tắc vững chắc",
-      "id": "hoang-1-c13-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 13
+      "id": "hoang-1-c13-01"
     },
     {
       "type": "single",
@@ -277,11 +285,7 @@
       "correctIndex": 0,
       "explanation": "Nguyên tắc khoa học và liên hệ giữa lý luận với thực tiễn yêu cầu việc huấn luyện võ thuật phải dựa trên những cơ sở khoa học và được kiểm nghiệm bằng thực hành... kiến thức về y học, sinh lý học... Võ sinh phải thường xuyên thực hành, đối luyện và vận dụng vào thực tế...",
       "sourceQuestion": "Câu 14. Nêu nguyên tắc khoa học và nguyên tắc liên hệ giữa lý luận với thực tiễn.",
-      "id": "hoang-1-c14-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 14
+      "id": "hoang-1-c14-01"
     },
     {
       "type": "single",
@@ -295,11 +299,7 @@
       "correctIndex": 0,
       "explanation": "Nơi thành đạo: cội cây bồ đề, bên bờ sông Ni Liên Thiền, xứ Ma Kiệt Đà (nay là Bồ Đề Đạo Tràng). Thời gian: ngày trăng tròn tháng 12, năm 589 TCN (35 tuổi).",
       "sourceQuestion": "Câu 15. Đức Phật thành đạo ở đâu, thời gian nào ?",
-      "id": "hoang-1-c15-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 15
+      "id": "hoang-1-c15-01"
     },
     {
       "type": "single",
@@ -313,11 +313,7 @@
       "correctIndex": 0,
       "explanation": "Nơi nhập diệt: rừng Sa La Song Thọ, xứ Câu Thi Na. Thời gian: ngày trăng tròn tháng 2, năm 544 TCN (80 tuổi).",
       "sourceQuestion": "Câu 16. Đức Phật nhập diệt ở đâu, thời gian nào ?",
-      "id": "hoang-1-c16-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 16
+      "id": "hoang-1-c16-01"
     },
     {
       "type": "single",
@@ -331,11 +327,7 @@
       "correctIndex": 0,
       "explanation": "Nơi xuất gia: bờ sông A Nô Ma, Ca Tỳ La Vệ. Thời gian: ngày trăng tròn tháng 2, năm 595 TCN (29 tuổi). Người đưa đi: người hầu Sa Nặc (Channa). Phương tiện: ngựa kiền Trắc (Kantara).",
       "sourceQuestion": "Câu 17. Đức Phật xuất gia ở đâu ? thời gian nào ? ai đưa người đi ? đi bằng phương tiện gì ?",
-      "id": "hoang-1-c17-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 17
+      "id": "hoang-1-c17-01"
     },
     {
       "type": "single",
@@ -349,11 +341,7 @@
       "correctIndex": 0,
       "explanation": "Nơi thuyết pháp lần đầu tiên: vườn Nai (vườn Lộc Uyển), xứ Ba La Nại. Cho 5 anh em Kiều Trần Như (Kondanna) nghe.",
       "sourceQuestion": "Câu 18. Đức Phật thuyết pháp lần đầu tiên (chuyển pháp luân) ở đâu, cho những ai nghe ?",
-      "id": "hoang-1-c18-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 18
+      "id": "hoang-1-c18-01"
     },
     {
       "type": "single",
@@ -367,11 +355,7 @@
       "correctIndex": 0,
       "explanation": "Tên: Tất Đạt Đa (Siddhattha). Cha: vua Tịnh Phạn (Sudhodana). Mẹ: hoàng hậu Maya.",
       "sourceQuestion": "Câu 19. Trước khi thành Phật, thái tử tên là gì ? cha mẹ là ai ?",
-      "id": "hoang-1-c19-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 19
+      "id": "hoang-1-c19-01"
     },
     {
       "type": "single",
@@ -385,11 +369,7 @@
       "correctIndex": 0,
       "explanation": "Vợ: (công nương) Da Du Đà La (Yashodara). Con trai: La Hầu La (Rahula).",
       "sourceQuestion": "Câu 20. Trước khi xuất gia, thái tử có vợ và con trai tên là gì ?",
-      "id": "hoang-1-c20-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 20
+      "id": "hoang-1-c20-01"
     },
     {
       "type": "single",
@@ -403,11 +383,7 @@
       "correctIndex": 0,
       "explanation": "Đạo đức căn bản nhất là hiểu và tôn kính Phật. Lòng tôn kính Phật giúp ta sống tốt hơn, biết hướng thiện và tránh xa điều xấu.",
       "sourceQuestion": "Câu 21. Hỏi: Đạo đức căn bản nhất của người môn sinh Phật Quang Quyền là gì?",
-      "id": "hoang-1-c21-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 21
+      "id": "hoang-1-c21-01"
     },
     {
       "type": "definition",
@@ -416,11 +392,7 @@
       "matchThreshold": 0.65,
       "explanation": "Vì Đức Phật là bậc giác ngộ hoàn toàn, là tấm gương sáng về trí tuệ, đạo đức và lòng từ bi để chúng ta học tập và noi theo.",
       "sourceQuestion": "Câu 22. Hỏi: Vì sao người môn sinh phải tôn kính Phật?",
-      "id": "hoang-1-c22-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 22
+      "id": "hoang-1-c22-01"
     },
     {
       "type": "multiple",
@@ -435,19 +407,10 @@
         "Cạo đầu xuất gia đi tu",
         "Ép buộc người khác phải tin Phật"
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Bằng việc lễ Phật, nghe và học giáo lý, sống đạo đức, làm điều thiện và cố gắng sửa những lỗi lầm của bản thân.",
       "sourceQuestion": "Câu 23. Hỏi: Người môn sinh thể hiện lòng tôn kính Phật bằng cách nào?",
-      "id": "hoang-1-c23-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 23
+      "id": "hoang-1-c23-01"
     },
     {
       "type": "single",
@@ -461,11 +424,7 @@
       "correctIndex": 0,
       "explanation": "Giúp ta khiêm tốn, biết kính trên nhường dưới, có ý chí vượt qua khó khăn và luôn cố gắng hoàn thiện bản thân.",
       "sourceQuestion": "Câu 24. Hỏi: Lòng tôn kính Phật mang lại lợi ích gì cho người môn sinh?",
-      "id": "hoang-1-c24-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 24
+      "id": "hoang-1-c24-01"
     },
     {
       "type": "single",
@@ -479,11 +438,7 @@
       "correctIndex": 0,
       "explanation": "Phải giữ gìn hình ảnh tốt đẹp của người môn sinh, góp phần lan tỏa điều thiện và bảo vệ những giá trị đạo đức mà Đức Phật đã dạy.",
       "sourceQuestion": "Câu 25. Hỏi: Người môn sinh cần có trách nhiệm gì đối với Phật Pháp?",
-      "id": "hoang-1-c25-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 25
+      "id": "hoang-1-c25-01"
     },
     {
       "type": "definition",
@@ -492,11 +447,7 @@
       "matchThreshold": 0.65,
       "explanation": "Là không ngừng rèn luyện thân thể, trau dồi đạo đức, phụng sự cộng đồng và từng bước xây dựng tâm hồn hướng thiện theo lời Phật dạy.",
       "sourceQuestion": "Câu 26. Hỏi: Lý tưởng sống của người môn sinh Phật Quang Quyền là gì?",
-      "id": "hoang-1-c26-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 26
+      "id": "hoang-1-c26-01"
     },
     {
       "type": "single",
@@ -510,11 +461,7 @@
       "correctIndex": 0,
       "explanation": "Bài Độc Lư Thương có nguồn gốc từ Tây Sơn Võ Đạo – Bình Định... vào khoảng năm 1770, khi xây dựng căn cứ khởi nghĩa, ba anh em Nguyễn Nhạc, Nguyễn Huệ và Nguyễn Lữ đã biên soạn bài Độc Lư Thương để huấn luyện nghĩa quân Tây Sơn.",
       "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27a-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 27
+      "id": "hoang-1-c27a-01"
     },
     {
       "type": "single",
@@ -528,591 +475,19 @@
       "correctIndex": 0,
       "explanation": "“Độc Lư” tượng trưng cho chiếc lư hương ba chân vững chắc, thể hiện tinh thần đoàn kết, đồng lòng của ba anh em nhà Tây Sơn trong sự nghiệp dựng cờ khởi nghĩa... tôn thờ một lý tưởng, một chính nghĩa...",
       "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27b-01",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 28
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n______[1]\nLập tấn liên ba phụng giang đầu\n______[2]\n______[3]\nHạ hồi ký túc song long kích\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]\nSong bộ khai quy đằng xuyên thích\nPhi vân chấp mã tấn sát ngưu\n______[10]\n______[11]\n______[12]",
-      "blanks": [
-        "Bái tổ Độc Lư Thương",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Quy đầu phục thế tấn độc lư",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Hữu phi khai giác thích trung đình",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Hồi long giáng thế đảo liên thành",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Chuyển long phi giác thối liên đài",
-        "Liên ba tam bộ lập như tiền."
-      ],
-      "options": [
-        "Chuyển long xuất giác thối liên đài",
-        "Liên ba nhị bộ lập như tiền.",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Quy vĩ phục thế tấn độc lư",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Hữu phi khai giác thích trung đình",
-        "Hồi long giáng thế đảo liên thành",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Thượng hồi ký túc song long kích",
-        "Lập tấn song ba phụng giang đầu",
-        "Liên ba tam bộ lập như tiền.",
-        "Hạ hồi điểm túc song long kích",
-        "Đảo thế hoành thân hầu long bộ",
-        "Chấp thủ “song lư” sát thích thương",
-        "Tả phi khai giác thích trung đình",
-        "Thăng long giáng thế đảo liên thành",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Bái tổ Song Lư Thương",
-        "Quy đầu phục thế tấn độc lư",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Bái tổ Độc Lư Thương",
-        "Chuyển long phi giác thối liên đài"
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-1",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 29
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n______[1]\n______[2]\n______[3]\nQuy đầu phục thế tấn độc lư\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\nHồi long giáng thế đảo liên thành\n______[9]\n______[10]\n______[11]\n______[12]\nChuyển long phi giác thối liên đài\nLiên ba tam bộ lập như tiền.",
-      "blanks": [
-        "Bái tổ Độc Lư Thương",
-        "Lập tấn liên ba phụng giang đầu",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Hạ hồi ký túc song long kích",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Hữu phi khai giác thích trung đình",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Song bộ khai quy đằng xuyên thích",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Đảo thế khuynh thân hầu long bộ"
-      ],
-      "options": [
-        "Đảo thế hoành thân hầu long bộ",
-        "Quy vĩ phục thế tấn độc lư",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Thăng long giáng thế đảo liên thành",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Bái tổ Song Lư Thương",
-        "Bái tổ Độc Lư Thương",
-        "Hạ hồi ký túc song long kích",
-        "Chuyển long xuất giác thối liên đài",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Thượng hồi ký túc song long kích",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Lập tấn liên ba phụng giang đầu",
-        "Lập tấn song ba phụng giang đầu",
-        "Tả phi khai giác thích trung đình",
-        "Chấp thủ “song lư” sát thích thương",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Hạ hồi điểm túc song long kích",
-        "Song bộ khai quy đằng xuyên thích",
-        "Hữu phi khai giác thích trung đình",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Liên ba nhị bộ lập như tiền.",
-        "Hoành thân chuyển đả tái nghịch tâm"
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-2",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 30
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\nBái tổ Độc Lư Thương\n______[1]\n______[2]\n______[3]\n______[4]\nHoành thân chuyển đả tái nghịch tâm\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]\n______[10]\nPhi vân chấp mã tấn sát ngưu\n______[11]\nChuyển long phi giác thối liên đài\n______[12]",
-      "blanks": [
-        "Lập tấn liên ba phụng giang đầu",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Quy đầu phục thế tấn độc lư",
-        "Hạ hồi ký túc song long kích",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Hữu phi khai giác thích trung đình",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Hồi long giáng thế đảo liên thành",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Song bộ khai quy đằng xuyên thích",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Liên ba tam bộ lập như tiền."
-      ],
-      "options": [
-        "Liên ba nhị bộ lập như tiền.",
-        "Đảo thế hoành thân hầu long bộ",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Thượng hồi ký túc song long kích",
-        "Quy vĩ phục thế tấn độc lư",
-        "Thăng long giáng thế đảo liên thành",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Chấp thủ “song lư” sát thích thương",
-        "Lập tấn liên ba phụng giang đầu",
-        "Quy đầu phục thế tấn độc lư",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Song bộ khai quy đằng xuyên thích",
-        "Chuyển long xuất giác thối liên đài",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Hữu phi khai giác thích trung đình",
-        "Lập tấn song ba phụng giang đầu",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Liên ba tam bộ lập như tiền.",
-        "Bái tổ Song Lư Thương",
-        "Hạ hồi điểm túc song long kích",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Hạ hồi ký túc song long kích",
-        "Tả phi khai giác thích trung đình",
-        "Hồi long giáng thế đảo liên thành"
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-3",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 31
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\nHoành thân chuyển đả tái nghịch tâm\n______[6]\n______[7]\n______[8]\nHồi long giáng thế đảo liên thành\n______[9]\n______[10]\nPhi vân chấp mã tấn sát ngưu\n______[11]\nChuyển long phi giác thối liên đài\n______[12]",
-      "blanks": [
-        "Bái tổ Độc Lư Thương",
-        "Lập tấn liên ba phụng giang đầu",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Quy đầu phục thế tấn độc lư",
-        "Hạ hồi ký túc song long kích",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Hữu phi khai giác thích trung đình",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Song bộ khai quy đằng xuyên thích",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Liên ba tam bộ lập như tiền."
-      ],
-      "options": [
-        "Bái tổ Song Lư Thương",
-        "Lập tấn song ba phụng giang đầu",
-        "Chuyển long xuất giác thối liên đài",
-        "Liên ba tam bộ lập như tiền.",
-        "Quy đầu phục thế tấn độc lư",
-        "Quy vĩ phục thế tấn độc lư",
-        "Thăng long giáng thế đảo liên thành",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Bái tổ Độc Lư Thương",
-        "Hạ hồi điểm túc song long kích",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Đảo thế hoành thân hầu long bộ",
-        "Tả phi khai giác thích trung đình",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Hạ hồi ký túc song long kích",
-        "Chấp thủ “song lư” sát thích thương",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Thượng hồi ký túc song long kích",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Lập tấn liên ba phụng giang đầu",
-        "Hữu phi khai giác thích trung đình",
-        "Liên ba nhị bộ lập như tiền.",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Song bộ khai quy đằng xuyên thích",
-        "Chấp thủ “độc lư” sát thích thương"
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-4",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 32
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n______[1]\nLập tấn liên ba phụng giang đầu\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\nPhi bộ tạ hồi liên trung đỉnh\n______[8]\nChấp thủ “độc lư” sát thích thương\n______[9]\n______[10]\n______[11]\nChuyển long phi giác thối liên đài\n______[12]",
-      "blanks": [
-        "Bái tổ Độc Lư Thương",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Quy đầu phục thế tấn độc lư",
-        "Hạ hồi ký túc song long kích",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Hữu phi khai giác thích trung đình",
-        "Hồi long giáng thế đảo liên thành",
-        "Song bộ khai quy đằng xuyên thích",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Liên ba tam bộ lập như tiền."
-      ],
-      "options": [
-        "Bái tổ Độc Lư Thương",
-        "Thượng hồi ký túc song long kích",
-        "Quy vĩ phục thế tấn độc lư",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Thăng long giáng thế đảo liên thành",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Chuyển long xuất giác thối liên đài",
-        "Song bộ khai quy đằng xuyên thích",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Hồi long giáng thế đảo liên thành",
-        "Hữu phi khai giác thích trung đình",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Đảo thế hoành thân hầu long bộ",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Quy đầu phục thế tấn độc lư",
-        "Chấp thủ “song lư” sát thích thương",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Hạ hồi ký túc song long kích",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Tả phi khai giác thích trung đình",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Lập tấn song ba phụng giang đầu",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Bái tổ Song Lư Thương",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Hạ hồi điểm túc song long kích",
-        "Liên ba nhị bộ lập như tiền.",
-        "Liên ba tam bộ lập như tiền."
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-5",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 33
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n______[1]\n______[2]\n______[3]\n______[4]\nHạ hồi ký túc song long kích\n______[5]\n______[6]\n______[7]\nPhi bộ tạ hồi liên trung đỉnh\n______[8]\n______[9]\n______[10]\n______[11]\nĐảo thế khuynh thân hầu long bộ\nChuyển long phi giác thối liên đài\n______[12]",
-      "blanks": [
-        "Bái tổ Độc Lư Thương",
-        "Lập tấn liên ba phụng giang đầu",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Quy đầu phục thế tấn độc lư",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Hữu phi khai giác thích trung đình",
-        "Hồi long giáng thế đảo liên thành",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Song bộ khai quy đằng xuyên thích",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Liên ba tam bộ lập như tiền."
-      ],
-      "options": [
-        "Bái tổ Song Lư Thương",
-        "Thượng hồi ký túc song long kích",
-        "Chuyển long xuất giác thối liên đài",
-        "Lập tấn song ba phụng giang đầu",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Liên ba tam bộ lập như tiền.",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Đảo thế hoành thân hầu long bộ",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Hạ hồi điểm túc song long kích",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Chấp thủ “song lư” sát thích thương",
-        "Quy đầu phục thế tấn độc lư",
-        "Quy vĩ phục thế tấn độc lư",
-        "Thăng long giáng thế đảo liên thành",
-        "Lập tấn liên ba phụng giang đầu",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Song bộ khai quy đằng xuyên thích",
-        "Hữu phi khai giác thích trung đình",
-        "Tả phi khai giác thích trung đình",
-        "Hồi long giáng thế đảo liên thành",
-        "Bái tổ Độc Lư Thương",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Liên ba nhị bộ lập như tiền."
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-6",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 34
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n______[1]\n______[2]\n______[3]\nQuy đầu phục thế tấn độc lư\n______[4]\n______[5]\nHậu hoành nghinh chiến khai trực chỉ\n______[6]\n______[7]\n______[8]\n______[9]\n______[10]\n______[11]\nĐảo thế khuynh thân hầu long bộ\n______[12]\nLiên ba tam bộ lập như tiền.",
-      "blanks": [
-        "Bái tổ Độc Lư Thương",
-        "Lập tấn liên ba phụng giang đầu",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Hạ hồi ký túc song long kích",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Hữu phi khai giác thích trung đình",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Hồi long giáng thế đảo liên thành",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Song bộ khai quy đằng xuyên thích",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Chuyển long phi giác thối liên đài"
-      ],
-      "options": [
-        "Phi vân hạ mã tấn sát ngưu",
-        "Bái tổ Song Lư Thương",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Chuyển long xuất giác thối liên đài",
-        "Liên ba nhị bộ lập như tiền.",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Song bộ khai quy đằng xuyên thích",
-        "Hồi long giáng thế đảo liên thành",
-        "Thăng long giáng thế đảo liên thành",
-        "Đảo thế hoành thân hầu long bộ",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Lập tấn song ba phụng giang đầu",
-        "Tả phi khai giác thích trung đình",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Hạ hồi điểm túc song long kích",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Hạ hồi ký túc song long kích",
-        "Quy vĩ phục thế tấn độc lư",
-        "Hữu phi khai giác thích trung đình",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Thượng hồi ký túc song long kích",
-        "Lập tấn liên ba phụng giang đầu",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Chấp thủ “song lư” sát thích thương",
-        "Bái tổ Độc Lư Thương",
-        "Chuyển long phi giác thối liên đài"
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-7",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 35
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\nBái tổ Độc Lư Thương\n______[1]\n______[2]\n______[3]\n______[4]\nHoành thân chuyển đả tái nghịch tâm\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]\n______[10]\n______[11]\nĐảo thế khuynh thân hầu long bộ\nChuyển long phi giác thối liên đài\n______[12]",
-      "blanks": [
-        "Lập tấn liên ba phụng giang đầu",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Quy đầu phục thế tấn độc lư",
-        "Hạ hồi ký túc song long kích",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Hữu phi khai giác thích trung đình",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Hồi long giáng thế đảo liên thành",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Song bộ khai quy đằng xuyên thích",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Liên ba tam bộ lập như tiền."
-      ],
-      "options": [
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Chuyển long xuất giác thối liên đài",
-        "Song bộ khai quy đằng xuyên thích",
-        "Hạ hồi ký túc song long kích",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Hữu phi khai giác thích trung đình",
-        "Bái tổ Song Lư Thương",
-        "Hậu hoành nghinh chiến khai trực chỉ",
-        "Liên ba nhị bộ lập như tiền.",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Đảo thế hoành thân hầu long bộ",
-        "Thượng hồi ký túc song long kích",
-        "Thăng long giáng thế đảo liên thành",
-        "Chấp thủ “song lư” sát thích thương",
-        "Hồi long giáng thế đảo liên thành",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Lập tấn song ba phụng giang đầu",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Quy đầu phục thế tấn độc lư",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Liên ba tam bộ lập như tiền.",
-        "Hạ hồi điểm túc song long kích",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Tả phi khai giác thích trung đình",
-        "Lập tấn liên ba phụng giang đầu",
-        "Quy vĩ phục thế tấn độc lư",
-        "Hoành thân chuyển thoái tái nghịch tâm"
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-8",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 36
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n______[1]\n______[2]\n______[3]\nQuy đầu phục thế tấn độc lư\n______[4]\n______[5]\nHậu hoành nghinh chiến khai trực chỉ\n______[6]\n______[7]\n______[8]\nChấp thủ “độc lư” sát thích thương\n______[9]\n______[10]\n______[11]\n______[12]\nLiên ba tam bộ lập như tiền.",
-      "blanks": [
-        "Bái tổ Độc Lư Thương",
-        "Lập tấn liên ba phụng giang đầu",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Hạ hồi ký túc song long kích",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Hữu phi khai giác thích trung đình",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Hồi long giáng thế đảo liên thành",
-        "Song bộ khai quy đằng xuyên thích",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Chuyển long phi giác thối liên đài"
-      ],
-      "options": [
-        "Đảo thế hoành thân hầu long bộ",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Chấp thủ “song lư” sát thích thương",
-        "Lập tấn song ba phụng giang đầu",
-        "Tả phi khai giác thích trung đình",
-        "Quy vĩ phục thế tấn độc lư",
-        "Song bộ khai quy đằng xuyên thích",
-        "Thượng hồi ký túc song long kích",
-        "Đảo thế khuynh thân hầu long bộ",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Bái tổ Độc Lư Thương",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Nhị bộ tấn nghinh khai đản thủ",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Hạ hồi ký túc song long kích",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Bái tổ Song Lư Thương",
-        "Chuyển long phi giác thối liên đài",
-        "Thăng long giáng thế đảo liên thành",
-        "Liên ba nhị bộ lập như tiền.",
-        "Hữu phi khai giác thích trung đình",
-        "Hồi long giáng thế đảo liên thành",
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Phi bộ tạ hồi liên trung đỉnh",
-        "Lập tấn liên ba phụng giang đầu",
-        "Hạ hồi điểm túc song long kích",
-        "Chuyển long xuất giác thối liên đài",
-        "Phi vân chấp mã tấn sát ngưu"
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-9",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 37
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Độc Lư Thương:\n\n______[1]\n______[2]\nNhị bộ tấn nghinh khai đản thủ\n______[3]\n______[4]\n______[5]\nHậu hoành nghinh chiến khai trực chỉ\n______[6]\nPhi bộ tạ hồi liên trung đỉnh\n______[7]\n______[8]\n______[9]\n______[10]\nĐảo thế khuynh thân hầu long bộ\n______[11]\n______[12]",
-      "blanks": [
-        "Bái tổ Độc Lư Thương",
-        "Lập tấn liên ba phụng giang đầu",
-        "Quy đầu phục thế tấn độc lư",
-        "Hạ hồi ký túc song long kích",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Hữu phi khai giác thích trung đình",
-        "Hồi long giáng thế đảo liên thành",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Song bộ khai quy đằng xuyên thích",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Chuyển long phi giác thối liên đài",
-        "Liên ba tam bộ lập như tiền."
-      ],
-      "options": [
-        "Tiền hoành nghinh chiến khai trực chỉ",
-        "Hạ hồi ký túc song long kích",
-        "Phi vân chấp mã tấn sát ngưu",
-        "Hồi long giáng thế đảo liên thành",
-        "Bái tổ Song Lư Thương",
-        "Lập tấn song ba phụng giang đầu",
-        "Chuyển long phi giác thối liên đài",
-        "Hoành thân xuất đả tái nghịch tâm",
-        "Hoành thân chuyển đả tái nghịch tâm",
-        "Thăng long giáng thế đảo liên thành",
-        "Quy đầu ngọa thế tấn độc lư",
-        "Hạ hồi điểm túc song long kích",
-        "Hữu phi khai giác thích trung đình",
-        "Tả phi khai giác thích trung đình",
-        "Chấp thủ “song lư” sát thích thương",
-        "Thượng hồi ký túc song long kích",
-        "Phi vân hạ mã tấn sát ngưu",
-        "Quy vĩ phục thế tấn độc lư",
-        "Quy đầu phục thế tấn độc lư",
-        "Chấp thủ “độc lư” sát thích thương",
-        "Liên ba nhị bộ lập như tiền.",
-        "Đảo thế hoành thân hầu long bộ",
-        "Bái tổ Độc Lư Thương",
-        "Liên ba tam bộ lập như tiền.",
-        "Đơn bộ khai quy đằng xuyên thích",
-        "Chuyển long xuất giác thối liên đài",
-        "Phi bộ tạ hồi thoái trung đỉnh",
-        "Lập tấn liên ba phụng giang đầu",
-        "Tam bộ tấn nghinh khai đản thủ",
-        "Hoành thân chuyển thoái tái nghịch tâm",
-        "Song bộ khai quy đằng xuyên thích"
-      ],
-      "explanation": "Bái tổ Độc Lư Thương | Lập tấn liên ba phụng giang đầu | Nhị bộ tấn nghinh khai đản thủ | Quy đầu phục thế tấn độc lư | Hạ hồi ký túc song long kích | Hoành thân chuyển đả tái nghịch tâm | Hậu hoành nghinh chiến khai trực chỉ | Hữu phi khai giác thích trung đình | Phi bộ tạ hồi liên trung đỉnh | Hồi long giáng thế đảo liên thành | Chấp thủ “độc lư” sát thích thương | Song bộ khai quy đằng xuyên thích | Phi vân chấp mã tấn sát ngưu | Đảo thế khuynh thân hầu long bộ | Chuyển long phi giác thối liên đài | Liên ba tam bộ lập như tiền.",
-      "sourceQuestion": "Câu 27. Nêu nguồn gốc và lời thiệu bài quyền quy đinh độc Lư Thương:",
-      "id": "hoang-1-c27-poem-10",
-      "lessonId": "yellow-lesson-01",
-      "rankId": "hoang-1",
-      "beltId": "yellow",
-      "number": 38
+      "id": "hoang-1-c27b-01"
     }
   ]
-}
+};
+
+data.questions.push(...poemQuestions);
+
+data.questions.forEach((q, index) => {
+  q.lessonId = data.lessonId;
+  q.rankId = data.rankId;
+  q.beltId = data.beltId;
+  q.number = index + 1;
+});
+
+fs.writeFileSync(path, JSON.stringify(data, null, 2));
+console.log('Saved to', path);

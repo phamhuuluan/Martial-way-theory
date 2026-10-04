@@ -43,7 +43,8 @@ export type QuizQuestionType =
   | 'matching'
   | 'ordering'
   | 'scenario'
-  | 'truefalse';
+  | 'truefalse'
+  | 'definition';
 
 export interface QuizQuestion {
   id: string;
@@ -66,6 +67,10 @@ export interface QuizQuestion {
   items?: string[];
   /** Ordering: indices into `items` in correct sequence */
   correctOrder?: number[];
+  /** Điền định nghĩa: câu đáp án mẫu để chấm độ khớp từ */
+  sampleAnswer?: string;
+  /** Ngưỡng khớp từ của điền định nghĩa. Mặc định 0.65 */
+  matchThreshold?: number;
   explanation?: string;
   sourceQuestion?: string;
 }

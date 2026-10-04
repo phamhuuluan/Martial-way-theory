@@ -18,6 +18,7 @@ import {
 } from '@/lib/exam-paper';
 import {
   getQuestionType,
+  isDefinitionQuestion,
   isFillQuestion,
   isMatchingQuestion,
   isMultipleChoice,
@@ -48,6 +49,7 @@ function hintFor(question: ExamBankQuestion | undefined): string | null {
   if (isMatchingQuestion(question)) return 'Ghép từng mục bên trái với nội dung đúng bên phải.';
   if (isOrderingQuestion(question)) return 'Dùng mũi tên để sắp xếp theo đúng thứ tự.';
   if (getQuestionType(question) === 'scenario') return 'Đọc tình huống và chọn đáp án phù hợp nhất.';
+  if (isDefinitionQuestion(question)) return 'Viết một câu ngắn. Không có lựa chọn sẵn.';
   return null;
 }
 

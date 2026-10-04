@@ -1,4 +1,7 @@
-{
+const fs = require('fs');
+const path = '/Users/luanph/Project other/MARTIAL WAY THEORY/content/exam-bank/hoang-4.json';
+
+const data = {
   "rankId": "hoang-4",
   "beltId": "yellow",
   "lessonId": "yellow-lesson-04",
@@ -16,19 +19,10 @@
         "Phục tùng tiền bạc: Thể hiện sự khôn ngoan và tôn trọng những người giàu có, tài trợ cho võ đường.",
         "Phục tùng để lấy lòng: Biết nịnh bợ đúng lúc để giữ lợi ích, tạo sự thiên vị và giúp thăng tiến nhanh chóng."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Có 4 trường hợp cần phục tùng trong việc xử thế: Phục tùng lẽ phải, Phục tùng đa số, Phục tùng thượng cấp, Phục tùng để tỏ thiện chí.",
       "sourceQuestion": "Câu 1. Có mấy trường hợp cần phục tùng trong việc xử thế? Hãy kể ra và giải thích đại cương.",
-      "id": "hoang-4-c01-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 1
+      "id": "hoang-4-c01-01"
     },
     {
       "type": "single",
@@ -42,11 +36,7 @@
       "correctIndex": 0,
       "explanation": "Đức tính phục tùng không phản lại đức tính tự chủ, mà ngược lại còn thể hiện khả năng tự chủ của con người. Người biết tôn trọng lẽ phải, ý kiến đúng đắn... chấp hành kỷ luật là người biết làm chủ bản thân...",
       "sourceQuestion": "Câu 2. Đức tính phục tùng có phản lại đức tính tự chủ không? Hãy giải thích và dẫn chứng.",
-      "id": "hoang-4-c02-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 2
+      "id": "hoang-4-c02-01"
     },
     {
       "type": "single",
@@ -60,11 +50,7 @@
       "correctIndex": 0,
       "explanation": "Tham vọng là sự mong muốn đạt được một mục đích nào đó, thường thiên về lợi ích... Chí hướng là mục tiêu cao đẹp mà con người kiên trì theo đuổi... Tham vọng có thể tốt hoặc xấu... còn chí hướng thường hướng đến những giá trị tốt đẹp...",
       "sourceQuestion": "Câu 3. Hãy giải thích điểm dị biệt giữa tham vọng và chí hướng.",
-      "id": "hoang-4-c03-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 3
+      "id": "hoang-4-c03-01"
     },
     {
       "type": "single",
@@ -78,11 +64,7 @@
       "correctIndex": 0,
       "explanation": "Tham vọng trở nên tốt đẹp và cần thiết khi được chí hướng đúng đắn chỉ đạo. Ai cũng có tham vọng, nhưng để biến tham vọng thành hiện thực và có ích thì phải có lý tưởng, sự hiểu biết và nghị lực theo đuổi.",
       "sourceQuestion": "Câu 4. Khi nào tham vọng trở nên tốt đẹp và cần thiết?",
-      "id": "hoang-4-c04-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 4
+      "id": "hoang-4-c04-01"
     },
     {
       "type": "multiple",
@@ -97,19 +79,10 @@
         "Người trọng danh dự luôn nghĩ đến cá nhân mình, phô trương quyền lực và hành động tàn bạo để bảo vệ địa vị.",
         "Người tự ái thường nghĩ đến tập thể, dễ nhượng bộ và phản ứng bình tĩnh khi bị đụng chạm để giữ hòa khí."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Danh dự là giá trị tinh thần... Tự ái là phản ứng tâm lý... Người trọng danh dự luôn nghĩ đến tập thể... Người tự ái thường chỉ nghĩ đến bản thân, dễ nóng giận...",
       "sourceQuestion": "Câu 5. Danh dự là gì? Tự ái là gì? Trọng danh dự và tự ái khác nhau như thế nào?",
-      "id": "hoang-4-c05-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 5
+      "id": "hoang-4-c05-01"
     },
     {
       "type": "single",
@@ -123,11 +96,7 @@
       "correctIndex": 0,
       "explanation": "Ta nên gạt bỏ tự ái, vì tự ái chỉ là phản ứng cảm xúc mang tính cá nhân. Trong khi đó, danh dự là giá trị tinh thần cao quý cần được giữ gìn và bảo vệ. Khi sống trong tập thể, biết gạt bỏ tự ái để giữ gìn danh dự chung cũng chính là giữ gìn danh dự của bản thân.",
       "sourceQuestion": "Câu 6. Trường hợp phải lựa chọn giữa việc coi nhẹ danh dự hoặc gạt bỏ tự ái, ta nên chọn đường nào? Hãy giải thích.",
-      "id": "hoang-4-c06-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 6
+      "id": "hoang-4-c06-01"
     },
     {
       "type": "multiple",
@@ -146,22 +115,10 @@
         "Bắt cặp đánh nhau tự do không cần bảo hộ để kiểm tra thực lực.",
         "Trừng phạt thân thể những võ sinh đi trễ hoặc quên bài."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
+      "correctIndices": [0, 1, 2, 3, 4, 5, 6],
       "explanation": "Gồm các bước: Tập hợp chào kính, Khởi động, Ôn cũ, Hướng dẫn mới, Thực hành ứng dụng, Đấu luyện sửa sai, Điều tức kết thúc.",
       "sourceQuestion": "Câu 7. Trình bày phương pháp sư phạm điều hành một lớp tập võ theo tiêu chuẩn Liên đoàn Võ thuật Cổ truyền Việt Nam.",
-      "id": "hoang-4-c07-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 7
+      "id": "hoang-4-c07-01"
     },
     {
       "type": "definition",
@@ -170,11 +127,7 @@
       "matchThreshold": 0.65,
       "explanation": "Cá nhân và tập thể có mối quan hệ gắn bó và trách nhiệm lẫn nhau. Tập thể tạo điều kiện cho cá nhân phát triển, còn cá nhân phải biết hòa hợp và đóng góp cho tập thể thì mới đạt được thành công.",
       "sourceQuestion": "Câu 8. Nhận định về tương quan giữa cá nhân với tập thể ra sao?",
-      "id": "hoang-4-c08-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 8
+      "id": "hoang-4-c08-01"
     },
     {
       "type": "single",
@@ -188,11 +141,7 @@
       "correctIndex": 0,
       "explanation": "Quảng bá và phát triển võ thuật là một mục tiêu quan trọng... Tuy nhiên, mục tiêu cao hơn là xây dựng một nền võ đạo dân tộc và giáo dục đạo đức cho con người. Vì vậy, Phật Quang Quyền lấy võ thuật làm phương tiện để truyền dạy đạo đức...",
       "sourceQuestion": "Câu 9. Phật Quang Quyền chỉ chú trọng tới mục đích quảng bá võ thuật không thôi, hay chú trọng tới mục đích gì khác nữa? Hãy giải thích.",
-      "id": "hoang-4-c09-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 9
+      "id": "hoang-4-c09-01"
     },
     {
       "type": "single",
@@ -206,11 +155,7 @@
       "correctIndex": 0,
       "explanation": "Muốn đạt đến trình độ võ đạo, trước hết phải trải qua quá trình rèn luyện võ thuật. Võ thuật là nền tảng... còn võ đạo là sự phát triển cao hơn về đạo đức... Vì vậy, võ đạo không tách rời võ thuật mà được xây dựng trên nền tảng võ thuật...",
       "sourceQuestion": "Câu 10. Có thể đạt tới trình độ võ đạo mà không phải qua trình độ võ thuật được không?",
-      "id": "hoang-4-c10-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 10
+      "id": "hoang-4-c10-01"
     },
     {
       "type": "single",
@@ -224,11 +169,7 @@
       "correctIndex": 0,
       "explanation": "Đạo Nhân... là thương yêu con người trên tinh thần thượng võ... Chúng ta làm điều tốt không phải vì người đối xử tốt với mình, mà vì đó là điều đúng... Khi gặp người đối xử chưa tốt, vẫn giữ lòng bao dung... Thực hành Đạo Nhân là làm vì lợi ích của người khác, không mong cầu sự khen ngợi...",
       "sourceQuestion": "Câu 11. Đạo Nhân của môn sinh Phật Quang Quyền là gì? Có phải vì người đối xử tốt mà ta tốt với họ không? Nếu họ đối xử xấu thì ta phải thế nào?",
-      "id": "hoang-4-c11-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 11
+      "id": "hoang-4-c11-01"
     },
     {
       "type": "multiple",
@@ -241,18 +182,10 @@
         "Bồi bổ thuốc quý: Thường xuyên mua các loại nhân sâm, yến sào đắt tiền để uống thay vì phải tập luyện mệt nhọc.",
         "Né tránh thử thách: Lảng tránh mọi công việc nặng nhọc, chọn việc nhẹ nhàng để bảo tồn sức lực và không bị chấn thương."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2
-      ],
+      "correctIndices": [0, 1, 2],
       "explanation": "Cần thực hiện ba nguyên tắc: Điều độ, Chuyên cần luyện tập võ thuật, Bền bỉ trước thử thách.",
       "sourceQuestion": "Câu 12. Quan niệm về sống khỏe của môn sinh Phật Quang Quyền ra sao?",
-      "id": "hoang-4-c12-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 12
+      "id": "hoang-4-c12-01"
     },
     {
       "type": "definition",
@@ -261,11 +194,7 @@
       "matchThreshold": 0.65,
       "explanation": "Môn sinh Phật Quang Quyền có bổn phận góp phần xây dựng xã hội ngày càng tốt đẹp hơn, nuôi dưỡng tình thương yêu giữa con người với nhau, góp phần làm cho đất nước hưng thịnh và phát huy tinh thần võ đạo trong cộng đồng.",
       "sourceQuestion": "Câu 13. Về giá trị luân lý, môn sinh Phật Quang Quyền phải có bổn phận ra sao?",
-      "id": "hoang-4-c13-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 13
+      "id": "hoang-4-c13-01"
     },
     {
       "type": "single",
@@ -279,11 +208,7 @@
       "correctIndex": 0,
       "explanation": "Muốn có đức tính tự chủ, phải luôn giữ bình tĩnh trước mọi biến động của hoàn cảnh, rèn luyện sự quan sát và khả năng làm chủ cảm xúc... tu dưỡng nội tâm để tâm hồn luôn ung dung, thanh thản, không bị chi phối bởi những tham vọng...",
       "sourceQuestion": "Câu 14. Muốn có đức tính tự chủ, phải rèn luyện ra sao?",
-      "id": "hoang-4-c14-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 14
+      "id": "hoang-4-c14-01"
     },
     {
       "type": "single",
@@ -297,11 +222,7 @@
       "correctIndex": 0,
       "explanation": "Chúng ta sẽ dám thẳng thắn nhìn nhận lỗi lầm khi tin vào thực tài, thực đức và những việc đúng đắn mình đang làm. Đó là biểu hiện của người hiểu và tin vào giá trị chân chính của bản thân",
       "sourceQuestion": "Câu 15. Khi nào chúng ta dám thẳng thắn nhìn nhận những lỗi lầm mà không sợ uy tín bị giảm?",
-      "id": "hoang-4-c15-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 15
+      "id": "hoang-4-c15-01"
     },
     {
       "type": "multiple",
@@ -312,17 +233,10 @@
         "Theo nghĩa rộng: Võ học là một công cụ bạo lực để áp bức giai cấp, gắn liền với lịch sử chiến tranh của nhân loại.",
         "Theo nghĩa hẹp: Võ học là một trò chơi giải trí chuyên cung cấp các màn xiếc, ảo thuật và biểu diễn đường phố."
       ],
-      "correctIndices": [
-        0,
-        1
-      ],
+      "correctIndices": [0, 1],
       "explanation": "Theo nghĩa rộng: là hoạt động văn hóa và sinh hoạt xã hội. Theo nghĩa hẹp: là một ngành học chuyên nghiên cứu, giảng dạy và rèn luyện các kiến thức, kỹ năng...",
       "sourceQuestion": "Câu 16. Võ học theo nghĩa rộng và nghĩa hẹp được hiểu ra sao?",
-      "id": "hoang-4-c16-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 16
+      "id": "hoang-4-c16-01"
     },
     {
       "type": "single",
@@ -336,11 +250,7 @@
       "correctIndex": 0,
       "explanation": "Người đệ tử Phật chân chính cần có hai tính chất: Thấy rõ cuộc đời là vô thường... nên không tham lam, chấp thủ... Có lòng từ bi, yêu thương chúng sinh, nên tận tụy phụng sự... Nhờ đó, tâm hồn được an lạc...",
       "sourceQuestion": "Câu 17. Hai tính chất trong tâm một người đệ tử Phật chân chính?",
-      "id": "hoang-4-c17-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 17
+      "id": "hoang-4-c17-01"
     },
     {
       "type": "definition",
@@ -349,11 +259,7 @@
       "matchThreshold": 0.65,
       "explanation": "Đố kỵ là tâm buồn bực, ganh ghét khi thấy người khác thành công, được yêu quý hoặc vượt trội hơn mình. Tâm đố kỵ xuất phát từ sự ích kỷ, muốn hơn người và không chấp nhận thành công của người khác.",
       "sourceQuestion": "Câu 18. Hỏi: Đố kỵ là gì và do đâu mà có?",
-      "id": "hoang-4-c18-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 18
+      "id": "hoang-4-c18-01"
     },
     {
       "type": "single",
@@ -367,11 +273,7 @@
       "correctIndex": 0,
       "explanation": "Tâm đố kỵ làm mất tình huynh đệ, gây chia rẽ tập thể và khiến bản thân khó tiến bộ. Người đố kỵ thường dễ chê bai, chống đối hoặc tìm cách hạ thấp người khác thay vì cố gắng hoàn thiện chính mình.",
       "sourceQuestion": "Câu 19. Hỏi: Tâm đố kỵ gây tác hại như thế nào đối với người môn sinh?",
-      "id": "hoang-4-c19-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 19
+      "id": "hoang-4-c19-01"
     },
     {
       "type": "single",
@@ -385,11 +287,7 @@
       "correctIndex": 0,
       "explanation": "Phải biết tùy hỷ trước thành công của người khác, chân thành chúc mừng và học hỏi những điều hay từ huynh đệ. Khi thấy người khác tiến bộ, ta vui mừng như chính mình tiến bộ và cùng nhau xây dựng tập thể ngày càng tốt đẹp hơn.",
       "sourceQuestion": "Câu 20. Hỏi: Người môn sinh Phật Quang Quyền phải vượt qua tâm đố kỵ bằng cách nào?",
-      "id": "hoang-4-c20-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 20
+      "id": "hoang-4-c20-01"
     },
     {
       "type": "single",
@@ -403,11 +301,7 @@
       "correctIndex": 0,
       "explanation": "Góp ý là chân thành giúp người khác nhận ra lỗi để sửa đổi và tiến bộ hơn. Chỉ trích là nói xấu, phê phán nhằm làm giảm uy tín hoặc khiến người khác bị mọi người xa lánh.",
       "sourceQuestion": "Câu 21. Hỏi: Chỉ trích khác với góp ý như thế nào?",
-      "id": "hoang-4-c21-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 21
+      "id": "hoang-4-c21-01"
     },
     {
       "type": "single",
@@ -421,11 +315,7 @@
       "correctIndex": 0,
       "explanation": "Vì chỉ trích làm tổn thương tình huynh đệ, gây mất đoàn kết trong tập thể và thường xuất phát từ những tâm bất thiện như đố kỵ, giận hờn hoặc tự cao.",
       "sourceQuestion": "Câu 22. Hỏi: Vì sao người môn sinh Phật Quang Quyền không nên chỉ trích người khác?",
-      "id": "hoang-4-c22-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 22
+      "id": "hoang-4-c22-01"
     },
     {
       "type": "single",
@@ -439,11 +329,7 @@
       "correctIndex": 0,
       "explanation": "Nên góp ý riêng với tinh thần xây dựng, chân thành giúp nhau tiến bộ. Nếu không thể tự góp ý, cần trình bày với người có trách nhiệm, tuyệt đối không nói xấu hay lan truyền lỗi của người khác.",
       "sourceQuestion": "Câu 23. Hỏi: Khi thấy huynh đệ có khuyết điểm, người môn sinh nên làm gì?",
-      "id": "hoang-4-c23-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 23
+      "id": "hoang-4-c23-01"
     },
     {
       "type": "definition",
@@ -452,11 +338,7 @@
       "matchThreshold": 0.65,
       "explanation": "Khiêm hạ là không tự cao, không xem mình hơn người và luôn biết tôn trọng mọi người. Người môn sinh có đức tính khiêm hạ sẽ dễ học hỏi, tiến bộ và được mọi người yêu quý.",
       "sourceQuestion": "Câu 24. Hỏi: Khiêm hạ là gì và vì sao người môn sinh Phật Quang Quyền phải rèn luyện đức tính khiêm hạ?",
-      "id": "hoang-4-c24-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 24
+      "id": "hoang-4-c24-01"
     },
     {
       "type": "single",
@@ -470,11 +352,7 @@
       "correctIndex": 0,
       "explanation": "Tâm ngã mạn khiến ta xem thường người khác, thích khoe thành tích, khó lắng nghe góp ý, luôn cho mình đúng và muốn được người khác đề cao hơn mình.",
       "sourceQuestion": "Câu 25. Hỏi: Dấu hiệu của tâm ngã mạn là gì?",
-      "id": "hoang-4-c25-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 25
+      "id": "hoang-4-c25-01"
     },
     {
       "type": "single",
@@ -488,11 +366,7 @@
       "correctIndex": 0,
       "explanation": "Bằng cách luôn lễ độ, kính trọng mọi người, biết lắng nghe, nhường nhịn, chân thành khen ngợi ưu điểm của người khác và không ngừng nhìn lại những thiếu sót của bản thân để sửa đổi.",
       "sourceQuestion": "Câu 26. Hỏi: Người môn sinh Phật Quang Quyền rèn luyện tâm khiêm hạ bằng cách nào?",
-      "id": "hoang-4-c26-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 26
+      "id": "hoang-4-c26-01"
     },
     {
       "type": "definition",
@@ -501,11 +375,7 @@
       "matchThreshold": 0.65,
       "explanation": "Nóng nảy là mất bình tĩnh khi gặp chuyện trái ý, dễ nổi giận và có lời nói, hành động thiếu kiểm soát. Nguyên nhân thường xuất phát từ sự ích kỷ, tự ái và muốn mọi việc phải theo ý mình.",
       "sourceQuestion": "Câu 27. Hỏi: Nóng nảy là gì và nguyên nhân do đâu?",
-      "id": "hoang-4-c27-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 27
+      "id": "hoang-4-c27-01"
     },
     {
       "type": "single",
@@ -519,11 +389,7 @@
       "correctIndex": 0,
       "explanation": "Nóng nảy làm mất sự sáng suốt, dễ gây tổn thương người khác, ảnh hưởng đến tình huynh đệ và làm giảm giá trị của những nỗ lực rèn luyện đạo đức, võ thuật mà mình đã dày công xây dựng.",
       "sourceQuestion": "Câu 28. Hỏi: Tác hại của tính nóng nảy đối với người môn sinh Phật Quang Quyền là gì?",
-      "id": "hoang-4-c28-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 28
+      "id": "hoang-4-c28-01"
     },
     {
       "type": "single",
@@ -537,11 +403,17 @@
       "correctIndex": 0,
       "explanation": "Phải tập bình tĩnh trước nghịch cảnh, biết lắng nghe, kiềm chế cảm xúc, nhìn lại lỗi của mình và luôn cư xử ôn hòa. Dù nhiệt tình bảo vệ điều đúng và điều thiện, vẫn phải giữ thái độ khiêm tốn, từ tốn và tôn trọng mọi người.",
       "sourceQuestion": "Câu 29. Hỏi: Người môn sinh Phật Quang Quyền rèn luyện sự điềm tĩnh bằng cách nào?",
-      "id": "hoang-4-c29-01",
-      "lessonId": "yellow-lesson-04",
-      "rankId": "hoang-4",
-      "beltId": "yellow",
-      "number": 29
+      "id": "hoang-4-c29-01"
     }
   ]
-}
+};
+
+data.questions.forEach((q, index) => {
+  q.lessonId = data.lessonId;
+  q.rankId = data.rankId;
+  q.beltId = data.beltId;
+  q.number = index + 1;
+});
+
+fs.writeFileSync(path, JSON.stringify(data, null, 2));
+console.log('Saved to', path);

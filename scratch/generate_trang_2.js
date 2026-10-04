@@ -1,5 +1,8 @@
-{
-  "rankId": "bach",
+const fs = require('fs');
+const path = '/Users/luanph/Project other/MARTIAL WAY THEORY/content/exam-bank/trang-2.json';
+
+const data = {
+  "rankId": "trang-2",
   "beltId": "white",
   "lessonId": "white-lesson-02",
   "questions": [
@@ -15,11 +18,7 @@
       "correctIndex": 0,
       "explanation": "Phật Quang Quyền lấy việc xây dựng con người làm mục tiêu, chú trọng rèn luyện cả thể chất lẫn đạo đức để phụng sự gia đình và xã hội. Người môn sinh sử dụng võ thuật với tinh thần hữu nghị, thượng võ, không hiếu chiến, không xem chiến thắng là mục đích tối hậu mà hướng đến hoàn thiện bản thân theo lý tưởng Bi – Trí – Dũng...",
       "sourceQuestion": "Câu 1. Hỏi Quan niệm dụng võ của môn phái Phật Quang Quyền như thế nào?",
-      "id": "bach-c01-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 1
+      "id": "trang-2-c01-01"
     },
     {
       "type": "single",
@@ -33,11 +32,7 @@
       "correctIndex": 0,
       "explanation": "Môn phái Phật Quang Quyền quan niệm Tài và Đức phải luôn đi đôi với nhau. Người môn sinh phải rèn luyện võ thuật để có sức khỏe... đồng thời tu dưỡng võ đạo để có đạo đức... Có tài mà thiếu đức dễ gây hại; có đức mà thiếu tài thì khó giúp ích cho mọi người.",
       "sourceQuestion": "Câu 2. Quan niệm Tài và Đức của môn phái PQQ là gì?",
-      "id": "bach-c02-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 2
+      "id": "trang-2-c02-01"
     },
     {
       "type": "single",
@@ -51,11 +46,7 @@
       "correctIndex": 0,
       "explanation": "Ban Huấn luyện có nhiệm vụ đào tạo môn sinh về võ thuật, võ lực, võ đạo và nhân cách; theo dõi sự tiến bộ... nghiên cứu, đề xuất cải tiến chương trình huấn luyện; hướng dẫn chuyên môn trong các kỳ khảo thí, biểu diễn, thi đấu...",
       "sourceQuestion": "Câu 3. Ban huấn luyện có nhiệm vụ gì?",
-      "id": "bach-c03-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 3
+      "id": "trang-2-c03-01"
     },
     {
       "type": "fill",
@@ -75,11 +66,7 @@
       ],
       "explanation": "Trong công việc phải siêng năng, gương mẫu, trung thực và không vụ lợi. Trong nghỉ ngơi phải điều độ, lành mạnh để tái tạo sức khỏe và tinh thần. Trong tu dưỡng phải sống thanh đạm, rèn luyện đạo đức, tránh các thói hư tật xấu...",
       "sourceQuestion": "Câu 4. Quan niệm của VSPQQ về làm việc và nghỉ ngơi, Tu dưỡng ra sao?",
-      "id": "bach-c04-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 4
+      "id": "trang-2-c04-01"
     },
     {
       "type": "definition",
@@ -88,11 +75,7 @@
       "matchThreshold": 0.65,
       "explanation": "Làm hết sức mình không phải là làm đến kiệt sức hay lao lực, mà là đem hết khả năng, hiểu biết, tinh thần trách nhiệm và sự cố gắng của bản thân để hoàn thành công việc một cách tốt nhất.",
       "sourceQuestion": "Câu 5. Thế nào là làm hết sức mình?",
-      "id": "bach-c05-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 5
+      "id": "trang-2-c05-01"
     },
     {
       "type": "single",
@@ -106,11 +89,7 @@
       "correctIndex": 0,
       "explanation": "Thưởng phạt là biện pháp giáo dục nhằm khích lệ điều tốt, ngăn ngừa điều sai và giữ gìn kỷ luật trong tập thể. Việc thưởng phạt phải công bằng, khách quan, đúng người đúng việc, dựa trên sự thật và thực hiện theo nguyên tắc phạt nghiêm, thưởng xứng...",
       "sourceQuestion": "Câu 6. Hỏi:Vì sao cần có sự thưởng phạt trong môn phái Phật Quang Quyền và nguyên tắc thưởng phạt là gì?",
-      "id": "bach-c06-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 6
+      "id": "trang-2-c06-01"
     },
     {
       "type": "single",
@@ -124,11 +103,7 @@
       "correctIndex": 0,
       "explanation": "Môn phái Phật Quang Quyền xem thưởng phạt là phương tiện giúp môn sinh hoàn thiện nhân cách và tiến bộ hơn. Người chỉ huy phải quan tâm, giáo dục và tạo cơ hội sửa sai cho thuộc viên; dùng lý trí để đánh giá đúng công và lỗi, nhưng luôn đối xử bằng tình thương...",
       "sourceQuestion": "Câu 7. Hỏi:Quan niệm thưởng phạt của môn phái Phật Quang Quyền như thế nào?",
-      "id": "bach-c07-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 7
+      "id": "trang-2-c07-01"
     },
     {
       "type": "single",
@@ -142,11 +117,7 @@
       "correctIndex": 0,
       "explanation": "Cương Nhu phối triển là sự kết hợp hài hòa giữa tính cương nghị, mạnh mẽ với sự mềm mại, linh hoạt và bao dung để hoàn thiện bản thân. Người môn sinh biết vận dụng đúng lúc, đúng mức... vừa kiên định về lý tưởng... vừa khéo léo trong ứng xử...",
       "sourceQuestion": "Câu 8. Cương Nhu phối triển là gì?",
-      "id": "bach-c08-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 8
+      "id": "trang-2-c08-01"
     },
     {
       "type": "multiple",
@@ -157,17 +128,10 @@
         "Đức Nhân là lòng dũng cảm, biết hy sinh và bảo vệ người khác, vốn là bản năng sinh tồn tự nhiên của con người.",
         "Đạo Nhân là sự tuân thủ các luật lệ khắt khe, khuôn khổ đạo đức do môn phái quy định, để con người không phạm sai lầm."
       ],
-      "correctIndices": [
-        0,
-        1
-      ],
+      "correctIndices": [0, 1],
       "explanation": "Đức Nhân là lòng yêu thương, biết quan tâm và giúp đỡ người khác... Đạo Nhân là sự phát triển và hướng dẫn đức tính ấy thành những nguyên tắc sống và hành động cụ thể...",
       "sourceQuestion": "Câu 9. Đức Nhân và Đạo Nhân khác nhau như thế nào?",
-      "id": "bach-c09-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 9
+      "id": "trang-2-c09-01"
     },
     {
       "type": "single",
@@ -181,11 +145,7 @@
       "correctIndex": 0,
       "explanation": "Vì giữ lời hứa thể hiện sự trung thực, trách nhiệm và uy tín của bản thân. Người biết giữ lời hứa sẽ được mọi người tin tưởng, kính trọng và có đủ ý chí để theo đuổi những lý tưởng tốt đẹp trong cuộc sống.",
       "sourceQuestion": "Câu 10. Hỏi: Vì sao người môn sinh Phật Quang Quyền phải giữ lời hứa?",
-      "id": "bach-c10-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 10
+      "id": "trang-2-c10-01"
     },
     {
       "type": "single",
@@ -199,11 +159,7 @@
       "correctIndex": 0,
       "explanation": "Phải suy nghĩ kỹ khả năng thực hiện của mình, cân nhắc những khó khăn có thể xảy ra và chỉ hứa khi thật sự có trách nhiệm thực hiện. Không nên hứa tùy tiện chỉ để làm hài lòng người khác.",
       "sourceQuestion": "Câu 11. Hỏi: Người môn sinh Phật Quang Quyền cần làm gì trước khi hứa một điều gì?",
-      "id": "bach-c11-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 11
+      "id": "trang-2-c11-01"
     },
     {
       "type": "single",
@@ -217,11 +173,7 @@
       "correctIndex": 0,
       "explanation": "Khi đã hứa thì phải cố gắng thực hiện đúng lời hứa, đúng thời gian đã hẹn. Trường hợp bất khả kháng hoặc lời hứa gây ảnh hưởng không tốt cho tập thể, đạo đức hay lẽ phải, phải chân thành giải thích và thông báo kịp thời.",
       "sourceQuestion": "Câu 12. Hỏi: Người môn sinh Phật Quang Quyền thực hành đức tính giữ lời hứa như thế nào?",
-      "id": "bach-c12-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 12
+      "id": "trang-2-c12-01"
     },
     {
       "type": "definition",
@@ -230,11 +182,7 @@
       "matchThreshold": 0.65,
       "explanation": "Cậy công là tự hào, tự cao về những công lao, thành tích hoặc đóng góp của mình rồi cho rằng mình hơn người khác, muốn được đề cao hoặc đòi hỏi quyền lợi đặc biệt cho bản thân.",
       "sourceQuestion": "Câu 13. Hỏi: Cậy công là gì?",
-      "id": "bach-c13-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 13
+      "id": "trang-2-c13-01"
     },
     {
       "type": "single",
@@ -248,11 +196,7 @@
       "correctIndex": 0,
       "explanation": "Cậy công làm mất đi sự khiêm tốn, dễ sinh ngã mạn, tham vọng và gây mất đoàn kết trong tập thể. Khi quá chấp vào công lao của mình, người môn sinh sẽ đánh mất những giá trị tốt đẹp mà mình đã dày công xây dựng.",
       "sourceQuestion": "Câu 14. Hỏi: Tác hại của tâm cậy công đối với người môn sinh Phật Quang Quyền là gì?",
-      "id": "bach-c14-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 14
+      "id": "trang-2-c14-01"
     },
     {
       "type": "single",
@@ -266,11 +210,7 @@
       "correctIndex": 0,
       "explanation": "Luôn hết lòng giúp đỡ tập thể và huynh đệ nhưng không kể công, không đòi hỏi sự ghi nhận hay quyền lợi cho riêng mình. Càng có đóng góp càng phải giữ tâm khiêm tốn, xem việc phụng sự là trách nhiệm và niềm vui của người môn sinh.",
       "sourceQuestion": "Câu 15. Hỏi: Người môn sinh Phật Quang Quyền thực hành hạnh không cậy công như thế nào?",
-      "id": "bach-c15-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 15
+      "id": "trang-2-c15-01"
     },
     {
       "type": "definition",
@@ -279,11 +219,7 @@
       "matchThreshold": 0.65,
       "explanation": "Thù vặt là ghi nhớ và ôm giữ những va chạm, xúc phạm hoặc bất hòa nhỏ nhặt rồi sinh tâm hiềm hận, khó chịu với người khác trong thời gian dài.",
       "sourceQuestion": "Câu 16. Hỏi: Thù vặt là gì?",
-      "id": "bach-c16-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 16
+      "id": "trang-2-c16-01"
     },
     {
       "type": "single",
@@ -297,11 +233,7 @@
       "correctIndex": 0,
       "explanation": "Thù vặt làm tâm hồn trở nên nhỏ hẹp, mất đoàn kết với huynh đệ, dễ sinh ác cảm, chỉ trích và làm tổn hại đến tình nghĩa đồng môn. Người mang tâm thù vặt sẽ khó hoàn thiện nhân cách và tiến bộ trong võ đạo.",
       "sourceQuestion": "Câu 17. Hỏi: Tác hại của tâm thù vặt đối với người môn sinh Phật Quang Quyền là gì?",
-      "id": "bach-c17-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 17
+      "id": "trang-2-c17-01"
     },
     {
       "type": "single",
@@ -315,11 +247,7 @@
       "correctIndex": 0,
       "explanation": "Phải biết bao dung, nhẫn nhịn và bỏ qua những va chạm nhỏ nhặt; không chấp hơn thua, không nuôi hiềm hận. Dù người khác có làm mình buồn lòng, vẫn giữ sự chân thành, tôn trọng và tình thương đối với họ như trước.",
       "sourceQuestion": "Câu 18. Hỏi: Người môn sinh Phật Quang Quyền vượt qua tâm thù vặt bằng cách nào?",
-      "id": "bach-c18-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 18
+      "id": "trang-2-c18-01"
     },
     {
       "type": "definition",
@@ -328,11 +256,7 @@
       "matchThreshold": 0.65,
       "explanation": "Kiên trì là sự bền bỉ, quyết tâm theo đuổi mục tiêu đúng đắn đến cùng, không nản lòng trước khó khăn, thử thách hay thất bại.",
       "sourceQuestion": "Câu 19. Hỏi: Kiên trì là gì?",
-      "id": "bach-c19-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 19
+      "id": "trang-2-c19-01"
     },
     {
       "type": "single",
@@ -346,11 +270,7 @@
       "correctIndex": 0,
       "explanation": "Vì mọi thành công trong học tập, võ thuật, đạo đức và cuộc sống đều cần thời gian và sự nỗ lực lâu dài. Người thiếu kiên trì dễ bỏ cuộc giữa chừng và khó đạt được mục tiêu đã đặt ra.",
       "sourceQuestion": "Câu 20. Hỏi: Vì sao người môn sinh Phật Quang Quyền phải rèn luyện đức tính kiên trì?",
-      "id": "bach-c20-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 20
+      "id": "trang-2-c20-01"
     },
     {
       "type": "single",
@@ -364,11 +284,7 @@
       "correctIndex": 0,
       "explanation": "Luôn cố gắng vượt qua khó khăn, không ngại gian khổ, siêng năng rèn luyện mỗi ngày và giữ vững lý tưởng của mình. Đồng thời biết thử thách bản thân bằng những việc khó, từng bước xây dựng ý chí mạnh mẽ và tinh thần không bỏ cuộc.",
       "sourceQuestion": "Câu 21. Hỏi: Người môn sinh Phật Quang Quyền rèn luyện đức tính kiên trì như thế nào?",
-      "id": "bach-c21-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 21
+      "id": "trang-2-c21-01"
     },
     {
       "type": "definition",
@@ -377,11 +293,7 @@
       "matchThreshold": 0.65,
       "explanation": "Sống giản dị là biết sử dụng những gì cần thiết, không chạy theo sự xa hoa, hình thức hay hưởng thụ quá mức. Người sống giản dị luôn hướng đến sự thanh thản, chân thành và gần gũi với mọi người.",
       "sourceQuestion": "Câu 22. Hỏi: Sống giản dị là gì?",
-      "id": "bach-c22-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 22
+      "id": "trang-2-c22-01"
     },
     {
       "type": "single",
@@ -395,11 +307,7 @@
       "correctIndex": 0,
       "explanation": "Vì sống giản dị giúp giảm bớt những nhu cầu không cần thiết, tránh lãng phí, giữ tâm hồn thanh thản và tập trung hơn vào việc học tập, rèn luyện võ thuật, đạo đức và phụng sự cộng đồng.",
       "sourceQuestion": "Câu 23. Hỏi: Vì sao người môn sinh Phật Quang Quyền cần rèn luyện nếp sống giản dị?",
-      "id": "bach-c23-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 23
+      "id": "trang-2-c23-01"
     },
     {
       "type": "single",
@@ -413,11 +321,7 @@
       "correctIndex": 0,
       "explanation": "Biết tiết kiệm, sử dụng hợp lý thời gian và vật chất, không đua đòi theo hình thức bên ngoài, chỉ chọn những gì thật sự cần thiết và luôn giữ lối sống khiêm tốn, thanh đạm, phù hợp với hoàn cảnh của mình.",
       "sourceQuestion": "Câu 24. Hỏi: Người môn sinh Phật Quang Quyền thực hành nếp sống giản dị như thế nào?",
-      "id": "bach-c24-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 24
+      "id": "trang-2-c24-01"
     },
     {
       "type": "definition",
@@ -426,11 +330,7 @@
       "matchThreshold": 0.65,
       "explanation": "Điềm tĩnh là khả năng làm chủ cảm xúc, giữ được sự bình tĩnh và sáng suốt trước những thay đổi, khen chê, thành công hay khó khăn trong cuộc sống.",
       "sourceQuestion": "Câu 25. Hỏi: Điềm tĩnh là gì?",
-      "id": "bach-c25-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 25
+      "id": "trang-2-c25-01"
     },
     {
       "type": "single",
@@ -444,11 +344,7 @@
       "correctIndex": 0,
       "explanation": "Vì điềm tĩnh giúp con người suy nghĩ đúng đắn, làm chủ bản thân, tránh hành động nóng vội và giữ được sự ổn định trước mọi hoàn cảnh thuận lợi hay nghịch cảnh.",
       "sourceQuestion": "Câu 26. Hỏi: Vì sao người môn sinh Phật Quang Quyền cần rèn luyện đức tính điềm tĩnh?",
-      "id": "bach-c26-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 26
+      "id": "trang-2-c26-01"
     },
     {
       "type": "single",
@@ -462,11 +358,7 @@
       "correctIndex": 0,
       "explanation": "Luôn quan sát và kiểm soát cảm xúc của mình, không quá vui khi được khen, không buồn giận khi bị chê, biết bình tĩnh trước khó khăn và giữ thái độ ôn hòa, sáng suốt trong mọi tình huống.",
       "sourceQuestion": "Câu 27. Hỏi: Người môn sinh Phật Quang Quyền rèn luyện sự điềm tĩnh như thế nào?",
-      "id": "bach-c27-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 27
+      "id": "trang-2-c27-01"
     },
     {
       "type": "definition",
@@ -475,11 +367,7 @@
       "matchThreshold": 0.65,
       "explanation": "Tìm ưu điểm là biết nhìn nhận và trân trọng những điều tốt đẹp, những mặt tích cực của người khác thay vì chỉ chú ý đến khuyết điểm của họ.",
       "sourceQuestion": "Câu 28. Hỏi: Tìm ưu điểm là gì?",
-      "id": "bach-c28-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 28
+      "id": "trang-2-c28-01"
     },
     {
       "type": "single",
@@ -493,11 +381,7 @@
       "correctIndex": 0,
       "explanation": "Vì thấy được ưu điểm của người giúp ta thêm kính trọng, yêu quý và học hỏi lẫn nhau; đồng thời giảm bớt tâm chê bai, ngã mạn và giữ gìn tình đoàn kết trong tập thể.",
       "sourceQuestion": "Câu 29. Hỏi: Vì sao người môn sinh Phật Quang Quyền phải biết tìm ưu điểm của người khác?",
-      "id": "bach-c29-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 29
+      "id": "trang-2-c29-01"
     },
     {
       "type": "single",
@@ -511,11 +395,7 @@
       "correctIndex": 0,
       "explanation": "Luôn cố gắng nhận ra những điều tốt của huynh đệ để học tập và khích lệ nhau tiến bộ. Đối với những khuyết điểm của người khác, cần góp ý với tinh thần xây dựng, cảm thông và mong muốn họ ngày càng hoàn thiện hơn.",
       "sourceQuestion": "Câu 30. Hỏi: Người môn sinh Phật Quang Quyền thực hành việc tìm ưu điểm như thế nào?",
-      "id": "bach-c30a-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 30
+      "id": "trang-2-c30a-01"
     },
     {
       "type": "definition",
@@ -524,11 +404,7 @@
       "matchThreshold": 0.65,
       "explanation": "Độc quyền độ sinh là tâm muốn chỉ riêng mình được giúp đỡ, hướng dẫn hoặc làm lợi ích cho người khác, không vui khi thấy người khác cùng tham gia phụng sự và giúp ích cho cộng đồng.",
       "sourceQuestion": "Câu 30. Hỏi: Độc quyền độ sinh là gì?",
-      "id": "bach-c30b-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 31
+      "id": "trang-2-c30b-01"
     },
     {
       "type": "single",
@@ -542,11 +418,7 @@
       "correctIndex": 0,
       "explanation": "Vì tâm độc quyền độ sinh thường xuất phát từ sự ích kỷ, ham danh và muốn được mọi người công nhận. Tâm này dễ sinh đố kỵ, mất đoàn kết và làm giảm ý nghĩa cao đẹp của việc phụng sự.",
       "sourceQuestion": "Câu 31. Hỏi: Vì sao người môn sinh Phật Quang Quyền phải tránh tâm độc quyền độ sinh?",
-      "id": "bach-c31-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 32
+      "id": "trang-2-c31-01"
     },
     {
       "type": "single",
@@ -560,11 +432,7 @@
       "correctIndex": 0,
       "explanation": "Luôn mong mọi người được lợi ích, dù do mình hay người khác giúp đỡ. Biết vui mừng, ủng hộ khi thấy người khác làm việc tốt và luôn lấy việc phụng sự cộng đồng làm mục tiêu, không tìm kiếm danh tiếng hay quyền lợi cho bản thân.",
       "sourceQuestion": "Câu 32. Hỏi: Người môn sinh Phật Quang Quyền thực hành tinh thần độ sinh đúng đắn như thế nào?",
-      "id": "bach-c32-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 33
+      "id": "trang-2-c32-01"
     },
     {
       "type": "definition",
@@ -573,11 +441,7 @@
       "matchThreshold": 0.65,
       "explanation": "Tâm tự hào bí mật là sự vui thích, tự mãn âm thầm khi thấy mình giỏi hơn trước hoặc hơn người khác, dù bên ngoài không biểu lộ sự kiêu căng hay khoe khoang.",
       "sourceQuestion": "Câu 33. Hỏi: Tâm tự hào bí mật là gì?",
-      "id": "bach-c33-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 34
+      "id": "trang-2-c33-01"
     },
     {
       "type": "single",
@@ -591,11 +455,7 @@
       "correctIndex": 0,
       "explanation": "Tâm tự hào bí mật dễ làm phát sinh ngã mạn, xem thường người khác, khiến bản thân chủ quan, dừng sự cố gắng và dần đánh mất những thành quả tốt đẹp đã đạt được.",
       "sourceQuestion": "Câu 34. Hỏi: Tác hại của tâm tự hào bí mật đối với người môn sinh Phật Quang Quyền là gì?",
-      "id": "bach-c34-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 35
+      "id": "trang-2-c34-01"
     },
     {
       "type": "single",
@@ -609,11 +469,17 @@
       "correctIndex": 0,
       "explanation": "Khi đạt được thành tích hay tiến bộ, phải luôn giữ tâm khiêm tốn, tiếp tục học hỏi và nhìn lại những điều mình còn thiếu sót. Xem mọi thành quả là động lực để cố gắng hơn, không phải lý do để tự mãn hay hơn thua với người khác.",
       "sourceQuestion": "Câu 35. Hỏi: Người môn sinh Phật Quang Quyền vượt qua tâm tự hào bí mật như thế nào?",
-      "id": "bach-c35-01",
-      "lessonId": "white-lesson-02",
-      "rankId": "bach",
-      "beltId": "white",
-      "number": 36
+      "id": "trang-2-c35-01"
     }
   ]
-}
+};
+
+data.questions.forEach((q, index) => {
+  q.lessonId = data.lessonId;
+  q.rankId = data.rankId;
+  q.beltId = data.beltId;
+  q.number = index + 1;
+});
+
+fs.writeFileSync(path, JSON.stringify(data, null, 2));
+console.log('Saved to', path);

@@ -9,6 +9,7 @@ import { QuizOrdering } from '@/components/quiz/QuizOrdering';
 import {
   getCorrectIndices,
   getQuestionType,
+  isDefinitionQuestion,
   isFillQuestion,
   isMatchingQuestion,
   isMultipleChoice,
@@ -119,6 +120,20 @@ export function ExamQuestion({
           next[leftIndex] = rightIndex;
           onChange({ questionId: question.id, matchingAnswers: next });
         }}
+      />
+    );
+  }
+
+  if (isDefinitionQuestion(question)) {
+    return (
+      <textarea
+        className="min-h-28 w-full rounded-[var(--radius-sm)] border border-border bg-bg-primary px-4 py-3 text-base text-text-primary placeholder:text-text-muted focus:border-unlock focus:outline-none focus:ring-1 focus:ring-unlock/50 disabled:opacity-70"
+        value={answer?.textAnswer ?? ''}
+        disabled={locked}
+        placeholder="Viết một câu ngắn"
+        onChange={(event) =>
+          onChange({ questionId: question.id, textAnswer: event.target.value })
+        }
       />
     );
   }

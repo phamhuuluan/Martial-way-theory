@@ -127,6 +127,10 @@ export function randomizeQuestionPresentation(
     };
   }
 
+  if (type === 'definition') {
+    return { ...question, options: [] };
+  }
+
   return { ...question };
 }
 

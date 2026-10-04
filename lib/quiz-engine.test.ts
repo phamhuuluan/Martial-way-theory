@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import {
   calculateScore,
+  definitionWordMatch,
   evaluateMultipleChoice,
   hasExcessiveIncorrectSelections,
   isAnswerCorrect,
+  isDefinitionAnswerCorrect,
 } from '@/lib/quiz-engine';
 import type { QuizData, QuizQuestion } from '@/types';
 
@@ -124,6 +126,30 @@ describe('calculateScore with partial multi-select credit', () => {
     expect(result.score).toBe(75);
     expect(result.partialQuestions).toEqual(['q-multi']);
     expect(result.wrongQuestions).toEqual([]);
+  });
+
+  it('scores a written definition by word overlap of at least 65 percent', () => {
+    const sample = 'Chưởng môn hiện nay là Võ sư Đại Đức Thích Nghiêm Giám.';
+    expect(definitionWordMatch(sample, sample)).toBe(1);
+    expect(
+      isDefinitionAnswerCorrect(sample, 'võ sư đại đức thích nghiêm giám là chưởng môn hiện nay')
+    ).toBe(true);
+    expect(isDefinitionAnswerCorrect(sample, 'Thích Nghiêm Giám là chưởng môn')).toBe(false);
+
+    const question: QuizQuestion = {
+      id: 'q-def',
+      lessonId: 'lesson',
+      number: 3,
+      type: 'definition',
+      question: 'Chưởng môn hiện nay là ai?',
+      options: [],
+      sampleAnswer: sample,
+      matchThreshold: 0.65,
+    };
+    expect(isAnswerCorrect(question, { textAnswer: 'CHƯỞNG MÔN hiện nay là võ sư Đại Đức Thích Nghiêm Giám!' })).toBe(
+      true
+    );
+    expect(isAnswerCorrect(question, { textAnswer: 'một người khác' })).toBe(false);
   });
 
   it('keeps strict correctness for multi-select', () => {

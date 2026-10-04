@@ -1,4 +1,7 @@
-{
+const fs = require('fs');
+const path = '/Users/luanph/Project other/MARTIAL WAY THEORY/content/exam-bank/hoang-3.json';
+
+const data = {
   "rankId": "hoang-3",
   "beltId": "yellow",
   "lessonId": "yellow-lesson-03",
@@ -15,11 +18,7 @@
       "correctIndex": 0,
       "explanation": "Võ cổ truyền Việt Nam là hệ thống các môn phái võ được lưu truyền qua nhiều thế hệ trong suốt chiều dài lịch sử dân tộc Việt Nam... võ cổ truyền được hình thành và phát triển từ nhu cầu bảo vệ con người trước thú dữ, bảo vệ làng xóm và chống giặc ngoại xâm.",
       "sourceQuestion": "Câu 1. Võ cổ truyền Việt Nam là gì?",
-      "id": "hoang-3-c01-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 1
+      "id": "hoang-3-c01-01"
     },
     {
       "type": "single",
@@ -33,11 +32,7 @@
       "correctIndex": 0,
       "explanation": "Võ cổ truyền Việt Nam hình thành từ quá trình lao động, đấu tranh sinh tồn, dựng nước và giữ nước... Đến cuối thế kỷ XIX và đầu thế kỷ XX, võ cổ truyền trải qua nhiều khó khăn, có lúc bị hạn chế hoạt động... Nhờ sự nỗ lực... Liên đoàn Võ thuật Cổ truyền Việt Nam, võ cổ truyền đã được bảo tồn...",
       "sourceQuestion": "Câu 2. Nêu lịch sử phát triển Võ cổ truyền Việt Nam.",
-      "id": "hoang-3-c02-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 2
+      "id": "hoang-3-c02-01"
     },
     {
       "type": "multiple",
@@ -52,19 +47,10 @@
         "Có tính quy phạm cao, kỹ thuật cứng nhắc và khả năng thi đấu trên thảm đấu hiệu quả.",
         "Các bài quyền thường có lời hát bằng nhạc hiện đại để diễn tả ý nghĩa và tinh thần của bài võ."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Có 4 đặc điểm nổi bật: Hình thành từ nhu cầu bảo vệ con người, mang tính võ trận, có tính thực chiến cao, các bài quyền thường có lời thiệu bằng thơ.",
       "sourceQuestion": "Câu 3. Nêu đặc điểm Võ cổ truyền Việt Nam.",
-      "id": "hoang-3-c03-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 3
+      "id": "hoang-3-c03-01"
     },
     {
       "type": "single",
@@ -78,11 +64,7 @@
       "correctIndex": 0,
       "explanation": "Võ đường là nơi chuyên dùng để giảng dạy, huấn luyện và phát triển võ thuật. Việc thành lập võ đường nhằm đáp ứng nhu cầu học tập võ thuật của quần chúng, phát triển môn phái, đồng thời góp phần bảo tồn và phát huy Võ cổ truyền Việt Nam.",
       "sourceQuestion": "Câu 4. Võ đường là gì và tại sao cần thành lập võ đường?",
-      "id": "hoang-3-c04-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 4
+      "id": "hoang-3-c04-01"
     },
     {
       "type": "multiple",
@@ -96,18 +78,10 @@
         "Mức đóng học phí của các học viên.",
         "Trang phục thi đấu của võ đường."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2
-      ],
+      "correctIndices": [0, 1, 2],
       "explanation": "Cần nghiên cứu ba vấn đề chính: Bối cảnh sinh hoạt của địa phương; Đặc điểm dân cư, kinh tế, văn hóa và nhu cầu học võ; Địa điểm dự kiến thành lập.",
       "sourceQuestion": "Câu 5. Khi thành lập võ đường cần nghiên cứu những vấn đề gì?",
-      "id": "hoang-3-c05-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 5
+      "id": "hoang-3-c05-01"
     },
     {
       "type": "single",
@@ -121,11 +95,7 @@
       "correctIndex": 0,
       "explanation": "Một địa điểm thích hợp cần bảo đảm các điều kiện: an ninh tốt, giao thông thuận tiện, cao ráo thoáng khí, có điện nước đầy đủ và yên tĩnh... tránh những nơi ngõ hẻm chật hẹp, mất an toàn, ẩm thấp hoặc ô nhiễm...",
       "sourceQuestion": "Câu 6. Một địa điểm như thế nào thích hợp để thành lập võ đường?",
-      "id": "hoang-3-c06-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 6
+      "id": "hoang-3-c06-01"
     },
     {
       "type": "multiple",
@@ -140,19 +110,10 @@
         "Vô Minh Đế: trạng thái thiếu hiểu biết của chúng sinh.",
         "Thiền Đế: con đường ngồi thiền để đắc đạo thành Phật."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Tứ Diệu Đế bao gồm: Khổ, Tập, Diệt và Đạo Đế.",
       "sourceQuestion": "Câu 7. Tứ Diệu Đế bao gồm những gì ? Giải thích ngắn gọn ?",
-      "id": "hoang-3-c07-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 7
+      "id": "hoang-3-c07-01"
     },
     {
       "type": "multiple",
@@ -175,23 +136,10 @@
         "Chánh Quả",
         "Chánh Tâm"
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
+      "correctIndices": [0, 1, 2, 3, 4, 5, 6, 7],
       "explanation": "Bát Chánh Đạo gồm: Chánh Kiến, Chánh Tư Duy, Chánh Ngữ, Chánh Nghiệp, Chánh Mạng, Chánh Tinh Tấn, Chánh Niệm, Chánh Định.",
       "sourceQuestion": "Câu 8. Bát Chánh Đạo bao gồm những chi phần nào ?",
-      "id": "hoang-3-c08-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 8
+      "id": "hoang-3-c08-01"
     },
     {
       "type": "multiple",
@@ -212,23 +160,10 @@
         "Si mê",
         "Bất hiếu"
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
+      "correctIndices": [0, 1, 2, 3, 4, 5, 6, 7],
       "explanation": "8 loại khổ: Sinh, Lão, Bệnh, Tử, Cầu bất đắc, Oán tắng hội, Ái biệt ly, Ngũ ấm xí thạnh.",
       "sourceQuestion": "Câu 9. 8 loại khổ mà Đức Phật đã giảng dạy là gì ?",
-      "id": "hoang-3-c09-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 9
+      "id": "hoang-3-c09-01"
     },
     {
       "type": "single",
@@ -242,11 +177,7 @@
       "correctIndex": 0,
       "explanation": "Luật nhân quả là quy luật của tự nhiên, không do ai tạo ra cả. Đức Phật là người đã phát hiện và giảng dạy Luật nhân quả.",
       "sourceQuestion": "Câu 10. Luật Nhân Quả do ai tạo ra? Ai phát hiện ?",
-      "id": "hoang-3-c10-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 10
+      "id": "hoang-3-c10-01"
     },
     {
       "type": "single",
@@ -260,11 +191,7 @@
       "correctIndex": 0,
       "explanation": "Khổ Đế là chân lý đầu tiên trong Tứ Diệu Đế, chỉ rõ bản chất của cuộc đời là có khổ đau. Có 8 loại khổ...",
       "sourceQuestion": "Câu 11. Giải thích ngắn gọn về Khổ Đế?",
-      "id": "hoang-3-c11-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 11
+      "id": "hoang-3-c11-01"
     },
     {
       "type": "single",
@@ -278,11 +205,7 @@
       "correctIndex": 0,
       "explanation": "Tập Đế là chân lý chỉ rõ nguyên nhân của đau khổ. Nguyên nhân gốc của đau khổ là vô minh. Tiến trình: Vô minh → Ngã chấp → Ái dục → Tạo nghiệp → Luân hồi.",
       "sourceQuestion": "Câu 12. Giải thích ngắn gọn về Tập Đế?",
-      "id": "hoang-3-c12-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 12
+      "id": "hoang-3-c12-01"
     },
     {
       "type": "single",
@@ -296,11 +219,7 @@
       "correctIndex": 0,
       "explanation": "Diệt Đế (Niết Bàn) là chân lý chỉ trạng thái chấm dứt hoàn toàn mọi đau khổ. Khi đạt được Niết Bàn, vô minh, ngã chấp và khát ái đều được đoạn trừ, nghiệp và luân hồi sinh tử cũng chấm dứt. Niết Bàn là trạng thái vô ngã hoàn toàn, thanh tịnh...",
       "sourceQuestion": "Câu 13. Giải thích ngắn gọn về Diệt Đế?",
-      "id": "hoang-3-c13-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 13
+      "id": "hoang-3-c13-01"
     },
     {
       "type": "definition",
@@ -309,11 +228,7 @@
       "matchThreshold": 0.65,
       "explanation": "Đạo Đế là chân lý chỉ con đường tu tập đưa đến sự chấm dứt đau khổ và đạt được Niết Bàn giải thoát. Con đường đó chính là Bát Chánh Đạo.",
       "sourceQuestion": "Câu 14. Giải thích ngắn gọn về Đạo Đế? Liệt kê Bát Chánh Đạo?",
-      "id": "hoang-3-c14-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 14
+      "id": "hoang-3-c14-01"
     },
     {
       "type": "multiple",
@@ -328,19 +243,10 @@
         "Biết trước tương lai để né tránh mọi khó khăn, tai nạn.",
         "Cảm thấy tự hào và kiêu hãnh vì mình có tu tập hơn người khác."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Lợi ích: Không mê tín, Tránh làm điều ác - siêng làm điều lành, Biết ứng dụng đạo lý, Nhìn nhận sự việc khách quan không bi quan oán trách.",
       "sourceQuestion": "Câu 15. Lợi ích của việc tin hiểu nhân quả?",
-      "id": "hoang-3-c15-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 15
+      "id": "hoang-3-c15-01"
     },
     {
       "type": "single",
@@ -354,11 +260,7 @@
       "correctIndex": 0,
       "explanation": "Chính chúng ta là người sắp đặt số phận cho mình thông qua những hành động, lời nói và ý nghĩ của bản thân. Hiểu rõ luật Nhân Quả, chúng ta sẽ biết tránh những nhân xấu, gieo những nhân lành...",
       "sourceQuestion": "Câu 16. Ai là người sắp đặt số phận cho chúng ta?",
-      "id": "hoang-3-c16-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 16
+      "id": "hoang-3-c16-01"
     },
     {
       "type": "single",
@@ -372,11 +274,7 @@
       "correctIndex": 0,
       "explanation": "Vô Ngã là trạng thái không còn vị kỷ... sống với tâm vị tha và lòng từ bi rộng lớn. Vô Ngã không phải là hư vô hay mất đi bản thân, mà là sự giác ngộ, sáng suốt và đạo đức được phát triển đến mức cao nhất...",
       "sourceQuestion": "Câu 17. Nêu khái niệm Vô Ngã?",
-      "id": "hoang-3-c17-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 17
+      "id": "hoang-3-c17-01"
     },
     {
       "type": "single",
@@ -390,11 +288,7 @@
       "correctIndex": 0,
       "explanation": "Thân tâm chúng sinh do năm uẩn... hợp thành. Vì chấp năm uẩn là “Ta” nên sinh ra tham ái, ích kỷ... chỉ có tu tập đạt đến Vô Ngã, chứng được A La Hán mới chấm dứt hoàn toàn đau khổ. Chỉ có đạo Phật mới có mục tiêu Vô Ngã...",
       "sourceQuestion": "Câu 18. Thế nào là mục tiêu Vô Ngã của Đạo Phật?",
-      "id": "hoang-3-c18-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 18
+      "id": "hoang-3-c18-01"
     },
     {
       "type": "single",
@@ -408,11 +302,7 @@
       "correctIndex": 0,
       "explanation": "Tu tập để đạt được Vô Ngã chính là thực hành Bát Chánh Đạo. Cần kết hợp song song hai yếu tố: Đạo đức (Sống vị tha...) và Thiền định (đạt được Chánh định sâu sắc...). Chỉ khi đạo đức và thiền định cùng phát triển, con người mới có thể tiến dần đến Vô Ngã.",
       "sourceQuestion": "Câu 19. Tu tập như thế nào để đạt được Vô Ngã?",
-      "id": "hoang-3-c19-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 19
+      "id": "hoang-3-c19-01"
     },
     {
       "type": "definition",
@@ -421,11 +311,7 @@
       "matchThreshold": 0.65,
       "explanation": "Vị tha là biết quan tâm, giúp đỡ và nghĩ đến lợi ích của người khác, không chỉ lo cho riêng mình.",
       "sourceQuestion": "Câu 20. Hỏi: Vị tha là gì?",
-      "id": "hoang-3-c20-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 20
+      "id": "hoang-3-c20-01"
     },
     {
       "type": "single",
@@ -439,11 +325,7 @@
       "correctIndex": 0,
       "explanation": "Vì vị tha giúp xây dựng tình huynh đệ, tinh thần đoàn kết và tạo nên một tập thể mạnh mẽ, yêu thương nhau.",
       "sourceQuestion": "Câu 21. Hỏi: Vì sao người môn sinh Phật Quang Quyền phải sống vị tha?",
-      "id": "hoang-3-c21-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 21
+      "id": "hoang-3-c21-01"
     },
     {
       "type": "single",
@@ -457,11 +339,7 @@
       "correctIndex": 0,
       "explanation": "Bằng cách sẵn sàng giúp đỡ huynh đệ, chia sẻ khó khăn, nhường nhịn nhau và cùng nhau tiến bộ trong học tập, võ thuật và đạo đức.",
       "sourceQuestion": "Câu 22. Hỏi: Người môn sinh thể hiện tâm vị tha bằng cách nào?",
-      "id": "hoang-3-c22-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 22
+      "id": "hoang-3-c22-01"
     },
     {
       "type": "single",
@@ -475,11 +353,7 @@
       "correctIndex": 0,
       "explanation": "Chỉ nghĩ đến quyền lợi của mình, thích phần hơn về mình và ít quan tâm đến khó khăn của người khác.",
       "sourceQuestion": "Câu 23. Hỏi: Dấu hiệu của người còn sống vị kỷ là gì?",
-      "id": "hoang-3-c23-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 23
+      "id": "hoang-3-c23-01"
     },
     {
       "type": "single",
@@ -493,11 +367,7 @@
       "correctIndex": 0,
       "explanation": "Nên nhường nhịn, hỗ trợ, động viên huynh đệ và đặt lợi ích chung lên trên lợi ích riêng.",
       "sourceQuestion": "Câu 24. Hỏi: Khi sinh hoạt trong tập thể, người môn sinh nên cư xử như thế nào?",
-      "id": "hoang-3-c24-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 24
+      "id": "hoang-3-c24-01"
     },
     {
       "type": "definition",
@@ -506,11 +376,17 @@
       "matchThreshold": 0.65,
       "explanation": "Luôn sống vì mọi người, góp sức xây dựng tập thể, phụng sự cộng đồng và đem điều tốt đẹp đến cho cuộc đời.",
       "sourceQuestion": "Câu 25. Hỏi: Lý tưởng vị tha của người môn sinh Phật Quang Quyền là gì?",
-      "id": "hoang-3-c25-01",
-      "lessonId": "yellow-lesson-03",
-      "rankId": "hoang-3",
-      "beltId": "yellow",
-      "number": 25
+      "id": "hoang-3-c25-01"
     }
   ]
-}
+};
+
+data.questions.forEach((q, index) => {
+  q.lessonId = data.lessonId;
+  q.rankId = data.rankId;
+  q.beltId = data.beltId;
+  q.number = index + 1;
+});
+
+fs.writeFileSync(path, JSON.stringify(data, null, 2));
+console.log('Saved to', path);

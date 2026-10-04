@@ -1,5 +1,65 @@
-{
-  "rankId": "hong-4",
+const fs = require('fs');
+const path = '/Users/luanph/Project other/MARTIAL WAY THEORY/content/exam-bank/do-4.json';
+
+const poemLines = [
+  "Bái Tổ siêu Xung Thiên",
+  "Xung thiên đề đao phản trảm nghinh",
+  "Lôi phong trá tẩu quỷ thần kinh",
+  "Đê đầu tầm thọ lai phụng tấn",
+  "Trảm phạt trung bình tọa ngưu canh",
+  "Long thăng hổ giáng loang xa sát",
+  "Tiềm tàng ẩn phục điểu kiên thinh",
+  "Lạc mã bàn phi lai cấp thích",
+  "Tứ trung bình tọa phục sanh môn."
+];
+
+const falseLines = [
+  "Bái Tổ đao Xung Thiên",
+  "Xung thiên hạ đao trực trảm nghinh",
+  "Lôi phong phục tẩu quỷ thần kinh",
+  "Ngẩng đầu tầm thọ lai phụng tấn",
+  "Trảm phạt hạ bình tọa ngưu canh",
+  "Long thăng xà giáng loang xa sát",
+  "Tiềm tàng xuất phục điểu kiên thinh",
+  "Lạc mã song phi lai cấp thích",
+  "Tam trung bình tọa phục sanh môn.",
+  "Long thăng hổ cứ loang xa sát",
+  "Xung thiên xuất đao phản trảm nghinh",
+  "Bát trung bình tọa phục tử môn.",
+  "Tiềm tàng phục hổ điểu kiên thinh",
+  "Lạc mã đăng phi lai cấp thích",
+  "Đê đầu tầm lộ lai phụng tấn"
+];
+
+const poemQuestions = [];
+
+for (let i = 0; i < 10; i++) {
+  let questionText = "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n";
+  const blanks = [];
+  const optionsSet = new Set(falseLines);
+
+  poemLines.forEach((line, idx) => {
+    questionText += `______[${blanks.length + 1}]\n`;
+    blanks.push(line);
+    optionsSet.add(line);
+  });
+
+  const options = Array.from(optionsSet);
+  options.sort(() => Math.random() - 0.5);
+
+  poemQuestions.push({
+    type: "fill",
+    question: questionText.trim(),
+    blanks: blanks,
+    options: options,
+    explanation: poemLines.join(" | "),
+    sourceQuestion: "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
+    id: `do-4-c19-${i+2}`
+  });
+}
+
+const data = {
+  "rankId": "do-4",
   "beltId": "red",
   "lessonId": "red-lesson-04",
   "questions": [
@@ -15,11 +75,7 @@
       "correctIndex": 0,
       "explanation": "Huấn luyện viên là người trực tiếp xây dựng kế hoạch, tổ chức giảng dạy, hướng dẫn kỹ thuật, rèn luyện thể lực và đánh giá kết quả học tập của võ sinh... Chất lượng đào tạo phụ thuộc rất lớn vào trình độ chuyên môn, kinh nghiệm, tinh thần trách nhiệm và phẩm chất đạo đức...",
       "sourceQuestion": "Câu 1. Định nghĩa về VAI TRÒ HUẤN LUYỆN VIÊN",
-      "id": "hong-4-c01-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 1
+      "id": "do-4-c01-01"
     },
     {
       "type": "multiple",
@@ -33,18 +89,10 @@
         "Dũng cảm",
         "Nhẫn nhịn"
       ],
-      "correctIndices": [
-        0,
-        1,
-        2
-      ],
+      "correctIndices": [0, 1, 2],
       "explanation": "Huấn luyện viên còn có trách nhiệm giúp võ sinh nuôi dưỡng ba tâm hạnh căn bản của Phật Quang Quyền: Tôn kính Phật. Từ bi. Khiêm hạ.",
       "sourceQuestion": "2. Vai trò của Huấn luyện viên Phật Quang Quyền",
-      "id": "hong-4-c02-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 2
+      "id": "do-4-c02-01"
     },
     {
       "type": "single",
@@ -58,11 +106,7 @@
       "correctIndex": 0,
       "explanation": "Phải chỉ đạo và chịu trách nhiệm chính về tất cả các khâu trong quá trình huấn luyện... đòi hỏi người huấn luyện phải có kiến thức rộng, kinh nghiệm sâu, thực hành giỏi, vừa khoa học và nghệ thuật, phải có năng lực tổ chức...",
       "sourceQuestion": "Câu 3. Vai trò lãnh đạo, tổ chức của HLV là gì?",
-      "id": "hong-4-c03-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 3
+      "id": "do-4-c03-01"
     },
     {
       "type": "single",
@@ -76,11 +120,7 @@
       "correctIndex": 0,
       "explanation": "Huấn luyện viên không chỉ là người tổ chức, lãnh đạo mà còn là nhà giáo dục trong quá trình đào tạo võ sinh. Việc giáo dục lý tưởng, đạo đức, ý chí... phải được thực hiện trong từng buổi tập. Vì vậy, huấn luyện viên cần có đạo đức tốt, trình độ chuyên môn cao... là tấm gương sáng...",
       "sourceQuestion": "Câu 4. Vai trò và trách nhiệm giáo dục của huấn luyện viên là gì?",
-      "id": "hong-4-c04-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 4
+      "id": "do-4-c04-01"
     },
     {
       "type": "single",
@@ -94,11 +134,7 @@
       "correctIndex": 0,
       "explanation": "Ý thức nghề nghiệp gắn liền với tinh thần trách nhiệm, danh dự và sự tận tâm... Nếu không có lòng yêu nghề sâu sắc thì khó có thể kiên trì gắn bó và cống hiến lâu dài cho sự nghiệp giáo dục thế hệ trẻ.",
       "sourceQuestion": "Câu 5. Ý thức và lòng yêu nghề của huấn luyện viên có ý nghĩa gì?",
-      "id": "hong-4-c05-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 5
+      "id": "do-4-c05-01"
     },
     {
       "type": "single",
@@ -112,11 +148,7 @@
       "correctIndex": 0,
       "explanation": "Huấn luyện viên cần có trình độ văn hóa, kiến thức chuyên môn, kinh nghiệm thực tiễn và sự hiểu biết rộng. Phải luôn học hỏi, cầu tiến, biết kết hợp giữa lý luận và thực tế... hiểu biết về giáo dục, tâm lý, xã hội và đạo đức để hướng dẫn võ sinh phát triển toàn diện.",
       "sourceQuestion": "Câu 6. Có văn hóa, kinh nghiệm và hiểu biết phong phú của HLV là gì?",
-      "id": "hong-4-c06-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 6
+      "id": "do-4-c06-01"
     },
     {
       "type": "single",
@@ -130,11 +162,7 @@
       "correctIndex": 0,
       "explanation": "Muốn truyền đạt hiệu quả kiến thức chuyên môn... huấn luyện viên cần có trình độ sư phạm và kỹ năng giáo dục thành thạo. Huấn luyện viên phải biết vận dụng phù hợp các nguyên tắc, phương pháp và hình thức tổ chức giảng dạy để giúp võ sinh dễ hiểu, tiếp thu nhanh...",
       "sourceQuestion": "Câu 7. Kỹ năng giáo dục thành thạo có ý nghĩa gì đối với Huấn luyện viên?",
-      "id": "hong-4-c07-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 7
+      "id": "do-4-c07-01"
     },
     {
       "type": "fill",
@@ -153,11 +181,7 @@
       ],
       "explanation": "Huấn luyện viên cần khiêm tốn, cầu tiến, không tự mãn, không bảo thủ, biết tiếp thu cái hay, cái mới và mạnh dạn cải tiến phương pháp, giáo trình huấn luyện nhằm nâng cao hiệu quả đào tạo.",
       "sourceQuestion": "Câu 8. Tinh thần học hỏi và mạnh dạn cải tiến của Huấn luyện viên là gì?",
-      "id": "hong-4-c08-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 8
+      "id": "do-4-c08-01"
     },
     {
       "type": "single",
@@ -171,11 +195,7 @@
       "correctIndex": 0,
       "explanation": "Đạo đức và tình cảm cao thượng là những phẩm chất không thể thiếu của người huấn luyện viên. Người dạy võ phải lấy võ đức và tinh thần thượng võ làm nền tảng, luôn sống chân thành, trách nhiệm và lấy lời nói đi đôi với việc làm.",
       "sourceQuestion": "Câu 9. Đạo đức và tình cảm cao thượng là gì?",
-      "id": "hong-4-c09-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 9
+      "id": "do-4-c09-01"
     },
     {
       "type": "single",
@@ -189,11 +209,7 @@
       "correctIndex": 0,
       "explanation": "Không. Hơn – thua, thành – bại trong cuộc sống chỉ mang giá trị tương đối, trong một không gian và thời gian nhất định... Theo tinh thần Phật Quang Quyền, điều quan trọng không phải hơn người khác, mà là chiến thắng chính mình... Người biết khiêm tốn khi thành công, kiên trì khi thất bại và luôn tiến bộ trong đạo đức mới là người chiến thắng bền vững nhất.",
       "sourceQuestion": "Câu 10. Giá trị hơn-thua-thành-bại trong cuộc sống có tuyệt đối không? Hãy giải thích và chứng minh?",
-      "id": "hong-4-c10-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 10
+      "id": "do-4-c10-01"
     },
     {
       "type": "single",
@@ -207,11 +223,7 @@
       "correctIndex": 0,
       "explanation": "Muốn bảo vệ và phát huy sức mạnh của thân thể, phải thực hiện hai châm ngôn: sống điều độ (ăn, ngủ, làm việc, giải trí hợp lý) và chuyên cần khổ luyện. Người võ sinh... luôn rèn luyện thân thể khỏe mạnh để bảo vệ chính nghĩa, giúp đỡ mọi người và phục vụ Tổ quốc, nhân loại.",
       "sourceQuestion": "11. Sức mạnh của thân thể có giá trị ra sao?  Muốn bảo vệ và phát huy giá trị sức mạnh của thân thể, ta phải làm gì?",
-      "id": "hong-4-c11-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 11
+      "id": "do-4-c11-01"
     },
     {
       "type": "multiple",
@@ -225,18 +237,10 @@
         "Kiên nhẫn chờ đợi cơ hội",
         "Kiên nhẫn lắng nghe lời khen ngợi"
       ],
-      "correctIndices": [
-        0,
-        1,
-        2
-      ],
+      "correctIndices": [0, 1, 2],
       "explanation": "Muốn có đức tự thắng, phải rèn luyện đức kiên nhẫn trong học hỏi, ứng xử và hành động.",
       "sourceQuestion": "Câu 12. Phải làm sao để có đức tự thắng?",
-      "id": "hong-4-c12-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 12
+      "id": "do-4-c12-01"
     },
     {
       "type": "multiple",
@@ -247,17 +251,10 @@
         "Cương là mạnh mẽ, áp đảo đối phương, kiên định bảo vệ ý kiến cá nhân và không nhượng bộ trong tranh luận.",
         "Trực là thẳng thắn, có gì nói nấy, không cần kiêng nể hay tế nhị để thể hiện bản tính bộc trực, thẳng thắn của người học võ."
       ],
-      "correctIndices": [
-        0,
-        1
-      ],
+      "correctIndices": [0, 1],
       "explanation": "Cương trực gồm hai đức tính: Cương là cương quyết trong ý chí, kiên định với điều đúng, nhưng luôn hòa nhã và khiêm tốn trong thái độ. Trực là ngay thẳng, chân thật và công bằng, nhưng biết cư xử khéo léo, tế nhị...",
       "sourceQuestion": "Câu 13. Chúng ta phải hiểu về đức cương trực ra sao?",
-      "id": "hong-4-c13-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 13
+      "id": "do-4-c13-01"
     },
     {
       "type": "truefalse",
@@ -265,11 +262,7 @@
       "answer": false,
       "explanation": "Sai. Vì sự tận tụy phải đi đôi với trí tuệ và đạo đức. Không được hy sinh mù quáng cho những việc sai trái, gây hại cho người khác hoặc trái đạo đức.",
       "sourceQuestion": "Câu 14. Thế nào là tận tụy với nghĩa vụ? Phải tận tụy tới mức độ nào? Hãy đơn cử thí dụ?",
-      "id": "hong-4-c14-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 14
+      "id": "do-4-c14-01"
     },
     {
       "type": "multiple",
@@ -284,19 +277,10 @@
         "Sân khấu biểu diễn không đạt tiêu chuẩn quốc tế, âm thanh ánh sáng kém chất lượng.",
         "Không được sắp xếp biểu diễn ở vị trí trung tâm, tiết mục đinh của chương trình."
       ],
-      "correctIndices": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "correctIndices": [0, 1, 2, 3],
       "explanation": "Võ sinh từ chối biểu diễn khi: Có tính kỳ thị võ phái... Nội bộ đơn vị mời đang có mâu thuẫn... Không đem lại lợi ích cho việc phát triển môn phái. Khung cảnh, môi trường hoặc mục đích tổ chức không phù hợp...",
       "sourceQuestion": "Câu 15. Hỏi: Ích lợi của sự biểu diễn võ thuật ra sao? Khi nào chúng ta không chấp nhận cuộc biểu diễn?",
-      "id": "hong-4-c15-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 15
+      "id": "do-4-c15-01"
     },
     {
       "type": "single",
@@ -310,11 +294,7 @@
       "correctIndex": 0,
       "explanation": "Người biểu diễn phải chú tâm vào tinh thần, kỹ thuật và cách thể hiện của mình. Người điều khiển chương trình phải ứng biến mau lẹ, linh hoạt và hiểu rõ tâm lý người xem.",
       "sourceQuestion": "Câu 18. Hỏi: Muốn cuộc biểu diễn thành công, môn sinh phải ghi nhớ những gì?",
-      "id": "hong-4-c18-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 16
+      "id": "do-4-c18-01"
     },
     {
       "type": "single",
@@ -328,491 +308,19 @@
       "correctIndex": 0,
       "explanation": "Bài Siêu Xung Thiên được võ sư Phan Văn Quảng tiếp nhận từ thân phụ là võ sư Phan Văn Vũ... nguồn gốc từ cụ Phan Văn Thạch, từng giữ chức quan Bộ Hình... Đây là một bài đại đao mang tính chiến trận... đánh 4 mặt Đông, Tây, Nam, Bắc... luyện thật nhuần nhuyễn mới sử dụng được; vì trong bài này đòi hỏi kỹ thuật sử dụng binh khí chuyên môn rất cao...",
       "sourceQuestion": "Câu 19. Nếu xuất xứ, ý nghĩa và lời thiệu bài SIÊU XUNG THIÊN",
-      "id": "hong-4-c19-01",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 17
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Lạc mã song phi lai cấp thích",
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Tứ trung bình tọa phục sanh môn.",
-        "Bát trung bình tọa phục tử môn.",
-        "Long thăng hổ giáng loang xa sát",
-        "Bái Tổ đao Xung Thiên",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Tam trung bình tọa phục sanh môn.",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Long thăng xà giáng loang xa sát",
-        "Lạc mã đăng phi lai cấp thích",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Long thăng hổ cứ loang xa sát"
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-2",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 18
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Long thăng xà giáng loang xa sát",
-        "Lạc mã song phi lai cấp thích",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Tam trung bình tọa phục sanh môn.",
-        "Bái Tổ đao Xung Thiên",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Lạc mã đăng phi lai cấp thích",
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Tứ trung bình tọa phục sanh môn.",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Long thăng hổ cứ loang xa sát",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Bát trung bình tọa phục tử môn."
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-3",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 19
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Lạc mã song phi lai cấp thích",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Long thăng hổ giáng loang xa sát",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Lạc mã đăng phi lai cấp thích",
-        "Long thăng hổ cứ loang xa sát",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Bái Tổ siêu Xung Thiên",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Tam trung bình tọa phục sanh môn.",
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Bát trung bình tọa phục tử môn.",
-        "Bái Tổ đao Xung Thiên",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng xà giáng loang xa sát",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-4",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 20
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Tứ trung bình tọa phục sanh môn.",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Bái Tổ đao Xung Thiên",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Long thăng xà giáng loang xa sát",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Bát trung bình tọa phục tử môn.",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã song phi lai cấp thích",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Long thăng hổ cứ loang xa sát",
-        "Bái Tổ siêu Xung Thiên",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Tam trung bình tọa phục sanh môn.",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Lạc mã đăng phi lai cấp thích",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Lạc mã bàn phi lai cấp thích"
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-5",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 21
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã đăng phi lai cấp thích",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Lạc mã song phi lai cấp thích",
-        "Long thăng xà giáng loang xa sát",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Tứ trung bình tọa phục sanh môn.",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Bái Tổ siêu Xung Thiên",
-        "Long thăng hổ cứ loang xa sát",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Bát trung bình tọa phục tử môn.",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tam trung bình tọa phục sanh môn.",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Bái Tổ đao Xung Thiên",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Long thăng hổ giáng loang xa sát"
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-6",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 22
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Bái Tổ đao Xung Thiên",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Lạc mã song phi lai cấp thích",
-        "Long thăng xà giáng loang xa sát",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Bái Tổ siêu Xung Thiên",
-        "Lạc mã đăng phi lai cấp thích",
-        "Bát trung bình tọa phục tử môn.",
-        "Long thăng hổ cứ loang xa sát",
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Long thăng hổ giáng loang xa sát",
-        "Tứ trung bình tọa phục sanh môn.",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Tam trung bình tọa phục sanh môn."
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-7",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 23
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Long thăng hổ giáng loang xa sát",
-        "Lạc mã đăng phi lai cấp thích",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Tứ trung bình tọa phục sanh môn.",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Bái Tổ siêu Xung Thiên",
-        "Lạc mã song phi lai cấp thích",
-        "Long thăng hổ cứ loang xa sát",
-        "Bát trung bình tọa phục tử môn.",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Bái Tổ đao Xung Thiên",
-        "Tam trung bình tọa phục sanh môn.",
-        "Long thăng xà giáng loang xa sát",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Đê đầu tầm thọ lai phụng tấn"
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-8",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 24
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Tam trung bình tọa phục sanh môn.",
-        "Tứ trung bình tọa phục sanh môn.",
-        "Bát trung bình tọa phục tử môn.",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Lạc mã song phi lai cấp thích",
-        "Long thăng hổ cứ loang xa sát",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Long thăng xà giáng loang xa sát",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Bái Tổ siêu Xung Thiên",
-        "Bái Tổ đao Xung Thiên",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Lạc mã bàn phi lai cấp thích",
-        "Lạc mã đăng phi lai cấp thích"
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-9",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 25
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Bái Tổ đao Xung Thiên",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn.",
-        "Lạc mã song phi lai cấp thích",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Bái Tổ siêu Xung Thiên",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Lạc mã đăng phi lai cấp thích",
-        "Bát trung bình tọa phục tử môn.",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Tam trung bình tọa phục sanh môn.",
-        "Long thăng hổ cứ loang xa sát",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Long thăng hổ giáng loang xa sát",
-        "Long thăng xà giáng loang xa sát"
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-10",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 26
-    },
-    {
-      "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:\n\n______[1]\n______[2]\n______[3]\n______[4]\n______[5]\n______[6]\n______[7]\n______[8]\n______[9]",
-      "blanks": [
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Long thăng hổ giáng loang xa sát",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn."
-      ],
-      "options": [
-        "Lạc mã bàn phi lai cấp thích",
-        "Tứ trung bình tọa phục sanh môn.",
-        "Tiềm tàng ẩn phục điểu kiên thinh",
-        "Xung thiên đề đao phản trảm nghinh",
-        "Tiềm tàng xuất phục điểu kiên thinh",
-        "Long thăng xà giáng loang xa sát",
-        "Trảm phạt hạ bình tọa ngưu canh",
-        "Đê đầu tầm thọ lai phụng tấn",
-        "Lạc mã đăng phi lai cấp thích",
-        "Ngẩng đầu tầm thọ lai phụng tấn",
-        "Đê đầu tầm lộ lai phụng tấn",
-        "Bát trung bình tọa phục tử môn.",
-        "Lôi phong phục tẩu quỷ thần kinh",
-        "Trảm phạt trung bình tọa ngưu canh",
-        "Bái Tổ siêu Xung Thiên",
-        "Xung thiên hạ đao trực trảm nghinh",
-        "Lôi phong trá tẩu quỷ thần kinh",
-        "Lạc mã song phi lai cấp thích",
-        "Bái Tổ đao Xung Thiên",
-        "Tiềm tàng phục hổ điểu kiên thinh",
-        "Long thăng hổ cứ loang xa sát",
-        "Tam trung bình tọa phục sanh môn.",
-        "Xung thiên xuất đao phản trảm nghinh",
-        "Long thăng hổ giáng loang xa sát"
-      ],
-      "explanation": "Bái Tổ siêu Xung Thiên | Xung thiên đề đao phản trảm nghinh | Lôi phong trá tẩu quỷ thần kinh | Đê đầu tầm thọ lai phụng tấn | Trảm phạt trung bình tọa ngưu canh | Long thăng hổ giáng loang xa sát | Tiềm tàng ẩn phục điểu kiên thinh | Lạc mã bàn phi lai cấp thích | Tứ trung bình tọa phục sanh môn.",
-      "sourceQuestion": "Câu 19. Nêu lời thiệu bài SIÊU XUNG THIÊN.",
-      "id": "hong-4-c19-11",
-      "lessonId": "red-lesson-04",
-      "rankId": "hong-4",
-      "beltId": "red",
-      "number": 27
+      "id": "do-4-c19-01"
     }
   ]
-}
+};
+
+data.questions.push(...poemQuestions);
+
+data.questions.forEach((q, index) => {
+  q.lessonId = data.lessonId;
+  q.rankId = data.rankId;
+  q.beltId = data.beltId;
+  q.number = index + 1;
+});
+
+fs.writeFileSync(path, JSON.stringify(data, null, 2));
+console.log('Saved to', path);

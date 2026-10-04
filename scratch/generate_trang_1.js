@@ -1,5 +1,8 @@
-{
-  "rankId": "chuan-bach",
+const fs = require('fs');
+const path = '/Users/luanph/Project other/MARTIAL WAY THEORY/content/exam-bank/trang-1.json';
+
+const data = {
+  "rankId": "trang-1",
   "beltId": "white",
   "lessonId": "white-lesson-01",
   "questions": [
@@ -15,11 +18,7 @@
       "correctIndex": 0,
       "explanation": "Thống nhất chỉ huy là việc điều hành và ra lệnh theo một đường lối, một hệ thống chỉ huy duy nhất để mọi người cùng thực hiện. Muốn thực hiện tốt phải có cơ quan chỉ huy thống nhất, giải thích rõ mệnh lệnh, kiểm tra việc thi hành...",
       "sourceQuestion": "Câu 1. Hỏi: Thống nhất chỉ huy là gì và làm thế nào để thực hiện tốt sự thống nhất chỉ huy?",
-      "id": "chuan-bach-c01-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 1
+      "id": "trang-1-c01-01"
     },
     {
       "type": "single",
@@ -33,11 +32,7 @@
       "correctIndex": 0,
       "explanation": "Quản trị là nghệ thuật tổ chức, sắp xếp và điều hành công việc một cách hợp lý... Muốn quản trị hiệu quả cần thực hiện các nguyên tắc: phân nhiệm rõ ràng cho từng người, xây dựng hệ thống kiểm soát, biết ủy quyền và duy trì sự thống nhất chỉ huy...",
       "sourceQuestion": "Câu 2. Hỏi: Quản trị là gì và muốn quản trị hiệu quả cần thực hiện những nguyên tắc nào?",
-      "id": "chuan-bach-c02-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 2
+      "id": "trang-1-c02-01"
     },
     {
       "type": "single",
@@ -51,11 +46,7 @@
       "correctIndex": 0,
       "explanation": "Trước hết phải kiện toàn nhân sự để có người đảm trách công việc. Sau đó cần ổn định tài chính và cơ sở vật chất để bảo đảm việc vận hành, giảng dạy và sinh hoạt của võ đường được thuận lợi, lâu dài.",
       "sourceQuestion": "Câu 3. Hỏi: Khi thành lập võ đường, những vấn đề nào cần được kiện toàn trước tiên?",
-      "id": "chuan-bach-c03-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 3
+      "id": "trang-1-c03-01"
     },
     {
       "type": "single",
@@ -69,11 +60,7 @@
       "correctIndex": 0,
       "explanation": "Song song với việc bổ túc những thiếu sót, võ đường phải nhanh chóng xây dựng và vận hành hệ thống quản trị đối nội và đối ngoại để điều hành công việc hiệu quả.",
       "sourceQuestion": "Câu 4. Hỏi: Sau khi kiện toàn nhân sự, tài chính và cơ sở vật chất, võ đường cần thực hiện điều gì?",
-      "id": "chuan-bach-c04-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 4
+      "id": "trang-1-c04-01"
     },
     {
       "type": "single",
@@ -87,11 +74,7 @@
       "correctIndex": 0,
       "explanation": "Hệ thống đối ngoại có nhiệm vụ liên hệ với chính quyền địa phương, các nhân vật uy tín, đoàn thể và quần chúng; đồng thời thực hiện các thủ tục hành chính cần thiết, tạo mối quan hệ tốt đẹp để hỗ trợ hoạt động và phát triển võ đường.",
       "sourceQuestion": "Câu 5. Hỏi: Hệ thống đối ngoại của võ đường có nhiệm vụ gì?",
-      "id": "chuan-bach-c05-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 5
+      "id": "trang-1-c05-01"
     },
     {
       "type": "single",
@@ -105,11 +88,7 @@
       "correctIndex": 0,
       "explanation": "Vì họ là những người có ảnh hưởng và được quần chúng tin tưởng. Thông qua họ, võ đường dễ tìm hiểu địa phương, xây dựng uy tín, nhận được sự hỗ trợ và thuận lợi hơn trong việc hướng dẫn thanh thiếu niên sống tốt, học võ và rèn luyện đạo đức.",
       "sourceQuestion": "Câu 6. Hỏi: Tại sao phải tiếp xúc với những người có uy tín trong địa phương?",
-      "id": "chuan-bach-c06-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 6
+      "id": "trang-1-c06-01"
     },
     {
       "type": "definition",
@@ -118,11 +97,7 @@
       "matchThreshold": 0.65,
       "explanation": "Tham vọng là sự mong cầu quá mức về danh vọng, quyền lợi, địa vị hoặc sự hơn thua. Tham vọng thường xuất phát từ tâm ích kỷ và mong muốn đề cao bản thân.",
       "sourceQuestion": "Câu 7. Hỏi: Tham vọng là gì và do đâu mà có?",
-      "id": "chuan-bach-c07-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 7
+      "id": "trang-1-c07-01"
     },
     {
       "type": "single",
@@ -136,11 +111,7 @@
       "correctIndex": 0,
       "explanation": "Tham vọng dễ làm con người ganh đua, mất đoàn kết, quên đi mục tiêu rèn luyện đạo đức và phụng sự. Khi bị tham vọng chi phối, người ta dễ đặt lợi ích cá nhân lên trên lợi ích của tập thể.",
       "sourceQuestion": "Câu 8. Hỏi: Tham vọng gây tác hại như thế nào đối với người môn sinh Phật Quang Quyền?",
-      "id": "chuan-bach-c08-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 8
+      "id": "trang-1-c08-01"
     },
     {
       "type": "single",
@@ -154,11 +125,7 @@
       "correctIndex": 0,
       "explanation": "Phải luôn sống khiêm tốn, biết nhìn lại chính mình, lấy việc rèn luyện đạo đức và phụng sự cộng đồng làm mục tiêu, không chạy theo danh tiếng, địa vị hay quyền lợi riêng.",
       "sourceQuestion": "Câu 9. Hỏi: Người môn sinh Phật Quang Quyền vượt qua tham vọng bằng cách nào?",
-      "id": "chuan-bach-c09-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 9
+      "id": "trang-1-c09-01"
     },
     {
       "type": "definition",
@@ -167,11 +134,7 @@
       "matchThreshold": 0.65,
       "explanation": "Cố chấp là giữ khư khư ý kiến hoặc thói quen cũ mà không chịu xem xét, thay đổi cho phù hợp với hoàn cảnh mới; hoặc cứ bận tâm, trách móc những lỗi lầm nhỏ nhặt của người khác mà không biết cảm thông, tha thứ.",
       "sourceQuestion": "Câu 10. Cố chấp là gì?",
-      "id": "chuan-bach-c10-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 10
+      "id": "trang-1-c10-01"
     },
     {
       "type": "single",
@@ -185,11 +148,7 @@
       "correctIndex": 0,
       "explanation": "Cố chấp làm cho con người khó học hỏi, khó tiếp thu điều hay, dễ phát sinh phiền não và mất đoàn kết với huynh đệ. Người cố chấp thường chỉ thấy lỗi của người khác mà quên nhìn lại chính mình.",
       "sourceQuestion": "Câu 11. Tác hại của sự cố chấp đối với người môn sinh Phật Quang Quyền là gì?",
-      "id": "chuan-bach-c11-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 11
+      "id": "trang-1-c11-01"
     },
     {
       "type": "single",
@@ -203,11 +162,7 @@
       "correctIndex": 0,
       "explanation": "Phải biết lắng nghe, học hỏi điều hay của người xưa và người nay, sẵn sàng sửa đổi khi thấy điều đúng. Đồng thời phải rộng lượng, biết tha thứ, chân thành góp ý để giúp huynh đệ tiến bộ nhưng không nuôi tâm trách móc hay bực bội kéo dài.",
       "sourceQuestion": "Câu 12. Người môn sinh Phật Quang Quyền vượt qua sự cố chấp bằng cách nào?",
-      "id": "chuan-bach-c12-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 12
+      "id": "trang-1-c12-01"
     },
     {
       "type": "definition",
@@ -216,11 +171,7 @@
       "matchThreshold": 0.65,
       "explanation": "Nhận lỗi về mình là dám nhìn lại bản thân, không đổ lỗi cho người khác khi xảy ra sai sót, đồng thời biết nhận trách nhiệm và tìm cách sửa chữa khuyết điểm của mình.",
       "sourceQuestion": "Câu 13. Nhận lỗi về mình là gì?",
-      "id": "chuan-bach-c13-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 13
+      "id": "trang-1-c13-01"
     },
     {
       "type": "single",
@@ -234,11 +185,7 @@
       "correctIndex": 0,
       "explanation": "Vì nhận lỗi về mình giúp ta sống khiêm tốn, có trách nhiệm, biết tiến bộ và giữ gìn tình huynh đệ. Ngược lại, thói quen đổ lỗi cho người khác dễ làm mất đoàn kết và che giấu những thiếu sót của bản thân.",
       "sourceQuestion": "Câu 14. Vì sao người môn sinh Phật Quang Quyền phải tập nhận lỗi về mình?",
-      "id": "chuan-bach-c14-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 14
+      "id": "trang-1-c14-01"
     },
     {
       "type": "single",
@@ -252,11 +199,7 @@
       "correctIndex": 0,
       "explanation": "Luôn nhìn lại lỗi của bản thân trước, chân thành sửa đổi những thiếu sót của mình và góp ý cho người khác bằng tinh thần yêu thương, xây dựng, không vì thành kiến hay ác cảm cá nhân.",
       "sourceQuestion": "Câu 15. Người môn sinh Phật Quang Quyền thực hành hạnh nhận lỗi về mình như thế nào?",
-      "id": "chuan-bach-c15-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 15
+      "id": "trang-1-c15-01"
     },
     {
       "type": "definition",
@@ -265,11 +208,7 @@
       "matchThreshold": 0.65,
       "explanation": "Nhường nhịn là biết dành phần thuận lợi, tốt đẹp cho người khác và sẵn sàng nhận phần khó khăn về mình. Đây là biểu hiện của lòng vị tha, tình thương yêu và sự tôn trọng đối với huynh đệ.",
       "sourceQuestion": "Câu 16. Nhường nhịn là gì?",
-      "id": "chuan-bach-c16-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 16
+      "id": "trang-1-c16-01"
     },
     {
       "type": "single",
@@ -283,11 +222,7 @@
       "correctIndex": 0,
       "explanation": "Vì nhường nhịn giúp giảm bớt ích kỷ, vun bồi tình huynh đệ và xây dựng tập thể đoàn kết. Người biết nhường nhịn luôn được mọi người yêu quý, tin tưởng và kính trọng.",
       "sourceQuestion": "Câu 17. Vì sao người môn sinh Phật Quang Quyền phải biết nhường nhịn?",
-      "id": "chuan-bach-c17-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 17
+      "id": "trang-1-c17-01"
     },
     {
       "type": "fill",
@@ -306,11 +241,7 @@
       ],
       "explanation": "Biết nhường phần tốt cho người khác, không tranh hơn thua về vật chất hay danh dự, chân thành tán thán ưu điểm của huynh đệ và luôn đặt lợi ích chung lên trên lợi ích riêng của bản thân.",
       "sourceQuestion": "Câu 18. Người môn sinh Phật Quang Quyền thực hành hạnh nhường nhịn như thế nào?",
-      "id": "chuan-bach-c18-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 18
+      "id": "trang-1-c18-01"
     },
     {
       "type": "single",
@@ -324,11 +255,7 @@
       "correctIndex": 0,
       "explanation": "Người môn sinh rèn luyện võ thuật, đạo đức và tâm hồn để trở thành người tốt, có ích cho gia đình, xã hội và góp phần xây dựng cuộc sống ngày càng tốt đẹp hơn.",
       "sourceQuestion": "Câu 19. Người môn sinh Phật Quang Quyền rèn luyện bản thân để làm gì?",
-      "id": "chuan-bach-c19-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 19
+      "id": "trang-1-c19-01"
     },
     {
       "type": "truefalse",
@@ -336,11 +263,7 @@
       "answer": false,
       "explanation": "Sai. Vì sống chỉ cho bản thân là biểu hiện của ích kỷ. Người môn sinh chân chính phải biết yêu thương, giúp đỡ mọi người và đặt lợi ích chung lên trên lợi ích riêng.",
       "sourceQuestion": "Câu 20. Vì sao người môn sinh không nên chỉ nghĩ đến lợi ích của riêng mình?",
-      "id": "chuan-bach-c20-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 20
+      "id": "trang-1-c20-01"
     },
     {
       "type": "single",
@@ -354,11 +277,7 @@
       "correctIndex": 0,
       "explanation": "Không ngừng học tập, rèn luyện và hoàn thiện bản thân để làm gương tốt cho mọi người, phụng sự cộng đồng và lan tỏa những giá trị đạo đức tốt đẹp đến cuộc đời.",
       "sourceQuestion": "Câu 21. Lý tưởng cao đẹp của người môn sinh Phật Quang Quyền là gì?",
-      "id": "chuan-bach-c21-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 21
+      "id": "trang-1-c21-01"
     },
     {
       "type": "definition",
@@ -367,11 +286,7 @@
       "matchThreshold": 0.65,
       "explanation": "Chủ quan là luôn cho ý kiến hoặc suy nghĩ của mình là đúng, không chịu lắng nghe, tiếp thu ý kiến của người khác và dễ xem nhẹ những điều hay của mọi người xung quanh.",
       "sourceQuestion": "Câu 22. Chủ quan là gì?",
-      "id": "chuan-bach-c22-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 22
+      "id": "trang-1-c22-01"
     },
     {
       "type": "single",
@@ -385,11 +300,7 @@
       "correctIndex": 0,
       "explanation": "Chủ quan làm cho con người khó học hỏi, khó tiến bộ, dễ xảy ra bất hòa trong tập thể và sinh tâm tự cao. Người chủ quan thường chỉ thấy cái đúng của mình mà không thấy được ưu điểm của người khác.",
       "sourceQuestion": "Câu 23. Tác hại của tính chủ quan đối với người môn sinh Phật Quang Quyền là gì?",
-      "id": "chuan-bach-c23-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 23
+      "id": "trang-1-c23-01"
     },
     {
       "type": "single",
@@ -403,11 +314,7 @@
       "correctIndex": 0,
       "explanation": "Phải biết khiêm tốn lắng nghe, tôn trọng ý kiến tập thể, tìm học những điều hay của người khác và vui vẻ chấp hành những quyết định chung. Biết nhìn thấy cái hay của người chính là cách giúp bản thân ngày càng tiến bộ và trưởng thành hơn.",
       "sourceQuestion": "Câu 24. Người môn sinh Phật Quang Quyền vượt qua tính chủ quan bằng cách nào?",
-      "id": "chuan-bach-c24-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 24
+      "id": "trang-1-c24-01"
     },
     {
       "type": "definition",
@@ -416,11 +323,7 @@
       "matchThreshold": 0.65,
       "explanation": "Đối xử bình đẳng là tôn trọng, quan tâm và cư xử công bằng với mọi người, không thiên vị vì giàu nghèo, địa vị, tài năng hay danh tiếng.",
       "sourceQuestion": "Câu 25. Đối xử bình đẳng là gì?",
-      "id": "chuan-bach-c25-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 25
+      "id": "trang-1-c25-01"
     },
     {
       "type": "single",
@@ -434,11 +337,7 @@
       "correctIndex": 0,
       "explanation": "Vì mọi người đều đáng được tôn trọng và yêu thương. Đối xử bình đẳng giúp xây dựng tình đoàn kết, nuôi dưỡng lòng từ bi và tránh thái độ thiên vị hoặc xem thường người khác.",
       "sourceQuestion": "Câu 26. Vì sao người môn sinh Phật Quang Quyền phải biết đối xử bình đẳng?",
-      "id": "chuan-bach-c26-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 26
+      "id": "trang-1-c26-01"
     },
     {
       "type": "single",
@@ -452,11 +351,7 @@
       "correctIndex": 0,
       "explanation": "Biết quan tâm đến mọi người như nhau, không chỉ chú ý đến người giỏi, nổi bật hay có điều kiện hơn mình. Đồng thời sẵn sàng chia sẻ, giúp đỡ những người gặp khó khăn và cư xử công bằng với tất cả mọi người.",
       "sourceQuestion": "Câu 27. Người môn sinh Phật Quang Quyền thực hành hạnh bình đẳng như thế nào?",
-      "id": "chuan-bach-c27-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 27
+      "id": "trang-1-c27-01"
     },
     {
       "type": "definition",
@@ -465,11 +360,7 @@
       "matchThreshold": 0.65,
       "explanation": "Trợ duyên là giúp đỡ, tạo điều kiện thuận lợi để người khác học tập, rèn luyện, làm việc và phát triển những điều tốt đẹp trong cuộc sống.",
       "sourceQuestion": "Câu 28. Trợ duyên là gì?",
-      "id": "chuan-bach-c28-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 28
+      "id": "trang-1-c28-01"
     },
     {
       "type": "single",
@@ -483,11 +374,7 @@
       "correctIndex": 0,
       "explanation": "Vì trợ duyên giúp huynh đệ cùng tiến bộ, xây dựng tinh thần đoàn kết và tạo nên một tập thể vững mạnh. Biết giúp người khác thành công cũng là cách bồi dưỡng đạo đức và nhân cách cho chính mình.",
       "sourceQuestion": "Câu 29. Vì sao người môn sinh Phật Quang Quyền phải biết trợ duyên cho huynh đệ?",
-      "id": "chuan-bach-c29-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 29
+      "id": "trang-1-c29-01"
     },
     {
       "type": "single",
@@ -501,11 +388,17 @@
       "correctIndex": 0,
       "explanation": "Luôn sẵn sàng giúp đỡ huynh đệ khi gặp khó khăn, hỗ trợ nhau trong học tập, rèn luyện và công việc chung; biết hợp tác, khích lệ và vui mừng trước sự tiến bộ của người khác, không ganh đua hay tranh công.",
       "sourceQuestion": "Câu 30. Người môn sinh Phật Quang Quyền thực hành hạnh trợ duyên như thế nào?",
-      "id": "chuan-bach-c30-01",
-      "lessonId": "white-lesson-01",
-      "rankId": "chuan-bach",
-      "beltId": "white",
-      "number": 30
+      "id": "trang-1-c30-01"
     }
   ]
-}
+};
+
+data.questions.forEach((q, index) => {
+  q.lessonId = data.lessonId;
+  q.rankId = data.rankId;
+  q.beltId = data.beltId;
+  q.number = index + 1;
+});
+
+fs.writeFileSync(path, JSON.stringify(data, null, 2));
+console.log('Saved to', path);
