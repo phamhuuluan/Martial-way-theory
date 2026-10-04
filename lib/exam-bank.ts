@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { getBeltById } from '@/lib/constants';
 import { BELT_RANKS } from '@/lib/belt-ranks';
-import { examDrawCount, getExamConfig, getPracticeRanks } from '@/lib/exam-config';
+import { getExamConfig, getPracticeRanks } from '@/lib/exam-config';
+import { selectPracticeQuestions } from '@/lib/exam-paper';
 import type { BeltId } from '@/types';
 import type { ExamBankFile } from '@/types/exam';
 
@@ -62,7 +63,7 @@ export function listPracticeCatalog(): PracticeCatalogEntry[] {
         accent: world.colors.accent,
         questionCount: config.questionCount,
         bankCount: bank.questions.length,
-        drawCount: examDrawCount(config.questionCount, bank.questions.length),
+        drawCount: selectPracticeQuestions(bank.questions, () => 0).length,
         durationMinutes: config.durationMinutes,
         ...(bank.todo ? { note: bank.todo } : {}),
       },

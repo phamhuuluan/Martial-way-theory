@@ -14,7 +14,7 @@ import {
   createExamId,
   formatClock,
   isExamAnswerProvided,
-  selectExamQuestions,
+  selectPracticeQuestions,
 } from '@/lib/exam-paper';
 import {
   getQuestionType,
@@ -37,7 +37,6 @@ interface PracticeSessionProps {
   fullName: string;
   beltId: BeltId;
   durationMinutes: number;
-  questionCount: number;
   questions: ExamBankQuestion[];
 }
 
@@ -58,7 +57,6 @@ export function PracticeSession({
   fullName,
   beltId,
   durationMinutes,
-  questionCount,
   questions,
 }: PracticeSessionProps) {
   const router = useRouter();
@@ -141,9 +139,8 @@ export function PracticeSession({
       router.replace('/profile?notice=practice');
       return;
     }
-    const paper = selectExamQuestions(
-      questions.filter((question) => question.rankId === rankId),
-      questionCount
+    const paper = selectPracticeQuestions(
+      questions.filter((question) => question.rankId === rankId)
     );
     const next = createExamDraft({
       id: createExamId(),
@@ -176,7 +173,6 @@ export function PracticeSession({
     profile.name,
     canPractice,
     isAdmin,
-    questionCount,
     questions,
     rankId,
     router,

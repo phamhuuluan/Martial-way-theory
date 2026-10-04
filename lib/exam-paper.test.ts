@@ -6,6 +6,7 @@ import {
   examElapsedMs,
   gradeExam,
   selectExamQuestions,
+  selectPracticeQuestions,
 } from '@/lib/exam-paper';
 import { parseImportedExamAttempts, sanitizeExamAttempts } from '@/lib/exam-attempts';
 import type { ExamBankQuestion } from '@/types/exam';
@@ -88,7 +89,8 @@ describe('selectExamQuestions', () => {
     const randomValues = [0.9, 0];
     let call = 0;
     const paper = selectExamQuestions(bank, 3, () => randomValues[call++] ?? 0);
-    expect(paper.map((item) => item.id)).toEqual(['b', 'a', 'c']);
+    expect(paper).toHaveLength(3);
+    expect(new Set(paper.map((item) => item.id))).toEqual(new Set(['a', 'b', 'c']));
   });
 
   it('uses the whole bank when it is smaller than the configured count', () => {
@@ -117,6 +119,42 @@ describe('selectExamQuestions', () => {
     });
     const [paper] = selectExamQuestions([source], 1, () => 0);
     expect(paper.options[paper.correctIndex ?? -1]).toBe('W');
+  });
+
+  it('keeps every non-intro question and one random intro per form', () => {
+    const theory = [1, 2, 3].map((index) =>
+      question({
+        id: `theory-${index}`,
+        sourceQuestion: 'Câu 2. Võ nghệ là gì:',
+        question: `Võ nghệ biến thể ${index}`,
+      })
+    );
+    const intros = Array.from({ length: 11 }, (_, index) =>
+      question({
+        id: `intro-${index + 1}`,
+        type: 'fill',
+        sourceQuestion: 'Câu 13. Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?',
+        question: 'Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:\n\n______[1]',
+        options: ['Đầu tiên bái tổ, kính sư'],
+        blanks: ['Đầu tiên bái tổ, kính sư'],
+      })
+    );
+    const otherForm = question({
+      id: 'song-tuyet',
+      type: 'fill',
+      sourceQuestion: 'Câu 14. Nêu xuất xứ bài Song Tuyết Kiếm.',
+      question: 'Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:\n\n______[1]',
+      options: ['Bái tổ'],
+      blanks: ['Bái tổ'],
+    });
+    const duplicate = question({ id: 'theory-1', question: 'Trùng id' });
+
+    const paper = selectPracticeQuestions([...theory, ...intros, otherForm, duplicate], () => 0.2);
+
+    expect(paper.filter((item) => item.id.startsWith('theory-'))).toHaveLength(3);
+    expect(paper.filter((item) => item.question.toLowerCase().includes('lời thiệu'))).toHaveLength(2);
+    expect(new Set(paper.map((item) => item.id)).size).toBe(paper.length);
+    expect(paper).toHaveLength(5);
   });
 
   it('can fill a paper from topic slots before the remaining questions', () => {

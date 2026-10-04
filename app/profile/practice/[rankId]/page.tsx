@@ -34,7 +34,6 @@ export default async function PracticeRankPage({ params }: Props) {
       fullName={getExamLevelName(rankId)}
       beltId={config.beltId}
       durationMinutes={config.durationMinutes}
-      questionCount={config.questionCount}
       questions={bank.questions}
     />
   );

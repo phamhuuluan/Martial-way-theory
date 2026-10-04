@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { BELT_RANKS } from '@/lib/belt-ranks';
 import { getExamBank, listPracticeCatalog } from '@/lib/exam-bank';
 import { getExamConfig, getPracticeRanks } from '@/lib/exam-config';
-import { selectExamQuestions } from '@/lib/exam-paper';
+import { selectPracticeQuestions } from '@/lib/exam-paper';
 import type { ExamBankQuestion } from '@/types/exam';
 
 function assertAnswerable(question: ExamBankQuestion) {
@@ -103,15 +103,26 @@ describe('exam banks', () => {
     }
   });
 
-  it('draws a paper only from the selected rank', () => {
+  it('draws a practice paper from the selected rank without a fixed count', () => {
     const lam1 = getExamBank('lam-1')?.questions ?? [];
     const lam2Ids = new Set((getExamBank('lam-2')?.questions ?? []).map((question) => question.id));
-    const paper = selectExamQuestions(lam1, getExamConfig('lam-1')?.questionCount ?? 10, () => 0.42);
+    const paper = selectPracticeQuestions(lam1, () => 0.42);
 
-    expect(paper).toHaveLength(10);
+    expect(paper).toHaveLength(lam1.length);
     expect(paper.every((question) => question.rankId === 'lam-1' && question.lessonId === 'blue-lesson-01')).toBe(true);
     expect(paper.some((question) => lam2Ids.has(question.id))).toBe(false);
     expect(new Set(paper.map((question) => question.id)).size).toBe(paper.length);
+
+    const lam4 = getExamBank('lam-4')?.questions ?? [];
+    const lam4Paper = selectPracticeQuestions(lam4, () => 0.42);
+    const lam4Intros = lam4Paper.filter((question) =>
+      question.question.toLowerCase().includes('lời thiệu')
+    );
+    expect(lam4Intros).toHaveLength(1);
+    expect(lam4Paper.length).toBe(
+      lam4.filter((question) => !question.question.toLowerCase().includes('lời thiệu')).length + 1
+    );
+    expect(lam4Paper.length).toBeGreaterThan(10);
   });
 
   it('lists every lesson rank in the practice catalog', () => {

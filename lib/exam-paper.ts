@@ -27,46 +27,38 @@ function shuffle<T>(items: T[], random: RandomFn): T[] {
   return copy;
 }
 
+function isIntroQuestion(question: ExamBankQuestion): boolean {
+  return question.question.toLowerCase().includes('lời thiệu');
+}
+
+function introGroupKey(question: ExamBankQuestion): string {
+  const source = question.sourceQuestion?.trim();
+  if (source) return source;
+  return question.question.split('\n')[0].trim().toLowerCase();
+}
+
 function pickWithConstraints(
   pool: ExamBankQuestion[],
   count: number,
   random: RandomFn,
-  usedSources: Map<string, number>
+  usedIds: Set<string>,
+  usedIntroGroups: Set<string>
 ): ExamBankQuestion[] {
   const result: ExamBankQuestion[] = [];
   const shuffled = shuffle(pool, random);
 
-  // First pass: respect constraints
-  for (const q of shuffled) {
+  for (const question of shuffled) {
     if (result.length >= count) break;
-    let canPick = true;
+    if (usedIds.has(question.id)) continue;
 
-    // Constraint: only 1 question related to "lời thiệu" per sourceQuestion
-    if (q.sourceQuestion && q.question.toLowerCase().includes('điền vào chỗ trống lời thiệu bài quyền')) {
-      if ((usedSources.get(q.sourceQuestion) || 0) >= 1) {
-        canPick = false;
-      }
+    if (isIntroQuestion(question)) {
+      const group = introGroupKey(question);
+      if (usedIntroGroups.has(group)) continue;
+      usedIntroGroups.add(group);
     }
 
-    if (canPick) {
-      result.push(q);
-      if (q.sourceQuestion) {
-        usedSources.set(q.sourceQuestion, (usedSources.get(q.sourceQuestion) || 0) + 1);
-      }
-    }
-  }
-
-  // Fallback: if we don't have enough questions, relax constraints
-  if (result.length < count) {
-    for (const q of shuffled) {
-      if (result.length >= count) break;
-      if (!result.includes(q)) {
-        result.push(q);
-        if (q.sourceQuestion) {
-          usedSources.set(q.sourceQuestion, (usedSources.get(q.sourceQuestion) || 0) + 1);
-        }
-      }
-    }
+    usedIds.add(question.id);
+    result.push(question);
   }
 
   return result;
@@ -79,7 +71,7 @@ function pickWithBlueprint(
   random: RandomFn
 ): ExamBankQuestion[] {
   const usedIds = new Set<string>();
-  const usedSources = new Map<string, number>();
+  const usedIntroGroups = new Set<string>();
   const picked: ExamBankQuestion[] = [];
 
   for (const slot of blueprint) {
@@ -87,19 +79,14 @@ function pickWithBlueprint(
     const pool = bank.filter(
       (question) => question.topic === slot.topic && !usedIds.has(question.id)
     );
-    const selected = pickWithConstraints(pool, slot.count, random, usedSources);
-    for (const question of selected) {
-      usedIds.add(question.id);
-      picked.push(question);
-    }
+    picked.push(...pickWithConstraints(pool, slot.count, random, usedIds, usedIntroGroups));
   }
 
   if (picked.length < drawCount) {
     const rest = bank.filter((question) => !usedIds.has(question.id));
-    const selected = pickWithConstraints(rest, drawCount - picked.length, random, usedSources);
-    for (const question of selected) {
-      picked.push(question);
-    }
+    picked.push(
+      ...pickWithConstraints(rest, drawCount - picked.length, random, usedIds, usedIntroGroups)
+    );
   }
 
   return picked.slice(0, drawCount);
@@ -121,9 +108,20 @@ export function selectExamQuestions(
   const drawCount = Math.min(questionCount, bank.length);
   const picked = blueprint?.length
     ? shuffle(pickWithBlueprint(bank, drawCount, blueprint, random), random)
-    : shuffle(pickWithConstraints(bank, drawCount, random, new Map<string, number>()), random);
+    : shuffle(
+        pickWithConstraints(bank, drawCount, random, new Set<string>(), new Set<string>()),
+        random
+      );
 
   return picked.map((question) => randomizeExamQuestion(question, random));
+}
+
+/** Ôn luyện: mọi câu không phải lời thiệu, và đúng 1 câu lời thiệu cho mỗi bài quyền. */
+export function selectPracticeQuestions(
+  bank: ExamBankQuestion[],
+  random: RandomFn = Math.random
+): ExamBankQuestion[] {
+  return selectExamQuestions(bank, bank.length, random);
 }
 
 function randomizeExamQuestion(
