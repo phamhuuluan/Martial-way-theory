@@ -27,8 +27,15 @@ function shuffle<T>(items: T[], random: RandomFn): T[] {
   return copy;
 }
 
+function isIntroFillQuestion(question: ExamBankQuestion): boolean {
+  return (
+    (question.type ?? 'single') === 'fill' &&
+    question.question.toLowerCase().includes('lời thiệu')
+  );
+}
+
 function isIntroQuestion(question: ExamBankQuestion): boolean {
-  return question.question.toLowerCase().includes('lời thiệu');
+  return isIntroFillQuestion(question);
 }
 
 function introGroupKey(question: ExamBankQuestion): string {
@@ -116,12 +123,36 @@ export function selectExamQuestions(
   return picked.map((question) => randomizeExamQuestion(question, random));
 }
 
-/** Ôn luyện: mọi câu không phải lời thiệu, và đúng 1 câu lời thiệu cho mỗi bài quyền. */
+/**
+ * Ôn luyện: xáo toàn bộ ngân hàng, bỏ câu trùng id,
+ * và chỉ giữ 1 câu điền chỗ trống của lời thiệu.
+ */
 export function selectPracticeQuestions(
   bank: ExamBankQuestion[],
   random: RandomFn = Math.random
 ): ExamBankQuestion[] {
-  return selectExamQuestions(bank, bank.length, random);
+  if (bank.length === 0) return [];
+
+  const rankIds = new Set(bank.map((question) => question.rankId));
+  if (rankIds.size > 1) {
+    throw new Error('Không trộn câu hỏi của nhiều cấp đai trong cùng một đề.');
+  }
+
+  const usedIds = new Set<string>();
+  const picked: ExamBankQuestion[] = [];
+  let introFillTaken = false;
+
+  for (const question of shuffle(bank, random)) {
+    if (usedIds.has(question.id)) continue;
+    if (isIntroFillQuestion(question)) {
+      if (introFillTaken) continue;
+      introFillTaken = true;
+    }
+    usedIds.add(question.id);
+    picked.push(question);
+  }
+
+  return shuffle(picked, random).map((question) => randomizeExamQuestion(question, random));
 }
 
 function randomizeExamQuestion(

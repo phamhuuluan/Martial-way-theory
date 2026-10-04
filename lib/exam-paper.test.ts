@@ -121,7 +121,7 @@ describe('selectExamQuestions', () => {
     expect(paper.options[paper.correctIndex ?? -1]).toBe('W');
   });
 
-  it('keeps every non-intro question and one random intro per form', () => {
+  it('shuffles the bank, drops duplicate ids, and keeps a single intro fill', () => {
     const theory = [1, 2, 3].map((index) =>
       question({
         id: `theory-${index}`,
@@ -129,6 +129,10 @@ describe('selectExamQuestions', () => {
         question: `Võ nghệ biến thể ${index}`,
       })
     );
+    const mention = question({
+      id: 'mention-intro',
+      question: 'Bài quyền thường có lời thiệu bằng thơ để diễn tả ý nghĩa.',
+    });
     const intros = Array.from({ length: 11 }, (_, index) =>
       question({
         id: `intro-${index + 1}`,
@@ -149,12 +153,27 @@ describe('selectExamQuestions', () => {
     });
     const duplicate = question({ id: 'theory-1', question: 'Trùng id' });
 
-    const paper = selectPracticeQuestions([...theory, ...intros, otherForm, duplicate], () => 0.2);
+    const paper = selectPracticeQuestions(
+      [...theory, mention, ...intros, otherForm, duplicate],
+      () => 0.2
+    );
 
     expect(paper.filter((item) => item.id.startsWith('theory-'))).toHaveLength(3);
-    expect(paper.filter((item) => item.question.toLowerCase().includes('lời thiệu'))).toHaveLength(2);
+    expect(paper.some((item) => item.id === 'mention-intro')).toBe(true);
+    expect(
+      paper.filter(
+        (item) => item.type === 'fill' && item.question.toLowerCase().includes('lời thiệu')
+      )
+    ).toHaveLength(1);
     expect(new Set(paper.map((item) => item.id)).size).toBe(paper.length);
     expect(paper).toHaveLength(5);
+    expect(paper.map((item) => item.id)).not.toEqual([
+      'theory-1',
+      'theory-2',
+      'theory-3',
+      'mention-intro',
+      paper.find((item) => item.id.startsWith('intro-') || item.id === 'song-tuyet')?.id,
+    ]);
   });
 
   it('can fill a paper from topic slots before the remaining questions', () => {
