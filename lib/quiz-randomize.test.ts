@@ -126,7 +126,7 @@ describe('randomizeQuestionPresentation', () => {
       ).toBe(true);
       expect(randomized.question).toBe(original.question);
 
-      if (JSON.stringify(randomized.options) !== JSON.stringify(original.options)) {
+      if (JSON.stringify(randomized.optionsOrder) !== JSON.stringify([0, 1, 2, 3])) {
         sawDifferentOrder = true;
       }
     }
@@ -139,7 +139,7 @@ describe('randomizeQuestionPresentation', () => {
     const original = baseQuiz.questions[1];
     const randomized = randomizeQuestionPresentation(original, random);
 
-    expect(randomized.options).not.toEqual(original.options);
+    expect(randomized.optionsOrder).not.toEqual([0, 1, 2, 3, 4]);
     expect(
       isAnswerCorrect(randomized, getCorrectAnswer(randomized))
     ).toBe(true);
@@ -150,7 +150,7 @@ describe('randomizeQuestionPresentation', () => {
     const original = baseQuiz.questions[2];
     const randomized = randomizeQuestionPresentation(original, random);
 
-    expect(randomized.options).not.toEqual(original.options);
+    expect(randomized.optionsOrder).not.toEqual([0, 1, 2, 3]);
     expect(randomized.blanks).toEqual(original.blanks);
     expect(
       isAnswerCorrect(randomized, getCorrectAnswer(randomized))
@@ -173,8 +173,8 @@ describe('randomizeQuestionPresentation', () => {
       ).toBe(true);
 
       if (
-        JSON.stringify(randomized.rightItems) !==
-        JSON.stringify(original.rightItems)
+        JSON.stringify(randomized.rightItemsOrder) !==
+        JSON.stringify([0, 1, 2])
       ) {
         sawDifferentOrder = true;
       }
@@ -188,7 +188,7 @@ describe('randomizeQuestionPresentation', () => {
     const original = baseQuiz.questions[4];
     const randomized = randomizeQuestionPresentation(original, random);
 
-    expect(randomized.items).not.toEqual(original.items);
+    expect(randomized.itemsOrder).not.toEqual([0, 1, 2]);
     expect(
       isAnswerCorrect(randomized, getCorrectAnswer(randomized))
     ).toBe(true);

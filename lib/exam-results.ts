@@ -34,6 +34,9 @@ export interface ExamResultRecord {
   dojo: string;
   dateOfBirth: string;
   coach: string;
+  /** Bài cũ trên sheet không có cột này được coi là đã nộp. */
+  outcome: 'submitted' | 'exited';
+  exitedAt: string;
 }
 
 const CONFIG_ERROR = 'Chưa cấu hình địa chỉ lưu kết quả.';
@@ -63,6 +66,8 @@ export function toExamResultRecord(attempt: ExamAttempt): ExamResultRecord {
     dojo: attempt.candidate.dojo.trim(),
     dateOfBirth: attempt.candidate.dateOfBirth.trim(),
     coach: attempt.candidate.coach?.trim() ?? '',
+    outcome: attempt.outcome === 'exited' ? 'exited' : 'submitted',
+    exitedAt: attempt.exitedAt?.trim() ?? '',
   };
 }
 
@@ -95,6 +100,8 @@ function parseRecord(value: unknown): ExamResultRecord | null {
   const dojo = text(row.dojo)?.trim() ?? '';
   const dateOfBirth = text(row.dateOfBirth)?.trim() ?? '';
   const coach = text(row.coach)?.trim() ?? '';
+  const outcomeText = text(row.outcome)?.trim() ?? '';
+  const exitedAt = text(row.exitedAt)?.trim() ?? '';
   const score = finiteNumber(row.score);
   const correctCount = finiteNumber(row.correctCount);
   const totalQuestions = finiteNumber(row.totalQuestions);
@@ -132,6 +139,8 @@ function parseRecord(value: unknown): ExamResultRecord | null {
     dojo,
     dateOfBirth,
     coach,
+    outcome: outcomeText === 'exited' ? 'exited' : 'submitted',
+    exitedAt,
   };
 }
 
@@ -246,6 +255,13 @@ function postExamResultForm(url: string, record: ExamResultRecord): Promise<void
       resolve();
     }, 2500);
   });
+}
+
+export function postExamResultBeacon(record: ExamResultRecord): void {
+  const url = examResultsUrl();
+  if (!url || typeof navigator === 'undefined' || typeof navigator.sendBeacon !== 'function') return;
+  const body = new Blob([JSON.stringify(record)], { type: 'text/plain;charset=UTF-8' });
+  navigator.sendBeacon(url, body);
 }
 
 export async function postExamResult(record: ExamResultRecord): Promise<void> {

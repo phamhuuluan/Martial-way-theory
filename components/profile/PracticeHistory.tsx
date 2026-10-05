@@ -15,7 +15,7 @@ export function PracticeHistory() {
   const [attempts, setAttempts] = useState<ExamAttempt[]>([]);
 
   useEffect(() => {
-    const refresh = () => setAttempts(getExamAttempts());
+    const refresh = () => setAttempts(getExamAttempts().filter(a => a.mode === 'official'));
     refresh();
     window.addEventListener(EXAM_ATTEMPTS_EVENT, refresh);
     window.addEventListener('storage', refresh);
@@ -27,21 +27,29 @@ export function PracticeHistory() {
 
   return (
     <section className="profile-card">
-      <h2 className="profile-card__title">Lịch sử luyện đề</h2>
+      <h2 className="profile-card__title">Lịch sử thi</h2>
       {attempts.length === 0 ? (
-        <p className="text-sm text-text-secondary">Chưa có bài luyện đề.</p>
+        <p className="text-sm text-text-secondary">Chưa có dữ liệu thi.</p>
       ) : (
         <ul className="flex flex-col gap-3">
           {attempts.map((attempt) => (
             <li key={attempt.id}>
               <Link
-                href={`/profile/practice/attempt?id=${encodeURIComponent(attempt.id)}`}
+                href={
+                  attempt.mode === 'official'
+                    ? `/exam/official/attempt?id=${encodeURIComponent(attempt.id)}`
+                    : `/exam/practice/attempt?id=${encodeURIComponent(attempt.id)}`
+                }
                 className="flex flex-col gap-1 rounded-[var(--radius-md)] border border-border px-4 py-3 transition-colors hover:border-unlock/40"
               >
-                <span className="font-medium">{rankName(attempt.rankId)}</span>
+                <span className="font-medium">
+                  Thi · {rankName(attempt.rankId)}
+                </span>
                 <span className="text-sm text-text-secondary">
-                  {formatExamTimestamp(attempt.submittedAt)} · {attempt.score.toFixed(1)} điểm ·{' '}
-                  {attempt.correctCount} đúng / {attempt.incorrectCount} sai ·{' '}
+                  {attempt.outcome === 'exited'
+                    ? `Thoát lúc ${formatExamTimestamp(attempt.exitedAt ?? attempt.submittedAt)}`
+                    : formatExamTimestamp(attempt.submittedAt)}{' '}
+                  · {attempt.score.toFixed(1)} điểm · {attempt.correctCount} đúng / {attempt.incorrectCount} sai ·{' '}
                   {formatDuration(attempt.durationMs)}
                 </span>
               </Link>

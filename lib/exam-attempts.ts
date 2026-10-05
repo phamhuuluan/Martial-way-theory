@@ -28,7 +28,11 @@ function isExamAttempt(value: unknown): value is ExamAttempt {
     typeof attempt.candidate.fullName === 'string' &&
     typeof attempt.candidate.dateOfBirth === 'string' &&
     typeof attempt.candidate.club === 'string' &&
-    typeof attempt.candidate.dojo === 'string'
+    typeof attempt.candidate.dojo === 'string' &&
+    (attempt.outcome === undefined ||
+      attempt.outcome === 'submitted' ||
+      attempt.outcome === 'exited') &&
+    (attempt.exitedAt === undefined || typeof attempt.exitedAt === 'string')
   );
 }
 

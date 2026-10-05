@@ -86,6 +86,7 @@ export function ExamQuestion({
     return (
       <QuizFillBlank
         wordBank={question.options}
+        optionsOrder={question.optionsOrder}
         blankCount={question.blanks?.length ?? 0}
         selectedByBlank={selected}
         feedback={revealed}
@@ -111,6 +112,7 @@ export function ExamQuestion({
       <QuizMatching
         leftItems={question.leftItems ?? []}
         rightItems={question.rightItems ?? []}
+        rightItemsOrder={question.rightItemsOrder}
         selectedByLeft={selected}
         correctPairs={question.correctPairs}
         feedback={revealed}
@@ -139,7 +141,7 @@ export function ExamQuestion({
   }
 
   if (isOrderingQuestion(question)) {
-    const order = answer?.orderAnswers ?? (question.items ?? []).map((_, index) => index);
+    const order = answer?.orderAnswers ?? question.itemsOrder ?? (question.items ?? []).map((_, index) => index);
     return (
       <QuizOrdering
         items={question.items ?? []}
@@ -163,7 +165,9 @@ export function ExamQuestion({
 
   return (
     <div className="space-y-3">
-      {question.options.map((option, index) => {
+      {(question.optionsOrder ?? question.options.map((_, i) => i)).map((originalIndex, displayIndex) => {
+        const option = question.options[originalIndex];
+        const index = originalIndex;
         const selected = multiple ? selectedIndices.includes(index) : answer?.selectedIndex === index;
         return (
           <QuizOption

@@ -208,6 +208,5 @@ export const NAV_ITEMS = [
   { href: '/journey', label: 'Hành trình', icon: 'map' as const },
   { href: '/world/brown', label: 'Học', icon: 'book' as const },
   { href: '/documents', label: 'Tài liệu', icon: 'dashboard' as const },
-  { href: '/achievements', label: 'Huy hiệu', icon: 'award' as const },
   { href: '/profile', label: 'Hồ sơ', icon: 'user' as const },
 ];

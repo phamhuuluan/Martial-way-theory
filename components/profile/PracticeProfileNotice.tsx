@@ -20,7 +20,7 @@ export function PracticeProfileNotice() {
 
   return (
     <p className="rounded-[var(--radius-md)] border border-unlock/30 bg-unlock/5 px-4 py-3 text-sm text-text-secondary">
-      Bổ sung họ và tên, ngày sinh, CLB, võ đường và HLV hướng dẫn trước khi bắt đầu luyện đề.
+      Bổ sung họ và tên, ngày sinh, CLB, võ đường và HLV hướng dẫn trước khi bắt đầu.
     </p>
   );
 }

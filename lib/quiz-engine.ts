@@ -172,10 +172,8 @@ export function evaluateMultipleChoice(
   );
 
   let level: MultipleChoiceResultLevel;
-  if (accuracy >= 1 && incorrectSelected === 0) {
+  if (correctSelected === totalCorrect && incorrectSelected === 0) {
     level = 'correct';
-  } else if (accuracy > 0.5 && !hasExcessiveIncorrect) {
-    level = 'partial';
   } else {
     level = 'incorrect';
   }

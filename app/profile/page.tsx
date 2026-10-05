@@ -1,6 +1,6 @@
-import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import { ProfilePageClient } from '@/components/profile/ProfilePageClient';
+import { ProfileSection } from '@/components/profile/ProfileSection';
 
 export const metadata: Metadata = {
   title: 'Hồ Sơ Võ Đạo',
@@ -8,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function ProfilePage() {
-  return <ProfilePageClient />;
+  return (
+    <ProfileSection tab="profile">
+      <ProfilePageClient />
+    </ProfileSection>
+  );
 }

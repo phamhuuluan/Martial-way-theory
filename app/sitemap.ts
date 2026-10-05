@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { getAllLessonParams, getAllBelts } from '@/lib/content';
-import { listPracticeCatalog } from '@/lib/exam-bank';
+import { listOfficialCatalog, listPracticeCatalog } from '@/lib/exam-bank';
 import { SITE } from '@/lib/constants';
 
 export const dynamic = 'force-static';
@@ -33,11 +33,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
     { url: `${base}/journey`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/documents`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/achievements`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${base}/profile/achievements`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/profile`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${base}/profile/practice`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${base}/exam`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${base}/exam/official`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
     ...listPracticeCatalog().map((entry) => ({
-      url: `${base}/profile/practice/${entry.rankId}`,
+      url: `${base}/exam/practice/${entry.rankId}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.4,
+    })),
+    ...listOfficialCatalog().map((entry) => ({
+      url: `${base}/exam/official/${entry.rankId}`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.4,

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { AchievementsPageClient } from '@/components/achievement/AchievementsPageClient';
+import { ClientReplace } from '@/components/navigation/ClientReplace';
 
 export const metadata: Metadata = {
   title: 'Huy Hiệu Đức Tính',
@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function AchievementsPage() {
-  return <AchievementsPageClient />;
+  return <ClientReplace href="/profile/achievements" />;
 }

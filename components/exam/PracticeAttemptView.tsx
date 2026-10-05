@@ -52,8 +52,8 @@ export function PracticeAttemptView() {
     return (
       <div className="profile-page px-4 py-16 text-center">
         <p className="text-text-secondary">Không tìm thấy bài làm.</p>
-        <Link href="/profile" className="mt-4 inline-block text-sm text-unlock">
-          Về hồ sơ
+        <Link href="/exam" className="mt-4 inline-block text-sm text-unlock">
+          Về kỳ thi
         </Link>
       </div>
     );
@@ -65,8 +65,8 @@ export function PracticeAttemptView() {
     <div className="profile-page relative min-h-screen px-4 py-8 lg:px-10 lg:py-10">
       <div className="mx-auto max-w-3xl">
         <p className="mb-2 text-sm text-text-muted">
-          <Link href="/profile" className="hover:text-text-primary">
-            Hồ sơ
+          <Link href="/exam" className="hover:text-text-primary">
+            Kỳ thi
           </Link>
         </p>
         <h1 className="font-display text-3xl font-bold">Kết quả luyện đề</h1>
@@ -109,7 +109,7 @@ export function PracticeAttemptView() {
           <Button variant="primary" className="flex-1" onClick={() => setShowReview(true)}>
             Xem lại bài
           </Button>
-          <Link href="/profile/practice" className="flex-1">
+          <Link href="/exam" className="flex-1">
             <Button variant="secondary" className="w-full">
               Luyện đề khác
             </Button>

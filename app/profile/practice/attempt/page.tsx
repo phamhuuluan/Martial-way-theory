@@ -1,21 +1,33 @@
-import { Suspense } from 'react';
-import type { Metadata } from 'next';
-import { PracticeAttemptView } from '@/components/exam/PracticeAttemptView';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Kết quả luyện đề',
-};
+import { Suspense, useEffect } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 
-export default function PracticeAttemptPage() {
+function RedirectAttempt() {
+  const router = useRouter();
+  const id = useSearchParams().get('id');
+
+  useEffect(() => {
+    router.replace(id ? `/exam/practice/attempt?id=${encodeURIComponent(id)}` : '/exam');
+  }, [id, router]);
+
+  return (
+    <div className="profile-page px-4 py-16 text-center text-sm text-text-secondary">
+      Đang chuyển…
+    </div>
+  );
+}
+
+export default function PracticeAttemptRedirectPage() {
   return (
     <Suspense
       fallback={
         <div className="profile-page px-4 py-16 text-center text-sm text-text-secondary">
-          Đang mở bài làm…
+          Đang chuyển…
         </div>
       }
     >
-      <PracticeAttemptView />
+      <RedirectAttempt />
     </Suspense>
   );
 }

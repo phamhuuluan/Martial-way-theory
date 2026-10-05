@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BookOpen, ClipboardList, LayoutDashboard, Medal, NotebookPen, User } from 'lucide-react';
+import { BookOpen, ClipboardList, GraduationCap, LayoutDashboard, NotebookPen, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { getCurrentBelt } from '@/lib/progress';
 import { useEffectiveProgress } from '@/hooks/use-effective-progress';
@@ -11,8 +11,8 @@ import { useAdminStore } from '@/store/admin-store';
 const ICONS = {
   journey: BookOpen,
   learn: NotebookPen,
+  exam: GraduationCap,
   documents: LayoutDashboard,
-  badge: Medal,
   profile: User,
   manage: ClipboardList,
 } as const;
@@ -20,8 +20,8 @@ const ICONS = {
 const ITEMS = [
   { href: '/journey', label: 'Hành trình', icon: 'journey' as const },
   { href: '/world', label: 'Học', icon: 'learn' as const, dynamic: true },
+  { href: '/exam', label: 'Kỳ thi', icon: 'exam' as const },
   { href: '/documents', label: 'Tài liệu', icon: 'documents' as const },
-  { href: '/achievements', label: 'Huy hiệu', icon: 'badge' as const },
   { href: '/profile', label: 'Hồ sơ', icon: 'profile' as const },
   { href: '/pqq-management', label: 'Quản lý', icon: 'manage' as const, admin: true },
 ];
@@ -66,8 +66,10 @@ export function BottomTabBar() {
           const active =
             pathname === href ||
             (item.href === '/journey' && pathname.startsWith('/journey')) ||
+            (item.href === '/exam' && pathname.startsWith('/exam')) ||
             (item.href === '/documents' && pathname.startsWith('/documents')) ||
-            (item.href === '/profile' && pathname.startsWith('/profile')) ||
+            (item.href === '/profile' &&
+              (pathname.startsWith('/profile') || pathname.startsWith('/achievements'))) ||
             (item.href === '/pqq-management' && pathname.startsWith('/pqq-management')) ||
             (item.dynamic === true && pathname.startsWith('/world'));
 
@@ -122,8 +124,10 @@ export function SideRail() {
           const active =
             pathname === href ||
             (item.href === '/journey' && pathname.startsWith('/journey')) ||
+            (item.href === '/exam' && pathname.startsWith('/exam')) ||
             (item.href === '/documents' && pathname.startsWith('/documents')) ||
-            (item.href === '/profile' && pathname.startsWith('/profile')) ||
+            (item.href === '/profile' &&
+              (pathname.startsWith('/profile') || pathname.startsWith('/achievements'))) ||
             (item.href === '/pqq-management' && pathname.startsWith('/pqq-management')) ||
             (item.dynamic === true && pathname.startsWith('/world'));
 

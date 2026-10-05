@@ -15,6 +15,7 @@ import type {
   ExamCandidateSnapshot,
   ExamGrade,
   ExamMode,
+  ExamOutcome,
   ExamQuestionSnapshot,
 } from '@/types/exam';
 
@@ -159,20 +160,7 @@ function randomizeExamQuestion(
   question: ExamBankQuestion,
   random: RandomFn
 ): ExamBankQuestion {
-  const presented = randomizeQuestionPresentation(question, random) as ExamBankQuestion;
-  if (getQuestionType(presented) !== 'truefalse') return presented;
-
-  const options =
-    presented.options.length >= 2 ? [...presented.options] : [...TRUE_FALSE_OPTIONS];
-  const originalCorrect =
-    typeof presented.correctIndex === 'number' ? presented.correctIndex : 0;
-  const order = shuffle(options.map((_, index) => index), random);
-
-  return {
-    ...presented,
-    options: order.map((index) => options[index]),
-    correctIndex: order.indexOf(originalCorrect),
-  };
+  return randomizeQuestionPresentation(question, random) as ExamBankQuestion;
 }
 
 export function isExamAnswerProvided(
@@ -258,7 +246,9 @@ export function examElapsedMs(
 ): number {
   const elapsed = new Date(submittedAt).getTime() - new Date(startedAt).getTime();
   if (!Number.isFinite(elapsed)) return 0;
-  return Math.min(Math.max(0, elapsed), Math.max(0, timeLimitMs));
+  const duration = Math.max(0, elapsed);
+  if (timeLimitMs <= 0) return duration;
+  return Math.min(duration, timeLimitMs);
 }
 
 export function buildExamAttempt(input: {
@@ -275,11 +265,15 @@ export function buildExamAttempt(input: {
   answers: Record<string, QuizAnswer | undefined>;
   examSessionId?: string;
   candidateNumber?: string;
+  outcome?: ExamOutcome;
+  exitedAt?: string;
 }): ExamAttempt {
   const grade = gradeExam(input.questions, input.answers);
   const candidate = input.candidateNumber
     ? { ...input.candidate, candidateNumber: input.candidateNumber }
     : input.candidate;
+  const outcome = input.outcome ?? 'submitted';
+  const exitedAt = outcome === 'exited' ? (input.exitedAt ?? input.submittedAt) : undefined;
 
   return {
     id: input.id,
@@ -299,6 +293,8 @@ export function buildExamAttempt(input: {
     score: grade.score,
     questions: grade.questions,
     ...(input.examSessionId ? { examSessionId: input.examSessionId } : {}),
+    outcome,
+    ...(exitedAt ? { exitedAt } : {}),
   };
 }
 

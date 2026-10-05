@@ -1,10 +1,8 @@
 'use client';
 
 import { useRef, useState, Suspense } from 'react';
-import Link from 'next/link';
 import { motion, useReducedMotion } from 'framer-motion';
 import { useEffectiveProgress } from '@/hooks/use-effective-progress';
-import { useAdminStore } from '@/store/admin-store';
 import { useProgressStore } from '@/store/progress-store';
 import {
   getOverallProgress,
@@ -20,7 +18,6 @@ import { CertificateTemplate } from '@/components/profile/CertificateTemplate';
 import { ProfileCard } from '@/components/profile/ProfileCard';
 import { PracticeHistory } from '@/components/profile/PracticeHistory';
 import { PracticeProfileNotice } from '@/components/profile/PracticeProfileNotice';
-import { isCandidateProfileComplete } from '@/lib/candidate-profile';
 import {
   downloadCertificatePNG,
   downloadCertificatePDF,
@@ -44,9 +41,6 @@ export function ProfilePageClient() {
   const certRef = useRef<HTMLDivElement>(null);
   const [certBelt, setCertBelt] = useState<string | null>(null);
   const reduced = useReducedMotion();
-  const isAdmin = useAdminStore((s) => s.isAdmin);
-  const profileComplete = isCandidateProfileComplete(progress.profile);
-  const canPractice = isAdmin || profileComplete;
 
   const overall = getOverallProgress(progress);
   const currentBelt = getCurrentBelt(progress);
@@ -96,34 +90,13 @@ export function ProfilePageClient() {
   const completedBelts = BELT_WORLDS.filter((b) => isBeltCompleted(b.id, progress));
 
   return (
-    <div className="profile-page relative min-h-screen overflow-hidden px-4 py-8 lg:px-10 lg:py-10">
-      <div className="relative mx-auto max-w-4xl">
-        <header className="profile-header mb-8 lg:mb-10">
-          <h1 className="profile-header__title font-display text-[1.75rem] font-bold uppercase sm:text-[2.125rem]">
-            Hồ Sơ Võ Đạo
-          </h1>
-        </header>
-
+    <>
         <ProfileCard className="mb-8 lg:mb-10" />
 
         <div className="mb-8 flex flex-col gap-6 lg:mb-10">
           <Suspense fallback={null}>
             <PracticeProfileNotice />
           </Suspense>
-          <section className="profile-card">
-            <h2 className="profile-card__title">Luyện đề trắc nghiệm</h2>
-            {canPractice ? (
-              <Link href="/profile/practice">
-                <Button variant="primary" size="md">
-                  Chọn cấp đai
-                </Button>
-              </Link>
-            ) : (
-              <p className="text-sm text-text-secondary">
-                Lưu đủ họ và tên, ngày sinh, CLB, võ đường và HLV hướng dẫn để mở luyện đề.
-              </p>
-            )}
-          </section>
           <PracticeHistory />
         </div>
 
@@ -350,7 +323,6 @@ export function ProfilePageClient() {
             </div>
           </section>
         </div>
-      </div>
 
       {certBelt && (
         <div className="fixed -left-[9999px]">
@@ -406,6 +378,6 @@ export function ProfilePageClient() {
           </div>
         )}
       </Modal>
-    </div>
+    </>
   );
 }

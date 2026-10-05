@@ -52,6 +52,21 @@ describe('exam results', () => {
     expect(toExamResultRecord(attempt()).dojo).toBe('Võ đường Phật Quang');
     expect(toExamResultRecord(attempt()).dateOfBirth).toBe('2010-05-02');
     expect(toExamResultRecord(attempt()).coach).toBe('Nguyễn Văn HLV');
+    expect(toExamResultRecord(attempt()).outcome).toBe('submitted');
+    expect(toExamResultRecord(attempt()).exitedAt).toBe('');
+  });
+
+  it('records an exited official attempt with the exit time', () => {
+    const record = toExamResultRecord(
+      attempt({
+        mode: 'official',
+        outcome: 'exited',
+        exitedAt: '2026-01-01T00:04:00.000Z',
+        submittedAt: '2026-01-01T00:04:00.000Z',
+      })
+    );
+    expect(record.outcome).toBe('exited');
+    expect(record.exitedAt).toBe('2026-01-01T00:04:00.000Z');
   });
 
   it('keeps a student code when the attempt has one', () => {
@@ -127,6 +142,9 @@ describe('exam results', () => {
     expect(rows[0]?.coach).toBe('HLV Bình');
     expect(rows[1]?.dateOfBirth).toBe('');
     expect(rows[1]?.coach).toBe('');
+    expect(rows[0]?.outcome).toBe('submitted');
+    expect(rows[0]?.exitedAt).toBe('');
+    expect(rows[1]?.outcome).toBe('submitted');
   });
 
   it('adds a jsonp callback without dropping the web app path', () => {

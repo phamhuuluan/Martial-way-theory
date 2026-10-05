@@ -46,8 +46,10 @@ export function QuizOption({
         className={cn(
           'flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold',
           multiple && 'rounded-[var(--radius-sm)]',
-          state === 'correct' || state === 'reveal-correct'
+          state === 'correct'
             ? 'bg-success text-white'
+            : state === 'reveal-correct'
+              ? 'bg-success/20 text-success'
             : state === 'missed-key'
               ? 'bg-unlock text-white'
             : state === 'incorrect'
@@ -57,8 +59,10 @@ export function QuizOption({
                 : 'bg-bg-elevated text-text-secondary'
         )}
       >
-        {state === 'correct' || state === 'reveal-correct' ? (
+        {state === 'correct' ? (
           <Check className="h-4 w-4" />
+        ) : state === 'reveal-correct' ? (
+          <Check className="h-4 w-4 opacity-75" />
         ) : state === 'missed-key' ? (
           <span className="text-xs font-bold">!</span>
         ) : state === 'incorrect' && selected ? (

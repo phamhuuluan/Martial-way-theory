@@ -30,12 +30,12 @@ describe('evaluateMultipleChoice', () => {
     expect(result.incorrectSelected).toBe(0);
   });
 
-  it('marks >50% correct without excessive wrong answers as partial', () => {
+  it('marks incomplete correct answers as incorrect', () => {
     const result = evaluateMultipleChoice(multipleQuestion, {
       selectedIndices: [0, 1],
     });
 
-    expect(result.level).toBe('partial');
+    expect(result.level).toBe('incorrect');
     expect(result.accuracy).toBeCloseTo(2 / 3);
     expect(result.missedIndices).toEqual([2]);
   });
@@ -115,17 +115,17 @@ describe('calculateScore with partial multi-select credit', () => {
     ],
   };
 
-  it('awards half credit for partially correct multi-select answers', () => {
+  it('awards NO credit for partially correct multi-select answers', () => {
     const result = calculateScore(quiz, [
       { questionId: 'q-multi', selectedIndices: [0, 1] },
       { questionId: 'q-single', selectedIndex: 0 },
     ]);
 
     expect(result.correctCount).toBe(1);
-    expect(result.partialCount).toBe(1);
-    expect(result.score).toBe(75);
-    expect(result.partialQuestions).toEqual(['q-multi']);
-    expect(result.wrongQuestions).toEqual([]);
+    expect(result.partialCount).toBe(0);
+    expect(result.score).toBe(50);
+    expect(result.partialQuestions).toEqual([]);
+    expect(result.wrongQuestions).toEqual(['q-multi']);
   });
 
   it('scores a written definition by word overlap of at least 65 percent', () => {

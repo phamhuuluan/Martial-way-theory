@@ -47,7 +47,7 @@ interface QuizEngineProps {
 }
 
 function createInitialOrder(question: QuizQuestion): number[] {
-  return (question.items ?? []).map((_, index) => index);
+  return question.itemsOrder ?? (question.items ?? []).map((_, index) => index);
 }
 
 function createInitialMatching(question: QuizQuestion): number[] {
@@ -567,19 +567,25 @@ export function QuizEngine({
     if (!currentQuestion) return null;
 
     if (isTrueFalseQuestion(currentQuestion)) {
+      const options = currentQuestion.options.length >= 2 ? currentQuestion.options : [...TRUE_FALSE_OPTIONS];
+      const order = currentQuestion.optionsOrder ?? options.map((_, i) => i);
       return (
         <div className="space-y-3 mb-8">
-          {TRUE_FALSE_OPTIONS.map((option, i) => (
-            <QuizOption
-              key={i}
-              label={option}
-              index={i}
-              selected={trueFalseIndex === i}
-              state={getTrueFalseState(currentQuestion, i)}
-              disabled={showFeedback}
-              onSelect={() => handleSelectTrueFalse(i)}
-            />
-          ))}
+          {order.map((originalIndex) => {
+            const option = options[originalIndex];
+            const i = originalIndex;
+            return (
+              <QuizOption
+                key={i}
+                label={option}
+                index={i}
+                selected={trueFalseIndex === i}
+                state={getTrueFalseState(currentQuestion, i)}
+                disabled={showFeedback}
+                onSelect={() => handleSelectTrueFalse(i)}
+              />
+            );
+          })}
         </div>
       );
     }
@@ -588,6 +594,7 @@ export function QuizEngine({
       return (
         <QuizFillBlank
           wordBank={currentQuestion.options}
+          optionsOrder={currentQuestion.optionsOrder}
           blankCount={currentQuestion.blanks?.length ?? 0}
           selectedByBlank={fillAnswers}
           feedback={showFeedback}
@@ -604,6 +611,7 @@ export function QuizEngine({
         <QuizMatching
           leftItems={currentQuestion.leftItems ?? []}
           rightItems={currentQuestion.rightItems ?? []}
+          rightItemsOrder={currentQuestion.rightItemsOrder}
           selectedByLeft={matchingAnswers}
           correctPairs={currentQuestion.correctPairs}
           feedback={showFeedback}
@@ -628,7 +636,10 @@ export function QuizEngine({
 
     return (
       <div className="space-y-3 mb-8">
-        {currentQuestion.options.map((option, i) => (
+        {(currentQuestion.optionsOrder ?? currentQuestion.options.map((_, idx) => idx)).map((originalIndex, displayIndex) => {
+          const option = currentQuestion.options[originalIndex];
+          const i = originalIndex;
+          return (
           <QuizOption
             key={i}
             label={option}
@@ -639,11 +650,9 @@ export function QuizEngine({
             }
             state={getOptionState(currentQuestion, i)}
             disabled={showFeedback}
-            onSelect={() =>
-              multiple ? handleToggleMultiple(i) : handleSelectSingle(i)
-            }
+            onSelect={() => multiple ? handleToggleMultiple(i) : handleSelectSingle(i)}
           />
-        ))}
+        );})}
       </div>
     );
   };

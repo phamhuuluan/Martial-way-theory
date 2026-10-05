@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils';
 
 interface QuizFillBlankProps {
   wordBank: string[];
+  optionsOrder?: number[];
   blankCount: number;
   selectedByBlank: number[];
   feedback?: boolean;
@@ -17,6 +18,7 @@ interface QuizFillBlankProps {
 
 export function QuizFillBlank({
   wordBank,
+  optionsOrder,
   blankCount,
   selectedByBlank,
   feedback = false,
@@ -122,7 +124,8 @@ export function QuizFillBlank({
       <div>
         <p className="mb-2 text-sm text-text-muted">Chọn từ trong ngân hàng từ:</p>
         <div className="flex flex-wrap gap-2">
-          {wordBank.map((word, optionIndex) => {
+          {(optionsOrder ?? wordBank.map((_, i) => i)).map((optionIndex) => {
+            const word = wordBank[optionIndex];
             const usedAt = selectedByBlank.indexOf(optionIndex);
             const isUsed = usedAt >= 0;
             const isCorrectUsage =

@@ -1,0 +1,3331 @@
+
+
+=== bach.json ===
+
+ID: bach-c04-01 (Lesson: white-lesson-02)
+Q: Điền vào chỗ trống: Võ sinh Phật Quang Quyền luôn sống có ích, tôn trọng lẽ phải và góp phần xây dựng xã hội tốt đẹp.
+Trong công việc phải ______[1].
+Trong nghỉ ngơi phải ______[2].
+Trong tu dưỡng phải ______[3].
+Ans: undefined
+Options: ["năng động, sáng tạo, nhiệt tình và luôn dẫn đầu","thoải mái, tự do để bù đắp năng lượng tiêu hao","sống khép kín, tránh xa xã hội, hạn chế giao tiếp","nỗ lực cạnh tranh, nắm bắt cơ hội, đạt hiệu suất cao","vui chơi hết mình, tham gia các hoạt động giải trí","sống chan hòa, chú trọng giao tiếp, mở rộng quan hệ"]
+Type: fill
+
+
+=== chuan-bach.json ===
+
+ID: chuan-bach-c18-01 (Lesson: white-lesson-01)
+Q: Điền vào chỗ trống: Người môn sinh Phật Quang Quyền thực hành hạnh nhường nhịn như thế nào?
+Biết nhường phần tốt cho người khác, ______[1], chân thành tán thán ưu điểm của huynh đệ và ______[2].
+Ans: undefined
+Options: ["không tranh giành quyền lãnh đạo hay tiếng tăm","không đòi hỏi phần thưởng hay sự đền đáp","luôn nhún nhường trong mọi cuộc tranh luận gay gắt","luôn đề cao sự đóng góp của mọi người xung quanh","luôn nhận phần công việc nặng nhọc nhất về phần mình","luôn giữ thái độ im lặng khi bị người khác hiểu lầm"]
+Type: fill
+
+
+=== hoang-1.json ===
+
+ID: hoang-1-c27-poem-1 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+______[1]
+Lập tấn liên ba phụng giang đầu
+______[2]
+______[3]
+Hạ hồi ký túc song long kích
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Song bộ khai quy đằng xuyên thích
+Phi vân chấp mã tấn sát ngưu
+______[10]
+______[11]
+______[12]
+Ans: undefined
+Options: ["Chuyển long xuất giác thối liên đài","Liên ba nhị bộ lập như tiền.","Quy đầu ngọa thế tấn độc lư","Đảo thế khuynh thân hầu long bộ","Quy vĩ phục thế tấn độc lư","Tam bộ tấn nghinh khai đản thủ","Hữu phi khai giác thích trung đình","Hồi long giáng thế đảo liên thành","Đơn bộ khai quy đằng xuyên thích","Hậu hoành nghinh chiến khai trực chỉ","Hoành thân xuất đả tái nghịch tâm","Hoành thân chuyển thoái tái nghịch tâm","Nhị bộ tấn nghinh khai đản thủ","Thượng hồi ký túc song long kích","Lập tấn song ba phụng giang đầu","Liên ba tam bộ lập như tiền.","Hạ hồi điểm túc song long kích","Đảo thế hoành thân hầu long bộ","Chấp thủ “song lư” sát thích thương","Tả phi khai giác thích trung đình","Thăng long giáng thế đảo liên thành","Phi vân hạ mã tấn sát ngưu","Bái tổ Song Lư Thương","Quy đầu phục thế tấn độc lư","Phi bộ tạ hồi thoái trung đỉnh","Chấp thủ “độc lư” sát thích thương","Phi bộ tạ hồi liên trung đỉnh","Hoành thân chuyển đả tái nghịch tâm","Tiền hoành nghinh chiến khai trực chỉ","Bái tổ Độc Lư Thương","Chuyển long phi giác thối liên đài"]
+Type: fill
+
+ID: hoang-1-c27-poem-2 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+______[1]
+______[2]
+______[3]
+Quy đầu phục thế tấn độc lư
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+Hồi long giáng thế đảo liên thành
+______[9]
+______[10]
+______[11]
+______[12]
+Chuyển long phi giác thối liên đài
+Liên ba tam bộ lập như tiền.
+Ans: undefined
+Options: ["Đảo thế hoành thân hầu long bộ","Quy vĩ phục thế tấn độc lư","Đảo thế khuynh thân hầu long bộ","Thăng long giáng thế đảo liên thành","Hậu hoành nghinh chiến khai trực chỉ","Nhị bộ tấn nghinh khai đản thủ","Hoành thân chuyển thoái tái nghịch tâm","Đơn bộ khai quy đằng xuyên thích","Tiền hoành nghinh chiến khai trực chỉ","Phi bộ tạ hồi thoái trung đỉnh","Bái tổ Song Lư Thương","Bái tổ Độc Lư Thương","Hạ hồi ký túc song long kích","Chuyển long xuất giác thối liên đài","Phi vân chấp mã tấn sát ngưu","Quy đầu ngọa thế tấn độc lư","Thượng hồi ký túc song long kích","Chấp thủ “độc lư” sát thích thương","Phi bộ tạ hồi liên trung đỉnh","Tam bộ tấn nghinh khai đản thủ","Lập tấn liên ba phụng giang đầu","Lập tấn song ba phụng giang đầu","Tả phi khai giác thích trung đình","Chấp thủ “song lư” sát thích thương","Hoành thân xuất đả tái nghịch tâm","Hạ hồi điểm túc song long kích","Song bộ khai quy đằng xuyên thích","Hữu phi khai giác thích trung đình","Phi vân hạ mã tấn sát ngưu","Liên ba nhị bộ lập như tiền.","Hoành thân chuyển đả tái nghịch tâm"]
+Type: fill
+
+ID: hoang-1-c27-poem-3 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+Bái tổ Độc Lư Thương
+______[1]
+______[2]
+______[3]
+______[4]
+Hoành thân chuyển đả tái nghịch tâm
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+Phi vân chấp mã tấn sát ngưu
+______[11]
+Chuyển long phi giác thối liên đài
+______[12]
+Ans: undefined
+Options: ["Liên ba nhị bộ lập như tiền.","Đảo thế hoành thân hầu long bộ","Tiền hoành nghinh chiến khai trực chỉ","Hoành thân xuất đả tái nghịch tâm","Thượng hồi ký túc song long kích","Quy vĩ phục thế tấn độc lư","Thăng long giáng thế đảo liên thành","Quy đầu ngọa thế tấn độc lư","Chấp thủ “song lư” sát thích thương","Lập tấn liên ba phụng giang đầu","Quy đầu phục thế tấn độc lư","Phi bộ tạ hồi liên trung đỉnh","Tam bộ tấn nghinh khai đản thủ","Đơn bộ khai quy đằng xuyên thích","Đảo thế khuynh thân hầu long bộ","Song bộ khai quy đằng xuyên thích","Chuyển long xuất giác thối liên đài","Phi bộ tạ hồi thoái trung đỉnh","Hữu phi khai giác thích trung đình","Lập tấn song ba phụng giang đầu","Nhị bộ tấn nghinh khai đản thủ","Chấp thủ “độc lư” sát thích thương","Hoành thân chuyển thoái tái nghịch tâm","Liên ba tam bộ lập như tiền.","Bái tổ Song Lư Thương","Hạ hồi điểm túc song long kích","Hậu hoành nghinh chiến khai trực chỉ","Phi vân hạ mã tấn sát ngưu","Hạ hồi ký túc song long kích","Tả phi khai giác thích trung đình","Hồi long giáng thế đảo liên thành"]
+Type: fill
+
+ID: hoang-1-c27-poem-4 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+Hoành thân chuyển đả tái nghịch tâm
+______[6]
+______[7]
+______[8]
+Hồi long giáng thế đảo liên thành
+______[9]
+______[10]
+Phi vân chấp mã tấn sát ngưu
+______[11]
+Chuyển long phi giác thối liên đài
+______[12]
+Ans: undefined
+Options: ["Bái tổ Song Lư Thương","Lập tấn song ba phụng giang đầu","Chuyển long xuất giác thối liên đài","Liên ba tam bộ lập như tiền.","Quy đầu phục thế tấn độc lư","Quy vĩ phục thế tấn độc lư","Thăng long giáng thế đảo liên thành","Hoành thân xuất đả tái nghịch tâm","Bái tổ Độc Lư Thương","Hạ hồi điểm túc song long kích","Nhị bộ tấn nghinh khai đản thủ","Đơn bộ khai quy đằng xuyên thích","Đảo thế hoành thân hầu long bộ","Tả phi khai giác thích trung đình","Tam bộ tấn nghinh khai đản thủ","Tiền hoành nghinh chiến khai trực chỉ","Phi bộ tạ hồi thoái trung đỉnh","Hậu hoành nghinh chiến khai trực chỉ","Phi vân hạ mã tấn sát ngưu","Hạ hồi ký túc song long kích","Chấp thủ “song lư” sát thích thương","Quy đầu ngọa thế tấn độc lư","Thượng hồi ký túc song long kích","Hoành thân chuyển thoái tái nghịch tâm","Phi bộ tạ hồi liên trung đỉnh","Lập tấn liên ba phụng giang đầu","Hữu phi khai giác thích trung đình","Liên ba nhị bộ lập như tiền.","Đảo thế khuynh thân hầu long bộ","Song bộ khai quy đằng xuyên thích","Chấp thủ “độc lư” sát thích thương"]
+Type: fill
+
+ID: hoang-1-c27-poem-5 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+______[1]
+Lập tấn liên ba phụng giang đầu
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+Phi bộ tạ hồi liên trung đỉnh
+______[8]
+Chấp thủ “độc lư” sát thích thương
+______[9]
+______[10]
+______[11]
+Chuyển long phi giác thối liên đài
+______[12]
+Ans: undefined
+Options: ["Bái tổ Độc Lư Thương","Thượng hồi ký túc song long kích","Quy vĩ phục thế tấn độc lư","Phi vân chấp mã tấn sát ngưu","Phi bộ tạ hồi thoái trung đỉnh","Thăng long giáng thế đảo liên thành","Đảo thế khuynh thân hầu long bộ","Chuyển long xuất giác thối liên đài","Song bộ khai quy đằng xuyên thích","Nhị bộ tấn nghinh khai đản thủ","Hồi long giáng thế đảo liên thành","Hữu phi khai giác thích trung đình","Đơn bộ khai quy đằng xuyên thích","Đảo thế hoành thân hầu long bộ","Hoành thân chuyển thoái tái nghịch tâm","Quy đầu phục thế tấn độc lư","Chấp thủ “song lư” sát thích thương","Phi vân hạ mã tấn sát ngưu","Hoành thân xuất đả tái nghịch tâm","Hạ hồi ký túc song long kích","Hậu hoành nghinh chiến khai trực chỉ","Quy đầu ngọa thế tấn độc lư","Tả phi khai giác thích trung đình","Tam bộ tấn nghinh khai đản thủ","Lập tấn song ba phụng giang đầu","Hoành thân chuyển đả tái nghịch tâm","Bái tổ Song Lư Thương","Tiền hoành nghinh chiến khai trực chỉ","Hạ hồi điểm túc song long kích","Liên ba nhị bộ lập như tiền.","Liên ba tam bộ lập như tiền."]
+Type: fill
+
+ID: hoang-1-c27-poem-6 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+______[1]
+______[2]
+______[3]
+______[4]
+Hạ hồi ký túc song long kích
+______[5]
+______[6]
+______[7]
+Phi bộ tạ hồi liên trung đỉnh
+______[8]
+______[9]
+______[10]
+______[11]
+Đảo thế khuynh thân hầu long bộ
+Chuyển long phi giác thối liên đài
+______[12]
+Ans: undefined
+Options: ["Bái tổ Song Lư Thương","Thượng hồi ký túc song long kích","Chuyển long xuất giác thối liên đài","Lập tấn song ba phụng giang đầu","Tam bộ tấn nghinh khai đản thủ","Quy đầu ngọa thế tấn độc lư","Liên ba tam bộ lập như tiền.","Hoành thân chuyển đả tái nghịch tâm","Tiền hoành nghinh chiến khai trực chỉ","Đảo thế hoành thân hầu long bộ","Hoành thân chuyển thoái tái nghịch tâm","Hạ hồi điểm túc song long kích","Hậu hoành nghinh chiến khai trực chỉ","Phi vân hạ mã tấn sát ngưu","Phi vân chấp mã tấn sát ngưu","Phi bộ tạ hồi thoái trung đỉnh","Chấp thủ “song lư” sát thích thương","Quy đầu phục thế tấn độc lư","Quy vĩ phục thế tấn độc lư","Thăng long giáng thế đảo liên thành","Lập tấn liên ba phụng giang đầu","Hoành thân xuất đả tái nghịch tâm","Nhị bộ tấn nghinh khai đản thủ","Song bộ khai quy đằng xuyên thích","Hữu phi khai giác thích trung đình","Tả phi khai giác thích trung đình","Hồi long giáng thế đảo liên thành","Bái tổ Độc Lư Thương","Chấp thủ “độc lư” sát thích thương","Đơn bộ khai quy đằng xuyên thích","Liên ba nhị bộ lập như tiền."]
+Type: fill
+
+ID: hoang-1-c27-poem-7 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+______[1]
+______[2]
+______[3]
+Quy đầu phục thế tấn độc lư
+______[4]
+______[5]
+Hậu hoành nghinh chiến khai trực chỉ
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+______[11]
+Đảo thế khuynh thân hầu long bộ
+______[12]
+Liên ba tam bộ lập như tiền.
+Ans: undefined
+Options: ["Phi vân hạ mã tấn sát ngưu","Bái tổ Song Lư Thương","Nhị bộ tấn nghinh khai đản thủ","Chuyển long xuất giác thối liên đài","Liên ba nhị bộ lập như tiền.","Hoành thân xuất đả tái nghịch tâm","Song bộ khai quy đằng xuyên thích","Hồi long giáng thế đảo liên thành","Thăng long giáng thế đảo liên thành","Đảo thế hoành thân hầu long bộ","Hoành thân chuyển đả tái nghịch tâm","Lập tấn song ba phụng giang đầu","Tả phi khai giác thích trung đình","Phi vân chấp mã tấn sát ngưu","Hạ hồi điểm túc song long kích","Phi bộ tạ hồi thoái trung đỉnh","Chấp thủ “độc lư” sát thích thương","Phi bộ tạ hồi liên trung đỉnh","Đơn bộ khai quy đằng xuyên thích","Hạ hồi ký túc song long kích","Quy vĩ phục thế tấn độc lư","Hữu phi khai giác thích trung đình","Tam bộ tấn nghinh khai đản thủ","Thượng hồi ký túc song long kích","Lập tấn liên ba phụng giang đầu","Quy đầu ngọa thế tấn độc lư","Hoành thân chuyển thoái tái nghịch tâm","Tiền hoành nghinh chiến khai trực chỉ","Chấp thủ “song lư” sát thích thương","Bái tổ Độc Lư Thương","Chuyển long phi giác thối liên đài"]
+Type: fill
+
+ID: hoang-1-c27-poem-8 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+Bái tổ Độc Lư Thương
+______[1]
+______[2]
+______[3]
+______[4]
+Hoành thân chuyển đả tái nghịch tâm
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+______[11]
+Đảo thế khuynh thân hầu long bộ
+Chuyển long phi giác thối liên đài
+______[12]
+Ans: undefined
+Options: ["Phi bộ tạ hồi liên trung đỉnh","Nhị bộ tấn nghinh khai đản thủ","Chuyển long xuất giác thối liên đài","Song bộ khai quy đằng xuyên thích","Hạ hồi ký túc song long kích","Tiền hoành nghinh chiến khai trực chỉ","Hữu phi khai giác thích trung đình","Bái tổ Song Lư Thương","Hậu hoành nghinh chiến khai trực chỉ","Liên ba nhị bộ lập như tiền.","Phi bộ tạ hồi thoái trung đỉnh","Quy đầu ngọa thế tấn độc lư","Đảo thế hoành thân hầu long bộ","Thượng hồi ký túc song long kích","Thăng long giáng thế đảo liên thành","Chấp thủ “song lư” sát thích thương","Hồi long giáng thế đảo liên thành","Hoành thân xuất đả tái nghịch tâm","Lập tấn song ba phụng giang đầu","Chấp thủ “độc lư” sát thích thương","Quy đầu phục thế tấn độc lư","Phi vân chấp mã tấn sát ngưu","Đơn bộ khai quy đằng xuyên thích","Liên ba tam bộ lập như tiền.","Hạ hồi điểm túc song long kích","Tam bộ tấn nghinh khai đản thủ","Phi vân hạ mã tấn sát ngưu","Tả phi khai giác thích trung đình","Lập tấn liên ba phụng giang đầu","Quy vĩ phục thế tấn độc lư","Hoành thân chuyển thoái tái nghịch tâm"]
+Type: fill
+
+ID: hoang-1-c27-poem-9 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+______[1]
+______[2]
+______[3]
+Quy đầu phục thế tấn độc lư
+______[4]
+______[5]
+Hậu hoành nghinh chiến khai trực chỉ
+______[6]
+______[7]
+______[8]
+Chấp thủ “độc lư” sát thích thương
+______[9]
+______[10]
+______[11]
+______[12]
+Liên ba tam bộ lập như tiền.
+Ans: undefined
+Options: ["Đảo thế hoành thân hầu long bộ","Tam bộ tấn nghinh khai đản thủ","Chấp thủ “song lư” sát thích thương","Lập tấn song ba phụng giang đầu","Tả phi khai giác thích trung đình","Quy vĩ phục thế tấn độc lư","Song bộ khai quy đằng xuyên thích","Thượng hồi ký túc song long kích","Đảo thế khuynh thân hầu long bộ","Hoành thân chuyển thoái tái nghịch tâm","Bái tổ Độc Lư Thương","Quy đầu ngọa thế tấn độc lư","Nhị bộ tấn nghinh khai đản thủ","Hoành thân chuyển đả tái nghịch tâm","Hạ hồi ký túc song long kích","Phi bộ tạ hồi thoái trung đỉnh","Hoành thân xuất đả tái nghịch tâm","Bái tổ Song Lư Thương","Chuyển long phi giác thối liên đài","Thăng long giáng thế đảo liên thành","Liên ba nhị bộ lập như tiền.","Hữu phi khai giác thích trung đình","Hồi long giáng thế đảo liên thành","Tiền hoành nghinh chiến khai trực chỉ","Đơn bộ khai quy đằng xuyên thích","Phi vân hạ mã tấn sát ngưu","Phi bộ tạ hồi liên trung đỉnh","Lập tấn liên ba phụng giang đầu","Hạ hồi điểm túc song long kích","Chuyển long xuất giác thối liên đài","Phi vân chấp mã tấn sát ngưu"]
+Type: fill
+
+ID: hoang-1-c27-poem-10 (Lesson: yellow-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Độc Lư Thương:
+
+______[1]
+______[2]
+Nhị bộ tấn nghinh khai đản thủ
+______[3]
+______[4]
+______[5]
+Hậu hoành nghinh chiến khai trực chỉ
+______[6]
+Phi bộ tạ hồi liên trung đỉnh
+______[7]
+______[8]
+______[9]
+______[10]
+Đảo thế khuynh thân hầu long bộ
+______[11]
+______[12]
+Ans: undefined
+Options: ["Tiền hoành nghinh chiến khai trực chỉ","Hạ hồi ký túc song long kích","Phi vân chấp mã tấn sát ngưu","Hồi long giáng thế đảo liên thành","Bái tổ Song Lư Thương","Lập tấn song ba phụng giang đầu","Chuyển long phi giác thối liên đài","Hoành thân xuất đả tái nghịch tâm","Hoành thân chuyển đả tái nghịch tâm","Thăng long giáng thế đảo liên thành","Quy đầu ngọa thế tấn độc lư","Hạ hồi điểm túc song long kích","Hữu phi khai giác thích trung đình","Tả phi khai giác thích trung đình","Chấp thủ “song lư” sát thích thương","Thượng hồi ký túc song long kích","Phi vân hạ mã tấn sát ngưu","Quy vĩ phục thế tấn độc lư","Quy đầu phục thế tấn độc lư","Chấp thủ “độc lư” sát thích thương","Liên ba nhị bộ lập như tiền.","Đảo thế hoành thân hầu long bộ","Bái tổ Độc Lư Thương","Liên ba tam bộ lập như tiền.","Đơn bộ khai quy đằng xuyên thích","Chuyển long xuất giác thối liên đài","Phi bộ tạ hồi thoái trung đỉnh","Lập tấn liên ba phụng giang đầu","Tam bộ tấn nghinh khai đản thủ","Hoành thân chuyển thoái tái nghịch tâm","Song bộ khai quy đằng xuyên thích"]
+Type: fill
+
+
+=== hong-1.json ===
+
+ID: hong-1-c09-01 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống: Tại Việt Nam, từ ______[1], võ học đã dần thâm nhập vào binh pháp. Danh tướng ______[2] được xem là một trong những binh pháp gia tiêu biểu đầu tiên của dân tộc, nổi bật với việc vận dụng binh pháp một cách sáng tạo và hiệu quả trong công cuộc bảo vệ đất nước.
+Ans: undefined
+Options: ["thời đại đồ đồng","thời kỳ phong kiến","thời đại đồ đá mới","Trần Hưng Đạo","Quang Trung","Ngô Quyền"]
+Type: fill
+
+ID: hong-1-c14-2 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+Bình thân
+______[1]
+Tiên ông chỉ lộ
+______[2]
+Song long xuất thủy
+______[3]
+Bạch hạc đạt tuyết
+______[4]
+Song long xuất thủy
+Song long bảo nguyệt
+Tà phong tảo diệp
+______[5]
+______[6]
+Thiết ngưu chuyển giác
+Song long xuất thủy
+______[7]
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+Bạch xà luân thân
+Thiết ngưu chuyển giác
+Song long xuất thủy
+______[8]
+______[9]
+Tam bộ loan kiếm
+______[10]
+Tả hữu loan kiếm
+Phượng lập sơn đầu
+Song long xuất hải
+Ma vương trá tẩu
+Ẩn long phục thế
+Phốc bộ phi cước
+______[11]
+Hoành phong tảo địa
+Bạch xà luân thân
+______[12]
+Thiết ngưu chuyển giác
+Loan kiếm tuyết hoa
+Bạch long triều nguyệt
+Song long xuất thủy
+Bái tổ lập như tiền
+Ans: undefined
+Options: ["Song long xuất vân","Thanh xà luân thân","Chuyển thân hồi kiếm","Phượng vũ sơn đầu","Tiên đồng chỉ lộ","Song long khai khẩu","Luân thân hồi kiếm","Hoành phong bạt địa","Đằng bộ phi cước","Bạch hạc tầm tuyết","Song long hợp khẩu","Song long thám thủy","Song long thưởng nguyệt","Yến phi điểu trá","Ma vương bạt tẩu","Loan kiếm liên hoa","Thiết ngưu chuyển giác","Thượng hạ loan kiếm","Loan kiếm tuyết hoa","Hồi tổ lập như tiền","Tam bộ loan kiếm","Tứ bộ loan kiếm","Bái tổ kính sư","Bạch xà luân thân","Thiết ngưu chuyển đầu","Ẩn long tàng thế","Bạch long đắc nguyệt","Song long xuất hải","Thu phong tảo diệp","Hoành phong tảo địa","Điểu trá yến phi"]
+Type: fill
+
+ID: hong-1-c14-3 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+______[1]
+______[2]
+Tiên ông chỉ lộ
+Song long hợp khẩu
+______[3]
+______[4]
+Bạch hạc đạt tuyết
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Song long bảo nguyệt
+Tà phong tảo diệp
+Hoành phong tảo địa
+Luân thân hồi kiếm
+______[5]
+Song long xuất thủy
+______[6]
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+______[7]
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+______[8]
+______[9]
+Phượng lập sơn đầu
+Song long xuất hải
+______[10]
+______[11]
+Phốc bộ phi cước
+______[12]
+Hoành phong tảo địa
+Bạch xà luân thân
+Điểu trá yến phi
+Thiết ngưu chuyển giác
+Loan kiếm tuyết hoa
+Bạch long triều nguyệt
+Song long xuất thủy
+Bái tổ lập như tiền
+Ans: undefined
+Options: ["Tiên đồng chỉ lộ","Thiết ngưu chuyển đầu","Tam bộ loan kiếm","Song long xuất thủy","Song long thưởng nguyệt","Song long thám thủy","Ma vương bạt tẩu","Thượng hạ loan kiếm","Song long xuất hải","Tả hữu loan kiếm","Song long khai khẩu","Đằng bộ phi cước","Bạch xà luân thân","Phượng vũ sơn đầu","Yến phi điểu trá","Ẩn long tàng thế","Tứ bộ loan kiếm","Loan kiếm tuyết hoa","Hồi tổ lập như tiền","Ẩn long phục thế","Thu phong tảo diệp","Hoành phong bạt địa","Bình thân","Ma vương trá tẩu","Song long xuất vân","Bạch hạc tầm tuyết","Chuyển thân hồi kiếm","Thiết ngưu chuyển giác","Loan kiếm liên hoa","Thanh xà luân thân","Bái tổ kính sư","Bạch long đắc nguyệt"]
+Type: fill
+
+ID: hong-1-c14-4 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+______[1]
+Bái tổ kính sư
+Tiên ông chỉ lộ
+Song long hợp khẩu
+Song long xuất thủy
+______[2]
+Bạch hạc đạt tuyết
+Thiết ngưu chuyển giác
+______[3]
+______[4]
+Tà phong tảo diệp
+Hoành phong tảo địa
+______[5]
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Loan kiếm tuyết hoa
+______[6]
+Tam bộ loan kiếm
+Bạch xà luân thân
+Thiết ngưu chuyển giác
+______[7]
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+______[8]
+Bạch xà luân thân
+______[9]
+Phượng lập sơn đầu
+Song long xuất hải
+Ma vương trá tẩu
+Ẩn long phục thế
+______[10]
+Song long xuất hải
+Hoành phong tảo địa
+Bạch xà luân thân
+Điểu trá yến phi
+______[11]
+Loan kiếm tuyết hoa
+Bạch long triều nguyệt
+______[12]
+Bái tổ lập như tiền
+Ans: undefined
+Options: ["Bạch long đắc nguyệt","Thượng hạ loan kiếm","Tứ bộ loan kiếm","Tiên đồng chỉ lộ","Hoành phong bạt địa","Loan kiếm liên hoa","Bạch hạc tầm tuyết","Song long bảo nguyệt","Ma vương bạt tẩu","Đằng bộ phi cước","Thu phong tảo diệp","Bình thân","Song long khai khẩu","Yến phi điểu trá","Phượng vũ sơn đầu","Song long xuất thủy","Song long thưởng nguyệt","Luân thân hồi kiếm","Thanh xà luân thân","Thiết ngưu chuyển đầu","Phốc bộ phi cước","Tả hữu loan kiếm","Song long thám thủy","Chuyển thân hồi kiếm","Ẩn long tàng thế","Thiết ngưu chuyển giác","Hồi tổ lập như tiền","Tam bộ loan kiếm","Song long xuất vân"]
+Type: fill
+
+ID: hong-1-c14-5 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+Bình thân
+Bái tổ kính sư
+______[1]
+Song long hợp khẩu
+Song long xuất thủy
+Tam bộ loan kiếm
+______[2]
+______[3]
+Song long xuất thủy
+Song long bảo nguyệt
+Tà phong tảo diệp
+Hoành phong tảo địa
+Luân thân hồi kiếm
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Loan kiếm tuyết hoa
+______[4]
+______[5]
+Bạch xà luân thân
+______[6]
+Song long xuất thủy
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+______[7]
+Bạch xà luân thân
+Tả hữu loan kiếm
+Phượng lập sơn đầu
+Song long xuất hải
+______[8]
+______[9]
+Phốc bộ phi cước
+______[10]
+Hoành phong tảo địa
+Bạch xà luân thân
+Điểu trá yến phi
+______[11]
+Loan kiếm tuyết hoa
+______[12]
+Song long xuất thủy
+Bái tổ lập như tiền
+Ans: undefined
+Options: ["Ẩn long phục thế","Loan kiếm liên hoa","Đằng bộ phi cước","Ma vương bạt tẩu","Hoành phong bạt địa","Thu phong tảo diệp","Yến phi điểu trá","Song long xuất vân","Song long thưởng nguyệt","Tam bộ loan kiếm","Thiết ngưu chuyển đầu","Thiết ngưu chuyển giác","Phượng vũ sơn đầu","Bạch hạc tầm tuyết","Tứ bộ loan kiếm","Bạch long triều nguyệt","Ẩn long tàng thế","Tiên ông chỉ lộ","Song long thám thủy","Ma vương trá tẩu","Song long xuất hải","Thượng hạ loan kiếm","Song long khai khẩu","Chuyển thân hồi kiếm","Luân thân hồi kiếm","Thanh xà luân thân","Hồi tổ lập như tiền","Bạch long đắc nguyệt","Tiên đồng chỉ lộ","Bạch hạc đạt tuyết"]
+Type: fill
+
+ID: hong-1-c14-6 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+Bình thân
+Bái tổ kính sư
+Tiên ông chỉ lộ
+Song long hợp khẩu
+______[1]
+______[2]
+______[3]
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Song long bảo nguyệt
+Tà phong tảo diệp
+Hoành phong tảo địa
+______[4]
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Loan kiếm tuyết hoa
+______[5]
+______[6]
+Bạch xà luân thân
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+______[7]
+Tả hữu loan kiếm
+Phượng lập sơn đầu
+Song long xuất hải
+______[8]
+Ẩn long phục thế
+______[9]
+Song long xuất hải
+Hoành phong tảo địa
+______[10]
+Điểu trá yến phi
+Thiết ngưu chuyển giác
+______[11]
+Bạch long triều nguyệt
+______[12]
+Bái tổ lập như tiền
+Ans: undefined
+Options: ["Luân thân hồi kiếm","Tứ bộ loan kiếm","Ma vương trá tẩu","Phượng vũ sơn đầu","Bạch hạc đạt tuyết","Song long thưởng nguyệt","Thiết ngưu chuyển đầu","Bạch long đắc nguyệt","Đằng bộ phi cước","Ma vương bạt tẩu","Bạch xà luân thân","Song long khai khẩu","Hồi tổ lập như tiền","Song long xuất vân","Ẩn long tàng thế","Tiên đồng chỉ lộ","Chuyển thân hồi kiếm","Song long xuất thủy","Hoành phong bạt địa","Phốc bộ phi cước","Thu phong tảo diệp","Song long thám thủy","Tam bộ loan kiếm","Loan kiếm tuyết hoa","Thanh xà luân thân","Bạch hạc tầm tuyết","Yến phi điểu trá","Thượng hạ loan kiếm","Loan kiếm liên hoa"]
+Type: fill
+
+ID: hong-1-c14-7 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+Bình thân
+Bái tổ kính sư
+Tiên ông chỉ lộ
+______[1]
+Song long xuất thủy
+Tam bộ loan kiếm
+Bạch hạc đạt tuyết
+Thiết ngưu chuyển giác
+______[2]
+Song long bảo nguyệt
+______[3]
+Hoành phong tảo địa
+______[4]
+______[5]
+Song long xuất thủy
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+______[6]
+______[7]
+Thiết ngưu chuyển giác
+Song long xuất thủy
+______[8]
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+Bạch xà luân thân
+Tả hữu loan kiếm
+______[9]
+Song long xuất hải
+Ma vương trá tẩu
+Ẩn long phục thế
+______[10]
+Song long xuất hải
+Hoành phong tảo địa
+Bạch xà luân thân
+Điểu trá yến phi
+Thiết ngưu chuyển giác
+Loan kiếm tuyết hoa
+______[11]
+Song long xuất thủy
+______[12]
+Ans: undefined
+Options: ["Bạch long triều nguyệt","Bạch xà luân thân","Thiết ngưu chuyển giác","Tiên đồng chỉ lộ","Song long xuất thủy","Chuyển thân hồi kiếm","Song long khai khẩu","Song long thưởng nguyệt","Hoành phong bạt địa","Song long thám thủy","Bạch hạc tầm tuyết","Song long xuất vân","Luân thân hồi kiếm","Thượng hạ loan kiếm","Ẩn long tàng thế","Tam bộ loan kiếm","Thanh xà luân thân","Phượng vũ sơn đầu","Đằng bộ phi cước","Ma vương bạt tẩu","Hồi tổ lập như tiền","Phốc bộ phi cước","Song long hợp khẩu","Bái tổ lập như tiền","Bạch long đắc nguyệt","Tứ bộ loan kiếm","Loan kiếm liên hoa","Thiết ngưu chuyển đầu","Phượng lập sơn đầu","Loan kiếm tuyết hoa","Yến phi điểu trá","Thu phong tảo diệp","Tà phong tảo diệp"]
+Type: fill
+
+ID: hong-1-c14-8 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+______[1]
+______[2]
+Tiên ông chỉ lộ
+Song long hợp khẩu
+Song long xuất thủy
+______[3]
+Bạch hạc đạt tuyết
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Song long bảo nguyệt
+Tà phong tảo diệp
+______[4]
+Luân thân hồi kiếm
+______[5]
+Song long xuất thủy
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+______[6]
+______[7]
+Song long xuất thủy
+Loan kiếm tuyết hoa
+______[8]
+Tam bộ loan kiếm
+______[9]
+Tả hữu loan kiếm
+Phượng lập sơn đầu
+______[10]
+Ma vương trá tẩu
+Ẩn long phục thế
+Phốc bộ phi cước
+Song long xuất hải
+Hoành phong tảo địa
+______[11]
+Điểu trá yến phi
+Thiết ngưu chuyển giác
+Loan kiếm tuyết hoa
+Bạch long triều nguyệt
+______[12]
+Bái tổ lập như tiền
+Ans: undefined
+Options: ["Luân thân hồi kiếm","Thượng hạ loan kiếm","Song long xuất thủy","Thiết ngưu chuyển đầu","Phượng vũ sơn đầu","Song long khai khẩu","Bạch long đắc nguyệt","Tiên đồng chỉ lộ","Đằng bộ phi cước","Song long thưởng nguyệt","Song long xuất hải","Ẩn long tàng thế","Bạch hạc tầm tuyết","Bạch xà luân thân","Song long xuất vân","Hoành phong bạt địa","Loan kiếm liên hoa","Hồi tổ lập như tiền","Hoành phong tảo địa","Ma vương bạt tẩu","Yến phi điểu trá","Song long thám thủy","Bái tổ kính sư","Thanh xà luân thân","Tam bộ loan kiếm","Chuyển thân hồi kiếm","Thiết ngưu chuyển giác","Tứ bộ loan kiếm","Bình thân","Thu phong tảo diệp"]
+Type: fill
+
+ID: hong-1-c14-9 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+______[1]
+Bái tổ kính sư
+Tiên ông chỉ lộ
+______[2]
+______[3]
+Tam bộ loan kiếm
+Bạch hạc đạt tuyết
+Thiết ngưu chuyển giác
+______[4]
+Song long bảo nguyệt
+______[5]
+Hoành phong tảo địa
+Luân thân hồi kiếm
+Thiết ngưu chuyển giác
+______[6]
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+Bạch xà luân thân
+Thiết ngưu chuyển giác
+______[7]
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+Bạch xà luân thân
+Tả hữu loan kiếm
+Phượng lập sơn đầu
+Song long xuất hải
+______[8]
+Ẩn long phục thế
+______[9]
+Song long xuất hải
+______[10]
+Bạch xà luân thân
+Điểu trá yến phi
+Thiết ngưu chuyển giác
+Loan kiếm tuyết hoa
+______[11]
+______[12]
+Bái tổ lập như tiền
+Ans: undefined
+Options: ["Ma vương bạt tẩu","Bạch long triều nguyệt","Hồi tổ lập như tiền","Tứ bộ loan kiếm","Song long khai khẩu","Ma vương trá tẩu","Bạch hạc tầm tuyết","Song long thưởng nguyệt","Loan kiếm liên hoa","Song long xuất vân","Song long thám thủy","Yến phi điểu trá","Phượng vũ sơn đầu","Bình thân","Song long hợp khẩu","Phốc bộ phi cước","Bạch long đắc nguyệt","Thanh xà luân thân","Thượng hạ loan kiếm","Hoành phong bạt địa","Tà phong tảo diệp","Tiên đồng chỉ lộ","Song long xuất thủy","Đằng bộ phi cước","Thu phong tảo diệp","Ẩn long tàng thế","Chuyển thân hồi kiếm","Thiết ngưu chuyển đầu","Hoành phong tảo địa"]
+Type: fill
+
+ID: hong-1-c14-10 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+Bình thân
+______[1]
+Tiên ông chỉ lộ
+______[2]
+Song long xuất thủy
+Tam bộ loan kiếm
+Bạch hạc đạt tuyết
+Thiết ngưu chuyển giác
+Song long xuất thủy
+______[3]
+Tà phong tảo diệp
+Hoành phong tảo địa
+Luân thân hồi kiếm
+______[4]
+Song long xuất thủy
+______[5]
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+______[6]
+Thiết ngưu chuyển giác
+Song long xuất thủy
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+______[7]
+Tả hữu loan kiếm
+Phượng lập sơn đầu
+______[8]
+Ma vương trá tẩu
+______[9]
+Phốc bộ phi cước
+Song long xuất hải
+Hoành phong tảo địa
+Bạch xà luân thân
+______[10]
+Thiết ngưu chuyển giác
+______[11]
+______[12]
+Song long xuất thủy
+Bái tổ lập như tiền
+Ans: undefined
+Options: ["Điểu trá yến phi","Thượng hạ loan kiếm","Song long xuất hải","Song long thưởng nguyệt","Thiết ngưu chuyển giác","Tiên đồng chỉ lộ","Thu phong tảo diệp","Ẩn long tàng thế","Thiết ngưu chuyển đầu","Bạch long đắc nguyệt","Hoành phong bạt địa","Song long xuất vân","Chuyển thân hồi kiếm","Song long hợp khẩu","Song long khai khẩu","Tứ bộ loan kiếm","Ma vương bạt tẩu","Song long thám thủy","Đằng bộ phi cước","Hồi tổ lập như tiền","Ẩn long phục thế","Bạch hạc tầm tuyết","Loan kiếm liên hoa","Bạch long triều nguyệt","Phượng vũ sơn đầu","Yến phi điểu trá","Song long bảo nguyệt","Thanh xà luân thân","Bái tổ kính sư","Bạch xà luân thân","Loan kiếm tuyết hoa"]
+Type: fill
+
+ID: hong-1-c14-11 (Lesson: red-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:
+
+Bình thân
+______[1]
+______[2]
+Song long hợp khẩu
+Song long xuất thủy
+______[3]
+Bạch hạc đạt tuyết
+______[4]
+Song long xuất thủy
+Song long bảo nguyệt
+Tà phong tảo diệp
+Hoành phong tảo địa
+Luân thân hồi kiếm
+Thiết ngưu chuyển giác
+Song long xuất thủy
+______[5]
+______[6]
+Tam bộ loan kiếm
+______[7]
+Thiết ngưu chuyển giác
+______[8]
+Loan kiếm tuyết hoa
+Luân thân hồi kiếm
+Tam bộ loan kiếm
+______[9]
+Tả hữu loan kiếm
+Phượng lập sơn đầu
+Song long xuất hải
+Ma vương trá tẩu
+Ẩn long phục thế
+Phốc bộ phi cước
+Song long xuất hải
+Hoành phong tảo địa
+______[10]
+______[11]
+Thiết ngưu chuyển giác
+Loan kiếm tuyết hoa
+Bạch long triều nguyệt
+Song long xuất thủy
+______[12]
+Ans: undefined
+Options: ["Song long thám thủy","Song long khai khẩu","Thanh xà luân thân","Loan kiếm liên hoa","Phượng vũ sơn đầu","Hồi tổ lập như tiền","Bái tổ lập như tiền","Thu phong tảo diệp","Chuyển thân hồi kiếm","Ẩn long tàng thế","Thượng hạ loan kiếm","Yến phi điểu trá","Thiết ngưu chuyển đầu","Song long xuất thủy","Bạch long đắc nguyệt","Điểu trá yến phi","Luân thân hồi kiếm","Ma vương bạt tẩu","Bái tổ kính sư","Thiết ngưu chuyển giác","Hoành phong bạt địa","Bạch xà luân thân","Tứ bộ loan kiếm","Song long xuất vân","Tam bộ loan kiếm","Loan kiếm tuyết hoa","Đằng bộ phi cước","Bạch hạc tầm tuyết","Song long thưởng nguyệt","Tiên đồng chỉ lộ","Tiên ông chỉ lộ"]
+Type: fill
+
+
+=== hong-2.json ===
+
+ID: hong-2-c09-01 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống: Muốn tổ chức và điều hành tốt một lớp võ, huấn luyện viên cần:
+Sắp xếp võ sinh hợp lý: Căn cứ vào tuổi tác, giới tính, trình độ, ______[1] để xưng hô, đối xử và bố trí vị trí tập luyện phù hợp.
+Tìm hiểu khả năng của võ sinh: Nắm được sức khỏe, ______[2] của từng võ sinh để hướng dẫn và huấn luyện đúng mức.
+Giữ gìn kỷ luật lớp học: Quan sát, phát hiện những trường hợp gây mất trật tự, phá hoại hoặc ảnh hưởng đến lớp học để có biện pháp ngăn chặn và duy trì kỷ luật.
+Ans: undefined
+Options: ["tính cách và năng khiếu của võ sinh","thu nhập và xuất thân của võ sinh","sở thích và nguyện vọng của võ sinh","thành tích thi đấu và kinh nghiệm","năng lực tài chính và đóng góp","sự chăm chỉ và mức độ thông minh"]
+Type: fill
+
+ID: hong-2-c17-2 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+Bái tổ lập đao
+Giao đao đả hổ
+Tàng đầu hữu bàn đao
+Hoành khiêu bộ khóa đao
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+Độc lập phách mạc đao
+Tả hữu trích tinh đao
+Hồi đao thích hổ
+______[1]
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+______[2]
+______[3]
+Phục hổ trảm thượng đao
+Hoành tảo thiên quân đao
+Thiềm triển kháo đao
+______[4]
+______[5]
+Phạt thảo hí long
+Khiên thủ tàng đao
+______[6]
+Hồi thân trảm mã đao
+Độc lập hạ tiệt cước
+______[7]
+Uyên ương mạc đao
+______[8]
+Tả hữu trảm mạc đao
+______[9]
+Hữu tả trảm mạc đao
+Hữu thủ kim tiêu cước
+______[10]
+______[11]
+Tả hữu phân liêu đao
+______[12]
+Bái tổ thu đao thức.
+Ans: undefined
+Options: ["Tả thủ kim tiêu cước","Trực tảo thiên quân đao","Hàng hổ trảm thượng đao","Bái tổ thủ đao","Tàng đầu bàn đao","Hoành bộ thượng thôi đao","Xà triển kháo đao","Tiến đao thích hổ","Khiên thủ tàng đao","Phạt thảo du long","Tả hữu hái tinh đao","Cương thủ tàng đao","Thượng hạ phân liêu đao","Đăng sơn vọng nguyệt","Độc lập trảm mạc đao","Đăng sơn viễn thiếu","Hạ bình tàng đao","Tiến thân trảm mã đao","Hữu thủ ngân tiêu cước","Tả thủ ngân tiêu cước","Loan phụng hạ thôi đao","Thượng bình tàng đao","Tiến thân phách đao","Tả hữu phách mạc đao","Trực khiêu bộ khóa đao","Hồi thân phách đao","Độc lập thượng tiệt cước","Phục đao đả hổ","Tàng đầu tả bàn đao","Uyên ương trảm đao","Phạt thảo hí du long","Tả hữu trảm mạc đao","Loan phụng thượng thôi đao","Hồi thân trảm mã đao"]
+Type: fill
+
+ID: hong-2-c17-3 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+Bái tổ lập đao
+Giao đao đả hổ
+______[1]
+Hoành khiêu bộ khóa đao
+______[2]
+______[3]
+Độc lập phách mạc đao
+Tả hữu trích tinh đao
+______[4]
+Phạt thảo hí du long
+Khiên thủ tàng đao
+______[5]
+______[6]
+______[7]
+Phục hổ trảm thượng đao
+Hoành tảo thiên quân đao
+Thiềm triển kháo đao
+Hồi thân phách đao
+Tàng đầu bàn đao
+Phạt thảo hí long
+Khiên thủ tàng đao
+______[8]
+______[9]
+Độc lập hạ tiệt cước
+______[10]
+Uyên ương mạc đao
+Hoành bộ thượng thôi đao
+Tả hữu trảm mạc đao
+______[11]
+Hữu tả trảm mạc đao
+Hữu thủ kim tiêu cước
+Hồi thân trảm mã đao
+______[12]
+Tả hữu phân liêu đao
+Thượng bình tàng đao
+Bái tổ thu đao thức.
+Ans: undefined
+Options: ["Loan phụng thượng thôi đao","Độc lập thượng tiệt cước","Hồi thân trảm mã đao","Tả thủ kim tiêu cước","Phục đao đả hổ","Tiến đao thích hổ","Tả hữu hái tinh đao","Bái tổ thủ đao","Thượng hạ phân liêu đao","Hồi đao thích hổ","Tả hữu phách mạc đao","Trực tảo thiên quân đao","Khiên thủ tàng đao","Tả thủ ngân tiêu cước","Đăng sơn vọng nguyệt","Tàng đầu tả bàn đao","Đăng sơn viễn thiếu","Loan phụng hạ thôi đao","Trực khiêu bộ khóa đao","Tả hữu trảm mạc đao","Phạt thảo du long","Uyên ương trảm đao","Hạ bình tàng đao","Tiến thân phách đao","Hữu thủ ngân tiêu cước","Tả hữu phân liêu đao","Xà triển kháo đao","Tàng đầu hữu bàn đao","Tiến thân trảm mã đao","Hàng hổ trảm thượng đao","Độc lập trảm mạc đao","Cương thủ tàng đao"]
+Type: fill
+
+ID: hong-2-c17-4 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+______[1]
+______[2]
+Tàng đầu hữu bàn đao
+Hoành khiêu bộ khóa đao
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+Độc lập phách mạc đao
+Tả hữu trích tinh đao
+______[3]
+Phạt thảo hí du long
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+Đăng sơn viễn thiếu
+Tả hữu trảm mạc đao
+Phục hổ trảm thượng đao
+______[4]
+Thiềm triển kháo đao
+______[5]
+Tàng đầu bàn đao
+Phạt thảo hí long
+______[6]
+Loan phụng thượng thôi đao
+Hồi thân trảm mã đao
+Độc lập hạ tiệt cước
+Hồi thân trảm mã đao
+______[7]
+______[8]
+Tả hữu trảm mạc đao
+Tả thủ kim tiêu cước
+______[9]
+______[10]
+Hồi thân trảm mã đao
+______[11]
+______[12]
+Thượng bình tàng đao
+Bái tổ thu đao thức.
+Ans: undefined
+Options: ["Bái tổ lập đao","Tiến đao thích hổ","Khiên thủ tàng đao","Hoành tảo thiên quân đao","Thượng hạ phân liêu đao","Hữu tả trảm mạc đao","Hữu thủ ngân tiêu cước","Giao đao đả hổ","Hồi thân phách đao","Uyên ương mạc đao","Tả hữu hái tinh đao","Độc lập trảm mạc đao","Tả hữu phân liêu đao","Tiến thân phách đao","Hồi đao thích hổ","Cương thủ tàng đao","Loan phụng hạ thôi đao","Tả hữu phách mạc đao","Hoành bộ thượng thôi đao","Tiến thân trảm mã đao","Tả thủ ngân tiêu cước","Trực khiêu bộ khóa đao","Độc lập thượng tiệt cước","Tàng đầu tả bàn đao","Phạt thảo du long","Hàng hổ trảm thượng đao","Phục đao đả hổ","Đăng sơn vọng nguyệt","Bái tổ thủ đao","Uyên ương trảm đao","Hạ bình tàng đao","Xà triển kháo đao","Hữu thủ kim tiêu cước","Trực tảo thiên quân đao"]
+Type: fill
+
+ID: hong-2-c17-5 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+Bái tổ lập đao
+______[1]
+Tàng đầu hữu bàn đao
+______[2]
+______[3]
+Tả hữu phân liêu đao
+Độc lập phách mạc đao
+Tả hữu trích tinh đao
+______[4]
+______[5]
+______[6]
+Tả hữu phân liêu đao
+______[7]
+Tả hữu trảm mạc đao
+______[8]
+Hoành tảo thiên quân đao
+Thiềm triển kháo đao
+Hồi thân phách đao
+Tàng đầu bàn đao
+Phạt thảo hí long
+Khiên thủ tàng đao
+Loan phụng thượng thôi đao
+Hồi thân trảm mã đao
+Độc lập hạ tiệt cước
+Hồi thân trảm mã đao
+Uyên ương mạc đao
+Hoành bộ thượng thôi đao
+Tả hữu trảm mạc đao
+______[9]
+Hữu tả trảm mạc đao
+Hữu thủ kim tiêu cước
+Hồi thân trảm mã đao
+______[10]
+Tả hữu phân liêu đao
+______[11]
+______[12]
+Ans: undefined
+Options: ["Giao đao đả hổ","Tàng đầu tả bàn đao","Tiến thân phách đao","Trực tảo thiên quân đao","Hồi đao thích hổ","Thượng hạ phân liêu đao","Bái tổ thủ đao","Tiến đao thích hổ","Độc lập trảm mạc đao","Tả hữu phách mạc đao","Trực khiêu bộ khóa đao","Cương thủ tàng đao","Loan phụng hạ thôi đao","Độc lập thượng tiệt cước","Phục đao đả hổ","Xà triển kháo đao","Uyên ương trảm đao","Phạt thảo hí du long","Hàng hổ trảm thượng đao","Đăng sơn vọng nguyệt","Hữu thủ ngân tiêu cước","Tả hữu hái tinh đao","Thượng bình tàng đao","Hoành khiêu bộ khóa đao","Phạt thảo du long","Khiên thủ tàng đao","Tiến thân trảm mã đao","Bái tổ thu đao thức.","Tả thủ ngân tiêu cước","Tả thủ kim tiêu cước","Hạ bình tàng đao","Phục hổ trảm thượng đao","Đăng sơn viễn thiếu"]
+Type: fill
+
+ID: hong-2-c17-6 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+Bái tổ lập đao
+______[1]
+______[2]
+Hoành khiêu bộ khóa đao
+Khiên thủ tàng đao
+______[3]
+Độc lập phách mạc đao
+______[4]
+Hồi đao thích hổ
+______[5]
+______[6]
+______[7]
+Đăng sơn viễn thiếu
+Tả hữu trảm mạc đao
+Phục hổ trảm thượng đao
+Hoành tảo thiên quân đao
+Thiềm triển kháo đao
+Hồi thân phách đao
+Tàng đầu bàn đao
+Phạt thảo hí long
+Khiên thủ tàng đao
+______[8]
+Hồi thân trảm mã đao
+Độc lập hạ tiệt cước
+______[9]
+Uyên ương mạc đao
+______[10]
+Tả hữu trảm mạc đao
+Tả thủ kim tiêu cước
+Hữu tả trảm mạc đao
+Hữu thủ kim tiêu cước
+______[11]
+Khiên thủ tàng đao
+______[12]
+Thượng bình tàng đao
+Bái tổ thu đao thức.
+Ans: undefined
+Options: ["Trực khiêu bộ khóa đao","Tiến thân phách đao","Hữu thủ ngân tiêu cước","Tả thủ ngân tiêu cước","Uyên ương trảm đao","Phục đao đả hổ","Tả hữu hái tinh đao","Phạt thảo du long","Tiến đao thích hổ","Bái tổ thủ đao","Thượng hạ phân liêu đao","Phạt thảo hí du long","Loan phụng hạ thôi đao","Độc lập thượng tiệt cước","Xà triển kháo đao","Độc lập trảm mạc đao","Tàng đầu hữu bàn đao","Tiến thân trảm mã đao","Hàng hổ trảm thượng đao","Loan phụng thượng thôi đao","Hồi thân trảm mã đao","Giao đao đả hổ","Tả hữu trích tinh đao","Tả hữu phân liêu đao","Trực tảo thiên quân đao","Đăng sơn vọng nguyệt","Tàng đầu tả bàn đao","Hạ bình tàng đao","Tả hữu phách mạc đao","Cương thủ tàng đao","Khiên thủ tàng đao","Hoành bộ thượng thôi đao"]
+Type: fill
+
+ID: hong-2-c17-7 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+Bái tổ lập đao
+Giao đao đả hổ
+______[1]
+Hoành khiêu bộ khóa đao
+______[2]
+Tả hữu phân liêu đao
+Độc lập phách mạc đao
+Tả hữu trích tinh đao
+Hồi đao thích hổ
+Phạt thảo hí du long
+______[3]
+______[4]
+Đăng sơn viễn thiếu
+Tả hữu trảm mạc đao
+______[5]
+______[6]
+Thiềm triển kháo đao
+Hồi thân phách đao
+______[7]
+Phạt thảo hí long
+Khiên thủ tàng đao
+Loan phụng thượng thôi đao
+Hồi thân trảm mã đao
+Độc lập hạ tiệt cước
+______[8]
+______[9]
+______[10]
+Tả hữu trảm mạc đao
+Tả thủ kim tiêu cước
+Hữu tả trảm mạc đao
+Hữu thủ kim tiêu cước
+Hồi thân trảm mã đao
+______[11]
+Tả hữu phân liêu đao
+______[12]
+Bái tổ thu đao thức.
+Ans: undefined
+Options: ["Bái tổ thủ đao","Loan phụng hạ thôi đao","Tàng đầu bàn đao","Uyên ương trảm đao","Tả hữu phân liêu đao","Đăng sơn vọng nguyệt","Hoành bộ thượng thôi đao","Độc lập thượng tiệt cước","Độc lập trảm mạc đao","Tả hữu hái tinh đao","Tàng đầu tả bàn đao","Thượng hạ phân liêu đao","Tả thủ ngân tiêu cước","Tiến thân phách đao","Tiến thân trảm mã đao","Phục đao đả hổ","Hữu thủ ngân tiêu cước","Hàng hổ trảm thượng đao","Hồi thân trảm mã đao","Cương thủ tàng đao","Uyên ương mạc đao","Phạt thảo du long","Khiên thủ tàng đao","Hạ bình tàng đao","Trực tảo thiên quân đao","Tiến đao thích hổ","Tàng đầu hữu bàn đao","Tả hữu phách mạc đao","Hoành tảo thiên quân đao","Phục hổ trảm thượng đao","Trực khiêu bộ khóa đao","Xà triển kháo đao","Thượng bình tàng đao"]
+Type: fill
+
+ID: hong-2-c17-8 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+Bái tổ lập đao
+Giao đao đả hổ
+Tàng đầu hữu bàn đao
+Hoành khiêu bộ khóa đao
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+______[1]
+______[2]
+Hồi đao thích hổ
+Phạt thảo hí du long
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+Đăng sơn viễn thiếu
+Tả hữu trảm mạc đao
+Phục hổ trảm thượng đao
+______[3]
+Thiềm triển kháo đao
+Hồi thân phách đao
+______[4]
+______[5]
+Khiên thủ tàng đao
+______[6]
+Hồi thân trảm mã đao
+Độc lập hạ tiệt cước
+______[7]
+Uyên ương mạc đao
+______[8]
+Tả hữu trảm mạc đao
+Tả thủ kim tiêu cước
+Hữu tả trảm mạc đao
+Hữu thủ kim tiêu cước
+______[9]
+______[10]
+______[11]
+Thượng bình tàng đao
+______[12]
+Ans: undefined
+Options: ["Hữu thủ ngân tiêu cước","Hàng hổ trảm thượng đao","Cương thủ tàng đao","Độc lập thượng tiệt cước","Bái tổ thủ đao","Đăng sơn vọng nguyệt","Phạt thảo du long","Tả hữu phân liêu đao","Hoành tảo thiên quân đao","Hồi thân trảm mã đao","Độc lập trảm mạc đao","Hạ bình tàng đao","Tiến thân trảm mã đao","Tả hữu phách mạc đao","Khiên thủ tàng đao","Tả thủ ngân tiêu cước","Tàng đầu bàn đao","Loan phụng hạ thôi đao","Phục đao đả hổ","Tả hữu trích tinh đao","Tàng đầu tả bàn đao","Phạt thảo hí long","Trực khiêu bộ khóa đao","Hoành bộ thượng thôi đao","Bái tổ thu đao thức.","Loan phụng thượng thôi đao","Xà triển kháo đao","Tiến đao thích hổ","Tiến thân phách đao","Tả hữu hái tinh đao","Thượng hạ phân liêu đao","Độc lập phách mạc đao","Uyên ương trảm đao","Trực tảo thiên quân đao"]
+Type: fill
+
+ID: hong-2-c17-9 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+______[1]
+Giao đao đả hổ
+Tàng đầu hữu bàn đao
+Hoành khiêu bộ khóa đao
+______[2]
+Tả hữu phân liêu đao
+______[3]
+Tả hữu trích tinh đao
+Hồi đao thích hổ
+______[4]
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+Đăng sơn viễn thiếu
+Tả hữu trảm mạc đao
+Phục hổ trảm thượng đao
+______[5]
+______[6]
+Hồi thân phách đao
+______[7]
+Phạt thảo hí long
+Khiên thủ tàng đao
+Loan phụng thượng thôi đao
+______[8]
+Độc lập hạ tiệt cước
+Hồi thân trảm mã đao
+______[9]
+Hoành bộ thượng thôi đao
+Tả hữu trảm mạc đao
+Tả thủ kim tiêu cước
+Hữu tả trảm mạc đao
+Hữu thủ kim tiêu cước
+Hồi thân trảm mã đao
+______[10]
+______[11]
+______[12]
+Bái tổ thu đao thức.
+Ans: undefined
+Options: ["Bái tổ thủ đao","Phục đao đả hổ","Hạ bình tàng đao","Thượng hạ phân liêu đao","Bái tổ lập đao","Thiềm triển kháo đao","Tàng đầu tả bàn đao","Uyên ương trảm đao","Tả hữu phân liêu đao","Khiên thủ tàng đao","Trực khiêu bộ khóa đao","Tiến thân trảm mã đao","Độc lập trảm mạc đao","Phạt thảo du long","Phạt thảo hí du long","Độc lập phách mạc đao","Tả thủ ngân tiêu cước","Hữu thủ ngân tiêu cước","Hồi thân trảm mã đao","Trực tảo thiên quân đao","Tả hữu hái tinh đao","Uyên ương mạc đao","Loan phụng hạ thôi đao","Thượng bình tàng đao","Độc lập thượng tiệt cước","Hoành tảo thiên quân đao","Tả hữu phách mạc đao","Đăng sơn vọng nguyệt","Tiến thân phách đao","Tiến đao thích hổ","Xà triển kháo đao","Tàng đầu bàn đao","Cương thủ tàng đao","Hàng hổ trảm thượng đao"]
+Type: fill
+
+ID: hong-2-c17-10 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+Bái tổ lập đao
+Giao đao đả hổ
+Tàng đầu hữu bàn đao
+Hoành khiêu bộ khóa đao
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+Độc lập phách mạc đao
+Tả hữu trích tinh đao
+Hồi đao thích hổ
+Phạt thảo hí du long
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+Đăng sơn viễn thiếu
+Tả hữu trảm mạc đao
+______[1]
+______[2]
+______[3]
+Hồi thân phách đao
+______[4]
+Phạt thảo hí long
+______[5]
+Loan phụng thượng thôi đao
+______[6]
+______[7]
+Hồi thân trảm mã đao
+Uyên ương mạc đao
+Hoành bộ thượng thôi đao
+______[8]
+______[9]
+______[10]
+______[11]
+Hồi thân trảm mã đao
+Khiên thủ tàng đao
+______[12]
+Thượng bình tàng đao
+Bái tổ thu đao thức.
+Ans: undefined
+Options: ["Tiến thân phách đao","Cương thủ tàng đao","Phạt thảo du long","Hữu tả trảm mạc đao","Đăng sơn vọng nguyệt","Thượng hạ phân liêu đao","Thiềm triển kháo đao","Tiến thân trảm mã đao","Loan phụng hạ thôi đao","Tiến đao thích hổ","Phục hổ trảm thượng đao","Tả thủ ngân tiêu cước","Hoành tảo thiên quân đao","Tả hữu hái tinh đao","Xà triển kháo đao","Hạ bình tàng đao","Uyên ương trảm đao","Tả hữu trảm mạc đao","Tàng đầu bàn đao","Hữu thủ ngân tiêu cước","Tàng đầu tả bàn đao","Phục đao đả hổ","Hồi thân trảm mã đao","Trực khiêu bộ khóa đao","Hữu thủ kim tiêu cước","Độc lập trảm mạc đao","Tả thủ kim tiêu cước","Tả hữu phách mạc đao","Trực tảo thiên quân đao","Tả hữu phân liêu đao","Khiên thủ tàng đao","Hàng hổ trảm thượng đao","Độc lập thượng tiệt cước","Độc lập hạ tiệt cước","Bái tổ thủ đao"]
+Type: fill
+
+ID: hong-2-c17-11 (Lesson: red-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:
+
+Bái tổ lập đao
+Giao đao đả hổ
+______[1]
+Hoành khiêu bộ khóa đao
+______[2]
+Tả hữu phân liêu đao
+______[3]
+Tả hữu trích tinh đao
+______[4]
+______[5]
+Khiên thủ tàng đao
+Tả hữu phân liêu đao
+______[6]
+Tả hữu trảm mạc đao
+Phục hổ trảm thượng đao
+Hoành tảo thiên quân đao
+Thiềm triển kháo đao
+Hồi thân phách đao
+______[7]
+Phạt thảo hí long
+Khiên thủ tàng đao
+Loan phụng thượng thôi đao
+______[8]
+Độc lập hạ tiệt cước
+Hồi thân trảm mã đao
+______[9]
+Hoành bộ thượng thôi đao
+Tả hữu trảm mạc đao
+Tả thủ kim tiêu cước
+Hữu tả trảm mạc đao
+Hữu thủ kim tiêu cước
+______[10]
+Khiên thủ tàng đao
+______[11]
+Thượng bình tàng đao
+______[12]
+Ans: undefined
+Options: ["Độc lập trảm mạc đao","Tiến thân phách đao","Uyên ương trảm đao","Bái tổ thu đao thức.","Trực khiêu bộ khóa đao","Trực tảo thiên quân đao","Uyên ương mạc đao","Độc lập thượng tiệt cước","Xà triển kháo đao","Khiên thủ tàng đao","Tả hữu phách mạc đao","Phạt thảo hí du long","Hồi thân trảm mã đao","Độc lập phách mạc đao","Tàng đầu hữu bàn đao","Loan phụng hạ thôi đao","Tiến đao thích hổ","Tả thủ ngân tiêu cước","Tiến thân trảm mã đao","Tàng đầu tả bàn đao","Tả hữu hái tinh đao","Hàng hổ trảm thượng đao","Hạ bình tàng đao","Cương thủ tàng đao","Phục đao đả hổ","Đăng sơn vọng nguyệt","Hồi đao thích hổ","Đăng sơn viễn thiếu","Bái tổ thủ đao","Tàng đầu bàn đao","Phạt thảo du long","Tả hữu phân liêu đao","Thượng hạ phân liêu đao","Hữu thủ ngân tiêu cước"]
+Type: fill
+
+
+=== hong-3.json ===
+
+ID: hong-3-c04-01 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống: Muốn tình thầy trò được thiêng liêng, thân thiết:
+Trước hết, người thầy phải xứng đáng là thầy, có đạo đức, tư cách, tác phong mẫu mực và ______[1].
+Thầy phải thành thật, tận tâm dạy dỗ, yêu thương và quan tâm học trò.
+Về phía học trò, phải trung thực, tôn kính, biết ơn thầy và ______[2] để làm rạng danh thầy.
+Ans: undefined
+Options: ["tinh thần trách nhiệm cao cả","trình độ chuyên môn xuất sắc","khả năng truyền đạt tốt","cố gắng rèn luyện võ thuật thật giỏi","cố gắng thi đấu đạt thành tích cao","cố gắng đóng góp tài chính cho võ đường"]
+Type: fill
+
+ID: hong-3-c10-01 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống: Kẻ thù là người đối nghịch với ta về tình cảm, tư tưởng hoặc hành động, ______[1]. Tuy nhiên, người môn sinh Phật Quang Quyền không nuôi dưỡng lòng thù hận. Ta có thể tha thứ cho kẻ thù khi họ biết hối lỗi, sửa đổi, khi họ đã thất thế hoặc ______[2].
+Ans: undefined
+Options: ["có những hành vi xúc phạm, bôi nhọ hoặc tấn công ta","làm ảnh hưởng đến gia đình, bạn bè hoặc người thân của ta","phá hoại công việc, tài sản hoặc sự nghiệp của ta","khi họ đã đền bù thiệt hại cho ta","khi họ có hoàn cảnh đáng thương, cần được giúp đỡ","khi họ cam kết không bao giờ tái phạm"]
+Type: fill
+
+ID: hong-3-c17-2 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+______[1]
+Thái sơn trích thuỷ địa xà liên.
+______[2]
+______[3]
+______[4]
+Hồi đầu trực chỉ liên tam thích.
+______[5]
+Tẩu độc thố, Trưng Sơn hoành gián kiếm.
+______[6]
+______[7]
+______[8]
+______[9]
+Tiểu tử tam phiền giá mã an.
+______[10]
+Ans: undefined
+Options: ["Thương hạ lộng ky, lân tiến bạch viên.","Linh miêu ẩn phục tấn thích ngưu.","Phi phong tẩu mã khai ngưu giác.","Huy ky độc giác trung bình hạ.","Thái sơn hạ thuỷ địa xà liên.","Thương thượng lộng ky, lân thoái bạch viên.","Thừa châu bố địa khai côn thích.","Phi phong tẩu võ khai ngưu giác.","Linh miêu mai phục tấn thích ngưu.","Đồng Tân thuận thế gián vân biên.","Hạ thích đại đăng thoái thừa thiên.","Tiểu tử nhất phiền giá mã an.","Bái Tổ Sư, lập như tiền.","Huy ky song giác trung bình hạ.","Hồi đầu trực chỉ liên nhất thích.","Thương thượng lộng ky, sư thoái bạch viên.","Hồi tiểu kim kê đả trung lang.","Thừa châu bố thiên khai côn thích.","Đồng Tân nghịch thế gián vân biên.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Thượng thích đại đăng tấn thừa thiên.","Bái tổ Thái Sơn Côn.","Hồi Tổ Sư, lập như tiền.","Hồi đại kim kê đả trung lang.","Thái sơn thượng thuỷ địa xà liên."]
+Type: fill
+
+ID: hong-3-c17-3 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+______[1]
+Thái sơn trích thuỷ địa xà liên.
+Thương thượng lộng ky, lân thoái bạch viên.
+______[2]
+______[3]
+______[4]
+______[5]
+Tẩu độc thố, Trưng Sơn hoành gián kiếm.
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+Bái Tổ Sư, lập như tiền.
+Ans: undefined
+Options: ["Hồi đầu trực chỉ liên nhất thích.","Thương thượng lộng ky, sư thoái bạch viên.","Thừa châu bố địa khai côn thích.","Hồi tiểu kim kê đả trung lang.","Phi phong tẩu võ khai ngưu giác.","Bái tổ Thái Sơn Côn.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Linh miêu mai phục tấn thích ngưu.","Phi phong tẩu mã khai ngưu giác.","Hạ thích đại đăng thoái thừa thiên.","Thừa châu bố thiên khai côn thích.","Thương hạ lộng ky, lân tiến bạch viên.","Hồi Tổ Sư, lập như tiền.","Đồng Tân thuận thế gián vân biên.","Tiểu tử nhất phiền giá mã an.","Thái sơn thượng thuỷ địa xà liên.","Tiểu tử tam phiền giá mã an.","Thượng thích đại đăng tấn thừa thiên.","Huy ky độc giác trung bình hạ.","Hồi đại kim kê đả trung lang.","Hồi đầu trực chỉ liên tam thích.","Huy ky song giác trung bình hạ.","Linh miêu ẩn phục tấn thích ngưu.","Đồng Tân nghịch thế gián vân biên.","Thái sơn hạ thuỷ địa xà liên."]
+Type: fill
+
+ID: hong-3-c17-4 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+Bái tổ Thái Sơn Côn.
+______[1]
+Thương thượng lộng ky, lân thoái bạch viên.
+______[2]
+Thượng thích đại đăng tấn thừa thiên.
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+Bái Tổ Sư, lập như tiền.
+Ans: undefined
+Options: ["Huy ky độc giác trung bình hạ.","Thái sơn thượng thuỷ địa xà liên.","Phi phong tẩu mã khai ngưu giác.","Đồng Tân thuận thế gián vân biên.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Tẩu độc thố, Trưng Sơn hoành gián kiếm.","Đồng Tân nghịch thế gián vân biên.","Hồi tiểu kim kê đả trung lang.","Thái sơn trích thuỷ địa xà liên.","Thương thượng lộng ky, sư thoái bạch viên.","Hồi đầu trực chỉ liên nhất thích.","Tiểu tử tam phiền giá mã an.","Hồi Tổ Sư, lập như tiền.","Hạ thích đại đăng thoái thừa thiên.","Huy ky song giác trung bình hạ.","Thương hạ lộng ky, lân tiến bạch viên.","Phi phong tẩu võ khai ngưu giác.","Hồi đại kim kê đả trung lang.","Linh miêu ẩn phục tấn thích ngưu.","Tiểu tử nhất phiền giá mã an.","Thái sơn hạ thuỷ địa xà liên.","Hồi đầu trực chỉ liên tam thích.","Thừa châu bố địa khai côn thích.","Linh miêu mai phục tấn thích ngưu.","Thừa châu bố thiên khai côn thích."]
+Type: fill
+
+ID: hong-3-c17-5 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+Bái tổ Thái Sơn Côn.
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+Tẩu độc thố, Trưng Sơn hoành gián kiếm.
+Linh miêu mai phục tấn thích ngưu.
+______[7]
+______[8]
+______[9]
+Tiểu tử tam phiền giá mã an.
+______[10]
+Ans: undefined
+Options: ["Hồi tiểu kim kê đả trung lang.","Phi phong tẩu mã khai ngưu giác.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Huy ky song giác trung bình hạ.","Thương hạ lộng ky, lân tiến bạch viên.","Phi phong tẩu võ khai ngưu giác.","Hồi Tổ Sư, lập như tiền.","Thái sơn trích thuỷ địa xà liên.","Hồi đầu trực chỉ liên tam thích.","Đồng Tân nghịch thế gián vân biên.","Thương thượng lộng ky, sư thoái bạch viên.","Thượng thích đại đăng tấn thừa thiên.","Hạ thích đại đăng thoái thừa thiên.","Thừa châu bố thiên khai côn thích.","Thái sơn hạ thuỷ địa xà liên.","Tiểu tử nhất phiền giá mã an.","Thương thượng lộng ky, lân thoái bạch viên.","Hồi đại kim kê đả trung lang.","Thừa châu bố địa khai côn thích.","Thái sơn thượng thuỷ địa xà liên.","Hồi đầu trực chỉ liên nhất thích.","Bái Tổ Sư, lập như tiền.","Linh miêu ẩn phục tấn thích ngưu.","Đồng Tân thuận thế gián vân biên.","Huy ky độc giác trung bình hạ."]
+Type: fill
+
+ID: hong-3-c17-6 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+______[1]
+Thái sơn trích thuỷ địa xà liên.
+______[2]
+______[3]
+Thượng thích đại đăng tấn thừa thiên.
+______[4]
+______[5]
+Tẩu độc thố, Trưng Sơn hoành gián kiếm.
+______[6]
+______[7]
+______[8]
+Phi phong tẩu võ khai ngưu giác.
+______[9]
+______[10]
+Ans: undefined
+Options: ["Phi phong tẩu mã khai ngưu giác.","Hạ thích đại đăng thoái thừa thiên.","Hồi đầu trực chỉ liên tam thích.","Thương thượng lộng ky, lân thoái bạch viên.","Đồng Tân thuận thế gián vân biên.","Tiểu tử tam phiền giá mã an.","Hồi đầu trực chỉ liên nhất thích.","Thương hạ lộng ky, lân tiến bạch viên.","Thái sơn thượng thuỷ địa xà liên.","Đồng Tân nghịch thế gián vân biên.","Tiểu tử nhất phiền giá mã an.","Linh miêu mai phục tấn thích ngưu.","Hồi tiểu kim kê đả trung lang.","Huy ky song giác trung bình hạ.","Linh miêu ẩn phục tấn thích ngưu.","Bái Tổ Sư, lập như tiền.","Thừa châu bố địa khai côn thích.","Thái sơn hạ thuỷ địa xà liên.","Thương thượng lộng ky, sư thoái bạch viên.","Thừa châu bố thiên khai côn thích.","Bái tổ Thái Sơn Côn.","Huy ky độc giác trung bình hạ.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Hồi Tổ Sư, lập như tiền.","Hồi đại kim kê đả trung lang."]
+Type: fill
+
+ID: hong-3-c17-7 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+______[1]
+______[2]
+Thương thượng lộng ky, lân thoái bạch viên.
+Huy ky độc giác trung bình hạ.
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Phi phong tẩu võ khai ngưu giác.
+Tiểu tử tam phiền giá mã an.
+______[10]
+Ans: undefined
+Options: ["Thái sơn hạ thuỷ địa xà liên.","Tẩu độc thố, Trưng Sơn hoành gián kiếm.","Linh miêu mai phục tấn thích ngưu.","Thái sơn thượng thuỷ địa xà liên.","Bái Tổ Sư, lập như tiền.","Thượng thích đại đăng tấn thừa thiên.","Đồng Tân nghịch thế gián vân biên.","Hồi đại kim kê đả trung lang.","Hạ thích đại đăng thoái thừa thiên.","Thừa châu bố địa khai côn thích.","Phi phong tẩu mã khai ngưu giác.","Hồi đầu trực chỉ liên tam thích.","Bái tổ Thái Sơn Côn.","Thương thượng lộng ky, sư thoái bạch viên.","Hồi đầu trực chỉ liên nhất thích.","Thái sơn trích thuỷ địa xà liên.","Hồi Tổ Sư, lập như tiền.","Thương hạ lộng ky, lân tiến bạch viên.","Linh miêu ẩn phục tấn thích ngưu.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Thừa châu bố thiên khai côn thích.","Đồng Tân thuận thế gián vân biên.","Hồi tiểu kim kê đả trung lang.","Huy ky song giác trung bình hạ.","Tiểu tử nhất phiền giá mã an."]
+Type: fill
+
+ID: hong-3-c17-8 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+______[1]
+______[2]
+Thương thượng lộng ky, lân thoái bạch viên.
+______[3]
+______[4]
+Hồi đầu trực chỉ liên tam thích.
+______[5]
+Tẩu độc thố, Trưng Sơn hoành gián kiếm.
+______[6]
+______[7]
+Hồi tiểu kim kê đả trung lang.
+______[8]
+______[9]
+______[10]
+Ans: undefined
+Options: ["Hồi đại kim kê đả trung lang.","Huy ky song giác trung bình hạ.","Tiểu tử nhất phiền giá mã an.","Hạ thích đại đăng thoái thừa thiên.","Thừa châu bố địa khai côn thích.","Thái sơn trích thuỷ địa xà liên.","Bái Tổ Sư, lập như tiền.","Linh miêu ẩn phục tấn thích ngưu.","Phi phong tẩu võ khai ngưu giác.","Tiểu tử tam phiền giá mã an.","Thái sơn thượng thuỷ địa xà liên.","Hồi Tổ Sư, lập như tiền.","Thương thượng lộng ky, sư thoái bạch viên.","Thương hạ lộng ky, lân tiến bạch viên.","Thái sơn hạ thuỷ địa xà liên.","Bái tổ Thái Sơn Côn.","Đồng Tân nghịch thế gián vân biên.","Đồng Tân thuận thế gián vân biên.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Phi phong tẩu mã khai ngưu giác.","Hồi đầu trực chỉ liên nhất thích.","Huy ky độc giác trung bình hạ.","Thượng thích đại đăng tấn thừa thiên.","Thừa châu bố thiên khai côn thích.","Linh miêu mai phục tấn thích ngưu."]
+Type: fill
+
+ID: hong-3-c17-9 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+Bái tổ Thái Sơn Côn.
+______[1]
+Thương thượng lộng ky, lân thoái bạch viên.
+______[2]
+______[3]
+Hồi đầu trực chỉ liên tam thích.
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+Bái Tổ Sư, lập như tiền.
+Ans: undefined
+Options: ["Tẩu song thố, Trưng Sơn trực gián kiếm.","Huy ky song giác trung bình hạ.","Thái sơn trích thuỷ địa xà liên.","Hồi tiểu kim kê đả trung lang.","Huy ky độc giác trung bình hạ.","Thương hạ lộng ky, lân tiến bạch viên.","Thương thượng lộng ky, sư thoái bạch viên.","Thái sơn thượng thuỷ địa xà liên.","Tiểu tử tam phiền giá mã an.","Linh miêu mai phục tấn thích ngưu.","Tiểu tử nhất phiền giá mã an.","Hạ thích đại đăng thoái thừa thiên.","Đồng Tân thuận thế gián vân biên.","Linh miêu ẩn phục tấn thích ngưu.","Hồi Tổ Sư, lập như tiền.","Hồi đại kim kê đả trung lang.","Thượng thích đại đăng tấn thừa thiên.","Phi phong tẩu mã khai ngưu giác.","Đồng Tân nghịch thế gián vân biên.","Thái sơn hạ thuỷ địa xà liên.","Thừa châu bố thiên khai côn thích.","Tẩu độc thố, Trưng Sơn hoành gián kiếm.","Thừa châu bố địa khai côn thích.","Hồi đầu trực chỉ liên nhất thích.","Phi phong tẩu võ khai ngưu giác."]
+Type: fill
+
+ID: hong-3-c17-10 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+______[1]
+Thái sơn trích thuỷ địa xà liên.
+______[2]
+______[3]
+______[4]
+Hồi đầu trực chỉ liên tam thích.
+Đồng Tân thuận thế gián vân biên.
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+Bái Tổ Sư, lập như tiền.
+Ans: undefined
+Options: ["Thái sơn hạ thuỷ địa xà liên.","Huy ky độc giác trung bình hạ.","Thừa châu bố thiên khai côn thích.","Hồi đại kim kê đả trung lang.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Thương hạ lộng ky, lân tiến bạch viên.","Hồi Tổ Sư, lập như tiền.","Đồng Tân nghịch thế gián vân biên.","Hồi tiểu kim kê đả trung lang.","Linh miêu mai phục tấn thích ngưu.","Hồi đầu trực chỉ liên nhất thích.","Tẩu độc thố, Trưng Sơn hoành gián kiếm.","Phi phong tẩu mã khai ngưu giác.","Huy ky song giác trung bình hạ.","Phi phong tẩu võ khai ngưu giác.","Thừa châu bố địa khai côn thích.","Thương thượng lộng ky, sư thoái bạch viên.","Hạ thích đại đăng thoái thừa thiên.","Thượng thích đại đăng tấn thừa thiên.","Bái tổ Thái Sơn Côn.","Tiểu tử nhất phiền giá mã an.","Tiểu tử tam phiền giá mã an.","Thương thượng lộng ky, lân thoái bạch viên.","Linh miêu ẩn phục tấn thích ngưu.","Thái sơn thượng thuỷ địa xà liên."]
+Type: fill
+
+ID: hong-3-c17-11 (Lesson: red-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quy định Thái Sơn Côn:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+Đồng Tân thuận thế gián vân biên.
+______[7]
+______[8]
+Thừa châu bố địa khai côn thích.
+Hồi tiểu kim kê đả trung lang.
+______[9]
+Tiểu tử tam phiền giá mã an.
+______[10]
+Ans: undefined
+Options: ["Hồi đầu trực chỉ liên nhất thích.","Phi phong tẩu võ khai ngưu giác.","Tẩu độc thố, Trưng Sơn hoành gián kiếm.","Tẩu song thố, Trưng Sơn trực gián kiếm.","Tiểu tử nhất phiền giá mã an.","Thương thượng lộng ky, sư thoái bạch viên.","Thương thượng lộng ky, lân thoái bạch viên.","Hồi đầu trực chỉ liên tam thích.","Hồi Tổ Sư, lập như tiền.","Linh miêu ẩn phục tấn thích ngưu.","Bái Tổ Sư, lập như tiền.","Thượng thích đại đăng tấn thừa thiên.","Bái tổ Thái Sơn Côn.","Linh miêu mai phục tấn thích ngưu.","Hạ thích đại đăng thoái thừa thiên.","Thái sơn thượng thuỷ địa xà liên.","Huy ky song giác trung bình hạ.","Thương hạ lộng ky, lân tiến bạch viên.","Thái sơn hạ thuỷ địa xà liên.","Phi phong tẩu mã khai ngưu giác.","Huy ky độc giác trung bình hạ.","Thừa châu bố thiên khai côn thích.","Đồng Tân nghịch thế gián vân biên.","Hồi đại kim kê đả trung lang.","Thái sơn trích thuỷ địa xà liên."]
+Type: fill
+
+
+=== hong-4.json ===
+
+ID: hong-4-c08-01 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống: Công tác huấn luyện luôn thay đổi theo sự phát triển của xã hội và nhu cầu thực tế của người học. Vì vậy, huấn luyện viên phải thường xuyên học hỏi, nghiên cứu và tích lũy kinh nghiệm để nâng cao trình độ chuyên môn.
+Huấn luyện viên cần khiêm tốn, cầu tiến, không tự mãn, ______[1], biết tiếp thu cái hay, cái mới và ______[2] nhằm nâng cao hiệu quả đào tạo.
+Ans: undefined
+Options: ["không kiêu ngạo","không cố chấp","không sợ sai lầm","chủ động sáng tạo các chiêu thức mới","linh hoạt thay đổi thời gian, địa điểm tập","mạnh dạn loại bỏ những bài quyền cũ"]
+Type: fill
+
+ID: hong-4-c19-2 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Ngẩng đầu tầm thọ lai phụng tấn","Lạc mã song phi lai cấp thích","Bái Tổ siêu Xung Thiên","Xung thiên đề đao phản trảm nghinh","Trảm phạt trung bình tọa ngưu canh","Xung thiên xuất đao phản trảm nghinh","Tiềm tàng xuất phục điểu kiên thinh","Tứ trung bình tọa phục sanh môn.","Bát trung bình tọa phục tử môn.","Long thăng hổ giáng loang xa sát","Bái Tổ đao Xung Thiên","Đê đầu tầm thọ lai phụng tấn","Đê đầu tầm lộ lai phụng tấn","Tiềm tàng phục hổ điểu kiên thinh","Tiềm tàng ẩn phục điểu kiên thinh","Tam trung bình tọa phục sanh môn.","Trảm phạt hạ bình tọa ngưu canh","Long thăng xà giáng loang xa sát","Lạc mã đăng phi lai cấp thích","Xung thiên hạ đao trực trảm nghinh","Lôi phong phục tẩu quỷ thần kinh","Lạc mã bàn phi lai cấp thích","Lôi phong trá tẩu quỷ thần kinh","Long thăng hổ cứ loang xa sát"]
+Type: fill
+
+ID: hong-4-c19-3 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Long thăng xà giáng loang xa sát","Lạc mã song phi lai cấp thích","Trảm phạt hạ bình tọa ngưu canh","Ngẩng đầu tầm thọ lai phụng tấn","Tiềm tàng xuất phục điểu kiên thinh","Lạc mã bàn phi lai cấp thích","Tiềm tàng phục hổ điểu kiên thinh","Tam trung bình tọa phục sanh môn.","Bái Tổ đao Xung Thiên","Đê đầu tầm lộ lai phụng tấn","Lạc mã đăng phi lai cấp thích","Bái Tổ siêu Xung Thiên","Xung thiên hạ đao trực trảm nghinh","Lôi phong trá tẩu quỷ thần kinh","Đê đầu tầm thọ lai phụng tấn","Tứ trung bình tọa phục sanh môn.","Lôi phong phục tẩu quỷ thần kinh","Xung thiên đề đao phản trảm nghinh","Long thăng hổ cứ loang xa sát","Trảm phạt trung bình tọa ngưu canh","Xung thiên xuất đao phản trảm nghinh","Long thăng hổ giáng loang xa sát","Tiềm tàng ẩn phục điểu kiên thinh","Bát trung bình tọa phục tử môn."]
+Type: fill
+
+ID: hong-4-c19-4 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Lạc mã song phi lai cấp thích","Đê đầu tầm lộ lai phụng tấn","Long thăng hổ giáng loang xa sát","Lôi phong phục tẩu quỷ thần kinh","Lạc mã đăng phi lai cấp thích","Long thăng hổ cứ loang xa sát","Xung thiên hạ đao trực trảm nghinh","Bái Tổ siêu Xung Thiên","Lôi phong trá tẩu quỷ thần kinh","Xung thiên đề đao phản trảm nghinh","Tiềm tàng ẩn phục điểu kiên thinh","Lạc mã bàn phi lai cấp thích","Trảm phạt hạ bình tọa ngưu canh","Xung thiên xuất đao phản trảm nghinh","Tam trung bình tọa phục sanh môn.","Ngẩng đầu tầm thọ lai phụng tấn","Bát trung bình tọa phục tử môn.","Bái Tổ đao Xung Thiên","Tiềm tàng phục hổ điểu kiên thinh","Tiềm tàng xuất phục điểu kiên thinh","Đê đầu tầm thọ lai phụng tấn","Trảm phạt trung bình tọa ngưu canh","Long thăng xà giáng loang xa sát","Tứ trung bình tọa phục sanh môn."]
+Type: fill
+
+ID: hong-4-c19-5 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Tứ trung bình tọa phục sanh môn.","Xung thiên xuất đao phản trảm nghinh","Bái Tổ đao Xung Thiên","Trảm phạt hạ bình tọa ngưu canh","Lôi phong trá tẩu quỷ thần kinh","Long thăng xà giáng loang xa sát","Xung thiên hạ đao trực trảm nghinh","Bát trung bình tọa phục tử môn.","Xung thiên đề đao phản trảm nghinh","Tiềm tàng ẩn phục điểu kiên thinh","Lạc mã song phi lai cấp thích","Trảm phạt trung bình tọa ngưu canh","Long thăng hổ giáng loang xa sát","Long thăng hổ cứ loang xa sát","Bái Tổ siêu Xung Thiên","Tiềm tàng phục hổ điểu kiên thinh","Tam trung bình tọa phục sanh môn.","Lôi phong phục tẩu quỷ thần kinh","Ngẩng đầu tầm thọ lai phụng tấn","Tiềm tàng xuất phục điểu kiên thinh","Đê đầu tầm lộ lai phụng tấn","Lạc mã đăng phi lai cấp thích","Đê đầu tầm thọ lai phụng tấn","Lạc mã bàn phi lai cấp thích"]
+Type: fill
+
+ID: hong-4-c19-6 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Ngẩng đầu tầm thọ lai phụng tấn","Tiềm tàng ẩn phục điểu kiên thinh","Lạc mã đăng phi lai cấp thích","Đê đầu tầm thọ lai phụng tấn","Lạc mã song phi lai cấp thích","Long thăng xà giáng loang xa sát","Trảm phạt hạ bình tọa ngưu canh","Tứ trung bình tọa phục sanh môn.","Đê đầu tầm lộ lai phụng tấn","Xung thiên đề đao phản trảm nghinh","Trảm phạt trung bình tọa ngưu canh","Lôi phong phục tẩu quỷ thần kinh","Xung thiên xuất đao phản trảm nghinh","Bái Tổ siêu Xung Thiên","Long thăng hổ cứ loang xa sát","Xung thiên hạ đao trực trảm nghinh","Tiềm tàng xuất phục điểu kiên thinh","Bát trung bình tọa phục tử môn.","Lạc mã bàn phi lai cấp thích","Tam trung bình tọa phục sanh môn.","Lôi phong trá tẩu quỷ thần kinh","Bái Tổ đao Xung Thiên","Tiềm tàng phục hổ điểu kiên thinh","Long thăng hổ giáng loang xa sát"]
+Type: fill
+
+ID: hong-4-c19-7 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Tiềm tàng xuất phục điểu kiên thinh","Xung thiên đề đao phản trảm nghinh","Trảm phạt trung bình tọa ngưu canh","Bái Tổ đao Xung Thiên","Lôi phong trá tẩu quỷ thần kinh","Xung thiên hạ đao trực trảm nghinh","Lạc mã bàn phi lai cấp thích","Xung thiên xuất đao phản trảm nghinh","Lạc mã song phi lai cấp thích","Long thăng xà giáng loang xa sát","Đê đầu tầm lộ lai phụng tấn","Đê đầu tầm thọ lai phụng tấn","Tiềm tàng phục hổ điểu kiên thinh","Lôi phong phục tẩu quỷ thần kinh","Trảm phạt hạ bình tọa ngưu canh","Bái Tổ siêu Xung Thiên","Lạc mã đăng phi lai cấp thích","Bát trung bình tọa phục tử môn.","Long thăng hổ cứ loang xa sát","Ngẩng đầu tầm thọ lai phụng tấn","Long thăng hổ giáng loang xa sát","Tứ trung bình tọa phục sanh môn.","Tiềm tàng ẩn phục điểu kiên thinh","Tam trung bình tọa phục sanh môn."]
+Type: fill
+
+ID: hong-4-c19-8 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Lôi phong phục tẩu quỷ thần kinh","Tiềm tàng xuất phục điểu kiên thinh","Ngẩng đầu tầm thọ lai phụng tấn","Long thăng hổ giáng loang xa sát","Lạc mã đăng phi lai cấp thích","Xung thiên xuất đao phản trảm nghinh","Trảm phạt hạ bình tọa ngưu canh","Đê đầu tầm lộ lai phụng tấn","Tứ trung bình tọa phục sanh môn.","Xung thiên hạ đao trực trảm nghinh","Bái Tổ siêu Xung Thiên","Lạc mã song phi lai cấp thích","Long thăng hổ cứ loang xa sát","Bát trung bình tọa phục tử môn.","Tiềm tàng phục hổ điểu kiên thinh","Xung thiên đề đao phản trảm nghinh","Trảm phạt trung bình tọa ngưu canh","Lôi phong trá tẩu quỷ thần kinh","Bái Tổ đao Xung Thiên","Tam trung bình tọa phục sanh môn.","Long thăng xà giáng loang xa sát","Lạc mã bàn phi lai cấp thích","Tiềm tàng ẩn phục điểu kiên thinh","Đê đầu tầm thọ lai phụng tấn"]
+Type: fill
+
+ID: hong-4-c19-9 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Tiềm tàng xuất phục điểu kiên thinh","Tam trung bình tọa phục sanh môn.","Tứ trung bình tọa phục sanh môn.","Bát trung bình tọa phục tử môn.","Tiềm tàng phục hổ điểu kiên thinh","Xung thiên xuất đao phản trảm nghinh","Ngẩng đầu tầm thọ lai phụng tấn","Lạc mã song phi lai cấp thích","Long thăng hổ cứ loang xa sát","Lôi phong phục tẩu quỷ thần kinh","Tiềm tàng ẩn phục điểu kiên thinh","Xung thiên đề đao phản trảm nghinh","Long thăng xà giáng loang xa sát","Trảm phạt hạ bình tọa ngưu canh","Long thăng hổ giáng loang xa sát","Trảm phạt trung bình tọa ngưu canh","Xung thiên hạ đao trực trảm nghinh","Bái Tổ siêu Xung Thiên","Bái Tổ đao Xung Thiên","Đê đầu tầm thọ lai phụng tấn","Lôi phong trá tẩu quỷ thần kinh","Đê đầu tầm lộ lai phụng tấn","Lạc mã bàn phi lai cấp thích","Lạc mã đăng phi lai cấp thích"]
+Type: fill
+
+ID: hong-4-c19-10 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Bái Tổ đao Xung Thiên","Lạc mã bàn phi lai cấp thích","Tứ trung bình tọa phục sanh môn.","Lạc mã song phi lai cấp thích","Xung thiên hạ đao trực trảm nghinh","Bái Tổ siêu Xung Thiên","Lôi phong phục tẩu quỷ thần kinh","Ngẩng đầu tầm thọ lai phụng tấn","Tiềm tàng xuất phục điểu kiên thinh","Xung thiên đề đao phản trảm nghinh","Lôi phong trá tẩu quỷ thần kinh","Đê đầu tầm lộ lai phụng tấn","Trảm phạt trung bình tọa ngưu canh","Lạc mã đăng phi lai cấp thích","Bát trung bình tọa phục tử môn.","Tiềm tàng ẩn phục điểu kiên thinh","Trảm phạt hạ bình tọa ngưu canh","Tam trung bình tọa phục sanh môn.","Long thăng hổ cứ loang xa sát","Tiềm tàng phục hổ điểu kiên thinh","Xung thiên xuất đao phản trảm nghinh","Đê đầu tầm thọ lai phụng tấn","Long thăng hổ giáng loang xa sát","Long thăng xà giáng loang xa sát"]
+Type: fill
+
+ID: hong-4-c19-11 (Lesson: red-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài Siêu Xung Thiên:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+Ans: undefined
+Options: ["Lạc mã bàn phi lai cấp thích","Tứ trung bình tọa phục sanh môn.","Tiềm tàng ẩn phục điểu kiên thinh","Xung thiên đề đao phản trảm nghinh","Tiềm tàng xuất phục điểu kiên thinh","Long thăng xà giáng loang xa sát","Trảm phạt hạ bình tọa ngưu canh","Đê đầu tầm thọ lai phụng tấn","Lạc mã đăng phi lai cấp thích","Ngẩng đầu tầm thọ lai phụng tấn","Đê đầu tầm lộ lai phụng tấn","Bát trung bình tọa phục tử môn.","Lôi phong phục tẩu quỷ thần kinh","Trảm phạt trung bình tọa ngưu canh","Bái Tổ siêu Xung Thiên","Xung thiên hạ đao trực trảm nghinh","Lôi phong trá tẩu quỷ thần kinh","Lạc mã song phi lai cấp thích","Bái Tổ đao Xung Thiên","Tiềm tàng phục hổ điểu kiên thinh","Long thăng hổ cứ loang xa sát","Tam trung bình tọa phục sanh môn.","Xung thiên xuất đao phản trảm nghinh","Long thăng hổ giáng loang xa sát"]
+Type: fill
+
+
+=== lam-1.json ===
+
+ID: lam-1-c04-02 (Lesson: blue-lesson-01)
+Q: Hoàn thành định nghĩa sau: Võ học là việc ______[1] kiến thức của nhiều môn phái võ thuật, kết hợp với ______[2] để nâng cao hiểu biết về võ thuật.
+Ans: undefined
+Options: ["nghiên cứu, tìm hiểu và so sánh","khoa học và y học","nghiên cứu, học tập và so sánh","nghiên cứu, tìm hiểu và đánh giá","nghiên cứu, thực hành và so sánh","triết học và y học","khoa học và kỹ thuật","y học cổ truyền và hiện đại"]
+Type: fill
+
+ID: lam-1-c09-01 (Lesson: blue-lesson-01)
+Q: Điền vào chỗ trống để hoàn thành ý nghĩa lời thề thứ tư "Tập võ để bảo vệ đất nước": Võ cổ truyền việt nam được ra đời từ công cuộc dựng nước và bảo vệ đất nước, cho nên Từ xưa đến nay, người học võ ngoài việc để rèn luyện sức mạnh, thì luôn gắn liền với việc phải ______[1], ý thức trách nhiệm với quê hương và ______[2] khi cần.
+Ans: undefined
+Options: ["nuôi dưỡng lòng yêu nước","sẵn sàng góp sức bảo vệ Tổ quốc","bồi dưỡng lòng yêu nước","trau dồi lòng yêu nước","luôn giữ gìn lòng yêu nước","sẵn sàng dấn thân bảo vệ Tổ quốc","quyết tâm góp sức bảo vệ Tổ quốc","sẵn sàng hi sinh bảo vệ Tổ quốc"]
+Type: fill
+
+
+=== lam-2.json ===
+
+ID: lam-2-c05-01 (Lesson: blue-lesson-02)
+Q: Kỷ luật môn phái Phật Quang Quyền là kỷ luật ______[1], đoàn kết, yêu thương, tôn trọng và tin cậy lẫn nhau. Người trên phải làm gương cho người dưới noi theo; ______[2].
+Ans: undefined
+Options: ["nghiêm minh, dựa trên tinh thần tự nguyện","tự giác, dựa trên tinh thần tự chủ","tự giác, dựa trên tinh thần dân chủ","người dưới phải nghiêm chỉnh chấp hành","người dưới phải tự nguyện chấp hành","học viên phải tự giác chấp hành"]
+Type: fill
+
+ID: lam-2-c07-01 (Lesson: blue-lesson-02)
+Q: Hoàn thành nhận định về danh dự: Danh dự của võ sĩ không chỉ là danh dự cá nhân mà còn là danh dự của tập thể và môn phái. Người võ sĩ phải sống hiên ngang, cao thượng, biết ______[1], bênh vực lẽ phải và đặt võ đạo lên trên ______[2].
+Ans: undefined
+Options: ["bảo vệ người nghèo","bảo vệ người vô tội","giúp đỡ người yếu","lòng tự tôn cá nhân","lợi ích của cá nhân","lòng tự hào cá nhân"]
+Type: fill
+
+
+=== lam-3.json ===
+
+ID: lam-3-c05-01 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống để hoàn thành quan niệm về đức trong sạch: Võ sinh Phật Quang Quyền phải ______[1], sống đạo đức và tránh điều xấu. Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải ______[2] và xây dựng cuộc sống tốt đẹp hơn.
+Ans: undefined
+Options: ["giữ gìn tâm hồn trong sạch","giữ gìn thân thể trong sạch","rèn luyện thân tâm trong sạch","nhìn nhận khách quan để góp phần khắc phục, cải thiện","đối mặt với sự thật để góp phần giúp đỡ, bảo vệ","dũng cảm đối mặt để đấu tranh chống lại"]
+Type: fill
+
+ID: lam-3-c09-01 (Lesson: blue-lesson-03)
+Q: Muốn kiện toàn ý chí đanh thép võ sinh Phật Quang Quyền phải: ______[1] mọi vấn đề trước khi quyết định. Khi đã quyết định đúng đắn thì ______[2] với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.
+Ans: undefined
+Options: ["Quan sát, đánh giá kỹ lưỡng","Phân tích, suy xét cẩn thận","Tìm hiểu, đánh giá kỹ lưỡng","nỗ lực thực hiện đến cùng","quyết tâm thực hiện đến cùng","cố gắng hoàn thành đến cùng"]
+Type: fill
+
+ID: lam-3-c13-2 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+______[1]
+Chấp thủ khai mã
+______[2]
+______[3]
+Lưỡng thủ khai môn
+______[4]
+Hữu thủ yểm tâm
+Hồi đầu thối toạ
+Tả thủ yểm tâm
+Nhất cước phá đao
+Nhất quyền đả khứ
+Lão hổ vồ mồi
+______[5]
+Song đao phạt mộc
+Song phi cước khứ
+______[6]
+Tả hữu đả diện
+Cuồng phong tróc nã
+Tả thủ phá cước
+Hoành thân phục hổ
+Hữu thủ yểm tâm
+Ngũ phong đả diện
+______[7]
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+Ngũ phong đả diện
+Tả cước tảo địa
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+______[8]
+______[9]
+Hoành thân thối toạ
+Hữu thủ yểm tâm
+Long quyền đoạt nhãn
+______[10]
+Tướng quân bạt kiếm
+Bái tổ thâu mã
+Ans: undefined
+Options: ["Song đao phạt trúc","Đơn thủ phá cước","Chấp thủ bế mã","Tả thủ yểm hậu","Đồng tử dâng quả","Long quyền đoạt nhãn","Trửu phong đả bồi","Hữu thủ yểm hậu","Lão hổ vồ trăng","Bái tổ mãnh hổ thượng sơn","Kim đồng dâng quả","Long quyền đả khứ","Trửu phong đả hạ","Hữu cước tảo địa","Lưỡng thủ bế môn","Song phi cước hoành","Nhị cước phá đao","Đơn toạ phục hổ","Bái tổ Lão hổ thượng sơn","Lưỡng thủ hữu cước","Lưỡng thủ tả cước","Hồi đầu tấn toạ","Nhị quyền đả khứ","Song thủ phá cước","Đơn toạ giáng hổ"]
+Type: fill
+
+ID: lam-3-c13-3 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+Bái tổ Lão hổ thượng sơn
+______[1]
+______[2]
+______[3]
+Lưỡng thủ khai môn
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Hồi đầu thối toạ
+Tả thủ yểm tâm
+Nhất cước phá đao
+Nhất quyền đả khứ
+Lão hổ vồ mồi
+Trửu phong đả bồi
+______[4]
+Song phi cước khứ
+______[5]
+Tả hữu đả diện
+Cuồng phong tróc nã
+Tả thủ phá cước
+______[6]
+Hữu thủ yểm tâm
+Ngũ phong đả diện
+Hữu cước tảo địa
+______[7]
+Tả thủ yểm tâm
+______[8]
+Tả cước tảo địa
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+Long quyền đoạt nhãn
+______[9]
+Hoành thân thối toạ
+______[10]
+Long quyền đoạt nhãn
+Lưỡng thủ hữu cước
+Tướng quân bạt kiếm
+Bái tổ thâu mã
+Ans: undefined
+Options: ["Chấp thủ bế mã","Chấp thủ khai mã","Bái tổ mãnh hổ thượng sơn","Đồng tử dâng quả","Nhị quyền đả khứ","Kim đồng dâng quả","Đơn thủ phá cước","Hồi đầu tấn toạ","Ngũ phong đả diện","Đơn toạ phục hổ","Song đao phạt trúc","Song thủ phá cước","Lưỡng thủ tả cước","Lưỡng thủ bế môn","Đơn toạ giáng hổ","Lão hổ vồ trăng","Hữu thủ yểm hậu","Nhị cước phá đao","Hữu thủ yểm tâm","Song phi cước hoành","Long quyền đả khứ","Trửu phong đả hạ","Tả thủ yểm hậu","Hoành thân phục hổ","Song đao phạt mộc"]
+Type: fill
+
+ID: lam-3-c13-4 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+Bái tổ Lão hổ thượng sơn
+Chấp thủ khai mã
+Song thủ phá cước
+Đồng tử dâng quả
+______[1]
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+______[2]
+Tả thủ yểm tâm
+Nhất cước phá đao
+Nhất quyền đả khứ
+Lão hổ vồ mồi
+Trửu phong đả bồi
+Song đao phạt mộc
+Song phi cước khứ
+Long quyền đả khứ
+Tả hữu đả diện
+Cuồng phong tróc nã
+Tả thủ phá cước
+Hoành thân phục hổ
+Hữu thủ yểm tâm
+______[3]
+______[4]
+______[5]
+______[6]
+Ngũ phong đả diện
+______[7]
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+Long quyền đoạt nhãn
+Lưỡng thủ tả cước
+Hoành thân thối toạ
+Hữu thủ yểm tâm
+Long quyền đoạt nhãn
+______[8]
+______[9]
+______[10]
+Ans: undefined
+Options: ["Kim đồng dâng quả","Đơn thủ phá cước","Lưỡng thủ khai môn","Hồi đầu tấn toạ","Tướng quân bạt kiếm","Đơn toạ phục hổ","Bái tổ thâu mã","Nhị cước phá đao","Lưỡng thủ hữu cước","Ngũ phong đả diện","Đơn toạ giáng hổ","Lão hổ vồ trăng","Tả thủ yểm hậu","Bái tổ mãnh hổ thượng sơn","Lưỡng thủ bế môn","Trửu phong đả hạ","Song phi cước hoành","Chấp thủ bế mã","Hữu cước tảo địa","Tả cước tảo địa","Song đao phạt trúc","Nhị quyền đả khứ","Tả thủ yểm tâm","Hữu thủ yểm hậu","Hồi đầu thối toạ"]
+Type: fill
+
+ID: lam-3-c13-5 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+Bái tổ Lão hổ thượng sơn
+______[1]
+Song thủ phá cước
+Đồng tử dâng quả
+Lưỡng thủ khai môn
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Hồi đầu thối toạ
+______[2]
+Nhất cước phá đao
+Nhất quyền đả khứ
+Lão hổ vồ mồi
+Trửu phong đả bồi
+Song đao phạt mộc
+Song phi cước khứ
+Long quyền đả khứ
+Tả hữu đả diện
+Cuồng phong tróc nã
+Tả thủ phá cước
+Hoành thân phục hổ
+Hữu thủ yểm tâm
+______[3]
+______[4]
+______[5]
+Tả thủ yểm tâm
+______[6]
+______[7]
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+______[8]
+Lưỡng thủ tả cước
+Hoành thân thối toạ
+______[9]
+Long quyền đoạt nhãn
+______[10]
+Tướng quân bạt kiếm
+Bái tổ thâu mã
+Ans: undefined
+Options: ["Đơn toạ phục hổ","Hữu cước tảo địa","Lưỡng thủ hữu cước","Song đao phạt trúc","Bái tổ mãnh hổ thượng sơn","Song phi cước hoành","Chấp thủ bế mã","Lão hổ vồ trăng","Chấp thủ khai mã","Đơn thủ phá cước","Hữu thủ yểm hậu","Nhị cước phá đao","Tả thủ yểm hậu","Hữu thủ yểm tâm","Tả cước tảo địa","Trửu phong đả hạ","Kim đồng dâng quả","Nhị quyền đả khứ","Đơn toạ giáng hổ","Hồi đầu tấn toạ","Lưỡng thủ bế môn","Ngũ phong đả diện","Long quyền đoạt nhãn","Tả thủ yểm tâm"]
+Type: fill
+
+ID: lam-3-c13-6 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+______[1]
+Chấp thủ khai mã
+Song thủ phá cước
+______[2]
+Lưỡng thủ khai môn
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+______[3]
+Tả thủ yểm tâm
+______[4]
+______[5]
+Lão hổ vồ mồi
+Trửu phong đả bồi
+Song đao phạt mộc
+______[6]
+Long quyền đả khứ
+Tả hữu đả diện
+Cuồng phong tróc nã
+Tả thủ phá cước
+______[7]
+Hữu thủ yểm tâm
+______[8]
+Hữu cước tảo địa
+______[9]
+Tả thủ yểm tâm
+Ngũ phong đả diện
+Tả cước tảo địa
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+Đơn toạ phục hổ
+______[10]
+Long quyền đoạt nhãn
+Lưỡng thủ tả cước
+Hoành thân thối toạ
+Hữu thủ yểm tâm
+Long quyền đoạt nhãn
+Lưỡng thủ hữu cước
+Tướng quân bạt kiếm
+Bái tổ thâu mã
+Ans: undefined
+Options: ["Hồi đầu tấn toạ","Song phi cước khứ","Tả thủ yểm tâm","Kim đồng dâng quả","Nhất quyền đả khứ","Đồng tử dâng quả","Hồi đầu thối toạ","Lão hổ vồ trăng","Hữu thủ yểm hậu","Trửu phong đả hạ","Đơn thủ phá cước","Hoành thân phục hổ","Nhất cước phá đao","Nhị cước phá đao","Nhị quyền đả khứ","Song phi cước hoành","Tả thủ yểm hậu","Ngũ phong đả diện","Bái tổ Lão hổ thượng sơn","Đơn toạ giáng hổ","Chấp thủ bế mã","Lưỡng thủ bế môn","Đơn toạ phục hổ","Song đao phạt trúc","Bái tổ mãnh hổ thượng sơn"]
+Type: fill
+
+ID: lam-3-c13-7 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+Bái tổ Lão hổ thượng sơn
+Chấp thủ khai mã
+Song thủ phá cước
+Đồng tử dâng quả
+Lưỡng thủ khai môn
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Hồi đầu thối toạ
+Tả thủ yểm tâm
+Nhất cước phá đao
+Nhất quyền đả khứ
+______[1]
+Trửu phong đả bồi
+______[2]
+Song phi cước khứ
+Long quyền đả khứ
+Tả hữu đả diện
+______[3]
+______[4]
+Hoành thân phục hổ
+Hữu thủ yểm tâm
+Ngũ phong đả diện
+Hữu cước tảo địa
+______[5]
+______[6]
+Ngũ phong đả diện
+Tả cước tảo địa
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+Đơn toạ phục hổ
+______[7]
+Long quyền đoạt nhãn
+______[8]
+Hoành thân thối toạ
+______[9]
+______[10]
+Lưỡng thủ hữu cước
+Tướng quân bạt kiếm
+Bái tổ thâu mã
+Ans: undefined
+Options: ["Lão hổ vồ trăng","Nhị quyền đả khứ","Nhị cước phá đao","Tả thủ yểm hậu","Hồi đầu tấn toạ","Hữu thủ yểm hậu","Đơn toạ giáng hổ","Đơn toạ phục hổ","Song phi cước hoành","Long quyền đoạt nhãn","Tả thủ yểm tâm","Lưỡng thủ bế môn","Hữu thủ yểm tâm","Tả thủ phá cước","Kim đồng dâng quả","Trửu phong đả hạ","Đơn thủ phá cước","Lão hổ vồ mồi","Chấp thủ bế mã","Bái tổ mãnh hổ thượng sơn","Cuồng phong tróc nã","Lưỡng thủ tả cước","Song đao phạt trúc","Song đao phạt mộc"]
+Type: fill
+
+ID: lam-3-c13-8 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+______[1]
+Chấp thủ khai mã
+Song thủ phá cước
+Đồng tử dâng quả
+Lưỡng thủ khai môn
+______[2]
+Hữu thủ yểm tâm
+Hồi đầu thối toạ
+Tả thủ yểm tâm
+______[3]
+Nhất quyền đả khứ
+Lão hổ vồ mồi
+Trửu phong đả bồi
+______[4]
+Song phi cước khứ
+Long quyền đả khứ
+Tả hữu đả diện
+Cuồng phong tróc nã
+______[5]
+______[6]
+______[7]
+Ngũ phong đả diện
+Hữu cước tảo địa
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+Ngũ phong đả diện
+Tả cước tảo địa
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+______[8]
+Tả thủ yểm tâm
+Long quyền đoạt nhãn
+______[9]
+Hoành thân thối toạ
+Hữu thủ yểm tâm
+______[10]
+Lưỡng thủ hữu cước
+Tướng quân bạt kiếm
+Bái tổ thâu mã
+Ans: undefined
+Options: ["Hồi đầu tấn toạ","Đơn toạ giáng hổ","Nhị cước phá đao","Đơn thủ phá cước","Hoành thân phục hổ","Song đao phạt trúc","Kim đồng dâng quả","Hữu thủ yểm tâm","Tả thủ yểm hậu","Lưỡng thủ tả cước","Bái tổ Lão hổ thượng sơn","Chấp thủ bế mã","Song đao phạt mộc","Tả thủ phá cước","Long quyền đoạt nhãn","Đơn toạ phục hổ","Bái tổ mãnh hổ thượng sơn","Nhất cước phá đao","Nhị quyền đả khứ","Lưỡng thủ bế môn","Hữu thủ yểm hậu","Song phi cước hoành","Trửu phong đả hạ","Lão hổ vồ trăng"]
+Type: fill
+
+ID: lam-3-c13-9 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+Bái tổ Lão hổ thượng sơn
+Chấp thủ khai mã
+Song thủ phá cước
+Đồng tử dâng quả
+Lưỡng thủ khai môn
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+______[1]
+Tả thủ yểm tâm
+Nhất cước phá đao
+Nhất quyền đả khứ
+______[2]
+Trửu phong đả bồi
+Song đao phạt mộc
+______[3]
+Long quyền đả khứ
+Tả hữu đả diện
+Cuồng phong tróc nã
+Tả thủ phá cước
+______[4]
+Hữu thủ yểm tâm
+Ngũ phong đả diện
+Hữu cước tảo địa
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+______[5]
+______[6]
+______[7]
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+______[8]
+Tả thủ yểm tâm
+Long quyền đoạt nhãn
+______[9]
+Hoành thân thối toạ
+Hữu thủ yểm tâm
+Long quyền đoạt nhãn
+______[10]
+Tướng quân bạt kiếm
+Bái tổ thâu mã
+Ans: undefined
+Options: ["Bái tổ mãnh hổ thượng sơn","Đơn thủ phá cước","Hồi đầu thối toạ","Đơn toạ phục hổ","Song đao phạt trúc","Hồi đầu tấn toạ","Lưỡng thủ bế môn","Tả thủ yểm hậu","Hữu thủ yểm hậu","Lưỡng thủ tả cước","Song phi cước hoành","Lưỡng thủ hữu cước","Lão hổ vồ mồi","Chấp thủ bế mã","Trửu phong đả hạ","Kim đồng dâng quả","Hoành thân phục hổ","Đơn toạ giáng hổ","Tả cước tảo địa","Ngũ phong đả diện","Lão hổ vồ trăng","Nhị cước phá đao","Nhị quyền đả khứ","Song phi cước khứ"]
+Type: fill
+
+ID: lam-3-c13-10 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+Bái tổ Lão hổ thượng sơn
+Chấp thủ khai mã
+______[1]
+______[2]
+Lưỡng thủ khai môn
+______[3]
+Hữu thủ yểm tâm
+Hồi đầu thối toạ
+______[4]
+Nhất cước phá đao
+Nhất quyền đả khứ
+Lão hổ vồ mồi
+Trửu phong đả bồi
+Song đao phạt mộc
+______[5]
+Long quyền đả khứ
+______[6]
+Cuồng phong tróc nã
+Tả thủ phá cước
+Hoành thân phục hổ
+Hữu thủ yểm tâm
+Ngũ phong đả diện
+Hữu cước tảo địa
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+Ngũ phong đả diện
+Tả cước tảo địa
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+Lưỡng thủ vạn năng
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+Long quyền đoạt nhãn
+Lưỡng thủ tả cước
+______[7]
+______[8]
+______[9]
+Lưỡng thủ hữu cước
+Tướng quân bạt kiếm
+______[10]
+Ans: undefined
+Options: ["Hữu thủ yểm hậu","Đồng tử dâng quả","Chấp thủ bế mã","Lão hổ vồ trăng","Song thủ phá cước","Long quyền đoạt nhãn","Bái tổ mãnh hổ thượng sơn","Bái tổ thâu mã","Kim đồng dâng quả","Song đao phạt trúc","Tả thủ yểm hậu","Nhị quyền đả khứ","Đơn thủ phá cước","Đơn toạ phục hổ","Hữu thủ yểm tâm","Đơn toạ giáng hổ","Tả thủ yểm tâm","Trửu phong đả hạ","Nhị cước phá đao","Song phi cước hoành","Lưỡng thủ bế môn","Song phi cước khứ","Hồi đầu tấn toạ","Tả hữu đả diện","Hoành thân thối toạ"]
+Type: fill
+
+ID: lam-3-c13-11 (Lesson: blue-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:
+
+______[1]
+______[2]
+______[3]
+Đồng tử dâng quả
+Lưỡng thủ khai môn
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+______[4]
+Tả thủ yểm tâm
+Nhất cước phá đao
+Nhất quyền đả khứ
+______[5]
+Trửu phong đả bồi
+Song đao phạt mộc
+Song phi cước khứ
+Long quyền đả khứ
+______[6]
+Cuồng phong tróc nã
+Tả thủ phá cước
+Hoành thân phục hổ
+Hữu thủ yểm tâm
+Ngũ phong đả diện
+Hữu cước tảo địa
+Đơn toạ phục hổ
+______[7]
+Ngũ phong đả diện
+______[8]
+Đơn toạ phục hổ
+Hữu thủ yểm tâm
+______[9]
+Đơn toạ phục hổ
+Tả thủ yểm tâm
+Long quyền đoạt nhãn
+Lưỡng thủ tả cước
+Hoành thân thối toạ
+Hữu thủ yểm tâm
+Long quyền đoạt nhãn
+______[10]
+Tướng quân bạt kiếm
+Bái tổ thâu mã
+Ans: undefined
+Options: ["Hồi đầu thối toạ","Bái tổ Lão hổ thượng sơn","Bái tổ mãnh hổ thượng sơn","Chấp thủ khai mã","Tả cước tảo địa","Tả thủ yểm tâm","Chấp thủ bế mã","Lưỡng thủ vạn năng","Lão hổ vồ trăng","Đơn thủ phá cước","Kim đồng dâng quả","Song thủ phá cước","Hồi đầu tấn toạ","Đơn toạ giáng hổ","Lưỡng thủ bế môn","Lão hổ vồ mồi","Lưỡng thủ hữu cước","Hữu thủ yểm hậu","Nhị cước phá đao","Tả thủ yểm hậu","Nhị quyền đả khứ","Song phi cước hoành","Song đao phạt trúc","Tả hữu đả diện","Trửu phong đả hạ"]
+Type: fill
+
+
+=== lam-4.json ===
+
+ID: lam-4-c05-01 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống về nguồn gốc võ thuật: Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải ______[1]. Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành ______[2], hình thành nên võ thuật.
+Ans: undefined
+Options: ["rèn luyện sức khỏe để bảo vệ bản thân và gia đình","tìm cách phòng vệ để bảo vệ bản thân và cộng đồng","tạo ra vũ khí để bảo vệ bản thân và cộng đồng","những phương pháp chiến đấu có sức mạnh, có nguyên tắc và nghệ thuật","những đòn thế chiến đấu có kỹ thuật, có phương pháp và nghệ thuật","những kỹ năng chiến đấu có hệ thống, có nguyên tắc và nghệ thuật"]
+Type: fill
+
+ID: lam-4-c12-01 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống: Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự ______[1]. Sau khi ngăn chặn hoặc xử lý hành vi sai trái, cần hướng đến ______[2], không nuôi dưỡng lòng thù hận.
+Ans: undefined
+Options: ["vị tha, khoan dung và có chừng mực","hào hiệp, nhân ái và có chừng mực","can đảm, khoan dung và có giới hạn","tha thứ, khuyên răn và cảm hóa","bao dung, hòa giải và cảm hóa","tha thứ, giáo dục và cảm hóa"]
+Type: fill
+
+ID: lam-4-c13-2 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+______[1]
+______[2]
+Thăng thiên phượng dực xoay tròn,
+Kim tiêu hồi bộ, song đao, xỉa tiền,
+______[3]
+______[4]
+______[5]
+______[6]
+Quét chân, hoành tọa đăng sơn,
+______[7]
+Đăng sơn tả, hữu quy hình,
+______[8]
+______[9]
+______[10]
+Ans: undefined
+Options: ["Hồi thân phượng dực, xoay tròn đấm sơn,","Đầu tiên bái tổ, nhớ sư,","Cước ngang bộ phượng, bay lên móc liền,","Thần cung xạ tiễn, tấn lên,","Đầu tiên bái tổ, kính sư,","Thôi sơn tấn tiếp, cước ngang trảm xà,","Bạch hạc ra bộ, thôi sơn tấn liền,","Xoay người vươn bộ đăng sơn,","Bạch hạc ra bộ, thôi sơn đánh liền,","Hồi thân phượng dực, xoay tròn thôi sơn,","Thăng thiên phượng dực bay vòng,","Bạt phong cước tới, song phi đại bàng,","Bạt phong cước tới, song phi phượng hoàng,","Đăng sơn tả, hữu quy về,","Kim tiêu thối bộ, song đao, xỉa tiền,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Xoay người tấn bộ đăng sơn,","Đăng sơn hữu tả xỉa nghiêng,","Cước ngang phi tới, xoay thân kính chào.","Cước ngang phi tới, thu thân kính chào.","Cước ngang bộ phượng, bay cao móc liền,","Đăng sơn hữu tả chém nghiêng,","Bạch hạc vươn cánh, thôi sơn tấn liền,","Quét chân, trung tọa đăng sơn,","Thần cung xạ tiễn, tấn tiên,"]
+Type: fill
+
+ID: lam-4-c13-3 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+Cước ngang bộ phượng, bay lên móc liền,
+______[6]
+______[7]
+Quét chân, hoành tọa đăng sơn,
+______[8]
+Đăng sơn tả, hữu quy hình,
+______[9]
+______[10]
+Cước ngang phi tới, xoay thân kính chào.
+Ans: undefined
+Options: ["Bạch hạc ra bộ, thôi sơn tấn liền,","Thôi sơn tấn tiếp, cước ngang trảm xà,","Bạch hạc ra bộ, thôi sơn đánh liền,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Bạt phong cước tới, song phi phượng hoàng,","Cước ngang bộ phượng, bay cao móc liền,","Hồi thân phượng dực, xoay tròn thôi sơn,","Bạt phong cước tới, song phi đại bàng,","Thăng thiên phượng dực bay vòng,","Bạch hạc vươn cánh, thôi sơn tấn liền,","Đầu tiên bái tổ, kính sư,","Kim tiêu hồi bộ, song đao, xỉa tiền,","Xoay người vươn bộ đăng sơn,","Kim tiêu thối bộ, song đao, xỉa tiền,","Đăng sơn hữu tả chém nghiêng,","Thần cung xạ tiễn, tấn tiên,","Thần cung xạ tiễn, tấn lên,","Đầu tiên bái tổ, nhớ sư,","Xoay người tấn bộ đăng sơn,","Quét chân, trung tọa đăng sơn,","Thăng thiên phượng dực xoay tròn,","Hồi thân phượng dực, xoay tròn đấm sơn,","Cước ngang phi tới, thu thân kính chào.","Đăng sơn hữu tả xỉa nghiêng,","Đăng sơn tả, hữu quy về,"]
+Type: fill
+
+ID: lam-4-c13-4 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+______[1]
+Bạch hạc ra bộ, thôi sơn tấn liền,
+______[2]
+Kim tiêu hồi bộ, song đao, xỉa tiền,
+______[3]
+______[4]
+Đăng sơn hữu tả xỉa nghiêng,
+______[5]
+______[6]
+______[7]
+Đăng sơn tả, hữu quy hình,
+______[8]
+______[9]
+______[10]
+Ans: undefined
+Options: ["Bạt phong cước tới, song phi phượng hoàng,","Đầu tiên bái tổ, nhớ sư,","Thăng thiên phượng dực bay vòng,","Xoay người vươn bộ đăng sơn,","Cước ngang bộ phượng, bay lên móc liền,","Kim tiêu thối bộ, song đao, xỉa tiền,","Cước ngang bộ phượng, bay cao móc liền,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Thần cung xạ tiễn, tấn lên,","Đầu tiên bái tổ, kính sư,","Cước ngang phi tới, thu thân kính chào.","Đăng sơn tả, hữu quy về,","Quét chân, trung tọa đăng sơn,","Bạt phong cước tới, song phi đại bàng,","Quét chân, hoành tọa đăng sơn,","Xoay người tấn bộ đăng sơn,","Cước ngang phi tới, xoay thân kính chào.","Hồi thân phượng dực, xoay tròn đấm sơn,","Thăng thiên phượng dực xoay tròn,","Thần cung xạ tiễn, tấn tiên,","Đăng sơn hữu tả chém nghiêng,","Bạch hạc ra bộ, thôi sơn đánh liền,","Thôi sơn tấn tiếp, cước ngang trảm xà,","Bạch hạc vươn cánh, thôi sơn tấn liền,","Hồi thân phượng dực, xoay tròn thôi sơn,"]
+Type: fill
+
+ID: lam-4-c13-5 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+______[1]
+Bạch hạc ra bộ, thôi sơn tấn liền,
+______[2]
+______[3]
+Thần cung xạ tiễn, tấn tiên,
+______[4]
+______[5]
+Bạt phong cước tới, song phi phượng hoàng,
+______[6]
+______[7]
+______[8]
+Thôi sơn tấn tiếp, cước ngang trảm xà,
+______[9]
+______[10]
+Ans: undefined
+Options: ["Bạch hạc ra bộ, thôi sơn đánh liền,","Cước ngang bộ phượng, bay cao móc liền,","Cước ngang bộ phượng, bay lên móc liền,","Kim tiêu thối bộ, song đao, xỉa tiền,","Đầu tiên bái tổ, kính sư,","Xoay người vươn bộ đăng sơn,","Thăng thiên phượng dực xoay tròn,","Hồi thân phượng dực, xoay tròn thôi sơn,","Kim tiêu hồi bộ, song đao, xỉa tiền,","Xoay người tấn bộ đăng sơn,","Cước ngang phi tới, thu thân kính chào.","Bạch hạc vươn cánh, thôi sơn tấn liền,","Quét chân, hoành tọa đăng sơn,","Quét chân, trung tọa đăng sơn,","Đầu tiên bái tổ, nhớ sư,","Thăng thiên phượng dực bay vòng,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Hồi thân phượng dực, xoay tròn đấm sơn,","Bạt phong cước tới, song phi đại bàng,","Thần cung xạ tiễn, tấn lên,","Đăng sơn tả, hữu quy hình,","Cước ngang phi tới, xoay thân kính chào.","Đăng sơn tả, hữu quy về,","Đăng sơn hữu tả chém nghiêng,","Đăng sơn hữu tả xỉa nghiêng,"]
+Type: fill
+
+ID: lam-4-c13-6 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+______[1]
+______[2]
+______[3]
+Kim tiêu hồi bộ, song đao, xỉa tiền,
+______[4]
+Cước ngang bộ phượng, bay lên móc liền,
+______[5]
+______[6]
+______[7]
+Hồi thân phượng dực, xoay tròn thôi sơn,
+______[8]
+______[9]
+______[10]
+Cước ngang phi tới, xoay thân kính chào.
+Ans: undefined
+Options: ["Bạch hạc vươn cánh, thôi sơn tấn liền,","Đầu tiên bái tổ, nhớ sư,","Cước ngang phi tới, thu thân kính chào.","Bạch hạc ra bộ, thôi sơn đánh liền,","Quét chân, trung tọa đăng sơn,","Quét chân, hoành tọa đăng sơn,","Hồi thân phượng dực, xoay tròn đấm sơn,","Thăng thiên phượng dực bay vòng,","Kim tiêu thối bộ, song đao, xỉa tiền,","Thần cung xạ tiễn, tấn lên,","Đầu tiên bái tổ, kính sư,","Bạt phong cước tới, song phi đại bàng,","Xoay người vươn bộ đăng sơn,","Cước ngang bộ phượng, bay cao móc liền,","Thăng thiên phượng dực xoay tròn,","Đăng sơn hữu tả xỉa nghiêng,","Bạt phong cước tới, song phi phượng hoàng,","Xoay người tấn bộ đăng sơn,","Thần cung xạ tiễn, tấn tiên,","Đăng sơn hữu tả chém nghiêng,","Đăng sơn tả, hữu quy hình,","Đăng sơn tả, hữu quy về,","Thôi sơn tấn tiếp, cước ngang trảm xà,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Bạch hạc ra bộ, thôi sơn tấn liền,"]
+Type: fill
+
+ID: lam-4-c13-7 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+Đầu tiên bái tổ, kính sư,
+______[1]
+Thăng thiên phượng dực xoay tròn,
+______[2]
+Thần cung xạ tiễn, tấn tiên,
+Cước ngang bộ phượng, bay lên móc liền,
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+Ans: undefined
+Options: ["Đầu tiên bái tổ, nhớ sư,","Bạch hạc ra bộ, thôi sơn tấn liền,","Đăng sơn tả, hữu quy về,","Bạt phong cước tới, song phi phượng hoàng,","Bạt phong cước tới, song phi đại bàng,","Kim tiêu hồi bộ, song đao, xỉa tiền,","Thần cung xạ tiễn, tấn lên,","Quét chân, hoành tọa đăng sơn,","Cước ngang phi tới, thu thân kính chào.","Đăng sơn hữu tả chém nghiêng,","Quét chân, trung tọa đăng sơn,","Bạch hạc vươn cánh, thôi sơn tấn liền,","Bạch hạc ra bộ, thôi sơn đánh liền,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Đăng sơn hữu tả xỉa nghiêng,","Cước ngang bộ phượng, bay cao móc liền,","Hồi thân phượng dực, xoay tròn đấm sơn,","Thôi sơn tấn tiếp, cước ngang trảm xà,","Xoay người vươn bộ đăng sơn,","Thăng thiên phượng dực bay vòng,","Cước ngang phi tới, xoay thân kính chào.","Đăng sơn tả, hữu quy hình,","Kim tiêu thối bộ, song đao, xỉa tiền,","Hồi thân phượng dực, xoay tròn thôi sơn,","Xoay người tấn bộ đăng sơn,"]
+Type: fill
+
+ID: lam-4-c13-8 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+______[1]
+______[2]
+______[3]
+Kim tiêu hồi bộ, song đao, xỉa tiền,
+Thần cung xạ tiễn, tấn tiên,
+______[4]
+______[5]
+Bạt phong cước tới, song phi phượng hoàng,
+Quét chân, hoành tọa đăng sơn,
+______[6]
+______[7]
+______[8]
+______[9]
+______[10]
+Ans: undefined
+Options: ["Cước ngang bộ phượng, bay cao móc liền,","Bạch hạc vươn cánh, thôi sơn tấn liền,","Đầu tiên bái tổ, nhớ sư,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Quét chân, trung tọa đăng sơn,","Xoay người vươn bộ đăng sơn,","Đăng sơn tả, hữu quy về,","Đăng sơn tả, hữu quy hình,","Cước ngang bộ phượng, bay lên móc liền,","Kim tiêu thối bộ, song đao, xỉa tiền,","Hồi thân phượng dực, xoay tròn thôi sơn,","Cước ngang phi tới, thu thân kính chào.","Thăng thiên phượng dực xoay tròn,","Bạt phong cước tới, song phi đại bàng,","Đầu tiên bái tổ, kính sư,","Thần cung xạ tiễn, tấn lên,","Bạch hạc ra bộ, thôi sơn tấn liền,","Đăng sơn hữu tả chém nghiêng,","Thăng thiên phượng dực bay vòng,","Hồi thân phượng dực, xoay tròn đấm sơn,","Cước ngang phi tới, xoay thân kính chào.","Đăng sơn hữu tả xỉa nghiêng,","Bạch hạc ra bộ, thôi sơn đánh liền,","Xoay người tấn bộ đăng sơn,","Thôi sơn tấn tiếp, cước ngang trảm xà,"]
+Type: fill
+
+ID: lam-4-c13-9 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+______[1]
+Bạch hạc ra bộ, thôi sơn tấn liền,
+______[2]
+______[3]
+Thần cung xạ tiễn, tấn tiên,
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+Đăng sơn tả, hữu quy hình,
+Thôi sơn tấn tiếp, cước ngang trảm xà,
+______[9]
+______[10]
+Ans: undefined
+Options: ["Bạt phong cước tới, song phi đại bàng,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Quét chân, hoành tọa đăng sơn,","Bạch hạc ra bộ, thôi sơn đánh liền,","Đầu tiên bái tổ, nhớ sư,","Hồi thân phượng dực, xoay tròn thôi sơn,","Đăng sơn hữu tả chém nghiêng,","Kim tiêu hồi bộ, song đao, xỉa tiền,","Quét chân, trung tọa đăng sơn,","Bạt phong cước tới, song phi phượng hoàng,","Đầu tiên bái tổ, kính sư,","Thần cung xạ tiễn, tấn lên,","Kim tiêu thối bộ, song đao, xỉa tiền,","Cước ngang phi tới, thu thân kính chào.","Xoay người vươn bộ đăng sơn,","Xoay người tấn bộ đăng sơn,","Đăng sơn hữu tả xỉa nghiêng,","Thăng thiên phượng dực bay vòng,","Thăng thiên phượng dực xoay tròn,","Đăng sơn tả, hữu quy về,","Cước ngang bộ phượng, bay cao móc liền,","Hồi thân phượng dực, xoay tròn đấm sơn,","Bạch hạc vươn cánh, thôi sơn tấn liền,","Cước ngang phi tới, xoay thân kính chào.","Cước ngang bộ phượng, bay lên móc liền,"]
+Type: fill
+
+ID: lam-4-c13-10 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+______[1]
+______[2]
+Thăng thiên phượng dực xoay tròn,
+______[3]
+______[4]
+______[5]
+______[6]
+Bạt phong cước tới, song phi phượng hoàng,
+______[7]
+______[8]
+Đăng sơn tả, hữu quy hình,
+Thôi sơn tấn tiếp, cước ngang trảm xà,
+______[9]
+______[10]
+Ans: undefined
+Options: ["Cước ngang phi tới, thu thân kính chào.","Bạch hạc ra bộ, thôi sơn tấn liền,","Xoay người vươn bộ đăng sơn,","Thần cung xạ tiễn, tấn tiên,","Đầu tiên bái tổ, nhớ sư,","Bạch hạc ra bộ, thôi sơn đánh liền,","Hồi thân phượng dực, xoay tròn thôi sơn,","Đầu tiên bái tổ, kính sư,","Đăng sơn tả, hữu quy về,","Quét chân, trung tọa đăng sơn,","Hồi thân phượng dực, xoay tròn đấm sơn,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Thăng thiên phượng dực bay vòng,","Kim tiêu thối bộ, song đao, xỉa tiền,","Thần cung xạ tiễn, tấn lên,","Cước ngang bộ phượng, bay lên móc liền,","Kim tiêu hồi bộ, song đao, xỉa tiền,","Đăng sơn hữu tả xỉa nghiêng,","Bạch hạc vươn cánh, thôi sơn tấn liền,","Xoay người tấn bộ đăng sơn,","Cước ngang bộ phượng, bay cao móc liền,","Cước ngang phi tới, xoay thân kính chào.","Đăng sơn hữu tả chém nghiêng,","Bạt phong cước tới, song phi đại bàng,","Quét chân, hoành tọa đăng sơn,"]
+Type: fill
+
+ID: lam-4-c13-11 (Lesson: blue-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+
+Đầu tiên bái tổ, kính sư,
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+Bạt phong cước tới, song phi phượng hoàng,
+______[7]
+Hồi thân phượng dực, xoay tròn thôi sơn,
+Đăng sơn tả, hữu quy hình,
+______[8]
+______[9]
+______[10]
+Ans: undefined
+Options: ["Bạch hạc ra bộ, thôi sơn tấn liền,","Cước ngang bộ phượng, bay cao móc liền,","Cước ngang bộ phượng, bay lên móc liền,","Kim tiêu hồi bộ, song đao, xỉa tiền,","Thôi sơn tấn tiếp, cước ngang đạp xà,","Quét chân, hoành tọa đăng sơn,","Kim tiêu thối bộ, song đao, xỉa tiền,","Bạch hạc vươn cánh, thôi sơn tấn liền,","Bạch hạc ra bộ, thôi sơn đánh liền,","Xoay người vươn bộ đăng sơn,","Thần cung xạ tiễn, tấn tiên,","Thần cung xạ tiễn, tấn lên,","Bạt phong cước tới, song phi đại bàng,","Cước ngang phi tới, thu thân kính chào.","Quét chân, trung tọa đăng sơn,","Đăng sơn hữu tả chém nghiêng,","Đầu tiên bái tổ, nhớ sư,","Đăng sơn hữu tả xỉa nghiêng,","Đăng sơn tả, hữu quy về,","Hồi thân phượng dực, xoay tròn đấm sơn,","Thăng thiên phượng dực bay vòng,","Cước ngang phi tới, xoay thân kính chào.","Xoay người tấn bộ đăng sơn,","Thăng thiên phượng dực xoay tròn,","Thôi sơn tấn tiếp, cước ngang trảm xà,"]
+Type: fill
+
+
+=== luc-1.json ===
+
+ID: luc-1-c08-01 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống: Một môn phái võ thuật muốn phát triển thành võ đạo phải có ______[1], hệ thống võ thuật toàn diện, phương pháp giảng dạy hiệu quả và ______[2] để xây dựng, quảng bá và phát triển môn phái.
+Ans: undefined
+Options: ["tinh thần thượng võ rõ ràng, ý thức hệ đúng đắn","tinh thần yêu nước rõ ràng, lý tưởng đúng đắn","tinh thần dân tộc rõ ràng, đường lối đúng đắn","nguồn tài chính đủ mạnh","số lượng võ sinh đông đảo","cơ sở vật chất khang trang"]
+Type: fill
+
+ID: luc-1-c11-2 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+______[1]
+Tam bộ bái tổ.
+Nhị bộ kỉnh sư.
+______[2]
+Ngọc trản ngân đài.
+______[3]
+Thập tự luyện diệp.
+______[4]
+Toạ hồi mai phục.
+Tấn đả tam chiến.
+______[5]
+Tả hoành sát, hữu hoành sát.
+Hồi phát địa hổ.
+______[6]
+Phụ tử tương tùy.
+Song phi triển dực.
+Hạ bàn lôi đản đả.
+Hồi tiểu tọa khai cung.
+______[7]
+Trực tiền quyển địa.
+Huỳnh long quyển địa.
+Đồng tử giương thân.
+______[8]
+Hồi tả tọa, bạch xà lang lộ.
+______[9]
+Kim kê điển thủ.
+______[10]
+Tẩu mã dương tiên.
+Lập bộ như tiền.
+Hồi đầu vọng bái.
+Ans: undefined
+Options: ["Hồi thân lập tấn.","Mẫu tử tương tùy.","Thối thủ nhị linh.","Hồi thân lập trụ.","Liên đả sát túc.","Hoành tấn đả liên hoàn.","Bái tổ Ngọc trản ngân","Hồi phát thiên hổ.","Liên đả sát quyền.","Thanh long quá giang.","Thanh long biên giang.","Tả hoành sát, thanh long biên giang.","Thối thủ nhất linh.","Ngọc trản liên đài.","Tứ bộ bái tổ.","Nhất bộ kỉnh sư.","Toạ hồi phục binh.","Bái tổ Ngọc trản quyền","Tả hoành trảm, hữu hoành trảm.","Thập tự bạt diệp.","Tả hữu tấn khai.","Tấn đả song quyền.","Thối tảo bát liên hoàn.","Tấn đả song chiến.","Tả hữu tấn công."]
+Type: fill
+
+ID: luc-1-c11-3 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+______[1]
+______[2]
+Nhị bộ kỉnh sư.
+Hồi thân lập trụ.
+______[3]
+______[4]
+Thập tự luyện diệp.
+Liên đả sát túc.
+______[5]
+Tấn đả tam chiến.
+______[6]
+Tả hoành sát, hữu hoành sát.
+______[7]
+______[8]
+Phụ tử tương tùy.
+______[9]
+______[10]
+Hồi tiểu tọa khai cung.
+Tấn đả song quyền.
+Trực tiền quyển địa.
+Huỳnh long quyển địa.
+Đồng tử giương thân.
+Hoành tấn đả liên hoàn.
+Hồi tả tọa, bạch xà lang lộ.
+Tả hoành sát, thanh long biên giang.
+Kim kê điển thủ.
+Thối tảo bát liên hoàn.
+Tẩu mã dương tiên.
+Lập bộ như tiền.
+Hồi đầu vọng bái.
+Ans: undefined
+Options: ["Hồi thân lập tấn.","Tả hữu tấn công.","Tấn đả song chiến.","Tứ bộ bái tổ.","Thối thủ nhất linh.","Bái tổ Ngọc trản ngân","Thanh long quá giang.","Toạ hồi phục binh.","Ngọc trản liên đài.","Bái tổ Ngọc trản quyền","Tả hoành trảm, hữu hoành trảm.","Song phi triển dực.","Hồi phát thiên hổ.","Hồi phát địa hổ.","Liên đả sát quyền.","Nhất bộ kỉnh sư.","Thanh long biên giang.","Toạ hồi mai phục.","Mẫu tử tương tùy.","Thập tự bạt diệp.","Hạ bàn lôi đản đả.","Tam bộ bái tổ.","Tả hữu tấn khai.","Ngọc trản ngân đài.","Thối thủ nhị linh."]
+Type: fill
+
+ID: luc-1-c11-4 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+Bái tổ Ngọc trản quyền
+______[1]
+______[2]
+Hồi thân lập trụ.
+Ngọc trản ngân đài.
+Tả hữu tấn khai.
+Thập tự luyện diệp.
+______[3]
+Toạ hồi mai phục.
+Tấn đả tam chiến.
+______[4]
+Tả hoành sát, hữu hoành sát.
+Hồi phát địa hổ.
+Thanh long biên giang.
+Phụ tử tương tùy.
+______[5]
+Hạ bàn lôi đản đả.
+______[6]
+Tấn đả song quyền.
+Trực tiền quyển địa.
+______[7]
+______[8]
+Hoành tấn đả liên hoàn.
+______[9]
+Tả hoành sát, thanh long biên giang.
+Kim kê điển thủ.
+Thối tảo bát liên hoàn.
+Tẩu mã dương tiên.
+______[10]
+Hồi đầu vọng bái.
+Ans: undefined
+Options: ["Đồng tử giương thân.","Hồi tiểu tọa khai cung.","Mẫu tử tương tùy.","Liên đả sát quyền.","Huỳnh long quyển địa.","Nhất bộ kỉnh sư.","Tam bộ bái tổ.","Toạ hồi phục binh.","Hồi thân lập tấn.","Thanh long quá giang.","Tả hoành trảm, hữu hoành trảm.","Liên đả sát túc.","Tứ bộ bái tổ.","Ngọc trản liên đài.","Tả hữu tấn công.","Hồi phát thiên hổ.","Tấn đả song chiến.","Bái tổ Ngọc trản ngân","Song phi triển dực.","Lập bộ như tiền.","Thập tự bạt diệp.","Thối thủ nhị linh.","Thối thủ nhất linh.","Nhị bộ kỉnh sư.","Hồi tả tọa, bạch xà lang lộ."]
+Type: fill
+
+ID: luc-1-c11-5 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+Bái tổ Ngọc trản quyền
+Tam bộ bái tổ.
+Nhị bộ kỉnh sư.
+Hồi thân lập trụ.
+Ngọc trản ngân đài.
+______[1]
+Thập tự luyện diệp.
+______[2]
+______[3]
+Tấn đả tam chiến.
+______[4]
+Tả hoành sát, hữu hoành sát.
+Hồi phát địa hổ.
+Thanh long biên giang.
+Phụ tử tương tùy.
+______[5]
+Hạ bàn lôi đản đả.
+Hồi tiểu tọa khai cung.
+Tấn đả song quyền.
+______[6]
+______[7]
+______[8]
+Hoành tấn đả liên hoàn.
+Hồi tả tọa, bạch xà lang lộ.
+Tả hoành sát, thanh long biên giang.
+Kim kê điển thủ.
+Thối tảo bát liên hoàn.
+______[9]
+Lập bộ như tiền.
+______[10]
+Ans: undefined
+Options: ["Hồi đầu vọng bái.","Hồi thân lập tấn.","Đồng tử giương thân.","Tứ bộ bái tổ.","Tẩu mã dương tiên.","Nhất bộ kỉnh sư.","Toạ hồi phục binh.","Ngọc trản liên đài.","Thập tự bạt diệp.","Bái tổ Ngọc trản ngân","Thối thủ nhất linh.","Mẫu tử tương tùy.","Hồi phát thiên hổ.","Liên đả sát quyền.","Huỳnh long quyển địa.","Liên đả sát túc.","Thanh long quá giang.","Tả hữu tấn khai.","Toạ hồi mai phục.","Thối thủ nhị linh.","Tả hoành trảm, hữu hoành trảm.","Tả hữu tấn công.","Trực tiền quyển địa.","Tấn đả song chiến.","Song phi triển dực."]
+Type: fill
+
+ID: luc-1-c11-6 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+______[1]
+Tam bộ bái tổ.
+Nhị bộ kỉnh sư.
+______[2]
+Ngọc trản ngân đài.
+Tả hữu tấn khai.
+Thập tự luyện diệp.
+Liên đả sát túc.
+Toạ hồi mai phục.
+______[3]
+Thối thủ nhị linh.
+Tả hoành sát, hữu hoành sát.
+______[4]
+Thanh long biên giang.
+______[5]
+______[6]
+______[7]
+______[8]
+Tấn đả song quyền.
+Trực tiền quyển địa.
+Huỳnh long quyển địa.
+Đồng tử giương thân.
+Hoành tấn đả liên hoàn.
+______[9]
+Tả hoành sát, thanh long biên giang.
+______[10]
+Thối tảo bát liên hoàn.
+Tẩu mã dương tiên.
+Lập bộ như tiền.
+Hồi đầu vọng bái.
+Ans: undefined
+Options: ["Phụ tử tương tùy.","Thập tự bạt diệp.","Hồi phát thiên hổ.","Toạ hồi phục binh.","Song phi triển dực.","Kim kê điển thủ.","Tấn đả song chiến.","Thối thủ nhất linh.","Tả hữu tấn công.","Bái tổ Ngọc trản quyền","Liên đả sát quyền.","Thanh long quá giang.","Hồi thân lập trụ.","Bái tổ Ngọc trản ngân","Mẫu tử tương tùy.","Hạ bàn lôi đản đả.","Tứ bộ bái tổ.","Ngọc trản liên đài.","Hồi tả tọa, bạch xà lang lộ.","Tấn đả tam chiến.","Nhất bộ kỉnh sư.","Hồi thân lập tấn.","Tả hoành trảm, hữu hoành trảm.","Hồi tiểu tọa khai cung.","Hồi phát địa hổ."]
+Type: fill
+
+ID: luc-1-c11-7 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+Bái tổ Ngọc trản quyền
+______[1]
+Nhị bộ kỉnh sư.
+Hồi thân lập trụ.
+Ngọc trản ngân đài.
+Tả hữu tấn khai.
+______[2]
+Liên đả sát túc.
+Toạ hồi mai phục.
+______[3]
+Thối thủ nhị linh.
+______[4]
+Hồi phát địa hổ.
+______[5]
+______[6]
+Song phi triển dực.
+______[7]
+Hồi tiểu tọa khai cung.
+Tấn đả song quyền.
+Trực tiền quyển địa.
+Huỳnh long quyển địa.
+______[8]
+______[9]
+Hồi tả tọa, bạch xà lang lộ.
+Tả hoành sát, thanh long biên giang.
+Kim kê điển thủ.
+______[10]
+Tẩu mã dương tiên.
+Lập bộ như tiền.
+Hồi đầu vọng bái.
+Ans: undefined
+Options: ["Thanh long quá giang.","Thập tự bạt diệp.","Phụ tử tương tùy.","Thập tự luyện diệp.","Mẫu tử tương tùy.","Tấn đả song chiến.","Hồi phát thiên hổ.","Bái tổ Ngọc trản ngân","Đồng tử giương thân.","Liên đả sát quyền.","Thối tảo bát liên hoàn.","Hồi thân lập tấn.","Toạ hồi phục binh.","Tả hữu tấn công.","Hoành tấn đả liên hoàn.","Tam bộ bái tổ.","Nhất bộ kỉnh sư.","Hạ bàn lôi đản đả.","Tấn đả tam chiến.","Thanh long biên giang.","Tả hoành trảm, hữu hoành trảm.","Tả hoành sát, hữu hoành sát.","Tứ bộ bái tổ.","Thối thủ nhất linh.","Ngọc trản liên đài."]
+Type: fill
+
+ID: luc-1-c11-8 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+Bái tổ Ngọc trản quyền
+______[1]
+Nhị bộ kỉnh sư.
+Hồi thân lập trụ.
+Ngọc trản ngân đài.
+______[2]
+______[3]
+Liên đả sát túc.
+Toạ hồi mai phục.
+Tấn đả tam chiến.
+Thối thủ nhị linh.
+Tả hoành sát, hữu hoành sát.
+______[4]
+Thanh long biên giang.
+______[5]
+Song phi triển dực.
+Hạ bàn lôi đản đả.
+Hồi tiểu tọa khai cung.
+Tấn đả song quyền.
+Trực tiền quyển địa.
+______[6]
+Đồng tử giương thân.
+______[7]
+Hồi tả tọa, bạch xà lang lộ.
+______[8]
+Kim kê điển thủ.
+Thối tảo bát liên hoàn.
+______[9]
+______[10]
+Hồi đầu vọng bái.
+Ans: undefined
+Options: ["Bái tổ Ngọc trản ngân","Liên đả sát quyền.","Hoành tấn đả liên hoàn.","Huỳnh long quyển địa.","Tứ bộ bái tổ.","Tả hoành trảm, hữu hoành trảm.","Hồi phát thiên hổ.","Tả hữu tấn công.","Toạ hồi phục binh.","Tả hữu tấn khai.","Nhất bộ kỉnh sư.","Tẩu mã dương tiên.","Thập tự bạt diệp.","Phụ tử tương tùy.","Hồi phát địa hổ.","Tả hoành sát, thanh long biên giang.","Tam bộ bái tổ.","Thập tự luyện diệp.","Thối thủ nhất linh.","Hồi thân lập tấn.","Mẫu tử tương tùy.","Lập bộ như tiền.","Thanh long quá giang.","Tấn đả song chiến.","Ngọc trản liên đài."]
+Type: fill
+
+ID: luc-1-c11-9 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+Bái tổ Ngọc trản quyền
+Tam bộ bái tổ.
+Nhị bộ kỉnh sư.
+Hồi thân lập trụ.
+______[1]
+______[2]
+Thập tự luyện diệp.
+Liên đả sát túc.
+______[3]
+Tấn đả tam chiến.
+Thối thủ nhị linh.
+______[4]
+______[5]
+______[6]
+Phụ tử tương tùy.
+Song phi triển dực.
+______[7]
+Hồi tiểu tọa khai cung.
+Tấn đả song quyền.
+Trực tiền quyển địa.
+Huỳnh long quyển địa.
+______[8]
+Hoành tấn đả liên hoàn.
+Hồi tả tọa, bạch xà lang lộ.
+Tả hoành sát, thanh long biên giang.
+______[9]
+Thối tảo bát liên hoàn.
+Tẩu mã dương tiên.
+______[10]
+Hồi đầu vọng bái.
+Ans: undefined
+Options: ["Nhất bộ kỉnh sư.","Hồi thân lập tấn.","Mẫu tử tương tùy.","Toạ hồi phục binh.","Tả hoành sát, hữu hoành sát.","Thanh long quá giang.","Liên đả sát quyền.","Đồng tử giương thân.","Hồi phát địa hổ.","Tả hữu tấn công.","Thối thủ nhất linh.","Kim kê điển thủ.","Tả hoành trảm, hữu hoành trảm.","Ngọc trản ngân đài.","Tấn đả song chiến.","Thanh long biên giang.","Tả hữu tấn khai.","Thập tự bạt diệp.","Toạ hồi mai phục.","Tứ bộ bái tổ.","Bái tổ Ngọc trản ngân","Lập bộ như tiền.","Ngọc trản liên đài.","Hạ bàn lôi đản đả.","Hồi phát thiên hổ."]
+Type: fill
+
+ID: luc-1-c11-10 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+______[1]
+Tam bộ bái tổ.
+Nhị bộ kỉnh sư.
+______[2]
+Ngọc trản ngân đài.
+Tả hữu tấn khai.
+Thập tự luyện diệp.
+Liên đả sát túc.
+______[3]
+Tấn đả tam chiến.
+Thối thủ nhị linh.
+Tả hoành sát, hữu hoành sát.
+Hồi phát địa hổ.
+______[4]
+Phụ tử tương tùy.
+______[5]
+______[6]
+Hồi tiểu tọa khai cung.
+______[7]
+______[8]
+Huỳnh long quyển địa.
+Đồng tử giương thân.
+Hoành tấn đả liên hoàn.
+______[9]
+Tả hoành sát, thanh long biên giang.
+Kim kê điển thủ.
+Thối tảo bát liên hoàn.
+Tẩu mã dương tiên.
+Lập bộ như tiền.
+______[10]
+Ans: undefined
+Options: ["Ngọc trản liên đài.","Thập tự bạt diệp.","Hồi tả tọa, bạch xà lang lộ.","Tấn đả song quyền.","Hạ bàn lôi đản đả.","Song phi triển dực.","Tả hữu tấn công.","Liên đả sát quyền.","Tả hoành trảm, hữu hoành trảm.","Thối thủ nhất linh.","Bái tổ Ngọc trản quyền","Thanh long biên giang.","Bái tổ Ngọc trản ngân","Mẫu tử tương tùy.","Tấn đả song chiến.","Hồi đầu vọng bái.","Tứ bộ bái tổ.","Trực tiền quyển địa.","Thanh long quá giang.","Nhất bộ kỉnh sư.","Toạ hồi phục binh.","Toạ hồi mai phục.","Hồi thân lập trụ.","Hồi thân lập tấn.","Hồi phát thiên hổ."]
+Type: fill
+
+ID: luc-1-c11-11 (Lesson: green-lesson-01)
+Q: Điền vào chỗ trống lời thiệu bài quyền Ngọc Trản Quyền:
+
+______[1]
+______[2]
+______[3]
+Hồi thân lập trụ.
+______[4]
+______[5]
+Thập tự luyện diệp.
+Liên đả sát túc.
+Toạ hồi mai phục.
+Tấn đả tam chiến.
+Thối thủ nhị linh.
+______[6]
+______[7]
+______[8]
+Phụ tử tương tùy.
+Song phi triển dực.
+Hạ bàn lôi đản đả.
+Hồi tiểu tọa khai cung.
+Tấn đả song quyền.
+______[9]
+Huỳnh long quyển địa.
+Đồng tử giương thân.
+Hoành tấn đả liên hoàn.
+Hồi tả tọa, bạch xà lang lộ.
+Tả hoành sát, thanh long biên giang.
+Kim kê điển thủ.
+Thối tảo bát liên hoàn.
+Tẩu mã dương tiên.
+______[10]
+Hồi đầu vọng bái.
+Ans: undefined
+Options: ["Thập tự bạt diệp.","Hồi phát thiên hổ.","Thanh long biên giang.","Tấn đả song chiến.","Bái tổ Ngọc trản quyền","Hồi phát địa hổ.","Nhị bộ kỉnh sư.","Tả hoành sát, hữu hoành sát.","Thối thủ nhất linh.","Hồi thân lập tấn.","Nhất bộ kỉnh sư.","Tả hữu tấn khai.","Tả hữu tấn công.","Tứ bộ bái tổ.","Ngọc trản liên đài.","Tả hoành trảm, hữu hoành trảm.","Mẫu tử tương tùy.","Thanh long quá giang.","Bái tổ Ngọc trản ngân","Ngọc trản ngân đài.","Trực tiền quyển địa.","Lập bộ như tiền.","Liên đả sát quyền.","Toạ hồi phục binh.","Tam bộ bái tổ."]
+Type: fill
+
+
+=== luc-2.json ===
+
+ID: luc-2-c02-01 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống định nghĩa về Tộc truyền và Bí truyền: Tộc truyền là chỉ dạy võ trong phạm vi thu hẹp, gồm ______[1], không truyền bá rộng rãi. Bí truyền là việc các võ sư thời xưa ______[2] để đề phòng trường hợp học trò phản thầy.
+Ans: undefined
+Options: ["những người trong thân tộc và đệ tử chân truyền","những người trong họ hàng và học trò thân tín","những người trong dòng họ và tất cả học trò","giấu đi những thế võ nguy hiểm","không truyền dạy những tuyệt kỹ","giữ lại những bài quyền quan trọng"]
+Type: fill
+
+ID: luc-2-c09-01 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống để hoàn thành định nghĩa về Đức của con nhà võ: Đức của con nhà võ là sống nghĩa khí, ngay thẳng, giữ chữ tín và lòng tự trọng. Người con nhà võ luôn sẵn sàng giúp đỡ người khác, ______[1]; sống quang minh chính đại, không gian dối, không xu nịnh; nói được làm được, giữ trọn lời hứa; ______[2], luôn giữ gìn danh dự bản thân.
+Ans: undefined
+Options: ["dám đứng ra bênh vực người yếu","dám xả thân vì nghĩa lớn","luôn bảo vệ người thân và bạn bè","không vì tiền bạc mà làm điều ác","không vì tư lợi mà phản bội môn phái","không vì danh tiếng mà đánh mất bản thân"]
+Type: fill
+
+ID: luc-2-c11-2 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+Bái tổ Hùng kê quyền
+______[1]
+______[2]
+______[3]
+Thủ quan ngân kiếm tựa thanh long.
+Xuyên cung độc tiễn tăng ư trác.
+______[4]
+______[5]
+______[6]
+Ans: undefined
+Options: ["Hồi thủ song câu thọ tứ hùng.","Thiểu tẩu dược trâm thiên sở tứ.","Xuyên cung mãnh tiễn tăng ư trác.","Hồi thủ đơn thương thọ tứ hùng.","Nhu cương cường nhược tận kỳ trung.","Nhu cương âm dương tận kỳ trung.","Trấn ải kim thương như bạch hổ.","Song túc tề phi trảo thượng xung.","Phá ải kim thương như bạch hổ.","Trấn quan ngân kiếm tựa thanh long.","Song túc liên phi trảo thượng xung.","Lưỡng kê giao chiến thí tranh hùng","Liên cung độc tiễn tăng ư trác.","Độc kê giao thủ thí tranh hùng","Song túc tề phi trảo hạ xung.","Âm dương cường nhược tận kỳ trung.","Trấn ải ngân thương như bạch hổ.","Thủ quan kim kiếm tựa thanh long.","Hồi thủ đơn câu thọ tứ hùng.","Thiểu tẩu phi trâm thiên sở tứ.","Lưỡng kê giao thủ thí tranh hùng"]
+Type: fill
+
+ID: luc-2-c11-3 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+Bái tổ Hùng kê quyền
+______[1]
+______[2]
+______[3]
+______[4]
+Xuyên cung độc tiễn tăng ư trác.
+Hồi thủ đơn câu thọ tứ hùng.
+______[5]
+______[6]
+Ans: undefined
+Options: ["Độc kê giao thủ thí tranh hùng","Song túc tề phi trảo thượng xung.","Phá ải kim thương như bạch hổ.","Hồi thủ đơn thương thọ tứ hùng.","Lưỡng kê giao thủ thí tranh hùng","Xuyên cung mãnh tiễn tăng ư trác.","Lưỡng kê giao chiến thí tranh hùng","Trấn ải ngân thương như bạch hổ.","Song túc liên phi trảo thượng xung.","Liên cung độc tiễn tăng ư trác.","Thiểu tẩu phi trâm thiên sở tứ.","Thủ quan kim kiếm tựa thanh long.","Hồi thủ song câu thọ tứ hùng.","Nhu cương âm dương tận kỳ trung.","Thiểu tẩu dược trâm thiên sở tứ.","Thủ quan ngân kiếm tựa thanh long.","Trấn quan ngân kiếm tựa thanh long.","Song túc tề phi trảo hạ xung.","Âm dương cường nhược tận kỳ trung.","Trấn ải kim thương như bạch hổ.","Nhu cương cường nhược tận kỳ trung."]
+Type: fill
+
+ID: luc-2-c11-4 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+Bái tổ Hùng kê quyền
+______[1]
+Song túc tề phi trảo thượng xung.
+______[2]
+______[3]
+______[4]
+______[5]
+Thiểu tẩu dược trâm thiên sở tứ.
+______[6]
+Ans: undefined
+Options: ["Lưỡng kê giao chiến thí tranh hùng","Song túc tề phi trảo hạ xung.","Trấn ải kim thương như bạch hổ.","Nhu cương âm dương tận kỳ trung.","Trấn ải ngân thương như bạch hổ.","Thủ quan kim kiếm tựa thanh long.","Xuyên cung mãnh tiễn tăng ư trác.","Xuyên cung độc tiễn tăng ư trác.","Hồi thủ đơn thương thọ tứ hùng.","Âm dương cường nhược tận kỳ trung.","Trấn quan ngân kiếm tựa thanh long.","Hồi thủ song câu thọ tứ hùng.","Phá ải kim thương như bạch hổ.","Thủ quan ngân kiếm tựa thanh long.","Liên cung độc tiễn tăng ư trác.","Lưỡng kê giao thủ thí tranh hùng","Nhu cương cường nhược tận kỳ trung.","Song túc liên phi trảo thượng xung.","Hồi thủ đơn câu thọ tứ hùng.","Độc kê giao thủ thí tranh hùng","Thiểu tẩu phi trâm thiên sở tứ."]
+Type: fill
+
+ID: luc-2-c11-5 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+Bái tổ Hùng kê quyền
+Lưỡng kê giao thủ thí tranh hùng
+Song túc tề phi trảo thượng xung.
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+Ans: undefined
+Options: ["Song túc tề phi trảo hạ xung.","Thủ quan ngân kiếm tựa thanh long.","Nhu cương âm dương tận kỳ trung.","Hồi thủ song câu thọ tứ hùng.","Xuyên cung mãnh tiễn tăng ư trác.","Thủ quan kim kiếm tựa thanh long.","Độc kê giao thủ thí tranh hùng","Xuyên cung độc tiễn tăng ư trác.","Thiểu tẩu dược trâm thiên sở tứ.","Nhu cương cường nhược tận kỳ trung.","Trấn ải kim thương như bạch hổ.","Song túc liên phi trảo thượng xung.","Trấn quan ngân kiếm tựa thanh long.","Liên cung độc tiễn tăng ư trác.","Hồi thủ đơn thương thọ tứ hùng.","Lưỡng kê giao chiến thí tranh hùng","Phá ải kim thương như bạch hổ.","Trấn ải ngân thương như bạch hổ.","Thiểu tẩu phi trâm thiên sở tứ.","Hồi thủ đơn câu thọ tứ hùng.","Âm dương cường nhược tận kỳ trung."]
+Type: fill
+
+ID: luc-2-c11-6 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+______[1]
+Lưỡng kê giao thủ thí tranh hùng
+______[2]
+______[3]
+Thủ quan ngân kiếm tựa thanh long.
+______[4]
+______[5]
+______[6]
+Nhu cương cường nhược tận kỳ trung.
+Ans: undefined
+Options: ["Độc kê giao thủ thí tranh hùng","Lưỡng kê giao chiến thí tranh hùng","Liên cung độc tiễn tăng ư trác.","Thiểu tẩu dược trâm thiên sở tứ.","Song túc tề phi trảo hạ xung.","Trấn ải ngân thương như bạch hổ.","Âm dương cường nhược tận kỳ trung.","Hồi thủ đơn thương thọ tứ hùng.","Nhu cương âm dương tận kỳ trung.","Thủ quan kim kiếm tựa thanh long.","Thiểu tẩu phi trâm thiên sở tứ.","Xuyên cung mãnh tiễn tăng ư trác.","Bái tổ Hùng kê quyền","Hồi thủ đơn câu thọ tứ hùng.","Xuyên cung độc tiễn tăng ư trác.","Song túc liên phi trảo thượng xung.","Phá ải kim thương như bạch hổ.","Hồi thủ song câu thọ tứ hùng.","Trấn ải kim thương như bạch hổ.","Song túc tề phi trảo thượng xung.","Trấn quan ngân kiếm tựa thanh long."]
+Type: fill
+
+ID: luc-2-c11-7 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+______[1]
+______[2]
+Song túc tề phi trảo thượng xung.
+______[3]
+Thủ quan ngân kiếm tựa thanh long.
+Xuyên cung độc tiễn tăng ư trác.
+______[4]
+______[5]
+______[6]
+Ans: undefined
+Options: ["Trấn quan ngân kiếm tựa thanh long.","Trấn ải ngân thương như bạch hổ.","Song túc tề phi trảo hạ xung.","Thiểu tẩu dược trâm thiên sở tứ.","Độc kê giao thủ thí tranh hùng","Hồi thủ song câu thọ tứ hùng.","Hồi thủ đơn câu thọ tứ hùng.","Song túc liên phi trảo thượng xung.","Bái tổ Hùng kê quyền","Hồi thủ đơn thương thọ tứ hùng.","Nhu cương cường nhược tận kỳ trung.","Phá ải kim thương như bạch hổ.","Xuyên cung mãnh tiễn tăng ư trác.","Liên cung độc tiễn tăng ư trác.","Nhu cương âm dương tận kỳ trung.","Lưỡng kê giao chiến thí tranh hùng","Thủ quan kim kiếm tựa thanh long.","Lưỡng kê giao thủ thí tranh hùng","Thiểu tẩu phi trâm thiên sở tứ.","Trấn ải kim thương như bạch hổ.","Âm dương cường nhược tận kỳ trung."]
+Type: fill
+
+ID: luc-2-c11-8 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+______[1]
+______[2]
+______[3]
+Trấn ải kim thương như bạch hổ.
+Thủ quan ngân kiếm tựa thanh long.
+Xuyên cung độc tiễn tăng ư trác.
+______[4]
+______[5]
+______[6]
+Ans: undefined
+Options: ["Song túc liên phi trảo thượng xung.","Thiểu tẩu phi trâm thiên sở tứ.","Hồi thủ song câu thọ tứ hùng.","Bái tổ Hùng kê quyền","Xuyên cung mãnh tiễn tăng ư trác.","Song túc tề phi trảo thượng xung.","Thủ quan kim kiếm tựa thanh long.","Độc kê giao thủ thí tranh hùng","Hồi thủ đơn câu thọ tứ hùng.","Nhu cương cường nhược tận kỳ trung.","Hồi thủ đơn thương thọ tứ hùng.","Liên cung độc tiễn tăng ư trác.","Phá ải kim thương như bạch hổ.","Lưỡng kê giao thủ thí tranh hùng","Trấn ải ngân thương như bạch hổ.","Âm dương cường nhược tận kỳ trung.","Trấn quan ngân kiếm tựa thanh long.","Song túc tề phi trảo hạ xung.","Nhu cương âm dương tận kỳ trung.","Lưỡng kê giao chiến thí tranh hùng","Thiểu tẩu dược trâm thiên sở tứ."]
+Type: fill
+
+ID: luc-2-c11-9 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+______[1]
+______[2]
+Song túc tề phi trảo thượng xung.
+______[3]
+______[4]
+______[5]
+Hồi thủ đơn câu thọ tứ hùng.
+______[6]
+Nhu cương cường nhược tận kỳ trung.
+Ans: undefined
+Options: ["Thiểu tẩu dược trâm thiên sở tứ.","Nhu cương âm dương tận kỳ trung.","Lưỡng kê giao chiến thí tranh hùng","Liên cung độc tiễn tăng ư trác.","Âm dương cường nhược tận kỳ trung.","Trấn quan ngân kiếm tựa thanh long.","Phá ải kim thương như bạch hổ.","Bái tổ Hùng kê quyền","Thủ quan ngân kiếm tựa thanh long.","Thủ quan kim kiếm tựa thanh long.","Hồi thủ đơn thương thọ tứ hùng.","Hồi thủ song câu thọ tứ hùng.","Song túc liên phi trảo thượng xung.","Trấn ải kim thương như bạch hổ.","Song túc tề phi trảo hạ xung.","Xuyên cung mãnh tiễn tăng ư trác.","Độc kê giao thủ thí tranh hùng","Lưỡng kê giao thủ thí tranh hùng","Xuyên cung độc tiễn tăng ư trác.","Trấn ải ngân thương như bạch hổ.","Thiểu tẩu phi trâm thiên sở tứ."]
+Type: fill
+
+ID: luc-2-c11-10 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+Bái tổ Hùng kê quyền
+______[1]
+______[2]
+Trấn ải kim thương như bạch hổ.
+______[3]
+______[4]
+Hồi thủ đơn câu thọ tứ hùng.
+______[5]
+______[6]
+Ans: undefined
+Options: ["Xuyên cung mãnh tiễn tăng ư trác.","Liên cung độc tiễn tăng ư trác.","Thiểu tẩu dược trâm thiên sở tứ.","Xuyên cung độc tiễn tăng ư trác.","Lưỡng kê giao thủ thí tranh hùng","Nhu cương cường nhược tận kỳ trung.","Song túc tề phi trảo hạ xung.","Độc kê giao thủ thí tranh hùng","Trấn quan ngân kiếm tựa thanh long.","Thủ quan kim kiếm tựa thanh long.","Lưỡng kê giao chiến thí tranh hùng","Âm dương cường nhược tận kỳ trung.","Hồi thủ song câu thọ tứ hùng.","Song túc liên phi trảo thượng xung.","Trấn ải ngân thương như bạch hổ.","Phá ải kim thương như bạch hổ.","Thủ quan ngân kiếm tựa thanh long.","Song túc tề phi trảo thượng xung.","Thiểu tẩu phi trâm thiên sở tứ.","Hồi thủ đơn thương thọ tứ hùng.","Nhu cương âm dương tận kỳ trung."]
+Type: fill
+
+ID: luc-2-c11-11 (Lesson: green-lesson-02)
+Q: Điền vào chỗ trống lời thiệu bài quyền Hùng Kê Quyền:
+
+______[1]
+Lưỡng kê giao thủ thí tranh hùng
+Song túc tề phi trảo thượng xung.
+______[2]
+______[3]
+Xuyên cung độc tiễn tăng ư trác.
+______[4]
+______[5]
+______[6]
+Ans: undefined
+Options: ["Thủ quan ngân kiếm tựa thanh long.","Lưỡng kê giao chiến thí tranh hùng","Thủ quan kim kiếm tựa thanh long.","Liên cung độc tiễn tăng ư trác.","Thiểu tẩu phi trâm thiên sở tứ.","Trấn quan ngân kiếm tựa thanh long.","Nhu cương cường nhược tận kỳ trung.","Âm dương cường nhược tận kỳ trung.","Bái tổ Hùng kê quyền","Hồi thủ song câu thọ tứ hùng.","Song túc liên phi trảo thượng xung.","Nhu cương âm dương tận kỳ trung.","Song túc tề phi trảo hạ xung.","Phá ải kim thương như bạch hổ.","Xuyên cung mãnh tiễn tăng ư trác.","Hồi thủ đơn câu thọ tứ hùng.","Độc kê giao thủ thí tranh hùng","Trấn ải kim thương như bạch hổ.","Thiểu tẩu dược trâm thiên sở tứ.","Trấn ải ngân thương như bạch hổ.","Hồi thủ đơn thương thọ tứ hùng."]
+Type: fill
+
+
+=== luc-3.json ===
+
+ID: luc-3-c07-01 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống: Khi tính việc phải có 4 tinh thần:
+Tinh thần thực tiễn: Nắm vững sự việc, làm việc có kế hoạch và hiệu quả.
+Tinh thần xung phong: ______[1].
+Nhiệt tình: Hăng hái, tận tâm với công việc và mọi người.
+Chí công vô tư: ______[2], không thành kiến, mặc cảm cá nhân.
+Ans: undefined
+Options: ["Dám nói, dám làm, không ngại khó khăn gian khổ","Xung phong đi đầu, không ngại khó khăn thử thách","Dũng cảm thực hiện, không ngại khó khăn gian khổ","Đặt lợi ích tập thể lên trên lợi ích cá nhân, công bằng và khách quan","Đặt lợi ích môn phái lên trên lợi ích riêng, trung thực và khách quan","Đặt nhiệm vụ chung lên trên lợi ích riêng, công bằng và khách quan"]
+Type: fill
+
+ID: luc-3-c11-2 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+______[1]
+Lão mai độc thọ nhất chi vinh
+Lưỡng túc khinh khinh tấn bộ hoành
+______[2]
+______[3]
+______[4]
+______[5]
+Lão hồi, thối toạ, liên ba biến
+______[6]
+______[7]
+______[8]
+Ans: undefined
+Options: ["Hồ điệp đơn phi, lão bạng sanh","Triển giác long song lực lôi oanh","Lưỡng túc khinh khinh hoành bộ tấn","Tàng nha hổ, dương oai thiết trảo","Tấn nhất đoản, thối hồi lão khởi","Tàng nha hổ, thu oai thiết trảo","Lão mai độc thọ nhị chi vinh","Bái tổ Lão mai quyền","Phi nhất thác, hoàn thối thanh đình","Nguyệt quật, đơn câu, lôi điển chấn","Tấn nhất đoản, tiến hồi lão khởi","Lưỡng túc khinh khinh thối bộ hoành","Vân tôn nhị tảo, hổ, xà, thành.","Tàng nha long, dương oai thiết trảo","Phi nhất thác, hoàn tiến thanh đình","Hồ điệp song phi, lão bạng sanh","Lão hồi, tấn toạ, liên ba biến","Tấn nhất trường, thối hồi lão khởi","Triển giác long tất lực lôi oanh","Nguyệt quật, song câu, lôi điển chấn","Vân tôn tam tảo, hổ, xà, thành.","Phi song thác, hoàn thối thanh đình","Lão mai song thọ nhất chi vinh"]
+Type: fill
+
+ID: luc-3-c11-3 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+Bái tổ Lão mai quyền
+______[1]
+______[2]
+Tấn nhất đoản, thối hồi lão khởi
+______[3]
+______[4]
+Triển giác long tất lực lôi oanh
+______[5]
+______[6]
+______[7]
+______[8]
+Ans: undefined
+Options: ["Lão mai độc thọ nhất chi vinh","Tấn nhất đoản, tiến hồi lão khởi","Hồ điệp song phi, lão bạng sanh","Vân tôn tam tảo, hổ, xà, thành.","Lão mai độc thọ nhị chi vinh","Lưỡng túc khinh khinh thối bộ hoành","Tàng nha hổ, dương oai thiết trảo","Nguyệt quật, song câu, lôi điển chấn","Nguyệt quật, đơn câu, lôi điển chấn","Vân tôn nhị tảo, hổ, xà, thành.","Tấn nhất trường, thối hồi lão khởi","Lưỡng túc khinh khinh tấn bộ hoành","Triển giác long song lực lôi oanh","Lão hồi, tấn toạ, liên ba biến","Phi song thác, hoàn thối thanh đình","Hồ điệp đơn phi, lão bạng sanh","Tàng nha long, dương oai thiết trảo","Lưỡng túc khinh khinh hoành bộ tấn","Lão hồi, thối toạ, liên ba biến","Phi nhất thác, hoàn tiến thanh đình","Lão mai song thọ nhất chi vinh","Tàng nha hổ, thu oai thiết trảo","Phi nhất thác, hoàn thối thanh đình"]
+Type: fill
+
+ID: luc-3-c11-4 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+______[1]
+Lão mai độc thọ nhất chi vinh
+______[2]
+______[3]
+Phi nhất thác, hoàn thối thanh đình
+______[4]
+______[5]
+______[6]
+______[7]
+Nguyệt quật, song câu, lôi điển chấn
+______[8]
+Ans: undefined
+Options: ["Bái tổ Lão mai quyền","Lưỡng túc khinh khinh thối bộ hoành","Triển giác long tất lực lôi oanh","Lão mai độc thọ nhị chi vinh","Tấn nhất đoản, thối hồi lão khởi","Phi song thác, hoàn thối thanh đình","Lão mai song thọ nhất chi vinh","Triển giác long song lực lôi oanh","Lưỡng túc khinh khinh tấn bộ hoành","Hồ điệp đơn phi, lão bạng sanh","Phi nhất thác, hoàn tiến thanh đình","Nguyệt quật, đơn câu, lôi điển chấn","Tấn nhất đoản, tiến hồi lão khởi","Lưỡng túc khinh khinh hoành bộ tấn","Tàng nha long, dương oai thiết trảo","Lão hồi, tấn toạ, liên ba biến","Vân tôn nhị tảo, hổ, xà, thành.","Hồ điệp song phi, lão bạng sanh","Tấn nhất trường, thối hồi lão khởi","Tàng nha hổ, dương oai thiết trảo","Vân tôn tam tảo, hổ, xà, thành.","Lão hồi, thối toạ, liên ba biến","Tàng nha hổ, thu oai thiết trảo"]
+Type: fill
+
+ID: luc-3-c11-5 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+______[1]
+______[2]
+Lưỡng túc khinh khinh tấn bộ hoành
+______[3]
+Phi nhất thác, hoàn thối thanh đình
+______[4]
+______[5]
+______[6]
+______[7]
+Nguyệt quật, song câu, lôi điển chấn
+______[8]
+Ans: undefined
+Options: ["Vân tôn nhị tảo, hổ, xà, thành.","Hồ điệp đơn phi, lão bạng sanh","Tàng nha hổ, dương oai thiết trảo","Tấn nhất đoản, thối hồi lão khởi","Phi song thác, hoàn thối thanh đình","Tấn nhất đoản, tiến hồi lão khởi","Phi nhất thác, hoàn tiến thanh đình","Lão hồi, tấn toạ, liên ba biến","Bái tổ Lão mai quyền","Hồ điệp song phi, lão bạng sanh","Triển giác long tất lực lôi oanh","Nguyệt quật, đơn câu, lôi điển chấn","Tàng nha long, dương oai thiết trảo","Triển giác long song lực lôi oanh","Lão mai độc thọ nhất chi vinh","Tàng nha hổ, thu oai thiết trảo","Lão mai độc thọ nhị chi vinh","Lưỡng túc khinh khinh thối bộ hoành","Lão mai song thọ nhất chi vinh","Lão hồi, thối toạ, liên ba biến","Lưỡng túc khinh khinh hoành bộ tấn","Vân tôn tam tảo, hổ, xà, thành.","Tấn nhất trường, thối hồi lão khởi"]
+Type: fill
+
+ID: luc-3-c11-6 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+______[1]
+______[2]
+______[3]
+______[4]
+Phi nhất thác, hoàn thối thanh đình
+______[5]
+______[6]
+Lão hồi, thối toạ, liên ba biến
+Hồ điệp song phi, lão bạng sanh
+______[7]
+______[8]
+Ans: undefined
+Options: ["Tàng nha long, dương oai thiết trảo","Lão mai song thọ nhất chi vinh","Lưỡng túc khinh khinh tấn bộ hoành","Hồ điệp đơn phi, lão bạng sanh","Tàng nha hổ, dương oai thiết trảo","Vân tôn nhị tảo, hổ, xà, thành.","Tấn nhất đoản, thối hồi lão khởi","Nguyệt quật, song câu, lôi điển chấn","Triển giác long song lực lôi oanh","Vân tôn tam tảo, hổ, xà, thành.","Lão mai độc thọ nhất chi vinh","Bái tổ Lão mai quyền","Tấn nhất trường, thối hồi lão khởi","Phi nhất thác, hoàn tiến thanh đình","Tàng nha hổ, thu oai thiết trảo","Triển giác long tất lực lôi oanh","Lưỡng túc khinh khinh thối bộ hoành","Lưỡng túc khinh khinh hoành bộ tấn","Nguyệt quật, đơn câu, lôi điển chấn","Phi song thác, hoàn thối thanh đình","Lão hồi, tấn toạ, liên ba biến","Lão mai độc thọ nhị chi vinh","Tấn nhất đoản, tiến hồi lão khởi"]
+Type: fill
+
+ID: luc-3-c11-7 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+______[1]
+______[2]
+Lưỡng túc khinh khinh tấn bộ hoành
+______[3]
+______[4]
+Tàng nha hổ, dương oai thiết trảo
+______[5]
+______[6]
+______[7]
+______[8]
+Vân tôn tam tảo, hổ, xà, thành.
+Ans: undefined
+Options: ["Tấn nhất đoản, tiến hồi lão khởi","Lưỡng túc khinh khinh thối bộ hoành","Tàng nha hổ, thu oai thiết trảo","Tàng nha long, dương oai thiết trảo","Triển giác long tất lực lôi oanh","Lão hồi, thối toạ, liên ba biến","Lão mai song thọ nhất chi vinh","Lão mai độc thọ nhị chi vinh","Nguyệt quật, song câu, lôi điển chấn","Phi song thác, hoàn thối thanh đình","Tấn nhất trường, thối hồi lão khởi","Phi nhất thác, hoàn tiến thanh đình","Triển giác long song lực lôi oanh","Vân tôn nhị tảo, hổ, xà, thành.","Bái tổ Lão mai quyền","Lưỡng túc khinh khinh hoành bộ tấn","Hồ điệp đơn phi, lão bạng sanh","Phi nhất thác, hoàn thối thanh đình","Nguyệt quật, đơn câu, lôi điển chấn","Tấn nhất đoản, thối hồi lão khởi","Lão hồi, tấn toạ, liên ba biến","Hồ điệp song phi, lão bạng sanh","Lão mai độc thọ nhất chi vinh"]
+Type: fill
+
+ID: luc-3-c11-8 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+Bái tổ Lão mai quyền
+Lão mai độc thọ nhất chi vinh
+Lưỡng túc khinh khinh tấn bộ hoành
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+______[8]
+Ans: undefined
+Options: ["Tấn nhất trường, thối hồi lão khởi","Tàng nha long, dương oai thiết trảo","Triển giác long tất lực lôi oanh","Lão hồi, tấn toạ, liên ba biến","Lưỡng túc khinh khinh hoành bộ tấn","Lưỡng túc khinh khinh thối bộ hoành","Tàng nha hổ, thu oai thiết trảo","Triển giác long song lực lôi oanh","Vân tôn tam tảo, hổ, xà, thành.","Lão mai song thọ nhất chi vinh","Hồ điệp đơn phi, lão bạng sanh","Phi song thác, hoàn thối thanh đình","Vân tôn nhị tảo, hổ, xà, thành.","Nguyệt quật, song câu, lôi điển chấn","Phi nhất thác, hoàn thối thanh đình","Lão hồi, thối toạ, liên ba biến","Phi nhất thác, hoàn tiến thanh đình","Tấn nhất đoản, thối hồi lão khởi","Nguyệt quật, đơn câu, lôi điển chấn","Tấn nhất đoản, tiến hồi lão khởi","Hồ điệp song phi, lão bạng sanh","Lão mai độc thọ nhị chi vinh","Tàng nha hổ, dương oai thiết trảo"]
+Type: fill
+
+ID: luc-3-c11-9 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+Bái tổ Lão mai quyền
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+Hồ điệp song phi, lão bạng sanh
+Nguyệt quật, song câu, lôi điển chấn
+______[8]
+Ans: undefined
+Options: ["Phi nhất thác, hoàn tiến thanh đình","Lão mai độc thọ nhất chi vinh","Lưỡng túc khinh khinh tấn bộ hoành","Lão mai độc thọ nhị chi vinh","Tàng nha hổ, thu oai thiết trảo","Vân tôn nhị tảo, hổ, xà, thành.","Triển giác long tất lực lôi oanh","Triển giác long song lực lôi oanh","Lão hồi, thối toạ, liên ba biến","Vân tôn tam tảo, hổ, xà, thành.","Phi nhất thác, hoàn thối thanh đình","Lưỡng túc khinh khinh hoành bộ tấn","Tấn nhất trường, thối hồi lão khởi","Hồ điệp đơn phi, lão bạng sanh","Phi song thác, hoàn thối thanh đình","Tấn nhất đoản, tiến hồi lão khởi","Lão hồi, tấn toạ, liên ba biến","Tàng nha hổ, dương oai thiết trảo","Tấn nhất đoản, thối hồi lão khởi","Tàng nha long, dương oai thiết trảo","Nguyệt quật, đơn câu, lôi điển chấn","Lưỡng túc khinh khinh thối bộ hoành","Lão mai song thọ nhất chi vinh"]
+Type: fill
+
+ID: luc-3-c11-10 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+______[1]
+______[2]
+______[3]
+______[4]
+______[5]
+______[6]
+______[7]
+Lão hồi, thối toạ, liên ba biến
+______[8]
+Nguyệt quật, song câu, lôi điển chấn
+Vân tôn tam tảo, hổ, xà, thành.
+Ans: undefined
+Options: ["Lưỡng túc khinh khinh hoành bộ tấn","Tàng nha long, dương oai thiết trảo","Triển giác long tất lực lôi oanh","Tàng nha hổ, dương oai thiết trảo","Tàng nha hổ, thu oai thiết trảo","Triển giác long song lực lôi oanh","Vân tôn nhị tảo, hổ, xà, thành.","Nguyệt quật, đơn câu, lôi điển chấn","Tấn nhất đoản, tiến hồi lão khởi","Lão mai độc thọ nhị chi vinh","Phi nhất thác, hoàn thối thanh đình","Lão hồi, tấn toạ, liên ba biến","Phi song thác, hoàn thối thanh đình","Lão mai độc thọ nhất chi vinh","Tấn nhất trường, thối hồi lão khởi","Lão mai song thọ nhất chi vinh","Hồ điệp đơn phi, lão bạng sanh","Tấn nhất đoản, thối hồi lão khởi","Lưỡng túc khinh khinh thối bộ hoành","Bái tổ Lão mai quyền","Lưỡng túc khinh khinh tấn bộ hoành","Hồ điệp song phi, lão bạng sanh","Phi nhất thác, hoàn tiến thanh đình"]
+Type: fill
+
+ID: luc-3-c11-11 (Lesson: green-lesson-03)
+Q: Điền vào chỗ trống lời thiệu bài quyền Lão Mai Quyền:
+
+______[1]
+______[2]
+Lưỡng túc khinh khinh tấn bộ hoành
+______[3]
+______[4]
+______[5]
+Triển giác long tất lực lôi oanh
+______[6]
+Hồ điệp song phi, lão bạng sanh
+______[7]
+______[8]
+Ans: undefined
+Options: ["Triển giác long song lực lôi oanh","Tấn nhất đoản, tiến hồi lão khởi","Lão mai độc thọ nhất chi vinh","Tàng nha hổ, thu oai thiết trảo","Nguyệt quật, đơn câu, lôi điển chấn","Lưỡng túc khinh khinh hoành bộ tấn","Vân tôn nhị tảo, hổ, xà, thành.","Lão mai song thọ nhất chi vinh","Hồ điệp đơn phi, lão bạng sanh","Bái tổ Lão mai quyền","Lão hồi, thối toạ, liên ba biến","Phi nhất thác, hoàn tiến thanh đình","Tàng nha long, dương oai thiết trảo","Nguyệt quật, song câu, lôi điển chấn","Phi song thác, hoàn thối thanh đình","Lưỡng túc khinh khinh thối bộ hoành","Tàng nha hổ, dương oai thiết trảo","Lão hồi, tấn toạ, liên ba biến","Tấn nhất đoản, thối hồi lão khởi","Tấn nhất trường, thối hồi lão khởi","Vân tôn tam tảo, hổ, xà, thành.","Lão mai độc thọ nhị chi vinh","Phi nhất thác, hoàn thối thanh đình"]
+Type: fill
+
+
+=== luc-4.json ===
+
+ID: luc-4-c04-01 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống về tác phong ở nơi công cộng: Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, ______[1]. Về cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác. Về cách đối xử: ______[2], bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa.
+Ans: undefined
+Options: ["không tỏ vẻ mình là người học võ","không thách thức những người khác","không sử dụng vũ lực bừa bãi","Cương trực, mạnh mẽ","Nhân ái, vị tha","Trung thực, dũng cảm"]
+Type: fill
+
+ID: luc-4-c10-01 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống: Người Võ sinh Phật Quang Quyền phải lấy ______[1], lấy Bi – Trí – Dũng làm phương châm rèn luyện. Người môn sinh phải luôn rèn luyện theo tinh thần: ______[2]; sống có trách nhiệm với gia đình, xã hội, đất nước.
+Ans: undefined
+Options: ["Võ thuật làm nền tảng","Võ đạo làm kim chỉ nam","Đạo đức làm nền tảng","Sống, Giúp người khác sống và Sống vì bản thân","Sống, Chiến đấu và Cống hiến cho xã hội","Rèn luyện sức khỏe, Giúp đỡ người yếu và Bảo vệ đất nước"]
+Type: fill
+
+ID: luc-4-c15-2 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+______[1]
+Tứ phương bái tổ kính sư.
+Xuất kiếm thủ bộ dáng người uy nghi.
+______[2]
+______[3]
+______[4]
+Quy xà phạt thảo tứ bề sát kinh.
+______[5]
+Nộ, giáng, thích, trảm tụ thần triều dâng.
+Giao long đảo hải vẫy vùng.
+______[6]
+______[7]
+Long vân gặp hội muôn phần vũ phong.
+______[8]
+Vũ môn cá vượt qua thềm vờn mây.
+______[9]
+______[10]
+Ans: undefined
+Options: ["Long vân xuất hội muôn phần vũ phong.","Tầm xà sát thích vân phi liền kề.","Thanh long xuất thế trở về.","Quy xà trảm thảo tứ bề sát kinh.","Tầm xà truy thích vân phi liền kề.","Bái tổ Thanh long độc kiếm.","Xung thiên đại hạc nghiêng mình chuyển thân.","Ẩn long trầm thủy tung mình.","Thanh long bái tổ hầu sư.","Thanh long bãi vĩ xuất thần.","Vọng nguyệt giáng long tầm ngư.","Giao long nghịch hải vẫy vùng.","Long thăng phá thạch liền khi.","Ẩn long tiềm thủy tung mình.","Xuất kiếm tấn bộ dáng người uy nghi.","Bát phương bái tổ kính sư.","Hắc long xuất thế trở về.","Thanh long bái tổ từ sư.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Thanh long đoạt vĩ xuất thần.","Vọng nguyệt long giáng tầm ngư.","Long thăng trảm thạch liền khi.","Diện tiền lập bộ kiếm thu trở về.","Xung thiên bạch hạc nghiêng mình chuyển thân.","Vũ môn long vượt qua thềm vờn mây."]
+Type: fill
+
+ID: luc-4-c15-3 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+Bái tổ Thanh long độc kiếm.
+______[1]
+______[2]
+Long thăng trảm thạch liền khi.
+______[3]
+Thanh long xuất thế trở về.
+Quy xà phạt thảo tứ bề sát kinh.
+Ẩn long trầm thủy tung mình.
+______[4]
+______[5]
+______[6]
+______[7]
+Long vân gặp hội muôn phần vũ phong.
+______[8]
+______[9]
+Thanh long bái tổ hầu sư.
+______[10]
+Ans: undefined
+Options: ["Long vân xuất hội muôn phần vũ phong.","Vọng nguyệt giáng long tầm ngư.","Tầm xà truy thích vân phi liền kề.","Thanh long đoạt vĩ xuất thần.","Vọng nguyệt long giáng tầm ngư.","Vũ môn long vượt qua thềm vờn mây.","Ẩn long tiềm thủy tung mình.","Xuất kiếm thủ bộ dáng người uy nghi.","Xung thiên đại hạc nghiêng mình chuyển thân.","Giao long đảo hải vẫy vùng.","Xung thiên bạch hạc nghiêng mình chuyển thân.","Thanh long bái tổ từ sư.","Long thăng phá thạch liền khi.","Tứ phương bái tổ kính sư.","Vũ môn cá vượt qua thềm vờn mây.","Thanh long bãi vĩ xuất thần.","Quy xà trảm thảo tứ bề sát kinh.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Xuất kiếm tấn bộ dáng người uy nghi.","Giao long nghịch hải vẫy vùng.","Hắc long xuất thế trở về.","Tầm xà sát thích vân phi liền kề.","Diện tiền lập bộ kiếm thu trở về.","Bát phương bái tổ kính sư.","Nộ, giáng, thích, trảm tụ thần triều dâng."]
+Type: fill
+
+ID: luc-4-c15-4 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+Bái tổ Thanh long độc kiếm.
+______[1]
+Xuất kiếm thủ bộ dáng người uy nghi.
+______[2]
+Tầm xà sát thích vân phi liền kề.
+Thanh long xuất thế trở về.
+______[3]
+______[4]
+______[5]
+______[6]
+Xung thiên bạch hạc nghiêng mình chuyển thân.
+______[7]
+______[8]
+Vọng nguyệt long giáng tầm ngư.
+______[9]
+Thanh long bái tổ hầu sư.
+______[10]
+Ans: undefined
+Options: ["Vũ môn cá vượt qua thềm vờn mây.","Tầm xà truy thích vân phi liền kề.","Quy xà trảm thảo tứ bề sát kinh.","Long thăng phá thạch liền khi.","Ẩn long trầm thủy tung mình.","Nộ, giáng, thích, trảm tụ thần triều dâng.","Quy xà phạt thảo tứ bề sát kinh.","Long thăng trảm thạch liền khi.","Vũ môn long vượt qua thềm vờn mây.","Long vân xuất hội muôn phần vũ phong.","Xung thiên đại hạc nghiêng mình chuyển thân.","Long vân gặp hội muôn phần vũ phong.","Hắc long xuất thế trở về.","Tứ phương bái tổ kính sư.","Thanh long bái tổ từ sư.","Thanh long bãi vĩ xuất thần.","Diện tiền lập bộ kiếm thu trở về.","Thanh long đoạt vĩ xuất thần.","Giao long đảo hải vẫy vùng.","Vọng nguyệt giáng long tầm ngư.","Xuất kiếm tấn bộ dáng người uy nghi.","Giao long nghịch hải vẫy vùng.","Bát phương bái tổ kính sư.","Ẩn long tiềm thủy tung mình.","Nộ, thăng, thích, trảm tụ thần triều dâng."]
+Type: fill
+
+ID: luc-4-c15-5 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+______[1]
+______[2]
+Xuất kiếm thủ bộ dáng người uy nghi.
+______[3]
+Tầm xà sát thích vân phi liền kề.
+______[4]
+Quy xà phạt thảo tứ bề sát kinh.
+______[5]
+Nộ, giáng, thích, trảm tụ thần triều dâng.
+Giao long đảo hải vẫy vùng.
+______[6]
+Thanh long bãi vĩ xuất thần.
+______[7]
+______[8]
+Vũ môn cá vượt qua thềm vờn mây.
+______[9]
+______[10]
+Ans: undefined
+Options: ["Xung thiên bạch hạc nghiêng mình chuyển thân.","Ẩn long tiềm thủy tung mình.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Ẩn long trầm thủy tung mình.","Vọng nguyệt giáng long tầm ngư.","Diện tiền lập bộ kiếm thu trở về.","Thanh long bái tổ hầu sư.","Tầm xà truy thích vân phi liền kề.","Thanh long bái tổ từ sư.","Vọng nguyệt long giáng tầm ngư.","Thanh long đoạt vĩ xuất thần.","Giao long nghịch hải vẫy vùng.","Bái tổ Thanh long độc kiếm.","Long vân xuất hội muôn phần vũ phong.","Long thăng phá thạch liền khi.","Long vân gặp hội muôn phần vũ phong.","Thanh long xuất thế trở về.","Quy xà trảm thảo tứ bề sát kinh.","Tứ phương bái tổ kính sư.","Long thăng trảm thạch liền khi.","Xung thiên đại hạc nghiêng mình chuyển thân.","Xuất kiếm tấn bộ dáng người uy nghi.","Hắc long xuất thế trở về.","Vũ môn long vượt qua thềm vờn mây.","Bát phương bái tổ kính sư."]
+Type: fill
+
+ID: luc-4-c15-6 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+______[1]
+Tứ phương bái tổ kính sư.
+Xuất kiếm thủ bộ dáng người uy nghi.
+______[2]
+______[3]
+______[4]
+Quy xà phạt thảo tứ bề sát kinh.
+______[5]
+______[6]
+Giao long đảo hải vẫy vùng.
+______[7]
+Thanh long bãi vĩ xuất thần.
+______[8]
+Vọng nguyệt long giáng tầm ngư.
+______[9]
+Thanh long bái tổ hầu sư.
+______[10]
+Ans: undefined
+Options: ["Thanh long đoạt vĩ xuất thần.","Xung thiên đại hạc nghiêng mình chuyển thân.","Ẩn long trầm thủy tung mình.","Tầm xà truy thích vân phi liền kề.","Ẩn long tiềm thủy tung mình.","Thanh long bái tổ từ sư.","Vũ môn cá vượt qua thềm vờn mây.","Bát phương bái tổ kính sư.","Vũ môn long vượt qua thềm vờn mây.","Xung thiên bạch hạc nghiêng mình chuyển thân.","Quy xà trảm thảo tứ bề sát kinh.","Nộ, giáng, thích, trảm tụ thần triều dâng.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Xuất kiếm tấn bộ dáng người uy nghi.","Diện tiền lập bộ kiếm thu trở về.","Long thăng trảm thạch liền khi.","Long vân gặp hội muôn phần vũ phong.","Hắc long xuất thế trở về.","Long thăng phá thạch liền khi.","Thanh long xuất thế trở về.","Giao long nghịch hải vẫy vùng.","Vọng nguyệt giáng long tầm ngư.","Tầm xà sát thích vân phi liền kề.","Long vân xuất hội muôn phần vũ phong.","Bái tổ Thanh long độc kiếm."]
+Type: fill
+
+ID: luc-4-c15-7 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+Bái tổ Thanh long độc kiếm.
+______[1]
+______[2]
+Long thăng trảm thạch liền khi.
+______[3]
+Thanh long xuất thế trở về.
+______[4]
+______[5]
+______[6]
+Giao long đảo hải vẫy vùng.
+______[7]
+______[8]
+______[9]
+Vọng nguyệt long giáng tầm ngư.
+______[10]
+Thanh long bái tổ hầu sư.
+Diện tiền lập bộ kiếm thu trở về.
+Ans: undefined
+Options: ["Ẩn long tiềm thủy tung mình.","Tầm xà truy thích vân phi liền kề.","Xuất kiếm thủ bộ dáng người uy nghi.","Xuất kiếm tấn bộ dáng người uy nghi.","Tứ phương bái tổ kính sư.","Bát phương bái tổ kính sư.","Tầm xà sát thích vân phi liền kề.","Hắc long xuất thế trở về.","Vũ môn cá vượt qua thềm vờn mây.","Quy xà trảm thảo tứ bề sát kinh.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Thanh long bãi vĩ xuất thần.","Vũ môn long vượt qua thềm vờn mây.","Long thăng phá thạch liền khi.","Vọng nguyệt giáng long tầm ngư.","Thanh long đoạt vĩ xuất thần.","Xung thiên đại hạc nghiêng mình chuyển thân.","Ẩn long trầm thủy tung mình.","Xung thiên bạch hạc nghiêng mình chuyển thân.","Giao long nghịch hải vẫy vùng.","Thanh long bái tổ từ sư.","Long vân xuất hội muôn phần vũ phong.","Nộ, giáng, thích, trảm tụ thần triều dâng.","Long vân gặp hội muôn phần vũ phong.","Quy xà phạt thảo tứ bề sát kinh."]
+Type: fill
+
+ID: luc-4-c15-8 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+______[1]
+______[2]
+______[3]
+Long thăng trảm thạch liền khi.
+______[4]
+______[5]
+Quy xà phạt thảo tứ bề sát kinh.
+______[6]
+Nộ, giáng, thích, trảm tụ thần triều dâng.
+Giao long đảo hải vẫy vùng.
+______[7]
+Thanh long bãi vĩ xuất thần.
+Long vân gặp hội muôn phần vũ phong.
+Vọng nguyệt long giáng tầm ngư.
+______[8]
+______[9]
+______[10]
+Ans: undefined
+Options: ["Xuất kiếm tấn bộ dáng người uy nghi.","Vọng nguyệt giáng long tầm ngư.","Vũ môn cá vượt qua thềm vờn mây.","Thanh long xuất thế trở về.","Xuất kiếm thủ bộ dáng người uy nghi.","Xung thiên đại hạc nghiêng mình chuyển thân.","Ẩn long trầm thủy tung mình.","Tầm xà truy thích vân phi liền kề.","Bát phương bái tổ kính sư.","Giao long nghịch hải vẫy vùng.","Thanh long đoạt vĩ xuất thần.","Thanh long bái tổ từ sư.","Quy xà trảm thảo tứ bề sát kinh.","Hắc long xuất thế trở về.","Bái tổ Thanh long độc kiếm.","Diện tiền lập bộ kiếm thu trở về.","Long vân xuất hội muôn phần vũ phong.","Thanh long bái tổ hầu sư.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Xung thiên bạch hạc nghiêng mình chuyển thân.","Tầm xà sát thích vân phi liền kề.","Tứ phương bái tổ kính sư.","Long thăng phá thạch liền khi.","Vũ môn long vượt qua thềm vờn mây.","Ẩn long tiềm thủy tung mình."]
+Type: fill
+
+ID: luc-4-c15-9 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+______[1]
+______[2]
+______[3]
+Long thăng trảm thạch liền khi.
+Tầm xà sát thích vân phi liền kề.
+______[4]
+Quy xà phạt thảo tứ bề sát kinh.
+Ẩn long trầm thủy tung mình.
+______[5]
+______[6]
+______[7]
+______[8]
+Long vân gặp hội muôn phần vũ phong.
+______[9]
+Vũ môn cá vượt qua thềm vờn mây.
+______[10]
+Diện tiền lập bộ kiếm thu trở về.
+Ans: undefined
+Options: ["Xuất kiếm thủ bộ dáng người uy nghi.","Nộ, giáng, thích, trảm tụ thần triều dâng.","Giao long nghịch hải vẫy vùng.","Thanh long đoạt vĩ xuất thần.","Long vân xuất hội muôn phần vũ phong.","Ẩn long tiềm thủy tung mình.","Xung thiên đại hạc nghiêng mình chuyển thân.","Vọng nguyệt long giáng tầm ngư.","Thanh long bái tổ hầu sư.","Xuất kiếm tấn bộ dáng người uy nghi.","Bát phương bái tổ kính sư.","Vũ môn long vượt qua thềm vờn mây.","Tứ phương bái tổ kính sư.","Xung thiên bạch hạc nghiêng mình chuyển thân.","Thanh long bái tổ từ sư.","Thanh long xuất thế trở về.","Hắc long xuất thế trở về.","Quy xà trảm thảo tứ bề sát kinh.","Bái tổ Thanh long độc kiếm.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Long thăng phá thạch liền khi.","Tầm xà truy thích vân phi liền kề.","Vọng nguyệt giáng long tầm ngư.","Giao long đảo hải vẫy vùng.","Thanh long bãi vĩ xuất thần."]
+Type: fill
+
+ID: luc-4-c15-10 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+______[1]
+______[2]
+Xuất kiếm thủ bộ dáng người uy nghi.
+Long thăng trảm thạch liền khi.
+______[3]
+______[4]
+______[5]
+______[6]
+Nộ, giáng, thích, trảm tụ thần triều dâng.
+______[7]
+Xung thiên bạch hạc nghiêng mình chuyển thân.
+______[8]
+Long vân gặp hội muôn phần vũ phong.
+Vọng nguyệt long giáng tầm ngư.
+Vũ môn cá vượt qua thềm vờn mây.
+______[9]
+______[10]
+Ans: undefined
+Options: ["Diện tiền lập bộ kiếm thu trở về.","Ẩn long trầm thủy tung mình.","Hắc long xuất thế trở về.","Ẩn long tiềm thủy tung mình.","Tầm xà truy thích vân phi liền kề.","Thanh long đoạt vĩ xuất thần.","Giao long đảo hải vẫy vùng.","Quy xà phạt thảo tứ bề sát kinh.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Vũ môn long vượt qua thềm vờn mây.","Long vân xuất hội muôn phần vũ phong.","Xung thiên đại hạc nghiêng mình chuyển thân.","Thanh long bái tổ hầu sư.","Quy xà trảm thảo tứ bề sát kinh.","Thanh long bái tổ từ sư.","Long thăng phá thạch liền khi.","Xuất kiếm tấn bộ dáng người uy nghi.","Tứ phương bái tổ kính sư.","Thanh long bãi vĩ xuất thần.","Bái tổ Thanh long độc kiếm.","Vọng nguyệt giáng long tầm ngư.","Thanh long xuất thế trở về.","Tầm xà sát thích vân phi liền kề.","Giao long nghịch hải vẫy vùng.","Bát phương bái tổ kính sư."]
+Type: fill
+
+ID: luc-4-c15-11 (Lesson: green-lesson-04)
+Q: Điền vào chỗ trống lời thiệu bài quyền Thanh Long Độc Kiếm:
+
+______[1]
+______[2]
+______[3]
+______[4]
+Tầm xà sát thích vân phi liền kề.
+Thanh long xuất thế trở về.
+______[5]
+Ẩn long trầm thủy tung mình.
+Nộ, giáng, thích, trảm tụ thần triều dâng.
+Giao long đảo hải vẫy vùng.
+Xung thiên bạch hạc nghiêng mình chuyển thân.
+______[6]
+______[7]
+______[8]
+Vũ môn cá vượt qua thềm vờn mây.
+______[9]
+______[10]
+Ans: undefined
+Options: ["Tầm xà truy thích vân phi liền kề.","Long vân gặp hội muôn phần vũ phong.","Thanh long bái tổ hầu sư.","Thanh long bái tổ từ sư.","Vọng nguyệt long giáng tầm ngư.","Xuất kiếm thủ bộ dáng người uy nghi.","Ẩn long tiềm thủy tung mình.","Long vân xuất hội muôn phần vũ phong.","Long thăng phá thạch liền khi.","Vũ môn long vượt qua thềm vờn mây.","Bái tổ Thanh long độc kiếm.","Nộ, thăng, thích, trảm tụ thần triều dâng.","Tứ phương bái tổ kính sư.","Hắc long xuất thế trở về.","Quy xà phạt thảo tứ bề sát kinh.","Long thăng trảm thạch liền khi.","Quy xà trảm thảo tứ bề sát kinh.","Xuất kiếm tấn bộ dáng người uy nghi.","Giao long nghịch hải vẫy vùng.","Bát phương bái tổ kính sư.","Vọng nguyệt giáng long tầm ngư.","Diện tiền lập bộ kiếm thu trở về.","Xung thiên đại hạc nghiêng mình chuyển thân.","Thanh long đoạt vĩ xuất thần.","Thanh long bãi vĩ xuất thần."]
+Type: fill
+
+
+=== nau.json ===
+
+ID: nau-c01-02 (Lesson: brown-lesson-01)
+Q: Hoàn thành đoạn văn sau về lời thề môn sinh Phật Quang Quyền: Một, tập võ để ______[1]. Hai, tập võ để ______[2]. Ba, tập võ để bảo vệ chánh pháp.
+Ans: undefined
+Options: ["chiến thắng sự yếu đuối trong lòng mình và đạt được hạnh nhẫn nhục tận cùng","chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh tinh tấn tận cùng","chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh tinh tấn viên mãn","chiến thắng sự rụt rè trong lòng mình và đạt được hạnh nhẫn nhục tận cùng","bênh vực kẻ yếu thế bị ức hiếp","bênh vực người thân thiện bị ức hiếp"]
+Type: fill
+
+ID: nau-c06-01 (Lesson: brown-lesson-01)
+Q: Hoàn thành đoạn văn về lối chào của môn phái: Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh thần hòa bình, đoàn kết và ______[1], không để ______[2].
+Ans: undefined
+Options: ["nhắc nhở người môn sinh tu dưỡng nội tâm","nhắc nhở người võ sinh rèn luyện nội tâm","nhắc nhở người võ sinh tu dưỡng đạo đức","Tham, Sân, Mạn chi phối tạo điều xấu ác","Tham, Sân, Si chi phối làm điều xấu ác","Mạn, Nghi, Ác kiến chi phối tạo điều xấu ác"]
+Type: fill

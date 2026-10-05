@@ -236,9 +236,62 @@ describe('gradeExam', () => {
     });
 
     expect(attempt.durationMs).toBe(20 * 60 * 1000);
+    expect(attempt.outcome).toBe('submitted');
+    expect(attempt.exitedAt).toBeUndefined();
     expect(attempt.score).toBe(10);
     expect(attempt.questions[0].question.options).toEqual(single.options);
     expect(examElapsedMs(attempt.startedAt, attempt.startedAt, attempt.timeLimitMs)).toBe(0);
+  });
+
+  it('keeps the full duration when practice has no time limit', () => {
+    const attempt = buildExamAttempt({
+      id: 'attempt-unlimited',
+      mode: 'practice',
+      candidate: {
+        fullName: 'Nguyễn Văn An',
+        dateOfBirth: '2010-05-02',
+        club: 'CLB Phật Quang',
+        dojo: 'Võ đường Phật Quang',
+      },
+      rankId: 'lam-1',
+      beltId: 'blue',
+      startedAt: '2026-01-01T00:00:00.000Z',
+      submittedAt: '2026-01-01T00:30:00.000Z',
+      timeLimitMs: 0,
+      autoSubmitted: false,
+      questions: [single],
+      answers: { single: { questionId: 'single', selectedIndex: 0 } },
+    });
+
+    expect(attempt.durationMs).toBe(30 * 60 * 1000);
+    expect(attempt.outcome).toBe('submitted');
+  });
+
+  it('stores an exit separately from a normal submission', () => {
+    const attempt = buildExamAttempt({
+      id: 'attempt-exit',
+      mode: 'official',
+      candidate: {
+        fullName: 'Nguyễn Văn An',
+        dateOfBirth: '2010-05-02',
+        club: 'CLB Phật Quang',
+        dojo: 'Võ đường Phật Quang',
+      },
+      rankId: 'lam-1',
+      beltId: 'blue',
+      startedAt: '2026-01-01T00:00:00.000Z',
+      submittedAt: '2026-01-01T00:05:00.000Z',
+      timeLimitMs: 20 * 60 * 1000,
+      autoSubmitted: false,
+      questions: [single],
+      answers: {},
+      outcome: 'exited',
+      exitedAt: '2026-01-01T00:05:00.000Z',
+    });
+
+    expect(attempt.outcome).toBe('exited');
+    expect(attempt.exitedAt).toBe('2026-01-01T00:05:00.000Z');
+    expect(attempt.durationMs).toBe(5 * 60 * 1000);
   });
 });
 

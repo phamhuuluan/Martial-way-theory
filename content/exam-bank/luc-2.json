@@ -29,12 +29,14 @@
         "giữ lại một vài thế võ độc đáo"
       ],
       "options": [
-        "những người trong thân tộc và đệ tử chân truyền",
-        "những người trong họ hàng và học trò thân tín",
-        "những người trong dòng họ và tất cả học trò",
-        "giấu đi những thế võ nguy hiểm",
         "không truyền dạy những tuyệt kỹ",
-        "giữ lại những bài quyền quan trọng"
+        "giữ lại một vài thế võ độc đáo",
+        "giữ lại những bài quyền quan trọng",
+        "những người trong họ hàng và học trò thân tín",
+        "những người trong thân tộc và đệ tử chân truyền",
+        "giấu đi những thế võ nguy hiểm",
+        "những người trong dòng họ và một vài môn đệ tâm huyết",
+        "những người trong dòng họ và tất cả học trò"
       ],
       "explanation": "Tộc truyền: Là chỉ dạy võ trong phạm vi thu hẹp, gồm những người trong dòng họ và một vài môn đệ tâm huyết, không truyền bá rộng rãi. Bí truyền: Là việc các võ sư thời xưa, dù tâm đắc với học trò đến thế nào, vẫn giữ lại một vài thế võ độc đáo để đề phòng trường hợp học trò phản thầy.",
       "sourceQuestion": "Câu 2. Hỏi: Thế nào là tính cách Tộc truyền và Bí truyền?",
@@ -184,12 +186,14 @@
         "không vì danh lợi mà làm điều trái đạo lý"
       ],
       "options": [
-        "dám đứng ra bênh vực người yếu",
-        "dám xả thân vì nghĩa lớn",
         "luôn bảo vệ người thân và bạn bè",
         "không vì tiền bạc mà làm điều ác",
+        "không vì danh lợi mà làm điều trái đạo lý",
+        "dám hy sinh vì việc nghĩa",
+        "dám đứng ra bênh vực người yếu",
         "không vì tư lợi mà phản bội môn phái",
-        "không vì danh tiếng mà đánh mất bản thân"
+        "không vì danh tiếng mà đánh mất bản thân",
+        "dám xả thân vì nghĩa lớn"
       ],
       "explanation": "Người con nhà võ luôn sẵn sàng giúp đỡ người khác, dám hy sinh vì việc nghĩa; sống quang minh chính đại, không gian dối, không xu nịnh; nói được làm được, giữ trọn lời hứa; không vì danh lợi mà làm điều trái đạo lý, luôn giữ gìn danh dự bản thân...",
       "sourceQuestion": "Câu 9. Thế nào là Đức của con nhà võ?",

@@ -139,6 +139,7 @@ describe('exam banks', () => {
       questionCount: 20,
       durationMinutes: 30,
     });
+    expect(getExamBank('lam-1', 'official')?.questions).toEqual(getExamBank('lam-1', 'practice')?.questions);
     expect(getExamBank('blue')).toBeNull();
     expect(brownBank?.questions.length).toBeGreaterThan(0);
     expect(getExamBank('chuan-hong')).toBeNull();

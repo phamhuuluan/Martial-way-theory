@@ -25,6 +25,8 @@ function record(partial: Partial<ExamResultRecord> & Pick<ExamResultRecord, 'id'
     dojo: '',
     dateOfBirth: '',
     coach: '',
+    outcome: 'submitted',
+    exitedAt: '',
     ...partial,
   };
 }

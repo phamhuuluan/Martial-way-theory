@@ -2,6 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
+import { OfficialExamGuard } from '@/components/exam/OfficialExamGuard';
 import { BottomTabBar, SideRail } from '@/components/layout/Navigation';
 import { BeltCeremony } from '@/components/achievement/BeltCeremony';
 import { OnboardingModal } from '@/components/onboarding/OnboardingModal';
@@ -13,6 +14,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <>
+      <OfficialExamGuard />
       <SideRail />
       <div className={cn('app-shell relative lg:pl-60', !isLanding && 'app-shell--content')}>
         <StorageWarning />

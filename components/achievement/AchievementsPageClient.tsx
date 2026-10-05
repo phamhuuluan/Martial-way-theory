@@ -52,14 +52,13 @@ export function AchievementsPageClient() {
   const reduced = useReducedMotion();
 
   return (
-    <div className="achievements-page relative min-h-screen overflow-hidden px-4 py-8 lg:px-10 lg:py-10">
-      <div className="relative mx-auto max-w-6xl">
+    <>
         <header className="achievement-header mb-8 lg:mb-10">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between lg:gap-10">
             <div className="min-w-0 flex-1">
-              <h1 className="achievement-header__title font-display text-[1.75rem] font-bold uppercase tracking-[0.06em] sm:text-[2.125rem]">
+              <h2 className="achievement-header__title font-display text-[1.75rem] font-bold uppercase tracking-[0.06em] sm:text-[2.125rem]">
                 Huy Hiệu Đức Tính
-              </h1>
+              </h2>
             </div>
             <div className="achievement-summary shrink-0 lg:min-w-[17.5rem]">
               <div className="flex items-center gap-5">
@@ -90,7 +89,6 @@ export function AchievementsPageClient() {
         </header>
 
         <AchievementGrid earnedIds={progress.achievements} progress={progress} />
-      </div>
-    </div>
+    </>
   );
 }

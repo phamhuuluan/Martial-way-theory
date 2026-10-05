@@ -1,0 +1,132 @@
+Total issues found: 130
+
+[bach.json] [bach-c04-01] Missing blanks in options: ["siêng năng, gương mẫu, trung thực và không vụ lợi","điều độ, lành mạnh để tái tạo sức khỏe và tinh thần","sống thanh đạm, rèn luyện đạo đức, tránh các thói hư tật xấu"]
+[chuan-bach.json] [chuan-bach-c18-01] Missing blanks in options: ["không tranh hơn thua về vật chất hay danh dự","luôn đặt lợi ích chung lên trên lợi ích riêng của bản thân"]
+[hoang-1.json] [hoang-1-c27-poem-1] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-2] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-3] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-4] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-5] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-6] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-7] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-8] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-9] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hoang-1.json] [hoang-1-c27-poem-10] Question text not found in theory yellow-lesson-01: lời thiệu bài Độc Lư Thương:
+[hong-1.json] [hong-1-c09-01] Missing blanks in options: ["thời đại đồ sắt","Lý Thường Kiệt"]
+[hong-1.json] [hong-1-c09-01] Question text not found in theory red-lesson-01: Tại Việt Nam, từ , võ học đã dần thâm nhập vào binh pháp. Danh tướng  được xem là một trong những binh pháp gia tiêu biểu đầu tiên của dân tộc, nổi bật với việc vận dụng binh pháp một cách sáng tạo và hiệu quả trong công cuộc bảo vệ đất nước.
+[hong-1.json] [hong-1-c14-2] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-3] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-4] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-5] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-6] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-7] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-8] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-9] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-10] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-1.json] [hong-1-c14-11] Question text not found in theory red-lesson-01: lời thiệu bài Song Tuyết Kiếm:
+[hong-2.json] [hong-2-c09-01] Missing blanks in options: ["thể trạng và hoàn cảnh của võ sinh","khả năng tiếp thu và sức chịu đựng"]
+[hong-3.json] [hong-3-c04-01] Missing blanks in options: ["tinh thần phục vụ cao cả","cố gắng thực hành những điều đã được thầy chỉ dạy"]
+[hong-3.json] [hong-3-c10-01] Missing blanks in options: ["gây tổn hại đến danh dự, quyền lợi hoặc cuộc sống của ta","khi họ là người có nghĩa khí, biết điều phải trái"]
+[hong-3.json] [hong-3-c10-01] Question text not found in theory red-lesson-03: Kẻ thù là người đối nghịch với ta về tình cảm, tư tưởng hoặc hành động, . Tuy nhiên, người môn sinh Phật Quang Quyền không nuôi dưỡng lòng thù hận. Ta có thể tha thứ cho kẻ thù khi họ biết hối lỗi, sửa đổi, khi họ đã thất thế hoặc .
+[hong-3.json] [hong-3-c17-2] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-3] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-4] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-5] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-6] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-7] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-8] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-9] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-10] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-3.json] [hong-3-c17-11] Question text not found in theory red-lesson-03: lời thiệu bài quy định Thái Sơn Côn:
+[hong-4.json] [hong-4-c08-01] Missing blanks in options: ["không bảo thủ","mạnh dạn cải tiến phương pháp, giáo trình huấn luyện"]
+[lam-1.json] [lam-1-c04-02] Question text not found in theory blue-lesson-01: Hoàn thành định nghĩa sau: Võ học là việc  kiến thức của nhiều môn phái võ thuật, kết hợp với  để nâng cao hiểu biết về võ thuật.
+[lam-1.json] [lam-1-c09-01] Question text not found in theory blue-lesson-01: để hoàn thành ý nghĩa lời thề thứ tư "Tập võ để bảo vệ đất nước": Võ cổ truyền việt nam được ra đời từ công cuộc dựng nước và bảo vệ đất nước, cho nên Từ xưa đến nay, người học võ ngoài việc để rèn luyện sức mạnh, thì luôn gắn liền với việc phải , ý thức trách nhiệm với quê hương và  khi cần.
+[lam-2.json] [lam-2-c05-01] Missing blanks in options: ["tự giác, dựa trên tinh thần tự nguyện","người dưới phải tự giác chấp hành"]
+[lam-2.json] [lam-2-c05-01] Question text not found in theory blue-lesson-02: Kỷ luật môn phái Phật Quang Quyền là kỷ luật , đoàn kết, yêu thương, tôn trọng và tin cậy lẫn nhau. Người trên phải làm gương cho người dưới noi theo; .
+[lam-2.json] [lam-2-c07-01] Missing blanks in options: ["bảo vệ người yếu","lòng tự ái cá nhân"]
+[lam-2.json] [lam-2-c07-01] Question text not found in theory blue-lesson-02: Hoàn thành nhận định về danh dự: Danh dự của võ sĩ không chỉ là danh dự cá nhân mà còn là danh dự của tập thể và môn phái. Người võ sĩ phải sống hiên ngang, cao thượng, biết , bênh vực lẽ phải và đặt võ đạo lên trên .
+[lam-3.json] [lam-3-c05-01] Missing blanks in options: ["giữ gìn thân tâm trong sạch","nhìn thẳng vào sự thật để góp phần giúp đỡ, cải thiện"]
+[lam-3.json] [lam-3-c05-01] Question text not found in theory blue-lesson-03: để hoàn thành quan niệm về đức trong sạch: Võ sinh Phật Quang Quyền phải , sống đạo đức và tránh điều xấu. Tuy nhiên, không được thờ ơ hay né tránh những điều tiêu cực trong xã hội, mà phải  và xây dựng cuộc sống tốt đẹp hơn.
+[lam-3.json] [lam-3-c09-01] Missing blanks in options: ["Nghiên cứu, suy xét kỹ lưỡng","kiên trì thực hiện đến cùng"]
+[lam-3.json] [lam-3-c09-01] Question text not found in theory blue-lesson-03: Muốn kiện toàn ý chí đanh thép võ sinh Phật Quang Quyền phải:  mọi vấn đề trước khi quyết định. Khi đã quyết định đúng đắn thì  với tất cả nhiệt huyết, trí tuệ, năng lực và sự quyết tâm.
+[lam-3.json] [lam-3-c13-2] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-3] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-4] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-5] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-6] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-7] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-8] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-9] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-10] Blanks not found in theory blue-lesson-03: ["Tả hữu đả diện"]
+[lam-3.json] [lam-3-c13-10] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-3.json] [lam-3-c13-11] Blanks not found in theory blue-lesson-03: ["Tả hữu đả diện"]
+[lam-3.json] [lam-3-c13-11] Question text not found in theory blue-lesson-03: lời thiệu bài quyền Lão Hổ Thượng Sơn:
+[lam-4.json] [lam-4-c05-01] Missing blanks in options: ["học cách chiến đấu để bảo vệ bản thân và cộng đồng","những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật"]
+[lam-4.json] [lam-4-c05-01] Question text not found in theory blue-lesson-04: về nguồn gốc võ thuật: Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải . Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành , hình thành nên võ thuật.
+[lam-4.json] [lam-4-c12-01] Missing blanks in options: ["hào hiệp, khoan dung và có chừng mực","tha thứ, hòa giải và cảm hóa"]
+[lam-4.json] [lam-4-c12-01] Question text not found in theory blue-lesson-04: Khi buộc phải đối phó với kẻ thù, người võ sinh phải giữ tinh thần thượng võ, hành xử bằng sự . Sau khi ngăn chặn hoặc xử lý hành vi sai trái, cần hướng đến , không nuôi dưỡng lòng thù hận.
+[lam-4.json] [lam-4-c13-2] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-3] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-4] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-5] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-6] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-7] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-8] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-9] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-10] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[lam-4.json] [lam-4-c13-11] Question text not found in theory blue-lesson-04: lời thiệu bài quyền Bạch Hạc Sơn Quyền:
+[luc-1.json] [luc-1-c08-01] Missing blanks in options: ["tinh thần dân tộc rõ ràng, ý thức hệ đúng đắn","thời gian đủ dài"]
+[luc-1.json] [luc-1-c08-01] Question text not found in theory green-lesson-01: Một môn phái võ thuật muốn phát triển thành võ đạo phải có , hệ thống võ thuật toàn diện, phương pháp giảng dạy hiệu quả và  để xây dựng, quảng bá và phát triển môn phái.
+[luc-1.json] [luc-1-c11-2] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-3] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-4] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-5] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-6] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-7] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-8] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-9] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-10] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-1.json] [luc-1-c11-11] Question text not found in theory green-lesson-01: lời thiệu bài quyền Ngọc Trản Quyền:
+[luc-2.json] [luc-2-c02-01] Missing blanks in options: ["những người trong dòng họ và một vài môn đệ tâm huyết","giữ lại một vài thế võ độc đáo"]
+[luc-2.json] [luc-2-c02-01] Question text not found in theory green-lesson-02: định nghĩa về Tộc truyền và Bí truyền: Tộc truyền là chỉ dạy võ trong phạm vi thu hẹp, gồm , không truyền bá rộng rãi. Bí truyền là việc các võ sư thời xưa  để đề phòng trường hợp học trò phản thầy.
+[luc-2.json] [luc-2-c09-01] Missing blanks in options: ["dám hy sinh vì việc nghĩa","không vì danh lợi mà làm điều trái đạo lý"]
+[luc-2.json] [luc-2-c09-01] Question text not found in theory green-lesson-02: để hoàn thành định nghĩa về Đức của con nhà võ: Đức của con nhà võ là sống nghĩa khí, ngay thẳng, giữ chữ tín và lòng tự trọng. Người con nhà võ luôn sẵn sàng giúp đỡ người khác, ; sống quang minh chính đại, không gian dối, không xu nịnh; nói được làm được, giữ trọn lời hứa; , luôn giữ gìn danh dự bản thân.
+[luc-2.json] [luc-2-c11-2] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-3] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-4] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-5] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-6] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-7] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-8] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-9] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-10] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-2.json] [luc-2-c11-11] Question text not found in theory green-lesson-02: lời thiệu bài quyền Hùng Kê Quyền:
+[luc-3.json] [luc-3-c07-01] Missing blanks in options: ["Dám nghĩ, dám làm, không ngại khó khăn thử thách","Đặt lợi ích chung lên trên lợi ích riêng, công bằng và khách quan"]
+[luc-3.json] [luc-3-c11-2] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-3] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-4] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-5] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-6] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-7] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-8] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-9] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-10] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-3.json] [luc-3-c11-11] Question text not found in theory green-lesson-03: lời thiệu bài quyền Lão Mai Quyền:
+[luc-4.json] [luc-4-c04-01] Missing blanks in options: ["không khoe khoang mình là người có võ","Quang minh, hào hiệp"]
+[luc-4.json] [luc-4-c04-01] Question text not found in theory green-lesson-04: về tác phong ở nơi công cộng: Về thái độ: Đàng hoàng, đứng đắn, khiêm tốn, . Về cử chỉ: Lịch sự, nhã nhặn, sẵn sàng giúp đỡ người khác. Về cách đối xử: , bênh vực điều phải, giúp đỡ người yếu thế và tránh xa những hành vi thiếu văn hóa.
+[luc-4.json] [luc-4-c10-01] Missing blanks in options: ["Võ đạo làm nền tảng","Sống, Giúp người khác sống và Sống cho người khác"]
+[luc-4.json] [luc-4-c10-01] Question text not found in theory green-lesson-04: Người Võ sinh Phật Quang Quyền phải lấy , lấy Bi – Trí – Dũng làm phương châm rèn luyện. Người môn sinh phải luôn rèn luyện theo tinh thần: ; sống có trách nhiệm với gia đình, xã hội, đất nước.
+[luc-4.json] [luc-4-c15-2] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-3] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-4] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-5] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-6] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-7] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-8] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-9] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-10] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[luc-4.json] [luc-4-c15-11] Question text not found in theory green-lesson-04: lời thiệu bài quyền Thanh Long Độc Kiếm:
+[nau.json] [nau-c01-02] Missing blanks in options: ["chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng","bênh vực kẻ vô tội bị ức hiếp"]
+[nau.json] [nau-c01-02] Question text not found in theory brown-lesson-01: Hoàn thành đoạn văn sau về lời thề môn sinh Phật Quang Quyền: Một, tập võ để . Hai, tập võ để . Ba, tập võ để bảo vệ chánh pháp.
+[nau.json] [nau-c06-01] Missing blanks in options: ["nhắc nhở người võ sinh tu dưỡng nội tâm","Tham, Sân, Si chi phối tạo điều xấu ác"]
+[nau.json] [nau-c06-01] Question text not found in theory brown-lesson-01: Hoàn thành đoạn văn về lối chào của môn phái: Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh thần hòa bình, đoàn kết và , không để .

@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import { PracticeSession } from '@/components/exam/PracticeSession';
-import { getExamConfig, getExamLevelName } from '@/lib/exam-config';
-import { getExamBank, listPracticeCatalog } from '@/lib/exam-bank';
+import { ClientReplace } from '@/components/navigation/ClientReplace';
+import { listPracticeCatalog } from '@/lib/exam-bank';
 
 interface Props {
   params: Promise<{ rankId: string }>;
@@ -14,27 +12,11 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export const metadata: Metadata = {
+  title: 'Ôn luyện',
+};
+
+export default async function PracticeRankRedirectPage({ params }: Props) {
   const { rankId } = await params;
-  return { title: `Luyện đề ${getExamLevelName(rankId)}` };
-}
-
-export default async function PracticeRankPage({ params }: Props) {
-  const { rankId } = await params;
-  const config = getExamConfig(rankId);
-  const bank = getExamBank(rankId);
-
-  if (!config || !bank || bank.questions.length === 0) {
-    notFound();
-  }
-
-  return (
-    <PracticeSession
-      rankId={rankId}
-      fullName={getExamLevelName(rankId)}
-      beltId={config.beltId}
-      durationMinutes={config.durationMinutes}
-      questions={bank.questions}
-    />
-  );
+  return <ClientReplace href={`/exam/practice/${rankId}`} />;
 }

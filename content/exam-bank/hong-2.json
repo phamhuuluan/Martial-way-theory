@@ -167,12 +167,14 @@
         "khả năng tiếp thu và sức chịu đựng"
       ],
       "options": [
-        "tính cách và năng khiếu của võ sinh",
-        "thu nhập và xuất thân của võ sinh",
-        "sở thích và nguyện vọng của võ sinh",
-        "thành tích thi đấu và kinh nghiệm",
+        "thể trạng và hoàn cảnh của võ sinh",
+        "khả năng tiếp thu và sức chịu đựng",
         "năng lực tài chính và đóng góp",
-        "sự chăm chỉ và mức độ thông minh"
+        "thành tích thi đấu và kinh nghiệm",
+        "sự chăm chỉ và mức độ thông minh",
+        "tính cách và năng khiếu của võ sinh",
+        "sở thích và nguyện vọng của võ sinh",
+        "thu nhập và xuất thân của võ sinh"
       ],
       "explanation": "Sắp xếp võ sinh hợp lý: Căn cứ vào tuổi tác, giới tính, trình độ, thể trạng và hoàn cảnh của võ sinh... Tìm hiểu khả năng của võ sinh: Nắm được sức khỏe, khả năng tiếp thu và sức chịu đựng của từng võ sinh...",
       "sourceQuestion": "Câu 9. Muốn thực hiện một lớp võ, huấn luyện viên phải làm những gì?",

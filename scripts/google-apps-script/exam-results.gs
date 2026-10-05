@@ -5,7 +5,10 @@
  * Dán URL /exec vào NEXT_PUBLIC_EXAM_RESULTS_URL.
  *
  * Sheet exam_results được tạo cùng hàng header nếu chưa có.
- * Header cũ được nối thêm cột còn thiếu ở cuối: club, dojo, dateOfBirth, coach.
+ * Cột còn thiếu được nối vào cuối header hiện có, không phụ thuộc thứ tự cũ:
+ * club, dojo, dateOfBirth, coach, outcome, exitedAt.
+ * Chạy syncExamResultColumns trong trình sửa script để sinh cột ngay, không cần đợi lượt nộp.
+ * Mở spreadsheet cũng gọi hàm đó. outcome: submitted | exited. exitedAt để trống khi nộp bài.
  * POST append một kết quả. GET trả danh sách đã nộp.
  * GET nhận from/to (ISO, theo submittedAt) khi client gửi; bỏ trống thì trả hết.
  */
@@ -26,6 +29,8 @@ var HEADERS = [
   'dojo',
   'dateOfBirth',
   'coach',
+  'outcome',
+  'exitedAt',
 ];
 
 function jsonResponse(payload) {
@@ -113,20 +118,14 @@ function normalize(body) {
     dojo: text(body.dojo),
     dateOfBirth: text(body.dateOfBirth),
     coach: text(body.coach),
+    outcome: text(body.outcome) === 'exited' ? 'exited' : 'submitted',
+    exitedAt: text(body.exitedAt),
   };
 }
 
-function headerPrefixLength(header) {
-  var index = 0;
-  while (index < header.length && text(header[index]) !== '') {
-    if (index >= HEADERS.length || text(header[index]) !== HEADERS[index]) return -1;
-    index += 1;
-  }
-  var rest;
-  for (rest = index; rest < header.length; rest += 1) {
-    if (text(header[rest]) !== '') return -1;
-  }
-  return index;
+function headerNames(sheet) {
+  var width = Math.max(sheet.getLastColumn(), 1);
+  return sheet.getRange(1, 1, 1, width).getValues()[0].map(text);
 }
 
 function ensureSheet() {
@@ -134,24 +133,58 @@ function ensureSheet() {
   if (!ss) throw new Error('Hãy gắn script vào một Google Spreadsheet.');
   var sheet = ss.getSheetByName(SHEET_NAME);
   if (!sheet) sheet = ss.insertSheet(SHEET_NAME);
-  var width = Math.max(sheet.getLastColumn(), HEADERS.length, 1);
-  var header = sheet.getRange(1, 1, 1, width).getValues()[0];
+
+  var header = headerNames(sheet);
   var blank = header.every(function (cell) {
-    return text(cell) === '';
+    return cell === '';
   });
   if (blank) {
     sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
   } else {
-    var prefix = headerPrefixLength(header);
-    if (prefix < 0) throw new Error('Sheet exam_results đã có header khác.');
-    if (prefix < HEADERS.length) {
-      var missing = HEADERS.slice(prefix);
-      sheet.getRange(1, prefix + 1, 1, missing.length).setValues([missing]);
+    var present = {};
+    var lastUsed = 0;
+    header.forEach(function (name, column) {
+      if (!name) return;
+      present[name] = true;
+      lastUsed = column + 1;
+    });
+    var missing = HEADERS.filter(function (name) {
+      return !present[name];
+    });
+    if (missing.length) {
+      sheet.getRange(1, lastUsed + 1, 1, missing.length).setValues([missing]);
     }
   }
-  var dobColumn = HEADERS.indexOf('dateOfBirth') + 1;
-  sheet.getRange(2, dobColumn, Math.max(sheet.getMaxRows() - 1, 1), 1).setNumberFormat('@');
+
+  var dobColumn = headerNames(sheet).indexOf('dateOfBirth') + 1;
+  if (dobColumn > 0) {
+    sheet.getRange(2, dobColumn, Math.max(sheet.getMaxRows() - 1, 1), 1).setNumberFormat('@');
+  }
   return sheet;
+}
+
+function syncExamResultColumns() {
+  ensureSheet();
+}
+
+function onOpen() {
+  try {
+    ensureSheet();
+  } catch (error) {
+    // Không chặn khi mở spreadsheet.
+  }
+}
+
+function appendRecord(sheet, record) {
+  var header = headerNames(sheet);
+  var row = header.map(function () {
+    return '';
+  });
+  HEADERS.forEach(function (key) {
+    var column = header.indexOf(key);
+    if (column >= 0) row[column] = record[key];
+  });
+  sheet.appendRow(row);
 }
 
 function readResults(sheet) {
@@ -190,6 +223,8 @@ function readResults(sheet) {
         dojo: text(cell(row, 'dojo')),
         dateOfBirth: dateText(cell(row, 'dateOfBirth'), timeZone),
         coach: text(cell(row, 'coach')),
+        outcome: text(cell(row, 'outcome')) === 'exited' ? 'exited' : 'submitted',
+        exitedAt: text(cell(row, 'exitedAt')),
       };
     });
 }
@@ -226,13 +261,7 @@ function doPost(e) {
     var duplicate = existing.some(function (row) {
       return row.id === record.id;
     });
-    if (!duplicate) {
-      sheet.appendRow(
-        HEADERS.map(function (key) {
-          return record[key];
-        })
-      );
-    }
+    if (!duplicate) appendRecord(sheet, record);
     return jsonResponse({ ok: true, duplicate: duplicate });
   } catch (error) {
     return jsonResponse({ ok: false, error: String(error) });

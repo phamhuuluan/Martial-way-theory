@@ -53,6 +53,9 @@ export interface QuizQuestion {
   question: string;
   type?: QuizQuestionType;
   options: string[];
+  optionsOrder?: number[];
+  rightItemsOrder?: number[];
+  itemsOrder?: number[];
   correctIndex?: number;
   correctIndices?: number[];
   /** Fill-in-the-blank: accepted answers in order */

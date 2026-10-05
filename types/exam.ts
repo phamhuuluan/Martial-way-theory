@@ -3,6 +3,9 @@ import type { QuizAnswer } from '@/lib/quiz-engine';
 
 export type ExamMode = 'practice' | 'official';
 
+/** submitted: nộp bài. exited: thoát giữa chừng. */
+export type ExamOutcome = 'submitted' | 'exited';
+
 export type ExamAnswerStatus = 'correct' | 'incorrect' | 'unanswered';
 
 export interface ExamBlueprintSlot {
@@ -60,6 +63,10 @@ export interface ExamAttempt {
   score: number;
   questions: ExamQuestionSnapshot[];
   examSessionId?: string;
+  /** Bài cũ lưu trước khi có trạng thái này được coi là đã nộp. */
+  outcome?: ExamOutcome;
+  /** Có khi outcome là exited. */
+  exitedAt?: string;
 }
 
 export interface ExamDraft {

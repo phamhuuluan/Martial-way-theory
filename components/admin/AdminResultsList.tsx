@@ -267,6 +267,13 @@ function AttemptDetail({ attempt }: { attempt: ExamResultRecord }) {
     { label: 'Thời gian bắt đầu', value: formatExamTimestamp(attempt.startedAt) },
     { label: 'Thời gian nộp', value: formatExamTimestamp(attempt.submittedAt) },
     { label: 'Tổng thời gian làm bài', value: formatDuration(attempt.durationMs) },
+    {
+      label: 'Trạng thái',
+      value: attempt.outcome === 'exited' ? 'Thoát giữa chừng' : 'Nộp bài',
+    },
+    ...(attempt.outcome === 'exited'
+      ? [{ label: 'Thời điểm thoát', value: formatExamTimestamp(attempt.exitedAt) || '—' }]
+      : []),
   ];
 
   return (

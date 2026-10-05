@@ -9,6 +9,7 @@ import { useCoarsePointer } from '@/hooks/use-coarse-pointer';
 interface QuizMatchingProps {
   leftItems: string[];
   rightItems: string[];
+  rightItemsOrder?: number[];
   selectedByLeft: number[];
   correctPairs?: [number, number][];
   feedback?: boolean;
@@ -21,6 +22,7 @@ type InteractionMode = 'drag' | 'tap' | 'dropdown';
 export function QuizMatching({
   leftItems,
   rightItems,
+  rightItemsOrder,
   selectedByLeft,
   correctPairs = [],
   feedback = false,

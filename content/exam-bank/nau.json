@@ -44,12 +44,14 @@
         "bênh vực kẻ vô tội bị ức hiếp"
       ],
       "options": [
-        "chiến thắng sự yếu đuối trong lòng mình và đạt được hạnh nhẫn nhục tận cùng",
-        "chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh tinh tấn tận cùng",
         "chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh tinh tấn viên mãn",
-        "chiến thắng sự rụt rè trong lòng mình và đạt được hạnh nhẫn nhục tận cùng",
+        "bênh vực người thân thiện bị ức hiếp",
+        "chiến thắng sự yếu đuối trong lòng mình và đạt được hạnh nhẫn nhục tận cùng",
         "bênh vực kẻ yếu thế bị ức hiếp",
-        "bênh vực người thân thiện bị ức hiếp"
+        "bênh vực kẻ vô tội bị ức hiếp",
+        "chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng",
+        "chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh tinh tấn tận cùng",
+        "chiến thắng sự rụt rè trong lòng mình và đạt được hạnh nhẫn nhục tận cùng"
       ],
       "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng. Hai, tập võ để bênh vực kẻ vô tội bị ức hiếp. Ba, tập võ để bảo vệ chánh pháp.",
       "sourceQuestion": "Câu 1. Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền",
@@ -197,12 +199,14 @@
         "Tham, Sân, Si chi phối tạo điều xấu ác"
       ],
       "options": [
-        "nhắc nhở người môn sinh tu dưỡng nội tâm",
-        "nhắc nhở người võ sinh rèn luyện nội tâm",
+        "nhắc nhở người võ sinh tu dưỡng nội tâm",
+        "Tham, Sân, Si chi phối tạo điều xấu ác",
+        "Mạn, Nghi, Ác kiến chi phối tạo điều xấu ác",
         "nhắc nhở người võ sinh tu dưỡng đạo đức",
-        "Tham, Sân, Mạn chi phối tạo điều xấu ác",
         "Tham, Sân, Si chi phối làm điều xấu ác",
-        "Mạn, Nghi, Ác kiến chi phối tạo điều xấu ác"
+        "Tham, Sân, Mạn chi phối tạo điều xấu ác",
+        "nhắc nhở người môn sinh tu dưỡng nội tâm",
+        "nhắc nhở người võ sinh rèn luyện nội tâm"
       ],
       "explanation": "Môn phái dùng lối chào, giống như lối chào trong Phật giáo, hai tay chắp vào nhau. Thể hiện tinh thần hòa bình, đoàn kết và nhắc nhở người võ sinh tu dưỡng nội tâm, không để Tham, Sân, Si chi phối tạo điều xấu ác.",
       "sourceQuestion": "Câu 6. Ý nghĩa lối chào của môn phái?",
