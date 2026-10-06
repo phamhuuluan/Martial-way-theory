@@ -261,6 +261,7 @@ function AttemptDetail({ attempt }: { attempt: ExamResultRecord }) {
     { label: 'Võ đường', value: displayText(attempt.dojo) },
     { label: 'HLV hướng dẫn', value: displayText(attempt.coach) },
     { label: 'Mã học viên', value: displayText(attempt.candidateNumber) },
+    { label: 'Kỳ thi', value: attempt.examSessionName ? attempt.examSessionName : '—' },
     { label: 'Bộ đề', value: attempt.paperName },
     { label: 'Điểm', value: attempt.score.toFixed(1) },
     { label: 'Số câu đúng / tổng câu', value: `${attempt.correctCount}/${attempt.totalQuestions}` },

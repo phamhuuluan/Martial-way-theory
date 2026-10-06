@@ -85,6 +85,8 @@ export function useExamSession({ mode, rankId, beltId, questions, questionCount,
               autoSubmitted,
               questions: source.questions,
               answers: source.answers,
+              examSessionId: source.examSessionId,
+              examSessionName: source.examSessionName,
               outcome: 'submitted',
             });
             

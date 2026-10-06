@@ -99,6 +99,8 @@ export function exitOfficialExam(options?: {
     answers: draft.answers,
     outcome: 'exited',
     exitedAt,
+    examSessionId: draft.examSessionId,
+    examSessionName: draft.examSessionName,
   });
 
   saveExamAttempt(attempt);

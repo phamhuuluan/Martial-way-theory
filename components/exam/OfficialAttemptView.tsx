@@ -78,7 +78,9 @@ export function OfficialAttemptView() {
           </Link>
         </p>
         <h1 className="font-display text-3xl font-bold">Kết quả thi</h1>
-        <p className="mt-2 text-text-secondary">{rankName}</p>
+        <p className="mt-2 text-text-secondary">
+          {rankName} {attempt.examSessionName ? `· ${attempt.examSessionName}` : ''}
+        </p>
         <p className="mt-1 text-sm text-text-muted">
           {[
             attempt.candidate.fullName,
