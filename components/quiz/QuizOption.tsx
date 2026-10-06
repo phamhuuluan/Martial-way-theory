@@ -32,7 +32,7 @@ export function QuizOption({
       onClick={onSelect}
       disabled={disabled}
       className={cn(
-        'quiz-option flex w-full items-start gap-3 rounded-[var(--radius-md)] border p-4 text-left transition-colors min-h-[44px]',
+        'quiz-option flex w-full items-start gap-4 rounded-[var(--radius-md)] border p-5 md:p-6 text-left transition-colors min-h-[60px]',
         state === 'default' && 'border-border bg-bg-secondary hover:border-unlock/50',
         state === 'correct' && 'border-success bg-success/10',
         state === 'incorrect' && 'border-error bg-error/10 quiz-option--shake',

@@ -65,6 +65,8 @@ export function createExamDraft(input: {
   timeLimitMs: number;
   questions: ExamBankQuestion[];
   answers?: Record<string, QuizAnswer>;
+  examSessionId?: string;
+  examSessionName?: string;
 }): ExamDraft {
   return {
     id: input.id,
@@ -76,5 +78,7 @@ export function createExamDraft(input: {
     timeLimitMs: input.timeLimitMs,
     questions: input.questions,
     answers: input.answers ?? {},
+    ...(input.examSessionId ? { examSessionId: input.examSessionId } : {}),
+    ...(input.examSessionName ? { examSessionName: input.examSessionName } : {}),
   };
 }

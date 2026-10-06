@@ -17,6 +17,13 @@ export interface ExamResultQuery {
   to?: string;
 }
 
+export interface ExamSession {
+  id: string;
+  name: string;
+  status: boolean;
+  createdAt: string;
+}
+
 export interface ExamResultRecord {
   id: string;
   fullName: string;
@@ -37,6 +44,8 @@ export interface ExamResultRecord {
   /** Bài cũ trên sheet không có cột này được coi là đã nộp. */
   outcome: 'submitted' | 'exited';
   exitedAt: string;
+  examSessionId: string;
+  examSessionName: string;
 }
 
 const CONFIG_ERROR = 'Chưa cấu hình địa chỉ lưu kết quả.';
@@ -68,6 +77,8 @@ export function toExamResultRecord(attempt: ExamAttempt): ExamResultRecord {
     coach: attempt.candidate.coach?.trim() ?? '',
     outcome: attempt.outcome === 'exited' ? 'exited' : 'submitted',
     exitedAt: attempt.exitedAt?.trim() ?? '',
+    examSessionId: attempt.examSessionId?.trim() ?? '',
+    examSessionName: attempt.examSessionName?.trim() ?? '',
   };
 }
 
@@ -102,6 +113,8 @@ function parseRecord(value: unknown): ExamResultRecord | null {
   const coach = text(row.coach)?.trim() ?? '';
   const outcomeText = text(row.outcome)?.trim() ?? '';
   const exitedAt = text(row.exitedAt)?.trim() ?? '';
+  const examSessionId = text(row.examSessionId)?.trim() ?? '';
+  const examSessionName = text(row.examSessionName)?.trim() ?? '';
   const score = finiteNumber(row.score);
   const correctCount = finiteNumber(row.correctCount);
   const totalQuestions = finiteNumber(row.totalQuestions);
@@ -141,6 +154,8 @@ function parseRecord(value: unknown): ExamResultRecord | null {
     coach,
     outcome: outcomeText === 'exited' ? 'exited' : 'submitted',
     exitedAt,
+    examSessionId,
+    examSessionName,
   };
 }
 
@@ -229,6 +244,33 @@ export async function fetchExamResults(query?: ExamResultQuery): Promise<ExamRes
     if (error instanceof Error && error.message === INVALID_ERROR) throw error;
     throw new Error(LOAD_ERROR);
   }
+}
+
+export async function fetchExamSessions(): Promise<ExamSession[]> {
+  const url = requireUrl();
+  const endpoint = new URL(url);
+  endpoint.searchParams.set('action', 'getExamSessions');
+  const payload = await loadExamResults(endpoint.toString());
+  if (
+    payload &&
+    typeof payload === 'object' &&
+    'ok' in payload &&
+    (payload as { ok?: unknown }).ok === false
+  ) {
+    throw new Error(LOAD_ERROR);
+  }
+
+  const payloadObj = payload as { examSessions?: unknown[] };
+  if (!payloadObj || !Array.isArray(payloadObj.examSessions)) {
+    throw new Error(INVALID_ERROR);
+  }
+
+  return payloadObj.examSessions.map((row: any) => ({
+    id: text(row.id)?.trim() ?? '',
+    name: text(row.name)?.trim() ?? '',
+    status: row.status === true || String(row.status).toLowerCase() === 'true',
+    createdAt: text(row.createdAt)?.trim() ?? '',
+  }));
 }
 
 function postExamResultForm(url: string, record: ExamResultRecord): Promise<void> {

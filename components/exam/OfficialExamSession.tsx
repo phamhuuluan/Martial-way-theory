@@ -21,6 +21,8 @@ interface OfficialExamSessionProps {
   durationMinutes: number;
   questionCount: number;
   questions: ExamBankQuestion[];
+  examSessionId?: string;
+  examSessionName?: string;
 }
 
 export function OfficialExamSession({
@@ -30,6 +32,8 @@ export function OfficialExamSession({
   durationMinutes,
   questionCount,
   questions,
+  examSessionId,
+  examSessionName,
 }: OfficialExamSessionProps) {
   const router = useRouter();
   const finePointer = useFinePointer();
@@ -50,10 +54,13 @@ export function OfficialExamSession({
     questions,
     questionCount,
     durationMinutes,
+    examSessionId,
+    examSessionName,
   });
 
   const [confirmingSubmit, setConfirmingSubmit] = useState(false);
   const [pointerWarning, setPointerWarning] = useState(0);
+  const [warningCountdown, setWarningCountdown] = useState(10);
   const [ending, setEnding] = useState(false);
   const [zone, setZone] = useState<HTMLDivElement | null>(null);
   const [now, setNow] = useState(() => Date.now());
@@ -71,6 +78,24 @@ export function OfficialExamSession({
     (strike) => setPointerWarning(strike),
     finishLeftExam
   );
+
+  useEffect(() => {
+    if (pointerWarning > 0) {
+      setWarningCountdown(10);
+      const timer = window.setInterval(() => {
+        setWarningCountdown((prev) => {
+          if (prev <= 1) {
+            window.clearInterval(timer);
+            setTimeout(() => finishLeftExam(), 0);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+      return () => window.clearInterval(timer);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pointerWarning]);
 
   useEffect(() => {
     if (!draft) return;
@@ -123,11 +148,17 @@ export function OfficialExamSession({
       finishLeftExam();
     };
 
+    const onVisibilityChange = () => {
+      if (document.hidden) finishLeftExam();
+    };
+
     window.addEventListener('popstate', onPop);
     document.addEventListener('click', onClick, true);
+    document.addEventListener('visibilitychange', onVisibilityChange);
     return () => {
       window.removeEventListener('popstate', onPop);
       document.removeEventListener('click', onClick, true);
+      document.removeEventListener('visibilitychange', onVisibilityChange);
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [draft]);
@@ -247,6 +278,11 @@ export function OfficialExamSession({
         <Modal open={pointerWarning > 0} onClose={() => setPointerWarning(0)} title="Cảnh báo">
           <p className="mb-4 text-sm text-text-secondary">
             Chuột đã rời vùng làm bài. Đây là cảnh báo lần {pointerWarning}. Lần thứ 3 bài thi sẽ kết thúc ngay.
+            <br />
+            <br />
+            <span className="font-medium text-error">
+              Bài thi sẽ tự động kết thúc sau {warningCountdown}s nếu bạn không tiếp tục.
+            </span>
           </p>
           <Button variant="primary" className="w-full" onClick={() => setPointerWarning(0)}>
             Tiếp tục làm bài

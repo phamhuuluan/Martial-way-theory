@@ -63,6 +63,7 @@ export interface ExamAttempt {
   score: number;
   questions: ExamQuestionSnapshot[];
   examSessionId?: string;
+  examSessionName?: string;
   /** Bài cũ lưu trước khi có trạng thái này được coi là đã nộp. */
   outcome?: ExamOutcome;
   /** Có khi outcome là exited. */
@@ -77,6 +78,8 @@ export interface ExamDraft {
   candidate: ExamCandidateSnapshot;
   startedAt: string;
   timeLimitMs: number;
+  examSessionId?: string;
+  examSessionName?: string;
   questions: ExamBankQuestion[];
   answers: Record<string, QuizAnswer>;
 }

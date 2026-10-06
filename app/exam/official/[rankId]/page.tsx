@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { OfficialExamSession } from '@/components/exam/OfficialExamSession';
+import { OfficialExamWrapper } from '@/components/exam/OfficialExamWrapper';
 import { getExamConfig, getExamLevelName } from '@/lib/exam-config';
 import { getExamBank, listOfficialCatalog } from '@/lib/exam-bank';
 
@@ -29,7 +29,7 @@ export default async function OfficialRankPage({ params }: Props) {
   }
 
   return (
-    <OfficialExamSession
+    <OfficialExamWrapper
       rankId={rankId}
       fullName={getExamLevelName(rankId)}
       beltId={config.beltId}

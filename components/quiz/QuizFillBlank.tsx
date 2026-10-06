@@ -84,7 +84,7 @@ export function QuizFillBlank({
             <div
               key={blankIndex}
               className={cn(
-                'flex min-w-[120px] items-center justify-between gap-2 rounded-[var(--radius-md)] border px-3 py-2 text-sm transition-colors',
+                'flex min-w-[120px] items-center justify-between gap-2 rounded-[var(--radius-md)] border px-4 py-3 md:py-4 text-sm transition-colors min-h-[52px]',
                 !feedback && isActive && 'border-unlock bg-unlock/10',
                 !feedback && !isActive && 'border-border bg-bg-secondary',
                 isCorrect && 'border-success bg-success/10',
@@ -142,7 +142,7 @@ export function QuizFillBlank({
                 disabled={disabled || (isUsed && !feedback)}
                 onClick={() => handleSelect(optionIndex)}
                 className={cn(
-                  'rounded-full border px-4 py-2 text-sm transition-colors min-h-[44px]',
+                  'rounded-full border px-5 py-3 md:py-4 text-sm transition-colors min-h-[48px]',
                   isCorrectUsage && 'border-success bg-success/10',
                   feedback && isUsed && !isCorrectUsage && 'border-error bg-error/10',
                   !feedback && isUsed && 'border-border bg-bg-elevated text-text-muted',

@@ -122,7 +122,7 @@ export function QuizMatching({
 
   const answerCardClass = (isActive: boolean, isDragging: boolean) =>
     cn(
-      'w-full rounded-[var(--radius-md)] border px-3 py-3 text-left text-sm leading-relaxed min-h-[72px] shadow-subtle transition-colors',
+      'w-full rounded-[var(--radius-md)] border px-4 py-4 md:px-5 md:py-5 text-left text-sm leading-relaxed min-h-[80px] shadow-subtle transition-colors',
       mode === 'tap' && 'touch-manipulation',
       mode === 'drag' && !disabled && !feedback && 'cursor-grab active:cursor-grabbing',
       isActive || isDragging
@@ -156,7 +156,7 @@ export function QuizMatching({
         }}
         onClick={() => handleTapLeft(leftIndex)}
         className={cn(
-          'rounded-[var(--radius-md)] border p-3 shadow-subtle transition-colors touch-manipulation min-h-[168px]',
+          'rounded-[var(--radius-md)] border p-4 md:p-5 shadow-subtle transition-colors touch-manipulation min-h-[180px]',
           isCorrect && 'border-success bg-success/5',
           isIncorrect && 'border-error bg-error/5',
           isDropTarget && 'border-unlock/50 bg-unlock/5',
@@ -177,7 +177,7 @@ export function QuizMatching({
               assignRightToLeft(leftIndex, Number.parseInt(event.target.value, 10))
             }
             className={cn(
-              'w-full rounded-[var(--radius-md)] border bg-bg-primary px-3 py-3 text-base min-h-[44px]',
+              'w-full rounded-[var(--radius-md)] border bg-bg-primary px-4 py-4 text-base min-h-[56px]',
               isCorrect && 'border-success',
               isIncorrect && 'border-error',
               !feedback && 'border-border'
@@ -193,7 +193,7 @@ export function QuizMatching({
         ) : (
           <div
             className={cn(
-              'min-h-[72px] rounded-[var(--radius-md)] border border-dashed px-3 py-3 text-sm',
+              'min-h-[80px] rounded-[var(--radius-md)] border border-dashed p-4 md:p-5 text-sm',
               selectedLabel
                 ? 'border-border bg-bg-primary'
                 : 'border-border/70 bg-bg-primary/50 text-text-muted'

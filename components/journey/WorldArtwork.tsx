@@ -81,5 +81,3 @@ export function WorldArtwork({
   );
 }
 
-/** @deprecated alias — use WorldArtwork */
-export const WorldIllustration = WorldArtwork;

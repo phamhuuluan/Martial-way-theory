@@ -264,6 +264,7 @@ export function buildExamAttempt(input: {
   questions: ExamBankQuestion[];
   answers: Record<string, QuizAnswer | undefined>;
   examSessionId?: string;
+  examSessionName?: string;
   candidateNumber?: string;
   outcome?: ExamOutcome;
   exitedAt?: string;
@@ -293,6 +294,7 @@ export function buildExamAttempt(input: {
     score: grade.score,
     questions: grade.questions,
     ...(input.examSessionId ? { examSessionId: input.examSessionId } : {}),
+    ...(input.examSessionName ? { examSessionName: input.examSessionName } : {}),
     outcome,
     ...(exitedAt ? { exitedAt } : {}),
   };

@@ -19,6 +19,8 @@ export interface UseExamSessionProps {
   questions: ExamBankQuestion[];
   questionCount?: number;
   durationMinutes?: number;
+  examSessionId?: string;
+  examSessionName?: string;
 }
 
 function resolveCandidate(profile: UserProfile, isPractice: boolean): ExamCandidateSnapshot {
@@ -31,7 +33,7 @@ function resolveCandidate(profile: UserProfile, isPractice: boolean): ExamCandid
   };
 }
 
-export function useExamSession({ mode, rankId, beltId, questions, questionCount, durationMinutes }: UseExamSessionProps) {
+export function useExamSession({ mode, rankId, beltId, questions, questionCount, durationMinutes, examSessionId, examSessionName }: UseExamSessionProps) {
   const router = useRouter();
   const hydrated = useProgressStore((s) => s.hydrated);
   const adminHydrated = useAdminStore((s) => s.hydrated);
@@ -132,6 +134,8 @@ export function useExamSession({ mode, rankId, beltId, questions, questionCount,
       candidate: isAdmin ? ADMIN_EXAM_CANDIDATE : resolveCandidate(profile, !isOfficial),
       startedAt: new Date().toISOString(),
       timeLimitMs: isOfficial ? (durationMinutes || 0) * 60 * 1000 : 0,
+      examSessionId,
+      examSessionName,
       questions: paper,
     });
     
@@ -139,7 +143,7 @@ export function useExamSession({ mode, rankId, beltId, questions, questionCount,
     setIndex(0);
     setDraft(next);
     setReady(true);
-  }, [beltId, canAttempt, durationMinutes, isAdmin, mode, profile, questionCount, questions, rankId, router, isOfficial]);
+  }, [beltId, canAttempt, durationMinutes, isAdmin, mode, profile, questionCount, questions, rankId, router, isOfficial, examSessionId, examSessionName]);
 
   useEffect(() => {
     if (!hydrated || !adminHydrated || openedRef.current) return;

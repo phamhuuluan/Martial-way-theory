@@ -30,7 +30,7 @@ export function QuizOrdering({
           <div
             key={`${itemIndex}-${position}`}
             className={cn(
-              'flex items-start gap-3 rounded-[var(--radius-md)] border p-4',
+              'flex items-start gap-4 rounded-[var(--radius-md)] border p-5 md:p-6 min-h-[60px]',
               isCorrect && 'border-success bg-success/5',
               isIncorrect && 'border-error bg-error/5',
               !feedback && 'border-border bg-bg-secondary'

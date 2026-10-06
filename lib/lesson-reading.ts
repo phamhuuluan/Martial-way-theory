@@ -106,8 +106,6 @@ export function mergeReadProgress(current: number, next: number): number {
 /** Default scroll offset when measurement is unavailable (SSR/tests). */
 export const DEFAULT_LESSON_SECTION_SCROLL_OFFSET = 88;
 
-/** @deprecated Use measureLessonScrollOffset() — kept for tests importing the old name. */
-export const LESSON_SECTION_SCROLL_OFFSET = DEFAULT_LESSON_SECTION_SCROLL_OFFSET;
 
 const SECTION_ALIGNMENT_TOLERANCE_PX = 6;
 

@@ -27,6 +27,8 @@ function record(partial: Partial<ExamResultRecord> & Pick<ExamResultRecord, 'id'
     coach: '',
     outcome: 'submitted',
     exitedAt: '',
+    examSessionId: '',
+    examSessionName: '',
     ...partial,
   };
 }

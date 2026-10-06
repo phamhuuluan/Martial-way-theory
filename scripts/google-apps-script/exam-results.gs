@@ -6,11 +6,12 @@
  *
  * Sheet exam_results được tạo cùng hàng header nếu chưa có.
  * Cột còn thiếu được nối vào cuối header hiện có, không phụ thuộc thứ tự cũ:
- * club, dojo, dateOfBirth, coach, outcome, exitedAt.
+ * club, dojo, dateOfBirth, coach, outcome, exitedAt, examSessionId, examSessionName.
  * Chạy syncExamResultColumns trong trình sửa script để sinh cột ngay, không cần đợi lượt nộp.
  * Mở spreadsheet cũng gọi hàm đó. outcome: submitted | exited. exitedAt để trống khi nộp bài.
  * POST append một kết quả. GET trả danh sách đã nộp.
  * GET nhận from/to (ISO, theo submittedAt) khi client gửi; bỏ trống thì trả hết.
+ * Nếu action=getExamSessions thì trả về danh sách sheet exam_sessions
  */
 var SHEET_NAME = 'exam_results';
 var HEADERS = [
@@ -31,7 +32,12 @@ var HEADERS = [
   'coach',
   'outcome',
   'exitedAt',
+  'examSessionId',
+  'examSessionName',
 ];
+
+var EXAM_SESSIONS_SHEET_NAME = 'exam_sessions';
+var EXAM_SESSIONS_HEADERS = ['id', 'name', 'status', 'createdAt'];
 
 function jsonResponse(payload) {
   return ContentService.createTextOutput(JSON.stringify(payload)).setMimeType(
@@ -120,6 +126,8 @@ function normalize(body) {
     coach: text(body.coach),
     outcome: text(body.outcome) === 'exited' ? 'exited' : 'submitted',
     exitedAt: text(body.exitedAt),
+    examSessionId: text(body.examSessionId),
+    examSessionName: text(body.examSessionName),
   };
 }
 
@@ -128,18 +136,18 @@ function headerNames(sheet) {
   return sheet.getRange(1, 1, 1, width).getValues()[0].map(text);
 }
 
-function ensureSheet() {
+function ensureSheet(sheetName, headers) {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   if (!ss) throw new Error('Hãy gắn script vào một Google Spreadsheet.');
-  var sheet = ss.getSheetByName(SHEET_NAME);
-  if (!sheet) sheet = ss.insertSheet(SHEET_NAME);
+  var sheet = ss.getSheetByName(sheetName);
+  if (!sheet) sheet = ss.insertSheet(sheetName);
 
   var header = headerNames(sheet);
   var blank = header.every(function (cell) {
     return cell === '';
   });
   if (blank) {
-    sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
+    sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
   } else {
     var present = {};
     var lastUsed = 0;
@@ -148,7 +156,7 @@ function ensureSheet() {
       present[name] = true;
       lastUsed = column + 1;
     });
-    var missing = HEADERS.filter(function (name) {
+    var missing = headers.filter(function (name) {
       return !present[name];
     });
     if (missing.length) {
@@ -156,31 +164,81 @@ function ensureSheet() {
     }
   }
 
-  var dobColumn = headerNames(sheet).indexOf('dateOfBirth') + 1;
-  if (dobColumn > 0) {
-    sheet.getRange(2, dobColumn, Math.max(sheet.getMaxRows() - 1, 1), 1).setNumberFormat('@');
+  if (sheetName === SHEET_NAME) {
+    var dobColumn = headerNames(sheet).indexOf('dateOfBirth') + 1;
+    if (dobColumn > 0) {
+      sheet.getRange(2, dobColumn, Math.max(sheet.getMaxRows() - 1, 1), 1).setNumberFormat('@');
+    }
+  }
+  if (sheetName === EXAM_SESSIONS_SHEET_NAME) {
+    var statusCol = headerNames(sheet).indexOf('status') + 1;
+    if (statusCol > 0) {
+      sheet.getRange(2, statusCol, Math.max(sheet.getMaxRows() - 1, 1), 1).insertCheckboxes();
+    }
   }
   return sheet;
 }
 
 function syncExamResultColumns() {
-  ensureSheet();
+  ensureSheet(SHEET_NAME, HEADERS);
+  ensureSheet(EXAM_SESSIONS_SHEET_NAME, EXAM_SESSIONS_HEADERS);
 }
 
 function onOpen() {
   try {
-    ensureSheet();
+    syncExamResultColumns();
   } catch (error) {
     // Không chặn khi mở spreadsheet.
   }
 }
 
-function appendRecord(sheet, record) {
+function onEdit(e) {
+  if (!e || !e.range) return;
+  var sheet = e.range.getSheet();
+  if (sheet.getName() === EXAM_SESSIONS_SHEET_NAME) {
+    var row = e.range.getRow();
+    var col = e.range.getColumn();
+    var headers = headerNames(sheet);
+    var nameCol = headers.indexOf('name') + 1;
+    var idCol = headers.indexOf('id') + 1;
+    var statusCol = headers.indexOf('status') + 1;
+    var createdAtCol = headers.indexOf('createdAt') + 1;
+
+    // Khi người dùng nhập tên kỳ thi mới
+    if (col === nameCol && row > 1) {
+      var idCell = sheet.getRange(row, idCol);
+      if (idCell.getValue() === '') {
+        // Tạo ID tự tăng
+        var allIds = sheet.getRange(2, idCol, Math.max(1, sheet.getLastRow() - 1), 1).getValues();
+        var maxId = 0;
+        for (var i = 0; i < allIds.length; i++) {
+          var val = parseInt(String(allIds[i][0]).replace(/\\D/g, ''), 10);
+          if (!isNaN(val) && val > maxId) {
+            maxId = val;
+          }
+        }
+        idCell.setValue('KT' + ('00' + (maxId + 1)).slice(-3));
+        
+        var statusCell = sheet.getRange(row, statusCol);
+        if (statusCell.getValue() === '') {
+          statusCell.setValue(false);
+        }
+        
+        var dateCell = sheet.getRange(row, createdAtCol);
+        if (dateCell.getValue() === '') {
+          dateCell.setValue(new Date());
+        }
+      }
+    }
+  }
+}
+
+function appendRecord(sheet, record, headers) {
   var header = headerNames(sheet);
   var row = header.map(function () {
     return '';
   });
-  HEADERS.forEach(function (key) {
+  headers.forEach(function (key) {
     var column = header.indexOf(key);
     if (column >= 0) row[column] = record[key];
   });
@@ -225,6 +283,36 @@ function readResults(sheet) {
         coach: text(cell(row, 'coach')),
         outcome: text(cell(row, 'outcome')) === 'exited' ? 'exited' : 'submitted',
         exitedAt: text(cell(row, 'exitedAt')),
+        examSessionId: text(cell(row, 'examSessionId')),
+        examSessionName: text(cell(row, 'examSessionName')),
+      };
+    });
+}
+
+function readExamSessions(sheet) {
+  var values = sheet.getDataRange().getValues();
+  if (values.length <= 1) return [];
+  var index = {};
+  values[0].forEach(function (name, column) {
+    var key = text(name);
+    if (key) index[key] = column;
+  });
+  function cell(row, name) {
+    var column = index[name];
+    if (column === undefined) return '';
+    return row[column];
+  }
+  return values
+    .slice(1)
+    .filter(function (row) {
+      return text(cell(row, 'id')) !== '';
+    })
+    .map(function (row) {
+      return {
+        id: text(cell(row, 'id')),
+        name: text(cell(row, 'name')),
+        status: cell(row, 'status') === true || String(cell(row, 'status')).toUpperCase() === 'TRUE',
+        createdAt: text(cell(row, 'createdAt')),
       };
     });
 }
@@ -237,7 +325,14 @@ function inSubmittedRange(submittedAt, from, to) {
 
 function doGet(e) {
   try {
-    var sheet = ensureSheet();
+    var action = e && e.parameter ? text(e.parameter.action) : '';
+    if (action === 'getExamSessions') {
+      var sessionSheet = ensureSheet(EXAM_SESSIONS_SHEET_NAME, EXAM_SESSIONS_HEADERS);
+      var sessions = readExamSessions(sessionSheet);
+      return respond({ ok: true, examSessions: sessions }, e);
+    }
+
+    var sheet = ensureSheet(SHEET_NAME, HEADERS);
     var from = e && e.parameter ? text(e.parameter.from) : '';
     var to = e && e.parameter ? text(e.parameter.to) : '';
     var results = readResults(sheet).filter(function (row) {
@@ -256,12 +351,12 @@ function doPost(e) {
     var body = readRequestBody(e);
     var record = normalize(body);
     if (!record) return jsonResponse({ ok: false, error: 'Dữ liệu không hợp lệ.' });
-    var sheet = ensureSheet();
+    var sheet = ensureSheet(SHEET_NAME, HEADERS);
     var existing = readResults(sheet);
     var duplicate = existing.some(function (row) {
       return row.id === record.id;
     });
-    if (!duplicate) appendRecord(sheet, record);
+    if (!duplicate) appendRecord(sheet, record, HEADERS);
     return jsonResponse({ ok: true, duplicate: duplicate });
   } catch (error) {
     return jsonResponse({ ok: false, error: String(error) });
