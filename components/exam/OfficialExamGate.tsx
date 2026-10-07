@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/Button';
+import { ExamLoadingOverlay } from '@/components/exam/ExamLoadingOverlay';
 import { fetchExamSessions, type ExamSession } from '@/lib/exam-results';
 import { useRouter } from 'next/navigation';
 
@@ -52,6 +53,11 @@ export function OfficialExamGate({ rankName, onSelectSession }: Props) {
 
   return (
     <div className="profile-page min-h-screen px-4 py-16 flex items-center justify-center">
+      {(loading || startLoading) && (
+        <ExamLoadingOverlay
+          message={startLoading ? 'Đang mở đề thi…' : 'Đang tải danh sách kỳ thi…'}
+        />
+      )}
       <div className="w-full max-w-md rounded-2xl border border-border/50 bg-bg-primary p-6 shadow-sm">
         <h1 className="mb-6 font-display text-xl font-semibold leading-relaxed">
           Vui lòng chọn kỳ thi hợp lệ để bắt đầu làm bài.

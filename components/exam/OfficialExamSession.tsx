@@ -3,6 +3,7 @@
 import { useMemo, useState, useEffect } from 'react';
 import { Button } from '@/components/ui/Button';
 import { Modal } from '@/components/ui/Modal';
+import { ExamLoadingOverlay } from '@/components/exam/ExamLoadingOverlay';
 import { ExamQuestion } from '@/components/exam/ExamQuestion';
 import { useExamPointerGuard } from '@/hooks/use-exam-pointer-guard';
 import { useFinePointer } from '@/hooks/use-coarse-pointer';
@@ -171,11 +172,12 @@ export function OfficialExamSession({
   }, [draft, durationMinutes, now]);
 
   if (ending || !ready || !draft || isSubmitting) {
-    return (
-      <div className="profile-page px-4 py-16 text-center text-sm text-text-secondary">
-        {isSubmitting ? 'Đang nộp bài...' : ending ? 'Đang kết thúc bài thi…' : 'Đang mở đề thi…'}
-      </div>
-    );
+    const message = isSubmitting
+      ? 'Đang gửi kết quả…'
+      : ending
+        ? 'Đang kết thúc bài thi…'
+        : 'Đang mở đề thi…';
+    return <ExamLoadingOverlay message={message} />;
   }
 
   const current = draft.questions[index];

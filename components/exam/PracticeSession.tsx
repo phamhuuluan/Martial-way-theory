@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/Button';
 import { Modal } from '@/components/ui/Modal';
 
+import { ExamLoadingOverlay } from '@/components/exam/ExamLoadingOverlay';
 import { ExamQuestion } from '@/components/exam/ExamQuestion';
 import { useExamSession } from '@/hooks/use-exam-session';
 import { isExamAnswerProvided } from '@/lib/exam-paper';
@@ -67,11 +68,9 @@ export function PracticeSession({
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ready]);
 
-  if (!ready || !draft) {
+  if (!ready || !draft || isSubmitting) {
     return (
-      <div className="profile-page px-4 py-16 text-center text-sm text-text-secondary">
-        Đang mở đề…
-      </div>
+      <ExamLoadingOverlay message={isSubmitting ? 'Đang gửi kết quả…' : 'Đang mở đề…'} />
     );
   }
 
