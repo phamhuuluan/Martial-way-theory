@@ -1,7 +1,5 @@
 import { parseQuestionsFromMdx } from './mdx-parser.mjs';
 
-const TARGET = 60;
-
 const TYPE_ORDER = ['matching', 'ordering', 'fill', 'scenario', 'multiple', 'truefalse', 'single'];
 
 const ORDINAL =
@@ -490,7 +488,7 @@ function stemKey(question) {
   return normalize(question.question);
 }
 
-function selectQuestions(seeded, generated, target) {
+function selectQuestions(seeded, generated) {
   const selected = [];
   const stems = new Set();
 
@@ -499,34 +497,9 @@ function selectQuestions(seeded, generated, target) {
     stems.add(stemKey(question));
   }
 
-  if (selected.length >= target) return selected;
-
-  const buckets = Object.fromEntries(TYPE_ORDER.map((type) => [type, []]));
   for (const question of generated) {
     if (stems.has(stemKey(question))) continue;
-    buckets[question.type]?.push(question);
-  }
-  for (const type of TYPE_ORDER) buckets[type] = spreadBySource(buckets[type]);
-
-  const counts = {};
-  for (const question of selected) {
-    const type = question.type ?? 'single';
-    counts[type] = (counts[type] ?? 0) + 1;
-  }
-
-  while (selected.length < target) {
-    const available = TYPE_ORDER.filter((type) => buckets[type].length > 0);
-    if (available.length === 0) break;
-    available.sort(
-      (left, right) =>
-        (counts[left] ?? 0) - (counts[right] ?? 0) ||
-        TYPE_ORDER.indexOf(left) - TYPE_ORDER.indexOf(right)
-    );
-    const question = buckets[available[0]].shift();
-    const key = stemKey(question);
-    if (stems.has(key)) continue;
-    stems.add(key);
-    counts[question.type] = (counts[question.type] ?? 0) + 1;
+    stems.add(stemKey(question));
     selected.push(question);
   }
 
@@ -537,7 +510,7 @@ function renumber(questions) {
   return questions.map((question, index) => ({ ...question, number: index + 1 }));
 }
 
-export function buildRankBank({ rankId, beltId, lessonId, mdx, quiz, target = TARGET, todo }) {
+export function buildRankBank({ rankId, beltId, lessonId, mdx, quiz, todo }) {
   const seeded = (quiz.questions ?? []).map((question) => ({
     ...question,
     lessonId,
@@ -557,10 +530,7 @@ export function buildRankBank({ rankId, beltId, lessonId, mdx, quiz, target = TA
 
   const theory = prepareTheory(mdx);
   const generated = generateCandidates(theory, rankId, beltId, lessonId);
-  const questions = selectQuestions(seeded, generated, target);
-  if (questions.length < target) {
-    throw new Error(`${rankId} chỉ tạo được ${questions.length}/${target} câu từ ${lessonId}`);
-  }
+  const questions = selectQuestions(seeded, generated);
 
   return {
     rankId,

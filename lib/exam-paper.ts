@@ -28,21 +28,23 @@ function shuffle<T>(items: T[], random: RandomFn): T[] {
   return copy;
 }
 
-function isIntroFillQuestion(question: ExamBankQuestion): boolean {
+function isIntroCompletionQuestion(question: ExamBankQuestion): boolean {
+  const prompt = question.question.replace(/\s+/g, ' ').trim().toLocaleLowerCase('vi');
   return (
-    (question.type ?? 'single') === 'fill' &&
-    question.question.toLowerCase().includes('lời thiệu')
+    /^điền các (?:câu|thế) còn thiếu\b/.test(prompt) &&
+    prompt.includes('lời thiệu')
   );
 }
 
-function isIntroQuestion(question: ExamBankQuestion): boolean {
-  return isIntroFillQuestion(question);
+function isPracticeIntroFillQuestion(question: ExamBankQuestion): boolean {
+  return (
+    getQuestionType(question) === 'fill' &&
+    question.question.toLocaleLowerCase('vi').includes('lời thiệu')
+  );
 }
 
-function introGroupKey(question: ExamBankQuestion): string {
-  const source = question.sourceQuestion?.trim();
-  if (source) return source;
-  return question.question.split('\n')[0].trim().toLowerCase();
+function sourceQuestionKey(question: ExamBankQuestion): string {
+  return question.sourceQuestion?.trim() || `id:${question.id}`;
 }
 
 function pickWithConstraints(
@@ -59,10 +61,9 @@ function pickWithConstraints(
     if (result.length >= count) break;
     if (usedIds.has(question.id)) continue;
 
-    if (isIntroQuestion(question)) {
-      const group = introGroupKey(question);
-      if (usedIntroGroups.has(group)) continue;
-      usedIntroGroups.add(group);
+    if (isIntroCompletionQuestion(question)) {
+      if (usedIntroGroups.size > 0) continue;
+      usedIntroGroups.add(sourceQuestionKey(question));
     }
 
     usedIds.add(question.id);
@@ -100,6 +101,40 @@ function pickWithBlueprint(
   return picked.slice(0, drawCount);
 }
 
+/**
+ * Ưu tiên mỗi câu lý thuyết gốc một câu hỏi trước. Chỉ sau khi đã đi qua
+ * các nguồn khác nhau mới bổ sung biến thể để đủ số lượng của đề.
+ */
+function pickAcrossSourceQuestions(
+  bank: ExamBankQuestion[],
+  drawCount: number,
+  random: RandomFn
+): ExamBankQuestion[] {
+  const shuffled = shuffle(bank, random);
+  const picked: ExamBankQuestion[] = [];
+  const usedIds = new Set<string>();
+  const representedSources = new Set<string>();
+  let introFillTaken = false;
+
+  const tryPick = (question: ExamBankQuestion, requireNewSource: boolean): void => {
+    if (picked.length >= drawCount || usedIds.has(question.id)) return;
+
+    const source = sourceQuestionKey(question);
+    if (requireNewSource && representedSources.has(source)) return;
+    if (isIntroCompletionQuestion(question) && introFillTaken) return;
+
+    usedIds.add(question.id);
+    representedSources.add(source);
+    if (isIntroCompletionQuestion(question)) introFillTaken = true;
+    picked.push(question);
+  };
+
+  for (const question of shuffled) tryPick(question, true);
+  for (const question of shuffled) tryPick(question, false);
+
+  return picked;
+}
+
 export function selectExamQuestions(
   bank: ExamBankQuestion[],
   questionCount: number,
@@ -116,10 +151,7 @@ export function selectExamQuestions(
   const drawCount = Math.min(questionCount, bank.length);
   const picked = blueprint?.length
     ? shuffle(pickWithBlueprint(bank, drawCount, blueprint, random), random)
-    : shuffle(
-        pickWithConstraints(bank, drawCount, random, new Set<string>(), new Set<string>()),
-        random
-      );
+    : shuffle(pickAcrossSourceQuestions(bank, drawCount, random), random);
 
   return picked.map((question) => randomizeExamQuestion(question, random));
 }
@@ -145,7 +177,7 @@ export function selectPracticeQuestions(
 
   for (const question of shuffle(bank, random)) {
     if (usedIds.has(question.id)) continue;
-    if (isIntroFillQuestion(question)) {
+    if (isPracticeIntroFillQuestion(question)) {
       if (introFillTaken) continue;
       introFillTaken = true;
     }

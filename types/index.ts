@@ -40,6 +40,7 @@ export type QuizQuestionType =
   | 'single'
   | 'multiple'
   | 'fill'
+  | 'poem'
   | 'matching'
   | 'ordering'
   | 'scenario'

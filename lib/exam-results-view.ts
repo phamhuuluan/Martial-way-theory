@@ -4,8 +4,7 @@ export type ExamResultTimePreset =
   | 'today'
   | 'thisWeek'
   | 'thisMonth'
-  | 'lastMonth'
-  | 'thisYear'
+  | 'selectMonth'
   | 'all';
 
 export const EXAM_RESULT_PRESETS: {
@@ -16,8 +15,7 @@ export const EXAM_RESULT_PRESETS: {
   { id: 'today', label: 'Hôm nay', emptyLabel: 'Không có kết quả hôm nay.' },
   { id: 'thisWeek', label: 'Tuần này', emptyLabel: 'Không có kết quả trong tuần này.' },
   { id: 'thisMonth', label: 'Tháng này', emptyLabel: 'Không có kết quả trong tháng này.' },
-  { id: 'lastMonth', label: 'Tháng trước', emptyLabel: 'Không có kết quả tháng trước.' },
-  { id: 'thisYear', label: 'Năm nay', emptyLabel: 'Không có kết quả trong năm nay.' },
+  { id: 'selectMonth', label: 'Chọn tháng', emptyLabel: 'Không có kết quả trong tháng đã chọn.' },
   { id: 'all', label: 'Tất cả', emptyLabel: 'Chưa có bài luyện đề nào được nộp.' },
 ];
 
@@ -33,7 +31,7 @@ export interface ExamPersonGroup {
   attempts: ExamResultRecord[];
 }
 
-export interface ExamDayGroup {
+export interface ExamSessionGroup {
   key: string;
   label: string;
   attemptCount: number;
@@ -41,12 +39,13 @@ export interface ExamDayGroup {
 }
 
 export interface ExamResultView {
-  days: ExamDayGroup[];
+  sessions: ExamSessionGroup[];
   matchCount: number;
 }
 
 interface ViewOptions {
   preset: ExamResultTimePreset;
+  selectedMonth?: string;
   query: string;
   now: Date;
   timeZone?: string;
@@ -153,7 +152,8 @@ export function formatExamDayLabel(dayKey: string, now: Date, timeZone?: string)
 export function examResultRange(
   preset: ExamResultTimePreset,
   now: Date,
-  timeZone?: string
+  timeZone?: string,
+  selectedMonth?: string
 ): ExamResultQuery {
   if (preset === 'all') return {};
   const { year, month, day, weekday } = zonedParts(now, timeZone);
@@ -186,12 +186,15 @@ export function examResultRange(
     };
   }
 
-  if (preset === 'lastMonth') {
-    const prev = month === 1 ? { year: year - 1, month: 12 } : { year, month: month - 1 };
-    return {
-      from: zonedMidnightUtc(prev.year, prev.month, 1, timeZone).toISOString(),
-      to: zonedMidnightUtc(year, month, 1, timeZone).toISOString(),
-    };
+  if (preset === 'selectMonth' && selectedMonth) {
+    const [selYear, selMonth] = selectedMonth.split('-').map(Number);
+    if (selYear && selMonth) {
+      const nextMonth = selMonth === 12 ? { year: selYear + 1, month: 1 } : { year: selYear, month: selMonth + 1 };
+      return {
+        from: zonedMidnightUtc(selYear, selMonth, 1, timeZone).toISOString(),
+        to: zonedMidnightUtc(nextMonth.year, nextMonth.month, 1, timeZone).toISOString(),
+      };
+    }
   }
 
   return {
@@ -233,7 +236,7 @@ function matchesQuery(record: ExamResultRecord, query: string): boolean {
 }
 
 export function filterExamResults(records: ExamResultRecord[], options: ViewOptions): ExamResultRecord[] {
-  const range = examResultRange(options.preset, options.now, options.timeZone);
+  const range = examResultRange(options.preset, options.now, options.timeZone, options.selectedMonth);
   return records.filter(
     (record) => inSubmittedRange(record.submittedAt, range) && matchesQuery(record, options.query)
   );
@@ -273,12 +276,11 @@ function groupPeople(records: ExamResultRecord[]): ExamPersonGroup[] {
 }
 
 export function groupExamResults(
-  records: ExamResultRecord[],
-  options: { now: Date; timeZone?: string }
-): ExamDayGroup[] {
+  records: ExamResultRecord[]
+): ExamSessionGroup[] {
   const buckets = new Map<string, ExamResultRecord[]>();
   for (const record of records) {
-    const key = submittedDayKey(record.submittedAt, options.timeZone) ?? INVALID_DAY_KEY;
+    const key = record.examSessionId || 'unknown';
     const list = buckets.get(key);
     if (list) list.push(record);
     else buckets.set(key, [record]);
@@ -286,17 +288,22 @@ export function groupExamResults(
 
   return [...buckets.keys()]
     .sort((a, b) => {
-      if (a === INVALID_DAY_KEY) return 1;
-      if (b === INVALID_DAY_KEY) return -1;
-      return b.localeCompare(a);
+      if (a === 'unknown') return 1;
+      if (b === 'unknown') return -1;
+      const aRecords = buckets.get(a) ?? [];
+      const bRecords = buckets.get(b) ?? [];
+      const aMax = aRecords.reduce((max, r) => r.submittedAt > max ? r.submittedAt : max, '');
+      const bMax = bRecords.reduce((max, r) => r.submittedAt > max ? r.submittedAt : max, '');
+      return bMax.localeCompare(aMax);
     })
     .map((key) => {
-      const dayRecords = buckets.get(key) ?? [];
+      const sessionRecords = buckets.get(key) ?? [];
+      const label = key === 'unknown' ? 'Luyện tập / Không có kỳ thi' : (sessionRecords[0]?.examSessionName || key);
       return {
         key,
-        label: key === INVALID_DAY_KEY ? 'Không rõ ngày' : formatExamDayLabel(key, options.now, options.timeZone),
-        attemptCount: dayRecords.length,
-        people: groupPeople(dayRecords),
+        label,
+        attemptCount: sessionRecords.length,
+        people: groupPeople(sessionRecords),
       };
     });
 }
@@ -304,7 +311,7 @@ export function groupExamResults(
 export function buildExamResultView(records: ExamResultRecord[], options: ViewOptions): ExamResultView {
   const filtered = filterExamResults(records, options);
   return {
-    days: groupExamResults(filtered, options),
+    sessions: groupExamResults(filtered),
     matchCount: filtered.length,
   };
 }

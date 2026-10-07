@@ -10,12 +10,22 @@ export interface ExamPaperConfig {
 }
 
 const COLOR_EXAM_RULES: Record<BeltId, { questionCount: number; durationMinutes: number }> = {
-  brown: { questionCount: 10, durationMinutes: 20 },
-  blue: { questionCount: 10, durationMinutes: 20 },
-  green: { questionCount: 15, durationMinutes: 20 },
-  red: { questionCount: 20, durationMinutes: 30 },
-  yellow: { questionCount: 20, durationMinutes: 30 },
-  white: { questionCount: 20, durationMinutes: 30 },
+  brown: { questionCount: 15, durationMinutes: 20 },
+  blue: { questionCount: 15, durationMinutes: 20 },
+  green: { questionCount: 20, durationMinutes: 20 },
+  red: { questionCount: 25, durationMinutes: 30 },
+  yellow: { questionCount: 25, durationMinutes: 30 },
+  white: { questionCount: 25, durationMinutes: 30 },
+};
+
+const RANK_EXAM_QUESTION_COUNTS: Partial<Record<string, number>> = {
+  'luc-1': 15,
+  'luc-2': 15,
+};
+
+const RANK_EXAM_DURATIONS: Partial<Record<string, number>> = {
+  'luc-3': 25,
+  'luc-4': 25,
 };
 
 const BELT_IDS = new Set<string>(BELT_WORLDS.map((world) => world.id));
@@ -50,8 +60,8 @@ export function getExamConfig(id: string): ExamPaperConfig | null {
   return {
     rankId: id,
     beltId,
-    questionCount: rule.questionCount,
-    durationMinutes: rule.durationMinutes,
+    questionCount: RANK_EXAM_QUESTION_COUNTS[id] ?? rule.questionCount,
+    durationMinutes: RANK_EXAM_DURATIONS[id] ?? rule.durationMinutes,
   };
 }
 

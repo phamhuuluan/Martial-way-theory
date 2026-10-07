@@ -26,7 +26,7 @@
         0,
         3
       ],
-      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.\nHai, tập võ để bênh vực kẻ vô tội bị ức hiếp.\nBa, tập võ để bảo vệ chánh pháp.\nBốn, tập võ để bảo vệ đất nước.\nNăm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.\nSáu, yêu thích lao động giúp đời.",
+      "explanation": "Một, tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.\n\nHai, tập võ để bênh vực kẻ vô tội bị ức hiếp.\n\nBa, tập võ để bảo vệ chánh pháp.\n\nBốn, tập võ để bảo vệ đất nước.\n\nNăm, rất trung thành với thầy tổ, rất tín nghĩa với huynh đệ.\n\nSáu, yêu thích lao động giúp đời.",
       "sourceQuestion": "Đọc thuộc 6 lời thế môn sinh Phật Quang Quyền (giám khảo có thể hỏi bất kỳ câu nào trong 6 câu)."
     },
     {
@@ -36,12 +36,10 @@
       "type": "fill",
       "question": "Phật Quang Quyền (PQQ) thành lập ngày tháng năm nào? Điền năm: ______.",
       "options": [
-        "Xây dựng thế hệ văn võ song toàn, phụng…",
-        "Môn sinh là những người đã qua một thời…",
-        "1992",
-        "Ba, tập võ để bảo vệ chánh pháp.",
-        "Mong muốn phục dựng truyền thống võ học…",
-        "Bồi dưỡng đạo đức để học tập, lao động,…"
+        "1990",
+        "1989",
+        "1995",
+        "1992"
       ],
       "blanks": [
         "1992"
@@ -87,7 +85,7 @@
         5,
         6
       ],
-      "explanation": "Nguồn gốc ý tưởng:\nVõ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học.\nMong muốn phục dựng truyền thống võ học trong Thiền môn.\nGiúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản lĩnh.\nXây dựng thế hệ văn võ song toàn, phụng sự Đạo pháp và dân tộc.",
+      "explanation": "Nguồn gốc ý tưởng:\n\nVõ sư sáng tổ được rèn luyện võ thuật từ thời niên thiếu nhưng do nhiều yếu tố khách quan, với vai trò là một tu sĩ Phật Giáo nên võ sư sáng tổ có rất nhiều công tác Phật sự nên không có cơ hội luyện tập một môn võ xuyên suốt. Tuy nhiên Võ sư sáng tổ lại có cơ duyên được tham học nhiều bậc tiền bối về võ thuật từ đó đúc kết được những tinh hoa trong võ học.\n\nMong muốn phục dựng truyền thống võ học trong Thiền môn.\n\nGiúp Tăng Ni và thanh thiếu niên rèn luyện sức khỏe, đạo đức và bản lĩnh.\n\nXây dựng thế hệ văn võ song toàn, phụng sự Đạo pháp và dân tộc.",
       "sourceQuestion": "Ý tưởng lập ra môn võ này từ đâu?"
     },
     {
@@ -97,12 +95,11 @@
       "type": "fill",
       "question": "Môn phái đã bái vị tôn giả nào làm Thái Tổ Sư của môn phái? Điền tên tôn giả: ______.",
       "options": [
-        "Tập võ là để tự vệ, và bảo vệ sự sống",
-        "tập võ để bảo vệ đất nước.",
-        "Hai, tập võ để bênh vực kẻ vô tội bị ức…",
-        "Xây dựng thế hệ văn võ song toàn, phụng…",
-        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
-        "Rahula (La Hầu La)"
+        "Rahula (La Hầu La)",
+        "Xá Lợi Phất",
+        "Tôn giả Rahula (La Hầu La)",
+        "Võ sư Sáng tổ Thượng Chân Hạ Quang",
+        "Mục Kiền Liên"
       ],
       "blanks": [
         "Rahula (La Hầu La)"
@@ -117,9 +114,9 @@
       "type": "single",
       "question": "Cho biết danh tính, ngày sinh của võ sư sáng tổ Phật Quang Quyền?",
       "options": [
-        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng.",
-        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
-        "tập võ để bảo vệ chánh pháp.",
+        "Võ sư Đại Đức Thích Nghiêm Giám",
+        "Võ sư Thượng tọa Thích Nghiêm Minh",
+        "Tôn giả Rahula (La Hầu La)",
         "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang."
       ],
       "correctIndex": 3,
@@ -134,9 +131,9 @@
       "question": "Chưởng môn hiện nay của môn phái là ai?",
       "options": [
         "Võ sư Đại Đức Thích Nghiêm Giám",
-        "tập võ để bênh vực kẻ vô tội bị ức hiếp.",
-        "tập võ để bảo vệ chánh pháp.",
-        "tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng."
+        "Võ sư Thượng tọa Thích Nghiêm Minh",
+        "Tôn giả Rahula (La Hầu La)",
+        "Võ sư Sáng tổ PQQ là Thượng Tọa Thượng Chân Hạ Quang. Người là viện chủ chùa Phật Quang - núi Dinh – thành phố Hồ Chí…"
       ],
       "correctIndex": 0,
       "explanation": "Chưởng môn hiện nay PQQ là Võ sư Đại Đức Thích Nghiêm Giám.",
@@ -182,7 +179,7 @@
         1,
         5
       ],
-      "explanation": "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường:\nÐi tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách.\nTrong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ  đồng môn.\nGặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái. Khi đến võ đường và trước khi ra về phải chào tôn ảnh của Thái Tổ Sư, hoặc biểu tượng môn phái (nếu có).",
+      "explanation": "Môn sinh Phật Quang Quyền cần ghi nhớ 3 điều sơ khởi sau đây về kỷ luật võ đường:\n\nÐi tập đều đặn đúng giờ, Nghỉ tập phải xin phép với võ sư hoặc huấn luyện viên phụ trách.\n\nTrong giờ tập phải chăm chỉ luyện tập, không làm việc riêng, đoàn kết, giúp đỡ  đồng môn.\n\nGặp người trên hoặc huynh đệ đồng môn, phải chào theo lối chào của môn phái. Khi đến võ đường và trước khi ra về phải chào tôn ảnh của Thái Tổ Sư, hoặc biểu tượng môn phái (nếu có).",
       "sourceQuestion": "Có mấy điều sơ khởi cần ghi nhớ về kỷ luật võ đường?"
     },
     {
@@ -204,7 +201,7 @@
         2,
         4
       ],
-      "explanation": "Có 4 điều cần ghi nhớ:\nTập võ là để tự vệ, và bảo vệ sự sống\nRèn luyện khoẻ mạnh, trí tuệ minh mẫn\nBồi dưỡng đạo đức để học tập, lao động, cống hiến\n4.  Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "explanation": "Có 4 điều cần ghi nhớ:\n\nTập võ là để tự vệ, và bảo vệ sự sống\n\nRèn luyện khoẻ mạnh, trí tuệ minh mẫn\n\nBồi dưỡng đạo đức để học tập, lao động, cống hiến\n\n4.  Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
       "sourceQuestion": "Quan niệm thông thường của người tập võ ra sao?"
     },
     {
@@ -218,7 +215,7 @@
         "Sai"
       ],
       "correctIndex": 1,
-      "explanation": "Vì sao không được thượng đài?\nThượng đài dễ tạo tâm hiếu thắng, hiếu chiến.\nPhật Quang Quyền hướng đến rèn luyện đạo đức, xây dựng con người và phụng sự xã hội hơn là thi đấu thể thao.",
+      "explanation": "Vì sao không được thượng đài?\n\nThượng đài dễ tạo tâm hiếu thắng, hiếu chiến.\n\nPhật Quang Quyền hướng đến rèn luyện đạo đức, xây dựng con người và phụng sự xã hội hơn là thi đấu thể thao.",
       "sourceQuestion": "PQQ không được phép thượng đài?"
     },
     {
@@ -244,7 +241,7 @@
         4,
         6
       ],
-      "explanation": "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm:\nKhông thượng đài.\nKhông gây hấn, không thử võ với người hoặc môn phái khác.\nChỉ dùng võ để tự vệ, bảo vệ người thân,\nĐấu tranh cho lẽ phải\nBảo vệ đạo pháp, và Tổ quốc.",
+      "explanation": "Quan niệm dụng võ của môn sinh Phật Quang Quyền có 5 điểm:\n\nKhông thượng đài.\n\nKhông gây hấn, không thử võ với người hoặc môn phái khác.\n\nChỉ dùng võ để tự vệ, bảo vệ người thân,\n\nĐấu tranh cho lẽ phải\n\nBảo vệ đạo pháp, và Tổ quốc.",
       "sourceQuestion": "Quan niệm dụng võ của võ sinh Phật Quang Quyền ra sao?"
     },
     {
@@ -266,7 +263,7 @@
         2,
         4
       ],
-      "explanation": "Có 4 điều cần ghi nhớ:\nTập võ là để tự vệ, và bảo vệ sự sống\nRèn luyện khoẻ mạnh, trí tuệ minh mẫn\nBồi dưỡng đạo đức để học tập, lao động, cống hiến\n4.  Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
+      "explanation": "Có 4 điều cần ghi nhớ:\n\nTập võ là để tự vệ, và bảo vệ sự sống\n\nRèn luyện khoẻ mạnh, trí tuệ minh mẫn\n\nBồi dưỡng đạo đức để học tập, lao động, cống hiến\n\n4.  Đấu tranh cho lẽ phải và phục vụ tổ quốc.",
       "sourceQuestion": "tập võ để làm gì?"
     }
   ]

@@ -1,0 +1,571 @@
+{
+  "rankId": "hong-2",
+  "beltId": "red",
+  "lessonId": "red-lesson-02",
+  "questions": [
+    {
+      "id": "hong-2-c01-01",
+      "lessonId": "red-lesson-02",
+      "number": 1,
+      "type": "multiple",
+      "question": "Mẫu người võ sĩ đạo của Phật Quang Quyền được xây dựng trên hai phương diện nào?",
+      "options": [
+        "Tinh thần cao cả nhưng Thực tế: có lý tưởng lớn, biết bao dung, hành động thiết thực, hiệu quả, không lý thuyết suông.",
+        "Vật chất sung túc nhưng Cao thượng: làm giàu chính đáng, sống đủ đầy nhưng không tham lam, không tầm thường vị kỷ.",
+        "Tinh thần cao cả nhưng Thiết thực: có lý tưởng lớn, biết bao dung, hành động thực tế, hiệu quả, không lý thuyết suông.",
+        "Vật chất đầy đủ nhưng Cao thượng: làm giàu chính đáng, sống sung túc nhưng không tham lam, không tầm thường vị kỷ."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Hai phương diện là Tinh thần cao cả nhưng Thực tế và Vật chất sung túc nhưng Cao thượng, với nội dung đúng như lời bài.",
+      "sourceQuestion": "Câu 1. Môn phái Phật Quang Quyền xây dựng mẫu người võ sĩ đạo trên hai phương diện:",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c01-02",
+      "lessonId": "red-lesson-02",
+      "number": 2,
+      "type": "single",
+      "question": "“Tinh thần cao cả nhưng Thực tế” được hiểu đúng là gì?",
+      "options": [
+        "Có lý tưởng lớn, biết bao dung, nhưng hành động phải thiết thực, hiệu quả, không lý thuyết suông.",
+        "Có lý tưởng cao, biết bao dung, nhưng hành động phải thiết thực, hiệu quả, không lý thuyết suông.",
+        "Có lý tưởng lớn, biết khoan dung, nhưng hành động phải thiết thực, hiệu quả, không lý thuyết suông.",
+        "Có lý tưởng lớn, biết bao dung, nhưng hành động phải thực tế, hiệu quả, không lý thuyết suông."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là nguyên ý định nghĩa trong lời bài.",
+      "sourceQuestion": "Câu 1. Môn phái Phật Quang Quyền xây dựng mẫu người võ sĩ đạo trên hai phương diện:",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c02-01",
+      "lessonId": "red-lesson-02",
+      "number": 3,
+      "type": "multiple",
+      "question": "Chọn đúng bốn phương châm tự luyện và nội dung của mỗi phương châm.",
+      "options": [
+        "Luyện Thể: rèn thân thể bằng hô hấp, vận động và trau dồi võ thuật.",
+        "Luyện Trí: mở mang trí tuệ bằng tự học, quan sát, nhận định và hội thảo.",
+        "Luyện Khí: rèn thần khí để làm chủ chính mình, luôn thanh thản, ung dung, tự tại.",
+        "Luyện Tâm: tu dưỡng tâm hồn hướng thượng, hướng thiện, thấu hiểu nhân quả, đạo lý.",
+        "Luyện Thể: rèn thân thể bằng hô hấp, vận động và thực hành võ thuật.",
+        "Luyện Trí: mở mang trí tuệ bằng học tập, quan sát, nhận định và hội thảo.",
+        "Luyện Khí: rèn tinh thần để làm chủ chính mình, luôn thanh thản, ung dung, tự tại.",
+        "Luyện Tâm: tu dưỡng tâm hồn hướng thượng, hướng thiện, thấu hiểu nhân sinh, đạo lý."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Bốn phương châm là Luyện Thể, Luyện Trí, Luyện Khí và Luyện Tâm.",
+      "sourceQuestion": "Câu 2. Ðối với bản thân, người môn sinh phải có mấy phương châm tự luyện? Giải thích đại cương về mỗi phương châm?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c02-02",
+      "lessonId": "red-lesson-02",
+      "number": 4,
+      "type": "single",
+      "question": "Phương châm nào giúp người môn sinh luôn thanh thản, ung dung, tự tại?",
+      "options": [
+        "Luyện Khí.",
+        "Luyện Thể.",
+        "Luyện Trí.",
+        "Luyện Tâm."
+      ],
+      "correctIndex": 0,
+      "explanation": "Luyện Khí là rèn luyện thần khí để làm chủ chính mình, luôn thanh thản, ung dung, tự tại.",
+      "sourceQuestion": "Câu 2. Ðối với bản thân, người môn sinh phải có mấy phương châm tự luyện? Giải thích đại cương về mỗi phương châm?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c03-01",
+      "lessonId": "red-lesson-02",
+      "number": 5,
+      "type": "single",
+      "question": "Vì sao người môn sinh phải tận tình, tận tâm, tận nghĩa với đời?",
+      "options": [
+        "Để cuộc sống ý nghĩa hơn, biết yêu người và dễ dàng gặt hái thành công.",
+        "Để cuộc sống tốt đẹp hơn, biết yêu người và dễ dàng gặt hái thành công.",
+        "Để cuộc sống ý nghĩa hơn, biết thương người và dễ dàng gặt hái thành công.",
+        "Để cuộc sống ý nghĩa hơn, biết yêu người và dễ dàng đạt được thành công."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lời bài nêu ba kết quả: cuộc sống ý nghĩa hơn, biết yêu người và dễ dàng gặt hái thành công.",
+      "sourceQuestion": "Câu 3. Tại sao người môn sinh phải đối xử tận tình, tận tâm, tận nghĩa với đời ? thế nào là tận tình, tận tâm, tận nghĩa?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c03-02",
+      "lessonId": "red-lesson-02",
+      "number": 6,
+      "type": "multiple",
+      "question": "Tận tình, tận tâm, tận nghĩa được hiểu như thế nào?",
+      "options": [
+        "Tận tình: đối xử bằng tất cả tình cảm đôn hậu, chân thành với mọi người.",
+        "Tận tâm: làm việc hết lòng, giữ lòng chí thành, chí tín và chí công.",
+        "Tận nghĩa: sống có tình nghĩa, thủy chung trước sau như một trong tinh thần võ sĩ đạo.",
+        "Tận tình: đối xử bằng tất cả tình cảm nhân hậu, chân thành với mọi người.",
+        "Tận tâm: làm việc hết sức, giữ lòng chí thành, chí tín và chí công.",
+        "Tận nghĩa: sống có nghĩa tình, thủy chung trước sau như một trong tinh thần võ sĩ đạo."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Ba định nghĩa đúng giữ nguyên các cụm đôn hậu, chân thành; hết lòng, chí thành, chí tín, chí công; tình nghĩa, thủy chung.",
+      "sourceQuestion": "Câu 3. Tại sao người môn sinh phải đối xử tận tình, tận tâm, tận nghĩa với đời ? thế nào là tận tình, tận tâm, tận nghĩa?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c04-01",
+      "lessonId": "red-lesson-02",
+      "number": 7,
+      "type": "single",
+      "question": "Vì sao môn sinh phải thường khiêm, thường dung, thường liên?",
+      "options": [
+        "Để cụ thể hóa lòng yêu thương, dễ dàng thấu hiểu và xây dựng tình thân ái.",
+        "Để thể hiện lòng yêu thương, dễ dàng thấu hiểu và xây dựng tình thân ái.",
+        "Để cụ thể hóa lòng yêu thương, dễ dàng cảm thông và xây dựng tình thân ái.",
+        "Để cụ thể hóa lòng yêu thương, dễ dàng thấu hiểu và xây dựng tình đoàn kết."
+      ],
+      "correctIndex": 0,
+      "explanation": "Mục đích là cụ thể hóa lòng yêu thương, dễ thấu hiểu và xây dựng tình thân ái.",
+      "sourceQuestion": "Câu 4. Tại sao người môn sinh PQQ phải thường khiêm, thường dung, thường liên trong việc đối xử với mọi người trong cuộc sống? Thế nào là thường Khiêm, thường dung, thường liên?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c04-02",
+      "lessonId": "red-lesson-02",
+      "number": 8,
+      "type": "multiple",
+      "question": "Chọn đúng nội dung của thường khiêm, thường dung và thường liên.",
+      "options": [
+        "Thường khiêm: luôn khiêm nhường, hạ mình để nhận thiện cảm của mọi người.",
+        "Thường dung: luôn bao dung, tiếp nhận cả người đối nghịch; tự vấn đã đủ rộng rãi, tha thứ chưa.",
+        "Thường liên: luôn liên kết, hòa hợp với mọi người xung quanh.",
+        "Thường khiêm: luôn khiêm tốn, hạ mình để nhận thiện cảm của mọi người.",
+        "Thường dung: luôn bao dung, chấp nhận cả người đối nghịch; tự vấn đã đủ rộng rãi, tha thứ chưa.",
+        "Thường liên: luôn gắn kết, hòa hợp với mọi người xung quanh."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Ba nội dung đúng bám trực tiếp lời giải.",
+      "sourceQuestion": "Câu 4. Tại sao người môn sinh PQQ phải thường khiêm, thường dung, thường liên trong việc đối xử với mọi người trong cuộc sống? Thế nào là thường Khiêm, thường dung, thường liên?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c05-01",
+      "lessonId": "red-lesson-02",
+      "number": 9,
+      "type": "multiple",
+      "question": "Ba phương châm cốt lõi để kiện toàn đời sống xứng đáng danh dự người Việt Võ Sĩ là gì?",
+      "options": [
+        "Lập thân.",
+        "Lập chí.",
+        "Lập nghiệp.",
+        "Lập tâm.",
+        "Lập ý.",
+        "Lập công."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Ba phương châm là Lập thân, Lập chí và Lập nghiệp.",
+      "sourceQuestion": "Câu 5. Câu 5: Để tổ chức và kiện toàn đời sống cho xứng đáng với danh dự người Việt Võ Sĩ, môn sinh PQQ phải thực hiện ba phương châm gì? Giải thích đại cương?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c07-01",
+      "lessonId": "red-lesson-02",
+      "number": 10,
+      "type": "multiple",
+      "question": "Tác phong đúng của huấn luyện viên đối với võ sinh gồm những nội dung nào?",
+      "options": [
+        "Hòa mình, gần gũi nhưng giữ sự nghiêm túc cần thiết; động viên, nhắc nhở, quan tâm và tạo thiện cảm.",
+        "Gương mẫu về đạo đức, tác phong và sinh hoạt; trang phục chỉnh tề, đầu tóc gọn gàng, lịch sự, nhã nhặn.",
+        "Không uống rượu, không hút thuốc trong võ đường; cư xử đúng mực để võ sinh noi theo.",
+        "Hòa nhập, gần gũi nhưng giữ sự nghiêm túc cần thiết; động viên, nhắc nhở, quan tâm và tạo thiện cảm.",
+        "Gương mẫu về đạo đức, phong cách và sinh hoạt; trang phục chỉnh tề, đầu tóc gọn gàng, lịch sự, nhã nhặn.",
+        "Không uống rượu, không hút thuốc khi tập luyện; cư xử đúng mực để võ sinh noi theo."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Ba nhóm nội dung đúng bao quát đầy đủ tác phong trong lời bài.",
+      "sourceQuestion": "Câu 7. Tác phong của huấn luyện viên đối với võ sinh ra sao?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c08-01",
+      "lessonId": "red-lesson-02",
+      "number": 11,
+      "type": "single",
+      "question": "Huấn luyện viên phải giữ tác phong thế nào với nữ võ sinh?",
+      "options": [
+        "Nghiêm túc, chuẩn mực, gương mẫu hơn nữa; tôn trọng danh dự, nhân phẩm; giữ thanh danh; cư xử đúng mực, trong sáng, tránh hành vi hoặc quan hệ không phù hợp.",
+        "Nghiêm túc, chuẩn mực, gương mẫu hơn nữa; tôn trọng uy tín, nhân phẩm; giữ thanh danh; cư xử đúng mực, trong sáng, tránh hành vi hoặc quan hệ không phù hợp.",
+        "Nghiêm túc, chuẩn mực, gương mẫu hơn nữa; tôn trọng danh dự, phẩm giá; giữ thanh danh; cư xử đúng mực, trong sáng, tránh hành vi hoặc quan hệ không phù hợp.",
+        "Nghiêm túc, chuẩn mực, gương mẫu hơn nữa; tôn trọng danh dự, nhân phẩm; giữ danh tiếng; cư xử đúng mực, trong sáng, tránh hành vi hoặc quan hệ không phù hợp."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đáp án giữ đúng các yêu cầu về tác phong, danh dự, nhân phẩm, thanh danh và quan hệ phù hợp.",
+      "sourceQuestion": "Câu 8. Đối với nữ võ sinh, huấn luyện viên cần giữ tác phong như thế nào?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c09-01",
+      "lessonId": "red-lesson-02",
+      "number": 12,
+      "type": "multiple",
+      "question": "Ba việc cần làm để tổ chức và điều hành tốt một lớp võ là gì?",
+      "options": [
+        "Sắp xếp võ sinh hợp lý theo tuổi, giới tính, trình độ, thể trạng, hoàn cảnh.",
+        "Tìm hiểu sức khỏe, khả năng tiếp thu, sức chịu đựng để huấn luyện đúng mức.",
+        "Giữ kỷ luật: phát hiện trường hợp gây mất trật tự, phá hoại hoặc ảnh hưởng lớp học để ngăn chặn.",
+        "Sắp xếp võ sinh phù hợp theo tuổi, giới tính, trình độ, thể trạng, hoàn cảnh.",
+        "Tìm hiểu sức khỏe, năng lực tiếp thu, sức chịu đựng để huấn luyện đúng mức.",
+        "Giữ trật tự: phát hiện trường hợp gây mất kỷ luật, phá hoại hoặc ảnh hưởng lớp học để ngăn chặn."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Ba việc là sắp xếp hợp lý, tìm hiểu khả năng và giữ gìn kỷ luật lớp học.",
+      "sourceQuestion": "Câu 9. Muốn thực hiện một lớp võ, huấn luyện viên phải làm những gì? hãy giải thích đại cương.",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c10-01",
+      "lessonId": "red-lesson-02",
+      "number": 13,
+      "type": "single",
+      "question": "Gia đình được định nghĩa như thế nào?",
+      "options": [
+        "Đơn vị căn bản của xã hội, gồm người có quan hệ huyết thống hoặc hôn nhân, cùng chung sống, yêu thương, chăm sóc, giúp đỡ; nơi con người sinh trưởng, được nuôi dưỡng và giáo dục nên người.",
+        "Đơn vị cơ bản của xã hội, gồm người có quan hệ huyết thống hoặc hôn nhân, cùng chung sống, yêu thương, chăm sóc, giúp đỡ; nơi con người sinh trưởng, được nuôi dưỡng và giáo dục nên người.",
+        "Đơn vị căn bản của xã hội, gồm người có quan hệ huyết thống hoặc gia đình, cùng chung sống, yêu thương, chăm sóc, giúp đỡ; nơi con người sinh trưởng, được nuôi dưỡng và giáo dục nên người.",
+        "Đơn vị căn bản của xã hội, gồm người có quan hệ huyết thống hoặc hôn nhân, cùng chung sống, yêu thương, săn sóc, giúp đỡ; nơi con người sinh trưởng, được nuôi dưỡng và giáo dục nên người."
+      ],
+      "correctIndex": 0,
+      "explanation": "Định nghĩa đúng giữ nguyên các quan hệ, đời sống chung và chức năng nuôi dưỡng, giáo dục.",
+      "sourceQuestion": "Câu 10. Gia đình là gì? Tình cảm gia đình của môn sinh PQQ ra sao?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c10-02",
+      "lessonId": "red-lesson-02",
+      "number": 14,
+      "type": "multiple",
+      "question": "Bốn biểu hiện tình cảm gia đình của môn sinh PQQ là gì?",
+      "options": [
+        "Quan tâm, giúp đỡ, săn sóc toàn thể gia đình.",
+        "Kính trên.",
+        "Nhường dưới.",
+        "Yêu mến người ngang hàng.",
+        "Quan tâm, hỗ trợ, săn sóc toàn thể gia đình.",
+        "Kính trọng người trên.",
+        "Nhường nhịn người dưới.",
+        "Yêu thương người ngang hàng."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Bốn điểm đúng được giữ nguyên văn theo lời bài.",
+      "sourceQuestion": "Câu 10. Gia đình là gì? Tình cảm gia đình của môn sinh PQQ ra sao?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c11-01",
+      "lessonId": "red-lesson-02",
+      "number": 15,
+      "type": "single",
+      "question": "Ngoài lễ phép, kính trọng và vâng lời người trên, ta còn phải làm gì?",
+      "options": [
+        "Thưa trình ý kiến khiêm tốn, tế nhị, đúng lúc để góp phần sửa sai; cùng xây dựng gia đình tốt đẹp, hòa thuận, hạnh phúc, yêu thương hơn.",
+        "Thưa trình quan điểm khiêm tốn, tế nhị, đúng lúc để góp phần sửa sai; cùng xây dựng gia đình tốt đẹp, hòa thuận, hạnh phúc, yêu thương hơn.",
+        "Thưa trình ý kiến khiêm nhường, tế nhị, đúng lúc để góp phần sửa sai; cùng xây dựng gia đình tốt đẹp, hòa thuận, hạnh phúc, yêu thương hơn.",
+        "Thưa trình ý kiến khiêm tốn, khéo léo, đúng lúc để góp phần sửa sai; cùng xây dựng gia đình tốt đẹp, hòa thuận, hạnh phúc, yêu thương hơn."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lời bài yêu cầu biết thưa trình ý kiến khiêm tốn, tế nhị, đúng lúc để góp phần sửa chữa sai sót.",
+      "sourceQuestion": "Câu 11. Kính mến người trên có phải chỉ cần cư xử lễ độ, vâng lời dạy bảo là phải đạo rồi không?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c12-01",
+      "lessonId": "red-lesson-02",
+      "number": 16,
+      "type": "multiple",
+      "question": "Muốn tròn chữ hiếu, người con còn phải làm gì ngoài phụng dưỡng cha mẹ?",
+      "options": [
+        "Chăm lo đời sống vật chất và tinh thần; sống tốt, có đạo đức, gây dựng sự nghiệp, giữ gìn và phát huy thanh danh gia đình.",
+        "Học hỏi đạo lý, tu dưỡng bản thân, siêng năng tạo phước và hướng cha mẹ đến điều thiện lành.",
+        "Chăm lo đời sống vật chất và tình cảm; sống tốt, có đạo đức, gây dựng sự nghiệp, giữ gìn và phát huy thanh danh gia đình.",
+        "Học hỏi đạo đức, tu dưỡng bản thân, siêng năng tạo phước và hướng cha mẹ đến điều thiện lành."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Phụng dưỡng chỉ là bước đầu; lời bài còn nêu đầy đủ các trách nhiệm trong hai phương án đúng.",
+      "sourceQuestion": "Câu 12. Hết lòng phụng dưỡng cha mẹ, đã tròn chữ hiếu chưa?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c13-01",
+      "lessonId": "red-lesson-02",
+      "number": 17,
+      "type": "single",
+      "question": "Nhường dưới đúng nghĩa là gì?",
+      "options": [
+        "Bao dung, nhẫn nhịn, yêu thương, giúp đỡ để giáo dục, cảm hóa, khích lệ, hướng dẫn người dưới tiến bộ, bỏ điều xấu, phát triển điều tốt.",
+        "Bao dung, nhường nhịn, yêu thương, giúp đỡ để giáo dục, cảm hóa, khích lệ, hướng dẫn người dưới tiến bộ, bỏ điều xấu, phát triển điều tốt.",
+        "Bao dung, nhẫn nhịn, thương yêu, giúp đỡ để giáo dục, cảm hóa, khích lệ, hướng dẫn người dưới tiến bộ, bỏ điều xấu, phát triển điều tốt.",
+        "Bao dung, nhẫn nhịn, yêu thương, hỗ trợ để giáo dục, cảm hóa, khích lệ, hướng dẫn người dưới tiến bộ, bỏ điều xấu, phát triển điều tốt."
+      ],
+      "correctIndex": 0,
+      "explanation": "Nhường dưới không phải nuông chiều hay dung túng mà nhằm giúp người dưới tiến bộ và có phẩm cách.",
+      "sourceQuestion": "Câu 13. Phải nhường dưới ra sao? Có phải chỉ cần chiều chuộng che chở và gánh chịu những lổi lầm của họ là đủ thuận thảo rồi chăng?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c14-01",
+      "lessonId": "red-lesson-02",
+      "number": 18,
+      "type": "definition",
+      "question": "Cả tin là gì?",
+      "options": [],
+      "sampleAnswer": "Cả tin là vội vàng tin vào lời nói, tin đồn hoặc thông tin khi chưa tìm hiểu, kiểm chứng rõ ràng sự thật.",
+      "matchThreshold": 0.65,
+      "explanation": "Định nghĩa bám nguyên lời bài.",
+      "sourceQuestion": "Câu 14. Hỏi: Cả tin là gì?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c15-01",
+      "lessonId": "red-lesson-02",
+      "number": 19,
+      "type": "single",
+      "question": "Tính cả tin gây tác hại gì?",
+      "options": [
+        "Khiến ta hiểu sai sự việc, bị lợi dụng hoặc dẫn dắt, ảnh hưởng đoàn kết, công bằng và quyết định đúng đắn trong tập thể.",
+        "Khiến ta hiểu lầm sự việc, bị lợi dụng hoặc dẫn dắt, ảnh hưởng đoàn kết, công bằng và quyết định đúng đắn trong tập thể.",
+        "Khiến ta hiểu sai sự việc, bị lừa dối hoặc dẫn dắt, ảnh hưởng đoàn kết, công bằng và quyết định đúng đắn trong tập thể.",
+        "Khiến ta hiểu sai sự việc, bị lợi dụng hoặc chi phối, ảnh hưởng đoàn kết, công bằng và quyết định đúng đắn trong tập thể."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đáp án đúng giữ đủ bốn tác hại trong lời bài.",
+      "sourceQuestion": "Câu 15. Hỏi: Tác hại của tính cả tin đối với người môn sinh Phật Quang Quyền là gì?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c16-01",
+      "lessonId": "red-lesson-02",
+      "number": 20,
+      "type": "multiple",
+      "question": "Người môn sinh cần làm gì để tránh cả tin?",
+      "options": [
+        "Lắng nghe thận trọng; không vội tin hay truyền đạt thông tin chưa kiểm chứng.",
+        "Tìm hiểu sự việc từ nhiều phía, tôn trọng sự thật, dùng lý trí nhận định trước khi kết luận.",
+        "Lắng nghe cẩn trọng; không vội tin hay truyền đạt thông tin chưa kiểm chứng.",
+        "Tìm hiểu sự việc từ nhiều nguồn, tôn trọng sự thật, dùng lý trí nhận định trước khi kết luận."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Hai phương án đúng bao quát toàn bộ cách tránh cả tin trong lời bài.",
+      "sourceQuestion": "Câu 16. Hỏi: Người môn sinh Phật Quang Quyền cần làm gì để tránh tính cả tin?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c17-01",
+      "lessonId": "red-lesson-02",
+      "number": 21,
+      "type": "single",
+      "question": "Xuất xứ đúng của Phong Hoa Đao là gì?",
+      "options": [
+        "Bài binh khí quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam, thuộc hệ thống Ngũ bộ Phong Hoa của môn phái Hoa Quyền.",
+        "Bài đao quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam, thuộc hệ thống Ngũ bộ Phong Hoa của môn phái Hoa Quyền.",
+        "Bài binh khí quy định của Hội Võ thuật Cổ truyền Việt Nam, thuộc hệ thống Ngũ bộ Phong Hoa của môn phái Hoa Quyền.",
+        "Bài binh khí quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam, thuộc hệ thống Ngũ thức Phong Hoa của môn phái Hoa Quyền."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là xuất xứ được nêu trực tiếp trong lời bài.",
+      "sourceQuestion": "Câu 17. Nêu xuất xứ, lời thiệu bài quy định Phong Hoa Đao:",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c17-02",
+      "lessonId": "red-lesson-02",
+      "number": 22,
+      "type": "multiple",
+      "question": "Ngũ bộ Phong Hoa gồm những bài nào?",
+      "options": [
+        "Phong Hoa Kiếm",
+        "Phong Hoa Đao",
+        "Phong Hoa Côn",
+        "Phong Hoa Thương",
+        "Phong Hoa Thiết Phiến",
+        "Phong Hoa Song Kiếm",
+        "Phong Hoa Đại Đao",
+        "Phong Hoa Trường Côn",
+        "Phong Hoa Đoản Thương",
+        "Phong Hoa Song Phiến"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Ngũ bộ gồm Kiếm, Đao, Côn, Thương và Thiết Phiến.",
+      "sourceQuestion": "Câu 17. Nêu xuất xứ, lời thiệu bài quy định Phong Hoa Đao:",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c17-03",
+      "lessonId": "red-lesson-02",
+      "number": 23,
+      "type": "multiple",
+      "question": "Đặc điểm và kết cấu đúng của Phong Hoa Đao là gì?",
+      "options": [
+        "Kết hợp hài hòa cương nhu; chiêu thức liên hoàn theo Đông, Tây, Nam, Bắc; kín kẽ, uyển chuyển nhưng mạnh mẽ, dũng mãnh.",
+        "Chia 4 thức tượng trưng 4 phương; mỗi thức 9 thế tượng trưng 8 hướng và trung tâm; tổng cộng 36 thế.",
+        "Kết hợp cân bằng cương nhu; chiêu thức liên hoàn theo Đông, Tây, Nam, Bắc; kín kẽ, uyển chuyển nhưng mạnh mẽ, dũng mãnh.",
+        "Chia 4 phần tượng trưng 4 phương; mỗi phần 9 thế tượng trưng 8 hướng và trung tâm; tổng cộng 36 thế."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Hai phương án đúng giữ đầy đủ đặc điểm thi triển và kết cấu 4 thức, 36 thế.",
+      "sourceQuestion": "Câu 17. Nêu xuất xứ, lời thiệu bài quy định Phong Hoa Đao:",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c17-04",
+      "lessonId": "red-lesson-02",
+      "number": 24,
+      "type": "poem",
+      "question": "Điền các thế còn thiếu trong lời thiệu Phong Hoa Đao:\nBái tổ lập đao\n__________\nTàng đầu hữu bàn đao\n__________\nKhiên thủ tàng đao\n__________\nĐộc lập phách mạc đao\n__________\nHồi đao thích hổ\n__________\nKhiên thủ tàng đao\n__________\nĐăng sơn viễn thiếu\n__________\nPhục hổ trảm thượng đao\n__________\nThiềm triển kháo đao\n__________\nTàng đầu bàn đao\n__________\nKhiên thủ tàng đao\n__________\nHồi thân trảm mã đao\n__________\nUyên ương mạc đao\n__________\nTả hữu trảm mạc đao\n__________\nHữu tả trảm mạc đao\n__________\nHồi thân trảm mã đao\n__________\nTả hữu phân liêu đao\n__________\nBái tổ thu đao thức.",
+      "options": [
+        "Giao đao đả hổ",
+        "Hoành khiêu bộ khóa đao",
+        "Tả hữu phân liêu đao",
+        "Tả hữu trích tinh đao",
+        "Phạt thảo hí du long",
+        "Tả hữu trảm mạc đao",
+        "Hoành tảo thiên quân đao",
+        "Hồi thân phách đao",
+        "Phạt thảo hí long",
+        "Loan phụng thượng thôi đao",
+        "Độc lập hạ tiệt cước",
+        "Hoành bộ thượng thôi đao",
+        "Tả thủ kim tiêu cước",
+        "Hữu thủ kim tiêu cước",
+        "Khiên thủ tàng đao",
+        "Thượng bình tàng đao",
+        "Giao đao phục hổ",
+        "Hoành khiêu bộ tàng đao",
+        "Tả hữu phân tấn đao",
+        "Tả hữu trích nguyệt đao",
+        "Phạt thảo hí long đao",
+        "Đăng sơn viễn vọng",
+        "Hoành tảo trung quân đao",
+        "Hồi thân trảm đao",
+        "Loan phụng thượng tàng đao",
+        "Tả hữu trảm liêu đao",
+        "Hoành tảo phân liêu đao",
+        "Hồi thân tàng đao",
+        "Loan phụng trảm mạc đao",
+        "Độc lập thượng thôi đao",
+        "Phạt thảo phách đao",
+        "Giao đao hí du long"
+      ],
+      "blanks": [
+        "Giao đao đả hổ",
+        "Hoành khiêu bộ khóa đao",
+        "Tả hữu phân liêu đao",
+        "Tả hữu trích tinh đao",
+        "Phạt thảo hí du long",
+        "Tả hữu phân liêu đao",
+        "Tả hữu trảm mạc đao",
+        "Hoành tảo thiên quân đao",
+        "Hồi thân phách đao",
+        "Phạt thảo hí long",
+        "Loan phụng thượng thôi đao",
+        "Độc lập hạ tiệt cước",
+        "Hoành bộ thượng thôi đao",
+        "Tả thủ kim tiêu cước",
+        "Hữu thủ kim tiêu cước",
+        "Khiên thủ tàng đao",
+        "Thượng bình tàng đao"
+      ],
+      "explanation": "Các chỗ trống theo đúng trình tự lời thiệu Phong Hoa Đao.",
+      "sourceQuestion": "Câu 17. Nêu xuất xứ, lời thiệu bài quy định Phong Hoa Đao:",
+      "rankId": "hong-2",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-2-c02-03",
+      "lessonId": "red-lesson-02",
+      "number": 25,
+      "type": "single",
+      "question": "Phương châm nào giúp người môn sinh tu dưỡng tâm hồn hướng thượng, hướng thiện, thấu hiểu nhân quả và đạo lý?",
+      "options": [
+        "Luyện Tâm.",
+        "Luyện Trí.",
+        "Luyện Khí.",
+        "Luyện Thể."
+      ],
+      "correctIndex": 0,
+      "explanation": "Luyện Tâm là tu dưỡng tâm hồn hướng thượng, hướng thiện, thấu hiểu nhân quả và đạo lý.",
+      "sourceQuestion": "Câu 2. Ðối với bản thân, người môn sinh phải có mấy phương châm tự luyện? Giải thích đại cương về mỗi phương châm?",
+      "rankId": "hong-2",
+      "beltId": "red"
+    }
+  ]
+}

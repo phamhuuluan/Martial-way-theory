@@ -11,7 +11,11 @@ export const metadata: Metadata = {
 export default function ExamPracticePage() {
   return (
     <ExamSection tab="practice">
-      <PracticeRankPicker catalog={listPracticeCatalog()} hrefBase="/exam/practice" />
+      <PracticeRankPicker
+        catalog={listPracticeCatalog()}
+        hrefBase="/exam/practice"
+        showQuestionCount={false}
+      />
     </ExamSection>
   );
 }

@@ -58,12 +58,17 @@ describe('candidate profile', () => {
 describe('exam config', () => {
   it('assigns question count and time by belt color', () => {
     expect(getPracticeRanks()).toHaveLength(19);
-    expect(getExamConfig('blue')).toMatchObject({ questionCount: 10, durationMinutes: 20, beltId: 'blue' });
-    expect(getExamConfig('lam-1')).toMatchObject({ questionCount: 10, durationMinutes: 20, beltId: 'blue' });
-    expect(getExamConfig('green')).toMatchObject({ questionCount: 15, durationMinutes: 20 });
-    expect(getExamConfig('red')).toMatchObject({ questionCount: 20, durationMinutes: 30 });
-    expect(getExamConfig('yellow')).toMatchObject({ questionCount: 20, durationMinutes: 30 });
-    expect(getExamConfig('white')).toMatchObject({ questionCount: 20, durationMinutes: 30 });
+    expect(getExamConfig('blue')).toMatchObject({ questionCount: 15, durationMinutes: 20, beltId: 'blue' });
+    expect(getExamConfig('lam-1')).toMatchObject({ questionCount: 15, durationMinutes: 20, beltId: 'blue' });
+    expect(getExamConfig('brown')).toMatchObject({ questionCount: 15, durationMinutes: 20 });
+    expect(getExamConfig('green')).toMatchObject({ questionCount: 20, durationMinutes: 20 });
+    expect(getExamConfig('luc-1')).toMatchObject({ questionCount: 15, durationMinutes: 20 });
+    expect(getExamConfig('luc-2')).toMatchObject({ questionCount: 15, durationMinutes: 20 });
+    expect(getExamConfig('luc-3')).toMatchObject({ questionCount: 20, durationMinutes: 25 });
+    expect(getExamConfig('luc-4')).toMatchObject({ questionCount: 20, durationMinutes: 25 });
+    expect(getExamConfig('red')).toMatchObject({ questionCount: 25, durationMinutes: 30 });
+    expect(getExamConfig('yellow')).toMatchObject({ questionCount: 25, durationMinutes: 30 });
+    expect(getExamConfig('white')).toMatchObject({ questionCount: 25, durationMinutes: 30 });
     expect(getExamConfig('chuan-hong')).toBeNull();
   });
 });
@@ -99,6 +104,58 @@ describe('selectExamQuestions', () => {
     expect(new Set(paper.map((item) => item.id))).toEqual(new Set(['a', 'b', 'c']));
   });
 
+  it('covers different source questions before adding another variant', () => {
+    const paper = selectExamQuestions(
+      [
+        question({ id: 'a1', sourceQuestion: 'Câu 1' }),
+        question({ id: 'a2', sourceQuestion: 'Câu 1' }),
+        question({ id: 'b1', sourceQuestion: 'Câu 2' }),
+        question({ id: 'c1', sourceQuestion: 'Câu 3' }),
+      ],
+      3,
+      () => 0
+    );
+
+    expect(new Set(paper.map((item) => item.sourceQuestion))).toEqual(
+      new Set(['Câu 1', 'Câu 2', 'Câu 3'])
+    );
+  });
+
+  it('takes at most one missing-lines intro variant without excluding origin questions', () => {
+    const sourceQuestion = 'Câu 10. Nêu xuất xứ và ý nghĩa bài quyền?';
+    const paper = selectExamQuestions(
+      [
+        question({
+          id: 'intro-1',
+          type: 'poem',
+          sourceQuestion,
+          question: 'Điền các câu còn thiếu vào lời thiệu bài quyền:\n__________',
+          blanks: ['Bái tổ'],
+        }),
+        question({
+          id: 'intro-2',
+          type: 'poem',
+          sourceQuestion,
+          question: 'Điền các câu còn thiếu vào toàn bộ lời thiệu bài quyền:\n__________',
+          blanks: ['Kính sư'],
+        }),
+        question({
+          id: 'origin',
+          sourceQuestion,
+          question: 'Bài quyền có nguồn gốc, xuất xứ như thế nào?',
+        }),
+        question({ id: 'other', sourceQuestion: 'Câu 11' }),
+      ],
+      4,
+      () => 0
+    );
+
+    expect(paper.filter((item) => item.id.startsWith('intro-'))).toHaveLength(1);
+    expect(paper.find((item) => item.id.startsWith('intro-'))?.optionsOrder).toBeDefined();
+    expect(paper.some((item) => item.id === 'origin')).toBe(true);
+    expect(paper).toHaveLength(3);
+  });
+
   it('shuffles true/false options and keeps the correct statement', () => {
     const source = question({
       id: 'tf',
@@ -108,7 +165,7 @@ describe('selectExamQuestions', () => {
     });
     const [paper] = selectExamQuestions([source], 1, () => 0);
     expect(paper.options[paper.correctIndex ?? -1]).toBe('Đúng');
-    expect(paper.options).toEqual(['Sai', 'Đúng']);
+    expect(paper.optionsOrder).toEqual([1, 0]);
   });
 
   it('keeps the correct option after shuffling choices', () => {
@@ -138,7 +195,7 @@ describe('selectExamQuestions', () => {
         id: `intro-${index + 1}`,
         type: 'fill',
         sourceQuestion: 'Câu 13. Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?',
-        question: 'Điền vào chỗ trống lời thiệu bài quyền Bạch Hạc Sơn Quyền:\n\n______[1]',
+        question: 'Điền các câu còn thiếu vào lời thiệu bài quyền Bạch Hạc Sơn Quyền:\n\n______[1]',
         options: ['Đầu tiên bái tổ, kính sư'],
         blanks: ['Đầu tiên bái tổ, kính sư'],
       })
@@ -147,7 +204,7 @@ describe('selectExamQuestions', () => {
       id: 'song-tuyet',
       type: 'fill',
       sourceQuestion: 'Câu 14. Nêu xuất xứ bài Song Tuyết Kiếm.',
-      question: 'Điền vào chỗ trống lời thiệu bài Song Tuyết Kiếm:\n\n______[1]',
+      question: 'Điền các câu còn thiếu vào lời thiệu bài Song Tuyết Kiếm:\n\n______[1]',
       options: ['Bái tổ'],
       blanks: ['Bái tổ'],
     });

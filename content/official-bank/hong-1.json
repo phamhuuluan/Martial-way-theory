@@ -1,0 +1,554 @@
+{
+  "rankId": "hong-1",
+  "beltId": "red",
+  "lessonId": "red-lesson-01",
+  "questions": [
+    {
+      "id": "hong-1-c01-01",
+      "lessonId": "red-lesson-01",
+      "number": 1,
+      "type": "single",
+      "question": "Định hướng học tập và đời sống của Võ sinh Phật Quang Quyền là gì?",
+      "options": [
+        "Chuyên cần học võ thuật, võ đạo, văn hóa và nghề nghiệp; rèn luyện tinh thần, trau dồi đạo đức, đạo hạnh và hoàn thiện bản thân để có ích cho gia đình, xã hội và đất nước.",
+        "Chuyên cần học võ thuật, võ đạo, văn hóa và nghề nghiệp; rèn luyện thể lực, trau dồi đạo đức, tác phong và hoàn thiện bản thân để có ích cho gia đình, xã hội và đất nước.",
+        "Chuyên cần học võ thuật, võ đạo, văn hóa và nghề nghiệp; rèn luyện tinh thần, trau dồi kiến thức, đạo hạnh và hoàn thiện bản thân để có ích cho gia đình, xã hội và đất nước.",
+        "Chuyên cần học võ thuật, võ đạo, văn hóa và nghề nghiệp; rèn luyện tinh thần, trau dồi đạo đức, đạo hạnh và hoàn thiện bản thân để có ích cho bản thân, gia đình và xã hội."
+      ],
+      "correctIndex": 0,
+      "explanation": "Phải chuyên cần học tập võ thuật, võ đạo, văn hóa và nghề nghiệp; đồng thời rèn luyện tinh thần, trau dồi đạo đức, đạo hạnh và hoàn thiện bản thân để có ích cho gia đình, xã hội và đất nước.",
+      "sourceQuestion": "Câu 1. Cho biết định hướng học tập và đời sống của Võ sinh Phật Quang Quyền như thế nào?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c02-01",
+      "lessonId": "red-lesson-01",
+      "number": 2,
+      "type": "multiple",
+      "question": "Bốn điều để thực hiện chuyên cần học tập là những điều nào?",
+      "options": [
+        "Học cho rộng: học võ thuật, võ đạo, văn hóa, nghề nghiệp, cả lý thuyết lẫn thực hành.",
+        "Hỏi cho kỹ: không hiểu thì hỏi, không giấu dốt, không tự ái hay chán nản.",
+        "Nghĩ cẩn thận: biết nghiền ngẫm, suy xét những điều đã học và đã làm.",
+        "Luận cho sáng: biết so sánh, phân tích, tổng hợp, biện luận và giải thích rõ ràng.",
+        "Học cho rộng: học võ thuật, võ đạo, văn hóa, nghề nghiệp, chú trọng thực hành hơn lý thuyết.",
+        "Hỏi cho kỹ: không hiểu thì hỏi, không giấu dốt, không tự ái nhưng có thể chán nản.",
+        "Nghĩ cẩn thận: biết nghiền ngẫm, suy xét những điều đã học nhưng chưa cần xét điều đã làm.",
+        "Luận cho sáng: biết so sánh, phân tích, tổng hợp, tranh luận và giải thích rõ ràng."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Bốn điều là Học cho rộng, Hỏi cho kỹ, Nghĩ cẩn thận và Luận cho sáng, với nội dung đúng như lời bài.",
+      "sourceQuestion": "Câu 2. Muốn thực hiện chuyên cần học tập, Võ sinh Phật Quang Quyền phải làm gì?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c02-02",
+      "lessonId": "red-lesson-01",
+      "number": 3,
+      "type": "single",
+      "question": "Cách hiểu nào đúng với “Luận cho sáng”?",
+      "options": [
+        "Biết so sánh, phân tích, tổng hợp, biện luận và giải thích rõ ràng.",
+        "Biết so sánh, phân loại, tổng hợp, biện luận và giải thích rõ ràng.",
+        "Biết so sánh, phân tích, tổng kết, biện luận và giải thích rõ ràng.",
+        "Biết so sánh, phân tích, tổng hợp, bình luận và giải thích rõ ràng."
+      ],
+      "correctIndex": 0,
+      "explanation": "Luận cho sáng là biết so sánh, phân tích, tổng hợp, biện luận và giải thích rõ ràng.",
+      "sourceQuestion": "Câu 2. Muốn thực hiện chuyên cần học tập, Võ sinh Phật Quang Quyền phải làm gì?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c03-01",
+      "lessonId": "red-lesson-01",
+      "number": 4,
+      "type": "single",
+      "question": "Truyền thống võ học của nhân loại hình thành và phát triển như thế nào?",
+      "options": [
+        "Qua quá trình sinh tồn, lao động, chiến đấu và xây dựng xã hội; điều kiện địa lý, văn hóa, lịch sử, xã hội và trình độ phát triển tạo nên bản sắc võ học riêng của mỗi dân tộc.",
+        "Qua quá trình sinh tồn, lao động, chiến đấu và bảo vệ xã hội; điều kiện địa lý, văn hóa, lịch sử, xã hội và trình độ phát triển tạo nên bản sắc võ học riêng của mỗi dân tộc.",
+        "Qua quá trình sinh tồn, lao động, rèn luyện và xây dựng xã hội; điều kiện địa lý, văn hóa, lịch sử, xã hội và trình độ phát triển tạo nên bản sắc võ học riêng của mỗi dân tộc.",
+        "Qua quá trình sinh tồn, lao động, chiến đấu và xây dựng xã hội; điều kiện tự nhiên, văn hóa, lịch sử, xã hội và trình độ phát triển tạo nên bản sắc võ học riêng của mỗi dân tộc."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lời bài nêu quá trình sinh tồn, lao động, chiến đấu, xây dựng xã hội và các điều kiện địa lý, văn hóa, lịch sử, xã hội, trình độ phát triển.",
+      "sourceQuestion": "Câu 3. Truyền thống võ học của nhân loại diễn tiến ra sao?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c04-01",
+      "lessonId": "red-lesson-01",
+      "number": 5,
+      "type": "multiple",
+      "question": "Chọn đúng bốn thời kỳ lập võ và ý nghĩa đại cương của từng thời kỳ.",
+      "options": [
+        "Chiến đấu với cầm thú: dùng sức mạnh và kỹ năng để sinh tồn trước thú dữ và thiên nhiên khắc nghiệt.",
+        "Song đấu: dùng võ thuật giải quyết mâu thuẫn và tranh chấp giữa hai người.",
+        "Hỗn đấu: xuất hiện kỹ thuật chiến đấu trong xung đột có nhiều người tham gia.",
+        "Võ học thâm nhập vào binh pháp: được hệ thống hóa và ứng dụng vào quân sự để bảo vệ, xây dựng, phát triển đất nước.",
+        "Chiến đấu với cầm thú: dùng sức mạnh và binh pháp để sinh tồn trước thú dữ và thiên nhiên khắc nghiệt.",
+        "Song đấu: dùng võ thuật giải quyết mâu thuẫn và tranh chấp giữa các nhóm người.",
+        "Hỗn đấu: xuất hiện kỹ thuật chiến đấu trong xung đột giữa hai người.",
+        "Võ học thâm nhập vào binh pháp: được phổ biến hóa và ứng dụng vào quân sự để bảo vệ, xây dựng, phát triển đất nước."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Bốn thời kỳ là chiến đấu với cầm thú, song đấu, hỗn đấu và võ học thâm nhập vào binh pháp.",
+      "sourceQuestion": "Câu 4. Có mấy thời kỳ lập võ? Hãy kể ra và giải thích đại cương.",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c04-02",
+      "lessonId": "red-lesson-01",
+      "number": 6,
+      "type": "single",
+      "question": "Đặc điểm nào phân biệt hỗn đấu với song đấu theo lời bài?",
+      "options": [
+        "Hỗn đấu là xung đột có nhiều người tham gia; song đấu giải quyết mâu thuẫn, tranh chấp giữa hai người.",
+        "Hỗn đấu là xung đột giữa nhiều thị tộc; song đấu giải quyết mâu thuẫn, tranh chấp giữa hai người.",
+        "Hỗn đấu là xung đột có nhiều người tham gia; song đấu giải quyết quyền lợi, tranh chấp giữa hai người.",
+        "Hỗn đấu là xung đột có nhiều người tham gia; song đấu giải quyết mâu thuẫn, quyền lãnh đạo giữa hai người."
+      ],
+      "correctIndex": 0,
+      "explanation": "Song đấu gắn với hai người; hỗn đấu gắn với những xung đột có nhiều người tham gia.",
+      "sourceQuestion": "Câu 4. Có mấy thời kỳ lập võ? Hãy kể ra và giải thích đại cương.",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c05-01",
+      "lessonId": "red-lesson-01",
+      "number": 7,
+      "type": "single",
+      "question": "Vì sao người tiền sử sáng tạo các quyền thuật mô phỏng loài vật?",
+      "options": [
+        "Vì thường xuyên chiến đấu với cầm thú để bảo vệ sự sinh tồn, họ quan sát đặc tính và cách chiến đấu của các loài vật rồi đúc kết, sáng tạo quyền thuật mô phỏng.",
+        "Vì thường xuyên đối phó với cầm thú để bảo vệ sự sinh tồn, họ quan sát đặc tính và cách chiến đấu của các loài vật rồi đúc kết, sáng tạo quyền thuật mô phỏng.",
+        "Vì thường xuyên chiến đấu với cầm thú để bảo vệ cộng đồng, họ quan sát đặc tính và cách chiến đấu của các loài vật rồi đúc kết, sáng tạo quyền thuật mô phỏng.",
+        "Vì thường xuyên chiến đấu với cầm thú để bảo vệ sự sinh tồn, họ quan sát hình dáng và cách chiến đấu của các loài vật rồi đúc kết, sáng tạo quyền thuật mô phỏng."
+      ],
+      "correctIndex": 0,
+      "explanation": "Nguyên nhân là nhu cầu chiến đấu với cầm thú để sinh tồn, kết hợp quan sát đặc tính và cách chiến đấu của loài vật.",
+      "sourceQuestion": "Câu 5. Do đâu người tiền sử đã chế ra các loại võ như Hầu quyền, Hổ quyền, Mã quyền, Điểu quyền, Xà quyền, Ngưu quyền?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c06-01",
+      "lessonId": "red-lesson-01",
+      "number": 8,
+      "type": "multiple",
+      "question": "Chọn các cặp quyền thuật – đặc điểm đúng theo lời bài.",
+      "options": [
+        "Hầu quyền: nhanh nhẹn, linh hoạt, chờn vờn, nhảy nhót.",
+        "Hổ quyền: mạnh mẽ, dữ dội, chụp bắt, tấn công chớp nhoáng.",
+        "Mã quyền: giả thua, lùi tránh rồi bất ngờ phản công.",
+        "Điểu quyền: tấn công bất ngờ từ trên cao, hư thực khó lường.",
+        "Xà quyền: uốn lượn linh hoạt, né tránh nhanh và tấn công bất ngờ.",
+        "Ngưu quyền: dũng mãnh, dùng sức mạnh toàn thân để húc, khóa và áp đảo đối phương.",
+        "Hầu quyền: nhanh nhẹn, linh hoạt, né tránh nhanh, nhảy nhót.",
+        "Hổ quyền: mạnh mẽ, dữ dội, húc khóa, tấn công chớp nhoáng.",
+        "Mã quyền: giả thua, lùi tránh rồi bất ngờ chụp bắt.",
+        "Điểu quyền: tấn công chớp nhoáng từ trên cao, hư thực khó lường.",
+        "Xà quyền: uốn lượn linh hoạt, chờn vờn và tấn công bất ngờ.",
+        "Ngưu quyền: dũng mãnh, dùng sức mạnh toàn thân để húc, chụp và áp đảo đối phương."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "explanation": "Sáu cặp đúng giữ nguyên đặc điểm của Hầu, Hổ, Mã, Điểu, Xà và Ngưu quyền trong lời bài.",
+      "sourceQuestion": "Câu 6. Các loại Hầu quyền, Hổ quyền, Mã quyền, Điểu quyền, Xà quyền, Ngưu quyền có những đặc điểm gì?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c06-02",
+      "lessonId": "red-lesson-01",
+      "number": 9,
+      "type": "single",
+      "question": "Quyền thuật nào có đặc điểm “giả thua, lùi tránh rồi bất ngờ phản công”?",
+      "options": [
+        "Mã quyền.",
+        "Hầu quyền.",
+        "Điểu quyền.",
+        "Xà quyền."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là đặc điểm của Mã quyền.",
+      "sourceQuestion": "Câu 6. Các loại Hầu quyền, Hổ quyền, Mã quyền, Điểu quyền, Xà quyền, Ngưu quyền có những đặc điểm gì?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c06-03",
+      "lessonId": "red-lesson-01",
+      "number": 10,
+      "type": "single",
+      "question": "Đặc điểm đúng của Ngưu quyền là gì?",
+      "options": [
+        "Dũng mãnh, dùng sức mạnh toàn thân để húc, khóa và áp đảo đối phương.",
+        "Dũng mãnh, dùng sức mạnh toàn thân để húc, chụp và áp đảo đối phương.",
+        "Dũng mãnh, dùng sức mạnh thân trên để húc, khóa và áp đảo đối phương.",
+        "Mạnh mẽ, dùng sức mạnh toàn thân để húc, khóa và áp đảo đối phương."
+      ],
+      "correctIndex": 0,
+      "explanation": "Ngưu quyền dũng mãnh, dùng sức mạnh toàn thân để húc, khóa và áp đảo đối phương.",
+      "sourceQuestion": "Câu 6. Các loại Hầu quyền, Hổ quyền, Mã quyền, Điểu quyền, Xà quyền, Ngưu quyền có những đặc điểm gì?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c06-04",
+      "lessonId": "red-lesson-01",
+      "number": 11,
+      "type": "single",
+      "question": "Quyền thuật nào tấn công bất ngờ từ trên cao, hư thực khó lường?",
+      "options": [
+        "Điểu quyền.",
+        "Hổ quyền.",
+        "Xà quyền.",
+        "Hầu quyền."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là đặc điểm của Điểu quyền.",
+      "sourceQuestion": "Câu 6. Các loại Hầu quyền, Hổ quyền, Mã quyền, Điểu quyền, Xà quyền, Ngưu quyền có những đặc điểm gì?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c07-01",
+      "lessonId": "red-lesson-01",
+      "number": 12,
+      "type": "single",
+      "question": "Điều gì làm ý thức dụng võ chống cầm thú chuyển thành ý thức lập võ chống người?",
+      "options": [
+        "Những mâu thuẫn trong đời sống xã hội thị tộc như tranh chấp hôn nhân, tài sản, quyền lãnh đạo và các quyền lợi khác.",
+        "Những mâu thuẫn trong đời sống xã hội thị tộc như tranh chấp gia đình, tài sản, quyền lãnh đạo và các quyền lợi khác.",
+        "Những mâu thuẫn trong đời sống xã hội thị tộc như tranh chấp hôn nhân, lãnh thổ, quyền lãnh đạo và các quyền lợi khác.",
+        "Những mâu thuẫn trong đời sống cộng đồng thị tộc như tranh chấp hôn nhân, tài sản, quyền lãnh đạo và các quyền lợi khác."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lời bài nêu các mâu thuẫn xã hội thị tộc về hôn nhân, tài sản, quyền lãnh đạo và những quyền lợi khác.",
+      "sourceQuestion": "Câu 7. Do đâu ý thức dụng võ chống với cầm thú được chuyển sang ý thức lập võ chống với người?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c08-01",
+      "lessonId": "red-lesson-01",
+      "number": 13,
+      "type": "single",
+      "question": "Kỹ thuật hỗn đấu phát sinh do đâu?",
+      "options": [
+        "Do nhu cầu bảo vệ quyền lợi thị tộc và sự gia tăng tranh chấp giữa các nhóm người, nhằm đáp ứng chiến đấu trong xung đột có nhiều người tham gia.",
+        "Do nhu cầu bảo vệ lợi ích thị tộc và sự gia tăng tranh chấp giữa các nhóm người, nhằm đáp ứng chiến đấu trong xung đột có nhiều người tham gia.",
+        "Do nhu cầu bảo vệ quyền lợi thị tộc và sự gia tăng mâu thuẫn giữa các nhóm người, nhằm đáp ứng chiến đấu trong xung đột có nhiều người tham gia.",
+        "Do nhu cầu bảo vệ quyền lợi thị tộc và sự gia tăng tranh chấp giữa các nhóm người, nhằm đáp ứng tự vệ trong xung đột có nhiều người tham gia."
+      ],
+      "correctIndex": 0,
+      "explanation": "Hai nguyên nhân trực tiếp là bảo vệ quyền lợi thị tộc và tranh chấp giữa các nhóm người gia tăng.",
+      "sourceQuestion": "Câu 8. Do đâu phát sinh ra kỹ thuật hỗn đấu?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c09-01",
+      "lessonId": "red-lesson-01",
+      "number": 14,
+      "type": "single",
+      "question": "Mốc và nhân vật nào đúng về việc võ học Việt Nam thâm nhập binh pháp?",
+      "options": [
+        "Từ thời đại đồ sắt; Lý Thường Kiệt là một trong những binh pháp gia tiêu biểu đầu tiên của dân tộc.",
+        "Từ thời đại đồ đồng; Lý Thường Kiệt là một trong những binh pháp gia tiêu biểu đầu tiên của dân tộc.",
+        "Từ thời đại đồ sắt; Lý Thường Kiệt là binh pháp gia tiêu biểu đầu tiên duy nhất của dân tộc.",
+        "Từ thời đại đồ sắt; Lý Thường Kiệt là một trong những võ học gia tiêu biểu đầu tiên của dân tộc."
+      ],
+      "correctIndex": 0,
+      "explanation": "Tại Việt Nam, từ thời đại đồ sắt võ học dần thâm nhập binh pháp; Lý Thường Kiệt được xem là một trong những binh pháp gia tiêu biểu đầu tiên.",
+      "sourceQuestion": "Câu 9. Thời đại nào đã mở màn cho võ học thâm nhập vào binh pháp? Binh pháp gia tiêu biểu đầu tiên của Việt Nam là ai?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c10-01",
+      "lessonId": "red-lesson-01",
+      "number": 15,
+      "type": "multiple",
+      "question": "Ba phẩm tính của Võ học Việt Nam là gì?",
+      "options": [
+        "Phù hợp với thể tạng người Việt Nam và điều kiện địa lý của đất nước.",
+        "Cương nhu phối triển.",
+        "Tiếp thu, chọn lọc, kết hợp tinh hoa nhiều nền võ học nhưng vẫn giữ bản sắc riêng của dân tộc Việt Nam.",
+        "Phù hợp với thể lực người Việt Nam và điều kiện địa lý của đất nước.",
+        "Cương nhu phối hợp.",
+        "Tiếp thu, chọn lựa, kết hợp tinh hoa nhiều nền võ học nhưng vẫn giữ truyền thống riêng của dân tộc Việt Nam."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Ba phẩm tính đúng là phù hợp thể tạng và địa lý, cương nhu phối triển, cùng tiếp thu chọn lọc tinh hoa mà vẫn giữ bản sắc riêng.",
+      "sourceQuestion": "Câu 10. Truyền thống Võ học Việt Nam ra sao? Có mấy phẩm tính?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c10-02",
+      "lessonId": "red-lesson-01",
+      "number": 16,
+      "type": "single",
+      "question": "Khái quát nào đúng về truyền thống Võ học Việt Nam?",
+      "options": [
+        "Rất phong phú, đậm bản sắc dân tộc, hình thành qua quá trình dựng nước và giữ nước của cha ông.",
+        "Rất phong phú, đậm truyền thống dân tộc, hình thành qua quá trình dựng nước và giữ nước của cha ông.",
+        "Rất phong phú, đậm bản sắc dân tộc, hình thành qua quá trình xây dựng và bảo vệ đất nước của cha ông.",
+        "Rất đa dạng, đậm bản sắc dân tộc, hình thành qua quá trình dựng nước và giữ nước của cha ông."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lời bài xác định truyền thống Võ học Việt Nam rất phong phú, mang đậm bản sắc dân tộc và hình thành qua dựng nước, giữ nước.",
+      "sourceQuestion": "Câu 10. Truyền thống Võ học Việt Nam ra sao? Có mấy phẩm tính?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c11-01",
+      "lessonId": "red-lesson-01",
+      "number": 17,
+      "type": "single",
+      "question": "Vì sao Võ học Việt Nam tổng hợp được tinh hoa nhiều nền võ học, và tổng hợp theo chiều hướng nào?",
+      "options": [
+        "Nhờ vị trí địa lý thuận lợi và giao lưu lâu dài với nhiều nền văn hóa; tiếp thu điểm hay, tiến bộ, phù hợp để làm phong phú võ học dân tộc nhưng vẫn giữ bản sắc riêng.",
+        "Nhờ điều kiện địa lý thuận lợi và giao lưu lâu dài với nhiều nền văn hóa; tiếp thu điểm hay, tiến bộ, phù hợp để làm phong phú võ học dân tộc nhưng vẫn giữ bản sắc riêng.",
+        "Nhờ vị trí địa lý thuận lợi và tiếp xúc lâu dài với nhiều nền văn hóa; tiếp thu điểm hay, tiến bộ, phù hợp để làm phong phú võ học dân tộc nhưng vẫn giữ bản sắc riêng.",
+        "Nhờ vị trí địa lý thuận lợi và giao lưu lâu dài với nhiều nền văn hóa; tiếp thu điểm mạnh, tiến bộ, phù hợp để làm phong phú võ học dân tộc nhưng vẫn giữ bản sắc riêng."
+      ],
+      "correctIndex": 0,
+      "explanation": "Nguyên nhân là vị trí địa lý thuận lợi và giao lưu văn hóa lâu dài; chiều hướng là tiếp thu chọn lọc điểm hay, tiến bộ, phù hợp nhưng giữ bản sắc.",
+      "sourceQuestion": "Câu 11. Vì đâu Võ học Việt Nam đã tổng hợp và kết hợp được tinh hoa của nhiều nền võ học trên thế giới? Và đã tổng hợp theo chiều hướng nào?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c11-02",
+      "lessonId": "red-lesson-01",
+      "number": 18,
+      "type": "single",
+      "question": "Khi tiếp thu tinh hoa võ học thế giới, Võ học Việt Nam giữ nguyên tắc nào?",
+      "options": [
+        "Làm phong phú nền võ học dân tộc, đồng thời vẫn giữ vững bản sắc riêng của mình.",
+        "Làm phát triển nền võ học dân tộc, đồng thời vẫn giữ vững bản sắc riêng của mình.",
+        "Làm phong phú nền võ học dân tộc, đồng thời vẫn giữ gìn truyền thống riêng của mình.",
+        "Làm phong phú nền võ học đất nước, đồng thời vẫn giữ vững bản sắc riêng của mình."
+      ],
+      "correctIndex": 0,
+      "explanation": "Chiều hướng tổng hợp là làm phong phú nền võ học dân tộc đồng thời giữ vững bản sắc riêng.",
+      "sourceQuestion": "Câu 11. Vì đâu Võ học Việt Nam đã tổng hợp và kết hợp được tinh hoa của nhiều nền võ học trên thế giới? Và đã tổng hợp theo chiều hướng nào?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c12-01",
+      "lessonId": "red-lesson-01",
+      "number": 19,
+      "type": "multiple",
+      "question": "Theo lời bài, võ thuật đem lại những lợi ích nào?",
+      "options": [
+        "Rèn thân thể khỏe mạnh, tinh thần vững vàng, ý chí kiên cường, trí tuệ minh mẫn.",
+        "Giúp tự vệ, bảo vệ lẽ phải, sống có kỷ luật và trách nhiệm.",
+        "Góp phần xây dựng, bảo vệ gia đình, xã hội và đất nước.",
+        "Rèn thân thể khỏe mạnh, tinh thần vững vàng, ý chí bền bỉ, trí tuệ minh mẫn.",
+        "Giúp tự vệ, bảo vệ chính nghĩa, sống có kỷ luật và trách nhiệm.",
+        "Góp phần xây dựng, bảo vệ cộng đồng, xã hội và đất nước."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Lợi ích gồm rèn thân, tâm, ý chí, trí tuệ; tự vệ, bảo vệ lẽ phải, sống kỷ luật, trách nhiệm; đóng góp cho gia đình, xã hội, đất nước.",
+      "sourceQuestion": "Câu 12. Võ thuật có lợi ích gì?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c13-01",
+      "lessonId": "red-lesson-01",
+      "number": 20,
+      "type": "single",
+      "question": "Vì sao võ thuật vẫn hữu dụng trong thời đại khoa học kỹ thuật phát triển?",
+      "options": [
+        "Vì vừa rèn sức khỏe, tự vệ, vừa bồi dưỡng ý chí, dũng cảm, bình tĩnh, kỷ luật và làm chủ bản thân; phương tiện hiện đại không thay thế được sức mạnh tinh thần, bản lĩnh và nhân cách.",
+        "Vì vừa rèn sức khỏe, tự vệ, vừa bồi dưỡng ý chí, dũng cảm, kiên nhẫn, kỷ luật và làm chủ bản thân; phương tiện hiện đại không thay thế được sức mạnh tinh thần, bản lĩnh và nhân cách.",
+        "Vì vừa rèn sức khỏe, chiến đấu, vừa bồi dưỡng ý chí, dũng cảm, bình tĩnh, kỷ luật và làm chủ bản thân; phương tiện hiện đại không thay thế được sức mạnh tinh thần, bản lĩnh và nhân cách.",
+        "Vì vừa rèn sức khỏe, tự vệ, vừa bồi dưỡng ý chí, dũng cảm, bình tĩnh, kỷ luật và hoàn thiện bản thân; phương tiện hiện đại không thay thế được sức mạnh tinh thần, bản lĩnh và nhân cách."
+      ],
+      "correctIndex": 0,
+      "explanation": "Khoa học không thể thay thế sức mạnh tinh thần, bản lĩnh, nhân cách; võ thuật còn rèn sức khỏe, tự vệ, ý chí, dũng cảm, bình tĩnh, kỷ luật và tự chủ.",
+      "sourceQuestion": "Câu 13. Thời nay võ thuật còn hữu dụng nữa không?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c13-02",
+      "lessonId": "red-lesson-01",
+      "number": 21,
+      "type": "single",
+      "question": "Nhận định nào đúng theo lời bài về khoa học và võ thuật?",
+      "options": [
+        "Khoa học tạo ra phương tiện hiện đại nhưng không thể thay thế sức mạnh tinh thần, bản lĩnh và nhân cách con người.",
+        "Khoa học tạo ra công cụ hiện đại nhưng không thể thay thế sức mạnh tinh thần, bản lĩnh và nhân cách con người.",
+        "Khoa học tạo ra phương tiện hiện đại nhưng không thể thay thế ý chí tinh thần, bản lĩnh và nhân cách con người.",
+        "Khoa học tạo ra phương tiện hiện đại nhưng không thể thay thế sức mạnh tinh thần, dũng khí và nhân cách con người."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là lý do võ thuật vẫn có vai trò trong việc hoàn thiện con người ở mọi thời đại.",
+      "sourceQuestion": "Câu 13. Thời nay võ thuật còn hữu dụng nữa không?",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c14-01",
+      "lessonId": "red-lesson-01",
+      "number": 22,
+      "type": "single",
+      "question": "Xuất xứ nào của Song Tuyết Kiếm đúng theo lời bài?",
+      "options": [
+        "Bài binh khí đôi quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam, thuộc Nam Hồng Sơn của Hội Võ thuật Hà Nội.",
+        "Bài binh khí đôi quy định của Hội Võ thuật Cổ truyền Việt Nam, thuộc Nam Hồng Sơn của Liên đoàn Võ thuật Hà Nội.",
+        "Bài song kiếm quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam, thuộc Nam Hồng Sơn của Hội Võ thuật Hà Nội.",
+        "Bài binh khí đôi quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam, thuộc môn phái Hồng Sơn của Hội Võ thuật Hà Nội."
+      ],
+      "correctIndex": 0,
+      "explanation": "Song Tuyết Kiếm là bài binh khí đôi quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam, thuộc Nam Hồng Sơn của Hội Võ thuật Hà Nội.",
+      "sourceQuestion": "Câu 14. Nêu xuất xứ bài quyền quy định quốc gia Song Tuyết Kiếm.",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c14-02",
+      "lessonId": "red-lesson-01",
+      "number": 23,
+      "type": "single",
+      "question": "Thông tin nào đúng về người sáng lập và kế thừa Nam Hồng Sơn?",
+      "options": [
+        "Nguyễn Nguyên Tộ (1895–1984) sáng lập; sau năm 1984, Nguyễn Tỵ kế thừa và phát triển.",
+        "Nguyễn Nguyên Tộ (1895–1984) sáng lập; từ năm 1984, Nguyễn Tỵ kế thừa và phát triển.",
+        "Nguyễn Nguyên Tộ (1895–1984) sáng lập; sau năm 1984, Nguyễn Tỵ tiếp nối và phát triển.",
+        "Nguyễn Nguyên Tộ (1895–1984) sáng lập; sau năm 1984, Nguyễn Tỵ kế thừa và phổ biến."
+      ],
+      "correctIndex": 0,
+      "explanation": "Nam Hồng Sơn do cố Võ sư Nguyễn Nguyên Tộ sáng lập; sau năm 1984 Võ sư Nguyễn Tỵ kế thừa và phát triển.",
+      "sourceQuestion": "Câu 14. Nêu xuất xứ bài quyền quy định quốc gia Song Tuyết Kiếm.",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c14-03",
+      "lessonId": "red-lesson-01",
+      "number": 24,
+      "type": "single",
+      "question": "Nam Hồng Sơn được sáng lập trên cơ sở nào?",
+      "options": [
+        "Kết hợp tinh hoa võ thuật cổ truyền Việt Nam và võ thuật Trung Hoa.",
+        "Kết hợp tinh hoa võ học cổ truyền Việt Nam và võ thuật Trung Hoa.",
+        "Kết hợp võ thuật cổ truyền Việt Nam và tinh hoa võ thuật Trung Hoa.",
+        "Kết hợp tinh hoa võ thuật dân tộc Việt Nam và võ thuật Trung Hoa."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lời bài ghi rõ cơ sở là kết hợp tinh hoa võ thuật cổ truyền Việt Nam và võ thuật Trung Hoa.",
+      "sourceQuestion": "Câu 14. Nêu xuất xứ bài quyền quy định quốc gia Song Tuyết Kiếm.",
+      "rankId": "hong-1",
+      "beltId": "red"
+    },
+    {
+      "id": "hong-1-c14-04",
+      "lessonId": "red-lesson-01",
+      "number": 25,
+      "type": "poem",
+      "question": "Điền các câu thiệu còn thiếu của Song Tuyết Kiếm:\nBình thân\n__________\nTiên ông chỉ lộ\n__________\nSong long xuất thủy\n__________\nBạch hạc đạt tuyết\n__________\nSong long xuất thủy\n__________\nTà phong tảo diệp\n__________\nLuân thân hồi kiếm\n__________\nSong long xuất thủy\n__________\nLuân thân hồi kiếm\n__________\nBạch xà luân thân\n__________\nSong long xuất thủy\n__________\nLuân thân hồi kiếm\n__________\nBạch xà luân thân\n__________\nPhượng lập sơn đầu\n__________\nMa vương trá tẩu\n__________\nPhốc bộ phi cước\n__________\nHoành phong tảo địa\n__________\nĐiểu trá yến phi\n__________\nLoan kiếm tuyết hoa\n__________\nSong long xuất thủy\n__________",
+      "options": [
+        "Bái tổ kính sư",
+        "Song long hợp khẩu",
+        "Tam bộ loan kiếm",
+        "Thiết ngưu chuyển giác (2 lần)",
+        "Song long bảo nguyệt",
+        "Hoành phong tảo địa",
+        "Thiết ngưu chuyển giác",
+        "Loan kiếm tuyết hoa",
+        "Tả hữu loan kiếm",
+        "Song long xuất hải",
+        "Ẩn long phục thế",
+        "Bạch xà luân thân",
+        "Bạch long triều nguyệt",
+        "Bái tổ lập như tiền",
+        "Bái tổ tôn sư",
+        "Song long hợp thủ",
+        "Tam bộ luân kiếm",
+        "Thiết ngưu hồi giác (2 lần)",
+        "Song long hộ nguyệt",
+        "Hoành phong quét địa",
+        "Thiết ngưu hồi giác",
+        "Loan kiếm phi hoa",
+        "Tam bộ chuyển kiếm",
+        "Thiết ngưu chuyển thân",
+        "Loan kiếm tuyết nguyệt",
+        "Tam bộ hồi kiếm",
+        "Tả hữu luân kiếm",
+        "Song long nhập hải",
+        "Ẩn long tàng thế",
+        "Tam bộ chuyển giác",
+        "Thiết ngưu loan kiếm",
+        "Song long chuyển giác",
+        "Loan kiếm xuất hải",
+        "Tả hữu thu môn",
+        "Ngũ phong khai bộ"
+      ],
+      "blanks": [
+        "Bái tổ kính sư",
+        "Song long hợp khẩu",
+        "Tam bộ loan kiếm",
+        "Thiết ngưu chuyển giác (2 lần)",
+        "Song long bảo nguyệt",
+        "Hoành phong tảo địa",
+        "Thiết ngưu chuyển giác",
+        "Loan kiếm tuyết hoa",
+        "Tam bộ loan kiếm",
+        "Thiết ngưu chuyển giác",
+        "Loan kiếm tuyết hoa",
+        "Tam bộ loan kiếm",
+        "Tả hữu loan kiếm",
+        "Song long xuất hải",
+        "Ẩn long phục thế",
+        "Song long xuất hải",
+        "Bạch xà luân thân",
+        "Thiết ngưu chuyển giác",
+        "Bạch long triều nguyệt",
+        "Bái tổ lập như tiền"
+      ],
+      "explanation": "Các chỗ trống là nguyên câu thiệu theo đúng trình tự toàn bài Song Tuyết Kiếm.",
+      "sourceQuestion": "Câu 14. Nêu xuất xứ bài quyền quy định quốc gia Song Tuyết Kiếm.",
+      "rankId": "hong-1",
+      "beltId": "red"
+    }
+  ]
+}

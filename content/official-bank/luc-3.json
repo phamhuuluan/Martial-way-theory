@@ -1,0 +1,510 @@
+{
+  "rankId": "luc-3",
+  "beltId": "green",
+  "lessonId": "green-lesson-03",
+  "questions": [
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Tác phong là gì»?",
+      "options": [
+        "Tác: làm; Phong: phong thái, dáng vẻ.",
+        "Tác phong là dáng vẻ, cách cư xử và làm việc của con người, biểu hiện qua lời nói, cử chỉ, cách ăn mặc, đi đứng và ứng xử trong sinh hoạt hằng ngày.",
+        "Tác phong là những biểu hiện bên ngoài phản ánh phẩm chất và nhân cách của một con người.",
+        "Tác phong là dáng vẻ, cách cư xử hoặc làm việc của con người, biểu hiện qua lời nói, cử chỉ, cách ăn mặc, đi đứng và ứng xử trong sinh hoạt hằng ngày.",
+        "Tác phong là dáng vẻ, biểu hiện qua lời nói, cử chỉ, cách ăn mặc, đi đứng và ứng xử trong sinh hoạt hằng ngày.",
+        "Tác phong là dáng vẻ, cách cư xử và làm việc của con người, cử chỉ, cách ăn mặc, đi đứng và ứng xử trong sinh hoạt hằng ngày."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Tác: làm; Phong: phong thái, dáng vẻ. Tác phong là dáng vẻ, cách cư xử và làm việc của con người, biểu hiện qua lời nói, cử chỉ, cách ăn mặc, đi đứng và ứng xử trong sinh hoạt hằng ngày. Tác phong là những biểu hiện bên ngoài phản ánh phẩm chất và nhân cách của một con người.",
+      "sourceQuestion": "Câu 1. Tác phong là gì?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q001",
+      "number": 1
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Phải giữ gìn tác phong vào lúc nào, ở đâu? Tại sao»?",
+      "options": [
+        "Phải giữ gìn tác phong ở mọi nơi, mọi lúc và trong mọi hoàn cảnh.",
+        "Mọi người thường nhìn vào tác phong của Võ sinh Phật Quang Quyền để đánh giá phẩm cách của người môn sinh và danh dự của môn phái.",
+        "Phải luôn tránh điều xấu, làm điều tốt, giữ gìn tác phong gương mẫu để xứng đáng với danh hiệu Võ sinh Phật Quang Quyền.",
+        "Phải giữ gìn tác phong ở một số nơi, mọi lúc và trong mọi hoàn cảnh.",
+        "có thể giữ gìn tác phong ở mọi nơi, mọi lúc và trong mọi hoàn cảnh.",
+        "Phải giữ gìn tác phong ở mọi nơi, mọi lúc hoặc trong mọi hoàn cảnh."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Phải giữ gìn tác phong ở mọi nơi, mọi lúc và trong mọi hoàn cảnh. Mọi người thường nhìn vào tác phong của Võ sinh Phật Quang Quyền để đánh giá phẩm cách của người môn sinh và danh dự của môn phái. Phải luôn tránh điều xấu, làm điều tốt, giữ gìn tác phong gương mẫu để xứng đáng với danh hiệu Võ sinh Phật Quang Quyền.",
+      "sourceQuestion": "Câu 2. Phải giữ gìn tác phong vào lúc nào, ở đâu? Tại sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q002",
+      "number": 2
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Có mấy điều xấu cần tránh», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Tránh huênh hoang; Tránh dèm pha»?",
+      "options": [
+        "Tránh huênh hoang, tự đắc vì mình biết võ.",
+        "Tránh dèm pha, nói xấu các võ phái khác.",
+        "khuyến khích huênh hoang, tự đắc vì mình biết võ.",
+        "Tránh khiêm nhường, tự đắc vì mình biết võ."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Tránh huênh hoang, tự đắc vì mình biết võ. Tránh dèm pha, nói xấu các võ phái khác.",
+      "sourceQuestion": "Câu 3. Có mấy điều xấu cần tránh?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q003",
+      "number": 3
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Có mấy điều xấu cần tránh», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Tránh mọi hành động khiêu khích; Tránh những sự đụng độ vô lý; Tránh tinh thần quốc gia quá khích»?",
+      "options": [
+        "Tránh mọi hành động khiêu khích, gây hiểu lầm cho môn phái.",
+        "Tránh những sự đụng độ vô lý chỉ để phô trương bản thân.",
+        "Tránh tinh thần quốc gia quá khích, bài xích các môn võ nước ngoài.",
+        "khuyến khích huênh hoang, tự đắc vì mình biết võ.",
+        "Tránh khiêm nhường, tự đắc vì mình biết võ.",
+        "khuyến khích dèm pha, nói xấu các võ phái khác."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Tránh mọi hành động khiêu khích, gây hiểu lầm cho môn phái. Tránh những sự đụng độ vô lý chỉ để phô trương bản thân. Tránh tinh thần quốc gia quá khích, bài xích các môn võ nước ngoài.",
+      "sourceQuestion": "Câu 3. Có mấy điều xấu cần tránh?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q004",
+      "number": 4
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Có mấy điều tốt nên làm», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Thực hành tinh thần Võ đạo Phật; Xây dựng tình thân hữu với các»?",
+      "options": [
+        "Thực hành tinh thần Võ đạo Phật Quang Quyền trong đời sống.",
+        "Xây dựng tình thân hữu với các võ phái khác để cùng phát triển võ đạo và võ thuật.",
+        "Xây dựng tình thân hữu với các võ phái khác để cùng phát triển võ đạo hoặc võ thuật.",
+        "thu hẹp tình thân hữu với các võ phái khác để cùng phát triển võ đạo và võ thuật."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Thực hành tinh thần Võ đạo Phật Quang Quyền trong đời sống. Xây dựng tình thân hữu với các võ phái khác để cùng phát triển võ đạo và võ thuật.",
+      "sourceQuestion": "Câu 4. Có mấy điều tốt nên làm?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q005",
+      "number": 5
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Có mấy điều tốt nên làm», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Thấy việc phải thì chủ động làm; Can đảm nhận trách nhiệm; Không ngừng ôn luyện và học hỏi»?",
+      "options": [
+        "Thấy việc phải thì chủ động làm, không chờ nhắc nhở.",
+        "Can đảm nhận trách nhiệm, tận tâm giúp đỡ người khác, không so bì hơn thiệt.",
+        "Không ngừng ôn luyện và học hỏi để tiến bộ.",
+        "Xây dựng tình thân hữu với các võ phái khác để cùng phát triển võ đạo hoặc võ thuật.",
+        "thu hẹp tình thân hữu với các võ phái khác để cùng phát triển võ đạo và võ thuật.",
+        "Xây dựng tình thân hữu với các võ phái khác để cùng ngưng trệ võ đạo và võ thuật."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Thấy việc phải thì chủ động làm, không chờ nhắc nhở. Can đảm nhận trách nhiệm, tận tâm giúp đỡ người khác, không so bì hơn thiệt. Không ngừng ôn luyện và học hỏi để tiến bộ.",
+      "sourceQuestion": "Câu 4. Có mấy điều tốt nên làm?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q006",
+      "number": 6
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Tác phong của Võ sinh Phật Quang Quyền khi học tập ra sao»?",
+      "options": [
+        "Tôn trọng kỷ luật: Tự giác chấp hành nội quy của môn phái, võ đường và câu lạc bộ.",
+        "Kính thầy: Lễ phép với Võ sư, Huấn luyện viên; chăm chú học tập và nghiêm túc thực hiện sự hướng dẫn.",
+        "Yêu bạn: Hòa nhã, đoàn kết với đồng môn; biết giúp đỡ, khuyến khích nhau cùng tiến bộ; không tranh cãi, đố kỵ hay thù hằn.",
+        "Tôn trọng kỷ luật: Tự giác chấp hành nội quy của môn phái, võ đường hoặc câu lạc bộ.",
+        "xem nhẹ kỷ luật: Tự giác chấp hành nội quy của môn phái, võ đường và câu lạc bộ.",
+        "Tôn trọng tùy tiện: Tự giác chấp hành nội quy của môn phái, võ đường và câu lạc bộ."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Tôn trọng kỷ luật: Tự giác chấp hành nội quy của môn phái, võ đường và câu lạc bộ. Kính thầy: Lễ phép với Võ sư, Huấn luyện viên; chăm chú học tập và nghiêm túc thực hiện sự hướng dẫn. Yêu bạn: Hòa nhã, đoàn kết với đồng môn; biết giúp đỡ, khuyến khích nhau cùng tiến bộ; không tranh cãi, đố kỵ hay thù hằn.",
+      "sourceQuestion": "Câu 5. Tác phong của Võ sinh Phật Quang Quyền khi học tập ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q007",
+      "number": 7
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Tác phong của Võ sinh Phật Quang Quyền trong gia đình ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Kính mến người trên; Yêu mến người đồng hàng»?",
+      "options": [
+        "Kính mến người trên: Hiếu thuận, vâng lời và hết lòng phụng dưỡng ông bà, cha mẹ cùng những người lớn tuổi trong gia đình.",
+        "Yêu mến người đồng hàng: Hòa thuận, nhường nhịn, quan tâm và giúp đỡ anh chị em trong gia đình.",
+        "Kính mến người trên: Hiếu thuận, vâng lời hoặc hết lòng phụng dưỡng ông bà, cha mẹ cùng những người lớn tuổi trong gia đình.",
+        "Kính mến người trên: Hiếu thuận, cha mẹ cùng những người lớn tuổi trong gia đình."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Kính mến người trên: Hiếu thuận, vâng lời và hết lòng phụng dưỡng ông bà, cha mẹ cùng những người lớn tuổi trong gia đình. Yêu mến người đồng hàng: Hòa thuận, nhường nhịn, quan tâm và giúp đỡ anh chị em trong gia đình.",
+      "sourceQuestion": "Câu 6. Tác phong của Võ sinh Phật Quang Quyền trong gia đình ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q008",
+      "number": 8
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Tác phong của Võ sinh Phật Quang Quyền trong gia đình ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Thương mến người dưới; Tuyệt đối không sử dụng võ lực»?",
+      "options": [
+        "Thương mến người dưới: Yêu thương, chăm sóc, dạy dỗ con cháu và đối xử ôn hòa, rộng lượng với người giúp việc.",
+        "Tuyệt đối không sử dụng võ lực để giải quyết những bất hòa trong gia đình.",
+        "Kính mến người trên: Hiếu thuận, vâng lời hoặc hết lòng phụng dưỡng ông bà, cha mẹ cùng những người lớn tuổi trong gia đình.",
+        "Kính mến người trên: Hiếu thuận, cha mẹ cùng những người lớn tuổi trong gia đình."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Thương mến người dưới: Yêu thương, chăm sóc, dạy dỗ con cháu và đối xử ôn hòa, rộng lượng với người giúp việc. Tuyệt đối không sử dụng võ lực để giải quyết những bất hòa trong gia đình.",
+      "sourceQuestion": "Câu 6. Tác phong của Võ sinh Phật Quang Quyền trong gia đình ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q009",
+      "number": 9
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Tác phong của VSPQQ khi làm việc ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Giữ tác phong con nhà võ; Tinh thần thực tiễn»?",
+      "options": [
+        "Giữ tác phong con nhà võ: thận trọng, tinh tế, sâu sắc nhưng mau lẹ; công việc rõ ràng từ lúc tính việc, vào việc đến hoàn thành.",
+        "Tinh thần thực tiễn: Nắm vững sự việc, làm việc có kế hoạch và hiệu quả.",
+        "Giữ tác phong con nhà võ: thận trọng, tinh tế, sâu sắc nhưng mau lẹ; công việc mơ hồ từ lúc tính việc, vào việc đến hoàn thành.",
+        "Giữ tác phong con nhà võ: hấp tấp, tinh tế, sâu sắc nhưng mau lẹ; công việc rõ ràng từ lúc tính việc, vào việc đến hoàn thành."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Giữ tác phong con nhà võ: thận trọng, tinh tế, sâu sắc nhưng mau lẹ; công việc rõ ràng từ lúc tính việc, vào việc đến hoàn thành. Tinh thần thực tiễn: Nắm vững sự việc, làm việc có kế hoạch và hiệu quả.",
+      "sourceQuestion": "Câu 7. Tác phong của VSPQQ khi làm việc ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q010",
+      "number": 10
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Tác phong của VSPQQ khi làm việc ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Tinh thần xung phong; Nhiệt tình; Chí công vô tư»?",
+      "options": [
+        "Tinh thần xung phong: Dám nghĩ, dám làm, không ngại khó khăn thử thách.",
+        "Nhiệt tình: Hăng hái, tận tâm với công việc và mọi người.",
+        "Chí công vô tư: Đặt lợi ích chung lên trên lợi ích riêng, công bằng, khách quan, không thành kiến, mặc cảm cá nhân.",
+        "Giữ tác phong con nhà võ: thận trọng, tinh tế, sâu sắc nhưng mau lẹ; công việc mơ hồ từ lúc tính việc, vào việc đến hoàn thành.",
+        "Giữ tác phong con nhà võ: hấp tấp, tinh tế, sâu sắc nhưng mau lẹ; công việc rõ ràng từ lúc tính việc, vào việc đến hoàn thành.",
+        "Giữ tác phong con nhà võ: thận trọng, sâu sắc nhưng mau lẹ; công việc rõ ràng từ lúc tính việc, vào việc đến hoàn thành."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Tinh thần xung phong: Dám nghĩ, dám làm, không ngại khó khăn thử thách. Nhiệt tình: Hăng hái, tận tâm với công việc và mọi người. Chí công vô tư: Đặt lợi ích chung lên trên lợi ích riêng, công bằng, khách quan, không thành kiến, mặc cảm cá nhân.",
+      "sourceQuestion": "Câu 7. Tác phong của VSPQQ khi làm việc ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q011",
+      "number": 11
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Lúc vào việc phải làm việc với tinh thần và phong cách ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Quyết tâm; Mau lẹ»?",
+      "options": [
+        "Quyết tâm: Đã quyết định thì thực hiện đến cùng.",
+        "Mau lẹ: Giải quyết công việc nhanh gọn, hiệu quả.",
+        "Mau lẹ: Giải quyết công việc nhanh gọn, tùy hứng.",
+        "Tháo vát: cứng nhắc ứng biến khi hoàn cảnh thay đổi."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Quyết tâm: Đã quyết định thì thực hiện đến cùng. Mau lẹ: Giải quyết công việc nhanh gọn, hiệu quả.",
+      "sourceQuestion": "Câu 8. Lúc vào việc phải làm việc với tinh thần và phong cách ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q012",
+      "number": 12
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Lúc vào việc phải làm việc với tinh thần và phong cách ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Tháo vát; Kiên nhẫn»?",
+      "options": [
+        "Tháo vát: Linh hoạt ứng biến khi hoàn cảnh thay đổi.",
+        "Kiên nhẫn: Không ngại khó khăn, thử thách.",
+        "Mau lẹ: Giải quyết công việc nhanh gọn, tùy hứng.",
+        "Tháo vát: cứng nhắc ứng biến khi hoàn cảnh thay đổi."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Tháo vát: Linh hoạt ứng biến khi hoàn cảnh thay đổi. Kiên nhẫn: Không ngại khó khăn, thử thách.",
+      "sourceQuestion": "Câu 8. Lúc vào việc phải làm việc với tinh thần và phong cách ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q013",
+      "number": 13
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Lúc vào việc phải làm việc với tinh thần và phong cách ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Trách nhiệm; Đồng đạo; Bất vụ lợi»?",
+      "options": [
+        "Trách nhiệm: Làm việc chu đáo và dám chịu trách nhiệm về kết quả.",
+        "Đồng đạo: Đặt lợi ích môn phái lên trên lợi ích cá nhân.",
+        "Bất vụ lợi: Phụng sự không tính toán quyền lợi riêng.",
+        "Mau lẹ: Giải quyết công việc nhanh gọn, tùy hứng.",
+        "Tháo vát: cứng nhắc ứng biến khi hoàn cảnh thay đổi.",
+        "Kiên nhẫn: Không ngại thuận lợi, thử thách."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Trách nhiệm: Làm việc chu đáo và dám chịu trách nhiệm về kết quả. Đồng đạo: Đặt lợi ích môn phái lên trên lợi ích cá nhân. Bất vụ lợi: Phụng sự không tính toán quyền lợi riêng.",
+      "sourceQuestion": "Câu 8. Lúc vào việc phải làm việc với tinh thần và phong cách ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q014",
+      "number": 14
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Lúc xong việc phải có tinh thần và phong cách ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Tự kiểm; Kiểm người»?",
+      "options": [
+        "Tự kiểm: Kiểm điểm những điều đúng và sai của bản thân để rút kinh nghiệm.",
+        "Kiểm người: Nhận xét những ưu điểm và khuyết điểm của những người cùng làm việc.",
+        "Tự kiểm: Kiểm điểm những điều đúng hoặc sai của bản thân để rút kinh nghiệm.",
+        "Kiểm người: Nhận xét những ưu điểm hoặc khuyết điểm của những người cùng làm việc."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Tự kiểm: Kiểm điểm những điều đúng và sai của bản thân để rút kinh nghiệm. Kiểm người: Nhận xét những ưu điểm và khuyết điểm của những người cùng làm việc.",
+      "sourceQuestion": "Câu 9. Lúc xong việc phải có tinh thần và phong cách ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q015",
+      "number": 15
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Trong nội dung «Lúc xong việc phải có tinh thần và phong cách ra sao», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Kiểm việc; Đúc việc»?",
+      "options": [
+        "Kiểm việc: Đánh giá những ưu điểm để phát huy và những khuyết điểm để khắc phục.",
+        "Đúc việc: Rút ra bài học kinh nghiệm để thực hiện tốt hơn nếu gặp lại công việc tương tự.",
+        "Tự kiểm: Kiểm điểm những điều đúng hoặc sai của bản thân để rút kinh nghiệm.",
+        "Kiểm người: Nhận xét những ưu điểm hoặc khuyết điểm của những người cùng làm việc."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Kiểm việc: Đánh giá những ưu điểm để phát huy và những khuyết điểm để khắc phục. Đúc việc: Rút ra bài học kinh nghiệm để thực hiện tốt hơn nếu gặp lại công việc tương tự.",
+      "sourceQuestion": "Câu 9. Lúc xong việc phải có tinh thần và phong cách ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q016",
+      "number": 16
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Tác phong của Võ sinh Phật Quang Quyền có giống với tác phong của người công dân không»?",
+      "options": [
+        "Không hoàn toàn giống nhau, nhưng có những điểm tương đồng và khác biệt.",
+        "Cả người công dân và Võ sinh Phật Quang Quyền đều hướng đến mục tiêu phụng sự dân tộc và đất nước.",
+        "Ngoài nghĩa vụ đối với dân tộc và đất nước, Võ sinh Phật Quang Quyền còn có trách nhiệm đối với môn phái, đồng môn và nhân loại.",
+        "Không hoàn toàn giống nhau, nhưng có những điểm tương đồng hoặc khác biệt.",
+        "Cả người công dân hoặc Võ sinh Phật Quang Quyền đều hướng đến mục tiêu phụng sự dân tộc và đất nước.",
+        "Cả người công dân và Võ sinh Phật Quang Quyền đều hướng đến mục tiêu trục lợi dân tộc và đất nước."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Không hoàn toàn giống nhau, nhưng có những điểm tương đồng và khác biệt. Cả người công dân và Võ sinh Phật Quang Quyền đều hướng đến mục tiêu phụng sự dân tộc và đất nước. Ngoài nghĩa vụ đối với dân tộc và đất nước, Võ sinh Phật Quang Quyền còn có trách nhiệm đối với môn phái, đồng môn và nhân loại.",
+      "sourceQuestion": "Câu 10. Tác phong của Võ sinh Phật Quang Quyền có giống với tác phong của người công dân không?",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q017",
+      "number": 17
+    },
+    {
+      "lessonId": "green-lesson-03",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Nêu xuất xứ bài Lão Mai Quyền»?",
+      "options": [
+        "Lão Mai Quyền là bài võ cổ truyền được cho là do Nhà Tây Sơn truyền bá vào Quảng Nam khoảng cuối thế kỷ XVIII.",
+        "Khoảng năm 1919, thầy Mười Bồi (Mười Địch) truyền dạy bài quyền cho võ sư Trương Chưởng; sau đó võ sư Trương Chưởng truyền lại tại võ đường Kỳ Sơn, Hội An.",
+        "Năm 1994, bài Lão Mai Quyền của võ đường Kỳ Sơn được Hội nghị chuyên môn Võ cổ truyền toàn quốc tuyển chọn và trở thành bài quyền quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam.",
+        "Khoảng năm 1919, Hội An.",
+        "Khoảng năm 1918, thầy Mười Bồi (Mười Địch) truyền dạy bài quyền cho võ sư Trương Chưởng; sau đó võ sư Trương Chưởng truyền lại tại võ đường Kỳ Sơn, Hội An.",
+        "Khoảng năm 1920, thầy Mười Bồi (Mười Địch) truyền dạy bài quyền cho võ sư Trương Chưởng; sau đó võ sư Trương Chưởng truyền lại tại võ đường Kỳ Sơn, Hội An."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Lão Mai Quyền là bài võ cổ truyền được cho là do Nhà Tây Sơn truyền bá vào Quảng Nam khoảng cuối thế kỷ XVIII. Khoảng năm 1919, thầy Mười Bồi (Mười Địch) truyền dạy bài quyền cho võ sư Trương Chưởng; sau đó võ sư Trương Chưởng truyền lại tại võ đường Kỳ Sơn, Hội An. Năm 1994, bài Lão Mai Quyền của võ đường Kỳ Sơn được Hội nghị chuyên môn Võ cổ truyền toàn quốc tuyển chọn và trở thành bài quyền quy định của Liên đoàn Võ thuật Cổ truyền Việt Nam.",
+      "sourceQuestion": "Câu 11. Nêu xuất xứ bài Lão Mai Quyền.",
+      "rankId": "luc-3",
+      "beltId": "green",
+      "id": "green-lesson-03-q018",
+      "number": 18
+    },
+    {
+      "id": "green-lesson-03-q019",
+      "lessonId": "green-lesson-03",
+      "number": 19,
+      "type": "poem",
+      "question": "Điền các câu còn thiếu vào toàn bộ lời thiệu Lão Mai Quyền:\n\nBái tổ Lão mai quyền\n__________\nLưỡng túc khinh khinh tấn bộ hoành\n__________\nPhi nhất thác, hoàn thối thanh đình\n__________\nTriển giác long tất lực lôi oanh\n__________\nHồ điệp song phi, lão bạng sanh\n__________\nVân tôn tam tảo, hổ, xà, thành.",
+      "options": [
+        "Lão mai độc thọ nhất chi vinh",
+        "Tấn nhất đoản, thối hồi lão khởi",
+        "Tàng nha hổ, dương oai thiết trảo",
+        "Lão hồi, thối toạ, liên ba biến",
+        "Nguyệt quật, song câu, lôi điển chấn",
+        "Lão túc độc thọ nhất chi vinh",
+        "Lưỡng nhất khinh khinh tấn bộ hoành",
+        "Phi nha thác, hoàn thối thanh đình",
+        "Tàng giác hổ, dương oai thiết trảo",
+        "Triển hồi, long tất lực lôi oanh",
+        "Lão điệp thối toạ, liên ba biến",
+        "Hồ quật, song phi, lão bạng sanh",
+        "Nguyệt tôn song câu, lôi điển chấn",
+        "Vân mai tam tảo, hổ, xà, thành.",
+        "Lão mai độc thối hồi lão khởi",
+        "Lưỡng túc khinh hoàn thối thanh đình",
+        "Tấn nhất đoản, dương oai thiết trảo",
+        "Phi nhất thác, tất lực lôi oanh",
+        "Tàng nha hổ, toạ, liên ba biến",
+        "Triển giác long phi, lão bạng sanh"
+      ],
+      "blanks": [
+        "Lão mai độc thọ nhất chi vinh",
+        "Tấn nhất đoản, thối hồi lão khởi",
+        "Tàng nha hổ, dương oai thiết trảo",
+        "Lão hồi, thối toạ, liên ba biến",
+        "Nguyệt quật, song câu, lôi điển chấn"
+      ],
+      "explanation": "Bái tổ Lão mai quyền\nLão mai độc thọ nhất chi vinh\nLưỡng túc khinh khinh tấn bộ hoành\nTấn nhất đoản, thối hồi lão khởi\nPhi nhất thác, hoàn thối thanh đình\nTàng nha hổ, dương oai thiết trảo\nTriển giác long tất lực lôi oanh\nLão hồi, thối toạ, liên ba biến\nHồ điệp song phi, lão bạng sanh\nNguyệt quật, song câu, lôi điển chấn\nVân tôn tam tảo, hổ, xà, thành.",
+      "sourceQuestion": "Câu 11. Nêu xuất xứ bài Lão Mai Quyền.",
+      "rankId": "luc-3",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-03-q020",
+      "lessonId": "green-lesson-03",
+      "number": 20,
+      "type": "poem",
+      "question": "Điền các câu còn thiếu vào toàn bộ lời thiệu Lão Mai Quyền:\n\nBái tổ Lão mai quyền\nLão mai độc thọ nhất chi vinh\n__________\nTấn nhất đoản, thối hồi lão khởi\n__________\nTàng nha hổ, dương oai thiết trảo\n__________\nLão hồi, thối toạ, liên ba biến\n__________\nNguyệt quật, song câu, lôi điển chấn\n__________",
+      "options": [
+        "Phi nhất thác, hoàn thối thanh đình",
+        "Triển giác long tất lực lôi oanh",
+        "Hồ điệp song phi, lão bạng sanh",
+        "Vân tôn tam tảo, hổ, xà, thành.",
+        "Lão túc độc thọ nhất chi vinh",
+        "Lưỡng nhất khinh khinh tấn bộ hoành",
+        "Phi nha thác, hoàn thối thanh đình",
+        "Tàng giác hổ, dương oai thiết trảo",
+        "Triển hồi, long tất lực lôi oanh",
+        "Lão điệp thối toạ, liên ba biến",
+        "Hồ quật, song phi, lão bạng sanh",
+        "Nguyệt tôn song câu, lôi điển chấn",
+        "Vân mai tam tảo, hổ, xà, thành.",
+        "Lão mai độc thối hồi lão khởi",
+        "Lưỡng túc khinh hoàn thối thanh đình",
+        "Tấn nhất đoản, dương oai thiết trảo",
+        "Phi nhất thác, tất lực lôi oanh",
+        "Tàng nha hổ, toạ, liên ba biến",
+        "Triển giác long phi, lão bạng sanh",
+        "Lưỡng túc khinh khinh tấn bộ hoành"
+      ],
+      "blanks": [
+        "Lưỡng túc khinh khinh tấn bộ hoành",
+        "Phi nhất thác, hoàn thối thanh đình",
+        "Triển giác long tất lực lôi oanh",
+        "Hồ điệp song phi, lão bạng sanh",
+        "Vân tôn tam tảo, hổ, xà, thành."
+      ],
+      "explanation": "Bái tổ Lão mai quyền\nLão mai độc thọ nhất chi vinh\nLưỡng túc khinh khinh tấn bộ hoành\nTấn nhất đoản, thối hồi lão khởi\nPhi nhất thác, hoàn thối thanh đình\nTàng nha hổ, dương oai thiết trảo\nTriển giác long tất lực lôi oanh\nLão hồi, thối toạ, liên ba biến\nHồ điệp song phi, lão bạng sanh\nNguyệt quật, song câu, lôi điển chấn\nVân tôn tam tảo, hổ, xà, thành.",
+      "sourceQuestion": "Câu 11. Nêu xuất xứ bài Lão Mai Quyền.",
+      "rankId": "luc-3",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-03-q021",
+      "lessonId": "green-lesson-03",
+      "number": 21,
+      "type": "single",
+      "question": "Khi học tập, nội dung nào trình bày đầy đủ nhất cách Võ sinh Phật Quang Quyền thể hiện lòng yêu bạn?",
+      "options": [
+        "Hòa nhã, đoàn kết với đồng môn; biết giúp đỡ, khuyến khích nhau cùng tiến bộ; không tranh cãi, đố kỵ hay thù hằn.",
+        "Hòa nhã, đoàn kết với đồng môn; biết giúp đỡ nhau cùng tiến bộ; không tranh cãi, đố kỵ hay thù hằn.",
+        "Hòa nhã, đoàn kết với đồng môn; biết khuyến khích nhau cùng tiến bộ; không tranh cãi, đố kỵ hay thù hằn.",
+        "Hòa nhã, đoàn kết với đồng môn; biết giúp đỡ, khuyến khích nhau; không tranh cãi, đố kỵ hay thù hằn."
+      ],
+      "correctIndex": 0,
+      "explanation": "Yêu bạn: Hòa nhã, đoàn kết với đồng môn; biết giúp đỡ, khuyến khích nhau cùng tiến bộ; không tranh cãi, đố kỵ hay thù hằn.",
+      "sourceQuestion": "Câu 5. Tác phong của Võ sinh Phật Quang Quyền khi học tập ra sao?",
+      "rankId": "luc-3",
+      "beltId": "green"
+    }
+  ]
+}

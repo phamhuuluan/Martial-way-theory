@@ -6,7 +6,7 @@ import { buildRankBank } from './lib/exam-bank-build.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const quizDir = path.join(root, 'content', 'quizzes');
 const contentDir = path.join(root, 'content');
-const bankDir = path.join(contentDir, 'exam-bank');
+const bankDir = path.join(contentDir, 'practice-bank');
 
 /** Một ngân hàng cho mỗi cấp có bài lý thuyết. Khớp promotionLessonId trong lib/belt-ranks.ts. */
 const RANK_LESSONS = [
@@ -51,7 +51,6 @@ for (const [rankId, beltId, lessonId] of RANK_LESSONS) {
     lessonId,
     mdx: fs.readFileSync(lessonPath(lessonId), 'utf-8'),
     quiz: readJson(path.join(quizDir, `${lessonId}.json`)),
-    target: 60,
   });
   const fileName = `${rankId}.json`;
   fs.writeFileSync(path.join(bankDir, fileName), `${JSON.stringify(bank, null, 2)}\n`);

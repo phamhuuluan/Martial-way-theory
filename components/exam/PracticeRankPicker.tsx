@@ -5,6 +5,7 @@ import { ExamRankLink } from '@/components/exam/ExamRankLink';
 interface PracticeRankPickerProps {
   catalog: PracticeCatalogEntry[];
   hrefBase: string;
+  showQuestionCount?: boolean;
   showDuration?: boolean;
   clearExitRedirect?: boolean;
 }
@@ -12,6 +13,7 @@ interface PracticeRankPickerProps {
 export function PracticeRankPicker({
   catalog,
   hrefBase,
+  showQuestionCount = true,
   showDuration = false,
   clearExitRedirect = false,
 }: PracticeRankPickerProps) {
@@ -35,13 +37,16 @@ export function PracticeRankPicker({
                 >
                   <span>
                     <span className="block font-medium">{rank.fullName}</span>
-                    <span className="mt-1 block text-sm text-text-secondary">
-                      {rank.drawCount} câu
-                      {showDuration ? ` · ${rank.durationMinutes} phút` : ''}
-                      {rank.bankCount < rank.questionCount
-                        ? ` · ngân hàng ${rank.bankCount} câu`
-                        : ''}
-                    </span>
+                    {(showQuestionCount || showDuration) && (
+                      <span className="mt-1 block text-sm text-text-secondary">
+                        {showQuestionCount ? `${rank.drawCount} câu` : ''}
+                        {showQuestionCount && showDuration ? ' · ' : ''}
+                        {showDuration ? `${rank.durationMinutes} phút` : ''}
+                        {showQuestionCount && rank.bankCount < rank.questionCount
+                          ? ` · ngân hàng ${rank.bankCount} câu`
+                          : ''}
+                      </span>
+                    )}
                     {rank.note ? (
                       <span className="mt-1 block text-sm text-text-secondary">{rank.note}</span>
                     ) : null}

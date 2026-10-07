@@ -34,6 +34,7 @@ var HEADERS = [
   'exitedAt',
   'examSessionId',
   'examSessionName',
+  'attemptData',
 ];
 
 var EXAM_SESSIONS_SHEET_NAME = 'exam_sessions';
@@ -128,6 +129,7 @@ function normalize(body) {
     exitedAt: text(body.exitedAt),
     examSessionId: text(body.examSessionId),
     examSessionName: text(body.examSessionName),
+    attemptData: text(body.attemptData),
   };
 }
 
@@ -330,6 +332,28 @@ function doGet(e) {
       var sessionSheet = ensureSheet(EXAM_SESSIONS_SHEET_NAME, EXAM_SESSIONS_HEADERS);
       var sessions = readExamSessions(sessionSheet);
       return respond({ ok: true, examSessions: sessions }, e);
+    }
+
+    if (action === 'getAttemptData') {
+      var id = e && e.parameter ? text(e.parameter.id) : '';
+      if (!id) return respond({ ok: false, error: 'Thiếu id bài thi.' }, e);
+      var sheet = ensureSheet(SHEET_NAME, HEADERS);
+      var values = sheet.getDataRange().getValues();
+      if (values.length <= 1) return respond({ ok: false, error: 'Không tìm thấy bài thi.' }, e);
+      var index = {};
+      values[0].forEach(function (name, column) {
+        var key = text(name);
+        if (key) index[key] = column;
+      });
+      var idCol = index['id'];
+      var dataCol = index['attemptData'];
+      if (idCol === undefined || dataCol === undefined) return respond({ ok: false, error: 'Không tìm thấy dữ liệu bài thi.' }, e);
+      for (var i = 1; i < values.length; i++) {
+        if (text(values[i][idCol]) === id) {
+          return respond({ ok: true, attemptData: text(values[i][dataCol]) }, e);
+        }
+      }
+      return respond({ ok: false, error: 'Không tìm thấy bài thi.' }, e);
     }
 
     var sheet = ensureSheet(SHEET_NAME, HEADERS);

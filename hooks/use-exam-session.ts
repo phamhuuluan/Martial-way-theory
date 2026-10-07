@@ -44,6 +44,7 @@ export function useExamSession({ mode, rankId, beltId, questions, questionCount,
   const [ready, setReady] = useState(false);
   const [index, setIndex] = useState(0);
   const [submitError, setSubmitError] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
   
   const openedRef = useRef(false);
   const submittingRef = useRef(false);
@@ -61,6 +62,7 @@ export function useExamSession({ mode, rankId, beltId, questions, questionCount,
       submittingRef.current = true;
       submitFailedRef.current = false;
       setSubmitError('');
+      setIsSubmitting(true);
 
       const finish = async () => {
         const submittedAt = new Date().toISOString();
@@ -99,6 +101,7 @@ export function useExamSession({ mode, rankId, beltId, questions, questionCount,
           submittingRef.current = false;
           submitFailedRef.current = true;
           setSubmitError(error instanceof Error ? error.message : 'Không lưu được kết quả. Hãy thử lại.');
+          setIsSubmitting(false);
           return;
         }
 
@@ -211,6 +214,7 @@ export function useExamSession({ mode, rankId, beltId, questions, questionCount,
     index,
     setIndex,
     submitError,
+    isSubmitting,
     submitDraft,
     updateAnswer,
     submitFailedRef,

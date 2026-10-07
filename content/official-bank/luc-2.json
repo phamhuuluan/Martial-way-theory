@@ -1,0 +1,473 @@
+{
+  "rankId": "luc-2",
+  "beltId": "green",
+  "lessonId": "green-lesson-02",
+  "questions": [
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Vào thời nào nền võ đạo của dân tộc Việt Nam gần hình thành qua việc thành lập giảng võ đường»?",
+      "options": [
+        "Năm 1253, dưới triều nhà Trần, Giảng Võ Đường được thành lập song song với Quốc Học Viện.",
+        "Từ đó, nền võ đạo của dân tộc Việt Nam bắt đầu tiến gần đến sự hình thành.",
+        "Năm 1253, Giảng Võ Đường được thành lập song song với Quốc Học Viện.",
+        "Năm 1252, dưới triều nhà Trần, Giảng Võ Đường được thành lập song song với Quốc Học Viện."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Năm 1253, dưới triều nhà Trần, Giảng Võ Đường được thành lập song song với Quốc Học Viện. Từ đó, nền võ đạo của dân tộc Việt Nam bắt đầu tiến gần đến sự hình thành.",
+      "sourceQuestion": "Câu 1. Vào thời nào nền võ đạo của dân tộc Việt Nam gần hình thành qua việc thành lập giảng võ đường?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q001",
+      "number": 1
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Thế nào là tính cách Tộc truyền và Bí truyền», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Tộc truyền; Bí truyền»?",
+      "options": [
+        "Tộc truyền: Chỉ dạy võ trong phạm vi thu hẹp, gồm những người trong dòng họ và một vài môn đệ tâm huyết, không truyền bá rộng rãi.",
+        "Bí truyền: Các võ sư thời xưa vẫn giữ lại một vài thế võ độc đáo để đề phòng trường hợp học trò phản thầy.",
+        "Tộc truyền: Chỉ dạy võ trong phạm vi thu hẹp, gồm những người trong dòng họ hoặc một vài môn đệ tâm huyết, không truyền bá rộng rãi.",
+        "Tộc truyền: Chỉ dạy võ trong phạm vi thu hẹp, gồm những người trong dòng họ và một vài môn đệ tâm huyết, không truyền bá hạn chế."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Tộc truyền: Chỉ dạy võ trong phạm vi thu hẹp, gồm những người trong dòng họ và một vài môn đệ tâm huyết, không truyền bá rộng rãi. Bí truyền: Các võ sư thời xưa vẫn giữ lại một vài thế võ độc đáo để đề phòng trường hợp học trò phản thầy.",
+      "sourceQuestion": "Câu 2. Hỏi: Thế nào là tính cách Tộc truyền và Bí truyền?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q002",
+      "number": 2
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Thế nào là tính cách Tộc truyền và Bí truyền», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Việc giảng dạy Bí truyền mang tính; Do đó»?",
+      "options": [
+        "Việc giảng dạy Bí truyền mang tính chất tình cảm và tùy hứng, không được xây dựng thành một chương trình huấn luyện quy mô, rõ rệt.",
+        "Do đó, nhiều môn võ và thế võ độc đáo dần mai một theo thời gian, không phát triển được.",
+        "Tộc truyền: Chỉ dạy võ trong phạm vi thu hẹp, gồm những người trong dòng họ hoặc một vài môn đệ tâm huyết, không truyền bá rộng rãi.",
+        "Tộc truyền: Chỉ dạy võ trong phạm vi thu hẹp, gồm những người trong dòng họ và một vài môn đệ tâm huyết, không truyền bá hạn chế."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Việc giảng dạy Bí truyền mang tính chất tình cảm và tùy hứng, không được xây dựng thành một chương trình huấn luyện quy mô, rõ rệt. Do đó, nhiều môn võ và thế võ độc đáo dần mai một theo thời gian, không phát triển được.",
+      "sourceQuestion": "Câu 2. Hỏi: Thế nào là tính cách Tộc truyền và Bí truyền?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q003",
+      "number": 3
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Tinh thần võ đạo của Phật Quang Quyền chủ trương có mấy phần», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Sống; Bi»?",
+      "options": [
+        "Sống: Sống với tất cả sức sống tiềm tàng trong tâm thân, luôn cố gắng kiện toàn bản thân trên ba phương diện Bi – Trí – Dũng.",
+        "Bi: Có lòng yêu thương, vị tha rộng lớn, tâm hồn cao thượng, trở thành con người toàn diện để giúp ích cho gia đình và đất nước.",
+        "Sống: Sống với một phần sức sống tiềm tàng trong tâm thân, luôn cố gắng kiện toàn bản thân trên ba phương diện Bi – Trí – Dũng.",
+        "Sống: Sống với tất cả sức sống tiềm tàng trong tâm thân, đôi khi cố gắng kiện toàn bản thân trên ba phương diện Bi – Trí – Dũng."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Sống: Sống với tất cả sức sống tiềm tàng trong tâm thân, luôn cố gắng kiện toàn bản thân trên ba phương diện Bi – Trí – Dũng. Bi: Có lòng yêu thương, vị tha rộng lớn, tâm hồn cao thượng, trở thành con người toàn diện để giúp ích cho gia đình và đất nước.",
+      "sourceQuestion": "Câu 3. Tinh thần võ đạo của Phật Quang Quyền chủ trương có mấy phần?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q004",
+      "number": 4
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Tinh thần võ đạo của Phật Quang Quyền chủ trương có mấy phần», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Trí; Dũng»?",
+      "options": [
+        "Trí: Có trí tuệ sáng suốt, hiểu đúng nhân quả, đạo lý và pháp luật.",
+        "Dũng: Rèn luyện thân thể và ý chí bằng võ thuật để vượt qua sợ hãi, tạo nên nghị lực, bản lĩnh và tinh thần cống hiến cho quê hương, đất nước.",
+        "Sống: Sống với một phần sức sống tiềm tàng trong tâm thân, luôn cố gắng kiện toàn bản thân trên ba phương diện Bi – Trí – Dũng.",
+        "Sống: Sống với tất cả sức sống tiềm tàng trong tâm thân, đôi khi cố gắng kiện toàn bản thân trên ba phương diện Bi – Trí – Dũng."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Trí: Có trí tuệ sáng suốt, hiểu đúng nhân quả, đạo lý và pháp luật. Dũng: Rèn luyện thân thể và ý chí bằng võ thuật để vượt qua sợ hãi, tạo nên nghị lực, bản lĩnh và tinh thần cống hiến cho quê hương, đất nước.",
+      "sourceQuestion": "Câu 3. Tinh thần võ đạo của Phật Quang Quyền chủ trương có mấy phần?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q005",
+      "number": 5
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Tinh thần võ đạo của Phật Quang Quyền chủ trương có mấy phần», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Giúp người khác sống; Sống vì người khác là nhiệm vụ; Cuộc sống của mỗi người luôn gắn»?",
+      "options": [
+        "Giúp người khác sống: Không lấy sự kiện toàn của bản thân làm lợi thế để lấn át hay tranh giành quyền sống của người khác; biết tôn trọng, giúp đỡ và tạo điều kiện để mọi người cùng tiến bộ và có cuộc sống tốt đẹp hơn.",
+        "Sống vì người khác là nhiệm vụ cao quý nhất; môn sinh biết hy sinh một phần quyền lợi vật chất và tinh thần để phụng sự mọi người, khi cần có thể hy sinh cả bản thân vì lợi ích chung.",
+        "Cuộc sống của mỗi người luôn gắn liền và chịu sự hỗ trợ từ cộng đồng xã hội.",
+        "Sống: Sống với một phần sức sống tiềm tàng trong tâm thân, luôn cố gắng kiện toàn bản thân trên ba phương diện Bi – Trí – Dũng.",
+        "Sống: Sống với tất cả sức sống tiềm tàng trong tâm thân, đôi khi cố gắng kiện toàn bản thân trên ba phương diện Bi – Trí – Dũng.",
+        "Bi: Có lòng yêu thương, vị tha rộng lớn, tâm hồn cao thượng, trở thành con người toàn diện để giúp ích cho gia đình hoặc đất nước."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Giúp người khác sống: Không lấy sự kiện toàn của bản thân làm lợi thế để lấn át hay tranh giành quyền sống của người khác; biết tôn trọng, giúp đỡ và tạo điều kiện để mọi người cùng tiến bộ và có cuộc sống tốt đẹp hơn. Sống vì người khác là nhiệm vụ cao quý nhất; môn sinh biết hy sinh một phần quyền lợi vật chất và tinh thần để phụng sự mọi người, khi cần có thể hy sinh cả bản thân vì lợi ích chung. Cuộc sống của mỗi người luôn gắn liền và chịu sự hỗ trợ từ cộng đồng xã hội.",
+      "sourceQuestion": "Câu 3. Tinh thần võ đạo của Phật Quang Quyền chủ trương có mấy phần?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q006",
+      "number": 6
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Hãy trình bày mục đích của Phật Quang Quyền»?",
+      "options": [
+        "Bảo tồn, phát triển và quảng bá võ cổ truyền Việt Nam; nêu cao tinh thần thượng võ, bất khuất của dân tộc.",
+        "Không ngừng nghiên cứu, sáng tạo các bài quyền, thế võ nhằm góp phần xây dựng nền võ học Việt Nam ngày càng phong phú.",
+        "Huấn luyện môn sinh về Võ lực, Võ thuật và Võ đạo (đạo đức) trên tinh thần Bi – Trí – Dũng.",
+        "Bảo tồn, phát triển hoặc quảng bá võ cổ truyền Việt Nam; nêu cao tinh thần thượng võ, bất khuất của dân tộc.",
+        "thay thế, phát triển và quảng bá võ cổ truyền Việt Nam; nêu cao tinh thần thượng võ, bất khuất của dân tộc.",
+        "Bảo tồn, ngưng trệ và quảng bá võ cổ truyền Việt Nam; nêu cao tinh thần thượng võ, bất khuất của dân tộc."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Bảo tồn, phát triển và quảng bá võ cổ truyền Việt Nam; nêu cao tinh thần thượng võ, bất khuất của dân tộc. Không ngừng nghiên cứu, sáng tạo các bài quyền, thế võ nhằm góp phần xây dựng nền võ học Việt Nam ngày càng phong phú. Huấn luyện môn sinh về Võ lực, Võ thuật và Võ đạo (đạo đức) trên tinh thần Bi – Trí – Dũng.",
+      "sourceQuestion": "Câu 4. Hãy trình bày mục đích của Phật Quang Quyền?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q007",
+      "number": 7
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Về Võ lực, Phật Quang Quyền huấn luyện môn sinh ra sao»?",
+      "options": [
+        "Một thân hình rắn rỏi, vững vàng, sức khỏe dẻo dai và mạnh mẽ.",
+        "Có khả năng chịu đựng khó khăn, đẩy lùi bệnh tật, giữ cho thân thể luôn tráng kiện và lành mạnh.",
+        "Một thân hình rắn rỏi, vững vàng, sức khỏe dẻo dai hoặc mạnh mẽ.",
+        "Một thân hình rắn rỏi, vững vàng, sức khỏe mau mệt và mạnh mẽ."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Một thân hình rắn rỏi, vững vàng, sức khỏe dẻo dai và mạnh mẽ. Có khả năng chịu đựng khó khăn, đẩy lùi bệnh tật, giữ cho thân thể luôn tráng kiện và lành mạnh.",
+      "sourceQuestion": "Câu 5. Về Võ lực, Phật Quang Quyền huấn luyện môn sinh ra sao?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q008",
+      "number": 8
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Về Võ thuật, Phật Quang Quyền huấn luyện cho môn sinh như thế nào»?",
+      "options": [
+        "Kỹ thuật sử dụng sức mạnh tinh vi để tự vệ hữu hiệu.",
+        "Đạt đến một nghệ thuật cao quý nhằm phục vụ con người và sẵn sàng bênh vực lẽ phải.",
+        "Đạt đến một nghệ thuật cao quý nhằm phục vụ con người và sẵn sàng bênh vực lẽ có thể.",
+        "Đạt đến một nghệ thuật cao quý nhằm phục vụ con người hoặc sẵn sàng bênh vực lẽ phải."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Kỹ thuật sử dụng sức mạnh tinh vi để tự vệ hữu hiệu. Đạt đến một nghệ thuật cao quý nhằm phục vụ con người và sẵn sàng bênh vực lẽ phải.",
+      "sourceQuestion": "Câu 6. Về Võ thuật, Phật Quang Quyền huấn luyện cho môn sinh như thế nào?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q009",
+      "number": 9
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Những nội dung nào được nêu đầy đủ và chính xác theo lời bài về «Về Võ Ðạo, PQQ huấn luyện cho môn sinh những gì»?",
+      "options": [
+        "Tâm hồn cao thượng, ý chí quật cường, phong thái hào hiệp và tinh thần kỷ luật tự giác.",
+        "Nếp sống đồng môn, truyền thống hy sinh và đức độ khoan dung, từ ái.",
+        "Phục vụ bản thân, gia đình, dân tộc và nhân loại.",
+        "Tâm hồn cao thượng, ý chí quật cường, phong thái hào hiệp hoặc tinh thần kỷ luật tự giác.",
+        "Tâm hồn cao thượng, ý chí quật cường, phong thái hào hiệp và tinh thần tùy tiện tự giác.",
+        "Tâm hồn cao thượng, ý chí quật cường, phong thái vụ lợi và tinh thần kỷ luật tự giác."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Tâm hồn cao thượng, ý chí quật cường, phong thái hào hiệp và tinh thần kỷ luật tự giác. Nếp sống đồng môn, truyền thống hy sinh và đức độ khoan dung, từ ái. Phục vụ bản thân, gia đình, dân tộc và nhân loại.",
+      "sourceQuestion": "Câu 7. Về Võ Ðạo, PQQ huấn luyện cho môn sinh những gì?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q010",
+      "number": 10
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Phật Quang Quyền hoạt động theo các tôn chỉ nào», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Lấy con người làm cứu cánh; Xây dựng tình thương yêu»?",
+      "options": [
+        "Lấy con người làm cứu cánh, lấy đạo đức, đạo hạnh làm phương châm, lấy kỹ thuật và ý chí quật cường làm phương tiện.",
+        "Xây dựng tình thương yêu, kính trọng và kỷ luật trong môn phái, giúp môn sinh đoàn kết, nêu cao danh dự và hoàn thiện bản thân.",
+        "Lấy con người làm cứu cánh, lấy đạo đức, đạo hạnh làm phương châm, lấy kỹ thuật hoặc ý chí quật cường làm phương tiện.",
+        "Lấy con người làm cứu cánh, lấy đạo đức, đạo hạnh làm phương châm, lấy kỹ thuật và ý chí dễ khuất phục làm phương tiện."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Lấy con người làm cứu cánh, lấy đạo đức, đạo hạnh làm phương châm, lấy kỹ thuật và ý chí quật cường làm phương tiện. Xây dựng tình thương yêu, kính trọng và kỷ luật trong môn phái, giúp môn sinh đoàn kết, nêu cao danh dự và hoàn thiện bản thân.",
+      "sourceQuestion": "Câu 8. Phật Quang Quyền hoạt động theo các tôn chỉ nào?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q011",
+      "number": 11
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Phật Quang Quyền hoạt động theo các tôn chỉ nào», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Luôn tích cực góp phần vào công; Mọi hoạt động đều không mang tính; Luôn tôn trọng các võ phái khác»?",
+      "options": [
+        "Luôn tích cực góp phần vào công cuộc giáo dục thanh thiếu niên.",
+        "Mọi hoạt động đều không mang tính chất chính trị.",
+        "Luôn tôn trọng các võ phái khác để cùng xây dựng nền võ học Việt Nam trong tinh thần võ hữu chân chính.",
+        "Lấy con người làm cứu cánh, lấy đạo đức, đạo hạnh làm phương châm, lấy kỹ thuật hoặc ý chí quật cường làm phương tiện.",
+        "Lấy con người làm cứu cánh, lấy đạo đức, đạo hạnh làm phương châm, lấy kỹ thuật và ý chí dễ khuất phục làm phương tiện.",
+        "Lấy con người làm cứu cánh, đạo hạnh làm phương châm, lấy kỹ thuật và ý chí quật cường làm phương tiện."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Luôn tích cực góp phần vào công cuộc giáo dục thanh thiếu niên. Mọi hoạt động đều không mang tính chất chính trị. Luôn tôn trọng các võ phái khác để cùng xây dựng nền võ học Việt Nam trong tinh thần võ hữu chân chính.",
+      "sourceQuestion": "Câu 8. Phật Quang Quyền hoạt động theo các tôn chỉ nào?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q012",
+      "number": 12
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Thế nào là Đức của con nhà võ», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Sống nghĩa khí; Sẵn sàng giúp đỡ người khác»?",
+      "options": [
+        "Sống nghĩa khí, ngay thẳng, giữ chữ tín và lòng tự trọng.",
+        "Sẵn sàng giúp đỡ người khác, dám hy sinh vì việc nghĩa; sống quang minh chính đại, không gian dối, không xu nịnh.",
+        "Sống nghĩa khí, ngay thẳng, giữ chữ tín hoặc lòng tự trọng.",
+        "Sống nghĩa khí, quanh co, giữ chữ tín và lòng tự trọng."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Sống nghĩa khí, ngay thẳng, giữ chữ tín và lòng tự trọng. Sẵn sàng giúp đỡ người khác, dám hy sinh vì việc nghĩa; sống quang minh chính đại, không gian dối, không xu nịnh.",
+      "sourceQuestion": "Câu 9. Thế nào là Đức của con nhà võ?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q013",
+      "number": 13
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Thế nào là Đức của con nhà võ», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Nói được làm được; Giữ gìn danh dự bản thân»?",
+      "options": [
+        "Nói được làm được, giữ trọn lời hứa; không vì danh lợi mà làm điều trái đạo lý.",
+        "Giữ gìn danh dự bản thân, môn phái và góp phần phụng sự môn phái, gia đình, xã hội, đất nước.",
+        "Sống nghĩa khí, ngay thẳng, giữ chữ tín hoặc lòng tự trọng.",
+        "Sống nghĩa khí, quanh co, giữ chữ tín và lòng tự trọng."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Nói được làm được, giữ trọn lời hứa; không vì danh lợi mà làm điều trái đạo lý. Giữ gìn danh dự bản thân, môn phái và góp phần phụng sự môn phái, gia đình, xã hội, đất nước.",
+      "sourceQuestion": "Câu 9. Thế nào là Đức của con nhà võ?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q014",
+      "number": 14
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Thế nào là Đạo trong võ cổ truyền Việt Nam», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Những chuẩn mực đạo đức và cách; Võ đạo được xây dựng trên nền»?",
+      "options": [
+        "Những chuẩn mực đạo đức và cách ứng xử của người học võ đối với thầy tổ, môn phái, đồng môn, võ lâm và xã hội.",
+        "Võ đạo được xây dựng trên nền tảng nhân, lễ, nghĩa, trí, tín, dũng.",
+        "Những chuẩn mực đạo đức hoặc cách ứng xử của người học võ đối với thầy tổ, môn phái, đồng môn, võ lâm và xã hội.",
+        "Những chuẩn mực đạo đức và cách ứng xử của người học võ đối với thầy tổ, đồng môn, võ lâm và xã hội."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Những chuẩn mực đạo đức và cách ứng xử của người học võ đối với thầy tổ, môn phái, đồng môn, võ lâm và xã hội. Võ đạo được xây dựng trên nền tảng nhân, lễ, nghĩa, trí, tín, dũng.",
+      "sourceQuestion": "Câu 10. Thế nào là Đạo trong võ cổ truyền Việt Nam?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q015",
+      "number": 15
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Thế nào là Đạo trong võ cổ truyền Việt Nam», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Đề cao tinh thần tôn sư trọng; Người học võ không chỉ rèn luyện»?",
+      "options": [
+        "Đề cao tinh thần tôn sư trọng đạo, uống nước nhớ nguồn, sống nghĩa tình, trung thực, trách nhiệm và phụng sự cộng đồng.",
+        "Người học võ không chỉ rèn luyện võ công mà còn phải tu dưỡng đạo đức, hoàn thiện nhân cách để trở thành người có ích cho gia đình, xã hội và đất nước.",
+        "Những chuẩn mực đạo đức hoặc cách ứng xử của người học võ đối với thầy tổ, môn phái, đồng môn, võ lâm và xã hội.",
+        "Những chuẩn mực đạo đức và cách ứng xử của người học võ đối với thầy tổ, đồng môn, võ lâm và xã hội."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Đề cao tinh thần tôn sư trọng đạo, uống nước nhớ nguồn, sống nghĩa tình, trung thực, trách nhiệm và phụng sự cộng đồng. Người học võ không chỉ rèn luyện võ công mà còn phải tu dưỡng đạo đức, hoàn thiện nhân cách để trở thành người có ích cho gia đình, xã hội và đất nước.",
+      "sourceQuestion": "Câu 10. Thế nào là Đạo trong võ cổ truyền Việt Nam?",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q016",
+      "number": 16
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Hãy nêu xuất xứ bài Hùng Kê Quyền», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Hùng Kê Quyền là bài quyền gồm; Người đúc kết và sáng tạo bài»?",
+      "options": [
+        "Hùng Kê Quyền là bài quyền gồm 48 chiêu thức, được sáng tạo từ các thế đánh của gà chọi.",
+        "Người đúc kết và sáng tạo bài quyền là Đông Định Vương Nguyễn Lữ, em út trong Tây Sơn Tam Kiệt gồm Nguyễn Nhạc, Nguyễn Huệ và Nguyễn Lữ.",
+        "Hùng Kê Quyền là bài quyền gồm 47 chiêu thức, được sáng tạo từ các thế đánh của gà chọi.",
+        "Hùng Kê Quyền là bài quyền gồm 49 chiêu thức, được sáng tạo từ các thế đánh của gà chọi."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Hùng Kê Quyền là bài quyền gồm 48 chiêu thức, được sáng tạo từ các thế đánh của gà chọi. Người đúc kết và sáng tạo bài quyền là Đông Định Vương Nguyễn Lữ, em út trong Tây Sơn Tam Kiệt gồm Nguyễn Nhạc, Nguyễn Huệ và Nguyễn Lữ.",
+      "sourceQuestion": "11. Câu: Hãy nêu xuất xứ bài Hùng Kê Quyền.",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q017",
+      "number": 17
+    },
+    {
+      "lessonId": "green-lesson-02",
+      "type": "multiple",
+      "question": "Trong nội dung «Hãy nêu xuất xứ bài Hùng Kê Quyền», những phương án nào trình bày đầy đủ và chính xác nhóm ý về «Sau khi nhà Tây Sơn suy vong; Truyền nhân tiêu biểu là võ sư»?",
+      "options": [
+        "Sau khi nhà Tây Sơn suy vong, bài quyền tưởng như thất truyền nhưng truyền nhân vẫn lưu giữ và truyền lại cho hậu thế.",
+        "Truyền nhân tiêu biểu là võ sư Ngô Bông ở Quảng Ngãi.",
+        "Hùng Kê Quyền là bài quyền gồm 47 chiêu thức, được sáng tạo từ các thế đánh của gà chọi.",
+        "Hùng Kê Quyền là bài quyền gồm 49 chiêu thức, được sáng tạo từ các thế đánh của gà chọi."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Sau khi nhà Tây Sơn suy vong, bài quyền tưởng như thất truyền nhưng truyền nhân vẫn lưu giữ và truyền lại cho hậu thế. Truyền nhân tiêu biểu là võ sư Ngô Bông ở Quảng Ngãi.",
+      "sourceQuestion": "11. Câu: Hãy nêu xuất xứ bài Hùng Kê Quyền.",
+      "rankId": "luc-2",
+      "beltId": "green",
+      "id": "green-lesson-02-q018",
+      "number": 18
+    },
+    {
+      "id": "green-lesson-02-q019",
+      "lessonId": "green-lesson-02",
+      "number": 19,
+      "type": "poem",
+      "question": "Điền các câu còn thiếu vào toàn bộ lời thiệu Hùng Kê Quyền:\n\nBái tổ Hùng kê quyền\n__________\nSong túc tề phi trảo thượng xung.\n__________\nThủ quan ngân kiếm tựa thanh long.\n__________\nHồi thủ đơn câu thọ tứ hùng.\n__________\nNhu cương cường nhược tận kỳ trung.",
+      "options": [
+        "Lưỡng kê giao thủ thí tranh hùng",
+        "Trấn ải kim thương như bạch hổ.",
+        "Xuyên cung độc tiễn tăng ư trác.",
+        "Thiểu tẩu dược trâm thiên sở tứ.",
+        "Lưỡng túc giao thủ thí tranh hùng",
+        "Song ải tề phi trảo thượng xung.",
+        "Trấn quan kim thương như bạch hổ.",
+        "Thủ cung ngân kiếm tựa thanh long.",
+        "Xuyên thủ độc tiễn tăng ư trác.",
+        "Hồi tẩu đơn câu thọ tứ hùng.",
+        "Thiểu cương dược trâm thiên sở tứ.",
+        "Nhu kê cường nhược tận kỳ trung.",
+        "Lưỡng kê giao thương như bạch hổ.",
+        "Song túc tề kiếm tựa thanh long.",
+        "Trấn ải kim tiễn tăng ư trác.",
+        "Thủ quan ngân câu thọ tứ hùng.",
+        "Xuyên cung độc trâm thiên sở tứ.",
+        "Hồi thủ đơn nhược tận kỳ trung.",
+        "Thiểu tẩu dược thủ thí tranh hùng"
+      ],
+      "blanks": [
+        "Lưỡng kê giao thủ thí tranh hùng",
+        "Trấn ải kim thương như bạch hổ.",
+        "Xuyên cung độc tiễn tăng ư trác.",
+        "Thiểu tẩu dược trâm thiên sở tứ."
+      ],
+      "explanation": "Bái tổ Hùng kê quyền\nLưỡng kê giao thủ thí tranh hùng\nSong túc tề phi trảo thượng xung.\nTrấn ải kim thương như bạch hổ.\nThủ quan ngân kiếm tựa thanh long.\nXuyên cung độc tiễn tăng ư trác.\nHồi thủ đơn câu thọ tứ hùng.\nThiểu tẩu dược trâm thiên sở tứ.\nNhu cương cường nhược tận kỳ trung.",
+      "sourceQuestion": "11. Câu: Hãy nêu xuất xứ bài Hùng Kê Quyền.",
+      "rankId": "luc-2",
+      "beltId": "green"
+    },
+    {
+      "id": "green-lesson-02-q020",
+      "lessonId": "green-lesson-02",
+      "number": 20,
+      "type": "poem",
+      "question": "Điền các câu còn thiếu vào toàn bộ lời thiệu Hùng Kê Quyền:\n\nBái tổ Hùng kê quyền\nLưỡng kê giao thủ thí tranh hùng\n__________\nTrấn ải kim thương như bạch hổ.\n__________\nXuyên cung độc tiễn tăng ư trác.\n__________\nThiểu tẩu dược trâm thiên sở tứ.\n__________",
+      "options": [
+        "Thủ quan ngân kiếm tựa thanh long.",
+        "Hồi thủ đơn câu thọ tứ hùng.",
+        "Nhu cương cường nhược tận kỳ trung.",
+        "Lưỡng túc giao thủ thí tranh hùng",
+        "Song ải tề phi trảo thượng xung.",
+        "Trấn quan kim thương như bạch hổ.",
+        "Thủ cung ngân kiếm tựa thanh long.",
+        "Xuyên thủ độc tiễn tăng ư trác.",
+        "Hồi tẩu đơn câu thọ tứ hùng.",
+        "Thiểu cương dược trâm thiên sở tứ.",
+        "Nhu kê cường nhược tận kỳ trung.",
+        "Lưỡng kê giao thương như bạch hổ.",
+        "Song túc tề kiếm tựa thanh long.",
+        "Trấn ải kim tiễn tăng ư trác.",
+        "Thủ quan ngân câu thọ tứ hùng.",
+        "Xuyên cung độc trâm thiên sở tứ.",
+        "Hồi thủ đơn nhược tận kỳ trung.",
+        "Thiểu tẩu dược thủ thí tranh hùng",
+        "Song túc tề phi trảo thượng xung."
+      ],
+      "blanks": [
+        "Song túc tề phi trảo thượng xung.",
+        "Thủ quan ngân kiếm tựa thanh long.",
+        "Hồi thủ đơn câu thọ tứ hùng.",
+        "Nhu cương cường nhược tận kỳ trung."
+      ],
+      "explanation": "Bái tổ Hùng kê quyền\nLưỡng kê giao thủ thí tranh hùng\nSong túc tề phi trảo thượng xung.\nTrấn ải kim thương như bạch hổ.\nThủ quan ngân kiếm tựa thanh long.\nXuyên cung độc tiễn tăng ư trác.\nHồi thủ đơn câu thọ tứ hùng.\nThiểu tẩu dược trâm thiên sở tứ.\nNhu cương cường nhược tận kỳ trung.",
+      "sourceQuestion": "11. Câu: Hãy nêu xuất xứ bài Hùng Kê Quyền.",
+      "rankId": "luc-2",
+      "beltId": "green"
+    }
+  ]
+}

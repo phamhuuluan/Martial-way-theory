@@ -50,6 +50,7 @@ export interface QuizResult {
 }
 
 export function getQuestionType(question: QuizQuestion): QuizQuestionType {
+  if (question.type === 'poem') return 'fill';
   return question.type ?? 'single';
 }
 

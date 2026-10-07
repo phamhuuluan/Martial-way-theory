@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/Button';
+import { Modal } from '@/components/ui/Modal';
 
 import { ExamQuestion } from '@/components/exam/ExamQuestion';
 import { useExamSession } from '@/hooks/use-exam-session';
@@ -38,7 +39,9 @@ export function PracticeSession({
     ready,
     index,
     setIndex,
-
+    submitError,
+    isSubmitting,
+    submitDraft,
     updateAnswer,
   } = useExamSession({
     mode: 'practice',
@@ -49,6 +52,7 @@ export function PracticeSession({
 
 
   const [confirmedAnswers, setConfirmedAnswers] = useState<Record<string, boolean>>({});
+  const [confirmingFinish, setConfirmingFinish] = useState(false);
 
   useEffect(() => {
     if (draft && Object.keys(confirmedAnswers).length === 0) {
@@ -72,9 +76,6 @@ export function PracticeSession({
   }
 
   const current = draft.questions[index];
-  const answeredCount = draft.questions.filter((question) =>
-    isExamAnswerProvided(question, draft.answers[question.id])
-  ).length;
 
   const isMultiple = isMultipleChoice(current);
   const usesConfirmButton =
@@ -108,33 +109,6 @@ export function PracticeSession({
       <div className="mx-auto max-w-lg">
         <div className="sticky top-0 z-10 -mx-4 mb-6 border-b border-border/70 bg-bg-primary/95 px-4 py-3 backdrop-blur-md">
           <p className="min-w-0 truncate text-sm font-medium">{fullName}</p>
-          <p className="mt-1 text-sm text-text-secondary">
-            Câu {index + 1}/{draft.questions.length} · Đã trả lời {answeredCount}
-          </p>
-          <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
-            {draft.questions.map((question, questionIndex) => {
-              const answered = isExamAnswerProvided(question, draft.answers[question.id]);
-              return (
-                <button
-                  key={question.id}
-                  type="button"
-                  aria-current={questionIndex === index}
-                  aria-label={`Câu ${questionIndex + 1}`}
-                  className={cn(
-                    'h-10 w-10 shrink-0 rounded-full border text-sm',
-                    questionIndex === index
-                      ? 'border-unlock bg-unlock/15 text-text-primary'
-                      : answered
-                        ? 'border-border bg-bg-elevated text-text-primary'
-                        : 'border-border text-text-muted'
-                  )}
-                  onClick={() => setIndex(questionIndex)}
-                >
-                  {questionIndex + 1}
-                </button>
-              );
-            })}
-          </div>
         </div>
 
         <h2 className="mb-6 whitespace-pre-line font-display text-xl font-semibold leading-relaxed">
@@ -208,7 +182,47 @@ export function PracticeSession({
               Câu sau
             </Button>
           </div>
+          {submitError && <p className="text-sm text-error">{submitError}</p>}
+          <Button
+            variant="primary"
+            size="lg"
+            className="w-full"
+            onClick={() => setConfirmingFinish(true)}
+          >
+            Kết thúc ôn luyện
+          </Button>
         </div>
+
+        <Modal
+          open={confirmingFinish}
+          onClose={() => {
+            if (!isSubmitting) setConfirmingFinish(false);
+          }}
+          title="Kết thúc ôn luyện"
+        >
+          <p className="mb-4 text-sm text-text-secondary">
+            Bạn có chắc muốn kết thúc buổi ôn luyện? Sau khi kết thúc, bạn sẽ được xem kết quả.
+          </p>
+          {submitError && <p className="mb-4 text-sm text-error">{submitError}</p>}
+          <div className="flex gap-3">
+            <Button
+              variant="secondary"
+              className="flex-1"
+              disabled={isSubmitting}
+              onClick={() => setConfirmingFinish(false)}
+            >
+              Làm tiếp
+            </Button>
+            <Button
+              variant="primary"
+              className="flex-1"
+              disabled={isSubmitting}
+              onClick={() => submitDraft(draft, false)}
+            >
+              {isSubmitting ? 'Đang kết thúc...' : 'Kết thúc'}
+            </Button>
+          </div>
+        </Modal>
       </div>
     </div>
   );

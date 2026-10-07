@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
+import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { examResultsUrl, fetchExamResults, type ExamResultRecord } from '@/lib/exam-results';
@@ -28,12 +29,16 @@ function toggleKey(current: Set<string>, key: string): Set<string> {
 
 export function AdminResultsList() {
   const [preset, setPreset] = useState<ExamResultTimePreset>('thisMonth');
+  const [selectedMonth, setSelectedMonth] = useState(() => {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+  });
   const [query, setQuery] = useState('');
   const [rows, setRows] = useState<ExamResultRecord[] | null>(null);
   const [fetchedAt, setFetchedAt] = useState<Date | null>(null);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
-  const [expandedDays, setExpandedDays] = useState<Set<string>>(() => new Set());
+  const [expandedSessions, setExpandedSessions] = useState<Set<string>>(() => new Set());
   const [expandedPeople, setExpandedPeople] = useState<Set<string>>(() => new Set());
   const [expandedAttempts, setExpandedAttempts] = useState<Set<string>>(() => new Set());
   const requestRef = useRef(0);
@@ -80,21 +85,21 @@ export function AdminResultsList() {
 
   const deferredQuery = useDeferredValue(query);
   const view = useMemo(() => {
-    if (!rows || !fetchedAt) return { days: [], matchCount: 0 };
-    return buildExamResultView(rows, { preset, query: deferredQuery, now: fetchedAt });
-  }, [deferredQuery, fetchedAt, preset, rows]);
+    if (!rows || !fetchedAt) return { sessions: [], matchCount: 0 };
+    return buildExamResultView(rows, { preset, selectedMonth, query: deferredQuery, now: fetchedAt });
+  }, [deferredQuery, fetchedAt, preset, selectedMonth, rows]);
 
-  const daySignature = view.days.map((day) => day.key).join('|');
+  const sessionSignature = view.sessions.map((session) => session.key).join('|');
   useEffect(() => {
-    const keys = daySignature ? daySignature.split('|') : [];
+    const keys = sessionSignature ? sessionSignature.split('|') : [];
     if (keys.length === 0) return;
-    setExpandedDays((current) => {
+    setExpandedSessions((current) => {
       for (const key of current) {
         if (keys.includes(key)) return current;
       }
       return new Set([keys[0]]);
     });
-  }, [daySignature]);
+  }, [sessionSignature]);
 
   const emptyLabel =
     deferredQuery.trim().length > 0
@@ -105,7 +110,7 @@ export function AdminResultsList() {
     <section className="profile-card" aria-label="Kết quả thi" aria-busy={loading}>
       <div className="flex flex-col gap-4">
         <h2 className="profile-card__title">Kết quả thi</h2>
-        <div className="flex flex-wrap gap-2" role="group" aria-label="Lọc theo thời gian">
+        <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Lọc theo thời gian">
           {EXAM_RESULT_PRESETS.map((item) => (
             <Button
               key={item.id}
@@ -118,6 +123,14 @@ export function AdminResultsList() {
               {item.label}
             </Button>
           ))}
+          {preset === 'selectMonth' && (
+            <input
+              type="month"
+              value={selectedMonth}
+              onChange={(e) => setSelectedMonth(e.target.value)}
+              className="rounded-[var(--radius-sm)] border border-border bg-bg-primary px-3 py-1.5 text-sm focus:border-unlock focus:outline-none focus:ring-1 focus:ring-unlock/50"
+            />
+          )}
         </div>
         <div className="flex flex-col gap-2 sm:flex-row">
           <input
@@ -150,31 +163,31 @@ export function AdminResultsList() {
 
       {error && <p className="mt-4 text-sm text-error">{error}</p>}
 
-      {loading && view.days.length === 0 ? (
+      {loading && view.sessions.length === 0 ? (
         <div className="mt-4 h-24 animate-pulse rounded-[var(--radius-md)] bg-border/40" />
-      ) : view.days.length > 0 ? (
+      ) : view.sessions.length > 0 ? (
         <div className="mt-2">
-          {view.days.map((day) => {
-            const dayOpen = expandedDays.has(day.key);
+          {view.sessions.map((session) => {
+            const sessionOpen = expandedSessions.has(session.key);
             return (
-              <section key={day.key} className="border-b border-border">
+              <section key={session.key} className="border-b border-border">
                 <button
                   type="button"
                   className="flex w-full items-center gap-3 py-3 text-left"
-                  aria-expanded={dayOpen}
-                  onClick={() => setExpandedDays((current) => toggleKey(current, day.key))}
+                  aria-expanded={sessionOpen}
+                  onClick={() => setExpandedSessions((current) => toggleKey(current, session.key))}
                 >
                   <ChevronRight
                     aria-hidden
-                    className={cn('size-4 shrink-0 text-text-muted transition-transform', dayOpen && 'rotate-90')}
+                    className={cn('size-4 shrink-0 text-text-muted transition-transform', sessionOpen && 'rotate-90')}
                   />
-                  <span className="min-w-0 flex-1 truncate font-medium">{day.label}</span>
-                  <span className="shrink-0 text-sm text-text-muted">{day.attemptCount} lượt</span>
+                  <span className="min-w-0 flex-1 truncate font-medium">{session.label}</span>
+                  <span className="shrink-0 text-sm text-text-muted">{session.attemptCount} lượt</span>
                 </button>
-                {dayOpen && (
+                {sessionOpen && (
                   <ul className="pb-2">
-                    {day.people.map((person) => {
-                      const personKey = `${day.key}\0${person.key}`;
+                    {session.people.map((person) => {
+                      const personKey = `${session.key}\0${person.key}`;
                       const personOpen = expandedPeople.has(personKey);
                       return (
                         <li
@@ -278,13 +291,22 @@ function AttemptDetail({ attempt }: { attempt: ExamResultRecord }) {
   ];
 
   return (
-    <dl className="mb-3 ml-6 grid grid-cols-1 gap-3 rounded-[var(--radius-sm)] bg-bg-primary/40 px-3 py-3 sm:grid-cols-2">
-      {fields.map((field) => (
-        <div key={field.label}>
-          <dt className="text-xs text-text-muted">{field.label}</dt>
-          <dd className="text-sm text-text-secondary">{field.value}</dd>
-        </div>
-      ))}
-    </dl>
+    <div className="mb-3 ml-6 rounded-[var(--radius-sm)] bg-bg-primary/40 px-3 py-3">
+      <dl className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+        {fields.map((field) => (
+          <div key={field.label}>
+            <dt className="text-xs text-text-muted">{field.label}</dt>
+            <dd className="text-sm text-text-secondary">{field.value}</dd>
+          </div>
+        ))}
+      </dl>
+      <div className="mt-4 flex justify-end">
+        <Link href={`/pqq-management/attempt?id=${attempt.id}`}>
+          <Button type="button" size="sm" variant="secondary">
+            Xem bài làm
+          </Button>
+        </Link>
+      </div>
+    </div>
   );
 }

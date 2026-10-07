@@ -893,6 +893,9 @@ function pickDistractors(correct, sameList, lessonPool, count = 3, context = {})
   const distractors = [];
   const blocked = new Set([correct.toLowerCase()]);
 
+  const isPerson = /^(Võ sư|Đại Đức|Thượng tọa|Tôn giả|Thích|Rahula|La Hầu La)/i.test(correct.trim());
+  const isYear = /^(19|20)\d{2}$/.test(correct.trim());
+
   for (const item of sameList) {
     const text = truncateOption(typeof item === 'string' ? item : item.text);
     if (
@@ -908,6 +911,12 @@ function pickDistractors(correct, sameList, lessonPool, count = 3, context = {})
 
   for (const text of lessonPool) {
     const option = truncateOption(text);
+    const textIsPerson = /^(Võ sư|Đại Đức|Thượng tọa|Tôn giả|Thích|Rahula|La Hầu La)/i.test(option.trim());
+    const textIsYear = /^(19|20)\d{2}$/.test(option.trim());
+    
+    if (isPerson && !textIsPerson) continue;
+    if (isYear && !textIsYear) continue;
+
     if (
       !blocked.has(option.toLowerCase()) &&
       !isConfusableOption(option, correct) &&
@@ -917,6 +926,27 @@ function pickDistractors(correct, sameList, lessonPool, count = 3, context = {})
       blocked.add(option.toLowerCase());
     }
     if (distractors.length >= count) break;
+  }
+
+  if (isPerson && distractors.length < count) {
+    const hardcoded = ["Võ sư Đại Đức Thích Nghiêm Giám", "Võ sư Thượng tọa Thích Nghiêm Minh", "Tôn giả Rahula (La Hầu La)", "Võ sư Sáng tổ Thượng Chân Hạ Quang"];
+    for (const h of hardcoded) {
+      if (!blocked.has(h.toLowerCase()) && distractors.length < count) {
+        distractors.push(h);
+        blocked.add(h.toLowerCase());
+      }
+    }
+  }
+
+  if (distractors.length < count) {
+    for (const text of lessonPool) {
+      const option = truncateOption(text);
+      if (!blocked.has(option.toLowerCase()) && !isConfusableOption(option, correct) && isQualityAnswerOption(option, context)) {
+        distractors.push(option);
+        blocked.add(option.toLowerCase());
+      }
+      if (distractors.length >= count) break;
+    }
   }
 
   return distractors;
@@ -1836,8 +1866,35 @@ function reorderByTypeDiversity(questions) {
 
 function buildWordBank(blanks, lessonPool, seed) {
   const bank = [...blanks];
+  const firstBlank = (blanks[0] || '').trim();
+  const isYear = /^(19|20)\d{2}$/.test(firstBlank);
+  const isPerson = /^(Võ sư|Đại Đức|Thượng tọa|Tôn giả|Thích|Rahula|La Hầu La)/i.test(firstBlank);
+
+  if (isYear) {
+    const year = parseInt(firstBlank, 10);
+    if (!isNaN(year)) {
+      bank.push(`${year - 2}`);
+      bank.push(`${year + 3}`);
+      bank.push(`${year - 3}`);
+      return shuffleWithSeed(bank, seed);
+    }
+  }
+
+  if (isPerson) {
+    const hardcoded = ["Võ sư Đại Đức Thích Nghiêm Giám", "Võ sư Thượng tọa Thích Nghiêm Minh", "Tôn giả Rahula (La Hầu La)", "Võ sư Sáng tổ Thượng Chân Hạ Quang", "Xá Lợi Phất", "Mục Kiền Liên"];
+    for (const h of shuffleWithSeed(hardcoded, seed)) {
+      if (!bank.some(b => b.toLowerCase() === h.toLowerCase())) {
+        bank.push(h);
+      }
+      if (bank.length >= 5) break;
+    }
+  }
+
   for (const text of shuffleWithSeed(lessonPool, seed)) {
     const option = truncateOption(text, 40);
+    const textIsPerson = /^(Võ sư|Đại Đức|Thượng tọa|Tôn giả|Thích|Rahula|La Hầu La)/i.test(option.trim());
+    if (isPerson && !textIsPerson) continue;
+
     if (
       option &&
       isQualityAnswerOption(option) &&
@@ -1848,6 +1905,16 @@ function buildWordBank(blanks, lessonPool, seed) {
       bank.push(option);
     }
     if (bank.length >= Math.max(6, blanks.length + 4)) break;
+  }
+
+  if (bank.length < blanks.length + 3 && !isPerson && !isYear) {
+    for (const text of shuffleWithSeed(lessonPool, seed + 1)) {
+      const option = truncateOption(text, 40);
+      if (option && isQualityAnswerOption(option) && !bank.some((b) => b.toLowerCase() === option.toLowerCase()) && option.length >= 3 && option.length <= 40) {
+        bank.push(option);
+      }
+      if (bank.length >= blanks.length + 3) break;
+    }
   }
 
   while (bank.length < blanks.length + 3) {

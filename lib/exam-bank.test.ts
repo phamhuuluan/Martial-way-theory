@@ -64,7 +64,7 @@ describe('exam banks', () => {
 
   it('stores one bank file per lesson rank and no color-wide bank', () => {
     const files = fs
-      .readdirSync(path.join(process.cwd(), 'content', 'exam-bank'))
+      .readdirSync(path.join(process.cwd(), 'content', 'practice-bank'))
       .filter((file) => file.endsWith('.json'))
       .sort();
     expect(files).toEqual(ranks.map((rank) => `${rank.id}.json`).sort());
@@ -121,13 +121,13 @@ describe('exam banks', () => {
     const brown = catalog.find((entry) => entry.rankId === 'nau');
     const brownBank = getExamBank('nau');
     expect(brown).toMatchObject({
-      questionCount: 10,
+      questionCount: 15,
       durationMinutes: 20,
       bankCount: brownBank?.questions.length,
     });
     expect(brown?.note).toBeUndefined();
     expect(catalog.find((entry) => entry.rankId === 'lam-1')).toMatchObject({
-      questionCount: 10,
+      questionCount: 15,
       durationMinutes: 20,
       bankCount: getExamBank('lam-1')?.questions.length,
     });
@@ -135,8 +135,16 @@ describe('exam banks', () => {
       questionCount: 15,
       durationMinutes: 20,
     });
-    expect(catalog.find((entry) => entry.rankId === 'hong-1')).toMatchObject({
+    expect(catalog.find((entry) => entry.rankId === 'luc-3')).toMatchObject({
       questionCount: 20,
+      durationMinutes: 25,
+    });
+    expect(catalog.find((entry) => entry.rankId === 'luc-4')).toMatchObject({
+      questionCount: 20,
+      durationMinutes: 25,
+    });
+    expect(catalog.find((entry) => entry.rankId === 'hong-1')).toMatchObject({
+      questionCount: 25,
       durationMinutes: 30,
     });
     expect(getExamBank('lam-1', 'official')?.questions).toEqual(getExamBank('lam-1', 'practice')?.questions);

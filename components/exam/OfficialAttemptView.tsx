@@ -2,10 +2,11 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import { ExamQuestion } from '@/components/exam/ExamQuestion';
 import { getExamAttempt } from '@/lib/exam-attempts';
+import { fetchExamAttemptData } from '@/lib/exam-results';
 import { clearOfficialExamExitRedirect } from '@/lib/official-exam';
 import {
   formatBirthDate,
@@ -32,19 +33,25 @@ function statusClass(status: ExamAnswerStatus): string {
 
 export function OfficialAttemptView() {
   const searchParams = useSearchParams();
+  const pathname = usePathname();
   const attemptId = searchParams.get('id') ?? '';
+  const isAdmin = pathname.includes('/pqq-management');
   const [attempt, setAttempt] = useState<ExamAttempt | null | undefined>(undefined);
-  const [showReview, setShowReview] = useState(false);
 
   useEffect(() => {
-    clearOfficialExamExitRedirect();
-    setAttempt(attemptId ? getExamAttempt(attemptId) : null);
-  }, [attemptId]);
-
-  useEffect(() => {
-    if (!showReview) return;
-    document.getElementById('xem-lai')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, [showReview]);
+    if (!isAdmin) {
+      clearOfficialExamExitRedirect();
+    }
+    if (!attemptId) {
+      setAttempt(null);
+      return;
+    }
+    if (isAdmin) {
+      void fetchExamAttemptData(attemptId).then((data) => setAttempt(data));
+    } else {
+      setAttempt(getExamAttempt(attemptId));
+    }
+  }, [attemptId, isAdmin]);
 
   if (attempt === undefined) {
     return (
@@ -73,8 +80,8 @@ export function OfficialAttemptView() {
     <div className="profile-page relative min-h-screen px-4 py-8 lg:px-10 lg:py-10">
       <div className="mx-auto max-w-3xl">
         <p className="mb-2 text-sm text-text-muted">
-          <Link href="/exam/official" className="hover:text-text-primary">
-            Kỳ thi
+          <Link href={isAdmin ? "/pqq-management" : "/exam/official"} className="hover:text-text-primary">
+            {isAdmin ? "Quản lý" : "Kỳ thi"}
           </Link>
         </p>
         <h1 className="font-display text-3xl font-bold">Kết quả thi</h1>
@@ -119,21 +126,17 @@ export function OfficialAttemptView() {
           </div>
         </div>
 
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-          <Button variant="primary" className="flex-1" onClick={() => setShowReview(true)}>
-            Xem lại bài
-          </Button>
-          <Link href="/exam/official" className="flex-1">
-            <Button variant="secondary" className="w-full">
-              Về mục thi
+        <div className="mt-8">
+          <Link href={isAdmin ? "/pqq-management" : "/exam/official"}>
+            <Button variant="secondary" className="w-full sm:w-auto">
+              {isAdmin ? "Về trang quản lý" : "Về mục thi"}
             </Button>
           </Link>
         </div>
 
-        {showReview && (
-          <section id="xem-lai" className="mt-10 flex flex-col gap-6">
-            <h2 className="profile-card__title">Xem lại bài</h2>
-            {attempt.questions.map((item, questionIndex) => (
+        <section id="xem-lai" className="mt-10 flex flex-col gap-6">
+          <h2 className="profile-card__title">Chi tiết bài làm</h2>
+          {attempt.questions.map((item, questionIndex) => (
               <article key={item.question.id} className="profile-card">
                 <div className="mb-3 flex items-center justify-between gap-3">
                   <p className="text-sm font-medium">Câu {questionIndex + 1}</p>
@@ -162,9 +165,8 @@ export function OfficialAttemptView() {
                   <p className="mt-3 text-sm text-text-secondary">{item.question.explanation}</p>
                 )}
               </article>
-            ))}
-          </section>
-        )}
+          ))}
+        </section>
       </div>
     </div>
   );

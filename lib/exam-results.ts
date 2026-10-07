@@ -46,6 +46,7 @@ export interface ExamResultRecord {
   exitedAt: string;
   examSessionId: string;
   examSessionName: string;
+  attemptData?: string;
 }
 
 const CONFIG_ERROR = 'Chưa cấu hình địa chỉ lưu kết quả.';
@@ -79,6 +80,7 @@ export function toExamResultRecord(attempt: ExamAttempt): ExamResultRecord {
     exitedAt: attempt.exitedAt?.trim() ?? '',
     examSessionId: attempt.examSessionId?.trim() ?? '',
     examSessionName: attempt.examSessionName?.trim() ?? '',
+    attemptData: JSON.stringify(attempt),
   };
 }
 
@@ -271,6 +273,30 @@ export async function fetchExamSessions(): Promise<ExamSession[]> {
     status: row.status === true || String(row.status).toLowerCase() === 'true',
     createdAt: text(row.createdAt)?.trim() ?? '',
   }));
+}
+
+export async function fetchExamAttemptData(id: string): Promise<ExamAttempt | null> {
+  const url = requireUrl();
+  const endpoint = new URL(url);
+  endpoint.searchParams.set('action', 'getAttemptData');
+  endpoint.searchParams.set('id', id);
+  const payload = await loadExamResults(endpoint.toString());
+  if (
+    payload &&
+    typeof payload === 'object' &&
+    'ok' in payload &&
+    (payload as { ok?: unknown }).ok === true
+  ) {
+    const attemptData = (payload as { attemptData?: string }).attemptData;
+    if (attemptData) {
+      try {
+        return JSON.parse(attemptData) as ExamAttempt;
+      } catch {
+        return null;
+      }
+    }
+  }
+  return null;
 }
 
 function postExamResultForm(url: string, record: ExamResultRecord): Promise<void> {

@@ -1,0 +1,728 @@
+{
+  "rankId": "lam-2",
+  "beltId": "blue",
+  "lessonId": "blue-lesson-02",
+  "questions": [
+    {
+      "id": "lam-2-c01-01",
+      "lessonId": "blue-lesson-02",
+      "number": 1,
+      "type": "multiple",
+      "question": "Muốn phát huy môn phái, võ sinh Phật Quang Quyền phải làm gì?",
+      "options": [
+        "Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và võ đạo.",
+        "Thực hành tinh thần võ đạo của môn phái trong đời sống hằng ngày.",
+        "Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật hoặc võ đạo.",
+        "Chỉ thực hành tinh thần võ đạo của môn phái trong đời sống hằng ngày."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Muốn phát huy môn phái võ sinh PQQ phải: Siêng năng khổ luyện để trở thành võ sư, huấn luyện viên, góp phần truyền bá võ thuật và võ đạo. Thực hành tinh thần võ đạo của môn phái trong đời sống hằng ngày.",
+      "sourceQuestion": "Câu 1. Muốn phát huy môn phái võ sinh PQQ phải làm gì?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c01-02",
+      "lessonId": "blue-lesson-02",
+      "number": 2,
+      "type": "multiple",
+      "question": "Thực hành tinh thần võ đạo của môn phái trong đời sống hằng ngày được biểu hiện như thế nào?",
+      "options": [
+        "Trong gia đình là người cha từ, con hiếu, anh hiền, em thảo.",
+        "Với bạn bè giữ chữ tín, sống nghĩa tình.",
+        "Với xã hội là người công dân tốt.",
+        "Đối với Thầy Tổ môn phái phải trung thành, kính trọng.",
+        "Đối với đất nước: phải có lòng yêu nước nồng nàn.",
+        "Trong gia đình chủ yếu là người cha từ, con hiếu, anh hiền, em thảo.",
+        "Chỉ với bạn bè giữ chữ tín, sống nghĩa tình.",
+        "Với xã hội chủ yếu là người công dân tốt.",
+        "Đối với Thầy Tổ môn phái nên trung thành, kính trọng.",
+        "Đối với đất nước: nên có lòng yêu nước nồng nàn."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Thực hành tinh thần võ đạo của môn phái trong đời sống hằng ngày: Trong gia đình là người cha từ... Với bạn bè giữ chữ tín... Với xã hội; là người công dân tốt. Đối với Thầy Tổ... Đối với đất nước: phải có lòng yêu nước nồng nàn.",
+      "sourceQuestion": "Câu 1. Muốn phát huy môn phái võ sinh PQQ phải làm gì?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c02-01",
+      "lessonId": "blue-lesson-02",
+      "number": 3,
+      "type": "multiple",
+      "question": "Cho biết nghĩa vụ của môn sinh Phật Quang Quyền đối với dân tộc như thế nào?",
+      "options": [
+        "Biết phụng sự và giúp đỡ mọi người.",
+        "Biết tu dưỡng, diệt trừ bản ngã.",
+        "Biết yêu thương và chia sẻ với mọi người.",
+        "Nuôi dưỡng lòng yêu nước, góp phần bảo vệ và xây dựng đất nước.",
+        "Biết phụng sự hoặc giúp đỡ mọi người.",
+        "Chỉ biết tu dưỡng, diệt trừ bản ngã.",
+        "Biết yêu thương hoặc chia sẻ với mọi người.",
+        "Nuôi dưỡng lòng yêu nước, góp phần bảo vệ hoặc xây dựng đất nước."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Nghĩa vụ của môn sinh PQQ là phải xây dựng một thế hệ thanh niên PQQ có những phẩm chất: Biết phụng sự... Biết tu dưỡng, diệt trừ bản ngã. Biết yêu thương... Nuôi dưỡng lòng yêu nước...",
+      "sourceQuestion": "Câu 2. Cho biết nghĩa vụ của môn sinh PQQ đối với dân tộc như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c03-01",
+      "lessonId": "blue-lesson-02",
+      "number": 4,
+      "type": "single",
+      "question": "Tại sao tình đoàn kết được đề cập đến trước nhất trong một đoàn thể?",
+      "options": [
+        "Vì đoàn kết là yếu tố quan trọng quyết định sự vững mạnh hay tan rã của một tập thể. Khi mọi người biết đoàn kết, yêu thương và hỗ trợ nhau thì tập thể sẽ phát triển bền vững và đạt được mục tiêu chung.",
+        "Vì đoàn kết là yếu tố quan trọng quyết định sự vững mạnh hay tan rã của một tập thể. Khi mọi người biết đoàn kết, yêu thương hoặc hỗ trợ nhau thì tập thể sẽ phát triển bền vững và đạt được mục tiêu chung.",
+        "Vì đoàn kết là yếu tố quan trọng quyết định sự vững mạnh hay tan rã của một tập thể. Khi mọi người biết đoàn kết, yêu thương và hỗ trợ nhau thì tập thể sẽ phát triển ổn định và đạt được mục tiêu chung.",
+        "Vì đoàn kết chủ yếu là yếu tố quan trọng quyết định sự vững mạnh hay tan rã của một tập thể. Khi mọi người biết đoàn kết, yêu thương và hỗ trợ nhau thì tập thể sẽ phát triển bền vững và đạt được mục tiêu chung."
+      ],
+      "correctIndex": 0,
+      "explanation": "Vì đoàn kết là yếu tố quan trọng quyết định sự vững mạnh hay tan rã của một tập thể. Khi mọi người biết đoàn kết, yêu thương và hỗ trợ nhau thì tập thể sẽ phát triển bền vững và đạt được mục tiêu chung.",
+      "sourceQuestion": "Câu 3. Cho biết tại sao tình đoàn kết được đề cập đến trước nhất trong một đoàn thể?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c04-01",
+      "lessonId": "blue-lesson-02",
+      "number": 5,
+      "type": "multiple",
+      "question": "Muốn xây dựng tình đoàn kết trong môn phái, môn sinh Phật Quang Quyền phải làm gì?",
+      "options": [
+        "Loại bỏ thành kiến cá nhân và lòng ích kỷ.",
+        "Biết bỏ qua tự ái, thù hằn và mâu thuẫn.",
+        "Khi có hiểu lầm, phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
+        "Loại bỏ thành kiến cá nhân hoặc lòng ích kỷ.",
+        "Biết bỏ qua tự ái, thù hằn hoặc mâu thuẫn.",
+        "Khi có hiểu lầm, phải chân thành trao đổi hoặc giải quyết trong tinh thần xây dựng, hoan hỷ."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Muốn xây dựng tình đoàn kết trong môn phái, môn sinh PQQ phải: Loại bỏ thành kiến cá nhân... Biết bỏ qua tự ái, thù hằn... Khi có hiểu lầm, phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
+      "sourceQuestion": "Câu 4. Muốn xây dựng tình đoàn kết trong môn phái, Môn sinh PQQ phải làm gì?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c05-01",
+      "lessonId": "blue-lesson-02",
+      "number": 6,
+      "type": "single",
+      "question": "Cho biết kỷ luật môn phái Phật Quang Quyền là gì?",
+      "options": [
+        "Kỷ luật môn phái Phật Quang Quyền là kỷ luật tự giác, dựa trên tinh thần tự nguyện, đoàn kết, yêu thương, tôn trọng và tin cậy lẫn nhau. Người trên phải làm gương cho người dưới noi theo; người dưới phải tự giác chấp hành. Nếu đã được nhắc nhở mà vẫn không tuân thủ thì phải chịu kỷ luật của môn phái.",
+        "Kỷ luật môn phái Phật Quang Quyền là kỷ luật tự giác, dựa trên tinh thần tự nguyện, đoàn kết, yêu thương, tôn trọng hoặc tin cậy lẫn nhau. Người trên phải làm gương cho người dưới noi theo; người dưới phải tự giác chấp hành. Nếu đã được nhắc nhở mà vẫn không tuân thủ thì phải chịu kỷ luật của môn phái.",
+        "Kỷ luật môn phái Phật Quang Quyền là kỷ luật tự giác, dựa trên tinh thần tự nguyện, đoàn kết, yêu thương, tôn trọng và tin cậy lẫn nhau. Người trên nên làm gương cho người dưới noi theo; người dưới phải tự giác chấp hành. Nếu đã được nhắc nhở mà vẫn không tuân thủ thì phải chịu kỷ luật của môn phái.",
+        "Kỷ luật môn phái Phật Quang Quyền chủ yếu là kỷ luật tự giác, dựa trên tinh thần tự nguyện, đoàn kết, yêu thương, tôn trọng và tin cậy lẫn nhau. Người trên phải làm gương cho người dưới noi theo; người dưới phải tự giác chấp hành. Nếu đã được nhắc nhở mà vẫn không tuân thủ thì phải chịu kỷ luật của môn phái."
+      ],
+      "correctIndex": 0,
+      "explanation": "Kỷ luật môn phái Phật Quang Quyền là kỷ luật tự giác, dựa trên tinh thần tự nguyện, đoàn kết, yêu thương, tôn trọng và tin cậy lẫn nhau. Người trên phải làm gương cho người dưới... Nếu đã được nhắc nhở mà vẫn không tuân thủ thì phải chịu kỷ luật...",
+      "sourceQuestion": "Câu 5. Cho biết kỷ luật môn phái PQQ là gì?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c06-01",
+      "lessonId": "blue-lesson-02",
+      "number": 7,
+      "type": "single",
+      "question": "Thế nào là anh hùng cá nhân chủ nghĩa?",
+      "options": [
+        "Anh hùng cá nhân chủ nghĩa là người tuy có tài năng nhưng sống ích kỷ, đặt lợi ích cá nhân lên trên tập thể, thiếu tinh thần kỷ luật, không chịu tuân theo tổ chức và thường hành động theo ý riêng.",
+        "Anh hùng cá nhân chủ nghĩa là người tuy có tài năng nhưng sống ích kỷ, đặt lợi ích cá nhân lên trên tập thể, thiếu tinh thần kỷ luật, không chịu tuân theo tổ chức hoặc thường hành động theo ý riêng.",
+        "Anh hùng cá nhân chủ nghĩa chủ yếu là người tuy có tài năng nhưng sống ích kỷ, đặt lợi ích cá nhân lên trên tập thể, thiếu tinh thần kỷ luật, không chịu tuân theo tổ chức và thường hành động theo ý riêng.",
+        "Chỉ anh hùng cá nhân chủ nghĩa là người tuy có tài năng nhưng sống ích kỷ, đặt lợi ích cá nhân lên trên tập thể, thiếu tinh thần kỷ luật, không chịu tuân theo tổ chức và thường hành động theo ý riêng."
+      ],
+      "correctIndex": 0,
+      "explanation": "Anh hùng cá nhân chủ nghĩa là người tuy có tài năng nhưng sống ích kỷ, đặt lợi ích cá nhân lên trên tập thể, thiếu tinh thần kỷ luật, không chịu tuân theo tổ chức và thường hành động theo ý riêng.",
+      "sourceQuestion": "Câu 6. Cho biết thế nào là anh hùng cá nhân chủ nghĩa?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c07-01",
+      "lessonId": "blue-lesson-02",
+      "number": 8,
+      "type": "single",
+      "question": "Cho biết danh dự của Võ sĩ là gì?",
+      "options": [
+        "Danh dự của võ sĩ không chỉ là danh dự cá nhân mà còn là danh dự của tập thể và môn phái. Người võ sĩ phải sống hiên ngang, cao thượng, biết bảo vệ người yếu, bênh vực lẽ phải và đặt võ đạo lên trên lòng tự ái cá nhân.",
+        "Danh dự của võ sĩ không chỉ là danh dự cá nhân mà còn là danh dự của tập thể hoặc môn phái. Người võ sĩ phải sống hiên ngang, cao thượng, biết bảo vệ người yếu, bênh vực lẽ phải và đặt võ đạo lên trên lòng tự ái cá nhân.",
+        "Danh dự của võ sĩ không chỉ là danh dự cá nhân mà còn là danh dự của tập thể và môn phái. Người võ sĩ nên sống hiên ngang, cao thượng, biết bảo vệ người yếu, bênh vực lẽ phải và đặt võ đạo lên trên lòng tự ái cá nhân.",
+        "Danh dự của võ sĩ không chỉ là danh dự cá nhân mà còn là danh dự của tập thể và môn phái. Người võ sĩ phải sống hiên ngang, cao đẹp, biết bảo vệ người yếu, bênh vực lẽ phải và đặt võ đạo lên trên lòng tự ái cá nhân."
+      ],
+      "correctIndex": 0,
+      "explanation": "Danh dự của võ sĩ không chỉ là danh dự cá nhân mà còn là danh dự của tập thể và môn phái. Người võ sĩ phải sống hiên ngang, cao thượng, biết bảo vệ người yếu, bênh vực lẽ phải và đặt võ đạo lên trên lòng tự ái cá nhân.",
+      "sourceQuestion": "Câu 7. Cho biết danh dự của Võ sĩ là gì?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c08-01",
+      "lessonId": "blue-lesson-02",
+      "number": 9,
+      "type": "single",
+      "question": "Quan điểm rèn luyện võ thuật của môn sinh Phật Quang Quyền như thế nào?",
+      "options": [
+        "Tập luyện võ giúp tăng cường sức khỏe, giúp người tập dẻo dai... Tuy nhiên không chỉ dừng lại ở việc có sức khỏe mà người luyện võ cần phải dùng sức khỏe đó để phụng sự, và đem lại lợi ích cho cuộc đời này.",
+        "Tập luyện võ giúp tăng cường sức khỏe, giúp người tập dẻo dai... Tuy nhiên không chỉ dừng lại ở việc có sức khỏe mà người luyện võ cần phải dùng sức khỏe đó để phụng sự, hoặc đem lại lợi ích cho cuộc đời này.",
+        "Tập luyện võ giúp tăng cường sức khỏe, giúp người tập dẻo dai... Tuy nhiên không chỉ dừng lại ở việc có sức khỏe mà người luyện võ cần nên dùng sức khỏe đó để phụng sự, và đem lại lợi ích cho cuộc đời này.",
+        "Chỉ tập luyện võ giúp tăng cường sức khỏe, giúp người tập dẻo dai... Tuy nhiên không chỉ dừng lại ở việc có sức khỏe mà người luyện võ cần phải dùng sức khỏe đó để phụng sự, và đem lại lợi ích cho cuộc đời này."
+      ],
+      "correctIndex": 0,
+      "explanation": "Tập luyện võ giúp tăng cường sức khỏe... Tuy nhiên không chỉ dừng lại ở việc có sức khỏe mà người luyện võ cần phải dùng sức khỏe đó để phụng sự, và đem lại lợi ích cho cuộc đời này, có như thế việc rèn luyện sức khỏe bằng võ thuật mới thực sự có ý nghĩa.",
+      "sourceQuestion": "Câu 8. Quan điểm rèn luyện võ thuật của môn sinh PQQ như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c09-01",
+      "lessonId": "blue-lesson-02",
+      "number": 10,
+      "type": "single",
+      "question": "Môn sinh Phật Quang Quyền phải rèn luyện kỹ năng chiến đấu và chiến thắng đến mức độ như thế nào?",
+      "options": [
+        "Môn sinh PQQ phải rèn luyện kỹ năng chiến đấu và chiến thắng đến mức độ tinh xảo nhưng thẳm sâu trong tâm hồn yêu thích sự nhường nhịn thứ tha.",
+        "Môn sinh PQQ phải rèn luyện kỹ năng chiến đấu hoặc chiến thắng đến mức độ tinh xảo nhưng thẳm sâu trong tâm hồn yêu thích sự nhường nhịn thứ tha.",
+        "Môn sinh PQQ nên rèn luyện kỹ năng chiến đấu và chiến thắng đến mức độ tinh xảo nhưng thẳm sâu trong tâm hồn yêu thích sự nhường nhịn thứ tha.",
+        "Môn sinh PQQ phải rèn luyện kỹ năng chiến đấu và chiến thắng đến mức độ thuần thục nhưng thẳm sâu trong tâm hồn yêu thích sự nhường nhịn thứ tha."
+      ],
+      "correctIndex": 0,
+      "explanation": "Môn sinh PQQ phải rèn luyện kỹ năng chiến đấu và chiến thắng đến mức độ tinh xảo nhưng thẳm sâu trong tâm hồn yêu thích sự nhường nhịn thứ tha.",
+      "sourceQuestion": "Câu 9. Môn sinh PQQ phải rèn luyện kỹ năng chiến đấu và chiến thắng đên mức độ như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c11-01",
+      "lessonId": "blue-lesson-02",
+      "number": 11,
+      "type": "single",
+      "question": "Môn phái Phật Quang Quyền dùng bao nhiêu màu đai để phân cấp?",
+      "options": [
+        "Dùng 6 màu để phân cấp gồm: Nâu, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng.",
+        "Dùng 5 màu để phân cấp gồm: Nâu, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng.",
+        "Dùng 6 màu để phân cấp gồm: nâu đen, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng.",
+        "Dùng 6 màu để phân cấp gồm: Nâu, Lam, Xanh Lục, Ðỏ, Vàng, Trắng."
+      ],
+      "correctIndex": 0,
+      "explanation": "Đai Môn phái Phật Quang Quyền dùng 6 màu để phân cấp gồm: Nâu, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng.",
+      "sourceQuestion": "Câu 11. Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao? Đai Môn phái Phật Quang Quyền dùng 6 màu để phân cấp gồm: Nâu, Xanh Lam, Xanh Lục, Ðỏ, Vàng, Trắng.",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c11-02",
+      "lessonId": "blue-lesson-02",
+      "number": 12,
+      "type": "single",
+      "question": "Đai màu Nâu trong môn phái Phật Quang Quyền có ý nghĩa gì?",
+      "options": [
+        "Tượng trưng cho màu áo nâu của Phật giáo Việt Nam. Biểu hiện sự giản dị, bền bỉ, khiêm cung và đời sống phạm hạnh. Là nền tảng xuyên suốt của toàn bộ hệ thống đai.",
+        "Tượng trưng cho màu áo nâu của Phật giáo Việt Nam. Biểu hiện sự giản dị, bền bỉ, khiêm cung hoặc đời sống phạm hạnh. Là nền tảng xuyên suốt của toàn bộ hệ thống đai.",
+        "Tượng trưng cho màu áo nâu của Phật giáo Việt Nam. Biểu hiện sự giản dị, bền bỉ, khiêm cung và đời sống phạm hạnh. Là trọng tâm xuyên suốt của toàn bộ hệ thống đai.",
+        "Chỉ tượng trưng cho màu áo nâu của Phật giáo Việt Nam. Biểu hiện sự giản dị, bền bỉ, khiêm cung và đời sống phạm hạnh. Là nền tảng xuyên suốt của toàn bộ hệ thống đai."
+      ],
+      "correctIndex": 0,
+      "explanation": "1. Nâu... Tượng trưng cho màu áo nâu của Phật giáo Việt Nam. Biểu hiện sự giản dị, bền bỉ, khiêm cung và đời sống phạm hạnh. Là nền tảng xuyên suốt của toàn bộ hệ thống đai.",
+      "sourceQuestion": "Câu 11. Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c11-03",
+      "lessonId": "blue-lesson-02",
+      "number": 13,
+      "type": "single",
+      "question": "Đai màu Xanh Lam trong môn phái Phật Quang Quyền tượng trưng cho điều gì?",
+      "options": [
+        "Tượng trưng cho sự mềm mại, khiêm tốn và thích nghi. Nhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi. Đức tính: Khiêm hạ – Nhẫn nhục.",
+        "Tượng trưng cho sự mềm mại, khiêm tốn hoặc thích nghi. Nhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi. Đức tính: Khiêm hạ – Nhẫn nhục.",
+        "Chỉ tượng trưng cho sự mềm mại, khiêm tốn và thích nghi. Nhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi. Đức tính: Khiêm hạ – Nhẫn nhục.",
+        "Tượng trưng cho sự mềm mại, khiêm tốn và thích nghi. Nhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi. Đức tính: Khiêm hạ – Nhẫn nhục là chính."
+      ],
+      "correctIndex": 0,
+      "explanation": "2. Xanh Lam (Thủy – Nước) Tượng trưng cho sự mềm mại, khiêm tốn và thích nghi. Nhắc người võ sinh biết nhẫn nhịn, lắng nghe và học hỏi. Đức tính: Khiêm hạ – Nhẫn nhục.",
+      "sourceQuestion": "Câu 11. Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c11-04",
+      "lessonId": "blue-lesson-02",
+      "number": 14,
+      "type": "single",
+      "question": "Đai màu Đỏ trong môn phái Phật Quang Quyền nhắc nhở người võ sinh điều gì?",
+      "options": [
+        "Nhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận. Đức tính: Dũng cảm – Tinh tấn.",
+        "Nhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng nên biết kiểm soát nóng giận. Đức tính: Dũng cảm – Tinh tấn.",
+        "Chỉ nhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận. Đức tính: Dũng cảm – Tinh tấn.",
+        "Nhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận. Đức tính: Dũng cảm – Tinh tấn là chính."
+      ],
+      "correctIndex": 0,
+      "explanation": "4. Đỏ (Hỏa – Lửa) Tượng trưng cho nhiệt huyết, ý chí và lòng dũng cảm. Nhắc người võ sinh giữ ngọn lửa lý tưởng, nhưng phải biết kiểm soát nóng giận. Đức tính: Dũng cảm – Tinh tấn.",
+      "sourceQuestion": "Câu 11. Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c12-01",
+      "lessonId": "blue-lesson-02",
+      "number": 15,
+      "type": "multiple",
+      "question": "Các quy định về trang phục môn phái Phật Quang Quyền bao gồm những nội dung nào?",
+      "options": [
+        "Môn phái sử dụng 2 loại võ phục: võ phục theo quy định của Liên đoàn Võ cổ truyền Việt Nam và võ phục riêng của môn phái màu nâu đen.",
+        "Võ phục môn phái có cổ áo chéo bên phải, phù hiệu môn phái ở ngực trái, bảng tên thêu dưới phù hiệu, màu bản tên theo màu cấp bậc của đai.",
+        "Chưởng môn Sáng Tổ: Võ phục màu vàng đất.",
+        "Chưởng môn, Phó Chưởng môn: Võ phục nâu đen, cổ áo màu vàng.",
+        "Môn phái sử dụng 2 loại võ phục: võ phục theo quy định của Liên đoàn Võ cổ truyền Việt Nam hoặc võ phục riêng của môn phái màu nâu đen.",
+        "Võ phục môn phái có cổ áo chéo bên trái, phù hiệu môn phái ở ngực trái, bảng tên thêu dưới phù hiệu, màu bản tên theo màu cấp bậc của đai.",
+        "Chưởng môn Sáng Tổ: Võ phục màu trắng đất.",
+        "Chưởng môn, Phó Chưởng môn: Võ phục nâu đen, cổ áo màu trắng."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Môn phái sử dụng 2 loại võ phục... Võ phục môn phái có cổ áo chéo bên phải, phù hiệu môn phái ở ngực trái... Chưởng môn Sáng Tổ: Võ phục màu vàng đất. Chưởng môn, Phó Chưởng môn: Võ phục nâu đen, cổ áo màu vàng. Các thành viên khác: Võ phục nâu đen.",
+      "sourceQuestion": "Câu 12. Các quy định về trang phục môn phái Phật Quang Quyền.?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c13-01",
+      "lessonId": "blue-lesson-02",
+      "number": 16,
+      "type": "single",
+      "question": "Hệ thống cấp đai của môn phái Phật Quang Quyền bao gồm bao nhiêu cấp và bậc?",
+      "options": [
+        "6 màu đai, 26 cấp và 5 bậc.",
+        "6 màu đai, 26 cấp hoặc 5 bậc.",
+        "5 màu đai, 26 cấp và 5 bậc.",
+        "6 màu đai, 25 cấp và 5 bậc."
+      ],
+      "correctIndex": 0,
+      "explanation": "Môn phái Phật Quang Quyền có 6 màu đai, 26 cấp và 5 bậc...",
+      "sourceQuestion": "Câu 13. Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c13-02",
+      "lessonId": "blue-lesson-02",
+      "number": 17,
+      "type": "multiple",
+      "question": "Hệ thống cấp đai của môn phái Phật Quang Quyền gồm những bậc nào?",
+      "options": [
+        "Bậc Tự vệ",
+        "Bậc Sơ đẳng",
+        "Bậc Trung đẳng",
+        "Bậc Cao đẳng",
+        "Bậc Thượng đẳng",
+        "Bậc tự vệ căn bản",
+        "Bậc sơ cấp",
+        "Bậc trung cấp",
+        "Bậc cao cấp",
+        "Bậc thượng cấp"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Hệ thống cấp đai gồm: 1. Bậc Tự vệ, 2. Bậc Sơ đẳng, 3. Bậc Trung đẳng, 4. Bậc Cao đẳng, 5. Bậc Thượng đẳng.",
+      "sourceQuestion": "Câu 13. Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c14-01",
+      "lessonId": "blue-lesson-02",
+      "number": 18,
+      "type": "multiple",
+      "question": "Bên trong biểu tượng môn phái Phật Quang Quyền có 8 hình elip liên kết thành bông hoa 8 cánh với 4 màu tượng trưng cho 4 phẩm chất nào người môn sinh cần rèn luyện?",
+      "options": [
+        "Công đức",
+        "Đạo đức",
+        "Khí công",
+        "Thiền định",
+        "Công đức là chính.",
+        "Đạo đức là chính.",
+        "Nội công",
+        "Thiền học"
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Tượng trưng cho 4 phẩm chất người môn sinh Phật Quang Quyền cần rèn luyện: Công đức, Đạo đức, Khí công, Thiền định.",
+      "sourceQuestion": "Câu 14. Ý nghĩa biểu tượng môn phái Phật Quang Quyền?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c02-02",
+      "lessonId": "blue-lesson-02",
+      "number": 19,
+      "type": "multiple",
+      "question": "Những phẩm chất hướng đến con người trong nghĩa vụ đối với dân tộc gồm những gì?",
+      "options": [
+        "Biết phụng sự và giúp đỡ mọi người.",
+        "Biết yêu thương và chia sẻ với mọi người.",
+        "Biết phụng sự hoặc giúp đỡ mọi người.",
+        "Biết yêu thương hoặc chia sẻ với mọi người."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Biết phụng sự và giúp đỡ mọi người. Biết yêu thương và chia sẻ với mọi người.",
+      "sourceQuestion": "Câu 2. Cho biết nghĩa vụ của môn sinh PQQ đối với dân tộc như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c04-02",
+      "lessonId": "blue-lesson-02",
+      "number": 20,
+      "type": "single",
+      "question": "Khi có hiểu lầm trong môn phái, môn sinh phải giải quyết thế nào?",
+      "options": [
+        "Phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
+        "Phải chân thành trao đổi hoặc giải quyết trong tinh thần xây dựng, hoan hỷ.",
+        "Nên chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
+        "Chỉ phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ."
+      ],
+      "correctIndex": 0,
+      "explanation": "Phải chân thành trao đổi và giải quyết trong tinh thần xây dựng, hoan hỷ.",
+      "sourceQuestion": "Câu 4. Muốn xây dựng tình đoàn kết trong môn phái, Môn sinh PQQ phải làm gì?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c05-02",
+      "lessonId": "blue-lesson-02",
+      "number": 21,
+      "type": "multiple",
+      "question": "Trong kỷ luật môn phái, người trên và người dưới có trách nhiệm gì?",
+      "options": [
+        "Người trên phải làm gương cho người dưới noi theo.",
+        "Người dưới phải tự giác chấp hành.",
+        "Nếu đã được nhắc nhở mà vẫn không tuân thủ thì phải chịu kỷ luật của môn phái.",
+        "Người trên nên làm gương cho người dưới noi theo.",
+        "Người dưới nên tự giác chấp hành.",
+        "Nếu đã được nhắc nhở mà vẫn không tuân thủ thì nên chịu kỷ luật của môn phái."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Người trên phải làm gương cho người dưới noi theo. Người dưới phải tự giác chấp hành. Nếu đã được nhắc nhở mà vẫn không tuân thủ thì phải chịu kỷ luật của môn phái.",
+      "sourceQuestion": "Câu 5. Cho biết kỷ luật môn phái PQQ là gì?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c07-02",
+      "lessonId": "blue-lesson-02",
+      "number": 22,
+      "type": "multiple",
+      "question": "Người võ sĩ phải sống và hành động thế nào để giữ danh dự?",
+      "options": [
+        "Sống hiên ngang, cao thượng.",
+        "Biết bảo vệ người yếu và bênh vực lẽ phải.",
+        "Đặt võ đạo lên trên lòng tự ái cá nhân.",
+        "Sống hiên ngang, cao đẹp.",
+        "Biết bảo vệ người yếu hoặc bênh vực lẽ phải.",
+        "Chỉ đặt võ đạo lên trên lòng tự ái cá nhân."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Sống hiên ngang, cao thượng. Biết bảo vệ người yếu và bênh vực lẽ phải. Đặt võ đạo lên trên lòng tự ái cá nhân.",
+      "sourceQuestion": "Câu 7. Cho biết danh dự của Võ sĩ là gì?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c08-02",
+      "lessonId": "blue-lesson-02",
+      "number": 23,
+      "type": "single",
+      "question": "Khi nào việc rèn luyện sức khỏe bằng võ thuật mới thực sự có ý nghĩa?",
+      "options": [
+        "Khi người luyện võ dùng sức khỏe để phụng sự và đem lại lợi ích cho cuộc đời.",
+        "Khi người luyện võ dùng sức khỏe để phụng sự hoặc đem lại lợi ích cho cuộc đời.",
+        "Chỉ khi người luyện võ dùng sức khỏe để phụng sự và đem lại lợi ích cho cuộc đời.",
+        "Khi người luyện võ dùng sức khỏe để phụng sự và đem lại lợi ích cho cuộc đời là chính."
+      ],
+      "correctIndex": 0,
+      "explanation": "Khi người luyện võ dùng sức khỏe để phụng sự và đem lại lợi ích cho cuộc đời.",
+      "sourceQuestion": "Câu 8. Quan điểm rèn luyện võ thuật của môn sinh PQQ như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c09-02",
+      "lessonId": "blue-lesson-02",
+      "number": 24,
+      "type": "multiple",
+      "question": "Hai mặt người luyện võ phải thực hiện song song là gì?",
+      "options": [
+        "Không ngừng nỗ lực rèn kỹ năng chiến đấu đến mức độ tinh xảo.",
+        "Giữ tinh thần nhân ái, tôn trọng con người, khiêm tốn và yêu thích sự nhường nhịn, tha thứ.",
+        "Không ngừng nỗ lực rèn kỹ năng chiến đấu đến mức độ thuần thục.",
+        "Giữ tinh thần nhân ái, tôn trọng con người, khiêm tốn hoặc yêu thích sự nhường nhịn, tha thứ."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Không ngừng nỗ lực rèn kỹ năng chiến đấu đến mức độ tinh xảo. Giữ tinh thần nhân ái, tôn trọng con người, khiêm tốn và yêu thích sự nhường nhịn, tha thứ.",
+      "sourceQuestion": "Câu 9. Môn sinh PQQ phải rèn luyện kỹ năng chiến đấu và chiến thắng đên mức độ như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c11-05",
+      "lessonId": "blue-lesson-02",
+      "number": 25,
+      "type": "single",
+      "question": "Đai Xanh Lục có ý nghĩa gì?",
+      "options": [
+        "Tượng trưng cho sự sinh trưởng và phát triển; nhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức; đức tính là Siêng năng – Vươn lên.",
+        "Tượng trưng cho sự sinh trưởng hoặc phát triển; nhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức; đức tính là Siêng năng – Vươn lên.",
+        "Tượng trưng cho sự sinh trưởng và phát triển; nhắc người võ sinhthường xuyên tiến bộ trong võ thuật và đạo đức; đức tính là Siêng năng – Vươn lên.",
+        "Tượng trưng cho sự sinh trưởng và phát triển; nhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo hạnh; đức tính là Siêng năng – Vươn lên."
+      ],
+      "correctIndex": 0,
+      "explanation": "Tượng trưng cho sự sinh trưởng và phát triển; nhắc người võ sinh không ngừng tiến bộ trong võ thuật và đạo đức; đức tính là Siêng năng – Vươn lên.",
+      "sourceQuestion": "Câu 11. Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c11-06",
+      "lessonId": "blue-lesson-02",
+      "number": 26,
+      "type": "single",
+      "question": "Đai Vàng có ý nghĩa gì?",
+      "options": [
+        "Tượng trưng cho sự vững chắc và bao dung; nhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự; đức tính là Vững vàng – Bao dung.",
+        "Tượng trưng cho sự vững chắc hoặc bao dung; nhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự; đức tính là Vững vàng – Bao dung.",
+        "Tượng trưng cho sự vững chắc và bao dung; nhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự; đức tính chủ yếu là Vững vàng – Bao dung.",
+        "Chỉ tượng trưng cho sự vững chắc và bao dung; nhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự; đức tính là Vững vàng – Bao dung."
+      ],
+      "correctIndex": 0,
+      "explanation": "Tượng trưng cho sự vững chắc và bao dung; nhắc người võ sinh sống có trách nhiệm, đáng tin cậy và biết phụng sự; đức tính là Vững vàng – Bao dung.",
+      "sourceQuestion": "Câu 11. Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c11-07",
+      "lessonId": "blue-lesson-02",
+      "number": 27,
+      "type": "single",
+      "question": "Đai Trắng có ý nghĩa gì?",
+      "options": [
+        "Tượng trưng cho sự trong sáng, chính trực và bản lĩnh; nhắc người võ sinh giữ tâm thanh tịnh, công bằng và danh dự; đức tính là Chính trực – Thanh khiết.",
+        "Tượng trưng cho sự trong sáng, chính trực hoặc bản lĩnh; nhắc người võ sinh giữ tâm thanh tịnh, công bằng và danh dự; đức tính là Chính trực – Thanh khiết.",
+        "Tượng trưng cho sự trong sáng, chính trực và bản lĩnh; nhắc người võ sinh giữ tâm trong sạch, công bằng và danh dự; đức tính là Chính trực – Thanh khiết.",
+        "Tượng trưng cho sự trong sáng, ngay thẳng và bản lĩnh; nhắc người võ sinh giữ tâm thanh tịnh, công bằng và danh dự; đức tính là Chính trực – Thanh khiết."
+      ],
+      "correctIndex": 0,
+      "explanation": "Tượng trưng cho sự trong sáng, chính trực và bản lĩnh; nhắc người võ sinh giữ tâm thanh tịnh, công bằng và danh dự; đức tính là Chính trực – Thanh khiết.",
+      "sourceQuestion": "Câu 11. Môn phái Phật Quang Quyền (PQQ) có mấy màu đai? Ý nghĩa ra sao?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c12-02",
+      "lessonId": "blue-lesson-02",
+      "number": 28,
+      "type": "single",
+      "question": "Các thành viên khác ngoài Chưởng môn Sáng Tổ, Chưởng môn và Phó Chưởng môn mặc võ phục thế nào?",
+      "options": [
+        "Các thành viên khác mặc võ phục nâu đen.",
+        "Chỉ các thành viên khác mặc võ phục nâu đen.",
+        "Các thành viên khác mặc võ phục nâu đen là chính.",
+        "Các thành viên khác mặc võ phục nâu đen là trọng tâm."
+      ],
+      "correctIndex": 0,
+      "explanation": "Các thành viên khác mặc võ phục nâu đen.",
+      "sourceQuestion": "Câu 12. Các quy định về trang phục môn phái Phật Quang Quyền.?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c13-03",
+      "lessonId": "blue-lesson-02",
+      "number": 29,
+      "type": "single",
+      "question": "Bậc Sơ đẳng trong hệ thống cấp đai gồm những nội dung chính nào?",
+      "options": [
+        "Bậc Sơ đẳng từ cấp 1 đến cấp 8, gồm Lam đai cấp 1 đến cấp 4 và Lục đai cấp 5 đến cấp 8; danh xưng là Võ sinh.",
+        "Bậc Sơ đẳng từ cấp 1 đến cấp 8, gồm Lam đai cấp 1 đến cấp 4 hoặc Lục đai cấp 5 đến cấp 8; danh xưng là Võ sinh.",
+        "Bậc sơ cấp từ cấp 1 đến cấp 8, gồm Lam đai cấp 1 đến cấp 4 và Lục đai cấp 5 đến cấp 8; danh xưng là Võ sinh.",
+        "Bậc Sơ đẳng từ cấp 1 đến cấp 8, gồm Lam đai cấp 1 đến cấp 4 và Lục đai cấp 5 đến cấp 8; danh xưng chủ yếu là Võ sinh."
+      ],
+      "correctIndex": 0,
+      "explanation": "Bậc Sơ đẳng từ cấp 1 đến cấp 8, gồm Lam đai cấp 1 đến cấp 4 và Lục đai cấp 5 đến cấp 8; danh xưng là Võ sinh.",
+      "sourceQuestion": "Câu 13. Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c13-04",
+      "lessonId": "blue-lesson-02",
+      "number": 30,
+      "type": "single",
+      "question": "Bậc Trung đẳng gồm các cấp đai nào?",
+      "options": [
+        "Bậc Trung đẳng từ cấp 9 đến cấp 16, gồm Hồng đai cấp 9 đến cấp 12 và Hoàng đai cấp 13 đến cấp 16.",
+        "Bậc Trung đẳng từ cấp 9 đến cấp 16, gồm Hồng đai cấp 9 đến cấp 12 hoặc Hoàng đai cấp 13 đến cấp 16.",
+        "Bậc trung cấp từ cấp 9 đến cấp 16, gồm Hồng đai cấp 9 đến cấp 12 và Hoàng đai cấp 13 đến cấp 16.",
+        "Chỉ bậc Trung đẳng từ cấp 9 đến cấp 16, gồm Hồng đai cấp 9 đến cấp 12 và Hoàng đai cấp 13 đến cấp 16."
+      ],
+      "correctIndex": 0,
+      "explanation": "Bậc Trung đẳng từ cấp 9 đến cấp 16, gồm Hồng đai cấp 9 đến cấp 12 và Hoàng đai cấp 13 đến cấp 16.",
+      "sourceQuestion": "Câu 13. Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c13-05",
+      "lessonId": "blue-lesson-02",
+      "number": 31,
+      "type": "single",
+      "question": "Chuẩn Bạch đai và Bạch đai ở bậc Cao đẳng tương ứng cấp, đẳng và danh xưng nào?",
+      "options": [
+        "Chuẩn Bạch đai là cấp 17, 5 đẳng, danh xưng Chuẩn võ sư; Bạch đai là cấp 18, 6 đẳng, danh xưng Võ sư.",
+        "Chuẩn Bạch đai chủ yếu là cấp 17, 5 đẳng, danh xưng Chuẩn võ sư; Bạch đai là cấp 18, 6 đẳng, danh xưng Võ sư.",
+        "Chỉ chuẩn Bạch đai là cấp 17, 5 đẳng, danh xưng Chuẩn võ sư; Bạch đai là cấp 18, 6 đẳng, danh xưng Võ sư.",
+        "Chuẩn Bạch đai là cấp 17, 5 đẳng, danh xưng Chuẩn võ sư; Bạch đai là cấp 18, 6 đẳng, danh xưng Võ sư là chính."
+      ],
+      "correctIndex": 0,
+      "explanation": "Chuẩn Bạch đai là cấp 17, 5 đẳng, danh xưng Chuẩn võ sư; Bạch đai là cấp 18, 6 đẳng, danh xưng Võ sư.",
+      "sourceQuestion": "Câu 13. Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c13-06",
+      "lessonId": "blue-lesson-02",
+      "number": 32,
+      "type": "single",
+      "question": "Bạch đai đệ nhất, đệ nhị và đệ tam cấp tương ứng với các cấp nào?",
+      "options": [
+        "Bạch đai đệ nhất là cấp 19, đệ nhị là cấp 20 và đệ tam là cấp 21.",
+        "Bạch đai đệ nhất là cấp 19, đệ nhị là cấp 20 hoặc đệ tam là cấp 21.",
+        "Bạch đai đệ nhất là cấp 18, đệ nhị là cấp 20 và đệ tam là cấp 21.",
+        "Bạch đai đệ nhất là cấp 19, đệ nhị là cấp 19 và đệ tam là cấp 21."
+      ],
+      "correctIndex": 0,
+      "explanation": "Bạch đai đệ nhất là cấp 19, đệ nhị là cấp 20 và đệ tam là cấp 21.",
+      "sourceQuestion": "Câu 13. Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c13-07",
+      "lessonId": "blue-lesson-02",
+      "number": 33,
+      "type": "single",
+      "question": "Phó Chưởng môn và Chưởng môn sử dụng đai nào?",
+      "options": [
+        "Phó Chưởng môn dùng Bạch đai tứ sắc; Chưởng môn dùng Bạch đai ngũ sắc, có tua ngũ sắc.",
+        "Phó Chưởng môn dùng Bạch đai ngũ sắc; Chưởng môn dùng Bạch đai ngũ sắc, có tua ngũ sắc.",
+        "Phó Chưởng môn dùng Bạch đai tứ sắc; Chưởng môn dùng Bạch đai tứ sắc, có tua ngũ sắc.",
+        "Chỉ phó Chưởng môn dùng Bạch đai tứ sắc; Chưởng môn dùng Bạch đai ngũ sắc, có tua ngũ sắc."
+      ],
+      "correctIndex": 0,
+      "explanation": "Phó Chưởng môn dùng Bạch đai tứ sắc; Chưởng môn dùng Bạch đai ngũ sắc, có tua ngũ sắc.",
+      "sourceQuestion": "Câu 13. Hệ thống cấp đai của môn phái Phật Quang Quyền như thế nào?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c14-02",
+      "lessonId": "blue-lesson-02",
+      "number": 34,
+      "type": "single",
+      "question": "Hình tròn và nền vàng đất của biểu tượng môn phái mang ý nghĩa gì?",
+      "options": [
+        "Hình tròn tượng trưng cho bánh xe Chuyển Pháp Luân của Phật giáo; nền vàng đất biểu trưng cho sự cao quý, thanh tịnh và tinh thần Phật giáo.",
+        "Hình tròn tượng trưng cho bánh xe Chuyển Pháp Luân của Phật giáo; nền vàng đất biểu trưng cho sự cao quý, thanh tịnh hoặc tinh thần Phật giáo.",
+        "Hình tròn tượng trưng cho bánh xe Chuyển Pháp Luân của Phật giáo; nền vàng đất biểu trưng cho sự cao quý, trong sạch và tinh thần Phật giáo.",
+        "Chỉ hình tròn tượng trưng cho bánh xe Chuyển Pháp Luân của Phật giáo; nền vàng đất biểu trưng cho sự cao quý, thanh tịnh và tinh thần Phật giáo."
+      ],
+      "correctIndex": 0,
+      "explanation": "Hình tròn tượng trưng cho bánh xe Chuyển Pháp Luân của Phật giáo; nền vàng đất biểu trưng cho sự cao quý, thanh tịnh và tinh thần Phật giáo.",
+      "sourceQuestion": "Câu 14. Ý nghĩa biểu tượng môn phái Phật Quang Quyền?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c14-03",
+      "lessonId": "blue-lesson-02",
+      "number": 35,
+      "type": "single",
+      "question": "Tám hình elip trong biểu tượng còn tượng trưng cho điều gì?",
+      "options": [
+        "Tám hình elip tượng trưng cho Bát Chánh Đạo, con đường tu tập chân chính của môn sinh Phật Quang Quyền phải thực hành.",
+        "Tám hình elip tượng trưng cho Bát Chánh Đạo, con đường tu tập chân chính của môn sinh Phật Quang Quyền nên thực hành.",
+        "Tám hình elip tượng trưng cho Bát Chánh Đạo, con đường tu tập tích cực của môn sinh Phật Quang Quyền phải thực hành.",
+        "Tám hình elip tượng trưng cho Chánh Đạo, con đường tu tập chân chính của môn sinh Phật Quang Quyền phải thực hành."
+      ],
+      "correctIndex": 0,
+      "explanation": "Tám hình elip tượng trưng cho Bát Chánh Đạo, con đường tu tập chân chính của môn sinh Phật Quang Quyền phải thực hành.",
+      "sourceQuestion": "Câu 14. Ý nghĩa biểu tượng môn phái Phật Quang Quyền?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-2-c14-04",
+      "lessonId": "blue-lesson-02",
+      "number": 36,
+      "type": "definition",
+      "question": "Hình ảnh mỗi môn sinh trong ý nghĩa biểu tượng môn phái được diễn tả thế nào?",
+      "sampleAnswer": "Mỗi môn sinh Phật Quang Quyền như một bông hoa ngát hương đạo đức, không ngừng tô đẹp cho đời.",
+      "matchThreshold": 0.65,
+      "explanation": "Mỗi môn sinh Phật Quang Quyền như một bông hoa ngát hương đạo đức, không ngừng tô đẹp cho đời.",
+      "sourceQuestion": "Câu 14. Ý nghĩa biểu tượng môn phái Phật Quang Quyền?",
+      "rankId": "lam-2",
+      "beltId": "blue"
+    }
+  ]
+}

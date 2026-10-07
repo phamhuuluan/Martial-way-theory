@@ -9,13 +9,13 @@ import type { ExamBankFile } from '@/types/exam';
 
 export type ExamBankPurpose = 'practice' | 'official';
 
-const PRACTICE_BANK_DIR = path.join(process.cwd(), 'content', 'exam-bank');
+const PRACTICE_BANK_DIR = path.join(process.cwd(), 'content', 'practice-bank');
 
 /**
  * Kỳ thi đang dùng chung thư mục với ôn luyện.
  * Khi có ngân hàng thi riêng, chỉ cần đổi đường dẫn này.
  */
-const OFFICIAL_BANK_DIR = PRACTICE_BANK_DIR;
+const OFFICIAL_BANK_DIR = path.join(process.cwd(), 'content', 'official-bank');
 
 function bankDirectory(purpose: ExamBankPurpose): string {
   return purpose === 'official' ? OFFICIAL_BANK_DIR : PRACTICE_BANK_DIR;

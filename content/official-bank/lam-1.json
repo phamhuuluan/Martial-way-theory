@@ -1,0 +1,425 @@
+{
+  "rankId": "lam-1",
+  "beltId": "blue",
+  "lessonId": "blue-lesson-01",
+  "questions": [
+    {
+      "id": "lam-1-c01-01",
+      "lessonId": "blue-lesson-01",
+      "number": 1,
+      "type": "single",
+      "question": "Phật Quang Quyền (PQQ) chính thức gia nhập vào liên đoàn Võ Cổ Truyền (VCT) Việt Nam khi nào và vì lý do gì?",
+      "options": [
+        "Năm 2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền Việt Nam, để phát triển môn phái ra bên ngoài theo sự mong muốn của đông đảo Phật tử và môn sinh.",
+        "Năm 2015, sau hơn 20 năm hình thành hoặc phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền Việt Nam, để phát triển môn phái ra bên ngoài theo sự mong muốn của đông đảo Phật tử và môn sinh.",
+        "Năm 2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền trực tiếp gia nhập Liên đoàn Võ Cổ Truyền Việt Nam, để phát triển môn phái ra bên ngoài theo sự mong muốn của đông đảo Phật tử và môn sinh.",
+        "Năm 2014, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền Việt Nam, để phát triển môn phái ra bên ngoài theo sự mong muốn của đông đảo Phật tử và môn sinh."
+      ],
+      "correctIndex": 0,
+      "explanation": "Năm 2015, sau hơn 20 năm hình thành và phát triển, môn phái Phật Quang Quyền chính thức gia nhập Liên đoàn Võ Cổ Truyền Việt Nam, để phát triển môn phái ra bên ngoài theo sự mong muốn của đông đảo Phật tử và môn sinh.",
+      "sourceQuestion": "Câu 1. Phật Quang Quyền (PQQ) chính thức gia nhập vào liên đoàn Võ Cổ Truyền (VCT) Việt Nam khi nào?",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c02-01",
+      "lessonId": "blue-lesson-01",
+      "number": 2,
+      "type": "definition",
+      "question": "Võ nghệ là gì?",
+      "sampleAnswer": "Người có võ nghệ là người tập luyện Võ thuật kiên trì, có khả năng chiến đấu, đạt ở mức chấp nhận được.",
+      "matchThreshold": 0.65,
+      "explanation": "Định Nghĩa: người có võ nghệ là người tập luyện Võ thuật kiên trì, có khả năng chiến đấu, đạt ở mức chấp nhận được.",
+      "sourceQuestion": "Câu 2. Võ nghệ là gì:",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c03-01",
+      "lessonId": "blue-lesson-01",
+      "number": 3,
+      "type": "single",
+      "question": "Võ thuật là gì?",
+      "options": [
+        "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để chiến đấu và tự vệ.",
+        "Võ thuật là hệ thống các đòn thế, kỹ thuật hoặc phương pháp luyện tập dùng để chiến đấu và tự vệ.",
+        "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để thi đấu và tự vệ.",
+        "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để chiến đấu và phòng thủ."
+      ],
+      "correctIndex": 0,
+      "explanation": "Võ thuật là hệ thống các đòn thế, kỹ thuật và phương pháp luyện tập dùng để chiến đấu và tự vệ.",
+      "sourceQuestion": "Câu 3. Võ thuật là gì:",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c03-02",
+      "lessonId": "blue-lesson-01",
+      "number": 4,
+      "type": "single",
+      "question": "Theo định nghĩa về võ thuật, người xưa thường nói 'Thập bát ban võ nghệ' là chỉ điều gì?",
+      "options": [
+        "Chỉ việc sử dụng nhiều thứ vũ khí khác nhau.",
+        "Chỉ việc sử dụng một số thứ vũ khí khác nhau.",
+        "Chỉ chỉ việc sử dụng nhiều thứ vũ khí khác nhau.",
+        "Chỉ việc sử dụng nhiều thứ vũ khí khác nhau là chính."
+      ],
+      "correctIndex": 0,
+      "explanation": "Người xưa thường nói Thập bát ban võ nghệ là chỉ sử dụng nhiều thứ vũ khí khác nhau.",
+      "sourceQuestion": "Câu 3. Võ thuật là gì:",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c04-01",
+      "lessonId": "blue-lesson-01",
+      "number": 5,
+      "type": "single",
+      "question": "Võ học là gì?",
+      "options": [
+        "Võ học là việc nghiên cứu, tìm hiểu và so sánh kiến thức của nhiều môn phái võ thuật, kết hợp với khoa học và y học để nâng cao hiểu biết về võ thuật.",
+        "Võ học là việc nghiên cứu, tìm hiểu hoặc so sánh kiến thức của nhiều môn phái võ thuật, kết hợp với khoa học và y học để nâng cao hiểu biết về võ thuật.",
+        "Võ học là việc nghiên cứu, tìm hiểu và so sánh kiến thức của một số môn phái võ thuật, kết hợp với khoa học và y học để nâng cao hiểu biết về võ thuật.",
+        "Võ học chủ yếu là việc nghiên cứu, tìm hiểu và so sánh kiến thức của nhiều môn phái võ thuật, kết hợp với khoa học và y học để nâng cao hiểu biết về võ thuật."
+      ],
+      "correctIndex": 0,
+      "explanation": "Võ học là việc nghiên cứu, tìm hiểu và so sánh kiến thức của nhiều môn phái võ thuật, kết hợp với khoa học và y học để nâng cao hiểu biết về võ thuật.",
+      "sourceQuestion": "Câu 4. Võ học là gì?",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c05-01",
+      "lessonId": "blue-lesson-01",
+      "number": 6,
+      "type": "single",
+      "question": "Võ đạo là gì?",
+      "options": [
+        "Võ đạo là đem võ thuật ứng dụng vào việc tu dưỡng đạo đức, hoàn thiện nhân cách và làm chủ bản thân, không nhằm mục đích chiến đấu.",
+        "Võ đạo là đem võ thuật ứng dụng vào việc tu dưỡng đạo đức, hoàn thiện nhân cách hoặc làm chủ bản thân, không nhằm mục đích chiến đấu.",
+        "Võ đạo là đem võ thuật ứng dụng vào việc tu dưỡng đạo đức, hoàn thiện nhân cách và làm chủ bản thân, không nhằm mục đích thi đấu.",
+        "Võ đạo là đem võ thuật ứng dụng vào việc tu dưỡng đạo hạnh, hoàn thiện nhân cách và làm chủ bản thân, không nhằm mục đích chiến đấu."
+      ],
+      "correctIndex": 0,
+      "explanation": "Võ đạo là đem võ thuật ứng dụng vào việc tu dưỡng đạo đức, hoàn thiện nhân cách và làm chủ bản than, không nhằm mục đích chiến đấu.",
+      "sourceQuestion": "Câu 5. Võ đạo là gì?",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c06-01",
+      "lessonId": "blue-lesson-01",
+      "number": 7,
+      "type": "single",
+      "question": "Trong lời thề thứ nhất, 'Chiến thắng sự sợ hãi' có ý nghĩa gì?",
+      "options": [
+        "Là vượt qua những yếu đuối, lo lắng và thiếu tự tin của bản thân.",
+        "Là vượt qua những yếu đuối, lo lắng hoặc thiếu tự tin của bản thân.",
+        "Chủ yếu là vượt qua những yếu đuối, lo lắng và thiếu tự tin của bản thân.",
+        "Chỉ là vượt qua những yếu đuối, lo lắng và thiếu tự tin của bản thân."
+      ],
+      "correctIndex": 0,
+      "explanation": "Chiến thắng sự sợ hãi: là vượt qua những yếu đuối, lo lắng và thiếu tự tin của bản thân.",
+      "sourceQuestion": "Câu 6. Giải thích ý nghĩa lời thế thứ nhât: Tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng:",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c06-02",
+      "lessonId": "blue-lesson-01",
+      "number": 8,
+      "type": "single",
+      "question": "Trong lời thề thứ nhất, 'Hạnh nhẫn nhục' có ý nghĩa gì?",
+      "options": [
+        "Là biết kiềm chế nóng giận, chịu đựng khó khăn và không hơn thua với người khác. Đến mức tận cùng.",
+        "Là biết kiềm chế nóng giận, chịu đựng khó khăn hoặc không hơn thua với người khác. Đến mức tận cùng.",
+        "Là biết kiềm chế nóng giận, chịu đựng khó khăn và không hơn thua với người khác. Đến mức cao độ.",
+        "Chủ yếu là biết kiềm chế nóng giận, chịu đựng khó khăn và không hơn thua với người khác. Đến mức tận cùng."
+      ],
+      "correctIndex": 0,
+      "explanation": "Hạnh nhẫn nhục: là biết kiềm chế nóng giận, chịu đựng khó khăn và không hơn thua với người khác. Đến múc tận cùng.",
+      "sourceQuestion": "Câu 6. Giải thích ý nghĩa lời thế thứ nhât: Tập võ để chiến thắng sự sợ hãi trong lòng mình và đạt được hạnh nhẫn nhục tận cùng:",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c07-01",
+      "lessonId": "blue-lesson-01",
+      "number": 9,
+      "type": "single",
+      "question": "Ý nghĩa lời thề thứ hai: 'Tập võ để bênh vực kẻ vô tội bị ức hiếp' là gì?",
+      "options": [
+        "Người học võ không phải dùng sức mạnh để hiếp yếu thắng mạnh, mà dùng khả năng của mình để bảo vệ người vô tội, giúp đỡ người yếu thế và bảo vệ lẽ phải.",
+        "Người học võ không phải dùng sức mạnh để hiếp yếu thắng mạnh, mà dùng khả năng của mình để bảo vệ người vô tội, giúp đỡ người yếu thế hoặc bảo vệ lẽ phải.",
+        "Người học võ không nên dùng sức mạnh để hiếp yếu thắng mạnh, mà dùng khả năng của mình để bảo vệ người vô tội, giúp đỡ người yếu thế và bảo vệ lẽ phải.",
+        "Người học võ không phải dùng thể lực để hiếp yếu thắng mạnh, mà dùng khả năng của mình để bảo vệ người vô tội, giúp đỡ người yếu thế và bảo vệ lẽ phải."
+      ],
+      "correctIndex": 0,
+      "explanation": "Người học võ không phải dùng sức mạnh để hiếp yếu thắng mạnh, mà dùng khả năng của mình để bảo vệ người vô tội, giúp đỡ người yếu thế và bảo vệ lẽ phải.",
+      "sourceQuestion": "Câu 7. Ý nghĩa lời thề thứ hai: tập võ để bênh vực kẻ vô tội bị ức hiếp:",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c08-01",
+      "lessonId": "blue-lesson-01",
+      "number": 10,
+      "type": "single",
+      "question": "Giải thích ý nghĩa lời thề thứ ba: 'Tập võ để bảo vệ Chánh pháp.'",
+      "options": [
+        "Võ sinh/ môn sinh PQQ phải biết sống đúng đạo lý, giữ gìn và tôn kính những giá trị chân chính mà Đức Phật dạy. Khi cần thiết, dùng sức mạnh, trí tuệ và lòng dũng cảm để bảo vệ sự thật, lẽ phải và góp phần giữ gìn Chánh pháp được trường tồn.",
+        "Võ sinh/ môn sinh PQQ phải biết sống đúng đạo lý, giữ gìn hoặc tôn kính những giá trị chân chính mà Đức Phật dạy. Khi cần thiết, dùng sức mạnh, trí tuệ và lòng dũng cảm để bảo vệ sự thật, lẽ phải và góp phần giữ gìn Chánh pháp được trường tồn.",
+        "Võ sinh/ môn sinh PQQ nên biết sống đúng đạo lý, giữ gìn và tôn kính những giá trị chân chính mà Đức Phật dạy. Khi cần thiết, dùng sức mạnh, trí tuệ và lòng dũng cảm để bảo vệ sự thật, lẽ phải và góp phần giữ gìn Chánh pháp được trường tồn.",
+        "Võ sinh/ môn sinh PQQ phải biết sống đúng đạo lý, giữ gìn và tôn kính những giá trị chân chính mà Đức Phật dạy. Khi cần thiết, dùng thể lực, trí tuệ và lòng dũng cảm để bảo vệ sự thật, lẽ phải và góp phần giữ gìn Chánh pháp được trường tồn."
+      ],
+      "correctIndex": 0,
+      "explanation": "Võ sinh/ môn sinh PQQ phải biết sống đúng đạo lý, giữ gìn và tôn kính những giá trị chân chính mà Đức Phật dạy. Khi cần thiết, dùng sức mạnh, trí tuệ và lòng dũng cảm để bảo vệ sự thật, lẽ phải và góp phần giữ gìn Chánh pháp được trường tồn.",
+      "sourceQuestion": "Câu 8. Giải thích ý nghĩa lời thề thứ ba: \"Tập võ để bảo vệ Chánh pháp.\"",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c09-01",
+      "lessonId": "blue-lesson-01",
+      "number": 11,
+      "type": "single",
+      "question": "Ý nghĩa lời thề thứ Tư: 'Tập võ để bảo vệ đất nước' xuất phát từ lý do gì?",
+      "options": [
+        "Võ cổ truyền Việt Nam được ra đời từ công cuộc dựng nước và bảo vệ đất nước, cho nên từ xưa đến nay, người học võ ngoài việc rèn luyện sức mạnh, thì luôn gắn liền với việc phải nuôi dưỡng lòng yêu nước, ý thức trách nhiệm với quê hương và sẵn sàng góp sức bảo vệ Tổ quốc khi cần.",
+        "Võ cổ truyền Việt Nam được ra đời từ công cuộc dựng nước hoặc bảo vệ đất nước, cho nên từ xưa đến nay, người học võ ngoài việc rèn luyện sức mạnh, thì luôn gắn liền với việc phải nuôi dưỡng lòng yêu nước, ý thức trách nhiệm với quê hương và sẵn sàng góp sức bảo vệ Tổ quốc khi cần.",
+        "Võ cổ truyền Việt Nam được ra đời từ công cuộc dựng nước và bảo vệ đất nước, cho nên từ xưa đến nay, người học võ ngoài việc rèn luyện sức mạnh, thì luôn gắn liền với việc nên nuôi dưỡng lòng yêu nước, ý thức trách nhiệm với quê hương và sẵn sàng góp sức bảo vệ Tổ quốc khi cần.",
+        "Võ cổ truyền Việt Nam được ra đời từ công cuộc dựng nước và bảo vệ đất nước, cho nên từ xưa đến nay, người học võ ngoài việc rèn luyện sức mạnh, thì thường gắn liền với việc phải nuôi dưỡng lòng yêu nước, ý thức trách nhiệm với quê hương và sẵn sàng góp sức bảo vệ Tổ quốc khi cần."
+      ],
+      "correctIndex": 0,
+      "explanation": "Võ cổ truyền việt nam được ra đời từ công cuộc dựng nước và bảo vệ đất nước, cho nên Từ xưa đến nay, người học võ ngoài việc để rèn luyện sức mạnh, thì luôn gắn liền với việc phải nuôi dưỡng lòng yêu nước, ý thức trách nhiệm với quê hương và sẵn sàng góp sức bảo vệ Tổ quốc khi cần.",
+      "sourceQuestion": "Câu 9. Ý nghĩa lời thề thứ Tư. “Tập võ để bảo vệ đất nước”",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c10-01",
+      "lessonId": "blue-lesson-01",
+      "number": 12,
+      "type": "multiple",
+      "question": "Ý nghĩa lời thề thứ năm: 'Trung thành với Thầy Tổ, tín nghĩa với huynh đệ' bao gồm những nội dung nào?",
+      "options": [
+        "Trung thành với Thầy Tổ là luôn tôn kính, biết ơn, bảo vệ danh dự Thầy Tổ và môn phái; giữ vững lòng trung thành dù gặp nghịch cảnh, bị quở trách, luyện tập khó tiến bộ hay bị cám dỗ bởi thuận cảnh.",
+        "Tín nghĩa với huynh đệ là thương yêu, kính trọng, tin tưởng, đoàn kết và giúp đỡ lẫn nhau như người trong một gia đình, cùng giữ gìn kỷ luật và danh dự môn phái.",
+        "Trung thành với Thầy Tổ là luôn tôn kính, biết ơn, bảo vệ danh dự Thầy Tổ hoặc môn phái; giữ vững lòng trung thành dù gặp nghịch cảnh, bị quở trách, luyện tập khó tiến bộ hay bị cám dỗ bởi thuận cảnh.",
+        "Tín nghĩa với huynh đệ là thương yêu, kính trọng, tin tưởng, đoàn kết hoặc giúp đỡ lẫn nhau như người trong một gia đình, cùng giữ gìn kỷ luật và danh dự môn phái."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Trung thành với Thầy: Tổ là luôn tôn kính, biết ơn, bảo vệ danh dự Thầy Tổ và môn phái... Tín nghĩa với huynh đệ: là thương yêu, kính trọng, tin tưởng, đoàn kết và giúp đỡ lẫn nhau...",
+      "sourceQuestion": "Câu 10. Ý nghĩa lời thề thứ năm: “Trung thành với Thầy Tổ, tín nghĩa với huynh đệ”",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c11-01",
+      "lessonId": "blue-lesson-01",
+      "number": 13,
+      "type": "multiple",
+      "question": "Lời thề thứ sáu 'Yêu thích lao động giúp đời' nhắc nhở môn sinh siêng năng lao động và giúp ích cho mọi người để đạt được những lợi ích lớn nào?",
+      "options": [
+        "Tạo phước: Biết làm việc thiện, giúp đời để có phước lành và cuộc sống tốt đẹp hơn.",
+        "Rèn luyện sức mạnh và ý chí: Lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ phát triển nội lực và hình thành tinh thần vượt khó.",
+        "Tạo phước: Biết làm việc thiện, giúp đời để có phước lành hoặc cuộc sống tốt đẹp hơn.",
+        "Rèn luyện sức mạnh hoặc ý chí: Lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ phát triển nội lực và hình thành tinh thần vượt khó."
+      ],
+      "correctIndices": [
+        0,
+        1
+      ],
+      "explanation": "Đạt được hai lợi ích lớn: Tạo phước: Biết làm việc thiện, giúp đời... Rèn luyện sức mạnh và ý chí: Lao động giúp cơ thể khỏe mạnh, tăng sức bền...",
+      "sourceQuestion": "Câu 11. Ý nghĩa lời thề thứ sáu: “Yêu thích lao động giúp đời”",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c12-01",
+      "lessonId": "blue-lesson-01",
+      "number": 14,
+      "type": "multiple",
+      "question": "Tinh thần tập võ của môn sinh Phật Quang Quyền được quy định như thế nào?",
+      "options": [
+        "Phải siêng năng, kiên trì luyện tập võ thuật.",
+        "Xem võ học là di sản quý báu của cha ông cần được gìn giữ và phát huy.",
+        "Ý thức việc tập võ là trách nhiệm của người môn sinh đối với môn phái và dân tộc.",
+        "Nên siêng năng, kiên trì luyện tập võ thuật.",
+        "Xem võ học là di sản quý báu của cha ông cần được gìn giữ hoặc phát huy.",
+        "Ý thức việc tập võ là trách nhiệm của người môn sinh đối với môn phái hoặc dân tộc."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Tinh thần tập võ: Phải siêng năng, kiên trì luyện tập... Xem võ học là di sản quý báu... Ý thức việc tập võ là trách nhiệm của người môn sinh đối với môn phái và dân tộc.",
+      "sourceQuestion": "Câu 12. Tinh thần tập võ của môn sinh Phật Quang Quyền như thế nào ?",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c03-03",
+      "lessonId": "blue-lesson-01",
+      "number": 15,
+      "type": "multiple",
+      "question": "Các cách gọi theo bộ phận hoặc vũ khí sử dụng trong võ thuật gồm những nội dung nào?",
+      "options": [
+        "Dùng tay gọi là Quyền thuật.",
+        "Dùng chân gọi là Cước thuật.",
+        "Dùng Đao gọi là Đao thuật.",
+        "Dùng Kiếm gọi là Kiếm thuật.",
+        "Dùng tay gọi là Quyền pháp.",
+        "Dùng chân gọi là Cước pháp.",
+        "Dùng Đao gọi là Đao pháp.",
+        "Dùng Kiếm gọi là Kiếm pháp."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Dùng tay gọi là Quyền thuật. Dùng chân gọi là Cước thuật. Dùng Đao gọi là Đao thuật. Dùng Kiếm gọi là Kiếm thuật.",
+      "sourceQuestion": "Câu 3. Võ thuật là gì:",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c07-02",
+      "lessonId": "blue-lesson-01",
+      "number": 16,
+      "type": "multiple",
+      "question": "Người học võ dùng khả năng của mình vào những việc nào theo lời thề thứ hai?",
+      "options": [
+        "Bảo vệ người vô tội.",
+        "Giúp đỡ người yếu thế.",
+        "Bảo vệ lẽ phải.",
+        "Chỉ bảo vệ người vô tội.",
+        "Chỉ giúp đỡ người yếu thế.",
+        "Chỉ bảo vệ lẽ phải."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Bảo vệ người vô tội. Giúp đỡ người yếu thế. Bảo vệ lẽ phải.",
+      "sourceQuestion": "Câu 7. Ý nghĩa lời thề thứ hai: tập võ để bênh vực kẻ vô tội bị ức hiếp:",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c08-02",
+      "lessonId": "blue-lesson-01",
+      "number": 17,
+      "type": "multiple",
+      "question": "Khi cần thiết, môn sinh dùng những phẩm chất nào để bảo vệ sự thật, lẽ phải và Chánh pháp?",
+      "options": [
+        "Dùng sức mạnh.",
+        "Dùng trí tuệ.",
+        "Dùng lòng dũng cảm.",
+        "Dùng thể lực.",
+        "Dùng sự hiểu biết.",
+        "Dùng tinh thần dũng cảm."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Dùng sức mạnh. Dùng trí tuệ. Dùng lòng dũng cảm.",
+      "sourceQuestion": "Câu 8. Giải thích ý nghĩa lời thề thứ ba: \"Tập võ để bảo vệ Chánh pháp.\"",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c10-02",
+      "lessonId": "blue-lesson-01",
+      "number": 18,
+      "type": "multiple",
+      "question": "Trung thành với Thầy Tổ được thể hiện qua những việc nào?",
+      "options": [
+        "Luôn tôn kính và biết ơn Thầy Tổ.",
+        "Bảo vệ danh dự Thầy Tổ và môn phái.",
+        "Giữ vững lòng trung thành dù gặp nghịch cảnh hoặc thuận cảnh cám dỗ.",
+        "Luôn tôn kính hoặc biết ơn Thầy Tổ.",
+        "Bảo vệ danh dự Thầy Tổ hoặc môn phái.",
+        "Chỉ giữ vững lòng trung thành dù gặp nghịch cảnh hoặc thuận cảnh cám dỗ."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Luôn tôn kính và biết ơn Thầy Tổ. Bảo vệ danh dự Thầy Tổ và môn phái. Giữ vững lòng trung thành dù gặp nghịch cảnh hoặc thuận cảnh cám dỗ.",
+      "sourceQuestion": "Câu 10. Ý nghĩa lời thề thứ năm: “Trung thành với Thầy Tổ, tín nghĩa với huynh đệ”",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c10-03",
+      "lessonId": "blue-lesson-01",
+      "number": 19,
+      "type": "multiple",
+      "question": "Tín nghĩa với huynh đệ được thể hiện qua những nội dung nào?",
+      "options": [
+        "Thương yêu, kính trọng và tin tưởng lẫn nhau.",
+        "Đoàn kết và giúp đỡ lẫn nhau như người trong một gia đình.",
+        "Cùng giữ gìn kỷ luật và danh dự môn phái.",
+        "Thương yêu, kính trọng hoặc tin tưởng lẫn nhau.",
+        "Đoàn kết hoặc giúp đỡ lẫn nhau như người trong một gia đình.",
+        "Cùng giữ gìn kỷ luật hoặc danh dự môn phái."
+      ],
+      "correctIndices": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Thương yêu, kính trọng và tin tưởng lẫn nhau. Đoàn kết và giúp đỡ lẫn nhau như người trong một gia đình. Cùng giữ gìn kỷ luật và danh dự môn phái.",
+      "sourceQuestion": "Câu 10. Ý nghĩa lời thề thứ năm: “Trung thành với Thầy Tổ, tín nghĩa với huynh đệ”",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c11-02",
+      "lessonId": "blue-lesson-01",
+      "number": 20,
+      "type": "single",
+      "question": "Lao động rèn luyện sức mạnh và ý chí cho môn sinh như thế nào?",
+      "options": [
+        "Lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ phát triển nội lực và hình thành tinh thần vượt khó.",
+        "Lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ phát triển nội lực hoặc hình thành tinh thần vượt khó.",
+        "Chỉ lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ phát triển nội lực và hình thành tinh thần vượt khó.",
+        "Lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ phát triển nội lực và hình thành tinh thần vượt khó là chính."
+      ],
+      "correctIndex": 0,
+      "explanation": "Lao động giúp cơ thể khỏe mạnh, tăng sức bền, dễ phát triển nội lực và hình thành tinh thần vượt khó.",
+      "sourceQuestion": "Câu 11. Ý nghĩa lời thề thứ sáu: “Yêu thích lao động giúp đời”",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    },
+    {
+      "id": "lam-1-c12-02",
+      "lessonId": "blue-lesson-01",
+      "number": 21,
+      "type": "single",
+      "question": "Môn sinh cần nhìn nhận võ học như thế nào?",
+      "options": [
+        "Xem võ học là di sản quý báu của cha ông cần được gìn giữ và phát huy.",
+        "Xem võ học là di sản quý báu của cha ông cần được gìn giữ hoặc phát huy.",
+        "Xem võ học chủ yếu là di sản quý báu của cha ông cần được gìn giữ và phát huy.",
+        "Chỉ xem võ học là di sản quý báu của cha ông cần được gìn giữ và phát huy."
+      ],
+      "correctIndex": 0,
+      "explanation": "Xem võ học là di sản quý báu của cha ông cần được gìn giữ và phát huy.",
+      "sourceQuestion": "Câu 12. Tinh thần tập võ của môn sinh Phật Quang Quyền như thế nào ?",
+      "rankId": "lam-1",
+      "beltId": "blue"
+    }
+  ]
+}

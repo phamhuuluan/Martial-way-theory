@@ -16,6 +16,7 @@ export function OfficialExamGate({ rankName, onSelectSession }: Props) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [selectedId, setSelectedId] = useState('');
+  const [startLoading, setStartLoading] = useState(false);
 
   useEffect(() => {
     let mounted = true;
@@ -44,7 +45,8 @@ export function OfficialExamGate({ rankName, onSelectSession }: Props) {
   const handleStart = () => {
     const session = sessions.find((s) => s.id === selectedId);
     if (session) {
-      onSelectSession(session);
+      setStartLoading(true);
+      setTimeout(() => onSelectSession(session), 10);
     }
   };
 
@@ -92,10 +94,10 @@ export function OfficialExamGate({ rankName, onSelectSession }: Props) {
             <Button
               variant="primary"
               className="w-full"
-              disabled={!selectedId}
+              disabled={!selectedId || startLoading}
               onClick={handleStart}
             >
-              Bắt đầu thi
+              {startLoading ? 'Đang chuẩn bị...' : 'Bắt đầu thi'}
             </Button>
           </div>
         )}

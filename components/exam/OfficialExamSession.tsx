@@ -44,6 +44,7 @@ export function OfficialExamSession({
     index,
     setIndex,
     submitError,
+    isSubmitting,
     submitDraft,
     updateAnswer,
     submitFailedRef,
@@ -169,10 +170,10 @@ export function OfficialExamSession({
     return Math.max(0, expireAt - now);
   }, [draft, durationMinutes, now]);
 
-  if (ending || !ready || !draft) {
+  if (ending || !ready || !draft || isSubmitting) {
     return (
       <div className="profile-page px-4 py-16 text-center text-sm text-text-secondary">
-        {ending ? 'Đang kết thúc bài thi…' : 'Đang mở đề thi…'}
+        {isSubmitting ? 'Đang nộp bài...' : ending ? 'Đang kết thúc bài thi…' : 'Đang mở đề thi…'}
       </div>
     );
   }
@@ -289,17 +290,17 @@ export function OfficialExamSession({
           </Button>
         </Modal>
 
-        <Modal open={confirmingSubmit} onClose={() => setConfirmingSubmit(false)} title="Nộp bài">
+        <Modal open={confirmingSubmit} onClose={() => { if (!isSubmitting) setConfirmingSubmit(false); }} title="Nộp bài">
           <p className="mb-4 text-sm text-text-secondary">
             Bạn đã trả lời {answeredCount}/{draft.questions.length} câu. Sau khi nộp không sửa được đáp án.
           </p>
           {submitError && <p className="mb-4 text-sm text-error">{submitError}</p>}
           <div className="flex gap-3">
-            <Button variant="secondary" className="flex-1" onClick={() => setConfirmingSubmit(false)}>
+            <Button variant="secondary" className="flex-1" disabled={isSubmitting} onClick={() => setConfirmingSubmit(false)}>
               Làm tiếp
             </Button>
-            <Button variant="primary" className="flex-1" onClick={() => submitDraft(draft, false)}>
-              Nộp bài
+            <Button variant="primary" className="flex-1" disabled={isSubmitting} onClick={() => submitDraft(draft, false)}>
+              {isSubmitting ? 'Đang nộp...' : 'Nộp bài'}
             </Button>
           </div>
         </Modal>
