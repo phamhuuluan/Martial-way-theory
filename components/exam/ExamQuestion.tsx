@@ -7,6 +7,7 @@ import { QuizMatching } from '@/components/quiz/QuizMatching';
 import { QuizOption } from '@/components/quiz/QuizOption';
 import { QuizOrdering } from '@/components/quiz/QuizOrdering';
 import {
+  evaluateMultipleChoice,
   getCorrectIndices,
   getQuestionType,
   isDefinitionQuestion,
@@ -25,6 +26,19 @@ interface ExamQuestionProps {
   revealed?: boolean;
   disabled?: boolean;
   onChange: (answer: QuizAnswer) => void;
+}
+
+function multipleOptionState(
+  question: QuizQuestion,
+  index: number,
+  selected: boolean,
+  level: 'correct' | 'partial' | 'incorrect'
+): 'default' | 'correct' | 'incorrect' | 'reveal-correct' | 'missed-key' {
+  const correct = getCorrectIndices(question).includes(index);
+  if (correct && selected) return 'correct';
+  if (!correct && selected) return 'incorrect';
+  if (correct) return level === 'partial' ? 'missed-key' : 'reveal-correct';
+  return 'default';
 }
 
 function choiceState(
@@ -64,19 +78,25 @@ export function ExamQuestion({
 
   if (isTrueFalseQuestion(question)) {
     const options = question.options.length >= 2 ? question.options : [...TRUE_FALSE_OPTIONS];
+    const order = question.optionsOrder ?? options.map((_, index) => index);
     return (
       <div className="space-y-3">
-        {options.map((option, index) => (
-          <QuizOption
-            key={option}
-            label={option}
-            index={index}
-            selected={answer?.trueFalseIndex === index}
-            state={choiceState(question, index, answer?.trueFalseIndex === index, revealed)}
-            disabled={locked}
-            onSelect={() => onChange({ questionId: question.id, trueFalseIndex: index })}
-          />
-        ))}
+        {order.map((originalIndex) => {
+          const option = options[originalIndex];
+          if (!option) return null;
+          const selected = answer?.trueFalseIndex === originalIndex;
+          return (
+            <QuizOption
+              key={`${question.id}-tf-${originalIndex}`}
+              label={option}
+              index={originalIndex}
+              selected={selected}
+              state={choiceState(question, originalIndex, selected, revealed)}
+              disabled={locked}
+              onSelect={() => onChange({ questionId: question.id, trueFalseIndex: originalIndex })}
+            />
+          );
+        })}
       </div>
     );
   }
@@ -94,6 +114,8 @@ export function ExamQuestion({
         disabled={locked}
         onSelect={(blankIndex, optionIndex) => {
           const next = [...selected];
+          const existingAt = next.indexOf(optionIndex);
+          if (existingAt >= 0) next[existingAt] = -1;
           next[blankIndex] = optionIndex;
           onChange({ questionId: question.id, fillAnswers: next });
         }}
@@ -119,6 +141,10 @@ export function ExamQuestion({
         disabled={locked}
         onSelect={(leftIndex, rightIndex) => {
           const next = [...selected];
+          if (rightIndex >= 0) {
+            const existingAt = next.indexOf(rightIndex);
+            if (existingAt >= 0) next[existingAt] = -1;
+          }
           next[leftIndex] = rightIndex;
           onChange({ questionId: question.id, matchingAnswers: next });
         }}
@@ -162,13 +188,20 @@ export function ExamQuestion({
 
   const multiple = isMultipleChoice(question) || type === 'multiple';
   const selectedIndices = answer?.selectedIndices ?? [];
+  const multipleEvaluation =
+    revealed && multiple
+      ? evaluateMultipleChoice(question, { selectedIndices })
+      : null;
 
   return (
     <div className="space-y-3">
-      {(question.optionsOrder ?? question.options.map((_, i) => i)).map((originalIndex, displayIndex) => {
+      {(question.optionsOrder ?? question.options.map((_, i) => i)).map((originalIndex) => {
         const option = question.options[originalIndex];
         const index = originalIndex;
         const selected = multiple ? selectedIndices.includes(index) : answer?.selectedIndex === index;
+        const state = multipleEvaluation
+          ? multipleOptionState(question, index, selected, multipleEvaluation.level)
+          : choiceState(question, index, selected, revealed);
         return (
           <QuizOption
             key={`${question.id}-${index}`}
@@ -176,7 +209,7 @@ export function ExamQuestion({
             index={index}
             multiple={multiple}
             selected={selected}
-            state={choiceState(question, index, selected, revealed)}
+            state={state}
             disabled={locked}
             onSelect={() => {
               if (multiple) {

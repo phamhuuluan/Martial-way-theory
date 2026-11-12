@@ -1,37 +1,58 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { OfficialExamGate } from './OfficialExamGate';
 import { OfficialExamSession } from './OfficialExamSession';
 import type { ExamSession } from '@/lib/exam-results';
 import { readExamDraft } from '@/lib/exam-draft';
+import type { BeltId } from '@/types';
+import type { ExamBankQuestion } from '@/types/exam';
 
-export function OfficialExamWrapper(props: any) {
+interface OfficialExamWrapperProps {
+  rankId: string;
+  fullName: string;
+  beltId: BeltId;
+  durationMinutes: number;
+  questionCount: number;
+  questions: ExamBankQuestion[];
+}
+
+export function OfficialExamWrapper({
+  rankId,
+  fullName,
+  beltId,
+  durationMinutes,
+  questionCount,
+  questions,
+}: OfficialExamWrapperProps) {
   const [session, setSession] = useState<ExamSession | null>(null);
 
   useEffect(() => {
-    // If there's an active official exam draft, we shouldn't prompt for the gate again
-    // We can infer the session from the draft if it exists, or let it bypass if the draft already has it.
     const draft = readExamDraft();
-    if (draft && draft.mode === 'official' && draft.rankId === props.rankId) {
+    if (draft && draft.mode === 'official' && draft.rankId === rankId) {
       setSession({
         id: draft.examSessionId || '',
         name: draft.examSessionName || '',
         status: true,
-        createdAt: ''
+        createdAt: '',
       });
     }
-  }, [props.rankId]);
+  }, [rankId]);
 
   if (!session) {
-    return <OfficialExamGate rankName={props.fullName} onSelectSession={setSession} />;
+    return <OfficialExamGate rankName={fullName} onSelectSession={setSession} />;
   }
 
   return (
-    <OfficialExamSession 
-      {...props} 
-      examSessionId={session.id} 
-      examSessionName={session.name} 
+    <OfficialExamSession
+      rankId={rankId}
+      fullName={fullName}
+      beltId={beltId}
+      durationMinutes={durationMinutes}
+      questionCount={questionCount}
+      questions={questions}
+      examSessionId={session.id}
+      examSessionName={session.name}
     />
   );
 }

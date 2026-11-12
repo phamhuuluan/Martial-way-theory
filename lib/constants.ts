@@ -22,12 +22,12 @@ export const BELT_SYSTEM_LABEL = 'Hệ thống đẳng cấp môn phái Phật Q
 
 /** Cinematic environment artwork — one per belt world */
 export const WORLD_ARTWORK: Record<BeltId, string> = {
-  brown: '/assets/worlds/brown-world.png',
-  blue: '/assets/worlds/blue-world.png',
-  green: '/assets/worlds/green-world.png',
-  red: '/assets/worlds/red-world.png',
-  yellow: '/assets/worlds/yellow-world.png',
-  white: '/assets/worlds/white-world.png',
+  brown: '/assets/worlds/brown-world.webp',
+  blue: '/assets/worlds/blue-world.webp',
+  green: '/assets/worlds/green-world.webp',
+  red: '/assets/worlds/red-world.webp',
+  yellow: '/assets/worlds/yellow-world.webp',
+  white: '/assets/worlds/white-world.webp',
 };
 
 export const VIRTUES: Record<

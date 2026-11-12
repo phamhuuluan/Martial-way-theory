@@ -3,18 +3,18 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import dynamic from 'next/dynamic';
-import { ViewerToolbar } from '@/components/profile/ViewerToolbar';
+import { ViewerToolbar } from '@/components/documents/ViewerToolbar';
 import { useBodyScrollLock } from '@/hooks/use-body-scroll-lock';
 import { getViewerType, type LearningDocument } from '@/lib/documents';
 import { cn } from '@/lib/utils';
 
 const PdfViewerContent = dynamic(
-  () => import('@/components/profile/PdfViewerContent').then((m) => m.PdfViewerContent),
+  () => import('@/components/documents/PdfViewerContent').then((m) => m.PdfViewerContent),
   { ssr: false, loading: () => <ViewerLoading /> }
 );
 
 const DocxViewerContent = dynamic(
-  () => import('@/components/profile/DocxViewerContent').then((m) => m.DocxViewerContent),
+  () => import('@/components/documents/DocxViewerContent').then((m) => m.DocxViewerContent),
   { ssr: false, loading: () => <ViewerLoading /> }
 );
 

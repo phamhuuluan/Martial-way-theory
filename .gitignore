@@ -33,6 +33,11 @@ yarn-error.log*
 .env*.local
 .env
 
+# local tooling
+.venv-image/
+.venv-tts/
+.idea/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Suspense } from 'react';
 import { Be_Vietnam_Pro, Noto_Serif, Noto_Serif_TC } from 'next/font/google';
+// Body 400/500/600/700 and display 400/600/700 are used by existing utilities.
+// Noto Serif TC is for Hán-Nôm and is not on the first paint, so it is not preloaded.
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
 import { GoogleAnalyticsRouteTracker } from '@/components/analytics/GoogleAnalyticsRouteTracker';
 import { AdminProvider } from '@/components/providers/AdminProvider';
@@ -31,6 +33,7 @@ const notoSerifTC = Noto_Serif_TC({
   weight: ['400', '700'],
   variable: '--font-han-nom',
   display: 'swap',
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -55,8 +58,8 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   icons: {
-    icon: { url: '/logo.png', type: 'image/png' },
-    apple: { url: '/logo.png', type: 'image/png' },
+    icon: { url: '/logo-32.png', type: 'image/png' },
+    apple: { url: '/logo-180.png', type: 'image/png' },
   },
 };
 

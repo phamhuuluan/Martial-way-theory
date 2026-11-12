@@ -490,7 +490,7 @@
       "lessonId": "red-lesson-02",
       "number": 24,
       "type": "poem",
-      "question": "Điền các thế còn thiếu trong lời thiệu Phong Hoa Đao:\nBái tổ lập đao\n__________\nTàng đầu hữu bàn đao\n__________\nKhiên thủ tàng đao\n__________\nĐộc lập phách mạc đao\n__________\nHồi đao thích hổ\n__________\nKhiên thủ tàng đao\n__________\nĐăng sơn viễn thiếu\n__________\nPhục hổ trảm thượng đao\n__________\nThiềm triển kháo đao\n__________\nTàng đầu bàn đao\n__________\nKhiên thủ tàng đao\n__________\nHồi thân trảm mã đao\n__________\nUyên ương mạc đao\n__________\nTả hữu trảm mạc đao\n__________\nHữu tả trảm mạc đao\n__________\nHồi thân trảm mã đao\n__________\nTả hữu phân liêu đao\n__________\nBái tổ thu đao thức.",
+      "question": "Điền các thế còn thiếu trong lời thiệu Phong Hoa Đao:\nBái tổ lập đao\n__________\nTàng đầu hữu bàn đao\n__________\nKhiên thủ tàng đao\n__________\nĐộc lập phách mạc đao\n__________\nHồi đao thích hổ\n__________\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐăng sơn viễn thiếu\n__________\nPhục hổ trảm thượng đao\n__________\nThiềm triển kháo đao\n__________\nTàng đầu bàn đao\n__________\nKhiên thủ tàng đao\n__________\nHồi thân trảm mã đao\n__________\nUyên ương mạc đao\n__________\nTả hữu trảm mạc đao\n__________\nHữu tả trảm mạc đao\n__________\nHồi thân trảm mã đao\n__________\nTả hữu phân liêu đao\n__________\nBái tổ thu đao thức.",
       "options": [
         "Giao đao đả hổ",
         "Hoành khiêu bộ khóa đao",
@@ -531,7 +531,6 @@
         "Tả hữu phân liêu đao",
         "Tả hữu trích tinh đao",
         "Phạt thảo hí du long",
-        "Tả hữu phân liêu đao",
         "Tả hữu trảm mạc đao",
         "Hoành tảo thiên quân đao",
         "Hồi thân phách đao",

@@ -6,6 +6,7 @@ import { Modal } from '@/components/ui/Modal';
 
 import { ExamLoadingOverlay } from '@/components/exam/ExamLoadingOverlay';
 import { ExamQuestion } from '@/components/exam/ExamQuestion';
+import { ExamQuestionNav } from '@/components/exam/ExamQuestionNav';
 import { useExamSession } from '@/hooks/use-exam-session';
 import { isExamAnswerProvided } from '@/lib/exam-paper';
 import {
@@ -161,26 +162,11 @@ export function PracticeSession({
             </Button>
           )}
 
-          <div className="flex gap-3">
-            <Button
-              variant="secondary"
-              className="flex-1"
-              disabled={index === 0}
-              onClick={() => setIndex((value) => Math.max(0, value - 1))}
-            >
-              Câu trước
-            </Button>
-            <Button
-              variant="secondary"
-              className="flex-1"
-              disabled={index >= draft.questions.length - 1}
-              onClick={() =>
-                setIndex((value) => Math.min(draft.questions.length - 1, value + 1))
-              }
-            >
-              Câu sau
-            </Button>
-          </div>
+          <ExamQuestionNav
+            index={index}
+            total={draft.questions.length}
+            onIndex={setIndex}
+          />
           {submitError && <p className="text-sm text-error">{submitError}</p>}
           <Button
             variant="primary"

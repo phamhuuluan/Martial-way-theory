@@ -33,7 +33,7 @@ export function PracticeRankPicker({
                 <ExamRankLink
                   href={`${hrefBase}/${rank.rankId}`}
                   clearExitRedirect={clearExitRedirect}
-                  className="flex items-center justify-between gap-4 rounded-[var(--radius-md)] border border-border bg-bg-secondary/40 px-4 py-3 transition-colors hover:border-unlock/40"
+                  className="flex items-center justify-between gap-4 rounded-[var(--radius-md)] border border-border bg-bg-secondary px-4 py-3 shadow-subtle transition-colors hover:border-unlock/40"
                 >
                   <span>
                     <span className="block font-medium">{rank.fullName}</span>

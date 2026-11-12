@@ -111,7 +111,7 @@ export function CandidateProfileForm({
         {mode === 'onboarding' ? (
           <>
             <div className="mb-6 flex justify-center">
-              <img src="/logo.png" alt="PQQ" className="h-20 w-20 rounded-full shadow-glow" />
+              <img src="/logo-320.png" alt="PQQ" className="h-20 w-20 rounded-full shadow-glow" />
             </div>
             <h2 className="mb-6 text-center font-display text-2xl font-bold">
               Chào mừng đến Hành Trình Võ Đạo

@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Document, pdfjs } from 'react-pdf';
 import { Loader2 } from 'lucide-react';
-import { LazyPdfPage } from '@/components/profile/LazyPdfPage';
+import { LazyPdfPage } from '@/components/documents/LazyPdfPage';
 import {
   createBlobUrl,
   fetchDocumentBlob,

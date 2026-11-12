@@ -47,13 +47,13 @@
       "type": "single",
       "question": "Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không?",
       "options": [
-        "Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động…",
         "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…",
-        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
-        "Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật…"
+        "Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật. Là khoa học vì võ thuật có phương pháp rèn luyện sức…",
+        "Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động…"
       ],
       "correctIndex": 2,
-      "explanation": "Võ thuật vừa là khoa học, vừa là nghệ thuật.\n\nLà khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật thiết với các ngành khoa học như vật lý, sinh học, y học, quân sự và triết học.\n\nLà nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động tác. Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
+      "explanation": "Võ thuật vừa là khoa học, vừa là nghệ thuật.\nLà khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật thiết với các ngành khoa học như vật lý, sinh học, y học, quân sự và triết học.\nLà nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa và vẻ đẹp trong động tác. Người võ sĩ chân chính không chỉ biết đánh giỏi mà còn biết tạo nên cái đẹp trong võ thuật.",
       "sourceQuestion": "Võ sinh cho biết Võ thuật có mối liên hệ gì với khoa học và nghệ thuật không?"
     },
     {
@@ -74,7 +74,7 @@
         3,
         4
       ],
-      "explanation": "Ðáp:\n\nMôn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm.\n\nĐồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh.\n\nBên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
+      "explanation": "Ðáp:\nMôn sinh Phật Quang Quyền phải không ngừng học tập và rèn luyện để trở thành những công dân ưu tú, tiến bộ, có đạo đức và trách nhiệm.\nĐồng thời phải tận tụy lao động, cống hiến cho sự phát triển của đất nước, góp phần xây dựng quê hương ngày càng giàu mạnh, văn minh.\nBên cạnh đó, môn sinh cần giữ gìn và phát huy những truyền thống hào hùng, tốt đẹp của dân tộc, qua đó góp phần làm rạng danh Tổ quốc.",
       "sourceQuestion": "Môn sinh Phật Quang Quyền phải làm gì để nêu cao danh dự tổ quốc?"
     },
     {
@@ -84,13 +84,13 @@
       "type": "single",
       "question": "Vì sao Võ cổ truyền Việt Nam là môn võ của dân tộc nhưng nhiều người Việt chưa biết hoặc chưa quan tâm?",
       "options": [
-        "Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân…",
+        "Có nhiều nguyên nhân: Việc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật…",
         "Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.",
         "Các giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
         "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…"
       ],
       "correctIndex": 0,
-      "explanation": "Có nhiều nguyên nhân:\n\nViệc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền.\n\nVận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.\n\nCác giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
+      "explanation": "Có nhiều nguyên nhân:\nViệc giảng dạy nhiều nơi còn chú trọng kỹ thuật võ thuật mà chưa làm nổi bật giá trị đạo đức, nhân cách và võ đạo của Võ cổ truyền.\nVận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.\nCác giải đấu và hoạt động quảng bá chưa thật sự hấp dẫn, chưa thu hút đông đảo công chúng quan tâm.",
       "sourceQuestion": "Vì sao Võ cổ truyền Việt Nam là môn võ của dân tộc nhưng nhiều người Việt chưa biết hoặc chưa quan tâm?"
     },
     {
@@ -106,7 +106,7 @@
         "Võ thuật vừa là khoa học, vừa là nghệ thuật."
       ],
       "correctIndex": 1,
-      "explanation": "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng. Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật.\n\nVề sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
+      "explanation": "Thuở ban sơ, để sinh tồn trước thiên nhiên khắc nghiệt và các mối nguy hiểm, con người phải học cách chiến đấu để bảo vệ bản thân và cộng đồng. Từ những kỹ năng chiến đấu đơn giản đó, nhờ trí tuệ và sự sáng tạo, con người đã không ngừng hoàn thiện thành những phương pháp chiến đấu có kỹ thuật, có nguyên tắc và nghệ thuật, hình thành nên võ thuật.\nVề sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn thiện con người.",
       "sourceQuestion": "Võ sinh hãy cho biết nguồn gốc võ thuật khởi đầu từ đâu?"
     },
     {
@@ -114,136 +114,80 @@
       "lessonId": "blue-lesson-04",
       "number": 7,
       "type": "multiple",
-      "question": "Hãy giải thích.? (Chọn tất cả đáp án đúng)",
+      "question": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền? (Chọn tất cả đáp án đúng)",
       "options": [
-        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình…",
-        "Không, hoàn toàn khác nhau.",
-        "Về sau, võ thuật không chỉ dùng để chiến đấu mà còn gắn liền với đạo đức, lễ nghĩa và việc hoàn…",
-        "Là nghệ thuật vì các đòn thế không chỉ có hiệu quả chiến đấu mà còn thể hiện sự khéo léo, hài hòa…",
-        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ…",
-        "Vận động viên và người luyện tập Võ cổ truyền chưa được quan tâm, tôn vinh và đãi ngộ tương xứng.",
-        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh…"
+        "Thăng thiên phượng dực xoay tròn,",
+        "Thần cung xạ tiễn, tấn tiên,",
+        "Bạt phong cước tới, song phi phượng hoàng,",
+        "Đăng sơn tả, hữu quy hình,",
+        "Quét chân, hoành tọa đăng sơn,",
+        "Thôi sơn tấn tiếp, cước ngang trảm xà,",
+        "Đăng sơn hữu tả xỉa nghiêng,",
+        "Bạch hạc ra bộ, thôi sơn tấn liền,",
+        "Đầu tiên bái tổ, kính sư,",
+        "II/. LỜI THIỆU",
+        "Cước ngang bộ phượng, bay lên móc liền,",
+        "Xoay người vươn bộ đăng sơn,",
+        "Kim tiêu hồi bộ, song đao, xỉa tiền,",
+        "Cước ngang phi tới, xoay thân kính chào.",
+        "Hồi thân phượng dực, xoay tròn thôi sơn,"
       ],
       "correctIndices": [
         0,
         1,
-        6
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
       ],
-      "explanation": "Không, hoàn toàn khác nhau.\n\nTự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.\n\nTự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
-      "sourceQuestion": "Hãy giải thích.?"
+      "explanation": "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ. Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn. Đây là bài quyền nổi tiếng, được nhiều võ sư ở Vĩnh Long và các tỉnh miền Tây Nam Bộ biết đến.\nBài quyền có nhiều tư thế cao, thấp, xoay chuyển linh hoạt giúp rèn luyện sức khỏe, phát triển thể lực và sự dẻo dai. Ngoài ra, bài quyền có nhiều động tác đẹp mắt, mang tính nghệ thuật cao, thích hợp cho thi đấu và biểu diễn võ thuật.\nII/. LỜI THIỆU\nĐầu tiên bái tổ, kính sư,\nBạch hạc ra bộ, thôi sơn tấn liền,\nThăng thiên phượng dực xoay tròn,\nKim tiêu hồi bộ, song đao, xỉa tiền,\nThần cung xạ tiễn, tấn tiên,\nCước ngang bộ phượng, bay lên móc liền,\nĐăng sơn hữu tả xỉa nghiêng,\nBạt phong cước tới, song phi phượng hoàng,\nQuét chân, hoành tọa đăng sơn,\nHồi thân phượng dực, xoay tròn thôi sơn,\nĐăng sơn tả, hữu quy hình,\nThôi sơn tấn tiếp, cước ngang trảm xà,\nXoay người vươn bộ đăng sơn,\nCước ngang phi tới, xoay thân kính chào.",
+      "sourceQuestion": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?"
     },
     {
       "id": "blue-lesson-04-q08",
       "lessonId": "blue-lesson-04",
       "number": 8,
       "type": "single",
-      "question": "Hãy giải thích?",
+      "question": "Lòng tự tin và tự phụ có giống nhau không?",
       "options": [
+        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.",
+        "Không, hoàn toàn khác nhau. Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá…",
         "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…",
-        "Ðáp: Không, hoàn toàn khác nhau. Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà…",
-        "Là khoa học vì võ thuật có phương pháp rèn luyện sức khỏe, phát triển thể chất, phòng chống bệnh tật và liên hệ mật…",
-        "Võ thuật vừa là khoa học, vừa là nghệ thuật."
+        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và…"
       ],
       "correctIndex": 1,
-      "explanation": "Ðáp:  Không, hoàn toàn khác nhau.  Lòng tự tin là kết tinh của sự biết do kinh nghiệm thực tiển mà có, trong khi tự phụ chỉ là ý muốn hãnh tiến trong một lúc, không do kinh nghiệm thực tiển đúc kết thành.",
-      "sourceQuestion": "Hãy giải thích?"
+      "explanation": "Không, hoàn toàn khác nhau.\nTự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.\nTự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
+      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không?"
     },
     {
       "id": "blue-lesson-04-q09",
       "lessonId": "blue-lesson-04",
       "number": 9,
       "type": "single",
-      "question": "Lòng tự tin và tự phụ có giống nhau không?",
+      "question": "Do đâu một người hay tự cao, tự đại?",
       "options": [
-        "Tự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và…",
-        "Tự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.",
-        "Không, hoàn toàn khác nhau.",
-        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…"
+        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…",
+        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế…",
+        "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm…",
+        "Võ thuật vừa là khoa học, vừa là nghệ thuật."
       ],
       "correctIndex": 2,
-      "explanation": "Không, hoàn toàn khác nhau.\n\nTự tin là sự tin tưởng vào khả năng của bản thân, được xây dựng từ quá trình học tập, rèn luyện và kinh nghiệm thực tế.\n\nTự phụ là sự đề cao bản thân quá mức, thường không dựa trên năng lực hoặc kinh nghiệm thực tế, dễ dẫn đến chủ quan và sai lầm.",
-      "sourceQuestion": "Lòng tự tin và tự phụ có giống nhau không?"
+      "explanation": "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng.\nNgười có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
+      "sourceQuestion": "Do đâu một người hay tự cao, tự đại?"
     },
     {
       "id": "blue-lesson-04-q10",
       "lessonId": "blue-lesson-04",
       "number": 10,
-      "type": "ordering",
-      "question": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền? Sắp xếp các bước theo đúng thứ tự.",
-      "options": [],
-      "items": [
-        "II/. LỜI THIỆU",
-        "Kim tiêu hồi bộ, song đao, xỉa tiền,",
-        "Cước ngang bộ phượng, bay lên móc liền,",
-        "Hồi thân phượng dực, xoay tròn thôi sơn,",
-        "Quét chân, hoành tọa đăng sơn,",
-        "Bạt phong cước tới, song phi phượng hoàng,",
-        "Thôi sơn tấn tiếp, cước ngang trảm xà,",
-        "Thăng thiên phượng dực xoay tròn,",
-        "Thần cung xạ tiễn, tấn tiên,",
-        "Đầu tiên bái tổ, kính sư,",
-        "Xoay người vươn bộ đăng sơn,",
-        "Cước ngang phi tới, xoay thân kính chào.",
-        "Bạch hạc ra bộ, thôi sơn tấn liền,",
-        "Đăng sơn hữu tả xỉa nghiêng,",
-        "Đăng sơn tả, hữu quy hình,"
-      ],
-      "correctOrder": [
-        0,
-        9,
-        12,
-        7,
-        1,
-        8,
-        2,
-        13,
-        5,
-        4,
-        3,
-        14,
-        6,
-        10,
-        11
-      ],
-      "explanation": "Bạch Hạc Sơn Quyền là bài quyền thuộc Võ thuật Cổ truyền Việt Nam, được gia đình Võ sư Đinh Văn Lớn học hỏi và lưu truyền qua nhiều thế hệ. Từ người thầy truyền cho ông nội, ông nội truyền cho cha, rồi cha truyền lại cho Võ sư Đinh Văn Lớn. Đây là bài quyền nổi tiếng, được nhiều võ sư ở Vĩnh Long và các tỉnh miền Tây Nam Bộ biết đến.\n\nBài quyền có nhiều tư thế cao, thấp, xoay chuyển linh hoạt giúp rèn luyện sức khỏe, phát triển thể lực và sự dẻo dai. Ngoài ra, bài quyền có nhiều động tác đẹp mắt, mang tính nghệ thuật cao, thích hợp cho thi đấu và biểu diễn võ thuật.\n\nII/. LỜI THIỆU\n\nĐầu tiên bái tổ, kính sư,\n\nBạch hạc ra bộ, thôi sơn tấn liền,\n\nThăng thiên phượng dực xoay tròn,\n\nKim tiêu hồi bộ, song đao, xỉa tiền,\n\nThần cung xạ tiễn, tấn tiên,\n\nCước ngang bộ phượng, bay lên móc liền,\n\nĐăng sơn hữu tả xỉa nghiêng,\n\nBạt phong cước tới, song phi phượng hoàng,\n\nQuét chân, hoành tọa đăng sơn,\n\nHồi thân phượng dực, xoay tròn thôi sơn,\n\nĐăng sơn tả, hữu quy hình,\n\nThôi sơn tấn tiếp, cước ngang trảm xà,\n\nXoay người vươn bộ đăng sơn,\n\nCước ngang phi tới, xoay thân kính chào.",
-      "sourceQuestion": "Nêu xuất xứ và ý nghĩa bài quyền Bạch Hạc Sơn Quyền?"
-    },
-    {
-      "id": "blue-lesson-04-q11",
-      "lessonId": "blue-lesson-04",
-      "number": 11,
-      "type": "single",
-      "question": "Do đâu một người hay tự cao, tự đại?",
-      "options": [
-        "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm…",
-        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
-        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…",
-        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế…"
-      ],
-      "correctIndex": 0,
-      "explanation": "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng.\n\nNgười có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
-      "sourceQuestion": "Do đâu một người hay tự cao, tự đại?"
-    },
-    {
-      "id": "blue-lesson-04-q12",
-      "lessonId": "blue-lesson-04",
-      "number": 12,
-      "type": "single",
-      "question": "Người có lòng tự tin có tự cao, tự đại không?",
-      "options": [
-        "Người có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế…",
-        "Võ thuật vừa là khoa học, vừa là nghệ thuật.",
-        "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm…",
-        "Liên đoàn Võ thuật cổ truyền Việt Nam được thành lập nhằm thống nhất tổ chức, nghiên cứu, bảo tồn và phát huy truyền…"
-      ],
-      "correctIndex": 2,
-      "explanation": "Người hay tự cao, tự đại thường do mặc cảm thua sút ở một mặt nào đó nên muốn che giấu khuyết điểm và tìm cách đề cao bản thân để được người khác coi trọng.\n\nNgười có lòng tự tin thì không tự cao, tự đại, vì sự tự tin được xây dựng trên năng lực, đạo đức và kinh nghiệm thực tế của chính mình.",
-      "sourceQuestion": "Người có lòng tự tin có tự cao, tự đại không?"
-    },
-    {
-      "id": "blue-lesson-04-q13",
-      "lessonId": "blue-lesson-04",
-      "number": 13,
       "type": "single",
       "question": "Lòng tự tin và tự phụ có giống nhau không?",
       "options": [

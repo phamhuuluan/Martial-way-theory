@@ -20,7 +20,7 @@ export const CertificateTemplate = forwardRef<HTMLDivElement, CertificateTemplat
       >
         <div className="absolute inset-4 border border-unlock/20 rounded" />
         <img
-          src="/logo.png"
+          src="/logo-320.png"
           alt="PQQ"
           className="mx-auto mb-4 h-16 w-16 rounded-full"
           crossOrigin="anonymous"

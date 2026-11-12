@@ -328,7 +328,7 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\nTàng đầu hữu bàn đao\nHoành khiêu bộ khóa đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\nHồi đao thích hổ\n______[1]\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[2]\n______[3]\nPhục hổ trảm thượng đao\nHoành tảo thiên quân đao\nThiềm triển kháo đao\n______[4]\n______[5]\nPhạt thảo hí long\nKhiên thủ tàng đao\n______[6]\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\n______[7]\nUyên ương mạc đao\n______[8]\nTả hữu trảm mạc đao\n______[9]\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\n______[10]\n______[11]\nTả hữu phân liêu đao\n______[12]\nBái tổ thu đao thức.",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\nTàng đầu hữu bàn đao\nHoành khiêu bộ khóa đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\nHồi đao thích hổ\n______[1]\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[2]\n______[3]\nPhục hổ trảm thượng đao\nHoành tảo thiên quân đao\nThiềm triển kháo đao\n______[4]\n______[5]\nPhạt thảo hí long\nKhiên thủ tàng đao\n______[6]\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\n______[7]\nUyên ương mạc đao\n______[8]\nTả hữu trảm mạc đao\n______[9]\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\n______[10]\nTả hữu phân liêu đao\n______[11]\nBái tổ thu đao thức.",
       "blanks": [
         "Phạt thảo hí du long",
         "Đăng sơn viễn thiếu",
@@ -339,7 +339,6 @@
         "Hồi thân trảm mã đao",
         "Hoành bộ thượng thôi đao",
         "Tả thủ kim tiêu cước",
-        "Hồi thân trảm mã đao",
         "Khiên thủ tàng đao",
         "Thượng bình tàng đao"
       ],
@@ -389,20 +388,17 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\n______[1]\nHoành khiêu bộ khóa đao\n______[2]\n______[3]\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\n______[4]\nPhạt thảo hí du long\nKhiên thủ tàng đao\n______[5]\n______[6]\n______[7]\nPhục hổ trảm thượng đao\nHoành tảo thiên quân đao\nThiềm triển kháo đao\nHồi thân phách đao\nTàng đầu bàn đao\nPhạt thảo hí long\nKhiên thủ tàng đao\n______[8]\n______[9]\nĐộc lập hạ tiệt cước\n______[10]\nUyên ương mạc đao\nHoành bộ thượng thôi đao\nTả hữu trảm mạc đao\n______[11]\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\n______[12]\nTả hữu phân liêu đao\nThượng bình tàng đao\nBái tổ thu đao thức.",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\n______[1]\nHoành khiêu bộ khóa đao\n______[2]\n______[3]\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\n______[4]\nPhạt thảo hí du long\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[5]\n______[6]\nPhục hổ trảm thượng đao\nHoành tảo thiên quân đao\nThiềm triển kháo đao\nHồi thân phách đao\nTàng đầu bàn đao\nPhạt thảo hí long\nKhiên thủ tàng đao\n______[7]\n______[8]\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\nUyên ương mạc đao\nHoành bộ thượng thôi đao\nTả hữu trảm mạc đao\n______[9]\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nThượng bình tàng đao\nBái tổ thu đao thức.",
       "blanks": [
         "Tàng đầu hữu bàn đao",
         "Khiên thủ tàng đao",
         "Tả hữu phân liêu đao",
         "Hồi đao thích hổ",
-        "Tả hữu phân liêu đao",
         "Đăng sơn viễn thiếu",
         "Tả hữu trảm mạc đao",
         "Loan phụng thượng thôi đao",
         "Hồi thân trảm mã đao",
-        "Hồi thân trảm mã đao",
-        "Tả thủ kim tiêu cước",
-        "Khiên thủ tàng đao"
+        "Tả thủ kim tiêu cước"
       ],
       "options": [
         "Loan phụng thượng thôi đao",
@@ -448,7 +444,7 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\n______[1]\n______[2]\nTàng đầu hữu bàn đao\nHoành khiêu bộ khóa đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\n______[3]\nPhạt thảo hí du long\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\n______[4]\nThiềm triển kháo đao\n______[5]\nTàng đầu bàn đao\nPhạt thảo hí long\n______[6]\nLoan phụng thượng thôi đao\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\n______[7]\n______[8]\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\n______[9]\n______[10]\nHồi thân trảm mã đao\n______[11]\n______[12]\nThượng bình tàng đao\nBái tổ thu đao thức.",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\n______[1]\n______[2]\nTàng đầu hữu bàn đao\nHoành khiêu bộ khóa đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\n______[3]\nPhạt thảo hí du long\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\n______[4]\nThiềm triển kháo đao\n______[5]\nTàng đầu bàn đao\nPhạt thảo hí long\n______[6]\nLoan phụng thượng thôi đao\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\n______[7]\n______[8]\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\n______[9]\n______[10]\nHồi thân trảm mã đao\nKhiên thủ tàng đao\n______[11]\nThượng bình tàng đao\nBái tổ thu đao thức.",
       "blanks": [
         "Bái tổ lập đao",
         "Giao đao đả hổ",
@@ -460,7 +456,6 @@
         "Hoành bộ thượng thôi đao",
         "Hữu tả trảm mạc đao",
         "Hữu thủ kim tiêu cước",
-        "Khiên thủ tàng đao",
         "Tả hữu phân liêu đao"
       ],
       "options": [
@@ -509,18 +504,16 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\n______[1]\nTàng đầu hữu bàn đao\n______[2]\n______[3]\nTả hữu phân liêu đao\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\n______[4]\n______[5]\n______[6]\nTả hữu phân liêu đao\n______[7]\nTả hữu trảm mạc đao\n______[8]\nHoành tảo thiên quân đao\nThiềm triển kháo đao\nHồi thân phách đao\nTàng đầu bàn đao\nPhạt thảo hí long\nKhiên thủ tàng đao\nLoan phụng thượng thôi đao\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\nUyên ương mạc đao\nHoành bộ thượng thôi đao\nTả hữu trảm mạc đao\n______[9]\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\n______[10]\nTả hữu phân liêu đao\n______[11]\n______[12]",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\n______[1]\nTàng đầu hữu bàn đao\n______[2]\n______[3]\nTả hữu phân liêu đao\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\n______[4]\n______[5]\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[6]\nTả hữu trảm mạc đao\n______[7]\nHoành tảo thiên quân đao\nThiềm triển kháo đao\nHồi thân phách đao\nTàng đầu bàn đao\nPhạt thảo hí long\nKhiên thủ tàng đao\nLoan phụng thượng thôi đao\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\nUyên ương mạc đao\nHoành bộ thượng thôi đao\nTả hữu trảm mạc đao\n______[8]\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[9]\n______[10]",
       "blanks": [
         "Giao đao đả hổ",
         "Hoành khiêu bộ khóa đao",
         "Khiên thủ tàng đao",
         "Hồi đao thích hổ",
         "Phạt thảo hí du long",
-        "Khiên thủ tàng đao",
         "Đăng sơn viễn thiếu",
         "Phục hổ trảm thượng đao",
         "Tả thủ kim tiêu cước",
-        "Khiên thủ tàng đao",
         "Thượng bình tàng đao",
         "Bái tổ thu đao thức."
       ],
@@ -569,7 +562,7 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\n______[1]\n______[2]\nHoành khiêu bộ khóa đao\nKhiên thủ tàng đao\n______[3]\nĐộc lập phách mạc đao\n______[4]\nHồi đao thích hổ\n______[5]\n______[6]\n______[7]\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\nHoành tảo thiên quân đao\nThiềm triển kháo đao\nHồi thân phách đao\nTàng đầu bàn đao\nPhạt thảo hí long\nKhiên thủ tàng đao\n______[8]\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\n______[9]\nUyên ương mạc đao\n______[10]\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\n______[11]\nKhiên thủ tàng đao\n______[12]\nThượng bình tàng đao\nBái tổ thu đao thức.",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\n______[1]\n______[2]\nHoành khiêu bộ khóa đao\nKhiên thủ tàng đao\n______[3]\nĐộc lập phách mạc đao\n______[4]\nHồi đao thích hổ\n______[5]\n______[6]\nTả hữu phân liêu đao\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\nHoành tảo thiên quân đao\nThiềm triển kháo đao\nHồi thân phách đao\nTàng đầu bàn đao\nPhạt thảo hí long\nKhiên thủ tàng đao\n______[7]\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\n______[8]\nUyên ương mạc đao\n______[9]\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nThượng bình tàng đao\nBái tổ thu đao thức.",
       "blanks": [
         "Giao đao đả hổ",
         "Tàng đầu hữu bàn đao",
@@ -577,12 +570,9 @@
         "Tả hữu trích tinh đao",
         "Phạt thảo hí du long",
         "Khiên thủ tàng đao",
-        "Tả hữu phân liêu đao",
         "Loan phụng thượng thôi đao",
         "Hồi thân trảm mã đao",
-        "Hoành bộ thượng thôi đao",
-        "Hồi thân trảm mã đao",
-        "Tả hữu phân liêu đao"
+        "Hoành bộ thượng thôi đao"
       ],
       "options": [
         "Trực khiêu bộ khóa đao",
@@ -628,10 +618,9 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\n______[1]\nHoành khiêu bộ khóa đao\n______[2]\nTả hữu phân liêu đao\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\nHồi đao thích hổ\nPhạt thảo hí du long\n______[3]\n______[4]\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\n______[5]\n______[6]\nThiềm triển kháo đao\nHồi thân phách đao\n______[7]\nPhạt thảo hí long\nKhiên thủ tàng đao\nLoan phụng thượng thôi đao\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\n______[8]\n______[9]\n______[10]\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\n______[11]\nTả hữu phân liêu đao\n______[12]\nBái tổ thu đao thức.",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\n______[1]\nHoành khiêu bộ khóa đao\n______[2]\nTả hữu phân liêu đao\nĐộc lập phách mạc đao\nTả hữu trích tinh đao\nHồi đao thích hổ\nPhạt thảo hí du long\nKhiên thủ tàng đao\n______[3]\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\n______[4]\n______[5]\nThiềm triển kháo đao\nHồi thân phách đao\n______[6]\nPhạt thảo hí long\nKhiên thủ tàng đao\nLoan phụng thượng thôi đao\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\n______[7]\n______[8]\n______[9]\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[10]\nBái tổ thu đao thức.",
       "blanks": [
         "Tàng đầu hữu bàn đao",
-        "Khiên thủ tàng đao",
         "Khiên thủ tàng đao",
         "Tả hữu phân liêu đao",
         "Phục hổ trảm thượng đao",
@@ -640,7 +629,6 @@
         "Hồi thân trảm mã đao",
         "Uyên ương mạc đao",
         "Hoành bộ thượng thôi đao",
-        "Khiên thủ tàng đao",
         "Thượng bình tàng đao"
       ],
       "options": [
@@ -688,7 +676,7 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\nTàng đầu hữu bàn đao\nHoành khiêu bộ khóa đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[1]\n______[2]\nHồi đao thích hổ\nPhạt thảo hí du long\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\n______[3]\nThiềm triển kháo đao\nHồi thân phách đao\n______[4]\n______[5]\nKhiên thủ tàng đao\n______[6]\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\n______[7]\nUyên ương mạc đao\n______[8]\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\n______[9]\n______[10]\n______[11]\nThượng bình tàng đao\n______[12]",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\nTàng đầu hữu bàn đao\nHoành khiêu bộ khóa đao\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[1]\n______[2]\nHồi đao thích hổ\nPhạt thảo hí du long\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\n______[3]\nThiềm triển kháo đao\nHồi thân phách đao\n______[4]\n______[5]\nKhiên thủ tàng đao\n______[6]\nHồi thân trảm mã đao\nĐộc lập hạ tiệt cước\n______[7]\nUyên ương mạc đao\n______[8]\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\n______[9]\n______[10]\nThượng bình tàng đao\n______[11]",
       "blanks": [
         "Độc lập phách mạc đao",
         "Tả hữu trích tinh đao",
@@ -698,7 +686,6 @@
         "Loan phụng thượng thôi đao",
         "Hồi thân trảm mã đao",
         "Hoành bộ thượng thôi đao",
-        "Hồi thân trảm mã đao",
         "Khiên thủ tàng đao",
         "Tả hữu phân liêu đao",
         "Bái tổ thu đao thức."
@@ -749,7 +736,7 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\n______[1]\nGiao đao đả hổ\nTàng đầu hữu bàn đao\nHoành khiêu bộ khóa đao\n______[2]\nTả hữu phân liêu đao\n______[3]\nTả hữu trích tinh đao\nHồi đao thích hổ\n______[4]\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\n______[5]\n______[6]\nHồi thân phách đao\n______[7]\nPhạt thảo hí long\nKhiên thủ tàng đao\nLoan phụng thượng thôi đao\n______[8]\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\n______[9]\nHoành bộ thượng thôi đao\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\n______[10]\n______[11]\n______[12]\nBái tổ thu đao thức.",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\n______[1]\nGiao đao đả hổ\nTàng đầu hữu bàn đao\nHoành khiêu bộ khóa đao\n______[2]\nTả hữu phân liêu đao\n______[3]\nTả hữu trích tinh đao\nHồi đao thích hổ\n______[4]\nKhiên thủ tàng đao\nTả hữu phân liêu đao\nĐăng sơn viễn thiếu\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\n______[5]\n______[6]\nHồi thân phách đao\n______[7]\nPhạt thảo hí long\nKhiên thủ tàng đao\nLoan phụng thượng thôi đao\n______[8]\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\n______[9]\nHoành bộ thượng thôi đao\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\nKhiên thủ tàng đao\n______[10]\n______[11]\nBái tổ thu đao thức.",
       "blanks": [
         "Bái tổ lập đao",
         "Khiên thủ tàng đao",
@@ -760,7 +747,6 @@
         "Tàng đầu bàn đao",
         "Hồi thân trảm mã đao",
         "Uyên ương mạc đao",
-        "Khiên thủ tàng đao",
         "Tả hữu phân liêu đao",
         "Thượng bình tàng đao"
       ],
@@ -872,7 +858,7 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\n______[1]\nHoành khiêu bộ khóa đao\n______[2]\nTả hữu phân liêu đao\n______[3]\nTả hữu trích tinh đao\n______[4]\n______[5]\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[6]\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\nHoành tảo thiên quân đao\nThiềm triển kháo đao\nHồi thân phách đao\n______[7]\nPhạt thảo hí long\nKhiên thủ tàng đao\nLoan phụng thượng thôi đao\n______[8]\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\n______[9]\nHoành bộ thượng thôi đao\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\n______[10]\nKhiên thủ tàng đao\n______[11]\nThượng bình tàng đao\n______[12]",
+      "question": "Điền vào chỗ trống lời thiệu bài quy định Phong Hoa Đao:\n\nBái tổ lập đao\nGiao đao đả hổ\n______[1]\nHoành khiêu bộ khóa đao\n______[2]\nTả hữu phân liêu đao\n______[3]\nTả hữu trích tinh đao\n______[4]\n______[5]\nKhiên thủ tàng đao\nTả hữu phân liêu đao\n______[6]\nTả hữu trảm mạc đao\nPhục hổ trảm thượng đao\nHoành tảo thiên quân đao\nThiềm triển kháo đao\nHồi thân phách đao\n______[7]\nPhạt thảo hí long\nKhiên thủ tàng đao\nLoan phụng thượng thôi đao\n______[8]\nĐộc lập hạ tiệt cước\nHồi thân trảm mã đao\n______[9]\nHoành bộ thượng thôi đao\nTả hữu trảm mạc đao\nTả thủ kim tiêu cước\nHữu tả trảm mạc đao\nHữu thủ kim tiêu cước\nHồi thân trảm mã đao\nKhiên thủ tàng đao\n______[10]\nThượng bình tàng đao\n______[11]",
       "blanks": [
         "Tàng đầu hữu bàn đao",
         "Khiên thủ tàng đao",
@@ -883,7 +869,6 @@
         "Tàng đầu bàn đao",
         "Hồi thân trảm mã đao",
         "Uyên ương mạc đao",
-        "Hồi thân trảm mã đao",
         "Tả hữu phân liêu đao",
         "Bái tổ thu đao thức."
       ],

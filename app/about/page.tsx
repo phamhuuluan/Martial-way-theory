@@ -13,7 +13,7 @@ export default function AboutPage() {
     <div className="min-h-screen px-4 py-12 lg:px-8">
       <article className="mx-auto max-w-2xl prose-lesson">
         <img
-          src="/logo.png"
+          src="/logo-320.png"
           alt={SITE.name}
           className="mx-auto mb-8 h-24 w-24 rounded-full shadow-glow"
         />

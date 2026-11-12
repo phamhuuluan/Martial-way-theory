@@ -1,5 +1,6 @@
 'use client';
 
+import '@/styles/world.css';
 import type { CSSProperties } from 'react';
 import type { BeltWorld, LessonMeta } from '@/types';
 import { isBeltCompleted, isBeltUnlocked } from '@/lib/progress';

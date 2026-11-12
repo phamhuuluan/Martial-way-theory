@@ -246,3 +246,27 @@ if (existsSync(beltSource)) {
 }
 
 console.log('Synced assets/illustrations → public/assets');
+
+const sharp = (await import('sharp')).default;
+
+const worldsDir = join(publicRoot, 'worlds');
+if (existsSync(worldsDir)) {
+  for (const name of readdirSync(worldsDir)) {
+    if (!name.endsWith('-world.png')) continue;
+    const source = join(worldsDir, name);
+    const webp = join(worldsDir, name.replace(/\.png$/, '.webp'));
+    await sharp(source)
+      .resize({ width: 1600, height: 1600, fit: 'inside', withoutEnlargement: true })
+      .webp({ quality: 75 })
+      .toFile(webp);
+  }
+  console.log('Wrote 1600px WebP next to world PNGs (original PNGs kept)');
+}
+
+const logo = join(root, 'public', 'logo.png');
+if (existsSync(logo)) {
+  await sharp(logo).resize(32, 32).png().toFile(join(root, 'public', 'logo-32.png'));
+  await sharp(logo).resize(180, 180).png().toFile(join(root, 'public', 'logo-180.png'));
+  await sharp(logo).resize(320, 320).png().toFile(join(root, 'public', 'logo-320.png'));
+  console.log('Wrote logo-32, logo-180, logo-320 (logo.png kept)');
+}

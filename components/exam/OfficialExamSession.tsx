@@ -1,14 +1,16 @@
 'use client';
 
-import { useMemo, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { Button } from '@/components/ui/Button';
 import { Modal } from '@/components/ui/Modal';
 import { ExamLoadingOverlay } from '@/components/exam/ExamLoadingOverlay';
 import { ExamQuestion } from '@/components/exam/ExamQuestion';
+import { ExamQuestionNav } from '@/components/exam/ExamQuestionNav';
+import { ExamTimer } from '@/components/exam/ExamTimer';
 import { useExamPointerGuard } from '@/hooks/use-exam-pointer-guard';
 import { useFinePointer } from '@/hooks/use-coarse-pointer';
 import { useExamSession } from '@/hooks/use-exam-session';
-import { formatClock, isExamAnswerProvided } from '@/lib/exam-paper';
+import { isExamAnswerProvided } from '@/lib/exam-paper';
 import { exitOfficialExam, officialAttemptPath } from '@/lib/official-exam';
 import type { BeltId } from '@/types';
 import type { ExamBankQuestion } from '@/types/exam';
@@ -65,7 +67,6 @@ export function OfficialExamSession({
   const [warningCountdown, setWarningCountdown] = useState(10);
   const [ending, setEnding] = useState(false);
   const [zone, setZone] = useState<HTMLDivElement | null>(null);
-  const [now, setNow] = useState(() => Date.now());
 
   const finishLeftExam = () => {
     const attempt = exitOfficialExam();
@@ -73,6 +74,8 @@ export function OfficialExamSession({
     setEnding(true);
     router.replace(officialAttemptPath(attempt.id));
   };
+  const finishLeftExamRef = useRef(finishLeftExam);
+  finishLeftExamRef.current = finishLeftExam;
 
   useExamPointerGuard(
     zone,
@@ -88,7 +91,7 @@ export function OfficialExamSession({
         setWarningCountdown((prev) => {
           if (prev <= 1) {
             window.clearInterval(timer);
-            setTimeout(() => finishLeftExam(), 0);
+            setTimeout(() => finishLeftExamRef.current(), 0);
             return 0;
           }
           return prev - 1;
@@ -96,21 +99,8 @@ export function OfficialExamSession({
       }, 1000);
       return () => window.clearInterval(timer);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pointerWarning]);
 
-  useEffect(() => {
-    if (!draft) return;
-    const expireAt = new Date(draft.startedAt).getTime() + draft.timeLimitMs;
-    const timer = window.setInterval(() => {
-      const current = Date.now();
-      setNow(current);
-      if (current >= expireAt && !submitFailedRef.current) submitDraft(draft, true);
-    }, 250);
-    return () => window.clearInterval(timer);
-  }, [draft, submitDraft, submitFailedRef]);
-
-  // Handle history popstate for official exams
   useEffect(() => {
     if (!draft) return;
     const markerKey = `pqq-official-history:${draft.id}`;
@@ -127,7 +117,7 @@ export function OfficialExamSession({
       } catch {}
     }
 
-    const onPop = () => finishLeftExam();
+    const onPop = () => finishLeftExamRef.current();
     const onClick = (event: MouseEvent) => {
       if (event.defaultPrevented || event.button !== 0) return;
       if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
@@ -147,11 +137,11 @@ export function OfficialExamSession({
       if (url.pathname === window.location.pathname && url.search === window.location.search) return;
       event.preventDefault();
       event.stopPropagation();
-      finishLeftExam();
+      finishLeftExamRef.current();
     };
 
     const onVisibilityChange = () => {
-      if (document.hidden) finishLeftExam();
+      if (document.hidden) finishLeftExamRef.current();
     };
 
     window.addEventListener('popstate', onPop);
@@ -162,14 +152,7 @@ export function OfficialExamSession({
       document.removeEventListener('click', onClick, true);
       document.removeEventListener('visibilitychange', onVisibilityChange);
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [draft]);
-
-  const remainingMs = useMemo(() => {
-    if (!draft) return durationMinutes * 60 * 1000;
-    const expireAt = new Date(draft.startedAt).getTime() + draft.timeLimitMs;
-    return Math.max(0, expireAt - now);
-  }, [draft, durationMinutes, now]);
 
   if (ending || !ready || !draft || isSubmitting) {
     const message = isSubmitting
@@ -203,15 +186,13 @@ export function OfficialExamSession({
         <div className="sticky top-0 z-10 -mx-4 mb-6 border-b border-border/70 bg-bg-primary/95 px-4 py-3 backdrop-blur-md">
           <div className="flex items-center justify-between gap-3">
             <p className="min-w-0 truncate text-sm font-medium">{fullName}</p>
-            <p
-              className={cn(
-                'font-display text-lg tabular-nums',
-                remainingMs <= 60_000 ? 'text-error' : 'text-text-primary'
-              )}
-              aria-live="polite"
-            >
-              {formatClock(remainingMs)}
-            </p>
+            <ExamTimer
+              startedAt={draft.startedAt}
+              timeLimitMs={draft.timeLimitMs}
+              onExpire={() => {
+                if (!submitFailedRef.current) submitDraft(draft, true);
+              }}
+            />
           </div>
           <p className="mt-1 text-sm text-text-secondary">
             Câu {index + 1}/{draft.questions.length} · Đã trả lời {answeredCount}
@@ -252,26 +233,11 @@ export function OfficialExamSession({
         />
 
         <div className="mt-8 flex flex-col gap-3">
-          <div className="flex gap-3">
-            <Button
-              variant="secondary"
-              className="flex-1"
-              disabled={index === 0}
-              onClick={() => setIndex((value) => Math.max(0, value - 1))}
-            >
-              Câu trước
-            </Button>
-            <Button
-              variant="secondary"
-              className="flex-1"
-              disabled={index >= draft.questions.length - 1}
-              onClick={() =>
-                setIndex((value) => Math.min(draft.questions.length - 1, value + 1))
-              }
-            >
-              Câu sau
-            </Button>
-          </div>
+          <ExamQuestionNav
+            index={index}
+            total={draft.questions.length}
+            onIndex={setIndex}
+          />
           {submitError && <p className="text-sm text-error">{submitError}</p>}
           <Button variant="primary" size="lg" className="w-full" onClick={() => setConfirmingSubmit(true)}>
             Nộp bài

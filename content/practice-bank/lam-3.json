@@ -414,14 +414,13 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:\n\nBái tổ Lão hổ thượng sơn\n______[1]\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nHồi đầu thối toạ\n______[2]\nNhất cước phá đao\nNhất quyền đả khứ\nLão hổ vồ mồi\nTrửu phong đả bồi\nSong đao phạt mộc\nSong phi cước khứ\nLong quyền đả khứ\nTả hữu đả diện\nCuồng phong tróc nã\nTả thủ phá cước\nHoành thân phục hổ\nHữu thủ yểm tâm\n______[3]\n______[4]\n______[5]\nTả thủ yểm tâm\n______[6]\n______[7]\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\nĐơn toạ phục hổ\nTả thủ yểm tâm\n______[8]\nLưỡng thủ tả cước\nHoành thân thối toạ\n______[9]\nLong quyền đoạt nhãn\n______[10]\nTướng quân bạt kiếm\nBái tổ thâu mã",
+      "question": "Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:\n\nBái tổ Lão hổ thượng sơn\n______[1]\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nHồi đầu thối toạ\n______[2]\nNhất cước phá đao\nNhất quyền đả khứ\nLão hổ vồ mồi\nTrửu phong đả bồi\nSong đao phạt mộc\nSong phi cước khứ\nLong quyền đả khứ\nTả hữu đả diện\nCuồng phong tróc nã\nTả thủ phá cước\nHoành thân phục hổ\nHữu thủ yểm tâm\n______[3]\n______[4]\n______[5]\nTả thủ yểm tâm\nNgũ phong đả diện\n______[6]\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\nĐơn toạ phục hổ\nTả thủ yểm tâm\n______[7]\nLưỡng thủ tả cước\nHoành thân thối toạ\n______[8]\nLong quyền đoạt nhãn\n______[9]\nTướng quân bạt kiếm\nBái tổ thâu mã",
       "blanks": [
         "Chấp thủ khai mã",
         "Tả thủ yểm tâm",
         "Ngũ phong đả diện",
         "Hữu cước tảo địa",
         "Đơn toạ phục hổ",
-        "Ngũ phong đả diện",
         "Tả cước tảo địa",
         "Long quyền đoạt nhãn",
         "Hữu thủ yểm tâm",
@@ -513,14 +512,13 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:\n\nBái tổ Lão hổ thượng sơn\nChấp thủ khai mã\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nHồi đầu thối toạ\nTả thủ yểm tâm\nNhất cước phá đao\nNhất quyền đả khứ\n______[1]\nTrửu phong đả bồi\n______[2]\nSong phi cước khứ\nLong quyền đả khứ\nTả hữu đả diện\n______[3]\n______[4]\nHoành thân phục hổ\nHữu thủ yểm tâm\nNgũ phong đả diện\nHữu cước tảo địa\n______[5]\n______[6]\nNgũ phong đả diện\nTả cước tảo địa\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\nĐơn toạ phục hổ\n______[7]\nLong quyền đoạt nhãn\n______[8]\nHoành thân thối toạ\n______[9]\n______[10]\nLưỡng thủ hữu cước\nTướng quân bạt kiếm\nBái tổ thâu mã",
+      "question": "Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:\n\nBái tổ Lão hổ thượng sơn\nChấp thủ khai mã\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nHồi đầu thối toạ\nTả thủ yểm tâm\nNhất cước phá đao\nNhất quyền đả khứ\n______[1]\nTrửu phong đả bồi\n______[2]\nSong phi cước khứ\nLong quyền đả khứ\nTả hữu đả diện\n______[3]\n______[4]\nHoành thân phục hổ\nHữu thủ yểm tâm\nNgũ phong đả diện\nHữu cước tảo địa\n______[5]\n______[6]\nNgũ phong đả diện\nTả cước tảo địa\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\nĐơn toạ phục hổ\nTả thủ yểm tâm\nLong quyền đoạt nhãn\n______[7]\nHoành thân thối toạ\n______[8]\n______[9]\nLưỡng thủ hữu cước\nTướng quân bạt kiếm\nBái tổ thâu mã",
       "blanks": [
         "Lão hổ vồ mồi",
         "Song đao phạt mộc",
         "Cuồng phong tróc nã",
         "Tả thủ phá cước",
         "Đơn toạ phục hổ",
-        "Tả thủ yểm tâm",
         "Tả thủ yểm tâm",
         "Lưỡng thủ tả cước",
         "Hữu thủ yểm tâm",
@@ -562,7 +560,7 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:\n\n______[1]\nChấp thủ khai mã\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\n______[2]\nHữu thủ yểm tâm\nHồi đầu thối toạ\nTả thủ yểm tâm\n______[3]\nNhất quyền đả khứ\nLão hổ vồ mồi\nTrửu phong đả bồi\n______[4]\nSong phi cước khứ\nLong quyền đả khứ\nTả hữu đả diện\nCuồng phong tróc nã\n______[5]\n______[6]\n______[7]\nNgũ phong đả diện\nHữu cước tảo địa\nĐơn toạ phục hổ\nTả thủ yểm tâm\nNgũ phong đả diện\nTả cước tảo địa\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\n______[8]\nTả thủ yểm tâm\nLong quyền đoạt nhãn\n______[9]\nHoành thân thối toạ\nHữu thủ yểm tâm\n______[10]\nLưỡng thủ hữu cước\nTướng quân bạt kiếm\nBái tổ thâu mã",
+      "question": "Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:\n\n______[1]\nChấp thủ khai mã\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\n______[2]\nHữu thủ yểm tâm\nHồi đầu thối toạ\nTả thủ yểm tâm\n______[3]\nNhất quyền đả khứ\nLão hổ vồ mồi\nTrửu phong đả bồi\n______[4]\nSong phi cước khứ\nLong quyền đả khứ\nTả hữu đả diện\nCuồng phong tróc nã\n______[5]\n______[6]\n______[7]\nNgũ phong đả diện\nHữu cước tảo địa\nĐơn toạ phục hổ\nTả thủ yểm tâm\nNgũ phong đả diện\nTả cước tảo địa\nĐơn toạ phục hổ\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\nĐơn toạ phục hổ\nTả thủ yểm tâm\nLong quyền đoạt nhãn\n______[8]\nHoành thân thối toạ\nHữu thủ yểm tâm\n______[9]\nLưỡng thủ hữu cước\nTướng quân bạt kiếm\nBái tổ thâu mã",
       "blanks": [
         "Bái tổ Lão hổ thượng sơn",
         "Đơn toạ phục hổ",
@@ -571,7 +569,6 @@
         "Tả thủ phá cước",
         "Hoành thân phục hổ",
         "Hữu thủ yểm tâm",
-        "Đơn toạ phục hổ",
         "Lưỡng thủ tả cước",
         "Long quyền đoạt nhãn"
       ],
@@ -611,7 +608,7 @@
     },
     {
       "type": "fill",
-      "question": "Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:\n\nBái tổ Lão hổ thượng sơn\nChấp thủ khai mã\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\nĐơn toạ phục hổ\nHữu thủ yểm tâm\n______[1]\nTả thủ yểm tâm\nNhất cước phá đao\nNhất quyền đả khứ\n______[2]\nTrửu phong đả bồi\nSong đao phạt mộc\n______[3]\nLong quyền đả khứ\nTả hữu đả diện\nCuồng phong tróc nã\nTả thủ phá cước\n______[4]\nHữu thủ yểm tâm\nNgũ phong đả diện\nHữu cước tảo địa\nĐơn toạ phục hổ\nTả thủ yểm tâm\n______[5]\n______[6]\n______[7]\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\n______[8]\nTả thủ yểm tâm\nLong quyền đoạt nhãn\n______[9]\nHoành thân thối toạ\nHữu thủ yểm tâm\nLong quyền đoạt nhãn\n______[10]\nTướng quân bạt kiếm\nBái tổ thâu mã",
+      "question": "Điền vào chỗ trống lời thiệu bài quyền Lão Hổ Thượng Sơn:\n\nBái tổ Lão hổ thượng sơn\nChấp thủ khai mã\nSong thủ phá cước\nĐồng tử dâng quả\nLưỡng thủ khai môn\nĐơn toạ phục hổ\nHữu thủ yểm tâm\n______[1]\nTả thủ yểm tâm\nNhất cước phá đao\nNhất quyền đả khứ\n______[2]\nTrửu phong đả bồi\nSong đao phạt mộc\n______[3]\nLong quyền đả khứ\nTả hữu đả diện\nCuồng phong tróc nã\nTả thủ phá cước\n______[4]\nHữu thủ yểm tâm\nNgũ phong đả diện\nHữu cước tảo địa\nĐơn toạ phục hổ\nTả thủ yểm tâm\n______[5]\n______[6]\n______[7]\nHữu thủ yểm tâm\nLưỡng thủ vạn năng\nĐơn toạ phục hổ\nTả thủ yểm tâm\nLong quyền đoạt nhãn\n______[8]\nHoành thân thối toạ\nHữu thủ yểm tâm\nLong quyền đoạt nhãn\n______[9]\nTướng quân bạt kiếm\nBái tổ thâu mã",
       "blanks": [
         "Hồi đầu thối toạ",
         "Lão hổ vồ mồi",
@@ -619,7 +616,6 @@
         "Hoành thân phục hổ",
         "Ngũ phong đả diện",
         "Tả cước tảo địa",
-        "Đơn toạ phục hổ",
         "Đơn toạ phục hổ",
         "Lưỡng thủ tả cước",
         "Lưỡng thủ hữu cước"

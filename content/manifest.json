@@ -13,7 +13,7 @@
     ],
     "order": 1,
     "prerequisites": [],
-    "questionsCount": 13,
+    "questionsCount": 12,
     "mdxPath": "content/brown-belt/lesson-01.mdx",
     "quizPath": "content/quizzes/brown-lesson-01.json"
   },
@@ -51,7 +51,7 @@
     "prerequisites": [
       "blue-lesson-01"
     ],
-    "questionsCount": 12,
+    "questionsCount": 10,
     "mdxPath": "content/blue-belt/lesson-02.mdx",
     "quizPath": "content/quizzes/blue-lesson-02.json"
   },
@@ -70,7 +70,7 @@
     "prerequisites": [
       "blue-lesson-02"
     ],
-    "questionsCount": 11,
+    "questionsCount": 9,
     "mdxPath": "content/blue-belt/lesson-03.mdx",
     "quizPath": "content/quizzes/blue-lesson-03.json"
   },
@@ -89,7 +89,7 @@
     "prerequisites": [
       "blue-lesson-03"
     ],
-    "questionsCount": 13,
+    "questionsCount": 10,
     "mdxPath": "content/blue-belt/lesson-04.mdx",
     "quizPath": "content/quizzes/blue-lesson-04.json"
   },
@@ -146,7 +146,7 @@
     "prerequisites": [
       "green-lesson-02"
     ],
-    "questionsCount": 12,
+    "questionsCount": 11,
     "mdxPath": "content/green-belt/lesson-03.mdx",
     "quizPath": "content/quizzes/green-lesson-03.json"
   },
@@ -183,7 +183,7 @@
     "prerequisites": [
       "green-lesson-04"
     ],
-    "questionsCount": 12,
+    "questionsCount": 9,
     "mdxPath": "content/red-belt/lesson-01.mdx",
     "quizPath": "content/quizzes/red-lesson-01.json"
   },
@@ -201,7 +201,7 @@
     "prerequisites": [
       "red-lesson-01"
     ],
-    "questionsCount": 21,
+    "questionsCount": 16,
     "mdxPath": "content/red-belt/lesson-02.mdx",
     "quizPath": "content/quizzes/red-lesson-02.json"
   },
@@ -219,7 +219,7 @@
     "prerequisites": [
       "red-lesson-02"
     ],
-    "questionsCount": 17,
+    "questionsCount": 15,
     "mdxPath": "content/red-belt/lesson-03.mdx",
     "quizPath": "content/quizzes/red-lesson-03.json"
   },
@@ -237,7 +237,7 @@
     "prerequisites": [
       "red-lesson-03"
     ],
-    "questionsCount": 17,
+    "questionsCount": 12,
     "mdxPath": "content/red-belt/lesson-04.mdx",
     "quizPath": "content/quizzes/red-lesson-04.json"
   },
@@ -256,7 +256,7 @@
     "prerequisites": [
       "red-lesson-04"
     ],
-    "questionsCount": 31,
+    "questionsCount": 22,
     "mdxPath": "content/yellow-belt/lesson-01.mdx",
     "quizPath": "content/quizzes/yellow-lesson-01.json"
   },
@@ -275,7 +275,7 @@
     "prerequisites": [
       "yellow-lesson-01"
     ],
-    "questionsCount": 34,
+    "questionsCount": 28,
     "mdxPath": "content/yellow-belt/lesson-02.mdx",
     "quizPath": "content/quizzes/yellow-lesson-02.json"
   },
@@ -294,7 +294,7 @@
     "prerequisites": [
       "yellow-lesson-02"
     ],
-    "questionsCount": 28,
+    "questionsCount": 25,
     "mdxPath": "content/yellow-belt/lesson-03.mdx",
     "quizPath": "content/quizzes/yellow-lesson-03.json"
   },
@@ -313,7 +313,7 @@
     "prerequisites": [
       "yellow-lesson-03"
     ],
-    "questionsCount": 34,
+    "questionsCount": 27,
     "mdxPath": "content/yellow-belt/lesson-04.mdx",
     "quizPath": "content/quizzes/yellow-lesson-04.json"
   },

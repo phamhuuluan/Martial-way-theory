@@ -3,17 +3,17 @@
 import { useCallback, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { useInView } from 'react-intersection-observer';
-import { DocumentCard } from '@/components/profile/DocumentCard';
+import { DocumentCard } from '@/components/documents/DocumentCard';
 import { downloadLearningDocument, type DownloadStatus } from '@/lib/document-download';
 import { LEARNING_DOCUMENTS, type LearningDocument } from '@/lib/documents';
 
 const DocumentViewer = dynamic(
-  () => import('@/components/profile/DocumentViewer').then((m) => m.DocumentViewer),
+  () => import('@/components/documents/DocumentViewer').then((m) => m.DocumentViewer),
   { ssr: false }
 );
 
 function preloadViewer() {
-  void import('@/components/profile/DocumentViewer');
+  void import('@/components/documents/DocumentViewer');
 }
 
 interface DocumentLibraryProps {

@@ -1,6 +1,7 @@
 'use client';
 
-import { DocumentLibrary } from '@/components/profile/DocumentLibrary';
+import '@/styles/documents.css';
+import { DocumentLibrary } from '@/components/documents/DocumentLibrary';
 import { LEARNING_DOCUMENTS } from '@/lib/documents';
 
 export function DocumentsPageClient() {

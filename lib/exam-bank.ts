@@ -1,3 +1,4 @@
+import 'server-only';
 import fs from 'fs';
 import path from 'path';
 import { getBeltById } from '@/lib/constants';
@@ -12,8 +13,8 @@ export type ExamBankPurpose = 'practice' | 'official';
 const PRACTICE_BANK_DIR = path.join(process.cwd(), 'content', 'practice-bank');
 
 /**
- * Kỳ thi đang dùng chung thư mục với ôn luyện.
- * Khi có ngân hàng thi riêng, chỉ cần đổi đường dẫn này.
+ * Ngân hàng thi chính thức trong content/official-bank.
+ * Ôn luyện dùng content/practice-bank.
  */
 const OFFICIAL_BANK_DIR = path.join(process.cwd(), 'content', 'official-bank');
 

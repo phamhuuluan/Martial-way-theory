@@ -1,24 +1,29 @@
 import Link from 'next/link';
+import '@/styles/landing.css';
 import { CloudLayer, FogOverlay } from '@/components/animation/CloudLayer';
 import { BeltShowcase } from '@/components/belt-showcase/BeltShowcase';
 import { HeroAtmosphere } from '@/components/landing/HeroAtmosphere';
 import { HeroBeltCard } from '@/components/landing/HeroBeltCard';
-import { Button } from '@/components/ui/Button';
 import { MartialJourneySlogan } from '@/components/ui/MartialJourneySlogan';
 import { SITE } from '@/lib/constants';
+
+const heroLink =
+  'landing-hero__cta inline-flex min-h-[44px] w-full items-center justify-center rounded-[var(--radius-md)] px-8 py-3.5 text-lg font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-unlock/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg-primary active:scale-[0.98] sm:w-auto';
 
 function HeroActions() {
   return (
     <>
-      <Link href="/journey" className="w-full sm:w-auto lg:w-auto">
-        <Button variant="hero" size="lg" className="landing-hero__cta w-full sm:w-auto">
-          Bắt đầu hành trình
-        </Button>
+      <Link
+        href="/journey"
+        className={`${heroLink} bg-unlock font-display font-bold tracking-wide text-bg-primary shadow-glow hover:brightness-105`}
+      >
+        Bắt đầu hành trình
       </Link>
-      <Link href="/world/brown" className="w-full sm:w-auto lg:w-auto">
-        <Button variant="secondary" size="lg" className="landing-hero__cta w-full sm:w-auto">
-          Xem trước Nâu Đai
-        </Button>
+      <Link
+        href="/world/brown"
+        className={`${heroLink} border border-border bg-bg-secondary/60 text-text-primary shadow-subtle hover:bg-bg-elevated/80`}
+      >
+        Xem trước Nâu Đai
       </Link>
     </>
   );
@@ -40,7 +45,7 @@ export default function LandingPage() {
                 <div className="landing-hero__logo-wrap">
                   <div className="landing-hero__logo-glow" aria-hidden />
                   <img
-                    src="/logo.png"
+                    src="/logo-320.png"
                     alt={SITE.name}
                     className="landing-hero__logo"
                   />

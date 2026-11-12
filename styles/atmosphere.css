@@ -1,0 +1,182 @@
+@keyframes cloudDrift {
+  from {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(110%);
+  }
+}
+
+@keyframes fogPulse {
+  0%,
+  100% {
+    opacity: 0.05;
+  }
+  50% {
+    opacity: 0.15;
+  }
+}
+
+.cloud-layer {
+  animation: cloudDrift 75s linear infinite;
+  will-change: transform;
+}
+
+@media (max-width: 768px) {
+  .cloud-layer {
+    animation: none;
+    will-change: auto;
+    transform: translateX(0);
+  }
+}
+.fog-layer {
+  animation: fogPulse 4s ease-in-out infinite;
+}
+/* ── Cloud / fog atmosphere ── */
+
+.cloud-layer-wrap {
+  opacity: 0.55;
+  z-index: 0;
+}
+
+.cloud-layer--primary {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgb(255 235 200 / 0.12) 30%,
+    rgb(255 248 230 / 0.18) 50%,
+    rgb(255 235 200 / 0.12) 70%,
+    transparent 100%
+  );
+}
+
+.cloud-layer--secondary {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgb(212 175 55 / 0.06) 40%,
+    rgb(255 255 255 / 0.08) 60%,
+    transparent 100%
+  );
+}
+
+.cloud-layer--accent {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgb(180 130 70 / 0.08) 35%,
+    rgb(212 175 55 / 0.1) 55%,
+    transparent 100%
+  );
+}
+
+.fog-overlay {
+  z-index: 0;
+}
+
+@keyframes heroFloat {
+  0%,
+  100% {
+    transform: rotateY(-4deg) rotateX(2deg) translateY(0);
+  }
+  50% {
+    transform: rotateY(-4deg) rotateX(2deg) translateY(-8px);
+  }
+}
+
+@keyframes heroFloatDesktop {
+  0%,
+  100% {
+    transform: rotateY(-10deg) rotateX(3deg) translateY(0);
+  }
+  50% {
+    transform: rotateY(-10deg) rotateX(3deg) translateY(-10px);
+  }
+}
+
+@keyframes lightSweep {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.55;
+  }
+  50% {
+    transform: translateX(120%) skewX(-18deg);
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateX(120%) skewX(-18deg);
+    opacity: 0;
+  }
+}
+
+@keyframes beltShine {
+  0%,
+  100% {
+    transform: translateX(-130%) skewX(-20deg);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.45;
+  }
+  60% {
+    transform: translateX(130%) skewX(-20deg);
+    opacity: 0.2;
+  }
+}
+
+@keyframes energyPulse {
+  0%,
+  100% {
+    opacity: 0.14;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes orbitSpinCentered {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes ambientFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .cloud-layer-wrap,
+  .fog-layer,
+  .fog-overlay {
+    display: none;
+  }
+}
+
+html.reduce-motion-override .cloud-layer-wrap,
+html.reduce-motion-override .fog-layer,
+html.reduce-motion-override .fog-overlay {
+  display: none;
+}

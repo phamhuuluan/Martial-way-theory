@@ -1,5 +1,6 @@
 'use client';
 
+import '@/styles/belt-showcase.css';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { BELT_RANKS } from '@/lib/belt-ranks';
 import { getBeltShowcaseAccent } from '@/lib/belt-showcase-accent';

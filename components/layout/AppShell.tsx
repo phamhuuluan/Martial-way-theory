@@ -1,12 +1,21 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { OfficialExamGuard } from '@/components/exam/OfficialExamGuard';
 import { BottomTabBar, SideRail } from '@/components/layout/Navigation';
-import { BeltCeremony } from '@/components/achievement/BeltCeremony';
-import { OnboardingModal } from '@/components/onboarding/OnboardingModal';
 import { StorageWarning } from '@/components/layout/StorageWarning';
+
+const OnboardingModal = dynamic(
+  () => import('@/components/onboarding/OnboardingModal').then((m) => m.OnboardingModal),
+  { ssr: false }
+);
+
+const BeltCeremony = dynamic(
+  () => import('@/components/achievement/BeltCeremony').then((m) => m.BeltCeremony),
+  { ssr: false }
+);
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();

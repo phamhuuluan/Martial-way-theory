@@ -1,0 +1,48 @@
+/* World artwork. Imported by the screen that uses these rules. */
+@layer utilities {
+  /* ── Cinematic world artwork ── */
+  .world-artwork__image {
+    will-change: transform;
+  }
+
+  .world-artwork__vignette {
+    background: radial-gradient(
+      ellipse 120% 100% at 50% 50%,
+      transparent 35%,
+      rgb(0 0 0 / 0.35) 100%
+    );
+  }
+
+  .world-artwork__grade--card {
+    background: linear-gradient(
+      90deg,
+      rgb(0 0 0 / 0.15) 0%,
+      transparent 55%
+    );
+  }
+
+  .world-artwork__grade--banner {
+    background: linear-gradient(
+      90deg,
+      rgb(10 12 16 / 0.15) 0%,
+      transparent 50%,
+      rgb(10 12 16 / 0.2) 100%
+    );
+  }
+
+  .world-artwork__grade--hero {
+    background: linear-gradient(
+      180deg,
+      rgb(0 0 0 / 0.15) 0%,
+      transparent 40%,
+      rgb(0 0 0 / 0.45) 100%
+    );
+  }
+
+  .world-artwork__grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 128px 128px;
+    mix-blend-mode: overlay;
+  }
+
+}

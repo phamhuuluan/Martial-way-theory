@@ -1,5 +1,6 @@
 'use client';
 
+import '@/styles/world-artwork.css';
 import Image from 'next/image';
 import type { BeltId } from '@/types';
 import { WORLD_ARTWORK } from '@/lib/constants';

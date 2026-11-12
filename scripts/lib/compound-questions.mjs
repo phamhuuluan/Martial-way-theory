@@ -88,7 +88,7 @@ export function splitAnswerForClauses(answer, clauses) {
 
   parts.push(current.join('\n').trim());
 
-  if (parts.length === clauses.length) return parts;
+  if (parts.length === clauses.length && parts.every((part) => part)) return parts;
 
   const labeledSplit = splitAnswerByLabeledSections(answer);
   if (labeledSplit && clauses.length === 2) {
@@ -129,7 +129,11 @@ export function splitAnswerForClauses(answer, clauses) {
     }
   }
 
-  return clauses.map((_, index) => parts[index] ?? answer);
+  return clauses.map((_, index) => parts[index] || '');
+}
+
+function answerKey(value) {
+  return normalizeForMatch(value);
 }
 
 function splitAnswerByLabeledSections(answer) {
@@ -268,12 +272,22 @@ export function splitCompoundSourceQuestion(sourceQ) {
     index === 0 ? clause : enrichShortClause(clause, clauses[0])
   );
   const answers = splitAnswerForClauses(sourceQ.answer, enrichedClauses);
+  const seenAnswers = new Set();
+  const splits = [];
 
-  return enrichedClauses.map((clause, index) => ({
-    ...sourceQ,
-    question: clause,
-    answer: answers[index] || sourceQ.answer,
-  }));
+  enrichedClauses.forEach((clause, index) => {
+    const answer = answers[index];
+    const key = answerKey(answer);
+    if (!key || seenAnswers.has(key)) return;
+    seenAnswers.add(key);
+    splits.push({
+      ...sourceQ,
+      question: clause,
+      answer,
+    });
+  });
+
+  return splits.length > 0 ? splits : [sourceQ];
 }
 
 export function splitCompoundSourceQuestions(parsedQuestions) {

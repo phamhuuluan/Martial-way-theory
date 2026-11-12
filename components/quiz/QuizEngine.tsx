@@ -3,10 +3,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { QuizData, QuizQuestion } from '@/types';
-import { QuizOption } from '@/components/quiz/QuizOption';
-import { QuizFillBlank } from '@/components/quiz/QuizFillBlank';
-import { QuizMatching } from '@/components/quiz/QuizMatching';
-import { QuizOrdering } from '@/components/quiz/QuizOrdering';
+import { ExamQuestion } from '@/components/exam/ExamQuestion';
 import { Button } from '@/components/ui/Button';
 import { ProgressBar } from '@/components/ui/Progress';
 import {
@@ -22,7 +19,6 @@ import {
   isOrderingQuestion,
   isTrueFalseQuestion,
   PARTIAL_CORRECT_MESSAGE,
-  TRUE_FALSE_OPTIONS,
   PARTIAL_REVIEW_MESSAGE,
   type QuizAnswer,
   type QuizResult,
@@ -122,60 +118,9 @@ export function QuizEngine({
     setShowFeedback(true);
   };
 
-  const handleToggleMultiple = (index: number) => {
-    if (showFeedback) return;
-    setSelectedIndices((prev) =>
-      prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]
-    );
-  };
-
   const handleConfirmMultiple = () => {
     if (showFeedback || selectedIndices.length === 0) return;
     setShowFeedback(true);
-  };
-
-  const handleFillSelect = (blankIndex: number, optionIndex: number) => {
-    if (showFeedback) return;
-    setFillAnswers((prev) => {
-      const next = [...prev];
-      const existingAt = next.indexOf(optionIndex);
-      if (existingAt >= 0) next[existingAt] = -1;
-      next[blankIndex] = optionIndex;
-      return next;
-    });
-  };
-
-  const handleFillRemove = (blankIndex: number) => {
-    if (showFeedback) return;
-    setFillAnswers((prev) => {
-      const next = [...prev];
-      next[blankIndex] = -1;
-      return next;
-    });
-  };
-
-  const handleMatchingSelect = (leftIndex: number, rightIndex: number) => {
-    if (showFeedback) return;
-    setMatchingAnswers((prev) => {
-      const next = [...prev];
-      if (rightIndex >= 0) {
-        const existingAt = next.indexOf(rightIndex);
-        if (existingAt >= 0) next[existingAt] = -1;
-      }
-      next[leftIndex] = rightIndex;
-      return next;
-    });
-  };
-
-  const handleMoveOrder = (position: number, direction: -1 | 1) => {
-    if (showFeedback) return;
-    setOrderAnswers((prev) => {
-      const next = [...prev];
-      const target = position + direction;
-      if (target < 0 || target >= next.length) return prev;
-      [next[position], next[target]] = [next[target], next[position]];
-      return next;
-    });
   };
 
   const buildCurrentAnswer = (): QuizAnswer | null => {
@@ -291,56 +236,6 @@ export function QuizEngine({
         });
       }
     }
-  };
-
-  const getTrueFalseState = (
-    question: QuizQuestion,
-    optionIndex: number
-  ): 'default' | 'correct' | 'incorrect' | 'reveal-correct' | 'missed-key' => {
-    if (!showFeedback) return 'default';
-
-    const expectedIndex = question.correctIndex;
-    if (typeof expectedIndex !== 'number') return 'default';
-    if (trueFalseIndex === null) return 'default';
-
-    if (optionIndex === expectedIndex) {
-      return trueFalseIndex === optionIndex ? 'correct' : 'reveal-correct';
-    }
-    if (optionIndex === trueFalseIndex) return 'incorrect';
-    return 'default';
-  };
-
-  const getOptionState = (
-    question: QuizQuestion,
-    optionIndex: number
-  ): 'default' | 'correct' | 'incorrect' | 'reveal-correct' | 'missed-key' => {
-    if (!showFeedback) return 'default';
-
-    if (isMultipleChoice(question)) {
-      const expected = question.correctIndices ?? [];
-      const isExpected = expected.includes(optionIndex);
-      const selected = selectedIndices.includes(optionIndex);
-      const evaluation = evaluateMultipleChoice(question, { selectedIndices });
-
-      if (isExpected && selected) return 'correct';
-      if (!isExpected && selected) return 'incorrect';
-
-      if (isExpected && !selected) {
-        return evaluation.level === 'partial' ? 'missed-key' : 'reveal-correct';
-      }
-
-      return 'default';
-    }
-
-    const expectedIndex = question.correctIndex;
-    if (typeof expectedIndex !== 'number') return 'default';
-
-    if (selectedIndex === null) return 'default';
-    if (optionIndex === expectedIndex) {
-      return selectedIndex === optionIndex ? 'correct' : 'reveal-correct';
-    }
-    if (optionIndex === selectedIndex) return 'incorrect';
-    return 'default';
   };
 
   const currentMultipleEvaluation =
@@ -566,93 +461,50 @@ export function QuizEngine({
   const renderQuestionBody = () => {
     if (!currentQuestion) return null;
 
-    if (isTrueFalseQuestion(currentQuestion)) {
-      const options = currentQuestion.options.length >= 2 ? currentQuestion.options : [...TRUE_FALSE_OPTIONS];
-      const order = currentQuestion.optionsOrder ?? options.map((_, i) => i);
-      return (
-        <div className="space-y-3 mb-8">
-          {order.map((originalIndex) => {
-            const option = options[originalIndex];
-            const i = originalIndex;
-            return (
-              <QuizOption
-                key={i}
-                label={option}
-                index={i}
-                selected={trueFalseIndex === i}
-                state={getTrueFalseState(currentQuestion, i)}
-                disabled={showFeedback}
-                onSelect={() => handleSelectTrueFalse(i)}
-              />
-            );
-          })}
-        </div>
-      );
-    }
-
-    if (isFillQuestion(currentQuestion)) {
-      return (
-        <QuizFillBlank
-          wordBank={currentQuestion.options}
-          optionsOrder={currentQuestion.optionsOrder}
-          blankCount={currentQuestion.blanks?.length ?? 0}
-          selectedByBlank={fillAnswers}
-          feedback={showFeedback}
-          correctBlanks={currentQuestion.blanks}
-          disabled={showFeedback}
-          onSelect={handleFillSelect}
-          onRemove={handleFillRemove}
-        />
-      );
-    }
-
-    if (isMatchingQuestion(currentQuestion)) {
-      return (
-        <QuizMatching
-          leftItems={currentQuestion.leftItems ?? []}
-          rightItems={currentQuestion.rightItems ?? []}
-          rightItemsOrder={currentQuestion.rightItemsOrder}
-          selectedByLeft={matchingAnswers}
-          correctPairs={currentQuestion.correctPairs}
-          feedback={showFeedback}
-          disabled={showFeedback}
-          onSelect={handleMatchingSelect}
-        />
-      );
-    }
-
-    if (isOrderingQuestion(currentQuestion)) {
-      return (
-        <QuizOrdering
-          items={currentQuestion.items ?? []}
-          order={orderAnswers}
-          correctOrder={currentQuestion.correctOrder}
-          feedback={showFeedback}
-          disabled={showFeedback}
-          onMove={handleMoveOrder}
-        />
-      );
-    }
+    const answer: QuizAnswer = {
+      questionId: currentQuestion.id,
+      selectedIndices,
+      fillAnswers,
+      matchingAnswers,
+      orderAnswers,
+      ...(selectedIndex !== null ? { selectedIndex } : {}),
+      ...(trueFalseIndex !== null ? { trueFalseIndex } : {}),
+    };
 
     return (
-      <div className="space-y-3 mb-8">
-        {(currentQuestion.optionsOrder ?? currentQuestion.options.map((_, idx) => idx)).map((originalIndex, displayIndex) => {
-          const option = currentQuestion.options[originalIndex];
-          const i = originalIndex;
-          return (
-          <QuizOption
-            key={i}
-            label={option}
-            index={i}
-            multiple={multiple}
-            selected={
-              multiple ? selectedIndices.includes(i) : selectedIndex === i
+      <div className="mb-8">
+        <ExamQuestion
+          question={currentQuestion}
+          answer={answer}
+          revealed={showFeedback}
+          disabled={showFeedback}
+          onChange={(next) => {
+            if (showFeedback) return;
+            if (isTrueFalseQuestion(currentQuestion) && typeof next.trueFalseIndex === 'number') {
+              handleSelectTrueFalse(next.trueFalseIndex);
+              return;
             }
-            state={getOptionState(currentQuestion, i)}
-            disabled={showFeedback}
-            onSelect={() => multiple ? handleToggleMultiple(i) : handleSelectSingle(i)}
-          />
-        );})}
+            if (isMultipleChoice(currentQuestion) && next.selectedIndices) {
+              setSelectedIndices(next.selectedIndices);
+              return;
+            }
+            if (isFillQuestion(currentQuestion) && next.fillAnswers) {
+              setFillAnswers(next.fillAnswers);
+              return;
+            }
+            if (isMatchingQuestion(currentQuestion) && next.matchingAnswers) {
+              setMatchingAnswers(next.matchingAnswers);
+              return;
+            }
+            if (isOrderingQuestion(currentQuestion) && next.orderAnswers) {
+              setOrderAnswers(next.orderAnswers);
+              return;
+            }
+            if (typeof next.selectedIndex === 'number') {
+              handleSelectSingle(next.selectedIndex);
+            }
+          }}
+        />
       </div>
     );
   };

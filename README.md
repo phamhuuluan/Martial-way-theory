@@ -4,13 +4,13 @@ Website học lý thuyết Phật Quang Quyền (PQQ Theory Journey): hành trì
 
 ## Tech Stack
 
-- **Next.js 15** (App Router, SSG)
+- **Next.js 15** (App Router, static export)
 - **TypeScript**
 - **Tailwind CSS 4**
 - **MDX** (`next-mdx-remote`)
 - **Framer Motion**
 - **Zustand** (progress state)
-- **React Hook Form + Zod** (onboarding, profile)
+- **Zod** (onboarding, profile)
 - **localStorage** (MVP persistence)
 
 ## Quick Start
@@ -83,7 +83,7 @@ Output:
 2. Import project in [Vercel](https://vercel.com)
 3. Framework preset: **Next.js**
 4. Build command: `npm run build`
-5. Output: default (Next.js — no static export needed)
+5. Output: static export (`out/`, from `output: 'export'`)
 6. Set environment variables from `.env.example`
 7. Deploy
 

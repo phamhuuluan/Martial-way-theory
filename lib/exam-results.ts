@@ -335,7 +335,19 @@ export function postExamResultBeacon(record: ExamResultRecord): void {
 export async function postExamResult(record: ExamResultRecord): Promise<void> {
   const url = requireUrl();
   await postExamResultForm(url, record);
-  const results = await fetchExamResults();
+
+  const saved = await fetchExamAttemptData(record.id);
+  if (saved) return;
+
+  const submitted = Date.parse(record.submittedAt);
+  const results = await fetchExamResults(
+    Number.isFinite(submitted)
+      ? {
+          from: new Date(submitted - 60_000).toISOString(),
+          to: new Date(submitted + 24 * 60 * 60 * 1000).toISOString(),
+        }
+      : undefined
+  );
   if (!results.some((row) => row.id === record.id)) {
     throw new Error(SAVE_ERROR);
   }

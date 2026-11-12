@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { DocumentsPageClient } from '@/components/profile/DocumentsPageClient';
+import { DocumentsPageClient } from '@/components/documents/DocumentsPageClient';
 
 export const metadata: Metadata = {
   title: 'Tổng Hợp Tài Liệu',

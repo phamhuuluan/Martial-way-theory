@@ -47,6 +47,18 @@ describe('splitCompoundSourceQuestion', () => {
     expect(splits[1].answer).toContain('Thượng đài dễ');
   });
 
+  it('does not repeat one answer across clauses that cannot be split', () => {
+    const sourceQ = {
+      number: 17,
+      question: 'Đức Phật xuất gia ở đâu? thời gian nào? ai đưa người đi?',
+      answer: 'Nơi xuất gia: bờ sông A Nô Ma, Ca Tỳ La Vệ.',
+    };
+
+    const splits = splitCompoundSourceQuestion(sourceQ);
+    expect(splits).toHaveLength(1);
+    expect(splits[0].answer).toContain('A Nô Ma');
+  });
+
   it('leaves single-intent questions unchanged', () => {
     const sourceQ = {
       number: 1,

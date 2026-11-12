@@ -47,11 +47,11 @@ describe('exam result ranges', () => {
       from: '2026-09-30T17:00:00.000Z',
       to: '2026-10-31T17:00:00.000Z',
     });
-    expect(examResultRange('lastMonth', NOW, ZONE)).toEqual({
+    expect(examResultRange('selectMonth', NOW, ZONE, '2026-09')).toEqual({
       from: '2026-08-31T17:00:00.000Z',
       to: '2026-09-30T17:00:00.000Z',
     });
-    expect(examResultRange('thisYear', NOW, ZONE)).toEqual({
+    expect(examResultRange('selectMonth', NOW, ZONE)).toEqual({
       from: '2025-12-31T17:00:00.000Z',
       to: '2026-12-31T17:00:00.000Z',
     });
@@ -116,39 +116,39 @@ describe('exam result grouping', () => {
     }),
   ];
 
-  it('groups by local submitted day, then by name and club', () => {
+  it('groups by exam session, then by name and club', () => {
     const view = buildExamResultView(rows, { preset: 'all', query: '', now: NOW, timeZone: ZONE });
 
-    expect(view.days.map((day) => day.label)).toEqual([
-      'Hôm nay — 01/10/2026',
-      '30/09/2026',
-      'Không rõ ngày',
-    ]);
+    expect(view.sessions.map((session) => session.label)).toEqual(['Luyện tập / Không có kỳ thi']);
 
-    const today = view.days[0];
-    expect(today?.people.map((person) => `${person.fullName} · ${person.clubLabel}`)).toEqual([
+    const people = view.sessions[0]?.people ?? [];
+    expect(people.map((person) => `${person.fullName} · ${person.clubLabel}`)).toEqual([
+      'Lỗi ngày · Chưa có CLB',
       'Trần Văn B · Chưa có CLB',
       'Nguyễn Văn A · CLB Thái Minh',
       'Nguyễn Văn A · CLB Hà Nội',
       'luan · Võ đường Thắng Quang',
+      'Nguyễn Văn C · CLB X',
     ]);
-    expect(today?.people[0]?.clubLabel).toBe(MISSING_CLUB_LABEL);
-    expect(today?.people[3]?.attemptCount).toBe(2);
-    expect(today?.people[3]?.attempts.map((attempt) => attempt.id)).toEqual(['today-2', 'today-1']);
-    expect(view.days[1]?.people.map((person) => person.fullName)).toEqual(['Nguyễn Văn C']);
+    expect(people[1]?.clubLabel).toBe(MISSING_CLUB_LABEL);
+    expect(people[4]?.attemptCount).toBe(2);
+    expect(people[4]?.attempts.map((attempt) => attempt.id)).toEqual(['today-2', 'today-1']);
   });
 
   it('filters only on submittedAt', () => {
     const view = buildExamResultView(rows, {
-      preset: 'lastMonth',
+      preset: 'selectMonth',
+      selectedMonth: '2026-09',
       query: '',
       now: NOW,
       timeZone: ZONE,
     });
 
-    expect(view.days.flatMap((day) => day.people.flatMap((person) => person.attempts.map((row) => row.id)))).toEqual([
-      'late-sep',
-    ]);
+    expect(
+      view.sessions.flatMap((session) =>
+        session.people.flatMap((person) => person.attempts.map((row) => row.id))
+      )
+    ).toEqual(['late-sep']);
   });
 
   it('searches name, birth date, student code, club, dojo, coach, and paper on the fetched rows', () => {
@@ -159,8 +159,8 @@ describe('exam result grouping', () => {
       timeZone: ZONE,
     });
     expect(byCode.matchCount).toBe(1);
-    expect(byCode.days[0]?.people[0]?.fullName).toBe('Nguyễn Văn A');
-    expect(byCode.days[0]?.people[0]?.clubLabel).toBe('CLB Thái Minh');
+    expect(byCode.sessions[0]?.people[0]?.fullName).toBe('Nguyễn Văn A');
+    expect(byCode.sessions[0]?.people[0]?.clubLabel).toBe('CLB Thái Minh');
 
     const byPaper = buildExamResultView(rows, {
       preset: 'today',
@@ -168,7 +168,7 @@ describe('exam result grouping', () => {
       now: NOW,
       timeZone: ZONE,
     });
-    expect(byPaper.days[0]?.people[0]?.attempts.map((row) => row.id)).toEqual(['today-1']);
+    expect(byPaper.sessions[0]?.people[0]?.attempts.map((row) => row.id)).toEqual(['today-1']);
 
     const byDojo = buildExamResultView(rows, {
       preset: 'all',
@@ -176,7 +176,7 @@ describe('exam result grouping', () => {
       now: NOW,
       timeZone: ZONE,
     });
-    expect(byDojo.days[0]?.people[0]?.fullName).toBe('Trần Văn B');
+    expect(byDojo.sessions[0]?.people[0]?.fullName).toBe('Trần Văn B');
 
     const byCoach = buildExamResultView(rows, {
       preset: 'all',
@@ -184,7 +184,7 @@ describe('exam result grouping', () => {
       now: NOW,
       timeZone: ZONE,
     });
-    expect(byCoach.days[0]?.people[0]?.attempts.map((row) => row.id)).toEqual(['thai-minh']);
+    expect(byCoach.sessions[0]?.people[0]?.attempts.map((row) => row.id)).toEqual(['thai-minh']);
 
     const byBirthDate = buildExamResultView(rows, {
       preset: 'all',
@@ -192,7 +192,7 @@ describe('exam result grouping', () => {
       now: NOW,
       timeZone: ZONE,
     });
-    expect(byBirthDate.days[0]?.people[0]?.attempts.map((row) => row.id)).toEqual(['thai-minh']);
+    expect(byBirthDate.sessions[0]?.people[0]?.attempts.map((row) => row.id)).toEqual(['thai-minh']);
   });
 });
 

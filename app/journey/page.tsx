@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import '@/styles/journey.css';
 import { JourneyMap } from '@/components/journey/JourneyMap';
 import { JourneySummaryStrip } from '@/components/journey/JourneySummaryStrip';
 import { CloudLayer } from '@/components/animation/CloudLayer';

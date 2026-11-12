@@ -1,6 +1,12 @@
 'use client';
 
+import '@/styles/atmosphere.css';
+import { useAppReducedMotion } from '@/hooks/use-app-reduced-motion';
+
 export function CloudLayer() {
+  const reduced = useAppReducedMotion();
+  if (reduced) return null;
+
   return (
     <div className="cloud-layer-wrap pointer-events-none absolute inset-0 overflow-hidden">
       <div
